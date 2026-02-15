@@ -2,3 +2,6 @@
 config.generated.js
 node_modules/
 *.log
+
+# Generated data (dialogs, profiles)
+data/

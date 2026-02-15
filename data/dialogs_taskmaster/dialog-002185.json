@@ -1,0 +1,146 @@
+{
+  "dialog_id": 2185,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2185"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "hello I'm looking for an economic auto repair service"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which is why I see you are a couple?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, we are"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I need to know what he wants to do to the car"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to enhance the air conditioning"
+    },
+    {
+      "speaker": "cashier",
+      "text": "that will come at a cost of 100"
+    },
+    {
+      "speaker": "client",
+      "text": "I find it economical"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It is the cheapest place you will find in the city"
+    },
+    {
+      "speaker": "client",
+      "text": "and what quality"
+    },
+    {
+      "speaker": "cashier",
+      "text": "it's very good"
+    },
+    {
+      "speaker": "client",
+      "text": "really"
+    },
+    {
+      "speaker": "cashier",
+      "text": "We guarantee a job well done"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll wait"
+    },
+    {
+      "speaker": "cashier",
+      "text": "If you are not happy with your money back"
+    },
+    {
+      "speaker": "client",
+      "text": "when they are available"
+    },
+    {
+      "speaker": "cashier",
+      "text": "for Monday of the coming week"
+    },
+    {
+      "speaker": "client",
+      "text": "what time can I take the car"
+    },
+    {
+      "speaker": "cashier",
+      "text": "early in the morning"
+    },
+    {
+      "speaker": "client",
+      "text": "and even when it will be ready"
+    },
+    {
+      "speaker": "cashier",
+      "text": "for Tuesday morning"
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds good to me"
+    },
+    {
+      "speaker": "cashier",
+      "text": "we know that there are people who need their ato as soon as possible"
+    },
+    {
+      "speaker": "client",
+      "text": "you're right and I am one of themyou're right and I am one of them"
+    },
+    {
+      "speaker": "cashier",
+      "text": "We guarantee you will be ready"
+    },
+    {
+      "speaker": "client",
+      "text": "we will see you that day"
+    },
+    {
+      "speaker": "cashier",
+      "text": "We will wait for it"
+    },
+    {
+      "speaker": "client",
+      "text": "I think they do a good job"
+    },
+    {
+      "speaker": "cashier",
+      "text": "thank you very much sir"
+    },
+    {
+      "speaker": "client",
+      "text": "see you later"
+    },
+    {
+      "speaker": "cashier",
+      "text": "we are at your service"
+    }
+  ],
+  "final_order": {
+    "items": [],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-6cfa7076-65fc-4639-b238-2914bcc392d5",
+  "created_at": "2026-02-15T15:44:17.153Z"
+}

@@ -1,0 +1,132 @@
+{
+  "dialog_id": 61,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=61"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there."
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. How are you doing today?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "very well, thanks for asking."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I was actually looking to order a pizza from this new pizzeria called Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing. what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Well first off, I would like two pizzas, both of them small. On one of them, I would want meat lover's without Canadian bacon, but everything else, and then the other one, half pepperoni, half cheese. And I would like both of them to be thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "SO that's 2 small pizzas, one meatlovers, no canadian bacon, one half pepperoni half cheese both thin crust right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Exactly. That's right."
+    },
+    {
+      "speaker": "client",
+      "text": "And just to make sure this is Bella Luna, correct?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Correct! Great. Your total is $30.84 and it'll be ready in 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "30 minutes? Okay, wonderful. Appreciate it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "no problem, enjoy."
+    },
+    {
+      "speaker": "client",
+      "text": "You have a good day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you too."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lover's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "without Canadian bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "half pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "half cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meatlovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "no canadian bacon",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-085e645b-3cca-46cb-a334-c8c3c478ca29",
+  "created_at": "2026-02-15T15:44:16.895Z"
+}

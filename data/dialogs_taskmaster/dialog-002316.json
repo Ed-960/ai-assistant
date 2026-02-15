@@ -1,0 +1,160 @@
+{
+  "dialog_id": 2316,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2316"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey Lisa."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hey boss. What's up?"
+    },
+    {
+      "speaker": "client",
+      "text": "Needing me some Starbucks..."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Copy that. Which location?"
+    },
+    {
+      "speaker": "client",
+      "text": "Downtown Springfield, or somewhere on the west side would also be fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You got it.  Know what you want sir?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm undecided."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Well you know, I'm a sucker for the Cinnamon Dolce Latte."
+    },
+    {
+      "speaker": "client",
+      "text": "I don't like Cinammon. In. My. Coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. What about a Mocha?"
+    },
+    {
+      "speaker": "client",
+      "text": "Maybe. Throw something at me."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Black and White, Caffe, Cherry, or...?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm actually thinking lighter this morning."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Back on your diet?"
+    },
+    {
+      "speaker": "client",
+      "text": "Not really. Just not wanting to load up on coffee, if I decide to eat danish."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Gotcha. So what are you thinking then?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm actually thinking a Latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, how about a Chestnut Praline Latte?"
+    },
+    {
+      "speaker": "client",
+      "text": "Actually, I am in the mood for the Caramel Brulee Latte. Large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You got it. Will be available at the James River West Campus drive thru in 15 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Great! Thanks. See you at the office in about a half."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ciao. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cinnamon Dolce Latte.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "I don't lik",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Black and White, Caffe, Cherry, or...?",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "I'm actually thinking lighter this morning",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caramel Brulee Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caramel Brulee Latte.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "You got it.",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-8e906ca2-fac5-4123-bf1d-ffa677f46bdb",
+  "created_at": "2026-02-15T15:44:17.169Z"
+}

@@ -1,0 +1,127 @@
+{
+  "dialog_id": 2063,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2063"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey can you help me order some pizzas from Papa Johns?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, the one near us?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes of course."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What do you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "We'll do that 2 large pizza special with them, one pepperoni and one chicken bbq."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else with that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah let's get two orders of bread sticks, one 2 liter bottle of coke and one 2 liter bottle of coke zero."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK great, let me find out the total for all of that."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It's going to come to $31.24 for everything, will this be for pickup?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah pick up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "They will be ready for pickup in 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "OK."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How do you want to pay?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll use my credit card, they should have it on file."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK done. They will send a receipt to your phone and the pizzas will be ready in 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you, can you go pick it up yourself?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes of course."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome, thanks! See you in a bit."
+    },
+    {
+      "speaker": "cashier",
+      "text": "See you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Papa Johns",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken bbq",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-4f42951a-8220-4e02-a7e4-18966f0de9ab",
+  "created_at": "2026-02-15T15:44:17.139Z"
+}

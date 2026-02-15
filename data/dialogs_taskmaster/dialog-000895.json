@@ -1,0 +1,162 @@
+{
+  "dialog_id": 895,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=895"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Yes. Hello?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "How can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. I want to drink coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay what kind of coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "Cappuccino."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size cappuccino?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay so is that from starbucks?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great and did you want any milk or additional items?"
+    },
+    {
+      "speaker": "client",
+      "text": "including."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay so that's a cappuccino with milk and honey, no sugar right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Is late."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great one moment."
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "client",
+      "text": "Please 1 second repeat."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order is a cappuccino with milk and honey instead of sugar right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Right."
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great and which starbucks would you like it with?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The one on State street?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You want your order sent to State Street right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hello."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hello."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Where should I send your order to?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm not understanding you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OKay so that's a grande cappuccino with milk and honey, no sugar at the starbucks on state street. It'll be ready in 15 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's correct. Okay, thank you. Okay, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-7b15d411-56e8-49c0-96de-248586cabf30",
+  "created_at": "2026-02-15T15:44:16.988Z"
+}

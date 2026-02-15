@@ -1,0 +1,122 @@
+{
+  "dialog_id": 1949,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1949"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, can you stop by Peet's Coffee on Foothill boulevard in Pasadena."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, what do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "A latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You want them to do anything special to it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Make it a vanilla latte, and make sure it's decaf."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, sure."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nah, I'm good. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I'll go out and grab that for you in a bit. "
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks, pick yourself up something too while you're at it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, thanks a lot."
+    },
+    {
+      "speaker": "client",
+      "text": "No problem."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Wait, where did you say the Peet's Coffee was again?"
+    },
+    {
+      "speaker": "client",
+      "text": "On Foothill blvd."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What city?"
+    },
+    {
+      "speaker": "client",
+      "text": "Pasadena."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, sorry, just had to put it into maps. The order is in and I'll be heading your way in a bit."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright, I'll see you soon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "A latte.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "vanilla latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-320db471-7a28-4fcb-8493-e39226e74690",
+  "created_at": "2026-02-15T15:44:17.123Z"
+}

@@ -1,0 +1,167 @@
+{
+  "dialog_id": 2032,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2032"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I want to place a coffee order at Starbucks for pickup."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, at which Starbucks location should I place the order?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Starbucks located on Kings Highway in Brooklyn, NY."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a Caramel Brulee Latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "A grande and please have them use almond milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Would you like to add whipped cream to your coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have down a grande Caramel Brulee Latte with almond milk and no whipped cream. Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Actually I think I want to try a Cherry Mocha instead."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Should I cancel the original order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, cancel the Caramel Brulee and instead order me a grande Cherry Mocha with almond milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it, any whipped cream on top?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like to add anything else before I place the order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I add an 8 grain roll to my order?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm sorry, it seems to be out of stock. "
+    },
+    {
+      "speaker": "client",
+      "text": "That's too bad, what about a blueberry scone?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, blueberry scones are available. Should I add it to your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please add two."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. Anything else to add to your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "No that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Placing an order at Starbucks located at Kings Highway for a grande Cherry Mocha with almond milk and no whipped cream and two blueberry scones."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order has been placed. A receipt has been sent to your phone via text message. Can I do anything else for you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "How long will it take to be ready?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order will be available in about 15 minutes. Can I do anything else for you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's it, thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you. Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caramel Brulee Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cherry Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caramel Brulee",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-469d540a-0181-4bc6-9a0b-0b91fd1af318",
+  "created_at": "2026-02-15T15:44:17.135Z"
+}

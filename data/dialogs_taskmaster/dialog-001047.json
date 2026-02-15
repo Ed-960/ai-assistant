@@ -1,0 +1,127 @@
+{
+  "dialog_id": 1047,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1047"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I need to order three large thin crust pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, which toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like all of them meat lovers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, any other special instruction?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that will be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so 3 large meatlovers with thick crust?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "client",
+      "text": "with thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, let me correct that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your total is $43."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be ready for pickup at bela luna's soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome, bye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meatlovers with",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bela luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-93e95a98-d38a-401d-8487-f6ffd0ac72be",
+  "created_at": "2026-02-15T15:44:17.004Z"
+}

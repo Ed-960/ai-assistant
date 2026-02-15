@@ -1,0 +1,141 @@
+{
+  "dialog_id": 1768,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1768"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Zoe, can you please pick me up coffee?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which store?"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "What address?"
+    },
+    {
+      "speaker": "client",
+      "text": "1546 North 9th Street Broken Arrow, OK 74012"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm thinking a Frappuccino."
+    },
+    {
+      "speaker": "cashier",
+      "text": "There are a lot of options, what kind would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Chai Crème Frappuccino® Blended Crème"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Whole milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And what about whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, extra please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, one Chai Crème Frappuccino® Blended Crème, grande, whole milk, and extra whipped cream."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have it ordered."
+    },
+    {
+      "speaker": "client",
+      "text": "When can I pick it up?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "15 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Frappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Chai Crème Frappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Chai Crème Frappuccino® Blended Crème",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-063759ca-6641-4db0-8bb9-8fb63dad92f3",
+  "created_at": "2026-02-15T15:44:17.095Z"
+}

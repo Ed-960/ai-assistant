@@ -1,0 +1,156 @@
+{
+  "dialog_id": 2126,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2126"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello assistant I need to order a few pizzas for a party."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright. Where do you want to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I think that Jet's pizza has a special, I have a coupon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you have the coupon code?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes it's Pizza16."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Perfect. Ok what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need 3 large pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok."
+    },
+    {
+      "speaker": "client",
+      "text": "Pizza 1 should have pepperoni on it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok."
+    },
+    {
+      "speaker": "client",
+      "text": "Pizza 2 should have chicken and BBQ."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It looks like they're out of that one."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh no. Ok. Let's do canadian bacon on that one then."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it."
+    },
+    {
+      "speaker": "client",
+      "text": "And the last one, it should be spinach and artichoke."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Good. I'll put it on your card and email you the receipt."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It will be ready for pickup in half an hour."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. It's the one on green?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "That's the one."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Jet's pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "BBQ",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "canadian bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "spinach",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "artichoke",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "green",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-5f6fa53d-5ddc-455e-b8e4-2d0a3f5e6d6e",
+  "created_at": "2026-02-15T15:44:17.146Z"
+}

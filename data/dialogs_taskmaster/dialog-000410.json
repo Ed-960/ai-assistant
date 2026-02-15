@@ -1,0 +1,167 @@
+{
+  "dialog_id": 410,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=410"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, can I order pizza from Bella Luna's, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order two small pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what toppings would you like for your pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "Montonis, can I get a meat lover's pizza? And the second one, can I get"
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "client",
+      "text": "Supreme Pizza?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like pick-up, delivery or dine-in?"
+    },
+    {
+      "speaker": "client",
+      "text": "The pickup, please."
+    },
+    {
+      "speaker": "client",
+      "text": "Can you make those pizzas thin-crust too? Sorry."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let me add that to the order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your total will be $28."
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i'll order that for you, one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and you said you wanted pick up?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your receipt will be texted to you and your pizzas will be ready in 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Can you repeat that order for me, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, i have ordered you 2 small thin crust pizzas, 1 meat lovers and 1 supreme."
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, can i help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's about it. Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lover's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Supreme Pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin-crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "supreme",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-3a92528c-06c5-4552-84af-4c9df052789f",
+  "created_at": "2026-02-15T15:44:16.936Z"
+}

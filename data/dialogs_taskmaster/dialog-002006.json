@@ -1,0 +1,157 @@
+{
+  "dialog_id": 2006,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2006"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey Deb, I have a taste for Starbucks today. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh great! Would you like me to pick up something for you? "
+    },
+    {
+      "speaker": "client",
+      "text": "Would you mind?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No, not all. What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let me think... so many flavors."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, I agree. I've tried many flavors."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh great! I've only had one or two different flavors."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Although I've tried many, I only have a few favorites."
+    },
+    {
+      "speaker": "client",
+      "text": "Would like to have a drink on me today?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh no, that's okay."
+    },
+    {
+      "speaker": "client",
+      "text": "No, it's my pleasure. Please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, thanks."
+    },
+    {
+      "speaker": "client",
+      "text": "Great! I'm not sure if I want hot or cold today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I think I'll have cold since I had hot yesterday."
+    },
+    {
+      "speaker": "client",
+      "text": "I would say both but I don't it would be a good idea today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're right about that.... way too much sugar. "
+    },
+    {
+      "speaker": "client",
+      "text": "I think I would like a large Cappuccino"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, how would you like it?"
+    },
+    {
+      "speaker": "client",
+      "text": "A shot of espresso topped with a deep layer of foamed milk"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would like any extra sweetener"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I have a few packets of sugar."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, is that all you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Actually I think I'll have some iced lemon loaf cake and a cinnamon raisin bagel."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Really? Lol"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, ma'am. I'll take one home."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, maybe I'll get a bagel also."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, get it if you want. Okay, where are you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm downtown already so I'll stop at Starbucks on 4th & Wisconsin Ave."
+    },
+    {
+      "speaker": "client",
+      "text": "Great! It's almost no waiting at that store. I love it there. See you soon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! I'm walking in the door and I should be there shortly."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cappuccino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-40316f28-5ba8-4369-b88b-fd4746d858b8",
+  "created_at": "2026-02-15T15:44:17.132Z"
+}

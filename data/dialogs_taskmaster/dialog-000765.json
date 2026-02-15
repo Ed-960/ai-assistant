@@ -1,0 +1,125 @@
+{
+  "dialog_id": 765,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=765"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi there, how can i help you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I would like to order two medium chicken BBQ and crust pizzas from Belarina."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, did you need anything else in that order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get a light sauce?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get a light sauce?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sorry, could you repeat that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Could I get light pizza sauce?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "so you said you would like 2 medium chicken bbq thin crust pizzas and white pizza sauce."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "pefect, the total will be $28."
+    },
+    {
+      "speaker": "cashier",
+      "text": "should i place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. The order has been placed. It'll be ready for pick up in 25 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that will be all. Goodbye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome, good bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken BBQ",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Belarina",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "light sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "you repeat that?",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "?",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-6b8235bd-65fa-4e71-b6bd-d6d658684d50",
+  "created_at": "2026-02-15T15:44:16.974Z"
+}

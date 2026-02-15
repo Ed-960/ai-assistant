@@ -1,0 +1,140 @@
+{
+  "dialog_id": 2203,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2203"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I really feel like a latte from Starbucks. Can you pick one up for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm not sure, I feel like something sweet. Maybe a Caramel Brulee Latte?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh I've had that, you'll really like it. It's sweet and the caramel has a really nice flavor. What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like a Grande size, I really need the caffeine for that meeting this afternoon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. What type of milk would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I think I'd like skim milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, skim milk it is. Do you want the whipped cream on it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Maybe a little bit, can you ask them to just put a dab on it?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will. Do you want it hot or iced?"
+    },
+    {
+      "speaker": "client",
+      "text": "I's like it hot, it's too cold out for an iced drink!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "That's true. Do you want an extra espresso shot added to it?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I think what they normally use will be fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Do you want any extra sweetener added?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, no other sugar besides the flavor syrup they put in it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I think they put some kind of sugar sprinkles on top of the drink, do you want those added?"
+    },
+    {
+      "speaker": "client",
+      "text": "Actually, yes, have them leave those, they seem like they would be fun."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I think so too! Do you need anything else? Are you sure the skim milk is fine? They also have almond milk as an option."
+    },
+    {
+      "speaker": "client",
+      "text": "No I like skim in the drinks, the almond milk doesn't taste quite right to me in the drinks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. If they're out of the syrups for that drink, do you have a back up drink you'd like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Sure, just a Grande Vanilla hot latte with skim would be fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. I'll be back as soon as I can. I'll order on the app and then the wait will be less."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caramel Brulee Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caffeine",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Vanilla hot latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-71622d7c-61c4-447d-abc4-e081c1aa7f54",
+  "created_at": "2026-02-15T15:44:17.155Z"
+}

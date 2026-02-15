@@ -1,0 +1,135 @@
+{
+  "dialog_id": 2710,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2710"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi assistant, can you get a starbucks order ready for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Certainly, what starbucks are you picking up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll be going by the Starbucks on Richmond road in Lexington Kentucky."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. I just wanted to warn you that location closes at 11PM and it is currently 10:37. Is this okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's more than fine. I'm 5 minutes away now."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Excellent, so what were you wanting to put on that order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Could you get a chestnut praline latte started please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course, what size would you like that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Venti, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "One venti chestnut praline latte coming up! What kind of milk do you want in that?"
+    },
+    {
+      "speaker": "client",
+      "text": "2% will be fine, thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it, would you like to add any extra syrups or whipped cream to that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Ooh yes. Add caramel syrup please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Can do. do you want that hot or iced?"
+    },
+    {
+      "speaker": "client",
+      "text": "Iced, please!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, so thats a iced venti chestnut praline latte with 2% milk and caramel syrup. Is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep! Sounds good to me."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds good, did you want to add anything else to this order?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I've put that order in for you now. It should be ready at Richmond Road in 10 minutes. I'm sending a receipt to your mobile device through text now. Is there anything else I can do for you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's all, thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, have a good night. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "chestnut praline latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "One",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-fbb0990c-36a8-43a8-a562-f9ce0eac2f70",
+  "created_at": "2026-02-15T15:44:17.214Z"
+}

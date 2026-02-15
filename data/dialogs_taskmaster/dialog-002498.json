@@ -1,0 +1,132 @@
+{
+  "dialog_id": 2498,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2498"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Can you order me a coffee from Peets please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, where would you like them to pick you up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "16501 SE Mill Plain Blvd, Vancouver, WA please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, no problem. What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a medium almond mild Caramel Macchiato please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay great! "
+    },
+    {
+      "speaker": "client",
+      "text": "Oh can you have them do that half sweet please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, so you want a medium, half sweet, almond milk caramel macchiato?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds good. I will get that ordered right away."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And you will be picking it up at from the Mill Plain location?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. "
+    },
+    {
+      "speaker": "client",
+      "text": "Great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is there anything else I can get for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thank you not at this time."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay great. That will be ready for pick up shortly."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much. Have a nice day. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "You too."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "almond mild Caramel Macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caramel Macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "almond milk caramel macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caramel macchiato",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-bdfddb91-e13d-46f3-ba1d-92c79660fd47",
+  "created_at": "2026-02-15T15:44:17.190Z"
+}

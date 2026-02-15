@@ -1,0 +1,144 @@
+{
+  "dialog_id": 153,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=153"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "What are we doing today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Good afternoon. I was looking to place a pick-up order from Bella Luna, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay great, how many pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "Two pizzas for me today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay and what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Large, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "wonderful. Did you have toppings in mind already?"
+    },
+    {
+      "speaker": "client",
+      "text": "Do you guys offer a vegetarian pizza?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes they do! It has bell peppers, mushrooms and olives."
+    },
+    {
+      "speaker": "client",
+      "text": "That sound divine, I'll take a I'll take two large vegetarian pizzas, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great choice, anything else with your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can we make sure that both pizzas have extra cheese, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's two large vegetarian pizzas with extra cheese, right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, that will cost $44.50."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order will be ready for pickup in half an hour, enjoy the pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you now."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "vegetarian pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bell peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "vegetarian pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-14386919-50c6-447c-ace5-57a79224c275",
+  "created_at": "2026-02-15T15:44:16.907Z"
+}

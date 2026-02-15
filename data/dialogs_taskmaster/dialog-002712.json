@@ -1,0 +1,122 @@
+{
+  "dialog_id": 2712,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2712"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like to place a coffe order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Where do you want the order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, which location?"
+    },
+    {
+      "speaker": "client",
+      "text": "96 and Madison in Manhattan."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what would you like to drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "A Blonde Cinnamon Cloud Macchiato."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Tall."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Soy."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, a tall Blonde Cinnamon Cloud Macchiato with soy."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The order is in the system and will be ready in a few minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. You will get a receipt by text."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're very welcome."
+    },
+    {
+      "speaker": "client",
+      "text": "Have a good day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thanks, you too."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Blonde Cinnamon Cloud Macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-fc44e69a-3508-4859-8617-db6d4c19ae82",
+  "created_at": "2026-02-15T15:44:17.214Z"
+}

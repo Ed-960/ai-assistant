@@ -1,0 +1,145 @@
+{
+  "dialog_id": 196,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=196"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "HI there, what Can I do for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like to order a pizza from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure! what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "two medium pepperoni and bacon pizzas with thick crust."
+    },
+    {
+      "speaker": "client",
+      "text": "And that'll be it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure! one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I got, 2 Medium pizzas with pepperoni and bacon on thick crust."
+    },
+    {
+      "speaker": "client",
+      "text": "Yep."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that will be it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, one moment while I get the total."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The total will be $27.88."
+    },
+    {
+      "speaker": "client",
+      "text": "All right, sounds great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Let me send your order over to Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "one moment please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, Your order has been sent to Bella Luna."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're very welcome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It should be ready for pickup in 25 min."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great day!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Medium",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-19359cea-9ed3-479e-ba39-a100e358f0fd",
+  "created_at": "2026-02-15T15:44:16.912Z"
+}

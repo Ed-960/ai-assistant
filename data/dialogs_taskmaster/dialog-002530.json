@@ -1,0 +1,127 @@
+{
+  "dialog_id": 2530,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2530"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I am thirsty. I would like to have a coffee from Starbucks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok which Starbucks would you like to order from? "
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to pick up my coffee from the Starbucks on Grindstone Parkway"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, the Starbucks Location on Grindstone Parkway in Columbia, MO"
+    },
+    {
+      "speaker": "client",
+      "text": "yes that is correct"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like for me to order for you"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to try the Iced Starbucks Blonde Black and White Mocha"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size would you like? "
+    },
+    {
+      "speaker": "client",
+      "text": "I would like the biggest one available"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok that would be a Venti, what type of milk would you prefer?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like almond milk please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok and would you like whipped cream or any other toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes whipped cream"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok I am going to order a Venti Blonde Black and White Mocha with almond milk and whipped cream"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct, oh and can you have them add an extra pump of white mocha"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes I can do that, do you have any other special requests? "
+    },
+    {
+      "speaker": "client",
+      "text": "No that is all"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok I have a Venti Blonde Black and White Mocha with almond milk and whipped cream and an extra pump of white mocha"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok I will order that for you at the Starbucks on Grindstone Parkway in Columbia, MO"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Iced Starbucks Blonde Black and White Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "biggest",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Blonde Black and White Mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-c892e7b2-10f3-4c46-8bdb-a6c346813733",
+  "created_at": "2026-02-15T15:44:17.194Z"
+}

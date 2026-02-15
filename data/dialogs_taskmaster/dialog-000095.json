@@ -1,0 +1,206 @@
+{
+  "dialog_id": 95,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=95"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Like to order some pizza from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want four medium pizzas all on gluten-free crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, and what toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want one meat lovers, one supreme, one onion pepperoni bacon and extra cheese, and one with extra pepperoni, extra sausage, and green peppers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, please note that bella luna's charges for extra ingrediants, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you are ordering 4 medium gluten free crust pizzas, 1 meatlovers, 1 supreme, 1 onion, pepperoni, bacon, and extra cheese, 1 extra pepperoni, extra sausage, and green peppers, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. Can you add extra sauce to all of them, as well?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, so for all 4 pizzas gluten free crust and extra sauce."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, your total will be $80, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, it works."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to dine-in, pick up, or have your order delivered?"
+    },
+    {
+      "speaker": "client",
+      "text": "Pickup, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your pizzas will be ready in 40 minutes and your receipt will be texted to you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. That's all I needed."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Will do."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one supreme",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one onion pepperoni bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "green peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1 meatlovers, 1",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "supreme",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1 onion",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1 extra pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-0be61eab-6326-48fa-a63b-7962b7626370",
+  "created_at": "2026-02-15T15:44:16.900Z"
+}

@@ -1,0 +1,125 @@
+{
+  "dialog_id": 2365,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2365"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'd like to get a coffee from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. What type of drink would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I had the Black and White Mocha the other day. Do they still have that?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, it's a seasonal offering, but is still available. What size of drink would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I've got a long meeting this afternoon, so we better make it a Grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. What type of milk do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I like the whole milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Do you want the whipped cream topping on it?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thanks, I don't really care for that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you need to order any food or anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I think I just need the coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Which store would you like me to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll be pretty close to the Circle Tower Starbucks in Indianapolis."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Is there anything else that you'd like from Starbucks?"
+    },
+    {
+      "speaker": "client",
+      "text": "Not that I can think of."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. This order will be automatically charged to your card."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. When will it be ready?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It will take about 15 minutes for the order to be ready."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect! Thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You are welcome. A receipt will be texted to you shortly, and you should be able to just pick up your coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "Great! Goodbye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Black and White Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-99e47ca9-6b92-4948-a262-5d4dff125608",
+  "created_at": "2026-02-15T15:44:17.174Z"
+}

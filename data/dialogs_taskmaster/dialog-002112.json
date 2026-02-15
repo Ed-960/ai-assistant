@@ -1,0 +1,157 @@
+{
+  "dialog_id": 2112,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2112"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I want to order a pizza from Tommy's Pizzeria."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What do you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "A large Supreme Meat Lovers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Unfortunately, they are out of that."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh okay, than how about a large with sausage and pepperoni and onions."
+    },
+    {
+      "speaker": "cashier",
+      "text": "They are out of pepperoni."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, how about a large pizza with sausage, onion, and garlic?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else with that?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, they are out of garlic."
+    },
+    {
+      "speaker": "client",
+      "text": "Wow, unlucky day for me. How about a large pizza with onions and sausage then?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I ordered a large pizza with onion and sausage for you."
+    },
+    {
+      "speaker": "client",
+      "text": "Great!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It'll be ready for pick up in about 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "That sounds perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your receipt will be sent to you via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, have a great day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You too!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Tommy's Pizzeria.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Tommy's Pizzeria",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Supreme",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Supreme Meat Lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onion",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "garlic",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-5aa81f57-4a78-439d-8862-7c523ee786f9",
+  "created_at": "2026-02-15T15:44:17.145Z"
+}

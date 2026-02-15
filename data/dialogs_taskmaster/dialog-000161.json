@@ -1,0 +1,174 @@
+{
+  "dialog_id": 161,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=161"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I would like to order from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what kind of pizza's would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to orders three large pepperoni pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "With thick crashed."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, do you want just pepperoni for all 3 pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "no problem, any other special requests for your pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I have thick crust, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, can i interest you in bella luna's house marinara dipping sauce?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "let me add that to your order."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, the price will be $75, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and would you like to dine-in, or have delivery?"
+    },
+    {
+      "speaker": "client",
+      "text": "Delivery, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let me confirm your order."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "3 large, thick crust pepperoni pizzas with a side of marinara dipping sauce."
+    },
+    {
+      "speaker": "client",
+      "text": "Yep. That's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your pizzas will be delivered within 40 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crashed",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-14f43cf0-d943-43ce-b34a-68d2e6d67a94",
+  "created_at": "2026-02-15T15:44:16.908Z"
+}

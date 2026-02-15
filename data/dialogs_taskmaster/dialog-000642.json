@@ -1,0 +1,110 @@
+{
+  "dialog_id": 642,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=642"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hello."
+    },
+    {
+      "speaker": "client",
+      "text": "Hello. I would like to order an Americano espresso from the Starbucks on 87th Street in Chicago. I want sugar, honey, and whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure. did you want that iced or hot?"
+    },
+    {
+      "speaker": "client",
+      "text": "iced."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what size did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "tall."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. so you said you wanted 1 tall iced americano with sugar, honey and whipped cream from starbucks on 87th street."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, the total for your order is $5.29. should i place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. i've placed the order. the receipt has been sent to your phone. it'll be ready in 10 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome, good bye."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Americano espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "americano",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-5a4f9338-4a2e-45a7-a532-dad2d08518ba",
+  "created_at": "2026-02-15T15:44:16.961Z"
+}

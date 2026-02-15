@@ -1,0 +1,127 @@
+{
+  "dialog_id": 2584,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2584"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I would like you to order a Latte from Starbucks fo me."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What is your location?"
+    },
+    {
+      "speaker": "client",
+      "text": "I am in South Lake Tahoe California."
+    },
+    {
+      "speaker": "cashier",
+      "text": "There is four locations of Starbucks in South Lake California. Would you like a list of locations."
+    },
+    {
+      "speaker": "client",
+      "text": "No, I would like you to order from the Starbucks at South Y Center."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like to order Starbucks on Emerald Bay Rd."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How many Latte do you need?"
+    },
+    {
+      "speaker": "client",
+      "text": "One."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of Milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Whole Milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "When would you like to pick up your Latte?"
+    },
+    {
+      "speaker": "client",
+      "text": "In twenty minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You would like to pick up your latte at 3:45 ?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "One Large Latte with whole milk will be ready for you in 15 minutes at Emerald Bay RD. Your receipt will be mailed to you."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your recipt will be texted to your mobile phone."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "One",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-d5f05eea-19ba-4528-95d0-d4e380d087f1",
+  "created_at": "2026-02-15T15:44:17.200Z"
+}

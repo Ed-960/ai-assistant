@@ -1,0 +1,136 @@
+{
+  "dialog_id": 1805,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1805"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi there! Need a coffee fix--black and white mocha from Starbucks, please. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hello! I can help with that. Would you mind telling me which location you're planning to pick up from? "
+    },
+    {
+      "speaker": "client",
+      "text": "I'm in Durham. I'd like to order from the one on Durham-Chapel Hill Blvd."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, that's simple enough. You said you wanted a black and white mocha? "
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size? "
+    },
+    {
+      "speaker": "client",
+      "text": "Venti, please. I really need that coffee fix, haha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "One large black and white mocha. What kind of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you tell me what all they offer again? I always forget. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "You can get almond milk, coconut milk, nonfat milk, whole milk, 2% milk, or soy milk."
+    },
+    {
+      "speaker": "client",
+      "text": "I think I want to go with whole milk this time."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Done. Do you want whipped cream on that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Of course! "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is there anything else that you want added--espresso shot, extra flavoring, etc.?"
+    },
+    {
+      "speaker": "client",
+      "text": "I wouldn't object to an extra shot or two."
+    },
+    {
+      "speaker": "cashier",
+      "text": "One or two? "
+    },
+    {
+      "speaker": "client",
+      "text": "Two please. No extra flavorings."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So we've got a venti black and white mocha, whole milk, whipped cream, and two extra shots. Does that sound alright?"
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order has been placed with the Starbucks on Durham-Chapel Hill Blvd. It will be ready for pickup shortly, and you should receive your receipt as a text."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you so much! You're a lifesaver"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "black and white mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "One",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-0e29cf22-e67f-471a-8f39-7115ef4268ec",
+  "created_at": "2026-02-15T15:44:17.103Z"
+}

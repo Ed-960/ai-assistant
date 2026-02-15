@@ -1,0 +1,186 @@
+{
+  "dialog_id": 1054,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1054"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to place an order for pizza from Bella Luna, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, how many pizzas would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "three."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "small."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want one veggie, one with bacon, ham, ground beef, and sausage, and one six-cheese pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what type of crust would you like?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you say thick crust?"
+    },
+    {
+      "speaker": "client",
+      "text": "Thin crust."
+    },
+    {
+      "speaker": "client",
+      "text": "t h i n."
+    },
+    {
+      "speaker": "cashier",
+      "text": "thanks. any other special instruction?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope. Nothing else."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so i have: 3 small pizzas. one veggie lovers, the other with bacon, ground beef and sausage and the third is a 6 cheese pizza with thin crust."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, all of them are thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. your total is $35."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, that worked."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be ready for pickup at bela luna's soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks, bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome, bye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ground beef",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "six-cheese pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "t h i n",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "6 cheese pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bela luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-9542be12-d0d6-4409-bcad-0f042851d689",
+  "created_at": "2026-02-15T15:44:17.005Z"
+}

@@ -1,0 +1,132 @@
+{
+  "dialog_id": 2471,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2471"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi Blanca, could you order a coffee for me at Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, which Starbucks should I order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Try to visit the once close by. I believe the address is 765 N Temperance Ave #101, Clovis, CA 93611."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. I'm familiar with that one. What specifically would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a normal coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like any sugar?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thanks. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "What about creamer?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, a normal black coffee is fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So a black coffee then. What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Lets do a grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay so just to make sure, you would like a grande plain black coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "That sounds good to me!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Perfect. And do you want me to use the card on account?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes use that and charge it to my card."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Perfect! you should receive a text soon! I just placed an order for your grande black coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks you're the best!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome!"
+    },
+    {
+      "speaker": "client",
+      "text": "Have a nice day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You too."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "normal coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "plain black coffee",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-b7b3bc33-3252-4741-bdae-04e415c1fed7",
+  "created_at": "2026-02-15T15:44:17.187Z"
+}

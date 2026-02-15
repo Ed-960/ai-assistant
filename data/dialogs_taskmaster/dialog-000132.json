@@ -1,0 +1,172 @@
+{
+  "dialog_id": 132,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=132"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello. how can i help u today?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to order some pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, where did u wanna order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I always go to Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. what did u want from bella luna?"
+    },
+    {
+      "speaker": "client",
+      "text": "Any two small pizzas on pepperoni, olives, onions, and green peppers and one meat lovers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "let me read that back to u to make sure i got everything."
+    },
+    {
+      "speaker": "cashier",
+      "text": "2 small pizzas, 1 with pepperoni, olives, green peppers, and 1 meat lovers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep, that's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. the total for the order is $25.24. should i place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, the pizza's also need to be on a gluten free crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, let me change that in your order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so i've changed your order so it is as follows. 2 small pizzas, 1 with pepperoni, olives, green peppers, and 1 meat lovers, both with gluten free crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "does that sound good?"
+    },
+    {
+      "speaker": "client",
+      "text": "Add onions to the first pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "2 small pizzas, 1 with pepperoni, olives, green peppers and onions, and 1 meat lovers, both with gluten free crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep, you got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i've placed the order. it'll b ready in 35 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did u need anything else ?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope. That's everything."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome, good bye."
+    },
+    {
+      "speaker": "client",
+      "text": "See you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "green peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-1219ec40-342b-45b0-8868-102f1ba92f8f",
+  "created_at": "2026-02-15T15:44:16.904Z"
+}

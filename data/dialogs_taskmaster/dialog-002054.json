@@ -1,0 +1,141 @@
+{
+  "dialog_id": 2054,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2054"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi Rita! I'm going to be rushing to my next meeting and won't have time to wait for my coffee, could you order my coffee order for me from Starbucks, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course! Which starbucks do you want me to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I think the one on Huntington will be easiest for me as I can grab it right before I head to the meeting."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay sweet, what time is your meeting? "
+    },
+    {
+      "speaker": "client",
+      "text": "The meeting starts at 2:30. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, do you want to pick it up at 2 or 2:15? "
+    },
+    {
+      "speaker": "client",
+      "text": "I'll grab it at 2:15, just in case I get caught up here before the meeting, I don't want it to get too cold."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, gotcha. What would you like? "
+    },
+    {
+      "speaker": "client",
+      "text": "Could you order me a vanilla latte please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ah, switching it up form your usual, Iced blonde peppermint mocha... too cold out?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yah, it's a bit too cold out and I thought I'd switch it up today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Short, Tall, Grande or venti?"
+    },
+    {
+      "speaker": "client",
+      "text": "Tall please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of milk do you want with it? "
+    },
+    {
+      "speaker": "client",
+      "text": "What kind do they have? "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Almond, coconut, nonfat, whole, 2% and soy."
+    },
+    {
+      "speaker": "client",
+      "text": "Whole milk please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want me to just order it through your account? "
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please, that way I get the points. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, your order has been placed at the Starbucks on Huntington and will be ready for pickup at 2:15. I put in your rewards number and they'll send the receipt to your phone."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thanks Rita! See you later today at the meeting."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "vanilla latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Iced blonde peppermint mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Short",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-4cfcf1de-0ca8-4fef-b4c1-c6a63c5f53ce",
+  "created_at": "2026-02-15T15:44:17.138Z"
+}

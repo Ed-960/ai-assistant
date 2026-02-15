@@ -1,0 +1,153 @@
+{
+  "dialog_id": 272,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=272"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, could you help me with placing an order at Bella Luna Pizzeria?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Could I have three medium pizzas, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, and what kind of toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "On the first pizza, I would like ham and pineapple. On the second pizza, I would like mushrooms and onions."
+    },
+    {
+      "speaker": "client",
+      "text": "And on the third pizza, I would like green peppers, mushrooms, and red onions."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. do you have any crust preference?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would really like them to be thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any other special instructions?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, just the just the thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, so your order is: 3 medium thin crust pizzas. on the first: ham and pineapple, on the second: mushrooms and onions and on the third: green peppers, mushrooms and red onions, is this correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "perfect! your total is $45.78."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be ready for pickup at Bella Luna's in 35 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect. Thank you so much for your help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're very welcome, byebye!"
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna Pizzeria",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "green peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "red onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-25bacc75-46fe-4f4e-9e34-9bc7da6d61ea",
+  "created_at": "2026-02-15T15:44:16.920Z"
+}

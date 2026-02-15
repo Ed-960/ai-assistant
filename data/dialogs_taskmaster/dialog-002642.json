@@ -1,0 +1,127 @@
+{
+  "dialog_id": 2642,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2642"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I want to order some coffee from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which store?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one on North Rush Street in Chicago."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want one Caffè Mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Tall."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is 2% milk ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Actually, I want almond milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, and did you want whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Of course I do."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's one Tall Caffè Mocha with whipped cream and almond milk. Is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Can I get you anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, just the Caffè Mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your total will be $7.50. Should I place the order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I placed your order and it will be available for pickup at the Starbucks on North Rush Street shortly. The receipt has been sent to your mobile device. Can I help with anything else today?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, have a good day!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caffè Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caffè Mocha.",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-e66633cd-2a89-4ca9-aa93-5ec8d4c54e34",
+  "created_at": "2026-02-15T15:44:17.207Z"
+}

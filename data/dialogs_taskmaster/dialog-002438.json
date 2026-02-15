@@ -1,0 +1,163 @@
+{
+  "dialog_id": 2438,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2438"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I'm going to be meeting with my mom and sister for my mom's birthday, so I was wondering if you'd be able to put in an order at Donatos for us?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, that shouldn't be a problem, I'm free to put in your order now, about what time do you want this pizza ready?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get it as soon as possible actually? I'll be headed there now."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yeah that will work. I'll go ahead and pull up thier website. What size of pizza will you be getting tonight?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get a large thin crust pizza? I saw earlier on their website they have any two topping large pizza for $12."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yeah I'll just go ahead and put in a \"create your own\" order unless you were interested in a specialty."
+    },
+    {
+      "speaker": "client",
+      "text": "Nah, I'd like to create my own. Could I get the first topping as pepperoni? on both halves."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yep, got that marked for you. What would you like as your second topping?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to get olives as well, black olives."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, got that put in there for you, were you guys needing anything else from Donatos or just the large 2 topping pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh wait, my sister was actually wondering if instead of olives on all of the pizza if we could do olives on one half and do grilled chicken on the other is that possible?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yeah, definitely. "
+    },
+    {
+      "speaker": "client",
+      "text": "Okay good. Does that still qualify for the coupon? "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yep, as long as you have two toppings on either side, it will count."
+    },
+    {
+      "speaker": "client",
+      "text": "That's good to know. Can you repeat the order just to be sure it's right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes. I've got one large thin crust pizza with pepperoni on all of it, black olives on one half, and the other half with grilled chicken. Was there anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just the large pizza is all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, you've got your card information already in here it looks like, so I went ahead and booked the pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you! How soon can I expect it?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It says the waiting time will be around 25 minutes. I'll send the confirmation receipt to your email."
+    },
+    {
+      "speaker": "client",
+      "text": "Fantastic, I'm happy you're able to help me out here."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Not a problem at all, Ms. I'll be dropping it off in about a half hour."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks again, Bye!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "See you soon."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Donatos",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "2 topping pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grilled chicken",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-aec220e4-47bb-4846-bb50-5179d1e0b80e",
+  "created_at": "2026-02-15T15:44:17.182Z"
+}

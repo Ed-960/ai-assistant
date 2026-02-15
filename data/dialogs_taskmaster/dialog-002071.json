@@ -1,0 +1,135 @@
+{
+  "dialog_id": 2071,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2071"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi. I'm in the mood for pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, from where?"
+    },
+    {
+      "speaker": "client",
+      "text": "Pizza Hut. I want the online special $7.99 large, 2-toppings."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How many pies?"
+    },
+    {
+      "speaker": "client",
+      "text": "2 pies."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "Both of them with pepperoni and sausage."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. Let's see. They're out of sausage."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, okay. Then mushrooms."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, they have those."
+    },
+    {
+      "speaker": "client",
+      "text": "Excellent."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything to drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, we have lots of soda here."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want me to complete the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, done."
+    },
+    {
+      "speaker": "client",
+      "text": "Cool!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The pizzas should be ready for pickup in about 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. You should be getting a receipt on your phone just about now."
+    },
+    {
+      "speaker": "client",
+      "text": "Got it. Have a great night."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You, too."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Pizza Hut",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-51c3a93a-07d0-4a2e-9e47-00ded52619c5",
+  "created_at": "2026-02-15T15:44:17.140Z"
+}

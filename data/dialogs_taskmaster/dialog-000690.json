@@ -1,0 +1,113 @@
+{
+  "dialog_id": 690,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=690"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi there."
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I would I would like to order two large gluten-free pizzas. Both of them, I would like meat lover's."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, and to confirm, u wanted to order from bella lunas, right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you said 2 large meat lovers pizzas that are gluten free?"
+    },
+    {
+      "speaker": "client",
+      "text": "Correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did u need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that would be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "$36 is the total for this order. do u want to place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i've placed the order at bella lunas. the pizzas will be ready for pick up in 25 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did u need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that would be all. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "perfect, enjoy."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lover's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella lunas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-5fcaf261-7d05-4a04-9bb3-ffe9a141f507",
+  "created_at": "2026-02-15T15:44:16.966Z"
+}

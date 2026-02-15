@@ -1,0 +1,217 @@
+{
+  "dialog_id": 2669,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2669"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Google, I would like to order a pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. What pizza restaurant do you want to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I don't know. What are some of the ones near me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "There is Lobo Pizza and Sandia Pizza within one mile."
+    },
+    {
+      "speaker": "client",
+      "text": "Do any of them deliver?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They both deliver. Which one of these do you want or do you want more options?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's order from Lobo Pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. How many pizzas do you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's order two pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What do you want the first pizza to be?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's order the Lobo Pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size and crust do you want the pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a large pizza with a stuffed crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I understood you want a large pizza. There is a problem with the crust. Lobo Pizza does not offer a stuffed crust. The crust choices are thin, tossed, or Chicago style. What is your choice?"
+    },
+    {
+      "speaker": "client",
+      "text": "I will choose tossed crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I understand you want a Lobo Pizza, large size, tossed crust. Is that all for the first pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that is what I want for my first pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What do you want for your second pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a pepperoni pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size pizza and what crust do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a large pizza and a Chicago-style crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want any other toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "Pepperoni is the only topping I want."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I understand for the second pizza ou want a pepperoni-only pizza, large size and a Chicago-style crust. Is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want order anything else? "
+    },
+    {
+      "speaker": "client",
+      "text": "The two pizzas is all I want. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay. I see your payment information is on file with the restaurant."
+    },
+    {
+      "speaker": "client",
+      "text": "How much is the total?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The total with tax and delivery charge is $23.99. Your pizza order is complete. I will submit your order to the pizza restaurant right now."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Lobo Pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Sandia Pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "stuffed crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tossed",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Chicago style",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tossed crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Chicago-style crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni-only pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Your pizza order is complete",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-edd3aca8-d48e-423f-8805-9d27aca71a72",
+  "created_at": "2026-02-15T15:44:17.210Z"
+}

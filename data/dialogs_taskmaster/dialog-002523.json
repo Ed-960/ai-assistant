@@ -1,0 +1,217 @@
+{
+  "dialog_id": 2523,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2523"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey! I need a favor, can you order online a two pizzas for me? "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Absolutely. What's the pizzas for?"
+    },
+    {
+      "speaker": "client",
+      "text": "My friend's son is turning 12 and he is obsessed with pizza so I wanted to surprise him."
+    },
+    {
+      "speaker": "cashier",
+      "text": "That's so sweet. He's going to love it. Does he have a favorite pizza joint?"
+    },
+    {
+      "speaker": "client",
+      "text": "He loves Papa Johns so place the order from them."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You got it. What kind of pizzas do you want me to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "One Large Pepperoni for sure. This kid eats pepperoni on his sandwiches, it's wild."
+    },
+    {
+      "speaker": "cashier",
+      "text": "That's really funny. Okay, so one medium pepperoni and what about the other?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, the pepperoni is a large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Whoops, sorry I need to clean my ears out. "
+    },
+    {
+      "speaker": "client",
+      "text": "No worries. The second pizza is going to be a medium veggie."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What types of veggies do you want on it?"
+    },
+    {
+      "speaker": "client",
+      "text": "I believe he hates mushrooms so make sure no mushrooms are on anything."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will make sure. That would ruin his birthday for sure. "
+    },
+    {
+      "speaker": "client",
+      "text": "It really would. Lets make the veggie pizza have onions, peppers and banana peppers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Are you sure you want banana peppers? I don't know many kids who like banana peppers."
+    },
+    {
+      "speaker": "client",
+      "text": "You're right. No banana peppers. Peppers and Onions. Lets keep it simple."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I think that will be more crowd pleasing and most kids like both onions and peppers."
+    },
+    {
+      "speaker": "client",
+      "text": "I agree. Lets get a medium cheese too. I want to make sure there is enough for everyone. Go place the order for a 5pm pick up. Also, add two sides of garlic knots. I love those."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, just to confirm I'm order one large pepperoni, one medium peppers and onions and one medium cheese and 2 sides of garlic knots?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep! That sounds great. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "The order is complete and will be ready for pickup in 25 minutes. Everyone is going to love you once you bring this to the party!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks a bunch! I sure hope so!!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The receipt is being sent to your mobile via text message just in case they need the order number when you pick it up. "
+    },
+    {
+      "speaker": "client",
+      "text": "Got it. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Papa Johns",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "no mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "banana peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "peppers and onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "The order is complete",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-c613683e-afa1-492f-9be8-2a94bc97f004",
+  "created_at": "2026-02-15T15:44:17.193Z"
+}

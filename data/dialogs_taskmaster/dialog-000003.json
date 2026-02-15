@@ -1,0 +1,137 @@
+{
+  "dialog_id": 3,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=3"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hey there, how can i help you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. Are you able to assist me by placing an order at a new pizzeria called Bella Luna?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "i sure can. what would u like to order from bella luna?"
+    },
+    {
+      "speaker": "client",
+      "text": "Want to get two large pies. I want one to have broccoli, the other to have onions, and both of them need to be extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sorry, it doesn't look like they have broccoli. did you want something else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, that's a shame. Do they have tomatoes?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "they sure do. did you want regular or sun dried?"
+    },
+    {
+      "speaker": "client",
+      "text": "A regular, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the total for 2 large pizzas, 1 with tomatoes, 1 with onions, both with extra cheese comes out to $25.33."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want me to place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "All right. Yeah, go ahead."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i've submitted your order, it'll be ready for pick up in 35 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need my assistance with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. I appreciate your help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, take care."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "broccoli",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sun dried",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-00abd8c8-c037-40a0-884f-bfcd5ad86077",
+  "created_at": "2026-02-15T15:44:16.882Z"
+}

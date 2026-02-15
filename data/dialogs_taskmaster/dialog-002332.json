@@ -1,0 +1,129 @@
+{
+  "dialog_id": 2332,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2332"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi Suzy! Can you please get me coffe from the Starbucks at 1709 W Pflugerville Pkwy in Pflugerville?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Absolutely! What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I am trying to decide if I want a hot coffee or a cold one. What would you get?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I would get a cold one."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok. I will get an iced pumpkin spiced latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Please get me a venti size."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want regular milk or something else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Get me almond milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like regular coffe or decaf?"
+    },
+    {
+      "speaker": "client",
+      "text": "Get me regular coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like a single shot or a double shot of espresso?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll take a double shot of espresso."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. Would you like whipped cream on it."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. I'll take whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Please ask them to go easy on the ice. I don't like too much ice in my drink."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Go it. Let me read the order to you to make sure I have it correctly."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You want a venti size iced pumpkin spiced latte made with almond milk, a double shot of espresso (regular not decaf), whipped cream, and a little bit of ice. Correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. I am on my way to Starbucks at 1709 W Pflugerville Pkwy in Pflugerville. I will be back."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "iced pumpkin spiced latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-92f39eaf-4501-47ec-ac69-e2476bc63f6e",
+  "created_at": "2026-02-15T15:44:17.170Z"
+}

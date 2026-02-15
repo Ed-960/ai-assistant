@@ -1,0 +1,177 @@
+{
+  "dialog_id": 2492,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2492"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello Benny."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hell there, how is your day going?"
+    },
+    {
+      "speaker": "client",
+      "text": "Going well. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "How can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm looking to ordering a large pizza for the baseball team"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. "
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to order at the nearest pizza place around. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. "
+    },
+    {
+      "speaker": "client",
+      "text": "Can you help?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, so what kinda pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "A large ."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay what toppings would you like on your pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like sausage and bacon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, would you like anything else. "
+    },
+    {
+      "speaker": "client",
+      "text": "No that is all. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay I'm ordering at the local Pizza Hut on Vicotoria street is that okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes that is terrific. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. "
+    },
+    {
+      "speaker": "client",
+      "text": "How much is the pizza?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It's going to be 20.40"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay not bad. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes great deal. "
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, when will this be ready for pickup . "
+    },
+    {
+      "speaker": "cashier",
+      "text": "In the next 20 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else I can help with?"
+    },
+    {
+      "speaker": "client",
+      "text": "No that's all. Oh don't forget to add napkins ."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay will do ."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks for helping. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem the receipt will be sent to your mobile device. good bye"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "local Pizza Hut",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pizza Hut",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Vicotoria street",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-bc84d2db-40b3-431a-981d-953344524756",
+  "created_at": "2026-02-15T15:44:17.190Z"
+}

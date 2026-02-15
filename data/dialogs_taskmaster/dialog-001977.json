@@ -1,0 +1,154 @@
+{
+  "dialog_id": 1977,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1977"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello, I want to order a coffee drink from Starbucks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi, what kind of coffee do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I wanted something latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you have a specific latte in mind?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes something light."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, I'll send you a Starbucks menu so you can peruse it"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, thank you. I'll give you my choice in a minute."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, take your time."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, I want a Iced Starbucks Blonde® Juniper Latte"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, I will make the call and find out what's in one of those"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, thank you so much. Let me know if it's available."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, they are seriously smooth, subtly sweet Starbucks® Blonde Espresso, with milk and ice mingle beautifully with juniper syrup. This beverage has a light, pine-like flavor with delightful citrus undertones. We accentuate the remarkable flavor by dusting the top with pine-citrus sugar."
+    },
+    {
+      "speaker": "client",
+      "text": "That sounds delicious"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, I will call and confirm afterwards. Did you want a tall or a grande?"
+    },
+    {
+      "speaker": "client",
+      "text": "I will take a grande just because it sounds so good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, a grande it is."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, I have called and ordered your latte for you"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, where is the location of the Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It is located at Route 30 and Tornita St. in York, Pa."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok I will pick it up at the Route 30 and Tornita St."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, anything else I can do?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, have a good day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Iced Starbucks Blonde® Juniper Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Blonde® Juniper Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "et Starbucks® Blonde Espre",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Starbucks® Blonde Espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-383f12f9-a4f3-43f7-a7dc-06cf927bff91",
+  "created_at": "2026-02-15T15:44:17.128Z"
+}

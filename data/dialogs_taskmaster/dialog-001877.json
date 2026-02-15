@@ -1,0 +1,141 @@
+{
+  "dialog_id": 1877,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1877"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi can you order me a drink from Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, which location?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Starbucks on Solano in Berkeley."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok! What drink would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like a cinnamon dolce latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "What is the medium size?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "There are two medium sizes, tall and grande which are 12 and 16 ounces."
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like the tall then."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok! What milk would like in it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Is there a non dairy option?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "There is almond and soy milk."
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like soy milk please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want whipped cream on it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "To confirm, you would like a tall cinnamon dolce latte with soy milk and whipped cream."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes that's perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have put in an order, so your drink will be available for pickup shortly at the Starbucks on Solano."
+    },
+    {
+      "speaker": "client",
+      "text": "Great thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your receipt will be sent to your phone through text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks, goodbye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cinnamon dolce latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "12",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "16",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-229486d2-5a33-4869-8ae0-f572eb27d18e",
+  "created_at": "2026-02-15T15:44:17.113Z"
+}

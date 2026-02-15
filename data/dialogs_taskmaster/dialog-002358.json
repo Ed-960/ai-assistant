@@ -1,0 +1,122 @@
+{
+  "dialog_id": 2358,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2358"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Can you get me a Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which Starbucks would you like to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one on Beaverton-Hillsdale Highway and 78th."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, got it. What do you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "An Americano with a splash of coconut milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "That's a grande Americano with a splash of coconut milk, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "You got it my dude!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is there anything else you would like to add to this order?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's everything."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, and what time would like to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "Please have them make it as soon as possible."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, just to confirm, that's one grande Americano with a splash of coconut milk to be picked up ASAP."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "That will be $3.45. Should I charge it to your card?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, your order is in. Is there anything else I can help you with?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's it. Bye!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-98c53bef-df59-4ab1-bc8f-5c006c4671f8",
+  "created_at": "2026-02-15T15:44:17.173Z"
+}

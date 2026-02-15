@@ -1,0 +1,168 @@
+{
+  "dialog_id": 992,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=992"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi there. I'd like to get a drink at Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, which starbucks did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "It's going to be at 130 East Seneca Street in Ithaca, New York."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. And what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Could I get a iced cafe Mocha?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright and what size?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hello?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi there. I'd like an iced cafe Mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grande. Grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thanks I think there was a little lag there, sorry."
+    },
+    {
+      "speaker": "client",
+      "text": "That's okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what did you want for the milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Coconut milk, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it and did you want whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I'd like whipped cream, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's an grande iced Caffe Mocha with Whipped cream and coconut milk from the Starbucks on Sycamore in Ithica."
+    },
+    {
+      "speaker": "client",
+      "text": "Nope. That's going to be let me look up the address again real quick."
+    },
+    {
+      "speaker": "client",
+      "text": "at 3130 East Sunkist Street."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I get those words mixed up sometimes. My Bad."
+    },
+    {
+      "speaker": "client",
+      "text": "That's okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's an grande iced caffe mocha with whipped cream and coconut milk from the starbucks on East Sennecca in Ithica."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. Your order will be ready in 15 minutes and you'll get the reciept via text."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. That sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I hope you enjoy it."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a good day."
+    },
+    {
+      "speaker": "client",
+      "text": "You, too. Bye-bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cafe Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caffe Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caffe mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-8bdfa776-c558-4892-acab-0f6b6dd10ec1",
+  "created_at": "2026-02-15T15:44:16.998Z"
+}

@@ -1,0 +1,136 @@
+{
+  "dialog_id": 2194,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2194"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey Susan. Can you pick me up a Black and white mocha"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, no problem. Where from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks, on Fulton & Wales."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else you want with that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please ask for Almond milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Make is a Tall 12oz please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, anything else. "
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I'm going to splurge and get Whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds good. Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Go ahead and get me a Panini sandwhich please. I am going to work through lunch. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK. Will do. "
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks Susan !"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You are welcome. So one Panini sandwhich and one black and white Mocha w/almond milk, whipped cream, tall 12oz"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, thank you so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Corner of Fulton & Wales"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Perfect. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK. I am off."
+    },
+    {
+      "speaker": "client",
+      "text": "OK. Go ahead and get yourself anything you want also. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thanks so much. I will do that. "
+    },
+    {
+      "speaker": "client",
+      "text": "You are very welcome. See you in a bit. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Black and white mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Tall 12oz",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black and white Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall 12oz",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-6e741261-ee3c-4425-ab31-b5036d142758",
+  "created_at": "2026-02-15T15:44:17.154Z"
+}

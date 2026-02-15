@@ -1,0 +1,174 @@
+{
+  "dialog_id": 2698,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2698"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello, Assistant. I would like for you to order me a coffee please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hello, sir. Where would you like your coffee from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like it from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, from the Starbucks located at 5101 Hinkleville Road Paducah Ky 42001?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, thats the one. The one located inside the mall."
+    },
+    {
+      "speaker": "cashier",
+      "text": "That is in Paducah and you live in Murray, an hour away. Would you like me to wait a while before I order it to allow you time to get there."
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you. I had an appointment in Paducah and am on my way to the mall now. I just want it to be there ready for me. I hate standing in line."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh, ok. I totally understand. Those lines can take forever. What kind of coffee would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "A friend was just telling me about the Iced Latte Macchiato. I would like to try that. He said it was really good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is that the one the commercial says This new espresso classic combines shots of espresso, whole milk and ice for a bold and roasty new way to sip?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes that is correct. But instead of whole milk I would like skim."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Those coffees do look delicious. I would be happy to get that ordered for you."
+    },
+    {
+      "speaker": "client",
+      "text": "Terrific. I should be there in about 15 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, sir. What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Get me the biggest they have got."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, they have the Grande which is 16 oz and a Venti Iced which is 24 oz."
+    },
+    {
+      "speaker": "client",
+      "text": "Give me the Venti. I need a lot of caffeine today. Im a bit sleepy"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You've got it sir, would you like to add an extra shot of espresso to your coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that would be great. I would also like frothy milk, cinnamon and 2 sugars."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, hold just a moment while I get that ordered for you."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok sir, you are all set. Your 24 oz Iced Latte Macchiato with skim, frothy milk, cinnamon and 2 sugars will be ready and waiting for you when you arrive at the store."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you so much Assistant. Do I need to pay when I get there?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You are more than welcome, sir. No, I have charged it to your debit card. It's will be waiting on the counter with your name on the cup when you get there. Just grab it and go."
+    },
+    {
+      "speaker": "client",
+      "text": "You are incredible. I thank you so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You are welcome. I am glad to help and am here if you need me."
+    },
+    {
+      "speaker": "client",
+      "text": "Good bye"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Goodbye"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Iced Latte Macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "new espresso classic",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "whole milk",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "16 oz",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "24 oz",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-f609fd76-620b-4863-9c7d-6c574b0b96c1",
+  "created_at": "2026-02-15T15:44:17.213Z"
+}

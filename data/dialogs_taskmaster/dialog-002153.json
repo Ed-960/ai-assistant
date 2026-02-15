@@ -1,0 +1,152 @@
+{
+  "dialog_id": 2153,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2153"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Can you get me latta from starbucks please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, do you want me to go to the commerce location or town center?"
+    },
+    {
+      "speaker": "client",
+      "text": "town center would be great. Also, I need you to order lunch for the employee meeting today"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, where do you want to get the pizza from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's do the local pizza place sliced. There is a card on file. I think we need pizza'a"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, what kind should we order? Is anyone vegan?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, lets get a cheese pizza, veggie and meat lovers"
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay, thats one cheese, one veggie and one meat?"
+    },
+    {
+      "speaker": "client",
+      "text": "yes, that should good. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is there anything else you want to add?"
+    },
+    {
+      "speaker": "client",
+      "text": "yes, get some garlic sauce and ranch dressing, maybe some cheese sticks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "So, we are getting three pizzas, sauce and cheese sticks? okay, I'll call them now"
+    },
+    {
+      "speaker": "client",
+      "text": "thank you! also, get drinks for everyone "
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, I will charge it to the company card and we are ordering from sliced. Yes, that is correct"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you! hey, add one more pizza. I like their philly cheese pizza"
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, adding one more pizza to the order"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "You are welcome, I called and the order is completed, we can pick it up in minutes or have it delivered"
+    },
+    {
+      "speaker": "client",
+      "text": "Please pick up the food"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will head out in to get there so I can get back and it will still be hot."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "commerce location",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "town center",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sliced",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "philly cheese pizza",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-6478058d-b345-4efe-92af-1f88ff5aef55",
+  "created_at": "2026-02-15T15:44:17.150Z"
+}

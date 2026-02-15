@@ -1,0 +1,175 @@
+{
+  "dialog_id": 2591,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2591"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I would like to order a few pizzas from Sir Pizza tonight."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, I can help you with that. What type of pizzas did you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "First, I would like a large pepperoni."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, I have an order for a large pepperoni pizza. Would you like anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would also like to get a medium taco pizza, without black olives."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have also ordered a medium taco pizza without black olives. Would you like to add anything else to your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a medium pizza with hamburger and sausage as well please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have the order for the medium hamburger and sausage placed. Any other items for your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, add two garden salads and a two liter soda, and that will be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of soda do you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a Cheerwine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "For this order, I have a large pepperoni pizza, a medium taco pizza with no black olives, a medium pizza with hamburger and sausage, two garden salads and a two liter Cheerwine. Is this correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Add a slice of cherry cheesecake too please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have added a slice of cherry cheesecake. Will this complete your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I think that will be all. Can you charge it to my account?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, your receipt will be sent to your mobile device via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Place the order for the name Davis, my husband is going to pick the order up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The order has been placed for the name Davis.  Is there anything else I can help you with?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, what time to they close tonight?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sir Pizza closes at ten p.m."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, that is all I need, thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order will be ready for pickup in about 25 minutes."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Sir Pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "taco pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "without black olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hamburger",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "no black olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "The order has been placed for the name Davis",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-d77c94d4-5fe7-482d-817e-ea6a446dbdfa",
+  "created_at": "2026-02-15T15:44:17.201Z"
+}

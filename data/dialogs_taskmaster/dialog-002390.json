@@ -1,0 +1,121 @@
+{
+  "dialog_id": 2390,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2390"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey assistant, I need to place an order from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, great. Which store?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one on south Neil please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And I'm delivering to you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll take a cafe mocha grande please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Just the one?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright. It looks like that's $4.25"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which credit card would you like to put this on?"
+    },
+    {
+      "speaker": "client",
+      "text": "The mastercard please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright. I put it on the card. "
+    },
+    {
+      "speaker": "client",
+      "text": "How long will it take before it gets here?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Probably half an hour?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's great, I have a meeting in an hour."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, I'll make sure to be there before then."
+    },
+    {
+      "speaker": "client",
+      "text": "That's great!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else you need?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope! Thank you!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cafe mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-a19a170a-aab1-4538-a0f8-f3896cd43053",
+  "created_at": "2026-02-15T15:44:17.177Z"
+}

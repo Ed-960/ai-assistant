@@ -1,0 +1,253 @@
+{
+  "dialog_id": 1851,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1851"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, Ben, How are you? I was wondering if you could place an order for me at Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, no problem."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, what is the nearest Starbucks location in my Town?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "There is one by you on University Drive. The address is 2800 University Drive, Coral Springs, 33065"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you, and what is the telephone number?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "(954) 752-2773"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you, Can you list some of the types of drinks offered?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, they have lattes, tea, chai style lattes, citrus defenders, lemonades, infusions, cold foam brews, regular coffee, iced coffee, and espressos."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome, and what kind of milk do they offer?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They offer almond, non-fat, coconut, whole milk, 2% and Soy."
+    },
+    {
+      "speaker": "client",
+      "text": "What kind of flavored syrups do they have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Starbucks offers: vanilla (available sugar-free) caramel (available sugar-free) cinnamon dolce (available sugar-free) hazelnut (available sugar-free) toffee nut. peppermint (available sugar-free seasonally), classic, and hazelnut. They have sugar free and lower fat options."
+    },
+    {
+      "speaker": "client",
+      "text": "How knowledgeable would the baristas be about nutrition facts? "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Very knowledgeable, every employee is trained at a school to learn all facets of the store, including nutrition. "
+    },
+    {
+      "speaker": "client",
+      "text": "What sizes are offered?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "At Starbucks, the sizes for drinks are short, tall, grande, venti, and treinta; grande being the medium size. There are 16 oz in a grande size drink at Starbucks."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, I would like 1 tall Pike place roast coffee, 1 vanilla sweet cream cold brew, 1 Nitro cold brew with whipped cream, 1 cinnamon shortbread frappuccino, and 2 espressos with vanilla. All vent sized, except the Pike place roast, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, would you like anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, do they have blueberry muffins?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes they have an assortment of baked goods."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, I would also like to add 4 blueberry muffins. That completes the order. Can you have that ready for me as soon as possible?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, the order has been placed so if you want to pick it up shortly, it will be available at the University location, by your residence. Your receipt will be sent to your mobile device so be sure to check for it. "
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you for all of your help with the order. Cheers and I'll talk to you soon. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, talk to you soon. Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "lattes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tea",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chai style lattes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "citrus defenders",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "lemonades",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "infusions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cold foam brews",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "espressos",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "short",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "treinta",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande being the medium size",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "16 oz in a grande size drink",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pike place roast",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pike place roast coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "vanilla sweet cream cold brew",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Nitro cold brew",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cinnamon shortbread frappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "2",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "vent sized",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "vent",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-199136b9-85bc-4e43-922b-bb95360f8cab",
+  "created_at": "2026-02-15T15:44:17.109Z"
+}

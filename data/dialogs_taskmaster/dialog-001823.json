@@ -1,0 +1,122 @@
+{
+  "dialog_id": 1823,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1823"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "It's Jane. How are you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Fine! How are you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Good. I was calling because I want to order a coffee drink."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, where from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Starbucks on Sutphin Blvd."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, which drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "A Caramel Macchiato."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like a grande?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What type of milk would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Soy please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, so that's a soy Caramel Macchiato grande."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, the drink should be ready at Sutphin Blvd for pickup in 10 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Nice. Thanks for your help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "A pleasure. Do you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I'm good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Then your receipt should arrive on your phone by text shortly."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "A Caramel Macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caramel Macchiato",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-1360e817-2bdc-4fd8-a0d1-ed5e8783df19",
+  "created_at": "2026-02-15T15:44:17.105Z"
+}

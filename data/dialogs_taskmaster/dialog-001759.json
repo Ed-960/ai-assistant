@@ -1,0 +1,147 @@
+{
+  "dialog_id": 1759,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1759"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I would like to get a pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, from where?"
+    },
+    {
+      "speaker": "client",
+      "text": "Dominoes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a large, 3-topping pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, which toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want sausage, pepperoni and bacon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "No, wait. Make it a sausage, pepperoni and ham."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. What else?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No beverages?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, so that't a large., sausage, pepperoni and ham pie."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The total will be $7.99."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order will be ready in 25 minutes. And the receipt will arrive by text to your phone."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Dominoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "3-topping pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Your order will be ready in 25 minutes",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-047eb02f-b859-4cc5-a116-d26472e674d9",
+  "created_at": "2026-02-15T15:44:17.093Z"
+}

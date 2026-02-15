@@ -1,0 +1,130 @@
+{
+  "dialog_id": 1195,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1195"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello."
+    },
+    {
+      "speaker": "cashier",
+      "text": "HI how are you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I'm fine. I'd like to buy a coffee from Pete's."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great which peets did you want to pick up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "the pizza on University Avenue and 4th Avenue in San Diego."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what coffe would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I like a ice an caramel macchiato."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any syrups or add ons? Like whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "What kind of syrups do you have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sugar-free chocolate sauce, Cinnabon Bun, Vanilla, Sugar-free vanilla, Maple, Hazelnut,"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like some sugar free vanilla."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's a large iced caramel macchiato, with a shot of sugar free vanilla syrup from the peets on university and 4th in San Diego."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Can you add almond milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure thing."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Can you read that back to me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's a large iced caramel macchiato, using almond milk with a shot of sugar free vanilla syrup from the peets on university and 4th in San Diego."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your drink is all set and will be ready for pickup in 15 minutes, the reciept will arrive via mobile."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, have a nice time."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "caramel macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced caramel macchiato",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-a8d5afcb-f6fd-46d6-aa26-08d133b9c274",
+  "created_at": "2026-02-15T15:44:17.019Z"
+}

@@ -1,0 +1,151 @@
+{
+  "dialog_id": 1866,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1866"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "AI can you call Little Caesars on East Dakota in Fresno, CA?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I can do that; I have connected with the store."
+    },
+    {
+      "speaker": "client",
+      "text": "AI I would like a Pretzel Crust pizza. How much is it?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "A Pretzel Crust pizza is $6.00; should I order it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please order one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have one Pretzel Crust pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "AI could you see if they have Caesar Wings? "
+    },
+    {
+      "speaker": "cashier",
+      "text": "I can check please standby; they have them and they are $6.50."
+    },
+    {
+      "speaker": "client",
+      "text": "Good I will take a order of Caesar wings also."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have one Pretzel pizza and one order of Caesar wings is there anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "AI please order one 2-liter bottle of Pepsi."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have one 2-liter bottle of Pepsi, one Pretzel pizza and one order of Caesar wings; Is there anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "AI can I get a subtotal on that order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, your subtotal is $15.00"
+    },
+    {
+      "speaker": "client",
+      "text": "AI can you add one bottle of water and give a new subtotal?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "One bottle of water has been added and the new subtotal is $16.75"
+    },
+    {
+      "speaker": "client",
+      "text": "AI could you checkout and give me the total."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, I have one Pretzel pizza, one order of Caesar wings, one 2-liter Pepsi and one bottle of water with a total of $17.55."
+    },
+    {
+      "speaker": "client",
+      "text": "Good you may place the order and standby for delivery instructions."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Order has been placed and I am ready to receive delivery instructions."
+    },
+    {
+      "speaker": "client",
+      "text": "AI have pizza delivered to 100 Main St. Fresno, Ca 99999"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have the delivery address is there anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, add a note to ask for Sam when the delivery is made."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have noted to ask for Sam when deliver is made to 100 Main St. Fresno, Ca. 99999"
+    },
+    {
+      "speaker": "client",
+      "text": "Good; that is all you make disconnect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Order has been placed and disconnecting and finalizing communications. I am out."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Little Caesars",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "East Dakota in Fresno, CA",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pretzel Crust pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pretzel pizza",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-1ed3e401-9210-45c1-82ad-982f55247000",
+  "created_at": "2026-02-15T15:44:17.111Z"
+}

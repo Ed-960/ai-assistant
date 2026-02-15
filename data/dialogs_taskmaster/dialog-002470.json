@@ -1,0 +1,180 @@
+{
+  "dialog_id": 2470,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2470"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, Bill. Can you order me some pizzas?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yeah, dude. Where from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Pizzeria Luigi! It's where it's at!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Right on dude. The plain cheese, right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Not this time, Bill. I'm thinking custom pies."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Cool, man. What you want on it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Sausage and mushrooms!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Just two toppings? You cheap, yo!"
+    },
+    {
+      "speaker": "client",
+      "text": "Fine! Throw some caramalized onions on it!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You got it! Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope! All set!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sweet! Which location are you going to pick this up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm going to be near the Golden Hills area, so let's you do that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, I got a custom pie with sausage, mushrooms and caramalized onions to be picked up at the Golden Hills location."
+    },
+    {
+      "speaker": "client",
+      "text": "Ah... You know what, Bill? I'm going to pass on the onions."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh, what? No onions?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nah. I want me some ham."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Right on. So sausage, mushrooms and ham from Golden Hills' Pizzeria Luigi?"
+    },
+    {
+      "speaker": "client",
+      "text": "You got it, Bill."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, bro. Your pie should be ready in about 25 to 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Sweet! Can I get a receipt?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They will send that to your phone, digitally!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Pizzeria Luigi",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "plain cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caramalized onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Golden Hills area",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Golden Hills",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pass on the onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "No onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Golden Hills'",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-b76bcca4-948b-4bc8-ae8f-a904226b6ca4",
+  "created_at": "2026-02-15T15:44:17.187Z"
+}

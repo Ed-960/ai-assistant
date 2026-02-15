@@ -1,0 +1,121 @@
+{
+  "dialog_id": 209,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=209"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I need a coffee from Peet's. Hi, I need a coffee from Peet's."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i assist you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what kind of coffee would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Dark roast."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok and what size would you like your coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "Large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any milk preference?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like coconut."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you got it. would you like whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, but I would like some vanilla flavoring."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, adding vanilla flavoring."
+    },
+    {
+      "speaker": "client",
+      "text": "That's all. The store on Sunrise Boulevard in Roseville."
+    },
+    {
+      "speaker": "cashier",
+      "text": "where would you like to pick it up?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, so a large dark roast, coconut milk and vanilla flavoring. is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, it is."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your coffee will be ready to be picked up at peet's coffee at sunrise boulevard and roseville in 15 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you will receive the receipt through text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy your coffee, byebye."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-1bbb6b2a-7c7f-46ea-8dc8-5db654ae1ddf",
+  "created_at": "2026-02-15T15:44:16.913Z"
+}

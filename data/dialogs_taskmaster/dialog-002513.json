@@ -1,0 +1,145 @@
+{
+  "dialog_id": 2513,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2513"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello, I'm dying. Can you order me a coffee?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes absolutely. What can I get for you? "
+    },
+    {
+      "speaker": "client",
+      "text": "I want an iced salted caramel mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yum. What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Gotcha. "
+    },
+    {
+      "speaker": "client",
+      "text": "Omg I think I want a venti actually. . . .no that is gross. Keep it a grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, grande it is. Does that have milk in it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes it does. I want almond milk but I am fine with the dairy whip on top."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, grande iced salted caramel with almond milk and whipped. Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, can you have them add an extra shot of espresso?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, I would be happy to do that. "
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect thank you. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "What store do you want to make this?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you call it into the Hudson Starbucks on 91?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I sure can! Ok, grande salted caramel with an extra shot of espresso, almond milk, and whipped cream to the Hudson store on 91."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect. That sounds so good. I can't wait! "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, just want to confirm with you that your drink has been ordered and they said it will be ready for you to pickup in 15 minute. "
+    },
+    {
+      "speaker": "client",
+      "text": "Fantastic! I am going to head out to pick it up in just a minute. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Wonderful! I hope it is just the pick me up that you need. Have a great day, boss! "
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you, you too! "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Bye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "I want an iced salted cara",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced salted caramel mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced salted caramel",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "salted caramel",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-c33aef40-0b15-4b5e-9dac-785c3cc932b9",
+  "created_at": "2026-02-15T15:44:17.192Z"
+}

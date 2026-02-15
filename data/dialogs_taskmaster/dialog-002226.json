@@ -1,0 +1,117 @@
+{
+  "dialog_id": 2226,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2226"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Coul you order me an espresso machiato from Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, which location do you want to use?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm heading into Asheville, NC right now. Could you find me one?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "There are several to choose from, including on Tunnel Road, Merrimon Ave, Patton Ave, and Charlotte St."
+    },
+    {
+      "speaker": "client",
+      "text": "I'm closest to Merrimon Avenue, so I'll do that one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, so this is the Starbucks at 915 Merrimon Ave in Asheville. What size drink do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a Quad."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of milk do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Coconut if they have it, or almond otherwise."
+    },
+    {
+      "speaker": "cashier",
+      "text": "They have coconut. Do you want any flavors added?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, just as is."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want whipped cream, sugar, or honey added?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just a little bit of honey."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, that's going to be $4.65. Is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes that sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Was there anything else you needed or should I put in the order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just the macchiato, thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, I put in the order and it will be ready for you at the Starbucks on 915 Merrimon Ave in Asheville."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks for your help!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, have a great rest of your day!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Quad",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "macchiato",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-776f1a5c-bf9a-4ceb-b1db-122abc9889cb",
+  "created_at": "2026-02-15T15:44:17.158Z"
+}

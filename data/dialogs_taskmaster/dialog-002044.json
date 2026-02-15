@@ -1,0 +1,142 @@
+{
+  "dialog_id": 2044,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2044"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Michelle, I would like to order some Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hey James, What location are you looking to get some coffee"
+    },
+    {
+      "speaker": "client",
+      "text": "Well, Im over at the PacMutual Building Downtown, so the Starbuck on the corner or Grand and 6th Street."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You got it! Are you just getting something to drink or also some food?"
+    },
+    {
+      "speaker": "client",
+      "text": "Both today. Im starving. Lets go with Hot Caramel Macchiato"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size Macchiato and do you need some milk and added flavoring?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll go with a Venti sized, a little Coconut milk and also extra extra of caramel drizzle for effect"
+    },
+    {
+      "speaker": "cashier",
+      "text": "That's quite a drink Sir! And you said something about food?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. I'll get a Lemon Loaf and I'll also have a Cherry Mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. What size is the Cherry Mocha and any milk in this one?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll get a Grande for that drink and 2% milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Not a problem sir. Any added drinks for today?"
+    },
+    {
+      "speaker": "client",
+      "text": "I might need another Espresso"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size and how many shots of Espresso are we talking about?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to have 8 shots Espresso in a Venti cup."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any added milk for that Venti to make up for space?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Fill the rest of the cup up with 2% milk and extra top of whipped cream"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. If that is all i'll make up this order for Starbucks on the corner of 6th street and Grand in downtown Los Angeles"
+    },
+    {
+      "speaker": "client",
+      "text": "That will be all. Thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Not a problem, Sir. Have a good day. The order will be ready under your name James McDonald"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Hot Caramel Macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "little Coconut milk",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cherry Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Espresso",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-4ab84664-ec86-4c5b-be8b-88b16580a7c3",
+  "created_at": "2026-02-15T15:44:17.137Z"
+}

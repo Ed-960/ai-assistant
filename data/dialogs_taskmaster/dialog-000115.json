@@ -1,0 +1,94 @@
+{
+  "dialog_id": 115,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=115"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order a Starbucks coffee, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "grande mocha latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what type of milk do you prefer?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll do 2% milk, no whip cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so a grande mocha with 2% milk, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "where would you like to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "the Starbucks on Soldiers Field Road in Boston."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your coffee will be ready for pickup soon at the starbucks on soldiersville road."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome, bye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mocha latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-0edd7783-e838-43b8-ac2b-f558596181e3",
+  "created_at": "2026-02-15T15:44:16.902Z"
+}

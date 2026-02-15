@@ -1,0 +1,89 @@
+{
+  "dialog_id": 596,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=596"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "What can I do for you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to order coffee in Starbucks Espresso beverages."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay so that's a Starbucks Espresso right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of milk would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay great. I've got an espresso for you from Starbucks. Is the one on State Street still closest to you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Sorry?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you want to pick up this Espresso from State Street?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, sure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. I've placed your order. Your Espresso will be ready in 15 minutes at the Starbucks on state street."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "espresso",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-54a638e8-9646-4332-949a-de3ddcf3057c",
+  "created_at": "2026-02-15T15:44:16.956Z"
+}

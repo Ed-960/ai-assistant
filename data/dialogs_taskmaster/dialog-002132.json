@@ -1,0 +1,155 @@
+{
+  "dialog_id": 2132,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2132"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello I need a pizza please from Cassano's."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which location?"
+    },
+    {
+      "speaker": "client",
+      "text": "Cassano's in West Chester Ohio."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok pick up or delivery."
+    },
+    {
+      "speaker": "client",
+      "text": "Pick up please. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "When would you like to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "25 minutes if possible."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like today?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a triple pepperoni and extra cheese pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "extra large please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What type of crust?"
+    },
+    {
+      "speaker": "client",
+      "text": "Thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok I have a thin crust extra large triple pepperoni and extra cheese pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes that is correct. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "What name would you like this under?"
+    },
+    {
+      "speaker": "client",
+      "text": "Beau Proby."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok your xlarge thin crust triple pepperoni extra cheese pizza will be ready for Beau Proby in 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "That's perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your card was charged and a receipt being texted to you."
+    },
+    {
+      "speaker": "client",
+      "text": "Great! good bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "good bye. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cassano's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "West Chester Ohio",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "triple pepperoni and extra cheese pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "xlarge",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "triple pepperoni extra cheese pizza",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-60c62ec5-e4c2-45d3-b609-7c8b44e6de34",
+  "created_at": "2026-02-15T15:44:17.147Z"
+}

@@ -1,0 +1,158 @@
+{
+  "dialog_id": 2474,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2474"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I would like to order a pizza"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, where would you like to order it from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Benny's Pizza"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, and what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Well, we are having a little party so I would like 2 extra large pizzas"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, and what type of crust would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Thick for both"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, and what toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "Pepperoni on one and pineapple on the other"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. Would you like any sides with that?`"
+    },
+    {
+      "speaker": "client",
+      "text": "No thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "And is this for pickup or delivery "
+    },
+    {
+      "speaker": "client",
+      "text": "Pick up please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok sounds good, and will you be paying cash in person or paying with me via credit card?"
+    },
+    {
+      "speaker": "client",
+      "text": "Credit card"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, go ahead with your card number when you are ready"
+    },
+    {
+      "speaker": "client",
+      "text": "555-5555-555-555"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok and experation dates and 3 digit code on the back please"
+    },
+    {
+      "speaker": "client",
+      "text": "10/2099 999"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you, and just to confirm you would like two extra large pizzas with thick crust, one with pepperoni and with pineapple, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, your total comes to $28.8 and will be ready for pickup in 25 minutes, and your receipt will be sent to your mobile phone"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you and have a great day!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Benny's Pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Thick",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-b8448ffd-787a-4868-b291-677619a25f7b",
+  "created_at": "2026-02-15T15:44:17.188Z"
+}

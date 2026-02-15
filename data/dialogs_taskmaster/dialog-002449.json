@@ -1,0 +1,172 @@
+{
+  "dialog_id": 2449,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2449"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I want to order to a pizza for dinner tonight."
+    },
+    {
+      "speaker": "cashier",
+      "text": "From which restaurant?"
+    },
+    {
+      "speaker": "client",
+      "text": "Settebello. The Italian restaurant around the corner."
+    },
+    {
+      "speaker": "cashier",
+      "text": "DId you want it for delivery or pick-up?"
+    },
+    {
+      "speaker": "client",
+      "text": "Pick-up is fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you have a certain pizza in mind?"
+    },
+    {
+      "speaker": "client",
+      "text": "Margherita."
+    },
+    {
+      "speaker": "cashier",
+      "text": "With regular or buffalo mozzarella?"
+    },
+    {
+      "speaker": "client",
+      "text": "Margherita DOC please!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "My favorite as well!"
+    },
+    {
+      "speaker": "client",
+      "text": "But my friend is allergic to tomatoes, so I want it made with red peppers instead."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will ask them to add peppers and NO tomatoes."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you want a side or a salad or anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. Just the pizza will be plenty!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Let me find out if they will do the special order."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes. They are more than happy to replace the tomatoes with peppers."
+    },
+    {
+      "speaker": "client",
+      "text": "Great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The pizza will be ready for pick-up in about 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you need help with anything else right now?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. I'm too excited about dinner!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I think I will go get a pizza myself."
+    },
+    {
+      "speaker": "client",
+      "text": "Ha!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Settebello",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Margherita",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "buffalo mozzarella",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Margherita DOC",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "red peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "add peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "NO tomatoes",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-b20f0c72-5b4c-4da1-8146-ff284b7a3e9f",
+  "created_at": "2026-02-15T15:44:17.184Z"
+}

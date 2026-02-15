@@ -1,0 +1,123 @@
+{
+  "dialog_id": 1288,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1288"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. I'd like to make an order for Starbucks, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok! what would you like to order today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I have?"
+    },
+    {
+      "speaker": "client",
+      "text": "a cappuccino."
+    },
+    {
+      "speaker": "client",
+      "text": "Make that a large, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure. a grande capuccino."
+    },
+    {
+      "speaker": "client",
+      "text": "May I add cinnamon to that, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure"
+    },
+    {
+      "speaker": "client",
+      "text": "That will be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any preference for milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get steamed milk foam, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Steamed milk foam it is."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what is the pick up location?"
+    },
+    {
+      "speaker": "client",
+      "text": "It is 1200 West Main Street, Peoria, Illinois."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great! your order will be ready for pick up soon. you will receive a text message with your receipt."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you! have a wonderful day."
+    },
+    {
+      "speaker": "client",
+      "text": "You, too."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "capuccino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-b75542a2-b6b3-4204-ab97-022a9c0d6dcd",
+  "created_at": "2026-02-15T15:44:17.031Z"
+}

@@ -1,0 +1,149 @@
+{
+  "dialog_id": 1899,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1899"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Would you please order me a coffee from Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Certainly. Which location would you like me to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one at Stapley and the 60 would be best."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. What would you like me to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like an iced pumpkin spiced latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Tall would be great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And your choice of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Coconut milk please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want whipped cream on that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Sure why not."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok so that is an iced pumpkin spice latte, tall, with coconut milk, and whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Actually could you change that to no whipped cream?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Certainly.  Are you still good with the coconut milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Coconut milk will be great thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok let me just double check the whole order."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright. Go ahead."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You want one tall iced pumpkin spice latte with coconut milk and no whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have placed your order and it will be available for you to pick up shortly at the Starbucks at Stapley and the 60."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The receipt will be sent to your mobile via text."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you for your help."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "iced pumpkin spiced latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pumpkin spiced latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced pumpkin spice latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-2701beea-6b94-4210-8205-38bfd9db7da1",
+  "created_at": "2026-02-15T15:44:17.116Z"
+}

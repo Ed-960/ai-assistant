@@ -1,0 +1,137 @@
+{
+  "dialog_id": 1948,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1948"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'd like to order a grande mocha frapachino please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi, this is pizza hut, how may I take your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I was looking at the $5 lineup deal, is that still available?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, it is. You can only order 1 topping along with one vegetable topping for the pizza at that price."
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds good, could I have a hand-tossed pepperoni with red onions and cheese please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing, would you like any other toppings for extra charge?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, I'll have extra cheese with it, how much is that?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It will be $1.50 extra."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay great, this deal comes with 8-piece breaded bone out wings correct?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, it is a part of the $5 lineup deal. "
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, what flavors do you guys have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Honey BBQ, Buffalo Mild, medium, burning hot, garlic parmesan, and hawaiian teriyaki"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll take the honey bbq flavor."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, would you like anything else to add to the order such as drinks?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, what drinks do you guys have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "We offer pepsi, diet pepsi, mountain dew, and sierra mist."
+    },
+    {
+      "speaker": "client",
+      "text": "I'll take pepsi, what sizes do you guys have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "We offer four 20 oz beverages, do you want pepsi for all four?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that would complete my order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you, your total is $5.35. Your order will be ready in 20 minutes."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "pizza hut",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hand-tossed",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "red onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-31d52b46-5028-4d5d-9c61-457f3609f41d",
+  "created_at": "2026-02-15T15:44:17.123Z"
+}

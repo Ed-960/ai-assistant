@@ -1,0 +1,135 @@
+{
+  "dialog_id": 2476,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2476"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, can you order me a coffee drink at Starbucks on Agoura Rd in Calabasas and i will pick up when it's ready"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course, what do you like to order"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like a Iced Black and White Mocha"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grande"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "non fat milk"
+    },
+    {
+      "speaker": "cashier",
+      "text": "With whipped cream or not?"
+    },
+    {
+      "speaker": "client",
+      "text": "without cream thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any sugar?"
+    },
+    {
+      "speaker": "client",
+      "text": "No sugar please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it, do you want it ASAP or sometime later?"
+    },
+    {
+      "speaker": "client",
+      "text": "ASAP"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Cool. Do you want anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, just one drink."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, I'll order one 16 oz ice Black and White Mocha at Starbucks at Agoura Rd in Calabasas and you will pick up as soon as it's ready"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, i placed the order and I will send you a receipt via text soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You should be able to pick up the coffee soon under your name"
+    },
+    {
+      "speaker": "client",
+      "text": "Great thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Iced Black and White Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Black and White Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-b8a2e104-193e-4b0d-a5e2-9861411627ea",
+  "created_at": "2026-02-15T15:44:17.188Z"
+}

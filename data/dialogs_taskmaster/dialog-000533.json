@@ -1,0 +1,98 @@
+{
+  "dialog_id": 533,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=533"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Assistant Yes, I want you to help me order two medium gluten-free crust pizzas with chicken barbecue as toppings from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "so, 2 medium gluten free crust pizzas with chicken bbq."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your total is $35."
+    },
+    {
+      "speaker": "client",
+      "text": "All right, I'm good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be ready for pickup at bella luna's soon."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome, bye!"
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken barbecue",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken bbq",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-4c98c523-2b14-4385-a535-bebd098c3d45",
+  "created_at": "2026-02-15T15:44:16.949Z"
+}

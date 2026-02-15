@@ -1,0 +1,168 @@
+{
+  "dialog_id": 2354,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2354"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, I would like to order a pizza I heard Pizza Hut has a deal for large pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Certainly I can do that for you, what kind of pizza would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like a large two topping pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay what toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Pepperoni sounds good and sausage?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sorry sir I just saw they have no more sausage would you like black olives instead?"
+    },
+    {
+      "speaker": "client",
+      "text": "I don't think so do they have peppers?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes they can do that for you."
+    },
+    {
+      "speaker": "client",
+      "text": "I'd also like a two liter of pepsi to go with it just because I'm thirsty."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay sounds good do you want two for your family?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yea sure just add a mountain dew as well to that order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, certainly."
+    },
+    {
+      "speaker": "client",
+      "text": "Can I also get one of those brownies because they sound good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes it would just take longer to arrive."
+    },
+    {
+      "speaker": "client",
+      "text": "So far I just have a two liter of pepsi and mountain dew, large two topping pizza and brownies?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "That sound's right."
+    },
+    {
+      "speaker": "client",
+      "text": "Can I also add a medium pizza just plain cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes I can do that."
+    },
+    {
+      "speaker": "client",
+      "text": "When will my order be ready?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It will take probably around 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok so I have the order for you two liter of pepsi, mountain dew peppers and pepperoni on the pizza and a medium pizza of just plain cheese along with brownies?"
+    },
+    {
+      "speaker": "client",
+      "text": "That sound's right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It will be ready in 30-45 minutes thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Pizza Hut",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "plain cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-97db5f9d-0d88-4ef5-bec1-378bef88220b",
+  "created_at": "2026-02-15T15:44:17.173Z"
+}

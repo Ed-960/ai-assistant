@@ -1,0 +1,115 @@
+{
+  "dialog_id": 563,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=563"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hello there?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, let me get a coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, Petes or Starbucks?"
+    },
+    {
+      "speaker": "client",
+      "text": "So, Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, which coffee would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let me get a medium coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay what flavor?"
+    },
+    {
+      "speaker": "client",
+      "text": "Mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright so that's one Grande Caffe Mocha, any milk or whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let me get whip cream and sugar."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay great. Anything else for your Caffe Mocha?"
+    },
+    {
+      "speaker": "client",
+      "text": "No ice."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You've got it! I see the closest peets is on state street, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I've placed your order. Your Grande Caffe Mocha with whipped cream and sugar will be ready in 15 minutes at the place on state street."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Enjoy your beverage."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caffe Mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-5118cf79-3552-49ac-b838-1267a4b4e32a",
+  "created_at": "2026-02-15T15:44:16.952Z"
+}

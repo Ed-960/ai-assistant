@@ -1,0 +1,93 @@
+{
+  "dialog_id": 772,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=772"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi how can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey, I would like to order a Starbucks drink for pick up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay which starbucks will you be going to?"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks on Soldiers Field Road."
+    },
+    {
+      "speaker": "cashier",
+      "text": "alright let me locate it real quick."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And what kind of coffee did you want again?"
+    },
+    {
+      "speaker": "client",
+      "text": "a grande cappuccino with 2% milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, any syrups?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's a grande cappuccino with 2% from starbucks. It'll be ready soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You'll get your reciept via text. Have a good day."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cappuccino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-6c7351a7-87d3-4495-b234-ba460505824f",
+  "created_at": "2026-02-15T15:44:16.975Z"
+}

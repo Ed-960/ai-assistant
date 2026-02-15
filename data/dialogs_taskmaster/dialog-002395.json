@@ -1,0 +1,162 @@
+{
+  "dialog_id": 2395,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2395"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'd like to order two grande Verona coffees with cream and sugar from the Starbucks on Pine Street in downtown Rochester."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Are you a rewards member?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I am a rewards member."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Could you please give my your 16 digit "
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, the number is 4140 3256 9785 1624"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you, I will update your card for future rewards. "
+    },
+    {
+      "speaker": "client",
+      "text": "Mke sure my coffees come with two additional packets of sugar on the side."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I will ensure you are served two additional packets of sugar."
+    },
+    {
+      "speaker": "client",
+      "text": "I will also like to add two cake pops to my order. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "What flavor of cake pops would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order two chocolate chip flavored cake pops. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else for today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Add a oatmeal raisin cookie too. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Woud you like the cookie to be warmed for a few seconds?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that would be great. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "May I confirm your order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please confirm my order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order is two grande Verona coffees with cream and sugar with two extra sugars on the side. Two chocolate chip cake pops and one oatmeal raisin cookie warmed."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that is correct!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order will be ready in 10 minutes at the Starbucks on Pine street in downtown Rochester."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your total for today will be $11.25. "
+    },
+    {
+      "speaker": "client",
+      "text": "Do I make the payment at the restaurant?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your credit card will be charged before you pick up your order. "
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You will receive a text message on your registered phone number for the amount charged to your credit card. "
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is there anything else I can help you with today?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you for your business, your order will be ready for pick up in 10 minutes.  "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "two",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Verona coffees",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-a23dcb4e-a19a-4ab7-ae89-7352eb27888a",
+  "created_at": "2026-02-15T15:44:17.177Z"
+}

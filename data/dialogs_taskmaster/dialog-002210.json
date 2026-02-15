@@ -1,0 +1,138 @@
+{
+  "dialog_id": 2210,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2210"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I need to order a coffee from the Starbucks on college road in Henderson"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, what can I order for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "A cafe mocha, the grande one"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is that a hot or cold beverage?"
+    },
+    {
+      "speaker": "client",
+      "text": "It's a hot beverage"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want any extras? Like whipped cream or espresso?"
+    },
+    {
+      "speaker": "client",
+      "text": "No espresso, but whipped would be great!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, I'll go ahead and order that drink for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Alright thanks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh, what kind of milk did you want? There are five types if I'm not mistaken"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll just have the milk that it comes with, nothing fancy"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Just regular milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, 2%"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I'll order the drink for you now"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you want anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, just the coffee thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, Iwent ahead and ordered that drink for you, a grande cafe mocha with whipped cream and 2% milk"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much for you help"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, it'll be ready in about fifteen minutes!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I sent the receipt to your phone!"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, have a great day, bye!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Bye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cafe mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-7390fed6-fe18-4392-8102-9739d4a3761f",
+  "created_at": "2026-02-15T15:44:17.156Z"
+}

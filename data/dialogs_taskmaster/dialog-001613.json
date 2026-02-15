@@ -1,0 +1,177 @@
+{
+  "dialog_id": 1613,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1613"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hey there, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, Can you help me order pizzas from Bella Luna's, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure I can. what do you want to order from bella luna?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get three large pizzas, all three with extra cheese? One pizza can I get ultimate pepperoni or pepperoni with extra pepperoni? Second pizza can I get a meat lovers pizza with extra bacon?"
+    },
+    {
+      "speaker": "client",
+      "text": "In the third pizza, can I get a Hawaiian pizza with extra ham?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of crust did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Thick crust is fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want thick crust for all 3 pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you said  you want to order 3 large pizzas, all with extra cheese and thick crust, 1 ultimate pepperoni, 1 meat lovers with extra bacon and 1 Hawaiian pizza with extra ham."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did i get that down correctly?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the total for your order is $56.44."
+    },
+    {
+      "speaker": "cashier",
+      "text": "should i place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, can you make that for pickup, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i've submitted your order for pick up. it'll be ready in 35 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's about it. Thank you so much I appreciate your help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome, take care. you're very welcome."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ultimate pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hawaiian pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hawaiian pizza with",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-ec292c87-f893-4e3f-873c-55cdd8b07fbf",
+  "created_at": "2026-02-15T15:44:17.065Z"
+}

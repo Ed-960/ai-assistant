@@ -1,0 +1,138 @@
+{
+  "dialog_id": 609,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=609"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi! How may I assist you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you can order from bella luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what type of pizza?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and how many?"
+    },
+    {
+      "speaker": "client",
+      "text": "Three."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want small."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like any other toppings."
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, to confirm."
+    },
+    {
+      "speaker": "cashier",
+      "text": "3 small chicken barbeque pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Sorry?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "3 small chicken barbeque pizzas, is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The total will be $40."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The order will be ready for pick up soon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy!"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "bella luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken barbeque pizzas",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-5654ade6-612b-46fb-b05e-e9719fa06ce3",
+  "created_at": "2026-02-15T15:44:16.958Z"
+}

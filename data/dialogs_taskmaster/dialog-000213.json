@@ -1,0 +1,127 @@
+{
+  "dialog_id": 213,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=213"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I would like to order three small thin crust pizzas with pepperoni, cheese, and mushrooms from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sorry, please repeat the toppings one more time."
+    },
+    {
+      "speaker": "client",
+      "text": "pepperoni, cheese, and mushrooms."
+    },
+    {
+      "speaker": "cashier",
+      "text": "will all 3 pizzas have the same toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. 3 small thin crust pizzas. pepperoni, cheese and mushroom. is this correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any special instructions?"
+    },
+    {
+      "speaker": "client",
+      "text": "thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. your total is $33.54."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome. your pizzas will be ready for pickup at Bella Luna's soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. Goodbye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushroom",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-1c4ac10c-54b1-41c4-a15e-28c1ec2c16d1",
+  "created_at": "2026-02-15T15:44:16.914Z"
+}

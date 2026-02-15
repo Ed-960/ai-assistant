@@ -1,0 +1,184 @@
+{
+  "dialog_id": 2068,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2068"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey Google, order me some coffee from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, what Starbucks would you like to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "What's the closest Starbuck's on 1st Ave in Seattle?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "There is a Starbuck's on 1st & University Reserve located at 1305 1st Ave., is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you. What would you like to order from Starbucks?"
+    },
+    {
+      "speaker": "client",
+      "text": "Please order me 3 cherry mocha's, each with whipped cream and all venti sizes.."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, you want 3 cherry mocha's with whipped cream with all being venti sizes. Is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes it is."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What type of milk for your beverages?"
+    },
+    {
+      "speaker": "client",
+      "text": "2 with Soy milk, the other with 2% milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, you said two with Soy milk, 1 with 2% milk. Is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, it is. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, is there anything else you would like added to your beverages?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that is it. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is there anything else you would like to order from this Starbucks location?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, do you have any croissants available?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, this location does have croissants available. How many would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I just need two."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You said two, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else you would like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "No"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, you order 3 venti cherry mochas, 2 with Soy milk and 1 with 2% milk, and 2 croissants, was that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, your order will be ready and available to pick up within 15 to 20 minutes. Was there anything else I can help you with?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. Goodbye!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "3",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cherry mocha's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cherry mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "2",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "two",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cherry mochas",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-507b5c92-8edb-4f3b-8198-56ed7ec6b4bc",
+  "created_at": "2026-02-15T15:44:17.139Z"
+}

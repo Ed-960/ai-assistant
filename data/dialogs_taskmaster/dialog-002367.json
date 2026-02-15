@@ -1,0 +1,132 @@
+{
+  "dialog_id": 2367,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2367"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'm in the mood for ordering a coffee from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. Which location is best for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "The address is 199 1st Ave N, St Petersburg, FL"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. What do you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll get freshly brewed hot coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size would you like it?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a tall."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want anything in it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes I want halzenut syrup?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "How about milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes I would like 2% milk added."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Just he regular amount of milk or something extra."
+    },
+    {
+      "speaker": "client",
+      "text": "Just the regular amount."
+    },
+    {
+      "speaker": "cashier",
+      "text": "With the hazelnut how many pumps do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll take 4 pumps since it is a small."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. Anything else to add"
+    },
+    {
+      "speaker": "client",
+      "text": "No I think that is it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok so you have a tall hot coffee with 4 pumps of hazelnut and 2% milk. Correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's exactly right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok the drink is ordered for pickup shortly at 199 1st Ave N, St Petersburg, FL. You''ll get a text receipt."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "freshly brewed hot coffee.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "freshly brewed hot coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hot coffee",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-9a5734e7-42cc-46a9-bf3d-7f03b07bbe99",
+  "created_at": "2026-02-15T15:44:17.174Z"
+}

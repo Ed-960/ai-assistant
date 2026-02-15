@@ -1,0 +1,137 @@
+{
+  "dialog_id": 1109,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1109"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello. how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey, I wanted to get pizzas from Bella Luna today. Can you help me order?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, let me place the order for you. What did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want two small gluten flee crust pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what did you want on those pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "On the first one I want fried green pepper and then on the other one I want anchovy and mushrooms."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, the total for 2 small gluten free crust pizzas, 1 with feta cheese and green peppers and 1 with anchovies and mushrooms is $25.67."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else, or should i place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just to confirm, $25 for two small pizzas?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes, that is right."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, yea I guess, go ahead and put it in."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i've placed the order. It'll be ready in 25 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's all I needed."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome, enjoy."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten flee crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "fried green pepper",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "anchovy",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "feta cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "green peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "anchovies",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-9d99a694-a2d2-46c9-96ea-3da580674328",
+  "created_at": "2026-02-15T15:44:17.010Z"
+}

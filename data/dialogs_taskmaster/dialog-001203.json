@@ -1,0 +1,122 @@
+{
+  "dialog_id": 1203,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1203"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I was wanting to order a coffee from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, which starbucks should i place the order at?"
+    },
+    {
+      "speaker": "client",
+      "text": "Birchwood Mall."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order a."
+    },
+    {
+      "speaker": "client",
+      "text": "venti black and white mocha with extra whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want the drink iced or hot?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what kind of milk do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Whole milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. so i wrote you down for 1 hot venti black and white mocha with whole milk and extra whipped cream from the starbucks in the birchwood mall in fort gratiot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the total for your order is $4.50. do you need anything else, or should i place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Go ahead. Place your order now."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. i've submitted your order, it'll be ready in 10 mins for pick up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, that'll be it for me. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy the caffeine. good bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black and white mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caffeine",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-aa5e0f22-207c-4106-a487-0980eb95d9d6",
+  "created_at": "2026-02-15T15:44:17.020Z"
+}

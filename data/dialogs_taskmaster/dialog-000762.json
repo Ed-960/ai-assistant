@@ -1,0 +1,110 @@
+{
+  "dialog_id": 762,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=762"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I'd like to place an order from the Starbucks on Market Street in Philadelphia."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order a coffee latte tall with almond milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you said a caffe latte right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, let me place that order for you."
+    },
+    {
+      "speaker": "client",
+      "text": "And this is a tall with almond milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it! one moment while i place that order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, so i have placed an order for a tall caffe latte with almond milk to be picked up from the starbucks on market street in philadelphia, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your receipt will be texted for you."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your caffe latte should be ready for pickup in 10 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's it today. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your coffee."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "coffee latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caffe latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-6a74dd21-6da3-4495-89fc-a8da97d2a8d2",
+  "created_at": "2026-02-15T15:44:16.974Z"
+}

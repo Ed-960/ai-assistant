@@ -1,0 +1,115 @@
+{
+  "dialog_id": 45,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=45"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i help?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order a pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, where from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. what would u like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Four small pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what did u want on those?"
+    },
+    {
+      "speaker": "client",
+      "text": "pepperoni and extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so did you say you wanted 4 small pizzas, all with pepperoni and extra cheese?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "$41.22 is the total. would you like me to place the order at Bella Luna for pick up?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. i've placed the order. it'll b ready for pick up in 35 mins."
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did u need anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. good bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-074129fb-2960-4543-a28f-a615be2ec621",
+  "created_at": "2026-02-15T15:44:16.893Z"
+}

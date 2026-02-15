@@ -1,0 +1,146 @@
+{
+  "dialog_id": 1019,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1019"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Yes, good day. I want to order a coffee from Starbucks Espresso Beverages."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi there."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay so that's a starbucks esspresso?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great and what starbucks did you want to pick it up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, Starbucks in New York City."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can I get a more exact address? There are several in new york city."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "There are three starbucks in that location. Which did you mean?"
+    },
+    {
+      "speaker": "client",
+      "text": "Give me their locations."
+    },
+    {
+      "speaker": "client",
+      "text": "Or better still, I'll go for a Starbucks at 1500 Broadway, New York City."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. That's one of the ones on the list."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "client",
+      "text": "So, can I go ahead with my order?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what did you want to drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need a Schweitzer."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay what kind of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's a grande espresso with whipped cream and extra sugar from the starbucks on Broadway in New York City."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's a grande espresso with whipped cream and extra sugar from the starbucks on Broadway in New York City."
+    },
+    {
+      "speaker": "client",
+      "text": "exactly."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. It'll be ready soon. You'll get a reciept via text soon as well."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. How soon?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "in a minute."
+    },
+    {
+      "speaker": "client",
+      "text": "All right."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "esspresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "espresso",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-8e8a46b9-cb16-40e9-9f4c-67e3a4c8d50d",
+  "created_at": "2026-02-15T15:44:17.001Z"
+}

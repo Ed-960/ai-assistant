@@ -1,0 +1,127 @@
+{
+  "dialog_id": 1755,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1755"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "How are you Grace today, I would like to order me some coffee from starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I am fine Sir. Which is your prefered store where I should make the order?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Granbury store, I like there coffee"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which is your preferred Flavor?"
+    },
+    {
+      "speaker": "client",
+      "text": "I will appreciate if you got me caffe Latte"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Nice choice, tried it once and it did not disappoint."
+    },
+    {
+      "speaker": "client",
+      "text": "I am a lady with taste as I always tell you young lady."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I know."
+    },
+    {
+      "speaker": "client",
+      "text": "By the way have you tried Caramel Macchiato?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, once it is nice but I will prefer caffe latte."
+    },
+    {
+      "speaker": "client",
+      "text": "As you say, Reason I chose you as my assistant"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Don't make me ask for a raise"
+    },
+    {
+      "speaker": "client",
+      "text": "Heey! get serious, let me not come and miss my drink."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I am working on it. At what time do you want the coffee delivered?"
+    },
+    {
+      "speaker": "client",
+      "text": "9 am will be okay with me"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Unfortunately 9 am is not possible, you either take 930am or 830am."
+    },
+    {
+      "speaker": "client",
+      "text": "No problem, do 830am"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Order confirmed. You will receive a payment notification through sms"
+    },
+    {
+      "speaker": "client",
+      "text": "Heard my phone vibrate, thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Welcome"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "caffe Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caramel Macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caffe latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caffe latte.",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-03b68c04-9246-4b22-b1ff-ba06a7b9fac8",
+  "created_at": "2026-02-15T15:44:17.092Z"
+}

@@ -1,0 +1,127 @@
+{
+  "dialog_id": 804,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=804"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I would like to order an espresso from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, did you want just a plain espresso?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I wanted a caramel macchiato."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size did you want that drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "venti."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and did you want it iced or hot?"
+    },
+    {
+      "speaker": "client",
+      "text": "A hot, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "were you okay with whole milk, or did you want another milk type?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want soy milk, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. did u need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that is all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "which starbucks should i place the order at?"
+    },
+    {
+      "speaker": "client",
+      "text": "the Starbucks at Galleria mall in Houston, Texas."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "i submitted your order. it'll b ready for pick up in 10 mins. the receipt has also been sent to you via text message."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need my help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that is all. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, take care."
+    },
+    {
+      "speaker": "client",
+      "text": "You too, bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "plain espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caramel macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-6fecff89-73a5-41cc-b29f-6bd168492c76",
+  "created_at": "2026-02-15T15:44:16.978Z"
+}

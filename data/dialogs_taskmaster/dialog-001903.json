@@ -1,0 +1,117 @@
+{
+  "dialog_id": 1903,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1903"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like to order some coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what city are you located near?"
+    },
+    {
+      "speaker": "client",
+      "text": "Fort Gratiot, Michigan"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, and where would you like to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll take a Black and White Mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Venti"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What type of milk would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Whole milk"
+    },
+    {
+      "speaker": "cashier",
+      "text": "And do you want whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, your total has been sent to your email, and your drink will be ready for pickup in 5 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thanks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Can I help you with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, have a wonderful day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Black and White Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-28471428-5444-4d4f-bb33-50916a133686",
+  "created_at": "2026-02-15T15:44:17.117Z"
+}

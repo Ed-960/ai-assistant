@@ -1,0 +1,135 @@
+{
+  "dialog_id": 2379,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2379"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi. Can you order me a drink from Peet's Coffee for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yeah sure. Are you going to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. I'll pick it up at the Redondo Beach Peet's Coffee location."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. What would you like me to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I think a latte would good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Just a plain latte? Or would you like some kind of flavored one?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll take a caramel latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Should I get you a hot one or an iced one."
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like it hot, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Get me a large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You usually order non-dairy drinks, right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Right, so make sure they make it with almond milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Is there anything else you'd like to add to your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like some light whipped cream too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So, anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. That's all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I've got a large hot almond milk caramel latte with light whipped topping. Is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. That sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. I have placed your order at the Redondo Beach Peet's Coffee. It will be ready for pick up shortly. Your receipt will be sent via text message to your mobile device. Do you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. Thanks for your help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Indeed. Have a nice evening."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "plain latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caramel latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-9ef6d42b-bd87-41fb-8b8a-04711ff6b8c6",
+  "created_at": "2026-02-15T15:44:17.175Z"
+}

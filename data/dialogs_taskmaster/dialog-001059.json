@@ -1,0 +1,155 @@
+{
+  "dialog_id": 1059,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1059"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I need to order pizza from Bella Luna's."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, how many pizzas would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need three large pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure and what are the toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's do two veggie, and then one Do do they have bacon?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Yeah, two veggie and then one bacon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's do large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what type of crust do you prefer?"
+    },
+    {
+      "speaker": "client",
+      "text": "Do they do like the thick crust?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Yeah, let's do that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so your order is: 3 large thick crust pizzas. 2 veggie and one bacon, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, and I need extra cheese on all of them."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, extra cheese on all 3 pizzas. Your total is $55."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be ready for pickup at bella luna's soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome, bye!"
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-963f952a-d26f-4da6-8f7c-227ac540a81e",
+  "created_at": "2026-02-15T15:44:17.005Z"
+}

@@ -1,0 +1,126 @@
+{
+  "dialog_id": 1872,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1872"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi. I'd like to order a drink from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What location do you want to order it from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order it from the location on Cross Timbers Road in Flower Mound."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. And what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to get an Iced Pumpkin Spice Latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to get a Venti."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And is there a particular type of milk that you prefer?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd prefer almond milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And would you like whipped cream on it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I'd like that. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is that everything?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's it. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, so I have one Venti Iced Pumpkin Spice Latte with almond milk and whipped cream."
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. I have placed your order."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It should be ready for pickup shortly and your receipt will be sent to your mobile device via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a wonderful day. "
+    },
+    {
+      "speaker": "client",
+      "text": "You too!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Iced Pumpkin Spice Latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-20b13528-7727-4e8c-ac3b-c4765322ec22",
+  "created_at": "2026-02-15T15:44:17.112Z"
+}

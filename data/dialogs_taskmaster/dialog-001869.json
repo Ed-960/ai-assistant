@@ -1,0 +1,149 @@
+{
+  "dialog_id": 1869,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1869"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi can you order me a drink from Starbucks please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hello I'd be happy to do that. What location would you like me to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Starbucks at Clarion University in Clarion, PA."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay and what drink do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like a vanilla latte please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure and can I ask what size you'd like - short, tall, grande, or venti?"
+    },
+    {
+      "speaker": "client",
+      "text": "I think I'd like a tall please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay and what type of milk would you like in it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Order whole milk please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure and are there any special requests/directions for the order?"
+    },
+    {
+      "speaker": "client",
+      "text": "No just a standard vanilla latte with whole milk please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay and what time do you want it ready for?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd say in about 20 minutes I will pick it up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay I will go ahead and order it now and have it charged to your account."
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds perfect thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You are welcome, let me order and I will confirm for you."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have ordered your vanilla latte and it will be ready for pick up in 20 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, confirmation of your order has been sent to your cell phone via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "I just received the text, thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome, have a good day."
+    },
+    {
+      "speaker": "client",
+      "text": "You too."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "vanilla latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "short",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "standard vanilla latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-1f6473dc-7b34-4078-b2e0-45ca34d1113e",
+  "created_at": "2026-02-15T15:44:17.112Z"
+}

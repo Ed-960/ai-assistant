@@ -1,0 +1,121 @@
+{
+  "dialog_id": 720,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=720"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "What can I do today?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hello?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "i'm not hearing you."
+    },
+    {
+      "speaker": "client",
+      "text": "Hello."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you want me to help order dinner?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like four large pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great what toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "four meat lovers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's 4 large meat lover pizzas, any extras today?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like extra cheese on all of them."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, 4 meatlovers with extra cheese comes out to $88.49."
+    },
+    {
+      "speaker": "client",
+      "text": "I want to order from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. Your order will be ready in 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a nice day."
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lover",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meatlovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-642ce38c-108b-44a0-958d-1987ba18b81a",
+  "created_at": "2026-02-15T15:44:16.970Z"
+}

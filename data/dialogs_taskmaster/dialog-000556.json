@@ -1,0 +1,107 @@
+{
+  "dialog_id": 556,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=556"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Yes. I'd like to place an order at Peet's Coffee and tea."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to order from peet's?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like a small caffè latte with no-fat milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want your drink iced or hot?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hot, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and which peet's should i place the order at?"
+    },
+    {
+      "speaker": "client",
+      "text": "On Massachusetts Avenue in Lexington, Massachusetts."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. 1 small cafe latte with non fat milk from peet's on massechusetts avenue in lexington massechussets will be $4."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "should i place the order now?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i've submitted your order. it'll b ready for pick up in 10 mins."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "i've also sent you the receipt via text. did you need anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, take care then! have a great day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caffè latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cafe latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-4f88c48d-72ad-40d5-ad67-3812fcff8541",
+  "created_at": "2026-02-15T15:44:16.951Z"
+}

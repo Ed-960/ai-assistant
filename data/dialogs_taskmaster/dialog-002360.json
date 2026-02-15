@@ -1,0 +1,174 @@
+{
+  "dialog_id": 2360,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2360"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Could you order me a coffee from Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which location did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one on Military Dr."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok did you want anything else"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes can you order me a pizza from Pizza Hut?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure what size do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "2 large pizzas with pepperoni on both"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want any additional toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes actually add some pineapples"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Pineapples it is. Did you want ranch on the side"
+    },
+    {
+      "speaker": "client",
+      "text": "Sure some ranch and also parmesan cheese and chili flakes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok did you want any wings"
+    },
+    {
+      "speaker": "client",
+      "text": "Sure order me the garlic parmesan with blue cheese dressing"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok and anything to drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "Coke is fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Let me check. They only have Pepsi."
+    },
+    {
+      "speaker": "client",
+      "text": "No get me Mountain Dew instead."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No that's it, that's enough. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok they said they can send you a receipt via text"
+    },
+    {
+      "speaker": "client",
+      "text": "That's perfect. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok everything's confirmed, the pizza will be ready for pickup in about 25 minutes"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok thanks for your help. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Pizza Hut",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapples",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pineapples",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ranch",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ranch on the side",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ranch and also parmesan cheese and chili flakes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "parmesan cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chili flakes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Ok everything's confirmed, the pizza will be ready for pickup in about 25 minutes",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-98f15153-c26d-400e-b323-e737ca7d714b",
+  "created_at": "2026-02-15T15:44:17.173Z"
+}

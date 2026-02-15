@@ -1,0 +1,167 @@
+{
+  "dialog_id": 292,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=292"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can I help you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hello, I would like to get a Starbucks espresso beverage, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you would like to order expresso from starbucks is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok how many shots?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like I would like just one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok single shot expresso, got it."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. And I would like a drink for pickup at a closest store near my house."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok let me find the store closes to you, where are you close to?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm at 210 Hartness Road, Statesville, NC."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok so you said 210 hardness road is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok and for which state ?"
+    },
+    {
+      "speaker": "client",
+      "text": "North Carolina."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok let me find a store nearby 210 Haynes rd in north carolina."
+    },
+    {
+      "speaker": "cashier",
+      "text": "we have a starbucks at 1700 Blowing Rock Road is that ok for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok let me confirm your order for you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "thats a single shot expresso at a starbucks at 1700 Blowing Rock Road is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, but I would like my expresso with whip cream and sugar, please. Not stevia sugar."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok espresso with whipped cream and sugar is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok updating your order, one moment please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok we have 1 single shot espresso with whipped cream and sugar to be picked up at 1700 Blowing Rock Road starbucks, would you like to confirm your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's that's okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your drink has been ordered at the store and will be ready for pickup shortly. your receipt will be sent to your mobile device via text message."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, enjoy your coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "expresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "whip cream",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sugar",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-28976844-7d99-44ad-a14a-6b5e3a4d1a41",
+  "created_at": "2026-02-15T15:44:16.923Z"
+}

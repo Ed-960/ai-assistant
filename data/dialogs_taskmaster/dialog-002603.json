@@ -1,0 +1,157 @@
+{
+  "dialog_id": 2603,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2603"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I want to order three pizzas"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok From Where?"
+    },
+    {
+      "speaker": "client",
+      "text": "Giordanos"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok what kind"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok i want a large deep dish sausage pizza"
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK"
+    },
+    {
+      "speaker": "client",
+      "text": "A large deep dish pepporni"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok"
+    },
+    {
+      "speaker": "client",
+      "text": "I also want a large thin cheese"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok will that be all"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok well i will call it in"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Its going to be 57.92"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok how long willit be"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It will 25 minutes"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok its all set"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You are welcome"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Giordanos",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "deep dish",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "deep dish sausage pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "deep dish pepporni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepporni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-db1f2ee2-7b86-44c0-ae3f-93f2a981d7b1",
+  "created_at": "2026-02-15T15:44:17.202Z"
+}

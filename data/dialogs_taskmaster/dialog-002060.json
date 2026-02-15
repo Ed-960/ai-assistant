@@ -1,0 +1,122 @@
+{
+  "dialog_id": 2060,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2060"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like to make an order from Starbucks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, I can help with that, which location are you picking up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "It's in Woodbridge Center in Woodbridge, NJ"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, and what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get a Venti Iced Cafe Latte?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, would you like anything on it or no?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just some whipped cream on top, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, and sugar and milk is fine the way it is?"
+    },
+    {
+      "speaker": "client",
+      "text": "A few sugars and little bit of milk. It doesn't matter to me what kind."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, perfect. And you will be picking this up now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, it the next 20 minutes or so."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK. The price will be around $4-5 for the iced latted, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Awesome, then I will go ahead and place that order for you now. It should be ready shortly. You should be receiving a receipt confirming your order shortly after this call."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect, thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. You would like to place another order?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's it for today. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome. Is there anything else I can assist you with?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's it for now."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. Thank you and have a good day!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Iced Cafe Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced latted",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-4e84639c-89dd-452d-b3c2-3dcde50f1285",
+  "created_at": "2026-02-15T15:44:17.138Z"
+}

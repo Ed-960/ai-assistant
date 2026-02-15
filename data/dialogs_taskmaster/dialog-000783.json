@@ -1,0 +1,131 @@
+{
+  "dialog_id": 783,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=783"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there! How can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. I would like to order a caffè Americano from the Starbucks on 87th street in Chicago, Illinois."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, let me find that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it! on 160 W 87th St Bldg."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "for your americano, what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "tall."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Tall, okay, any sugars or sweeteners?"
+    },
+    {
+      "speaker": "client",
+      "text": "honey in whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Honey, and whip cream, noted. Anything else for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Make it whole milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, add a splash of whole milk."
+    },
+    {
+      "speaker": "client",
+      "text": "That is all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so a tall americano, with Honey a splash of whole milks and whip cream."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "wonderful! give me a moment to send it on over."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, your order has been sent to your desired location. It will be ready for pickup in 5-8 min."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "have a great day!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Byebye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "caffè Americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Tall",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-6d5edcd8-3749-4f42-a58e-7c39f1e05472",
+  "created_at": "2026-02-15T15:44:16.976Z"
+}

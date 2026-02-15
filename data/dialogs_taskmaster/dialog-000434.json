@@ -1,0 +1,107 @@
+{
+  "dialog_id": 434,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=434"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I was looking to get some coffee from Starbucks in Fort Gratiot, Michigan."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I was thinking a black and white mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of milk would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "whole milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "a Venti."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so your order is: a venti black and white mocha with whole milk and whipped cream, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your coffee will be ready for pickup soon at the starbucks in fort gratiot."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "black and white mocha.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black and white mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-3db0fa8c-2a7f-4d11-886c-3ecef02ee01d",
+  "created_at": "2026-02-15T15:44:16.938Z"
+}

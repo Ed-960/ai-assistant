@@ -1,0 +1,160 @@
+{
+  "dialog_id": 2146,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2146"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I want to order a pizza today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Lovely, where from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to get a pizza from Home Slice Pizza in Austin, TX please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I am here for you. What toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want beef and pineapple."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh, they don't have beef today."
+    },
+    {
+      "speaker": "client",
+      "text": "Well, what other toppings do they have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They have onion, peppers, anchovies, pepperoni and some others. Do any of these interest you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, how about pepperoni instead?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I would be happy to help you with that."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What type of crust do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a pan pizza please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will order that for you. "
+    },
+    {
+      "speaker": "client",
+      "text": "Great!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "That comes to $15.99. I can charge that to your card."
+    },
+    {
+      "speaker": "client",
+      "text": "Sure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great the pizza will be ready for pickup in 25 minutes. "
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. I can't wait for the pizza!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your receipt is being sent to your mobile device via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks again."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Home Slice Pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Austin, TX",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "beef",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onion",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "anchovies",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pan pizza",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-63cdea97-6d66-4a6f-a9fa-b642caaeb4bb",
+  "created_at": "2026-02-15T15:44:17.149Z"
+}

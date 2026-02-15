@@ -1,0 +1,250 @@
+{
+  "dialog_id": 411,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=411"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hey there, how can i assist you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hello?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to purchase some pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, i can place the order for you. What do you want to eat?"
+    },
+    {
+      "speaker": "client",
+      "text": "Well, we'd love to have three medium pizzas, one with spinach and."
+    },
+    {
+      "speaker": "client",
+      "text": "ground beef."
+    },
+    {
+      "speaker": "client",
+      "text": "one with."
+    },
+    {
+      "speaker": "client",
+      "text": "One Meat Lover's and."
+    },
+    {
+      "speaker": "client",
+      "text": "Let's do one Italian-style. And they should all be thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sorry, it doesn't look like bella luna has ground beef."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want another topping?"
+    },
+    {
+      "speaker": "client",
+      "text": "Do they have roast beef?"
+    },
+    {
+      "speaker": "client",
+      "text": "or sausage, sure. We don't have roast beef just put it down for a Okay, put it down for a sausage, then."
+    },
+    {
+      "speaker": "cashier",
+      "text": "they do not. They do have pepperoni and sausage."
+    },
+    {
+      "speaker": "client",
+      "text": "But down for sausage, okay? And they should all be thin crust pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so your order is 3 medium pizzas, 1 with spinach and sausage, 1 meat lovers, and 1 italian style, all with thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get."
+    },
+    {
+      "speaker": "client",
+      "text": "tomatoes on the one with spinach?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want fresh tomatoes, or sun dried?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, Sundried."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome, so the updated order is 3 medium pizzas, 1 with spinach, sausage and sun dried tomatoes, 1 meat lovers, and 1 italian style, all with thin crust."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeap."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the total for the order is $56.97."
+    },
+    {
+      "speaker": "cashier",
+      "text": "should i place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yap."
+    },
+    {
+      "speaker": "client",
+      "text": "a place of pickup."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i've ordered your pizzas. It'll be ready for pick up in 25 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "All right. Sounds good. No, that should be it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, take care."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "spinach",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ground beef",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Meat Lover's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Italian-style",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "roast beef",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "italian style",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "fresh tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sun dried",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Sundried",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sun dried tomatoes",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-3abaa691-9717-4a39-bf1c-bd39f2e18f12",
+  "created_at": "2026-02-15T15:44:16.936Z"
+}

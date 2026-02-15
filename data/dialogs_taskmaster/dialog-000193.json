@@ -1,0 +1,170 @@
+{
+  "dialog_id": 193,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=193"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. Could you help me with ordering pizza from Bella Luna?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure! how many pizzas would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like three medium pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what kind of toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "On the first one, I would like just plain pepperoni."
+    },
+    {
+      "speaker": "client",
+      "text": "On the second pizza, I would like ham and pineapple."
+    },
+    {
+      "speaker": "client",
+      "text": "And with the third pizza, I would like chicken Barbecue."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what type of crust do you prefer?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just regular regular crust is fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any other special instruction?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Could you put extra cheese on those pizzas?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, that is $2.50 per pizza, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so 3 medium pizzas. a pepperoni, the second is with ham and pineapple and the third is chicken bbq. extra cheese on all 3. did i get that correctly?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome! your total will be $43.50 plus tax."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. Thank you so much for putting that in for me."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're very welcome! your pizzas will be ready for pickup at bela luna's soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome! enjoy! bye bye."
+    },
+    {
+      "speaker": "client",
+      "text": "I will. Thank you. Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "plain pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken Barbecue",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular regular crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken bbq",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bela luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-18f5d3b0-051c-4da8-a61b-5d436be5322c",
+  "created_at": "2026-02-15T15:44:16.912Z"
+}

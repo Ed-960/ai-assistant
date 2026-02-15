@@ -1,0 +1,187 @@
+{
+  "dialog_id": 629,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=629"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm looking to order some pizza from a pizzeria called Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like Well, I would like four large pizzas. One of them, I would like just butter. A lot of butter on the first pizza. On the second pizza, I would like a bunch of shrimp. On the third pizza, I would like a bunch of crab. And on the last pizza, let's go with lobster."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, bella luna's doesn't have crab but they do have shrimp and lobster."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. So, I still need four pizzas. So, on the last pizza, can I get how about just regular pepperoni?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, and for the butter pizza did you want butter sauce?"
+    },
+    {
+      "speaker": "client",
+      "text": "Wow. Yeah, definitely. Of course."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, so you are ordering 4 large pizzas, one with butter sauce and cheese, 1 shrimp, 1 lobster, and 1 pepperoni, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. And if you wouldn't mind, can you make all of them thin crust, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, i'll add that to the order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your total will be $96, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Are you guys running a special? Can I add in a coupon?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "i can check to see if they have any coupons for you, one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "it looks like you can add a side for free."
+    },
+    {
+      "speaker": "client",
+      "text": "Cool. Can I get a side of fries, then?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, i can add that to your order."
+    },
+    {
+      "speaker": "client",
+      "text": "That's perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to dine-in, pick up, or have your order delivered?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to pick it up, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your order will be ready in 45 minutes and your receipt will be texted to you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "butter",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "shrimp",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "crab",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "lobster",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "butter pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "butter sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-588cb796-2fd0-4673-9cde-9a58a3c57887",
+  "created_at": "2026-02-15T15:44:16.960Z"
+}

@@ -1,0 +1,151 @@
+{
+  "dialog_id": 2433,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2433"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi there! I'd like to order a pizza from Luna Pizzaria."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing. Which store would you like to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The closest one if possible, they're all pretty good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just a margherita pizza would nice."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Personal or large?"
+    },
+    {
+      "speaker": "client",
+      "text": "A personal one should be good?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Any special crusts or toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, just the regular one is fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else? Any salads or deserts or drinks?"
+    },
+    {
+      "speaker": "client",
+      "text": "Actually a salad doesn't sound too bad. What kind do you have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "There is a chopped salad, a Luna Caesar salad, an arugula and fennel salad and a Cobb salad."
+    },
+    {
+      "speaker": "client",
+      "text": "I'll go with the Caesar then. That sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size would you like? Mini, small or large?"
+    },
+    {
+      "speaker": "client",
+      "text": "A mini is good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else? A desert or a drink maybe."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, I don't have any drinks here. How about an iced tea? "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing. Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that should be all. Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. It should be delivered to you shortly. Have a good day."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Luna Pizzaria",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "margherita",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "margherita pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Personal",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "personal",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular one",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-ac5c7222-b074-4e94-b073-58f563bc165a",
+  "created_at": "2026-02-15T15:44:17.182Z"
+}

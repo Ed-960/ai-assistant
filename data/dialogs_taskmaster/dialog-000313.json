@@ -1,0 +1,184 @@
+{
+  "dialog_id": 313,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=313"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "I order another pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "order pizza sure."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "where do you want to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "New York City."
+    },
+    {
+      "speaker": "cashier",
+      "text": "which business do you want to order your pizza from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Bella Luna in new york city, got it."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, How many pizza would you like to order today?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want three pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size will your pizza be?"
+    },
+    {
+      "speaker": "client",
+      "text": "a lot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what are your choice of toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "chicken barbecue."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any other special instruction?"
+    },
+    {
+      "speaker": "client",
+      "text": "gluten-free crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok one moment while i confirm your order."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so that's 3 large pizza, chicken BBQ with gluten free crust is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. All right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok your total comes to 72 dollars, confirm the order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizza's are on order at the local Bella Luna pizzeria and will be ready for pickup in 30 min."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nothing. Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you are welcome, enjoy your pizza."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "New York City.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "new york",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken barbecue",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken BBQ",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna pizzeria",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-2ca8d360-379b-49a5-9bfc-b3bd1d14d865",
+  "created_at": "2026-02-15T15:44:16.925Z"
+}

@@ -1,0 +1,192 @@
+{
+  "dialog_id": 2303,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2303"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi there, I'd like to make an order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What location are you trying to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Mankato, Minnesota."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK. Fantastic. What can we do for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to make an order for two large pizzas"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds good. Is this for pick up or delivery?"
+    },
+    {
+      "speaker": "client",
+      "text": "Pick up please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, what would you like on the first pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like just pineapple and ham on the first one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Pineapple and Ham? OK, got it. What crust would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll just take the regular crust please, for both."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright. And what would you like on the second one?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just plain cheese on that one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, and that one is on our traditional crust too, right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is that everything?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's it"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Are you interested in any of our sides or dipping sauces?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I'm fine, thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, so just to confirm you want 2 large pizzas, traditional crust, one plain cheese and one with pineapple and ham?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK. So your total is going to be $21.02 after tax"
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How would you like to pay?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll pay via my Pizza account that's linked to my phone"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Are you calling from the same number as linked to your account?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. We'll send the receipt to your mobile device via text message "
+    },
+    {
+      "speaker": "client",
+      "text": "That's perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, your order will be available for pickup in about 25 minutes. We'll see you then!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Mankato, Minnesota",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "plain cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "traditional crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-8b8a658d-26ee-40da-b50b-e89225c10c4c",
+  "created_at": "2026-02-15T15:44:17.167Z"
+}

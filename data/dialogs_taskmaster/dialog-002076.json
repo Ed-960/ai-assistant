@@ -1,0 +1,167 @@
+{
+  "dialog_id": 2076,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2076"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Can I get a blond cinnamon shortbread latte?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Where? At the Starbucks at 101 Broadway East or 1401 Broadway?"
+    },
+    {
+      "speaker": "client",
+      "text": "Neither, at 1124 Pike Street."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. The blond cinnamon shortbread latte is not avaliable."
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get a cinnamon latte and an espresso, then?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The cinnamon latte is not avaliable. Espresso added."
+    },
+    {
+      "speaker": "client",
+      "text": "Nevermind the espresso, then."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Espresso removed."
+    },
+    {
+      "speaker": "client",
+      "text": "Iced mocha latte?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Iced cafe mocha or Black and White mocha?"
+    },
+    {
+      "speaker": "client",
+      "text": "Black and white mocha. And a blond eggnog latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Both added. That'll cost $7.53. What size would you like for the black and white mocha?"
+    },
+    {
+      "speaker": "client",
+      "text": "Venti. And venti for the blong eggnog."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. What type of milk would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Full for black and white mocha, 2% for blond eggnog."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like anything else for the drinks?"
+    },
+    {
+      "speaker": "client",
+      "text": "Whipped cream and marshmellows on both."
+    },
+    {
+      "speaker": "cashier",
+      "text": "That starbucks location does not have marshmellows."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, just whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, both drinks will be ready for pickup shortly."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "blond cinnamon shortbread",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cinnamon latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Iced mocha latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Iced cafe mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Black and White mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Black and white mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "blond eggnog latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black and white mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "blong eggnog",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "blond eggnog",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-52ef3a07-6627-42e9-a1b6-b2045026baa8",
+  "created_at": "2026-02-15T15:44:17.140Z"
+}

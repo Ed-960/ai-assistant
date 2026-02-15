@@ -1,0 +1,137 @@
+{
+  "dialog_id": 711,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=711"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hello!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "How may i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "just confirming."
+    },
+    {
+      "speaker": "cashier",
+      "text": "from starbucks?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what type of milk do you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Do you have soy milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes, starbucks has soy milk."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. I'd like the same old place."
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else in your drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I add like honey to it?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sounds good."
+    },
+    {
+      "speaker": "client",
+      "text": "Yep. That will be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "to confirm."
+    },
+    {
+      "speaker": "cashier",
+      "text": "venti latte macchiato with soy milk and honey."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sending your order in now."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your order will be ready at the starbucks on california street in 10 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "good bye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "latte macchiato",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-62d18ad5-dc97-421c-b62b-18d4576ffbe2",
+  "created_at": "2026-02-15T15:44:16.969Z"
+}

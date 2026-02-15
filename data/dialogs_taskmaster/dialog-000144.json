@@ -1,0 +1,130 @@
+{
+  "dialog_id": 144,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=144"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how may i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I am trying to place an order at my local Starbucks on Walnut in Culver in Irvine, California."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sounds good. what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I was thinking I'll go with the latte macchiato."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "A grande with whole milk. Hot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and did you want that iced or hot?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. i wrote you down for 1 grande iced cafe americano with 2% milk from the starbucks on wall street."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sorry about that, i mixed up orders."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "it was for 1 hot latte macchiato with whole milk from the starbucks on outen and culver."
+    },
+    {
+      "speaker": "client",
+      "text": "There you go. Yeah, that's right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. That's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, the total is going to be $2.00."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. Great. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "i've placed the order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "it'll b ready in 15 mins."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. Nope, that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, good bye."
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "latte macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cafe americano",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-132bfd63-4156-47cd-b73c-0511c998af6f",
+  "created_at": "2026-02-15T15:44:16.906Z"
+}

@@ -1,0 +1,154 @@
+{
+  "dialog_id": 1561,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1561"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, I'd like to I'd like to order two pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure thing."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what type of pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "All right. Make both of those large. For my toppings I'd like chicken, tomato, jalapeno, and sausage. And this is for both the crust. Please make sure they are both glued in cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok sounds good."
+    },
+    {
+      "speaker": "client",
+      "text": "Do you have my order? Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "will that be all for you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "to confirm, you want 2 large pizzas, chicken, tomatoes, jalapenos, and sausage on both pizzas. both pizzas gluten free."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "the total will be $36.39. Would you like to purchase now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the order has been booked. the pizzas will be ready in 20 minutes at your local bella lunas."
+    },
+    {
+      "speaker": "client",
+      "text": "That should be it for today. Appreciate it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is there anything else i can help you with?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "you got it, take care."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you so much."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tomato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "jalapeno",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "glued in cream",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "jalapenos",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella lunas",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-e34d0918-b70a-4230-bba9-8afb808be321",
+  "created_at": "2026-02-15T15:44:17.059Z"
+}

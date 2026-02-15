@@ -1,0 +1,138 @@
+{
+  "dialog_id": 5,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=5"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "All right, I'd like to order from Starbucks, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, where is the store located?"
+    },
+    {
+      "speaker": "client",
+      "text": "McGuire Air Force Base."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you say mcguire airforce base?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I did."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok and what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order a cappuccino."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "a grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. what type of milk do you prefer?"
+    },
+    {
+      "speaker": "client",
+      "text": "Could I have nonfat milk, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, any whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, it's clean."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. is there anything else you would like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so a grande capuccino with nonfat milk, is this correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. your coffee will be ready for pickup soon at the starbucks store at the mcguire airforce base."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome. you will receive a text message with your receipt."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye, enjoy!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cappuccino.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "capuccino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-00f15e48-9e19-44cc-9cfe-d73edd4db6f1",
+  "created_at": "2026-02-15T15:44:16.883Z"
+}

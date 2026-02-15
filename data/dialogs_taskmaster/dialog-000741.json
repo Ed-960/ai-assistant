@@ -1,0 +1,125 @@
+{
+  "dialog_id": 741,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=741"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Are you there?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, can I get three large pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what toppings did you want on those 3 pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get pineapple and bacon, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "did u want pineapple and bacon for all 3?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what kind of crust did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Gluten-free, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. your order of 3 large pizzas all with gluten free crust, and all with pineapple and bacon comes out to $42.50."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want me to place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I've submitted the pizza order for you. The pizza will be ready for pick up in 35 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok bye."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Gluten-free",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-66fdf467-e15f-41c1-b48b-8d3976ddb16b",
+  "created_at": "2026-02-15T15:44:16.972Z"
+}

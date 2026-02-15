@@ -1,0 +1,120 @@
+{
+  "dialog_id": 778,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=778"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like to order a Matcha Latte from Starbucks to with whole milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sorry, can you please repeat what kind of coffee you would like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like a mucho latte with whole milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure. What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so i have a grande macha latte with whole milk and whipped cream. Correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Correct. Yes. 16th Street in Denver."
+    },
+    {
+      "speaker": "cashier",
+      "text": "where would you like to pick it up?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your coffee will be ready for pickup soon at the starbucks store at 16th street, in denver."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome. Your receipt will be sent to you via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye now."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Matcha Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mucho latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "macha latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-6d1bd1c9-5b11-40aa-b1ea-3d00ba3fe6f0",
+  "created_at": "2026-02-15T15:44:16.976Z"
+}

@@ -1,0 +1,152 @@
+{
+  "dialog_id": 1998,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1998"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Sarah, can you get me a coffee?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure boss, what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm thinking something...chocolate."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. Can you be more specific?"
+    },
+    {
+      "speaker": "client",
+      "text": "How about Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, great, I will get myself something too, if you don't mind..."
+    },
+    {
+      "speaker": "client",
+      "text": "Not at all, get whatever...consider it your bonus this month."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Very funny. Other than chocolate Starbucks, what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm glad you asked. How about a Cherry Mocha?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "That's not really chocolate. That's mocha."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, how about a Cordusio?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Again, not very chocolate. Are you sure you know what you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, how about a Caffe Americano?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'll tell you what. I will get you a black and white. That has chocolate."
+    },
+    {
+      "speaker": "client",
+      "text": "Isn't that also a mocha?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It is but it also has chocolate."
+    },
+    {
+      "speaker": "client",
+      "text": "Fine. That will be fine. Just charge it to the account and get yourself something."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thanks! What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "What do you mean?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "How big?"
+    },
+    {
+      "speaker": "client",
+      "text": "How big is what?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "I don't know."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will surprise you."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks Sarah! You're the best!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "chocolate Starbucks",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cherry Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cordusio",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caffe Americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black and white",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-3ea8f3b8-af90-4cae-8451-5b2afde4f6b9",
+  "created_at": "2026-02-15T15:44:17.131Z"
+}

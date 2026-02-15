@@ -1,0 +1,126 @@
+{
+  "dialog_id": 1879,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1879"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey Tatiana!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hello Josh!"
+    },
+    {
+      "speaker": "client",
+      "text": "Are you on the way to office?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, one block away."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, so I just caught you on time."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you need something?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yea, actually I was going to ask you if you could grab me a coffee on your way."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. Do you have something in mind?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to get a Venti Caramel Macchiato."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What type of milk you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Almond milk please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want additional sugar?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, no thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Where should I get it from?"
+    },
+    {
+      "speaker": "client",
+      "text": "You can get it from Starbucks at Kings Highway."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh, sure."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank youTatiana! You can use my account for the payment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright. Your order is ready. I am bringing it."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks again. See you soon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome. Bye."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti Caramel Macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caramel Macchiato",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-22eabc06-b437-40c8-a2ea-5941f356392b",
+  "created_at": "2026-02-15T15:44:17.113Z"
+}

@@ -1,0 +1,126 @@
+{
+  "dialog_id": 2234,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2234"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Please, Mary, do mind ordering coffee from Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like me to call the one in Safeway or the one by McDonalds?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one by McDonalds please, it has a drive through."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "A large mocha latte, and whatever you would like for yourself."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, it'll be a large mocha. Milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, skim milk please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "And, whipped cream please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sugar?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, it'll be a large mocha latte, with skim milk, whipped cream, and no added sugar."
+    },
+    {
+      "speaker": "client",
+      "text": "Would you be able to pick it up?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, as soon as I finish, I'll go."
+    },
+    {
+      "speaker": "client",
+      "text": "Do you mind checking if they have blue berry muffins?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course not."
+    },
+    {
+      "speaker": "client",
+      "text": "You can ask the rest of the office if they would also like something."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, I will do that, then I'll put the order right away."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. I really needed a second breakfast today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'll get it done in no time."
+    },
+    {
+      "speaker": "client",
+      "text": "I appreciate it."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mocha latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-7a42f723-3d9b-47fb-9445-bc08c7220d86",
+  "created_at": "2026-02-15T15:44:17.159Z"
+}

@@ -1,0 +1,134 @@
+{
+  "dialog_id": 1698,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1698"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, what can i do for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to order a coffee drink."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can you repeat that?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to order a coffee drink."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, from where?"
+    },
+    {
+      "speaker": "client",
+      "text": "from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. what kind of coffee would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just a starters with extra honey."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sorry, i didn't understand?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, extra honey."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you want any milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok."
+    },
+    {
+      "speaker": "cashier",
+      "text": "from which starbucks are you picking up your coffee?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size would you like your coffee?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sorry?"
+    },
+    {
+      "speaker": "client",
+      "text": "Regular size."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok"
+    },
+    {
+      "speaker": "cashier",
+      "text": "your coffee will be ready for pickup in 23 minute."
+    },
+    {
+      "speaker": "client",
+      "text": "Hello."
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "coffee drink",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Regular size",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-fa1e197c-ee5a-4f20-a72b-8774b03da8c3",
+  "created_at": "2026-02-15T15:44:17.082Z"
+}

@@ -1,0 +1,108 @@
+{
+  "dialog_id": 452,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=452"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you this afternoon?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order a coffee drink from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what is the pick up location?"
+    },
+    {
+      "speaker": "client",
+      "text": "South Jordan, Utah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay and what kind of coffee would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Call Momoki auto."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Caramel machiatto sounds great. what size do you prefer?"
+    },
+    {
+      "speaker": "client",
+      "text": "large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. A venti size caramel machiatto. any milk preference?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. your coffee has been ordered and should be ready to be picked up in a few minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much."
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you are very welcome! bye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Call Momoki auto",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caramel machiatto",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caramel machiatto",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-3fb80a78-8427-4d7a-b316-f49a15edb116",
+  "created_at": "2026-02-15T15:44:16.940Z"
+}

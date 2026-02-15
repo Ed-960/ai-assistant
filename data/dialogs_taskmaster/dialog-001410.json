@@ -1,0 +1,231 @@
+{
+  "dialog_id": 1410,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1410"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there, what would you like to do today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey, I was thinking about getting pizza for dinner."
+    },
+    {
+      "speaker": "cashier",
+      "text": "pizza for dinner, what a good idea."
+    },
+    {
+      "speaker": "cashier",
+      "text": "where at?"
+    },
+    {
+      "speaker": "client",
+      "text": "Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Bella Luna, sure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How many pizza would you like to order today?"
+    },
+    {
+      "speaker": "client",
+      "text": "I think just two pizzas should do it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok sure 2 pizzas, what size will your pizza be?"
+    },
+    {
+      "speaker": "client",
+      "text": "large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what are your choice of toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "On one of them can I do spinach, and avocado, with red onion? And on the second one a meat lovers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "1 with spanich, riccota with red onion and 1 meat lover is that right."
+    },
+    {
+      "speaker": "client",
+      "text": "a spinach ricotta cheese and red onion."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok spanich, ricotta cheese and red onion."
+    },
+    {
+      "speaker": "cashier",
+      "text": "right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any other special instruction?"
+    },
+    {
+      "speaker": "client",
+      "text": "thick crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "all comes with thick crust is that what you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, let me get your totals for you."
+    },
+    {
+      "speaker": "client",
+      "text": "Hey, thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok your total comes to to 48 dollars for your 2 large pizzas, shall we go ahead and order them?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. Could you confirm the pizzas for me one more time, though?"
+    },
+    {
+      "speaker": "client",
+      "text": "Please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure i can do that."
+    },
+    {
+      "speaker": "client",
+      "text": "Sorry."
+    },
+    {
+      "speaker": "cashier",
+      "text": "bless you."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so we have 2 large pizzas, 1 with spanich, ricotta cheese and red onion and 1 with meat lover is that correct."
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok would you like anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's it. Thank you so much for your help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you are welcome, enjoy your pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "spinach",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "avocado",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "red onion",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "spanich",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "riccota with red onion",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lover",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "spinach ricotta cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ricotta cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-cb197bf1-5d8e-4167-9d3c-a46fe66bb242",
+  "created_at": "2026-02-15T15:44:17.043Z"
+}

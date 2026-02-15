@@ -1,0 +1,146 @@
+{
+  "dialog_id": 523,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=523"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi! there?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hello."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How may I be of service?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hello!"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay how many pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "three."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And what sizes did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "medium."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay what toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "one supreme."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's one supreme and what else?"
+    },
+    {
+      "speaker": "client",
+      "text": "One taco."
+    },
+    {
+      "speaker": "client",
+      "text": "one taco pizza and one Philly cheese stake pizza with thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's one supreme, one taco, and philly lovers pizza with thin crust."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright! that's $49.40."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, your pizza will be ready in 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Great! Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "supreme",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "taco",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "taco pizza and",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one Philly cheese stake pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "philly lovers pizza",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-4a12176c-8e77-4f82-be4d-4674d7bdb99a",
+  "created_at": "2026-02-15T15:44:16.948Z"
+}

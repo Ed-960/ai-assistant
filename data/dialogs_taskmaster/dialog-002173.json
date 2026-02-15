@@ -1,0 +1,127 @@
+{
+  "dialog_id": 2173,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2173"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi Yes? Peter? I need you to order a Starbucks Capuccino, can you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok if I can, a Capuccino, do you need me to ask for something else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I also want an American coffee for my niece who is visiting today, can you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course, I ask for it right away"
+    },
+    {
+      "speaker": "client",
+      "text": "How is the order ready?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "If this list is already paid, it was $ 12.30 for the two drinks"
+    },
+    {
+      "speaker": "client",
+      "text": "A little expensive, but it's worth it"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Well, is this address yours correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Which one?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "These, TN.38139"
+    },
+    {
+      "speaker": "client",
+      "text": "Hmmmm ... if they are, thanks for the help Peter"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome, and what about your niece?"
+    },
+    {
+      "speaker": "client",
+      "text": "She's fine, she's had a good time today"
+    },
+    {
+      "speaker": "cashier",
+      "text": "How good, what did you do with her?"
+    },
+    {
+      "speaker": "client",
+      "text": "We play video games for a while and we also draw and walk around the park "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh that's good"
+    },
+    {
+      "speaker": "client",
+      "text": "and how was your day?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Pretty good too, buy the new DEAD RED REDEMPTION"
+    },
+    {
+      "speaker": "client",
+      "text": "Great, good, goodbye"
+    },
+    {
+      "speaker": "cashier",
+      "text": "goodbye"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Capuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "American coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "two",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "two drinks",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-6976f522-0382-4e6c-8baa-3b147a99020c",
+  "created_at": "2026-02-15T15:44:17.152Z"
+}

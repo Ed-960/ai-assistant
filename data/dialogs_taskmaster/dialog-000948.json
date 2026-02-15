@@ -1,0 +1,98 @@
+{
+  "dialog_id": 948,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=948"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there."
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I'm wanting to get a Starbucks drink for pickup at the Starbucks on Clear Creek Clear Creek Road in Killeen."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I wanted to have a mango dragonfruit lemonade Starbucks Refresher."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright and what size did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I think I'm going to go with a trenta iced."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's a trenta iced mango dragonfruit lemonade refresher from the starbucks on silvercreek, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "On Clear Creek in Killeen."
+    },
+    {
+      "speaker": "cashier",
+      "text": "My mistake, the order will be sent to the starbucks on Clear creek and killean."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Wonderfull. YOur order will be ready in 15 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great day."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "mango dragonfruit lemonade Starbucks Refresher",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "trenta",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced mango dragonfruit lemonade refresher",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-849cc658-bc24-4236-b4f7-aaa4d79df0ca",
+  "created_at": "2026-02-15T15:44:16.993Z"
+}

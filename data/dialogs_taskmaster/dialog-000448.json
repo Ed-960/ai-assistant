@@ -1,0 +1,114 @@
+{
+  "dialog_id": 448,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=448"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I'd like three medium pepperoni and bacon pizzas with extra cheese from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sorry, can you please repeat that?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like three medium pepperoni and bacon with extra cheese from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what type of crust?"
+    },
+    {
+      "speaker": "client",
+      "text": "thick crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "3 medium pepperoni and bacon with extra cheese and thick crust. Is this correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. The total is $38."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome. Your pizzas will be ready for pickup at bella luna's soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. Thanks a lot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-3f3f73ea-a1fb-4a60-9c38-3d650e79e765",
+  "created_at": "2026-02-15T15:44:16.940Z"
+}

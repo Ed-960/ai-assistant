@@ -1,0 +1,134 @@
+{
+  "dialog_id": 818,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=818"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Yes, good day. Yes. Please I want you to help me in ordering coffee from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi. how can I help you today?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which Starbucks did you want me to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "(s) Yeah, Starbucks at 1500 Broadway here in New York."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it and what did you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just want a cup of coffee with honey and whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you want that iced or hot?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want it hot. A medium size."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size did you want?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "And did you want to add any milk to it?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I'm okay with the whipped cream."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. so you want 1 grande cup of coffee with honey and whipped cream from Starbucks on 1500 broadway."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "All right. No problem. Yes, process it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, the total is $2."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Should I process the payment now?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. I've submitted the order. It'll be ready for pick up in 10 mins."
+    },
+    {
+      "speaker": "client",
+      "text": "Nothing else."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I've also sent the receipt to you via text."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you need anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Awesome. Good bye."
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye. Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cup of coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-70fc862c-ff83-418a-a9b2-283c2ef12b74",
+  "created_at": "2026-02-15T15:44:16.980Z"
+}

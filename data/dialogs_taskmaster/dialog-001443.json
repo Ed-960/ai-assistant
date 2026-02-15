@@ -1,0 +1,122 @@
+{
+  "dialog_id": 1443,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1443"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi. I want to order three large pizzas with pepperoni thick crust from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, do you want just pepperoni for all 3?"
+    },
+    {
+      "speaker": "client",
+      "text": "and green peppers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, on just 1 of the pizzas or all 3?"
+    },
+    {
+      "speaker": "client",
+      "text": "all three."
+    },
+    {
+      "speaker": "cashier",
+      "text": "no problem, let me calculate the cost."
+    },
+    {
+      "speaker": "cashier",
+      "text": "it will be $65 for 3 large pepperoni and green pepper pizzas with thick crust."
+    },
+    {
+      "speaker": "client",
+      "text": "Will this order be ready for pick up soon?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "let me check when it'll be ready."
+    },
+    {
+      "speaker": "cashier",
+      "text": "it will be ready for pickup in 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "At Bella Luna pizzeria."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you. Goodbye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes, you can also choose to dine-in or have it delivered."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome, enjoy."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "green peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni and green pepper pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna pizzeria",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-d0069a40-182c-49f1-b3f2-b855ff443b52",
+  "created_at": "2026-02-15T15:44:17.047Z"
+}

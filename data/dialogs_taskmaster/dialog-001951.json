@@ -1,0 +1,136 @@
+{
+  "dialog_id": 1951,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1951"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Diedre, I want to get some Starbucks on my way to work. Can you arrange a pickup order?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. Which store?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one in Penn Station. Near 34th street, the one near the Amtrak waiting line."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing. What'd you like to get?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like a Blonde Flat White."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "I think I'm gonna go with a Tall."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds good. What type of milk do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "What types do they offer?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Whole, soy, almond, coconut, 2 percent, and nonfat."
+    },
+    {
+      "speaker": "client",
+      "text": "Definitely gonna go with the coconut milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright. Want any food with that?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, the food always makes me queasy."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like any flavors or sweeteners?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright. Just a standard tall Blonde Flat White?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds good. It's going to be $5."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. Just hook it up to my account."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds good. The order is confirmed. They're making your coffee right now, just head to the Amtrak Starbucks in Penn Station to grab it."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Blonde Flat White",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Sounds good",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall Blonde Flat White?",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-328d9e17-14af-41b9-ae1c-45633de3f910",
+  "created_at": "2026-02-15T15:44:17.124Z"
+}

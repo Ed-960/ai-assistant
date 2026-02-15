@@ -1,0 +1,155 @@
+{
+  "dialog_id": 1472,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1472"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I want to order a pizza from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hello there, how can i help u?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what type of pizza did u want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need to get a medium four medium pizzas. I want one of them sausage and then two pepperoni and then one with mushrooms and vegetables."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, so let me read that back to u to confirm i got it right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "4 medium pizzas, 1 sausage, 2 pepperoni, 1 with mushroom and veggies."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did u have a crust preference for all of these?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to a regular crust but I also want extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you got it. i'll add that in the order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did u want extra cheese on all of them?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. thanks for confirming. the total for this order is $56."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do u want to place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sounds good. i've placed the order. the 4 medium pizzas will be ready in 25 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do u need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "cool."
+    },
+    {
+      "speaker": "cashier",
+      "text": "take care."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms and vegetables",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushroom and veggies",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-d44c8c2a-8434-4dac-8cbb-cf587ee0fade",
+  "created_at": "2026-02-15T15:44:17.050Z"
+}

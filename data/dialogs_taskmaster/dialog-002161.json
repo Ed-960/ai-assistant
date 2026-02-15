@@ -1,0 +1,153 @@
+{
+  "dialog_id": 2161,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2161"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, I would like an order from Starbucks, would you mind assisting me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course! Since there are several locations which Starbucks location would you prefer?"
+    },
+    {
+      "speaker": "client",
+      "text": "My favorite location, and the one I prefer, is at the 704 N MO-7 one in Blue Springs near my office."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Perfect, just let me know what kind of drink you would like."
+    },
+    {
+      "speaker": "client",
+      "text": "I'm thinking an Iced Caramel Brulee Latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I love that drink. What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want the Grande, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, and what type of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want the Almond Milk, and if they are out of that I would like the Coconut Milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want it topped with anything?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would like whipped cream on top."
+    },
+    {
+      "speaker": "cashier",
+      "text": "This drink also comes with Caramel Brulee Topping, would that be okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "What is included in that topping?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sugar, corn syrup, natural flavors, and fruit & vegetable colors, how do you feel about those ingredients?"
+    },
+    {
+      "speaker": "client",
+      "text": "I really try to stay away from corn syrup, can you have them hold that topping?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, I can make sure that is not added to your order. Do you have any nut allergies?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, do they include nuts?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No, nuts are not included, but they cannot guarantee that their products are free from allergens."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, alright. How long will it take for you to place my order?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm placing your order as we speak, and I can get it delivered to you as soon as it is made. Is that fine?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So, I placed an order for an Iced Caramel Brulee Latte, with Almond Milk, and whipped topping, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "If there is no Almond milk you want coconut milk, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You want the drink made at your favorite location, which is 704 N MO-7 in Blue Springs near your office, right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your drink will be ready shortly for pickup, and you will get a confirmation text when it is ready. Is that all you need at the moment?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, thank you so much, bye-bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Iced Caramel Brulee Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-66d039d6-f5c7-4978-ab2e-02120fbe74a6",
+  "created_at": "2026-02-15T15:44:17.151Z"
+}

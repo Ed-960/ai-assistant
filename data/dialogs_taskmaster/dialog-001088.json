@@ -1,0 +1,130 @@
+{
+  "dialog_id": 1088,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1088"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey, could you help me with ordering from a a drink from Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a a black and white mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, would you like any milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Could you make it soy milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, would you like to add whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes I would, but could you make it light with cream?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, and what size did you want your black and white in?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like it as a venti."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, and which location would you like to pick up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to pick up from the Penn Medicine Perelman Center in Philadelphia, Pennsylvania."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, let me send your order there, one moment."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i have ordered you a venti black and white mocha with soy milk and light whipped cream to be picked up at the penn medical center starbucks, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your receipt will be texted to you and your order will be ready in 5 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect. Thank you so much for your help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that was it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks, I will."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "black and white mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black and white",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-9b6a5532-9642-44a8-b447-160b7395a4e1",
+  "created_at": "2026-02-15T15:44:17.008Z"
+}

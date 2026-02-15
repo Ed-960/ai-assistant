@@ -1,0 +1,162 @@
+{
+  "dialog_id": 108,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=108"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hello."
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order pizzas from Bella Luna's pizzeria please for pickup."
+    },
+    {
+      "speaker": "cashier",
+      "text": "how many pizzas would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get two medium pizzas?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what are the toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can the pizzas be gluten free crust both of them and one topping be veggies veggie lovers with extra mushrooms and the other one be a supreme pizza?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "any other special instruction?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's about it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "let me make sure i got it: 2 medium gluten free crust pizzas. one veggie lovers, the other is a supreme, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, the Veggie Lovers. Don't forget extra mushrooms, I think I said."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. extra mushrooms on the veggie lovers pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the total is $34."
+    },
+    {
+      "speaker": "client",
+      "text": "All right, that sounds perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be ready for pickup at Bella Luna's soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome, bye!"
+    },
+    {
+      "speaker": "client",
+      "text": "Have a good day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you too!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggies veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "supreme pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "supreme",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Veggie Lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers pizza",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-0da04ee3-503b-415f-ab3e-6375829685cf",
+  "created_at": "2026-02-15T15:44:16.902Z"
+}

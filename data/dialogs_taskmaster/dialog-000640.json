@@ -1,0 +1,135 @@
+{
+  "dialog_id": 640,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=640"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "hi."
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to order three large pizzas, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what type of pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "One Hawaiian, one meat-lovers and one vegi lovers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else on those pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Extra toppings on the meat lovers, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "cool let me add that to your order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "3 large pizzas, one hawaiian, one meat lovers with extra toppings, and one veggie lovers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "does that sound right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to place the order?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "the total will be $56.29."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok cool. Your order will be ready at your local Bella Luna pizzeria shortly."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat-lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "vegi lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-59ef756b-9ffd-42e8-ba5e-ce8ba9a56152",
+  "created_at": "2026-02-15T15:44:16.961Z"
+}

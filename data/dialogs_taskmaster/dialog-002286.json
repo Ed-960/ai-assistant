@@ -1,0 +1,187 @@
+{
+  "dialog_id": 2286,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2286"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I would like to order a drink from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which Starbucks do you want to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one in Sandy on 362nd Ave"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "What seasonal drinks does Starbucks have right now?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They have an Eggnog Latte you may want to try"
+    },
+    {
+      "speaker": "client",
+      "text": "I don't like Eggnog, do they have anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You may like the new Chestnut Praline Latte."
+    },
+    {
+      "speaker": "client",
+      "text": "How many calories does it have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "A Grande has 330 calories."
+    },
+    {
+      "speaker": "client",
+      "text": "Not too bad, I will take one of those."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size do you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "What sizes are availabe?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The drink comes in Short, Tall, Venti or Grande"
+    },
+    {
+      "speaker": "client",
+      "text": "Which is the largest?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Venti is the largest."
+    },
+    {
+      "speaker": "client",
+      "text": "OK, I'll order a venti."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What type of milk would you like in it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Does Starbucks carry coconut milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, they also have almond and soy milk."
+    },
+    {
+      "speaker": "client",
+      "text": "I will actually get it with almond milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want whipped cream on the top?"
+    },
+    {
+      "speaker": "client",
+      "text": "Definitely!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like to add anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Does anything come on top?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, spiced praline crumbs."
+    },
+    {
+      "speaker": "client",
+      "text": "That sounds perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Please confirm you would like a Venti Chestnut Praline Latte with almond milk and whipped cream."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, your order has been placed."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Eggnog Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Eggnog",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Chestnut Praline Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Short",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-873fee8e-332d-43fe-bd42-cf9907e5940c",
+  "created_at": "2026-02-15T15:44:17.165Z"
+}

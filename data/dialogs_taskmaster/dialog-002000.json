@@ -1,0 +1,117 @@
+{
+  "dialog_id": 2000,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2000"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello Jenn! Please, do me a favor a place an order for pickup from the local Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing! Will this be from the Starbucks on Wanaque Ave. in Pompton Lakes?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that one exactly."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! What are you looking to get?"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, so it's going to do a Venti Caffe Mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any milk or sugar in that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, splash of 2% milk and 3 sugars."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What about whipped cream? They like to put that on top."
+    },
+    {
+      "speaker": "client",
+      "text": "Of course! Whipped cream on top!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, you got it. Are you sure you don't want anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that will be all. Oh yeah! Get yourself a coffee too!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you so much! I've been craving one of their iced coffees all day."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome, go right ahead and get it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Should I put this on the regular card that they have on file under your name?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, the American Express."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You got it! I'm on it."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you so much Jenn!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, so your drink is on order at the Starbucks on Wanaque Ave. It's going to be ready for pickup in 5 minutes under your name. Also, your receipt has been emailed to you!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you so much! You are the best."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caffe Mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-3ec53196-47e7-428a-9fb4-9eed42e8c52b",
+  "created_at": "2026-02-15T15:44:17.132Z"
+}

@@ -1,0 +1,126 @@
+{
+  "dialog_id": 1688,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1688"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi how can i help you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I'm looking to get a drink from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, which starbucks should i place the order at?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one that one I have the address. It's 13170 North Hazel Dell Parkway. It's Indianapolis."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. and what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want venti mocha caffè mocha."
+    },
+    {
+      "speaker": "client",
+      "text": "with whole milk and."
+    },
+    {
+      "speaker": "client",
+      "text": "How much would it be to add caramel?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "caramel sauce is 50 cents."
+    },
+    {
+      "speaker": "client",
+      "text": "We'll go with that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and did you want that iced or hot?"
+    },
+    {
+      "speaker": "client",
+      "text": "I will go with iced."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so you want a venti iced cafe mocha with whole milk and a drizzle of caramel sauce from starbucks on 13170 north hazeldale parkway."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, the total is $4.50. Should i place the order for you now."
+    },
+    {
+      "speaker": "client",
+      "text": "Yep."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, the drink will be ready in 10 minutes. The receipt has been sent to your phone. Do u need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, that's all I need. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caffè mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cafe mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-f84ad553-9a42-40e2-b258-557aa5a2f007",
+  "created_at": "2026-02-15T15:44:17.081Z"
+}

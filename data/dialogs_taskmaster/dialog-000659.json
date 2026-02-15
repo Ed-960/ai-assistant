@@ -1,0 +1,105 @@
+{
+  "dialog_id": 659,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=659"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hey there, how can i help you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey. I was wondering if you could help me order some pizza from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "i sure can. what did you want to order from there?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need four small pizzas. Two of them meat lovers. One of them just chicken, and the other just onions and chicken. And all of them need to thick crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. the order for 4 small pizzas with thick crust, 2 meat lovers, 1 chicken, and 1 onions and chicken."
+    },
+    {
+      "speaker": "cashier",
+      "text": "comes out to $48."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. That sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want me to place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Aha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i've submitted your order. it'll b ready for pick up in 35 mins. did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope. Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. take care."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-5bc6a3f4-2056-40f5-b44f-effa345dd310",
+  "created_at": "2026-02-15T15:44:16.963Z"
+}

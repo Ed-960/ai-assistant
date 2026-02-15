@@ -1,0 +1,124 @@
+{
+  "dialog_id": 712,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=712"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi how can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to order three large pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay what toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want one pepperoni pizza, one meat lovers pizza, and one pineapple pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would like thick crust on all of them."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's 3 large pizzas, one pepperoni, one meatlovers, and one pineapple. All three have thick crust and that totals out to $68.99."
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great your pizza will be ready for pickup in 30 minutes and you'll get the receipt via text."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, take care."
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meatlovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-62e43f0b-7b4b-4f55-b98c-1a47a05b46eb",
+  "created_at": "2026-02-15T15:44:16.969Z"
+}

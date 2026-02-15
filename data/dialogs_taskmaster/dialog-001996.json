@@ -1,0 +1,132 @@
+{
+  "dialog_id": 1996,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1996"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'd like to get a Starbucks coffee"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. Which Starbucks?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one on Elmwood in Buffalo."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. What type of coffee would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "My Regular, tall dark."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want the featured dark roast?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want an iced or hot?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like hot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you need room for cream or milk"
+    },
+    {
+      "speaker": "client",
+      "text": "Room for cream, half & half"
+    },
+    {
+      "speaker": "cashier",
+      "text": "How much?"
+    },
+    {
+      "speaker": "client",
+      "text": "About an inch."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you need sugar"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, raw sugar"
+    },
+    {
+      "speaker": "cashier",
+      "text": "How much raw sugar?"
+    },
+    {
+      "speaker": "client",
+      "text": "2 packs please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is there anything else you'd like to order"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay I have placed your order."
+    },
+    {
+      "speaker": "client",
+      "text": "Great"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It will be ready at the Starbucks on Elmwood in Buffalo."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order will be sent via text"
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-3e2dbf3b-1b07-48e2-968c-6ed37059cf0b",
+  "created_at": "2026-02-15T15:44:17.131Z"
+}

@@ -1,0 +1,97 @@
+{
+  "dialog_id": 632,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=632"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. Could you help me with placing an order at Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I have a caramel macchiato?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to add any milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would like 2% milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what size would you like that in?"
+    },
+    {
+      "speaker": "client",
+      "text": "venti, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, which location would you like to pick up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The location that's on Germantown Avenue in Philadelphia, Pennsylvania in the Chestnut Hill section of the city."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you are ordering a venti caramel macchiato with 2% milk to be picked up at the starbucks on germantown avenue, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, your order will be ready in 5 minutes and your receipt will be texted to you. can i help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that was it. Thank you so much for your help. I appreciate it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome, enjoy your coffee."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "caramel macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-58f87ade-03cd-4985-b28d-b3c58be13d12",
+  "created_at": "2026-02-15T15:44:16.960Z"
+}

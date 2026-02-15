@@ -1,0 +1,113 @@
+{
+  "dialog_id": 747,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=747"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi there."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I was looking to order an eggnog latte from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what kind of milk would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "whole milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what size would you like it in?"
+    },
+    {
+      "speaker": "client",
+      "text": "venti."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you are ordering a venti eggnog latte, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, which location would you like to pick up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "At the Birchwood Mall."
+    },
+    {
+      "speaker": "client",
+      "text": "Birchwood Birchwood Mall."
+    },
+    {
+      "speaker": "cashier",
+      "text": "i got it."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i will send your order to the location at the birchwood mall."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thanks a lot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be texted to you and your drink will be ready in 7 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome. Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your welcome, enjoy your coffee."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "eggnog latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-67aa2ba6-dceb-4c63-b224-68d1670d74b5",
+  "created_at": "2026-02-15T15:44:16.972Z"
+}

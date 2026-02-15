@@ -1,0 +1,115 @@
+{
+  "dialog_id": 507,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=507"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to order cappuccino."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "medium."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you have any milk preference?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "a tall capuccino with whipped cream and whole milk, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "where would you like to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "4th Street, Colorado Springs."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your coffee will be ready for pickup soon at the starbucks at 4th st."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome. your receipt will be sent to you via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you, have a nice day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome. bye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "capuccino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-474b6430-5392-4593-a564-31b42ed270f1",
+  "created_at": "2026-02-15T15:44:16.946Z"
+}

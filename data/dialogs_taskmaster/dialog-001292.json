@@ -1,0 +1,150 @@
+{
+  "dialog_id": 1292,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1292"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "All right, I would like to order two small pizzas from Bella Luna, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what kind of pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I have a chicken barbecue with jalapeños, please?"
+    },
+    {
+      "speaker": "client",
+      "text": "and thick crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, and for the other?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I have a veggie lover's pizza on thick crust with extra jalapeños, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you are ordering 2 small thick crust pizzas, one chicken bbq and extra jalapenos and the other a veggie lovers with extra jalapenos, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "It sounds fantastic, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, your total will be $26, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, it's great. Thank you so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and will you be picking up, dining in or having it delivered?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll pick them up. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your receipt will be texted to you and your pizzas will be ready in 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright. You have a beautiful night."
+    },
+    {
+      "speaker": "cashier",
+      "text": "thanks, you as well. enjoy your pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "I will."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken barbecue",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "jalapeños",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lover's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra jalapeños",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken bbq",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra jalapenos",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-b8c1d332-38d6-48b0-acb3-df94bb2c1c0b",
+  "created_at": "2026-02-15T15:44:17.031Z"
+}

@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "inject": "node scripts/inject-env.js",
+    "import-tm1": "node scripts/import-taskmaster.js",
     "pipeline": "node pipeline/run.js",
     "pipeline:single": "node pipeline/run.js --count 1",
     "pipeline:batch": "node pipeline/run.js --count 100"

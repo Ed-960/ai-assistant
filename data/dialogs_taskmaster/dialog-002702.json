@@ -1,0 +1,147 @@
+{
+  "dialog_id": 2702,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2702"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello, Kara. I would like to order pizzas from Mellow Mushroom."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course - which store do you want to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's order from the location in Chapel Hill."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, sounds good. How many people are you feeding?"
+    },
+    {
+      "speaker": "client",
+      "text": "I am trying to feed a group of about 15 people."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So would you like to order 3 pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's order 4 just to be safe."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay sounds good. What pizzas would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's get one Veg Out, one Kosmic Karma, one Holy Shiitake and one Great White."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright - and what size should they be?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's get large. And can I specify the crust?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, what sort of crust would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to get these as thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great - so just to make sure thats one Great White, one Kosmic Karma, one Veg Out, and one Holy Shiitake."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, I will place the order and the pizzas will be ready for pick up in roughly 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay great, will you pick them up and bring them to the break room?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, absolutely. If you would like, I can send you the receipt to your phone through a text message."
+    },
+    {
+      "speaker": "client",
+      "text": "That sounds great. Thanks so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course, happy to help!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Mellow Mushroom",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Chapel Hill",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Veg Out",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Kosmic Karma",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Holy Shiitake",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Great White",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-f778958f-3b10-4217-bdea-476a2978d63d",
+  "created_at": "2026-02-15T15:44:17.213Z"
+}

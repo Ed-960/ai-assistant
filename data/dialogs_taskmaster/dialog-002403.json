@@ -1,0 +1,122 @@
+{
+  "dialog_id": 2403,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2403"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi Ann. I would like to have Starbucks coffee . Could you please assist me with that? "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, I am happy to help , Ms. Kate.Where are you going to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "The usual 222 Broadway , New York ."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Should I use your credit card ?"
+    },
+    {
+      "speaker": "client",
+      "text": "No , please. Log in into my account , I believe I have a reward for a free drink ."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And what are you having today ? Regular dark roast ?"
+    },
+    {
+      "speaker": "client",
+      "text": "I am craving for a good Cappuchino."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Iced or hot?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hot please , and make it Grande ."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any sugar or other flavor would you like in yourCappuchino?"
+    },
+    {
+      "speaker": "client",
+      "text": "Add some vanilla , not sweetened ."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Placing the order now , it should be ready by 12:20pm. Is there anything else you would like me to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thanks.Soy forgot , make sure they use Almond milk or lactose free ."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I did , all set . Enjoy your drink ."
+    },
+    {
+      "speaker": "client",
+      "text": "By the way , sorry I didn't think of it before . Feel free to order some food and any drink on me . "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you so much . I don't really know what to have there for food ."
+    },
+    {
+      "speaker": "client",
+      "text": "Banana walnut is amazing , try it . "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you again ."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you for help. Have a nice day ."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You are welcome . Have a good day ."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Regular dark roast",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cappuchino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-a583648e-f9de-4471-825b-d7814ab046da",
+  "created_at": "2026-02-15T15:44:17.178Z"
+}

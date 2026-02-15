@@ -1,0 +1,114 @@
+{
+  "dialog_id": 468,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=468"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "How can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi there. I was I was looking to order some coffee from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great what kind of coffee do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I was thinking of a caffè mocha, grande sized."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay sounds good. what kind of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Whole milk, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And did you want whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So, that's a grande cafe mocha with whipped cream and whole milk."
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm seeing a lot of starbucks near you, which one is closest?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one in the mall."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay which mall is that? There are 2 nearby."
+    },
+    {
+      "speaker": "client",
+      "text": "The Birchwood Mall?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay great. I've got your order ready and sent to the Starbucks at the Birchwood mall. It'll be ready in 15 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome. Great. Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, enjoy."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "caffè mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cafe mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-41f778d6-6635-4ea8-8992-2b6425d52284",
+  "created_at": "2026-02-15T15:44:16.942Z"
+}

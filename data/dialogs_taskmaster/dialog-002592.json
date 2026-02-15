@@ -1,0 +1,122 @@
+{
+  "dialog_id": 2592,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2592"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'd like to place a drink order to my local Starbucks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What is the location of the store you'd like to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order from the Starbucks in the Southland Plaza Shopping Center"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, and what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order the Cafe Americano"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like the grande"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like any milk added?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Whole milk"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like any whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Sure"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like anything else added to your drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "No"
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's a Caffe Americano, grande, with whipped cream and whole milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order has been placed at the Starbucks in Southland Plaza. Your order will be ready for pickup soon and details have been sent to your mobile device as a text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Enjoy!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cafe Americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caffe Americano",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-d8106ed0-ae3e-4670-be1f-77ce674f36e7",
+  "created_at": "2026-02-15T15:44:17.201Z"
+}

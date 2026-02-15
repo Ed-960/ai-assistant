@@ -1,0 +1,157 @@
+{
+  "dialog_id": 2393,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2393"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey Wanda, can you order me a couple pizzas from the Screamin Banchie Pizza place?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok sure, Tell me what you want, I'm looking at their website now"
+    },
+    {
+      "speaker": "client",
+      "text": "Great, I need two of the largest ones they have."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok the biggest they have is 14 inches."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok I will need three then. Do they have make your own or menu ones"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They have both, but the menu ones are cheaper especially if you want a lot of toppings."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok What if I want Just a pepperoni and sausage?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "That we'd have to do a build your own. "
+    },
+    {
+      "speaker": "client",
+      "text": "Ok great so lets do one of those, and do they have a margherita type?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes they do."
+    },
+    {
+      "speaker": "client",
+      "text": "ok Lets do one of those, and then you suprize me with the next one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok I will choose a chicken one and watch out its spicey"
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds good"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok so I have 3 pizzas, and sausage and pepperoni build your own, a margherita, and a spicy chicken one, any thing else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok and what is the estimated price?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "around 45.00"
+    },
+    {
+      "speaker": "client",
+      "text": "ok, and when will this be ready"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They say it will be about 25 minutes"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok sounds great Thank you so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your welcome. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Screamin Banchie Pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "largest",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "14 inches",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "margherita",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken one",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "spicy chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "spicy chicken one",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-a1b2acad-9219-4aac-9b91-ec6482b36afa",
+  "created_at": "2026-02-15T15:44:17.177Z"
+}

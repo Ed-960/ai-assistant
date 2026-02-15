@@ -1,0 +1,152 @@
+{
+  "dialog_id": 2281,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2281"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I am having some few friends over and I was thinking of ordering some pizzas for them from Pizza hut."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thats great. What would you like me to order for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I love meat lovers pizzas but I know not all my friends have the same taste as mine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "True, Would you like to have different toppings for the pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. I would like to include a veggie pizza that has pinapples, red and yellow pepper with mushrooms."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else sir?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you also include some mild buffalo chicken wings and bread sticks? "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Certainly sir. Any drinks to to with that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes I would like two large cokes and a mountain dew. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want to pick the order up or have it delivered?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would want it delivered here. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Lets recap on the order. One large meat lover pizza, One large vegetarian pizza, a bowl of mild chicken wings and bread sticks."
+    },
+    {
+      "speaker": "client",
+      "text": "Do not forget the drinks please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Two large cokes and mountain dew. "
+    },
+    {
+      "speaker": "client",
+      "text": "How much would that cost me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "That would be 75 dollars sir."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Send me the receipt in my phone. How long will delivery take?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The delivery will be made in thirty minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "That is perfect. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! Have a lovely evening sir. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Pizza hut.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pizza hut",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pinapples",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "red and yellow pepper",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lover pizza",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-860cf72d-cbd2-4850-8252-78f44704f01d",
+  "created_at": "2026-02-15T15:44:17.164Z"
+}

@@ -1,0 +1,267 @@
+{
+  "dialog_id": 342,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=342"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there! How can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I need to order three pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "SUre! what size should they be?"
+    },
+    {
+      "speaker": "client",
+      "text": "Large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it! what would you like on the first one?"
+    },
+    {
+      "speaker": "client",
+      "text": "Do you have anchovies?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yup, Bella Luna does."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, just that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "alright, on red sauce, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and with cheese?"
+    },
+    {
+      "speaker": "client",
+      "text": "no cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "no cheese, got it. what about pizza number 2?"
+    },
+    {
+      "speaker": "client",
+      "text": "pineapple and green olive."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Give me a moment, I don't think Bella luna has green olives as toppings. only Black ones."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, just find out the one to work out."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, sure! did you want cheese on this one?"
+    },
+    {
+      "speaker": "client",
+      "text": "No cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "alright, noted. what about the 3rd?"
+    },
+    {
+      "speaker": "client",
+      "text": "I don't want any topping or sauce. Yeah, no toppings or sauce just cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, sure! just cheese, not sauce."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, so 3 large pizzas. on the 1st one, anchovies only, no cheese. on the 2nd, pineapple and black olives on the 3rd, cheese only, no sauce."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. And I want thick crust for all three."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thick crust for all three of them, noted! Anything else for you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that'll be it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great! give me a moment to get you the total."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the total for the 3 large pizzas will be $64.33, shall i send it over to Bella Luna?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "alright, one moment please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "All set! your order is in the works and should be ready for pickup in 40 min."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're very welcome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "have a good one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "anchovies",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "red sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "green olive",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "green olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Black ones",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "topping",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "no toppings",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "not sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "no cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "no sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Thick crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-3053b251-f0b3-4806-b1fc-087bf86ff59f",
+  "created_at": "2026-02-15T15:44:16.928Z"
+}

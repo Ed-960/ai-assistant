@@ -1,0 +1,108 @@
+{
+  "dialog_id": 731,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=731"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi. I'd like to order a pizza from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi there, how can I help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, what did you want from there?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want four large pizzas, two pepperoni and two sausage with extra cheese, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you want the extra cheese on just the 2 sausage pizzas, or on all 4 pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "All four pieces."
+    },
+    {
+      "speaker": "cashier",
+      "text": "U said 4 large pizzas, 2 pepperoni, 2 sausage, and all with extra cheese."
+    },
+    {
+      "speaker": "client",
+      "text": "Yep."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did I get that right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The total is $45.66. Should I place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Awesome, I've placed the order. It'll be ready for pick up in 35 mins. Did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, take care."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-65453e17-848f-4319-96b1-23f50d7929ae",
+  "created_at": "2026-02-15T15:44:16.971Z"
+}

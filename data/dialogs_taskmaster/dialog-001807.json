@@ -1,0 +1,249 @@
+{
+  "dialog_id": 1807,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1807"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey I'm heading home in a bit and I'm just going to grab some pizza from Pizza Zone on the way for the wife and kids. Can you order it for me and I'll grab it on my way?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yeah, which location are you going to pick it up at?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one just off the freeway, I forgot the name of the street."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Let me look at the locations real quick. The one on Branson street?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay what do you want me to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Do they have any deals right now?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Well how many pizzas do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Probably 2 large pizzas should do it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay they have a buy one get one half off deal with unlimited toppings on each."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay do that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, what toppings do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Do one veggie with bell peppers, onions, tomatoes and olives."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And the other?"
+    },
+    {
+      "speaker": "client",
+      "text": "Get pepperoni, sausage and extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What about crusts?"
+    },
+    {
+      "speaker": "client",
+      "text": "They have stuffed crust, right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes they do."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay do one stuffed crust and one hand tossed."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which do you want the stuffed crust for?"
+    },
+    {
+      "speaker": "client",
+      "text": "The pepperoni and sausage one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay any sides or sauces?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah get a couple of marinara and garlics. Don't do any sides."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay so 2 large pizzas. One with stuffed crust and pepperoni, sausage and extra cheese. The other with hand tossed crust and bell peppers, onions, tomatoes and olives. Plus 2 marinara and garlic sauces?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep, that should do it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright. I just ordered and it'll be ready in about 25 minutes. They'll text you the receipt."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thanks so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Pizza Zone",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "freeway",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "The one on Branson street",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Branson street",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bell peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "stuffed crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one stuffed crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one hand tossed",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hand tossed",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "marinara",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "garlics",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hand tossed crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "garlic",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "garlic sauces",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-0e2b05b0-7d2d-47ec-9d84-f9c030b5c1fb",
+  "created_at": "2026-02-15T15:44:17.103Z"
+}

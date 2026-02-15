@@ -1,0 +1,114 @@
+{
+  "dialog_id": 999,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=999"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. Can I order a Starbucks drink, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "A grande mocha latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what type of milk do you prefer?"
+    },
+    {
+      "speaker": "client",
+      "text": "2%."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "No whipped cream, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so your order is: a grande mocha with 2% milk, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "where would you like to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "The closest location to be in Manhattan."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and where in manhattan are you?"
+    },
+    {
+      "speaker": "client",
+      "text": "at West 57th Street."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your coffee will be ready for pickup soon at the starbucks at 322 W 57th St."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright. I appreciate it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy, bye!"
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mocha latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-8c903641-ba5f-4063-9e7d-b2f48cecb1b8",
+  "created_at": "2026-02-15T15:44:16.999Z"
+}

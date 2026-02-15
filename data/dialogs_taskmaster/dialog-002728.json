@@ -1,0 +1,127 @@
+{
+  "dialog_id": 2728,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2728"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi! I'd like to order a coffee from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which Starbucks will you be picking that up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Starbucks at 7567 Oswego Road in Liverpool"
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, which drink would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "A cherry mocha please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Regular dairy whole milk"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grande"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any other modifications?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, just a standard grande cherry mocha made with whole milk and whipped cream"
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, would you like to add anything to that order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, that will be all"
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, I've placed that order at the Liverpool Starbucks on at 7567 Oswego Road"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It should be ready to pick up shortly."
+    },
+    {
+      "speaker": "client",
+      "text": "I'll be there."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your receipt has been texted to you. Have a good day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cherry mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "standard grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-ff967cc9-2074-446a-ba39-0f622c571c1e",
+  "created_at": "2026-02-15T15:44:17.216Z"
+}

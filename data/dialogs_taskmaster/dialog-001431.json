@@ -1,0 +1,131 @@
+{
+  "dialog_id": 1431,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1431"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "How can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you order me a three pizza from Bella Luna?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm sorry, two pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want two large size."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "One veggie lover and one chicken barbecue."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay great any add ons?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want extra cheese on the chicken barbecue."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's 2 large pizzas, one veggie lover one chicken bbq with extra cheese."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, and I want both of them to be gluten-free crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your total is $48.99 with the gluten free crust."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, I've placed the order, expect to pick it up in 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem have a nice day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lover",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken barbecue",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken bbq",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-cddbb059-9453-4274-af27-7933aa07562d",
+  "created_at": "2026-02-15T15:44:17.046Z"
+}

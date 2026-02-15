@@ -1,0 +1,126 @@
+{
+  "dialog_id": 2116,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2116"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I need an afternoon pick me up. Would you mind running to Starbucks for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure thing. What location should I go to?"
+    },
+    {
+      "speaker": "client",
+      "text": "I think the one at Polaris is closest. And it shouldnt be that crowded this time of day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you know what you want? Would you like your usual again?"
+    },
+    {
+      "speaker": "client",
+      "text": "I think today I will try something different for a change"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Wow! Being adventurous arent we?"
+    },
+    {
+      "speaker": "client",
+      "text": "Its a new me. I think I will try one of their cold brew drinks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I like their iced coffee"
+    },
+    {
+      "speaker": "client",
+      "text": " I will try their iced coffee with milk. 2% milk"
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. Would you like any food?"
+    },
+    {
+      "speaker": "client",
+      "text": "Their danishes and pastries all look good, but I think it is best if i just stick with the coffee"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. I will leave now and hopefully there wont be a drive thru-line"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll still be here when you return."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Im back. One iced coffee with 2% milk for you and I decided to get a marshmallow dream bar. Otherwise known to most as a Rice Krispy Treat"
+    },
+    {
+      "speaker": "client",
+      "text": "yum, thanks so much"
+    },
+    {
+      "speaker": "cashier",
+      "text": "no problem"
+    },
+    {
+      "speaker": "client",
+      "text": "hmm, im not sure how i like this"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have mixed feelings about iced coffee. It depends on my mood"
+    },
+    {
+      "speaker": "client",
+      "text": "I think next time I will get my usual"
+    },
+    {
+      "speaker": "cashier",
+      "text": "grand pike place roast with 2 splenda and 2% milk it will be "
+    },
+    {
+      "speaker": "client",
+      "text": "You know me too well. Thats why i like you"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "iced coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced coffe",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "One iced coffee with 2% milk",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-5c19bdff-6f64-4753-bd40-7af78090cac0",
+  "created_at": "2026-02-15T15:44:17.145Z"
+}

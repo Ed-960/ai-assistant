@@ -1,0 +1,114 @@
+{
+  "dialog_id": 855,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=855"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I'm trying to order a Americano at Peet's Coffee in the Hillcrest location in San Diego, California."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok and what size would you like your coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "small."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like any milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, but I didn't see any options for it. If they have almond milk, I'd like almond milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, anything else you would like to add?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can you confirm the pickup location once again?"
+    },
+    {
+      "speaker": "client",
+      "text": "Sure. It's the Hillcrest on 350 University Avenue in San Diego, California."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so i have a small americano with almond milk, is this correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "It is."
+    },
+    {
+      "speaker": "cashier",
+      "text": "all set, your coffee will be ready for pickup at peet's coffee in hillcrest san diego in 15 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Fantastic, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome. your receipt will be sent to you via text. enjoy!"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Hope I will."
+    },
+    {
+      "speaker": "cashier",
+      "text": "byebye."
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "americano",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-75b2b8c5-fc1f-4834-b84f-fbf02ce0491e",
+  "created_at": "2026-02-15T15:44:16.984Z"
+}

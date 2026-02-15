@@ -1,0 +1,127 @@
+{
+  "dialog_id": 694,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=694"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I'd like to make an order at Peet's Coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, which peet's did you want to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one on Main Street in Wilkes-Barre, Plains."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. what would you like to get?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to get an iced caramel macchiato."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "The smallest size they have, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. so the order is 1 small iced caramel macchiato from peet's on main street."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I add any other flavors?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to add?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I add some sugar?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "no problem. 1 small iced caramel macchiato with sugar it is. the total for the order is $3.50."
+    },
+    {
+      "speaker": "cashier",
+      "text": "should i place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i've submittted your order. it'll be ready for pick up in 10 minutes. i've also sent the receipt to you via text."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, that is all. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "perfect. you're welcome."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "caramel macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "smallest",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-602b614f-ee0b-4fb3-bea7-af471c9b0cd1",
+  "created_at": "2026-02-15T15:44:16.967Z"
+}

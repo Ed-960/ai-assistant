@@ -1,0 +1,164 @@
+{
+  "dialog_id": 988,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=988"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi, what can I do for you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to order coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "coffee, sure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, which coffee shop would you like to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "starbucks ok."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "cappuccino."
+    },
+    {
+      "speaker": "cashier",
+      "text": "capuccino got it, what size and what kind of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "a small size."
+    },
+    {
+      "speaker": "client",
+      "text": "So am I."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, so a tall size from starbucks right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "with soy milk."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any additional flavoring for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "honey."
+    },
+    {
+      "speaker": "cashier",
+      "text": "honey, got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "which store you would like to pick up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks, 4th Street, Colorado Spring."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, will order from the starbuck on 4th street from colorado spring."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so we have 1 tall capuccino with soymilk and honey is that right."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "confirmed, drink has been ordered at the local store and will be ready for pickup shortly."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be sent to your mobile device via text message."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you. Nothing."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, enjoy your coffee."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "capuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-8b09b71d-b5e2-467f-b5ae-a133f10750db",
+  "created_at": "2026-02-15T15:44:16.997Z"
+}

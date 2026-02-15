@@ -1,0 +1,148 @@
+{
+  "dialog_id": 1281,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1281"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi how can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need to place a pizza order with Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "SUre thing, what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need They're all going to be mediums, and I need four of them. And all of them, also, thick crust, so four medium thick crust pizzas. One of them, pepperoni. The other ones, let's go with for the second one, half ham and the other half pineapple."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it and what toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "For the third one, half sausage and the other half mushroom. And for the fourth one, just the chicken barbecue."
+    },
+    {
+      "speaker": "cashier",
+      "text": "4 medium thick crust pizzas, one pepperoni, one half ham, half pineapple, one half sausage/half mushroom, and the last one is just chicken bbq right?"
+    },
+    {
+      "speaker": "client",
+      "text": "You got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, your total is $104.88."
+    },
+    {
+      "speaker": "client",
+      "text": "Gracious! $100 in pizza. All right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "24 a piece plus tax."
+    },
+    {
+      "speaker": "client",
+      "text": "It's a premium pizza I guess."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ANyway your order will be ready in 30 minutes and you'll get the reciept via mobile."
+    },
+    {
+      "speaker": "client",
+      "text": "All right, I'll look for it. Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mediums",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushroom",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken barbecue.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken bbq",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "premium pizza",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-b6244b82-1c1c-4ea3-84c6-3343b04782b8",
+  "created_at": "2026-02-15T15:44:17.030Z"
+}

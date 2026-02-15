@@ -1,0 +1,214 @@
+{
+  "dialog_id": 2180,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2180"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, Sally, I'd like you to order a drink from Starbucks for me, but I'm not sure about the menu options. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem! I can help you figure out what you'd like to drink. First, where am I picking up your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Starbucks on 6th Street in City Center is the best for me, so that it's still hot when it gets here."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course. What are some of your preferences when ordering coffee today?"
+    },
+    {
+      "speaker": "client",
+      "text": "I usually take it black, but I think I'd like to mix it up. I'd prefer a steamed milk coffee drink, but would like to use an alternative milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure! This Starbucks has coconut milk, soy milk, and almond milk. Which do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, I would love almond milk!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds good to me. Now, what kind of coffee would you like? Latte? Macchiato?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hmm, I don't know. DO they have any seasonal drinks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Absolutely, they do! Right now, they have a Caramel Creme Brulee, a Black and White Mocha, a Chestnut Praline Latte, an Eggnog Latte, a Gingerbread Latte, and an Iced Peppermint Mocha,"
+    },
+    {
+      "speaker": "client",
+      "text": "Do all of them come hot or iced?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yeah, you can order any of them hot or iced."
+    },
+    {
+      "speaker": "client",
+      "text": "Wonderful. I'd like to try to the Creme Brulee one. What does it have in it?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It looks like it's made with espresso, then has steamed milk, caramel brulee sauce, and whipped cream with a brulee topping, whatever that is."
+    },
+    {
+      "speaker": "client",
+      "text": "That sounds delicious! Can I order one hot and one cold?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Absolutely! What sizes do you want? The sizes are short, tall, grande, and venti."
+    },
+    {
+      "speaker": "client",
+      "text": "Make the hot one Grande and the cold one tall."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds good, and do you want this order placed right now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please, thank you, Sally."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. Your order has been placed and I'll email you a receipt if you want."
+    },
+    {
+      "speaker": "client",
+      "text": "That won't be necessary. Please tip the barista two dollars per drink."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You got it! "
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you, Sally, talk soon!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "black",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caramel Creme Brulee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Black and White Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Chestnut Praline Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Chestnut Praline Latte,",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Eggnog Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Gingerbread Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Iced Peppermint Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Creme Brulee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "short",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall,",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-6b95a993-77b8-49dc-b8f3-83e057f68c01",
+  "created_at": "2026-02-15T15:44:17.153Z"
+}

@@ -1,0 +1,136 @@
+{
+  "dialog_id": 2147,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2147"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, it's me, I'm heading back to the office."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, I've got some messages for you."
+    },
+    {
+      "speaker": "client",
+      "text": "They can wait, you know what I'd like?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What's that?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like for you call the Starbucks at Coliseum and Tanger and order me a Caffe' Latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I can do that. What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "The big one, I never can keep those sizes straight."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Probably the Grande?"
+    },
+    {
+      "speaker": "client",
+      "text": "That sounds right. What's the other one?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Venti?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's the small one, right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I think that's right. I'll call your order in."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks, I can pick it up on my way. Order anything you want as well."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thanks, I might do that."
+    },
+    {
+      "speaker": "client",
+      "text": "Hello?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'ts me, I placed the order, it will be waiting for you at the Coliseum Starbucks."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, I appreciate it!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They'll text your receipt to your phone."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh good. What would I do without you? "
+    },
+    {
+      "speaker": "cashier",
+      "text": "I don't know, but I'll see you when you get here."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caffe' Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "big",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-63e59f60-072a-461f-a95f-36c22339209a",
+  "created_at": "2026-02-15T15:44:17.149Z"
+}

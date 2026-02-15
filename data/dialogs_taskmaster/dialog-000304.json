@@ -1,0 +1,228 @@
+{
+  "dialog_id": 304,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=304"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there! How can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I have guests in town, and they're hungry, so I think I want to order them some pizza from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure! I can help!"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, I'm going to probably need two mediums."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay."
+    },
+    {
+      "speaker": "client",
+      "text": "For the first one I'm going to do Hawaiian."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it."
+    },
+    {
+      "speaker": "client",
+      "text": "And the second one, I'm going to do Margherita pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure! would you like to add basil to that one?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Not a problem!"
+    },
+    {
+      "speaker": "client",
+      "text": "Could I have thick crust for both of those too, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Most definitely."
+    },
+    {
+      "speaker": "client",
+      "text": "And then on the Hawaiian can we also add mushroom?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Certainly."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "alright, i got 2 medium Pizza, one Hawaiian with Mushroom  and the 2nd one margarita with basil."
+    },
+    {
+      "speaker": "client",
+      "text": "Did you get thick crust for both?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "my apologies, I forgot to mention the thick crust, yes with thick crust on both."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome."
+    },
+    {
+      "speaker": "client",
+      "text": "How much will that be?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "give me one moment to check."
+    },
+    {
+      "speaker": "client",
+      "text": "Sure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your total for those two medium pizzas will be $28.21."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that alright?"
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great!"
+    },
+    {
+      "speaker": "client",
+      "text": "When will they be ready?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "one moment while I send your order to Bella Luna and see what their queue time is."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright! your pizzas are in the works and should be ready for pickup in 40 min."
+    },
+    {
+      "speaker": "client",
+      "text": "Nice. And can you tell me how much those were one more time, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure! they are $28.21."
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds good. Thank you for your help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're very welcome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great day."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks. You too, bye-bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thanks Goodbye!"
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mediums",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Margherita",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "basil",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushroom",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Mushroom",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-2ac08938-cdf4-4a30-b520-12e47f9f4b67",
+  "created_at": "2026-02-15T15:44:16.924Z"
+}

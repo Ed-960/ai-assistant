@@ -1,0 +1,117 @@
+{
+  "dialog_id": 2021,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2021"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi there, I'd like you to order me a coffee from starbucks please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure which starbuck are you near?"
+    },
+    {
+      "speaker": "client",
+      "text": "Ummm order from the one on North Charles street."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok and what kind of coffee drink do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll take the Caffe Americano please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok and what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "The largest one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great what milk do you want with it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Whole milk please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok well it looks like the whole milk actually is not available right now."
+    },
+    {
+      "speaker": "client",
+      "text": "Well that sucks what is?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Almond, cocunut, soy and 2 percent milk"
+    },
+    {
+      "speaker": "client",
+      "text": "I guess I'll take the coconut then please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great well I'll order it right now if that's all."
+    },
+    {
+      "speaker": "client",
+      "text": "Yep thats it thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok its ordered, and will be ready at the starbucks."
+    },
+    {
+      "speaker": "client",
+      "text": "OK thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh and the receipt will be sent to you're phone via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Gotcha thanks again bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem , bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caffe Americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "largest",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-4318750e-3565-43ad-971b-963a5e363161",
+  "created_at": "2026-02-15T15:44:17.134Z"
+}

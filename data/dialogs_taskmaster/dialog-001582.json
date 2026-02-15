@@ -1,0 +1,124 @@
+{
+  "dialog_id": 1582,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1582"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Oh, that's loud."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I want to order a coffee from Starbucks on Helen Road in 1 Haven. Venti Caffe Americano."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of coffee would you like?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you have any milk preference?"
+    },
+    {
+      "speaker": "client",
+      "text": "2% milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so a venti ameriano with 2% milk and whipped cream, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "and three raw sugars."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so a venti americano with 2% milk and whipped cream and 2 sugars."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "where would you like to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "Allen Road Starbucks in Woodhaven, Michigan."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your coffee will be ready for pickup soon at the starbucks at ellen rd."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "byebye!"
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caffe Americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ameriano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "americano",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-e78090c0-40da-4a86-8f3c-4978a8652ad3",
+  "created_at": "2026-02-15T15:44:17.062Z"
+}

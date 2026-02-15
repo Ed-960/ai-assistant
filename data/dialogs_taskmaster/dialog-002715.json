@@ -1,0 +1,132 @@
+{
+  "dialog_id": 2715,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2715"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello, could you pick up some coffee on the way back to the office?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure! where would you like me to go?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm craving something from Starbucks today"
+    },
+    {
+      "speaker": "cashier",
+      "text": "That does sound good, i'm over by the one on Chandler Blvd and kyrene right now"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like you to pick it up a little bit closer to the office. It's hot out i don't want my drink the melt. Could you go to the one at 4985 W. Ray Rd Chandler, AZ 85226 I'll text you the address if you need it"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No, I know where that one is. What would you like me to pick up?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a vent Carmel Frapaachino"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok do you want whipped cream on that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please also with a carmel drizzle on top, I feel i have a sweet tooth today"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Go ahead and grab you something as well."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok! I'll head over that way right now!"
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome, use the company card please. Also give them my account number for the points "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay the blue visa card correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes thats the one, oh i was just thinking could you have them add a double shot of expresso to my drink as well?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, that does sound good"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you, also grab us a couple cake pops too (laughs)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yay! ok so thats 1 carmel frapachino, with whiped cream on top and a carmel drizzle with a double shot of expresso and 2 cakes pops?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes that is perfect thank you so much!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'll be back shortly! bye now"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "vent",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Carmel Frapaachino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "carmel frapachino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "carmel drizzle",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-fd2656a8-fb81-4253-83b2-e3313ceb5dc2",
+  "created_at": "2026-02-15T15:44:17.215Z"
+}

@@ -1,0 +1,121 @@
+{
+  "dialog_id": 1933,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1933"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I want to grab a coffee at Peets"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which Peets would you like to order from."
+    },
+    {
+      "speaker": "client",
+      "text": "The one on E. Bidwell in Folsom"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what would you like to order."
+    },
+    {
+      "speaker": "client",
+      "text": "A large iced latte please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay that will be $4.75"
+    },
+    {
+      "speaker": "client",
+      "text": "Great"
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like anything else"
+    },
+    {
+      "speaker": "client",
+      "text": "no, just the coffee"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order has been place for a large iced latte at Peets on E. Bidwell in Folsom"
+    },
+    {
+      "speaker": "client",
+      "text": "How long before its ready"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order will be ready in 5 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Great I will head on over."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, is there anything else."
+    },
+    {
+      "speaker": "client",
+      "text": "Can you charge to my account"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order has been charged to you Peet's account"
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds good"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You order will be sent via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, can you send it to my email address also."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order has been sent to your email."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-2e914bb9-86d4-4f4f-a5ec-87f9c82ae825",
+  "created_at": "2026-02-15T15:44:17.121Z"
+}

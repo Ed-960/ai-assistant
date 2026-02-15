@@ -1,0 +1,93 @@
+{
+  "dialog_id": 1352,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1352"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you have any milk preference?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like whipped cream?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "so a grande espresso latte with whole milk and whipped cream, correct?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "where would you like to pick it up?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your coffee will be ready for pickup soon at the starbucks on colorado blvd."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome. your receipt will be sent to you via text. bye."
+    },
+    {
+      "speaker": "client",
+      "text": "I want whole milk."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "client",
+      "text": "At the Starbucks on Colorado Boulevard in Denver."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "espresso latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-c23b7e69-e882-4c9e-aa0e-b68efa766ea2",
+  "created_at": "2026-02-15T15:44:17.037Z"
+}

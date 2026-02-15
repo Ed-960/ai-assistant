@@ -1,0 +1,163 @@
+{
+  "dialog_id": 1066,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1066"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi how can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. I'd like to order pizza from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure thing, how many did you need?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need three of them, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it and what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "small."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what would you like on them?"
+    },
+    {
+      "speaker": "client",
+      "text": "On the first one I want broccoli and cheese, on the second I'd like pepperoni and sausage. On the third I want."
+    },
+    {
+      "speaker": "client",
+      "text": "Pepperoni, sausage, ham, and ground beef."
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it, anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, all three of the pizzas need to have gluten free crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's 3 small gluten free pizzas, one broccoli and cheese, one peperoni and sausage, and one pepperoni, sausage, ham, and ground beef and that totals out to $38.99 okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's perfect. Thanks."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, you're all set."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizza will be ready for pickup in 30 minutes and you'll get the reciept via text."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Bye bye, take care."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "broccoli",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ground beef",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "peperoni",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-976c8e10-59f5-44fb-ab46-a4b1c2d9bc82",
+  "created_at": "2026-02-15T15:44:17.006Z"
+}

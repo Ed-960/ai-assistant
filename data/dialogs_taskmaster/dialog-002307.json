@@ -1,0 +1,145 @@
+{
+  "dialog_id": 2307,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2307"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I'm going to need to place a pick up order for Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, which Starbucks will it be at?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm going to the one on West Market Street, Johnson City."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, and what would you like in the order?"
+    },
+    {
+      "speaker": "client",
+      "text": "First, I'd like a grande coffee of the day..."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Black or cream or sugar?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, just black. And then I need an iced cappuccino for Lindsey."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size on that one?"
+    },
+    {
+      "speaker": "client",
+      "text": "Tall will be fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any cream in that or added flavor syrup?"
+    },
+    {
+      "speaker": "client",
+      "text": "Cream is fine. No need for anything else."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, is there anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please add two pieces of banana bread to that order if they have them today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I got it. would you like those heated up?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, they don't need to heat them. I'll do that myself at the office."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, I've got it. Is there anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that will be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, I have a grande black coffee, a tall cappuccino with cream, and two pieces of banana bread. Is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that is all correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, I will get this ordered and the pick up time should be in approximately 20 minutes from now."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cappuccino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-8c913cab-b04d-40f5-a3cf-d0af84c4d8ad",
+  "created_at": "2026-02-15T15:44:17.168Z"
+}

@@ -1,0 +1,166 @@
+{
+  "dialog_id": 1453,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1453"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi, how can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I like to order some pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, how many pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need four large, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what are the toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, all the pizzas, please, with thin crust. On one of them, I need pepperoni and extra cheese. On another, I need pepperoni sausage, bacon, and Canadian bacon. On a third one, I just need a veggie lover's style. And the fourth one I need chicken pepperoni, onions."
+    },
+    {
+      "speaker": "client",
+      "text": "in bell peppers."
+    },
+    {
+      "speaker": "client",
+      "text": "all of them large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "let me repeat your order, please confirm if it's correct: 4 large thin crust pizzas. one with pepperoni and extra cheese, the other with pepperoni, sausage, bacon and canadian bacon. the third one is a veggie lovers. the fourth is with chicken, pepperoni, onions and bell peppers."
+    },
+    {
+      "speaker": "client",
+      "text": "Those are all correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the total is $65."
+    },
+    {
+      "speaker": "client",
+      "text": "And that is at the local Bella Luna, right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "correct. your pizzas will be ready for pickup at Bella Luna's in 35 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, perfect. That'll work. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome, bye!"
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Canadian bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lover's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bell peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "canadian bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-d13cc9f4-e24c-4c93-9755-34b0a5804f68",
+  "created_at": "2026-02-15T15:44:17.048Z"
+}

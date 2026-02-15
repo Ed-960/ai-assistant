@@ -1,0 +1,110 @@
+{
+  "dialog_id": 557,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=557"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey, I'd like to order something from Starbucks. Can you help me out, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll like to order a cappuccino."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to add milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "2% milk, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what size would you like that in?"
+    },
+    {
+      "speaker": "client",
+      "text": "a grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, what location would you like to pick up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "from North Eastern Avenue in Las Vegas, Nevada."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you are ordering a grande cappacino with 2% milk to be picked up at the starbucks on northeastern avenue, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, your drink will be ready in 5 minutes and your receipt will be texted to you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. That's a bit.That's about it. Thank you very much for your help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your welcome, enjoy your coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "I will."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cappacino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-4fb3575b-493e-456c-8b53-8c153117b86e",
+  "created_at": "2026-02-15T15:44:16.951Z"
+}

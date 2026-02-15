@@ -1,0 +1,112 @@
+{
+  "dialog_id": 262,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=262"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Good afternoon, what can I do for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hello. Hi. I wanted to order a drink to go pick up at the Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, let me set that up for you. Which Starbucks do you want to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one in Salt Lake City on 3300 Salsa Main Street."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, and what did you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "All right, I want to get a Venti iced white chocolate mocha with whole milk and whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Awesome. I have you down for 1 venti iced white Chocolate Mocha with Whole milk and Whipped Cream from the Starbucks in salt lake city."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "That'll do it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "$4.50 is the total for your order, should I place it now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Go ahead and place it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You got it. I've sent the order in. It'll be ready for pick up in 15 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "That will do it. Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Awesome,you're welcome."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "white chocolate mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "white Chocolate Mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-23b5d374-cc1f-4840-9fd8-e703edbbc203",
+  "created_at": "2026-02-15T15:44:16.919Z"
+}

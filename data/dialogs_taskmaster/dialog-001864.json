@@ -1,0 +1,132 @@
+{
+  "dialog_id": 1864,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1864"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello, can I get a mocha frappucino with whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. What location are you ordering to?"
+    },
+    {
+      "speaker": "client",
+      "text": "To the Starbucks on Mass Ave in Central Square."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, very good. What size would you like for your frappucino?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like a grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, a grande frappucino. Is that a mocha frap?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's right. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. Would you like whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let me ask my friend, because it's for her. Hold on a moment?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, no problem."
+    },
+    {
+      "speaker": "client",
+      "text": "OK, she does want whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, got it."
+    },
+    {
+      "speaker": "client",
+      "text": "Can you make it light whipped cream though?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Light whipped cream, absolutely. Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I think that will do it. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK then, your order will be ready in 10 minutes. "
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And the receipt has already been sent to your phone.n "
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect, thanks. Oh, before I forget: could I get an extra straw with that?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Absolutely. Thanks again and have a good day. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "mocha frappucino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "frappucino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande frappucino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mocha frap",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-1e304262-fd39-46b7-92b8-d1161510055c",
+  "created_at": "2026-02-15T15:44:17.111Z"
+}

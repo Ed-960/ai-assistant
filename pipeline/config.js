@@ -15,8 +15,8 @@ export const PIPELINE_CONFIG = {
     // zaiApiKey: process.env.ZAI_API_KEY || "...",
     // zaiApiUrl: "https://api.z.ai/api/paas/v4/chat/completions",
 
-    /** Model: qwen2.5:7b-instruct — multilingual, instruction-following, role-play */
-    model: process.env.API_MODEL || "qwen2.5:7b-instruct",
+    /** Model: qwen3:1.7b — компромисс скорость/качество (1.4GB). Варианты: qwen3:1.7b, qwen3:4b, qwen3:8b */
+    model: process.env.API_MODEL || "qwen3:1.7b",
     menuPath: "mcd.csv",
     dialogsDir: "data/dialogs",
     /** База знаний REG: профили в формате "ключ=значение ключ2=значение2" */

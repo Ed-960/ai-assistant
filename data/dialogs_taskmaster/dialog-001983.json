@@ -1,0 +1,130 @@
+{
+  "dialog_id": 1983,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1983"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, can I get an order for Starbucks put in, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, for what location?"
+    },
+    {
+      "speaker": "client",
+      "text": "8th and Colorado in Denver."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "A grande nonfat java chip frappuccino."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, can you add a shot to that, too?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure."
+    },
+    {
+      "speaker": "client",
+      "text": "You have my Starbucks card info, right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I do. Do you want any food items?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, let me place the order."
+    },
+    {
+      "speaker": "client",
+      "text": "Okie dokie."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh, when do you want to pick up?"
+    },
+    {
+      "speaker": "client",
+      "text": "In about twenty minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, I made the order and they said they will send the receipt to your phone."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, does it go to the app?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They said via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome, thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "nonfat java chip frappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "java chip frappuccino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-3991b503-d452-44bc-92f4-bfc1ea6e2296",
+  "created_at": "2026-02-15T15:44:17.129Z"
+}

@@ -1,0 +1,127 @@
+{
+  "dialog_id": 2561,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2561"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi I'd like a coffee from starbucks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Solid choice, where would you like to pick it up at?"
+    },
+    {
+      "speaker": "client",
+      "text": "In the mall of america."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Coffee and shopping, sounds great. What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like a cherry mocha"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grande please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of milk do you prefer? "
+    },
+    {
+      "speaker": "client",
+      "text": "2% milk please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And finally any toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "None at all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I've got a cherry mocha, 2% milk, no toppings, grande size, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, it'll cost $9.85"
+    },
+    {
+      "speaker": "client",
+      "text": "No problem, can you place the order now?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, I've placed the order. It'll be ready to be picked up in 5 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Great thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is there anything else I can do for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope thats it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Enjoy the coffee!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cherry mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "2% milk",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-d074c277-3fb6-408c-8315-d0825f306cea",
+  "created_at": "2026-02-15T15:44:17.198Z"
+}

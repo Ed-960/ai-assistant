@@ -1,0 +1,294 @@
+{
+  "dialog_id": 899,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=899"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Good afternoon."
+    },
+    {
+      "speaker": "client",
+      "text": "I don't know. I'm just looking for something to eat today. Do you have any suggestions?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "HOw about pizza from Bella Luna's?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. That sounds good, pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "Do you know of any place besides Ballerina's?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "None of them are as good as Bella Luna's."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh well, I guess I'll go with that, then. What do they offer there?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get some steak from there?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They have a wide variety of pizza toppings including seafood and prime rib."
+    },
+    {
+      "speaker": "client",
+      "text": "Ooh, seafood prime rib. Can Can you name off the toppings for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It'll take a moment okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that'd be okay."
+    },
+    {
+      "speaker": "client",
+      "text": "Hello. Are you still there?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, SO Bella Luna's Pizza toppings include: anchovies, spinach, bell peppers, jalepenos, pepperocinni, olives, 3 kinds of mushrooms, hardboiled egg, 3 kinds of cheeses seafood and more."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, I think I think."
+    },
+    {
+      "speaker": "client",
+      "text": "We're kind of hungry. I think we'll take four medium pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "And we'd like two of them to be seafood pizzas. Now, what kind of seafood are we talking about?"
+    },
+    {
+      "speaker": "client",
+      "text": "Shrimp, fish, I mean Exactly, when you say seafood, what do you mean?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Shrimp, crab, lobster and optionally oyster."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh yeah, okay, Lina. We'll take two We'll take two medium seafood pizzas, and then we'll have a meat lover's pizza, and then one I think I'll just have with pepperonis, sausage, extra cheese, and onions."
+    },
+    {
+      "speaker": "cashier",
+      "text": "4 mediums, 2 seafood, 1 meatlovers, 1 pepperoni sausage, onions, and extra cheese right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, ma'am."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great that's going to be about 56 dollars okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's okay. It's kind of high, though. If I come pick him up, I can't get a discount?"
+    },
+    {
+      "speaker": "client",
+      "text": "I mean, they don't they don't they don't charge less for pick-up for pick-ups and they do deliveries."
+    },
+    {
+      "speaker": "client",
+      "text": "They don't have any coupons or specials going on?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Well it's 18.99 per medium pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "So it's just a straight price. They had no They have no They run no deal specials?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Let me check that right now for you."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, they have a seafood promotion deal right now. It's buy two seafood pizzas any size and get 2 pizzas free (of equal or lesser size)."
+    },
+    {
+      "speaker": "client",
+      "text": "Well, that's what I want, then."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, cuz we're getting two seafood pizzas and we should 3488, thank you. Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so that'll be 34 88 okay?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. It'll be ready in 30 minutes. Have a good day."
+    },
+    {
+      "speaker": "client",
+      "text": "You, too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye."
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "seafood",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "prime rib",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna's Pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "anchovies",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "spinach",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bell peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "jalepenos",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperocinni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hardboiled egg",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheeses seafood",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "seafood pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lover's pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperonis",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mediums",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meatlovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-7bffdb6b-2f53-406c-a6da-dcef598a1105",
+  "created_at": "2026-02-15T15:44:16.989Z"
+}

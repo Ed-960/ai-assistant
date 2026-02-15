@@ -1,0 +1,140 @@
+{
+  "dialog_id": 2053,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2053"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey there! I was hoping you could order me a coffee from Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course, no problem! What location should I order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I have a meeting at Whole Foods in Shrewsbury, so let's do the Starbucks on Route 9 in Shrewsbury?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "And what kind of drink are you thinking about today?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to try the Iced Cold Foam Cappuccino."
+    },
+    {
+      "speaker": "cashier",
+      "text": "That sounds delicious. What size are you looking for?"
+    },
+    {
+      "speaker": "client",
+      "text": "Venti - Iced please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! And do you like the regular amount of ice?"
+    },
+    {
+      "speaker": "client",
+      "text": "Actually, thanks for asking, no, please order light ice. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "I can do that! And would you like to add anything to the drink itself?"
+    },
+    {
+      "speaker": "client",
+      "text": "What comes standard?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ice, Milk and Brewed Espresso"
+    },
+    {
+      "speaker": "client",
+      "text": "Please request skim milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Will do! Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please have them add an extra shot of espresso."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will do that! Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that will be all! Please use my Starbucks account to order it. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "I am doing so right now, would you like a copy of the receipt?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please, have it texted to me. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, you should get that text message any moment!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you so much for your help!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Enjoy your drink!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "I would like to try the Ic",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Iced Cold Foam Cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Iced",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Milk and Brewed Espresso",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-4cf73ec2-45ae-4bbb-809a-467c2f1d40c5",
+  "created_at": "2026-02-15T15:44:17.138Z"
+}

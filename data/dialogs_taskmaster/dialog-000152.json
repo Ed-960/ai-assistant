@@ -1,0 +1,162 @@
+{
+  "dialog_id": 152,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=152"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there! How can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh yes, I'd like to order a coffee drink for pick up at a Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing! What can I get you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like an iced cinnamon shortbread latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay, what size did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "a toll."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Tall, got it! did you want whip cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is regular milk fine with you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like."
+    },
+    {
+      "speaker": "client",
+      "text": "Coconut, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure! I'll add that!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay, and at which location would you like to pick it up at?"
+    },
+    {
+      "speaker": "client",
+      "text": "a beach in Western in Fort Worth, Texas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay, one second, let me find that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would it be the location on 6405 N Beach St?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, great! thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "So i got a Tall Iced Cinnamon Dolce Latte with coconut with whip cream,"
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that will be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, one moment while i send that over to starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, your order has been sent to your desired location. It will be ready for pickup in 5-8 min."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're very welcome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great day."
+    },
+    {
+      "speaker": "client",
+      "text": "You, too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "byebye."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "iced cinnamon shortbread latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Iced Cinnamon Dolce Latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-1406e9ce-3b9c-4a59-9270-99e397cb0982",
+  "created_at": "2026-02-15T15:44:16.907Z"
+}

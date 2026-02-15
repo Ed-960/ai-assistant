@@ -1,0 +1,132 @@
+{
+  "dialog_id": 1887,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1887"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi. I'd like to order a pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! Which restaurant are you ordering from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Pizza Hut."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! What size pizza are you ordering?"
+    },
+    {
+      "speaker": "client",
+      "text": "One large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! And what are the toppings you would like on it."
+    },
+    {
+      "speaker": "client",
+      "text": "Pineapple and ham"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! Is this order going to be carryout or deliver?"
+    },
+    {
+      "speaker": "client",
+      "text": "Carryout."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright. You have one order for a large two topping pizza with pineapple and ham. Is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! Let me place the order for you."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! The order has been placed."
+    },
+    {
+      "speaker": "client",
+      "text": "Fantastic. Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is there anything else you would like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, that was it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! Your pizza order is complete and the pizzas will be ready for pickup in about 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you! Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Pizza Hut",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-253f95ed-e0f6-4584-8ac6-1a88593e9991",
+  "created_at": "2026-02-15T15:44:17.114Z"
+}

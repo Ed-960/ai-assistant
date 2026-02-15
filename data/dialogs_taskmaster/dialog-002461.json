@@ -1,0 +1,198 @@
+{
+  "dialog_id": 2461,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2461"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi Siri! can you order 2 pizza from Pizzahut?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. Which location do you prefer?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one in Main road, next to the cinema please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. What kind of pizza do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want 2 pepperoni pizza and 1 cheese pizza with Canadian bacon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it! they don't have Canadian Bacon. Do you want something else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Arrgggh... What other toppings do they have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They have spinach, anchovies, bacon, cheese, ground meat, chicken, BBQ meat, ham, and mushroom."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok. I want mushroom and bacon please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! so 2 pepperoni pizza and 1 cheese with mushroom and bacon. Is it right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. What dessert do they have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "they have cinnabon. Do you want to order it as well?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, Thank you. I am good. Do they have coke?"
+    },
+    {
+      "speaker": "cashier",
+      "text": " yes, they have it. Do you want me to order it as well?"
+    },
+    {
+      "speaker": "client",
+      "text": "Sure. Make it 2 "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is that all?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Can you repeat my order please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. I got 2 pepperoni pizza, 1 cheese pizza with mushroom and bacon, and 2 bottle of coke. Do you want to use your credit card?"
+    },
+    {
+      "speaker": "client",
+      "text": "yes. Please use my visa. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it! Your receipt will be sent through text message right away. "
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. How long will it take?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The pizza will be ready in 25 minutes"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you Siri! That's it for now!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your welcome sir!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Pizzahut",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Main road, next to the cinema",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Canadian bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Canadian Bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "spinach",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "anchovies",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ground meat",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "BBQ meat",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushroom",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-b5765f41-cf9a-4090-ab83-530f079f1742",
+  "created_at": "2026-02-15T15:44:17.185Z"
+}

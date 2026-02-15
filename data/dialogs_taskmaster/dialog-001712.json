@@ -1,0 +1,203 @@
+{
+  "dialog_id": 1712,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1712"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi, what can I do for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, I'd like to order some pizzas, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of pizza would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order four medium thin-crust pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What toppings would you like to add?"
+    },
+    {
+      "speaker": "client",
+      "text": "One, I'd like a meat lovers and next one pepperoni and sausage."
+    },
+    {
+      "speaker": "client",
+      "text": "Give me just pepperoni."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Let be get that all ordered. One moment!"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you read it back first?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Certainly."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I got 4 thin crust pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The 1st a meat lovers."
+    },
+    {
+      "speaker": "client",
+      "text": "What kind of pizza?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "2nd pepperoni and sausage."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The 3rd cheese only."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And the 4th is pepperoni only."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, they're all medium now."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is that all right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "That's correct."
+    },
+    {
+      "speaker": "client",
+      "text": "Yep, everything's all right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Let me get the summary for you and the total."
+    },
+    {
+      "speaker": "cashier",
+      "text": "4 medium pizzas, with thin crust. One meat lovers, one pepperoni and sausage, another pepperoni only and the last cheese only."
+    },
+    {
+      "speaker": "cashier",
+      "text": "That comes out to 75 dollars and 52 cents."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great I'll submit your order now."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright! Your order has been sent to Bella Luna and is being prepared. Your order should be ready for pickup soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome! I hope you enjoy your meal!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Good bye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin-crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-fcef4609-6b8f-44d7-beb5-5abf628e4155",
+  "created_at": "2026-02-15T15:44:17.084Z"
+}

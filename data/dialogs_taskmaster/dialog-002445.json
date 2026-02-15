@@ -1,0 +1,127 @@
+{
+  "dialog_id": 2445,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2445"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "can you order me a Caffe Con Panna from peets on shattuck ave in berkley"
+    },
+    {
+      "speaker": "cashier",
+      "text": "how many shots "
+    },
+    {
+      "speaker": "client",
+      "text": "just one"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of milk"
+    },
+    {
+      "speaker": "client",
+      "text": "whole cows milk"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size"
+    },
+    {
+      "speaker": "client",
+      "text": "small is fine"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok anything else"
+    },
+    {
+      "speaker": "client",
+      "text": "can you add extra whipped cream and extra caramel"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes let me order it"
+    },
+    {
+      "speaker": "client",
+      "text": "thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok i ordered it and it will be ready soon"
+    },
+    {
+      "speaker": "client",
+      "text": "ok let me know"
+    },
+    {
+      "speaker": "cashier",
+      "text": "let me get confirmation"
+    },
+    {
+      "speaker": "client",
+      "text": "i will hold"
+    },
+    {
+      "speaker": "cashier",
+      "text": "it will be ready at the shattuck st location in 15 min"
+    },
+    {
+      "speaker": "client",
+      "text": "ok i will head there"
+    },
+    {
+      "speaker": "cashier",
+      "text": "your recipt will be sent to your mobie by text message"
+    },
+    {
+      "speaker": "client",
+      "text": "thank you so much"
+    },
+    {
+      "speaker": "cashier",
+      "text": "your are very welcome"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caffe Con Panna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "shattuck st",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-b15ecac7-c098-4de9-aed1-60a3a890a6ea",
+  "created_at": "2026-02-15T15:44:17.183Z"
+}

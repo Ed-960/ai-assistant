@@ -1,0 +1,142 @@
+{
+  "dialog_id": 2321,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2321"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello, I want to order a coffee to pick up before work."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like it from Starbucks or Peets?"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks, the one on South 3rd Street here in Louisville."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I have their site pulled up now. What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a white chocolate mocha latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hot or iced? Or maybe frappuccino?"
+    },
+    {
+      "speaker": "client",
+      "text": "Iced, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Whipped cream or no?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I'll have whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Whole milk, 2% milk, nonfat milk, soy, almond, or coconut?"
+    },
+    {
+      "speaker": "client",
+      "text": "Soy milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And what size would you like? They have talle, grande, venti, and trenta"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll have a venti."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any other special instructions? You could chose to have an extra shot of espresso."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would like that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, so I'll order you a venti iced white chocolate mocha latte with soy milk and an extra shot. Does that sound correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, your order has been placed and will be read at the 3rd Street Starbucks in about 15 minutes. Your receipt will be sent to your phone through text."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. Enjoy your coffee!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "white chocolate mocha latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "frappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "talle",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "trenta",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced white chocolate mocha latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-8f99529b-bb5a-4250-b771-22503bdea341",
+  "created_at": "2026-02-15T15:44:17.169Z"
+}

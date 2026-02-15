@@ -1,0 +1,138 @@
+{
+  "dialog_id": 594,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=594"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello. Hello. Can you help me order a cup of coffee?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi,how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, from where?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. I want drinks from Starbucks Espresso beverages."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what kind of coffee would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I just need a dark coffee with no sugar and with whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so you want black coffee with whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, where would you like to pick up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, I'm in New York City right now."
+    },
+    {
+      "speaker": "client",
+      "text": "I'm at 1500 Broadway."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i'll find starbucks near you."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, I'll pick it up from 1500 Broadway. There's a Starbucks there."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you say brooke way?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, 1050 Broadway. There's a Starbucks there. I will pick it up from there."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, let me send your order there, one moment."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright."
+    },
+    {
+      "speaker": "cashier",
+      "text": "i have ordered you a black coffee with whipped cream to be picked up at the starbucks on 1500 brooke way."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright. So, how long is this going to take?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be texted to you and your drink will be ready in 4 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright. Thank you very much. Yeah, that should be all for now."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help with anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "dark coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black coffee",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-548e06d1-41d2-407b-97f3-2a0513d083a0",
+  "created_at": "2026-02-15T15:44:16.956Z"
+}

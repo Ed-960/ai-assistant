@@ -1,0 +1,165 @@
+{
+  "dialog_id": 843,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=843"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi there."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hello. how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I was looking to order three small pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "pizza sounds good right now. sure, let me start the order for you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I was thinking one chicken bacon ranch, one supreme pizza, and a pepperoni with extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of crust did you want on those?"
+    },
+    {
+      "speaker": "client",
+      "text": "Thin crust for all of them."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. let me read that back to you. you said you wanted 3 small pizzas with thin crust, 1 with bbq chicken ranch, 1 pepperoni with extra cheese, and 1 supreme pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Chicken bacon ranch, but otherwise, yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sorry let me fix that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "3 small pizzas with thin crust, 1 with chicken bacon ranch, 1 pepperoni with extra cheese, and 1 supreme pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the total is $34.02 should i place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i've placed the order. it'll b ready for you to pick it up in 35 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that should be it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. good bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken bacon ranch",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "supreme pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bbq chicken ranch",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Chicken bacon ranch",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-74016aad-b2f5-4254-a224-4dd84398f54a",
+  "created_at": "2026-02-15T15:44:16.982Z"
+}

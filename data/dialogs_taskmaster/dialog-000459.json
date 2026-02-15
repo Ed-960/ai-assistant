@@ -1,0 +1,143 @@
+{
+  "dialog_id": 459,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=459"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'm looking to order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what kind of coffee would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "a medium roast."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, im sorry i can hear an echo in the background, are your headphones in?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, can you please repeat your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "a dark roast tall."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok and did you want your dark roasted coffee iced or hot?"
+    },
+    {
+      "speaker": "client",
+      "text": "hot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want to add any milk to your coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what size did you want your coffee?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "will a tall be ok for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "one moment while i order your coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i have ordered a tall dark roast coffee to be picked up in daly city, ca at westlake shopping center."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, can i help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "medium roast",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "dark roast",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "dark roast coffee",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-40955537-e3d7-4d7d-8665-9eb24efe2701",
+  "created_at": "2026-02-15T15:44:16.941Z"
+}

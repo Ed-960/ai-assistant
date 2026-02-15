@@ -1,0 +1,135 @@
+{
+  "dialog_id": 437,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=437"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi, how can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Like to get in Starbucks Espresso."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm sorry, did you mean venti?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you want milk in it?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have a venti espresso for you, did you want any shots?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what location did you want to pick up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Bourbonnais."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have an Espresso for you at Bourbon A for 470. Is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright. Your order should be ready in 15 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Enjoy your coffee!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "espresso",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-3e2cdc7f-ad13-4cdb-bed3-8f82e7c40b57",
+  "created_at": "2026-02-15T15:44:16.938Z"
+}

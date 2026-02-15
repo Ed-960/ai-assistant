@@ -1,0 +1,121 @@
+{
+  "dialog_id": 2636,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2636"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Good morning, to start the day I would like you to go to the Starbucks that is close to our company, at 237 Pennsylvania Ave SE."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Good morning, I will go straight from here to there"
+    },
+    {
+      "speaker": "client",
+      "text": "It's near here, it should be fast"
+    },
+    {
+      "speaker": "cashier",
+      "text": "it's okay, tell me the information about the drink you want from there."
+    },
+    {
+      "speaker": "client",
+      "text": "Well I would like an espresso with freshly steamed milk with syrup, with a vanilla flavor, covered with a drizzle of caramel."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Well, I'm reviewing the menu and I'm asking for a Caramel Macchiato"
+    },
+    {
+      "speaker": "client",
+      "text": "That same is, and ask to be charged to my account, you can request one for you if you want."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, thank you very much, and the order is done, I will pick it up shortly and I will take it to the office, the charge will be referred to your mobile phone"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, thanks, I hope so."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It will be as fast as possible, the order is already done, I just have to go through the"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, Tell me, today how has the family been? Did you remember asking for a drink for you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "My family well, and yours? and yes, thank you very much, it's the best way to start the day"
+    },
+    {
+      "speaker": "client",
+      "text": "Well I'm very happy and yes, nothing better than to start the day with what you like"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Well yes, that's right, for espresso, I ask you to give it a lot of foam?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, with extra foam, tell me, what drink did you order?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I ordered an espresso with fresh steamed milk and cinnamon-flavored syrup Dolce with sweetened whipped cream and cinnamon Dolce dressing."
+    },
+    {
+      "speaker": "client",
+      "text": "Ahh! the famous \"Cinnamon Dolce Latte\" from Starbucks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, in the online menu it says that a surprise awaits me and I really want to know what it is."
+    },
+    {
+      "speaker": "client",
+      "text": "Well, see what it is, remember to arrive on time"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm already here, I'm on my way to the office"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caramel Macchiato",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-e4a0971c-a1f7-41f5-821a-3f3e7ae0cb0c",
+  "created_at": "2026-02-15T15:44:17.206Z"
+}

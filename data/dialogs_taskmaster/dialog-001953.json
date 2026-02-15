@@ -1,0 +1,144 @@
+{
+  "dialog_id": 1953,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1953"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I could really use a coffee to perk me up this afternoon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Where would you the coffee from today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks is the closest."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which Starbucks? They're everywhere these days."
+    },
+    {
+      "speaker": "client",
+      "text": "The one in Red Mill Commons 1169 Nimmo Parkway in Virginia Beach."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, I know that one.  What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you do the online ordering so it's ready to pick up when you get there?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem! I use online ordering a lot."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect. I liked that new drink I had last week. Do you remember the name of it?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The Cordusio?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's it!  "
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll have a Grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So you'd like one grande Cordusio, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "One second thought, make it a Venti. And I'd like it with 2%milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You got it. A Venti Cordusio made with 2% milk."
+    },
+    {
+      "speaker": "client",
+      "text": "That's it!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I just placed your order online. I am on my way to the Red Mill Store to pick it up."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect. You're the best!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. Your receipt will be sent via text on your phone."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you so much!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cordusio",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Yes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-33c7c683-74ce-4e0e-a8c0-00f9f42f1d82",
+  "created_at": "2026-02-15T15:44:17.124Z"
+}

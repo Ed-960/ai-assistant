@@ -1,0 +1,181 @@
+{
+  "dialog_id": 1978,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1978"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, can you order a couple pizzas?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. Where from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Papa John's."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. What kind of pizzas do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Order a custom pizza first."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. What do you want on it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Black olives, banana peppers, and mushrooms."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. What size do you want on that one?"
+    },
+    {
+      "speaker": "client",
+      "text": "Large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "Get the regular crust on both."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Original crust?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. What about the second pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just order a regular pepperoni."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Large with original crust?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. So two large pizzas with original crust, one pepperoni and one custom with black olives, banana peppers, and mushrooms?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. I've ordered those. They will be ready for pick up in 25 minutes. You'll get a receipt to your email."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Papa John's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "custom pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Black olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "banana peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Original crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "original crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "custom",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black olives",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-3850fd7d-0bf9-4f5f-8315-1e2dc9afe969",
+  "created_at": "2026-02-15T15:44:17.128Z"
+}

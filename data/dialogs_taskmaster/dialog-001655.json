@@ -1,0 +1,133 @@
+{
+  "dialog_id": 1655,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1655"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey. We're having an office party, and I want to get some pizzas for pickup from Bella Luna. Can you help?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to get a set of four-medium-thin crust pizzas. I want two of them with sausage and pepperoni, one with the onions, and one with broccoli."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you are ordering 4 medium thin crust pizzas, 2 sausage and pepperoni, 1 onion, and 1 broccoli, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, all thin crust. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, your total will be $76, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "The boss says it's good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to dine in, pick up, or have your order delivered?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. I'll go pick it up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your pizzas will be ready in 40 minutes and your receipt will be texted to you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's it. You're the best. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your welcome, enjoy your pizza and party."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "-medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "-thin crust pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage and pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "broccoli",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onion",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-f2feee75-1662-4f03-8ceb-7a1227840cfb",
+  "created_at": "2026-02-15T15:44:17.070Z"
+}

@@ -1,0 +1,228 @@
+{
+  "dialog_id": 1200,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1200"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there! How can I help?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay! what would you like on them?"
+    },
+    {
+      "speaker": "client",
+      "text": "A medium extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I can hear myself in the background. Did you remember to put on headphones or earbuds?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hmm, maybe can you turn down the volume?"
+    },
+    {
+      "speaker": "client",
+      "text": "I have done that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Maybe that will help, let me see."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, that helps a little bit. I appreciate it."
+    },
+    {
+      "speaker": "client",
+      "text": "All right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So back to your pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. I need three large pizzas with extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else on them?"
+    },
+    {
+      "speaker": "client",
+      "text": "Maybe chicken barbecue. Is that possible?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It sure is!"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, I need it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, is that chicken BBQ for all 3?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, 403."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, I got for you 3 large BBQ chicken pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "With extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're right, my apologies."
+    },
+    {
+      "speaker": "cashier",
+      "text": "With extra cheese, chicken BBQ."
+    },
+    {
+      "speaker": "cashier",
+      "text": "3 large BBQ chicken pizzas, with extra cheese."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. Where am I ordering from?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "This is through Bella Luna."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect, I'm good to go."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, let me get you the total really quickly."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. I wait."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The total for those 3 large pizzas will be $62.99."
+    },
+    {
+      "speaker": "client",
+      "text": "All right, there is no problem. I'll pay. Close the order. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, one moment while I send your order to Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're very welcome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "All set! Your order is in the works and should be ready for pickup in 40 min."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're very welcome. Have a good one."
+    },
+    {
+      "speaker": "client",
+      "text": "You too, my friend."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you! bye bye."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye-bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken barbecue",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken BBQ",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "BBQ chicken pizzas.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "BBQ chicken pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna.",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-aa0b42e5-1155-4b1b-b83e-f62994b3474d",
+  "created_at": "2026-02-15T15:44:17.020Z"
+}

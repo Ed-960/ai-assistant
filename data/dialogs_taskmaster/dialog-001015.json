@@ -1,0 +1,117 @@
+{
+  "dialog_id": 1015,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1015"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey. I'm trying to order some coffee from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "with an extra surname."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, an extra shot of espresso you said?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep. That's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, just to let you know they will charge for an extra shot of espresso, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's fine. And I'd like to pick it up near near Pearlridge shopping center in Hawaii."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, let me find a location close to you."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i see there is a starbucks in pearlridge shopping center so i will send your order there."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "i have ordered you a grande caffe americano with an extra shot of espresso."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much. When can I pick it?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be texted to you and your drink will be ready in 5 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome. Thank you. Thank you. I'll go there now."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "Yep, thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caffe americano",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-8dedb7af-5d33-4406-8d0f-09fe4ab589dc",
+  "created_at": "2026-02-15T15:44:17.001Z"
+}

@@ -1,0 +1,129 @@
+{
+  "dialog_id": 2278,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2278"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey Julian , could you get me a coffee please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes boss , where do you want it from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks will be perfect!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay , What coffee would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like an Iced Caffe Mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want cream and sugar with it ?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes regular cream and sugar please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure , and would you like it skinny or regular?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you regular is fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And what size would you like your coffee to be?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want it Grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And what milk do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Mmm I want Almond Milk please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course! And would you like whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay got it!"
+    },
+    {
+      "speaker": "client",
+      "text": "Actually! I do want whipped cream!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay!"
+    },
+    {
+      "speaker": "client",
+      "text": "How much would that be?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No more than 5$."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay I will pay you back when you get here!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure no problem! Coffee is ordered!"
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome, See you soon!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Iced Caffe Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-858cb0c1-a896-4150-91a5-688b4d528071",
+  "created_at": "2026-02-15T15:44:17.164Z"
+}

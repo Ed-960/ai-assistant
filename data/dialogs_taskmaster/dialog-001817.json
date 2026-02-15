@@ -1,0 +1,218 @@
+{
+  "dialog_id": 1817,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1817"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Would you get a coffee order ready for pick up for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. Where are you wanting to pick it up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Starbucks on Pepper St. please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Something with Cinnamon sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Are you looking for a hot or cold drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "Cold, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Can i suggest the Cinnamon Shortbread Frappuccino ? It's currently being featured."
+    },
+    {
+      "speaker": "client",
+      "text": "That sounds good. Can I get that with heavy cream?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'll check. (pause) Yes, I can order it with heavy cream."
+    },
+    {
+      "speaker": "client",
+      "text": "Excellent! And can you add chocolate syrup to the whip cream?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Making those changes now. What size did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "A Venti please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "One Venti Cinnamon Shortbread, with heavy cream, and chocolate syrup."
+    },
+    {
+      "speaker": "client",
+      "text": "Good, I would like 2 of those."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else on the order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, a Venti vanilla creme frappuccino, heavy cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will add that to the order."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, are those Cinnamon Shortbread frappuccinos available as Creme frapps?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, they are. Would you like me to change your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope. Just those three."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Your order for two venti Cinnamon Shortbread Creme Frappuccinos with heavy creme and chocolate syrup, and one venti vanilla creme frappuccino will be ready in 10 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect. Thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome. Is there anything else I can help with?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope. That's all for now."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a wonderful day. Good-bye."
+    },
+    {
+      "speaker": "client",
+      "text": "Good-bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cinnamon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cinnamon Shortbread Frappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "One",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cinnamon Shortbread",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "2",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "vanilla creme frappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "vanilla creme frappuccino,",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cinnamon Shortbread frappuccinos",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Creme frapps",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "three",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "two",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cinnamon Shortbread Creme Frappuccinos",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-108ae97c-4cbc-4e5f-aa38-eab30125eaad",
+  "created_at": "2026-02-15T15:44:17.104Z"
+}

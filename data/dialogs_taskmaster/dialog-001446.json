@@ -1,0 +1,241 @@
+{
+  "dialog_id": 1446,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1446"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "How can I be of service?"
+    },
+    {
+      "speaker": "client",
+      "text": "All right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hello."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need three pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "small."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and your toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need pineapple, bacon, tomato, onion."
+    },
+    {
+      "speaker": "cashier",
+      "text": "all on one pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "One pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what else?"
+    },
+    {
+      "speaker": "client",
+      "text": "On the second pizza I want broccoli, garlic."
+    },
+    {
+      "speaker": "client",
+      "text": "Add cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and for your last one?"
+    },
+    {
+      "speaker": "client",
+      "text": "On the third pizza, I want sausage, pepperoni, black olive, mushroom."
+    },
+    {
+      "speaker": "client",
+      "text": "and shaves."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm sorry we're out of black olives."
+    },
+    {
+      "speaker": "client",
+      "text": "That's okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "One moment please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so that's 3 small pizzas, a hawaiian with tommato and onion, one broccoli and garlic with extra cheese, and the last one has sausage, mushrooms, and pepperoni right?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need extra cheese on all three."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, I'll add that to the order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your total will be $40.44."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is that okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great it will be ready in 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, anything else for you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. Goodbye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Bye bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tomato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onion",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "broccoli",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "garlic",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black olive",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushroom",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "shaves",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tommato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-d041cc5a-84d2-4d10-b1c5-d7cd9dd3e0e6",
+  "created_at": "2026-02-15T15:44:17.047Z"
+}

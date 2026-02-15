@@ -1,0 +1,127 @@
+{
+  "dialog_id": 2571,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2571"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi I just saw a new Starbucks coffee that looks amazing. Can you order me one for pickup?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, you can tell me all about it. Which Starbucks should I use?"
+    },
+    {
+      "speaker": "client",
+      "text": "Make it the one at 2431 East North St. I have to be over that way in about 20 minutes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. I have their number. What's the coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "It's a Cordusio."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds yummy. You want your regular venti?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, make it a tall. I want to sample first."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok tall it is. What kind of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Make is soy."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. Anything else."
+    },
+    {
+      "speaker": "client",
+      "text": "Make it extra hot"
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK extra hot, tall Cordusio. Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "I think it has some sort of topping."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, I'm on their site and it has a cocoa powdered topping."
+    },
+    {
+      "speaker": "client",
+      "text": "Any sugar?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yep, has sugar."
+    },
+    {
+      "speaker": "client",
+      "text": "Ask them to hold the topping."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, no topping"
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thanks for doing that. I'll let you know how it tastes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, I just sent the order to head on over there. And tell me about it when you get back in the office. Bye"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cordusio",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-d2844249-4cfc-43fb-819f-17171021d1d8",
+  "created_at": "2026-02-15T15:44:17.199Z"
+}

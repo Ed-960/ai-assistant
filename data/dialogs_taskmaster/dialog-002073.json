@@ -1,0 +1,154 @@
+{
+  "dialog_id": 2073,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2073"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "hi, i'd like to order a pizza from "
+    },
+    {
+      "speaker": "cashier",
+      "text": "where would you like to order from"
+    },
+    {
+      "speaker": "client",
+      "text": "from Vitto's"
+    },
+    {
+      "speaker": "cashier",
+      "text": "where is this located"
+    },
+    {
+      "speaker": "client",
+      "text": "on 3rd street"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what type of pizza "
+    },
+    {
+      "speaker": "client",
+      "text": "large pizza"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what type"
+    },
+    {
+      "speaker": "client",
+      "text": "margarita pizza"
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything on it"
+    },
+    {
+      "speaker": "client",
+      "text": "extra garlic and onions"
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else"
+    },
+    {
+      "speaker": "client",
+      "text": "2 diet cokes. you want anything"
+    },
+    {
+      "speaker": "cashier",
+      "text": "maybe a slice white pizza"
+    },
+    {
+      "speaker": "client",
+      "text": "good and a drink"
+    },
+    {
+      "speaker": "cashier",
+      "text": "water is good..what time do you wish delivery"
+    },
+    {
+      "speaker": "client",
+      "text": "1pm -1:30PM is good"
+    },
+    {
+      "speaker": "cashier",
+      "text": "good, I'll order right now and send you confirm"
+    },
+    {
+      "speaker": "client",
+      "text": "thank you for your help"
+    },
+    {
+      "speaker": "cashier",
+      "text": "i ping you when food is here"
+    },
+    {
+      "speaker": "client",
+      "text": "great, can you set up in conference room"
+    },
+    {
+      "speaker": "cashier",
+      "text": "will do"
+    },
+    {
+      "speaker": "client",
+      "text": "thanks"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Vitto's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "3rd street",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "margarita pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra garlic",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "slice white pizza",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-52ac6fba-7f1e-421f-b622-3b5d9b576532",
+  "created_at": "2026-02-15T15:44:17.140Z"
+}

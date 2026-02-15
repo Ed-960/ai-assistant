@@ -1,0 +1,132 @@
+{
+  "dialog_id": 2427,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2427"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, can you please order an Iced Caramel Macchiato from Peet's?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want me to order it from the Peet's on Munras in Monterey?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's the closest one. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, cool. Do you want a small, medium, or large?"
+    },
+    {
+      "speaker": "client",
+      "text": "Get me a large, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Did you want them to make it iced or hot?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want it iced, please. Also, can you ask them to make it with almond milk instead of the regular milk they use?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. I think they add whipped cream though. If they ask, do you want whipped cream on top?"
+    },
+    {
+      "speaker": "client",
+      "text": "Actually, yeah, that sounds good. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, cool. Do you want any extra shots of espresso or anything?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thanks. I don't need too much coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, got it. Do you want anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hmm, have you tried anything of the food they serve?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yeah, I have. They make a yummy egg and cheese breakfast sandwich. Do you wanna try it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Mmm, that does sound good, but I'd rather have something from their bakery."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh! If you're feeling a sweet breakfast treat, you should get their chocolate croissants. "
+    },
+    {
+      "speaker": "client",
+      "text": "Oh my gosh, that sounds delicious. Yeah, order a chocolate croissant and a large iced caramel macchiato at the Peet's in Monterey."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, will do. I'll let you know when it's ready."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome. See you later."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Iced Caramel Macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced caramel macchiato",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-ab7e22e3-d3d4-48b5-b638-3581f563f1e9",
+  "created_at": "2026-02-15T15:44:17.181Z"
+}

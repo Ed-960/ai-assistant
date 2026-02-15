@@ -1,0 +1,176 @@
+{
+  "dialog_id": 721,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=721"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hello there! how may I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hello."
+    },
+    {
+      "speaker": "client",
+      "text": "I want to order some pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. Where do you want to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Bella Luna Pizzeria, it's a new Pizzeria."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Let me take down your order."
+    },
+    {
+      "speaker": "client",
+      "text": "That should be the 17 cheese brand."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The order was."
+    },
+    {
+      "speaker": "cashier",
+      "text": "3 large pizzas, 1 with bay leaves, olives, and sun dried tomatoes, 1 mighty meat lovers pizza, and 1 of the 17 cheese blend pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. I need extra cheese on all of them."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it, I've added extra cheese for all 3 pizzas. The total is now $55.39."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Should I place the order for you now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Do I have to tip?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sorry, could you repeat that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Do I gave to tip anyone?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Not for pick up orders, no."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. And how long when will that be ready for pickup?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Once I place the order, it should take 35 mins to bake."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Sounds good. Place the order. Yes, Google."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Should I place the order for you now?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, I've placed the order. I've also sent you the receipt via text."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. Enjoy!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna Pizzeria",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "17 cheese brand",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bay leaves",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sun dried tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mighty meat lovers pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "17 cheese blend pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-644640ec-bdaf-441d-9c58-2e408ebaaa66",
+  "created_at": "2026-02-15T15:44:16.970Z"
+}

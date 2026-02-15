@@ -1,0 +1,125 @@
+{
+  "dialog_id": 540,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=540"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like to order two pizzas, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, which toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like one pizza with mushrooms and pepperoni and the other pizza with green pepper, mushrooms, and olives."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what size would you like both pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, large, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure! any crust preferences?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a thick crust on both."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Will that be all?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's everything."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure. your total is $60."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be sent to you via text."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. Thank you so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you are very welcome. have a good day."
+    },
+    {
+      "speaker": "client",
+      "text": "You too have a great day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "thanks."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "green pepper",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-4cff4f22-18c5-4cb3-a65f-e2948d342e68",
+  "created_at": "2026-02-15T15:44:16.950Z"
+}

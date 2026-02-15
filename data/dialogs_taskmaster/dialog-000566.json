@@ -1,0 +1,434 @@
+{
+  "dialog_id": 566,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=566"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I need to order a venti matcha latte from Starbucks."
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I need to order a venti matcha latte from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you said mocha latte?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "you said mocha latte?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, matcha latte."
+    },
+    {
+      "speaker": "client",
+      "text": "No, matcha latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it matcha latte?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it matcha latte?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, venti."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, venti."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to add any milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to add any milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can we do coconut milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can we do coconut milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, so you are ordering a venti matcha latte with coconut milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, so you are ordering a venti matcha latte with coconut milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. And I also want one pump of raspberry flavoring, and chocolate chips."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. And I also want one pump of raspberry flavoring, and chocolate chips."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, ill add that pump of rasberry syrup and chocolate chips."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, ill add that pump of rasberry syrup and chocolate chips."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "which location would you like to pick up from?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "which location would you like to pick up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I do the one on Colorado Boulevard in Denver?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I do the one on Colorado Boulevard in Denver?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i'll send your order there, one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i'll send your order there, one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i have ordered you a venti maccha latte with coconut milk, a pump of rasberry syrup and chocolate chips to be picked up at the starbucks on colorado boulevard, is that correct?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i have ordered you a venti maccha latte with coconut milk, a pump of rasberry syrup and chocolate chips to be picked up at the starbucks on colorado boulevard, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, your receipt will be texted to you and your drink will be ready in 5 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, your receipt will be texted to you and your drink will be ready in 5 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you. No, that'll be it today."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you. No, that'll be it today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "which location would you like to pick up from?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "which location would you like to pick up from?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "which location would you like to pick up from?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "which location would you like to pick up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I do the one on Colorado Boulevard in Denver?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I do the one on Colorado Boulevard in Denver?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I do the one on Colorado Boulevard in Denver?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I do the one on Colorado Boulevard in Denver?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i'll send your order there, one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i'll send your order there, one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i'll send your order there, one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i'll send your order there, one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i have ordered you a venti maccha latte with coconut milk, a pump of rasberry syrup and chocolate chips to be picked up at the starbucks on colorado boulevard, is that correct?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i have ordered you a venti maccha latte with coconut milk, a pump of rasberry syrup and chocolate chips to be picked up at the starbucks on colorado boulevard, is that correct?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i have ordered you a venti maccha latte with coconut milk, a pump of rasberry syrup and chocolate chips to be picked up at the starbucks on colorado boulevard, is that correct?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i have ordered you a venti maccha latte with coconut milk, a pump of rasberry syrup and chocolate chips to be picked up at the starbucks on colorado boulevard, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, your receipt will be texted to you and your drink will be ready in 5 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, your receipt will be texted to you and your drink will be ready in 5 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, your receipt will be texted to you and your drink will be ready in 5 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, your receipt will be texted to you and your drink will be ready in 5 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you. No, that'll be it today."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you. No, that'll be it today."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you. No, that'll be it today."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you. No, that'll be it today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "tcha latte?",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "i.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "d you like t",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "we do coconu",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "you are orde",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "d I also wan",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ll ad",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "e tex",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ed to you an",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "maccha latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-515928c7-1a6a-4473-9f67-028629b3d979",
+  "created_at": "2026-02-15T15:44:16.952Z"
+}

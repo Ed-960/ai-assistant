@@ -1,0 +1,114 @@
+{
+  "dialog_id": 1535,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1535"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to make an order from Peet's Coffee espresso beverages."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of coffee would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a Hold on 1 second."
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a golden caffe latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you have any milk preference?"
+    },
+    {
+      "speaker": "client",
+      "text": "What are the milk options?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "2%, almond, coconut and whole milk."
+    },
+    {
+      "speaker": "client",
+      "text": "Dial a phone, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Could I have some whipped cream on top? That'd be great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so a golden cafe latte, with whole milk and whipped cream, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "where would you like to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I pick it up at the Pits on Main Street and Wilkes-Barre, Pennsylvania?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your coffee will be ready for pickup soon at the peet's on main st."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome, bye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "golden caffe",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "a golden cafe",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-df0dadf9-174c-4c12-93e1-83d97b3572b5",
+  "created_at": "2026-02-15T15:44:17.056Z"
+}

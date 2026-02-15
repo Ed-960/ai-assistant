@@ -1,0 +1,149 @@
+{
+  "dialog_id": 2049,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2049"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello Assistant!! Can you here me? Have you arrived to work yet? Can I ask you to pick me up something for Starbucks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes sir how are you doing this morning?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm doing good but I'm going to be late to the office. Can you run to the starbucks in down on Main Street Paterson to get a couple hot drinks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes of course, I'm actually there now what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Please get me a Viente Caffe Mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay I'm in line with the cashier they would like to know if you would like whip cream on it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes of course extra if they can!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They said yes of course any other specifications? "
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please add two sugars to drink and mini chocolate bars."
+    },
+    {
+      "speaker": "cashier",
+      "text": "They can accommodate just fine. Anything else"
+    },
+    {
+      "speaker": "client",
+      "text": "Uhhhhh.... Yes! Let's get the secretary something drink make her day better!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK! what do you think she would like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just get her a small cappuccino she doesn't like anything fancy and she isn't picky."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok I'll add that to the order!"
+    },
+    {
+      "speaker": "client",
+      "text": "Would you like anything? It's on me of course!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes!!! Thank you for asking??"
+    },
+    {
+      "speaker": "client",
+      "text": "What would you like?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'll just get a small espresso and then I'll head out of here to the office!"
+    },
+    {
+      "speaker": "client",
+      "text": "Get yourself a veinte!!! You deserve it!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Why thanks boss you are the best!!"
+    },
+    {
+      "speaker": "client",
+      "text": "No you are!!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The order is almost ready they have the card on file. I'm getting a good container to keep in it in then heading to the office!"
+    },
+    {
+      "speaker": "client",
+      "text": "Great see you soon!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Viente",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caffe Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veinte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-4c1e8f29-3f45-4f2a-a787-53126abac931",
+  "created_at": "2026-02-15T15:44:17.137Z"
+}

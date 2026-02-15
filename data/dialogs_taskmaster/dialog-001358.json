@@ -1,0 +1,132 @@
+{
+  "dialog_id": 1358,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1358"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to order an iced espresso from Peet's."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to add any milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "client",
+      "text": "Can I add honey?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let me add that."
+    },
+    {
+      "speaker": "client",
+      "text": "And do they have camel?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "how many shots of espresso do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Do they have caramel there, as well?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "i can check."
+    },
+    {
+      "speaker": "cashier",
+      "text": "it looks like they have caramel syrup."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Yeah. Can you add that to the order?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure."
+    },
+    {
+      "speaker": "client",
+      "text": "and then six shots of espresso."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you are ordering 6 iced shots of espresso with honey and caramel, is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "client",
+      "text": "And that should be for the Pitts on Middle Street in Boise."
+    },
+    {
+      "speaker": "cashier",
+      "text": "let me order that for you, one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i have ordered you 6 iced shots of espresso with honey and caramel to be picked up at the peet's on myrtle street in boise, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your receipt will be texted to you and your order will be ready in 6 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your coffee."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "espresso",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-c3a61ef0-d302-4618-b633-c36835baf991",
+  "created_at": "2026-02-15T15:44:17.038Z"
+}

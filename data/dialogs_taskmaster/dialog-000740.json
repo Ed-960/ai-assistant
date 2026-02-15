@@ -1,0 +1,127 @@
+{
+  "dialog_id": 740,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=740"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I would like to order three small pizzas from the La Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How can I help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what toppings were you interested in?"
+    },
+    {
+      "speaker": "client",
+      "text": "A supreme."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's 3 small pizzas, all supremes?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you want any extras?"
+    },
+    {
+      "speaker": "client",
+      "text": "the crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your total will be $33.99 after adding thick crust."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "Just make sure it's from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's 3 small pizzas, all supremes with thick crust for $33.99, anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order will be ready at bella luna in 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, enjoy."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "La Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "supreme",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "supremes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "the crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-66e106b4-e089-485d-bc17-df91d644bf23",
+  "created_at": "2026-02-15T15:44:16.971Z"
+}

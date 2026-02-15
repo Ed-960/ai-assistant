@@ -1,0 +1,122 @@
+{
+  "dialog_id": 1855,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1855"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I would like a drink from Peets please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, which location should I order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "60 Washington Square S, New York, NY"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Perfect. What would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "What would you recommend?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I recently had the golden caffe latte and loved it."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok. Perfect. What's in that?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It's a regular caffe latte with turmeric, honey, and ginger"
+    },
+    {
+      "speaker": "client",
+      "text": "Ooh that sounds great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, what kind of milk would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Skim please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok great. Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No that's it"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok perfect."
+    },
+    {
+      "speaker": "client",
+      "text": "Actually can you add an extra shot of espresso?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure"
+    },
+    {
+      "speaker": "client",
+      "text": "How much is that?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The extra shot is an extra dollar."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect. Just add it to my account there."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. The order is confirmed and you will get a receipt sent to your phone."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "golden caffe latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular caffe latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caffe latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-1bf371ff-e4af-41d7-9915-6d71861bcc94",
+  "created_at": "2026-02-15T15:44:17.110Z"
+}

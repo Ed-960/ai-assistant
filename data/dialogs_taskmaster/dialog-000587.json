@@ -1,0 +1,136 @@
+{
+  "dialog_id": 587,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=587"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "How can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to place a pickup order from Bella Luna, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, how many pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm looking to get four pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "4 pizzas, all the same size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Small, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, and what toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get the supreme variety, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. and that's for all 4 of them?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you want to add a dollar and get the Amore special?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you. But can I make sure that all four pizzas are thick crust?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing. Our crust is the thickest in town!"
+    },
+    {
+      "speaker": "client",
+      "text": "That's good to learn."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's 4 supreme pizzas with thick crust?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that'll do it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your total will be 44 dollars."
+    },
+    {
+      "speaker": "client",
+      "text": "And that'll be ready for pickup shortly?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes sir, 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you so very kindly."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, see you soon."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "supreme",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "supreme pizzas",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-53e5a05e-5790-44e7-b104-87a995ca3389",
+  "created_at": "2026-02-15T15:44:16.956Z"
+}

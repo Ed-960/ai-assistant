@@ -1,0 +1,123 @@
+{
+  "dialog_id": 1259,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1259"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi. I'd like to order two medium pizzas with gluten free crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to order one meat lovers pizza. On the second pizza I would like green peppers, bacon, and sausage."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you are ordering 2 medium gluten free pizzas, one meat lovers and one with green peppers bacon and sausage."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your total will be $38, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, will you be dining in, picking up, or having your order delivered?"
+    },
+    {
+      "speaker": "client",
+      "text": "pick up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your receipt will be texted to you and your order will be ready in 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. That is all, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "green peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-b1e6fe8f-e0af-4114-9d5c-625ddb7f5093",
+  "created_at": "2026-02-15T15:44:17.027Z"
+}

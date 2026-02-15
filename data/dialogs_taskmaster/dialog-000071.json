@@ -1,0 +1,133 @@
+{
+  "dialog_id": 71,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=71"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'd like to order some pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay what sizes?"
+    },
+    {
+      "speaker": "client",
+      "text": "large two large pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You said two right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Two large pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get one with."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what toppings did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "extra spicy sausage."
+    },
+    {
+      "speaker": "client",
+      "text": "with thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's one diablo maximus pizza with thin crust, and whats on the other one?"
+    },
+    {
+      "speaker": "client",
+      "text": "Same."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay so two diablo maximus pizzas both large with thin crust right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "WOnderful. your total is $44.44."
+    },
+    {
+      "speaker": "client",
+      "text": "That's great. Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. That's it. You have a great and wonderful day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great you too!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your Pizza will be ready in 30 minutes."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra spicy sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "diablo maximus pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "diablo maximus pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust right",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-093771d5-7ac2-412c-b6e3-d1783aa19322",
+  "created_at": "2026-02-15T15:44:16.897Z"
+}

@@ -1,0 +1,235 @@
+{
+  "dialog_id": 777,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=777"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Well, I was I was hoping to order two small pizzas today. Do you have any suggestions for maybe a good a local pizzeria shops?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let me search around you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "i see bella luna is in the area, would you like to try that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. It sounds good. I will try that."
+    },
+    {
+      "speaker": "client",
+      "text": "As I was saying, I was wanting two small pizzas. Can you tell me what kind of toppings they have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, they have all regular pizzeria toppings and specialty pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, what kind of special pizzas do they have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "there most popular are meat lovers, veggie lovers, and supreme pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "Hey."
+    },
+    {
+      "speaker": "client",
+      "text": "get a meat lover and a veggie pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you want one meat lovers and one veggie lovers, is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct. Could you make sure that both of them pizzas have a gluten-free crust?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "you said thin crust?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, gluten-free. I don't want no gluten in my crust. Please make sure that it is gluten-free."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, gluten free."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "client",
+      "text": "That'll be it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your total will be $28, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's okay. Could you repeat Repeat back to me my order to make sure it's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, 2 small gluten free pizzas, 1 meat lovers and 1 veggie lovers."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, that'll work."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like pick-up, delivery, or dine-in?"
+    },
+    {
+      "speaker": "client",
+      "text": "Delivery, I guess."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, please note that tip is not included in the total."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your welcome, your receipt will be texted to you and your delivery will be coming in 40 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "That we'll be it I guess."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you. Have a nice day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "specialty pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "supreme pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lover",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie pizza.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "no gluten",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers.",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-6cf97a74-c7ca-40c9-bc1d-7f605cfc0882",
+  "created_at": "2026-02-15T15:44:16.976Z"
+}

@@ -1,0 +1,132 @@
+{
+  "dialog_id": 1590,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1590"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello. how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi."
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. Can I get four large pizzas from Bella Luna, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, 4 large pizzas it is. what did you want on those?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just pineapple, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want pineapple on all 4?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of crust did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Thin crust, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. so you want 4 large pizzas all with thin crust and, all with pineapple."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what an interesting order. anyway, the total is $65.39."
+    },
+    {
+      "speaker": "client",
+      "text": "What an interesting price. Thank you for confirming, it will be all for me today. Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want me to place the order now?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. i've placed the order. it'll be ready for pick up in 25 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, that is all. Thank you very much Google pod. You are so helpful."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok glad to help."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-e89f18f8-b7d9-47bb-bda7-e757c16b1e54",
+  "created_at": "2026-02-15T15:44:17.062Z"
+}

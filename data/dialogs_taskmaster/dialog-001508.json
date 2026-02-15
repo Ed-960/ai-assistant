@@ -1,0 +1,114 @@
+{
+  "dialog_id": 1508,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1508"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you."
+    },
+    {
+      "speaker": "client",
+      "text": "Hey, I'm looking to order a drink from the Starbucks on Walnut Street in Philadelphia."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let me pull that starbucks up. what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I am going to get the caramel macchiato tall, please, with non-fat milk and whipped cream on top."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want that iced or hot?"
+    },
+    {
+      "speaker": "client",
+      "text": "Ice, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and you said tall, right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, so the order is for 1 tall iced caramel macchiato with nonfat milk and whipped cream on top from the starbucks from walnut street in philadelphia."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome. the total is $3.45."
+    },
+    {
+      "speaker": "cashier",
+      "text": "should i place the order now."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, go ahead and order that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i've submitted the order. it'll b ready for pick up in 15 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's it. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome, enjoy the drink. you're welcome."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "caramel macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-dab7c329-fb96-4ab8-af94-4cc7e2ca7caf",
+  "created_at": "2026-02-15T15:44:17.054Z"
+}

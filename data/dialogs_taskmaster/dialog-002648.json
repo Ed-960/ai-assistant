@@ -1,0 +1,117 @@
+{
+  "dialog_id": 2648,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2648"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Please get me a grande Mocha from Starbucks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you mean the one at Domain or Great Hills?"
+    },
+    {
+      "speaker": "client",
+      "text": "The closet one to you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Fat free milk or full milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Do they have soymilk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I am sorry that option is out."
+    },
+    {
+      "speaker": "client",
+      "text": "2% milk please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I am so sorry, that is not available either"
+    },
+    {
+      "speaker": "client",
+      "text": "Hmm, fat free is good then"
+    },
+    {
+      "speaker": "cashier",
+      "text": "How about the syrup? Full pump or half?"
+    },
+    {
+      "speaker": "client",
+      "text": "I guess two pumps will be good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds good. Is there anything else you would like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a blueberry muffin please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I am sorry they are completely out today. Is there anything else you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "How about Oatmeal cookie?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, how many would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Two please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is there anything else I can get you?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's all, thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You are welcome!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-e7e112e4-733d-4b61-965e-1694cb661cba",
+  "created_at": "2026-02-15T15:44:17.207Z"
+}

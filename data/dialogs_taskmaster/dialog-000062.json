@@ -1,0 +1,231 @@
+{
+  "dialog_id": 62,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=62"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to order a pizza from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "one pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "client",
+      "text": "four pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, and what toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Two specialty pizzas, two meat lovers and two chicken barbecue."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you are ordering 4 large pizzas, 2 meatlovers and 2 chicken bbq, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your total will be $96, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to modify the order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to change."
+    },
+    {
+      "speaker": "client",
+      "text": "Gluten-free crust for special instructions on all of them."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, bella luna's charges $1 for gluten free crusts bringing your total to $100, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like pick up, delivery, or dine in?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to review for you to review the order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, 4 large gluten free crust pizzas, 2 meatlovers, 2 chicken bbq."
+    },
+    {
+      "speaker": "client",
+      "text": "Correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like pick up, delivery, or dine in?"
+    },
+    {
+      "speaker": "client",
+      "text": "delivery."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, please note that your total doesn't include tip."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be delivered within 45 minutes and your receipt will be texted to you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. It's possible to change the order of sale."
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes, what would you like to change?"
+    },
+    {
+      "speaker": "client",
+      "text": "Change delivery to pickup."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, let me change that, one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your pizzas will be ready for pickup in 30 minute.s"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, that's all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, enjoy your pizzas."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "specialty pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken barbecue",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meatlovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken bbq",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Gluten-free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crusts",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "crust pizzas",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-085f022f-effe-40ba-9b75-0ad4fd8dc3e9",
+  "created_at": "2026-02-15T15:44:16.895Z"
+}

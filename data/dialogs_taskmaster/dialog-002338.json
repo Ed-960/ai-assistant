@@ -1,0 +1,132 @@
+{
+  "dialog_id": 2338,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2338"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Order me a drink from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What store location did you want me to place the order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Order it from the 12015 Harbor Blvd, Garden Grove, CA 92840 location."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what kind of drink were you thinking of ordering?"
+    },
+    {
+      "speaker": "client",
+      "text": "Order me a Cinnamon Cloud Macchiato."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what size did you want."
+    },
+    {
+      "speaker": "client",
+      "text": "Whatever their medium size is."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Their medium size is a Grande and it's 16 ounces."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, 16oz is perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you have a preference in the milk they use?"
+    },
+    {
+      "speaker": "client",
+      "text": "What do they have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They have nonfat, whole, 2%, almond, coconut, and soy milk."
+    },
+    {
+      "speaker": "client",
+      "text": "Lets go with the whole milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, anything else."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, what's the price?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It's $6.45"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, order that for me."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, the order has been placed at the 12015 Harbor Blvd, Garden Grove, CA 92840 location. It will be ready for pickup shortly and your receipt will be sent to your cellphone via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thank you so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You are welcome, enjoy your drink."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cinnamon Cloud Macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande and it's 16 ounces.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "16 ounces",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "16oz",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-93cf8227-df66-4f8d-9610-e0a8b70fbf8b",
+  "created_at": "2026-02-15T15:44:17.171Z"
+}

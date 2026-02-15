@@ -1,0 +1,121 @@
+{
+  "dialog_id": 1919,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1919"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I would like to order some coffee from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, I can help you with that. I will ask you a few questions."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok. Let’s get started."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What Starbucks location did you want to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to order from the location at 3446 29th Street, Grandrapids, Michigan"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a cafe mocha espresso."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of milk do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like whole milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like to have whipped cream on it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is there anything else you would like?"
+    },
+    {
+      "speaker": "client",
+      "text": "No that should be it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How would you like to pay for it?"
+    },
+    {
+      "speaker": "client",
+      "text": "I am a rewards member. All of my information is on there."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like me to place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would like to order it now."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I just placed the order at 3446 29th Street, Grandrapids, Michigan. It will be ready for pickup shortly. I will send you a receipt via text."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you so much."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cafe mocha espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-2b8ea567-605f-4f31-a264-9f3846f410b7",
+  "created_at": "2026-02-15T15:44:17.119Z"
+}

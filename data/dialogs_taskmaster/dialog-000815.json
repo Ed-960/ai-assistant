@@ -1,0 +1,121 @@
+{
+  "dialog_id": 815,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=815"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Thanks. Yes. Please, I want you to help me order a cup of coffee from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what kind of coffee would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just the normal dark coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, the pike roast?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, that is good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like any milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Whipped cream is what I need with a little honey."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, did you want to add any sugar?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. No. No. I'm okay with the honey."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, so you are ordering a pike roast with whipped cream and honey, is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "which location would you like to pick up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want the Starbucks at 1500 Broadway Street."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i will send your order to the location on 1500 broadway street."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be texted to you and your order will be ready in 5 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. Thank you. Nothing else on that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "dark coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pike roast",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-70be78dc-0422-42f4-a7a5-52160f33c8c6",
+  "created_at": "2026-02-15T15:44:16.979Z"
+}

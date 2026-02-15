@@ -1,0 +1,138 @@
+{
+  "dialog_id": 1216,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1216"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like to order drinks from Starbucks. Can you help me with that, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let's do it. Which starbucks should i order at?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you order from East Flamingo Road in Las Vegas, Nevada, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. Got it. What did you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order a cinnamon dolce latte, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want your drink iced or hot?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hot, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what size did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "a venti venti."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, and did you want whole milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "2% milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get whipped cream on top, topped with a dash of cinnamon, please?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's about it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you got it. The total for your 1 hot venti cinnamon dolce latte with 2% milk and whipped cream and cinnamon from the starbucks on east flamingo road in las vegas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is $5.60."
+    },
+    {
+      "speaker": "client",
+      "text": "I'm okay with that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want me to place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i've placed the order for pick up. I'tll be ready in 15 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need my assistance with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's about it. Thank you very much for your help. I appreciate it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome. I appreciate your kindness. Good bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cinnamon dolce latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-acb9aef2-8cc6-41c6-88e1-7c48dde1e927",
+  "created_at": "2026-02-15T15:44:17.022Z"
+}

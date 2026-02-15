@@ -1,0 +1,152 @@
+{
+  "dialog_id": 2023,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2023"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Where is local Star bucks I would like to order a coffee"
+    },
+    {
+      "speaker": "cashier",
+      "text": "There is one downtown sir"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok I will Google it "
+    },
+    {
+      "speaker": "cashier",
+      "text": "That's a good idea "
+    },
+    {
+      "speaker": "client",
+      "text": "I also could just God the nearest location "
+    },
+    {
+      "speaker": "cashier",
+      "text": "That's a good idea "
+    },
+    {
+      "speaker": "client",
+      "text": "I could use a phonebook"
+    },
+    {
+      "speaker": "cashier",
+      "text": "That's a good idea "
+    },
+    {
+      "speaker": "client",
+      "text": "Any reviews of Starbucks "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes sir very high reviews "
+    },
+    {
+      "speaker": "client",
+      "text": "Ok great looking for a mocha"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I do believe they have those sir "
+    },
+    {
+      "speaker": "client",
+      "text": "Could you direct me "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes sir "
+    },
+    {
+      "speaker": "client",
+      "text": "Nearest Starbucks please "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok 1000 block of Hampton"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you times "
+    },
+    {
+      "speaker": "cashier",
+      "text": "8 - 4 "
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you prices please "
+    },
+    {
+      "speaker": "cashier",
+      "text": "5.00 a. Cup "
+    },
+    {
+      "speaker": "client",
+      "text": "Ok time of arrival "
+    },
+    {
+      "speaker": "cashier",
+      "text": "1:45 sir "
+    },
+    {
+      "speaker": "client",
+      "text": "Ok is that all"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Should be sir "
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you for your help"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes sir "
+    },
+    {
+      "speaker": "client",
+      "text": "I will use you for service on future "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you sir "
+    },
+    {
+      "speaker": "client",
+      "text": "Bye "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Bye"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-4392722c-db50-4bf7-8147-8c1dee0b0456",
+  "created_at": "2026-02-15T15:44:17.134Z"
+}

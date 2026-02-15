@@ -1,0 +1,101 @@
+{
+  "dialog_id": 1395,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1395"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi there how can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. I'd like to place a Starbucks pick up order, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "That sounds good. What kind of starbucks for you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. I will have a venti caramel macchiato with soy milk, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Iced or regular?"
+    },
+    {
+      "speaker": "client",
+      "text": "Ice, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. did you want whipped cream or any syrups?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that'll be it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay which starbucks did you want to pick up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I was hoping to pick up at the Starbucks at the corner of 7th Avenue and Missouri."
+    },
+    {
+      "speaker": "client",
+      "text": "5344 North 7th Avenue."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. that's a venti iced caramel machiato from the starbucks on 7th avenue."
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order will be ready soon and you can expect a reciept via text."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. I appreciate the help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. Enjoy your macchiato."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "venti caramel macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti iced caramel machiato",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-c914d54a-a04c-479b-b742-2ecabaf6a400",
+  "created_at": "2026-02-15T15:44:17.042Z"
+}

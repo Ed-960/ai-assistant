@@ -1,0 +1,133 @@
+{
+  "dialog_id": 543,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=543"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi there. I was looking to order three large pizzas from the Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what kind of toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "pepperoni and bacon and one mushroom and sausage."
+    },
+    {
+      "speaker": "client",
+      "text": "with extra cheese on all of those."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what type of crust?"
+    },
+    {
+      "speaker": "client",
+      "text": "thick crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so 3 large pizzas. 2 pepperoni and bacon and 1 mushroom and sausage. extra cheese and thick crust on both, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your total will be $50."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be ready for pickup at bella luna's soon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy, bye!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushroom",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese on",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-4d7bb7c5-397f-449d-80f5-8b284ff13c1b",
+  "created_at": "2026-02-15T15:44:16.950Z"
+}

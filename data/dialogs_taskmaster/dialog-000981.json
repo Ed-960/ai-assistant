@@ -1,0 +1,113 @@
+{
+  "dialog_id": 981,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=981"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I'd like to order pizzas from Bella Luna. Can I get two small?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, how many pizzas would you like?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "so 2 small pizzas, what toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Make it a veggie lover's with thick crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you want thick crust on both?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any other special instructions?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. That'll be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so 2 small pizzas, regular veggie lovers, thick crust on both, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. you're all set. your pizzas will be ready for pickup soon at bella luna's."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome, bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "a veggie lover's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-88f04e51-281d-47a4-8516-3ac63304f708",
+  "created_at": "2026-02-15T15:44:16.997Z"
+}

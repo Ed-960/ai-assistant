@@ -1,0 +1,177 @@
+{
+  "dialog_id": 273,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=273"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hello, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey, I'd like to order some pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, where would you like to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Order from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Uh I'd like to order a small um um I really would like the veggie lovers pizza uh make sure it has mushrooms, green peppers and tomatoes and olives."
+    },
+    {
+      "speaker": "client",
+      "text": "two small pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, the veggie lovers usually doesn't come with olives but you can add that on."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please, I would love olives."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, did you want the same pizza for both?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, any other requests?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. Make sure that they both have thick crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, so i have 2 small thick crust veggie lover pizzas with olives, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your total will be $26, would you like to dine-in, pick-up, or have your pizzas delivered?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm going to pick them up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your pizzas will be ready for pickup in 20 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. I will be there."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be texted to you, just show it at the counter."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, I will do that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "nothing else today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "I will. Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "green peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lover pizzas",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-25d3c5b7-97b1-480e-b660-95941eaff323",
+  "created_at": "2026-02-15T15:44:16.920Z"
+}

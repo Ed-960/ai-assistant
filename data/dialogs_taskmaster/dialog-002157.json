@@ -1,0 +1,160 @@
+{
+  "dialog_id": 2157,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2157"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey X, I would like to try and order a coffee for the first time."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, the nearest coffee location is, Starbucks location on 150 University Blvd in Morehead, would you like to order from there or chose another place."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would like to other from there. How far is it?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Its about 15 minutes drive from you. What would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to know what they have available."
+    },
+    {
+      "speaker": "cashier",
+      "text": "In their categories for Coffee Drinks they have, Cold Brew Iced coffee, Evolution Fresh, Bottled Drinks, Brewed Coffee, Espresso and Frappuccino. If would you like more information on each specific drink you can visit the link on your X app."
+    },
+    {
+      "speaker": "client",
+      "text": "I know what I want actually, I am looking for a Nitro Cold"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it, what size do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a Grande size."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it, is there anything else you would like to add to your order."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I want also a Grande Caffee Misto for my wife"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it, what kind of milk would you like to add for her?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to ad nonfat milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. Is there anything else you wish to add?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nothing more."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, your order is being process on the payment method on file."
+    },
+    {
+      "speaker": "client",
+      "text": "When can I pick it up?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order should be ready in about 5 minutes at 150 University Blvd in Morehead."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order is already process, you should be receiving a receipt via text shortly. Is there anything else I can help you with?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome. Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cold Brew Iced coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Evolution Fresh",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bottled Drinks",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Brewed Coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Frappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Nitro Cold",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caffee Misto",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-6648912f-df14-4479-9b0a-6efaae0bcc9c",
+  "created_at": "2026-02-15T15:44:17.150Z"
+}

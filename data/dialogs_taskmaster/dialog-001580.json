@@ -1,0 +1,223 @@
+{
+  "dialog_id": 1580,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1580"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there! How can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I wanted to place an order at Starbucks for pickup."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What can I get started for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to get a caffè mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Could I please have a venti?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "not a problem!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you have a preference on milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Could I please have soy milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "certainly."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like to add any sugar or other sweeteners?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, could you please add six Splendas?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure! 6, got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Will this drink iced or hot?"
+    },
+    {
+      "speaker": "client",
+      "text": "hot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay and would you like to add whip cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "No whipped cream, but I still want the chocolate drizzle on top."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing with chocolate drizzle."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright! i got a Venti Caffe Mocha with soy milk with 6 Splendas and topped with chocolate drizzle."
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that was it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Wonderful!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "May I ask the location you'd like to pick this up at?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, in Philadelphia, Pennsylvania."
+    },
+    {
+      "speaker": "client",
+      "text": "I want it to be placed at the location on 20th and Market Street."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, give me a moment to find the perfect location."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay i found a starbucks on 1900 Market St, Philadelphia, is that the one you'd like to pick this up at?"
+    },
+    {
+      "speaker": "client",
+      "text": "It is, yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Wonderful! give me a moment to submit your order."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, your order has been sent to your desired location. It will be ready for pickup in 5-8 min."
+    },
+    {
+      "speaker": "client",
+      "text": "Great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else I can do for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's it. Thank you so much for your help today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're very welcome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great day."
+    },
+    {
+      "speaker": "client",
+      "text": "You too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "goobye!"
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "caffè mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caffe Mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-e76bca9c-9398-4a55-8cd7-793c4674cd8e",
+  "created_at": "2026-02-15T15:44:17.061Z"
+}

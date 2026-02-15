@@ -1,0 +1,148 @@
+{
+  "dialog_id": 2342,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2342"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "ok i want to order a drink from the starbucks on racho in taylor mi"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what do you want to order"
+    },
+    {
+      "speaker": "client",
+      "text": "i want a venti Citrus Defender tea"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok Citrus Defender, what do you want init"
+    },
+    {
+      "speaker": "client",
+      "text": "i want 4 sugars, if they have the pure cane sugar i want that but if not then the regular sugar is ok"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, they have the pure cane sugar, so 4 pure cane sugars, what else"
+    },
+    {
+      "speaker": "client",
+      "text": "and i want extra honey in the tea"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, extra honey will be extra charge, is taht oke"
+    },
+    {
+      "speaker": "client",
+      "text": "how much extra is the extra honey"
+    },
+    {
+      "speaker": "cashier",
+      "text": "the regular is no charge, the extra is $1.00 more"
+    },
+    {
+      "speaker": "client",
+      "text": "ok hmmm, lets do that then, extra $1 is fine with me"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok then, Citrus Defender with 4 pure cane sugars and extra honey"
+    },
+    {
+      "speaker": "client",
+      "text": "yeah that sounds about rigth"
+    },
+    {
+      "speaker": "cashier",
+      "text": "is there anything else"
+    },
+    {
+      "speaker": "client",
+      "text": "actually, lets make that two of those, same for both though"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, so we have rwo Citrus Defender with 4 pure cane sugars and extra honey"
+    },
+    {
+      "speaker": "client",
+      "text": "yes, that is it"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok placing the order now"
+    },
+    {
+      "speaker": "client",
+      "text": "ok"
+    },
+    {
+      "speaker": "cashier",
+      "text": "the total is going to be $8.66 "
+    },
+    {
+      "speaker": "client",
+      "text": "ok"
+    },
+    {
+      "speaker": "cashier",
+      "text": "it should be ready for pick up shortly, the reciept will be sent to you via text message. "
+    },
+    {
+      "speaker": "client",
+      "text": "ok thanks, goobdbye"
+    },
+    {
+      "speaker": "cashier",
+      "text": "goodbye"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti Citrus Defender tea",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Citrus Defender",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "two",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "rwo",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-94758fa3-4788-4b01-9c79-933ea99f8e2f",
+  "created_at": "2026-02-15T15:44:17.171Z"
+}

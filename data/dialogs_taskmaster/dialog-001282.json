@@ -1,0 +1,158 @@
+{
+  "dialog_id": 1282,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1282"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hey there, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I like to order pizzas from Bella Luna. Can you help me out, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let's get that order started. What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like four pizzas. All large with extra cheese on all four of them."
+    },
+    {
+      "speaker": "client",
+      "text": "One pizza, can I get a meat lovers pizza with extra bacon?"
+    },
+    {
+      "speaker": "client",
+      "text": "The second pizza, can I get a classic with pepperoni?"
+    },
+    {
+      "speaker": "client",
+      "text": "The third one, can I get a veggie lovers pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "And the first one, can I get a sausage pizza with extra sausage?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. No, no, I don't."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so the order for 4 large pizzas, all with extra cheese. 1 meat lovers with extra bacon, 1 classic with pepperoni, 1 veggie lovers, and 1 sausage with extra sausage comes out to $45.66."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want me to place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i've placed the order. It'll be freshly baked in 35 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you make that for pick up, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, i'll add that it's for pick up. It'll be ready for you in 35 mins."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect, that's all I needed, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, good bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-b64b3d8c-6113-4bdb-87a8-06c699497ee3",
+  "created_at": "2026-02-15T15:44:17.030Z"
+}

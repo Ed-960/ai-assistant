@@ -1,0 +1,187 @@
+{
+  "dialog_id": 2069,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2069"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, can you do me a favor and order pizzas for the party?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem! What should I ask for?"
+    },
+    {
+      "speaker": "client",
+      "text": "Well, we'll probably need three pizzas. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what kid of crust?"
+    },
+    {
+      "speaker": "client",
+      "text": "Gluten-free for all three, I think."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Not to be nitpicky, but Mod calls it \"gluten friendly\"."
+    },
+    {
+      "speaker": "client",
+      "text": "Well, whichever. But the no gluten one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, and what toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "On the first, get plain cheese, but ask for the vegan option."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, and the second pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "Vegan cheese again, but with green peppers and onions this time."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yummy! What else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Vegan cheese again, this time with spinach and mushroom."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. So I have 3 gluten friendly pies with vegan cheese, one with spinach and mushroom, one with onion and green pepper, and one plain. Is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "You got it!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any sides?"
+    },
+    {
+      "speaker": "client",
+      "text": "Garlic breadsticks would be good. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. I placed the order. You can pick it up in 25 minutes. "
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect! thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're quite welcome. They'll text your receipt. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Gluten-free",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten friendly",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "plain cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "vegan",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Vegan cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "green peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "spinach",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushroom",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten friendly pies",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "vegan cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onion",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "green pepper",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "green pepper,",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "plain",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-50ef30de-1a3c-4df2-b16e-ba4f1fb7c5d2",
+  "created_at": "2026-02-15T15:44:17.139Z"
+}

@@ -1,0 +1,127 @@
+{
+  "dialog_id": 360,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=360"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "How can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order pizza from Bella Luna. I'd like to order three medium pizzas, Meat Lovers with gluten-free crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's 3 meat lovers with gluten free crust right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "all medium?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay one moment."
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you mind substituting pepperoni with canadian bacon?"
+    },
+    {
+      "speaker": "client",
+      "text": "I do not."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay great, your total is $45.54."
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, your pizza will be ready in 30 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Meat Lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "canadian bacon",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-329fe018-8fac-409d-a100-783bfed993d7",
+  "created_at": "2026-02-15T15:44:16.930Z"
+}

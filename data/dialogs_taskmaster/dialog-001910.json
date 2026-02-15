@@ -1,0 +1,142 @@
+{
+  "dialog_id": 1910,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1910"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Can you please order me a coffee?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What location can I order you the coffee from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you please order from the Starbucks on 5th Street in Saint Charles Missouri?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes I can, what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like something strong, do they have a Latte?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes they do, What size would you like; Tall; Grande, or Venti?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a Grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like that Latte hot or cold?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like it hot, do they have any special lattes?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "For the hot latte you can choose from; Caffe Latte, Caramel Brulée, Cinnamon Dolce, Cinnamon Shortbread, Eggnog, or Gingerbread."
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a Cinnamon Latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, do you have any other requests?"
+    },
+    {
+      "speaker": "client",
+      "text": "What kind of milk do they have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They have Soy, Coconut, Full Fat, 2% milk, non fat, and Almond, and "
+    },
+    {
+      "speaker": "client",
+      "text": "Can I please get almond milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, any other special instructions?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please add whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you have an account with Starbucks?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please use my credit card on the Starbucks account."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok I will place the order, can I get you anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, your order is ready at the Starbucks in Saint Charles."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you, can you get me a receipt please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, you will also get a receipt sent to your mobile phone via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, Thank you!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cinnamon Latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-297aba51-50a1-4353-aa03-86bfcf5f050e",
+  "created_at": "2026-02-15T15:44:17.118Z"
+}

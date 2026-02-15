@@ -1,0 +1,117 @@
+{
+  "dialog_id": 2177,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2177"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello John, I would like to ask you to buy me a cup of coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Where should I buy the coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "Peet's."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which Peet's shall I go to?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Peet's in Alameda."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of coffee do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Cafe au Lait."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Medium."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What type of milk do you want in your coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "Whole milk"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Are you sure? You usually get it with non-fat milk"
+    },
+    {
+      "speaker": "client",
+      "text": "I want something with more flavor and healthy."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How about soy milk or almond milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Which one has more calories?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Both have 40 calories."
+    },
+    {
+      "speaker": "client",
+      "text": "Which one has more sodium?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Soy has more - 115 mg instead of 100 mg."
+    },
+    {
+      "speaker": "client",
+      "text": "I have hypertension, so I would prefer the almond milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Very good. I will get that right away."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cafe au Lait",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Medium",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-6b1497a7-e9d5-42ae-85b1-a83e95507432",
+  "created_at": "2026-02-15T15:44:17.153Z"
+}

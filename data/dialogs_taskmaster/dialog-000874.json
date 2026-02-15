@@ -1,0 +1,121 @@
+{
+  "dialog_id": 874,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=874"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I'm in need of placing a Starbucks pickup order, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let's do that. what drink do you want from Starbucks."
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get a hot grande cappuccino, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you have a milk preference for your drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "2%, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you got it. anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that'll be it for me for today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so you'd like a hot grande cappuccino with 2% milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did i get that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "$3.40 is your total."
+    },
+    {
+      "speaker": "client",
+      "text": "That works for me."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like me to place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I'd like to pick up at the 1850 Union Avenue location in Memphis."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I've ordered your drink for you at Starbucks on 1850 union avenue. and it should be ready for pick up in 9 minutes. Your receipt will be sent to your mobile device via text message shortly."
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else i can help with today?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I'm all set with that. Thank you very much for your help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're very welcome."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cappuccino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-77d12dc7-bc5b-4268-b6e1-2b401b2b3fb9",
+  "created_at": "2026-02-15T15:44:16.986Z"
+}

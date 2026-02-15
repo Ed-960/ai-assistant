@@ -1,0 +1,157 @@
+{
+  "dialog_id": 2052,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2052"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'd like to order a coffee from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay which Starbucks location would you like to use?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to use the location in Sidney Ohio please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay what kind of coffee would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like a Large Iced White Chocolate Mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, do you want whip cream on top & what milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please & i'd like it made with white milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "When would you like me to place your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Now will be fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright I will call them now & then give you a call back."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hey, I just placed your order. I'm on my way to get it now."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright. Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I should have it to you in about 10 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Will you get me extra creamer packets too?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yup, no problem."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks, I really appreciate it. How much was my total?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your total was $4.50."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay I will pay you back when you get here."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I just got here. I'm bringing your coffee in now."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, great thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Here is your coffee and extra creamer."
+    },
+    {
+      "speaker": "client",
+      "text": "Yummy, I'm so excited. I love Iced White Chocolate Mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I hope you enjoy it ."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks, I really appreciate you getting it for me."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yup no problem at all."
+    },
+    {
+      "speaker": "client",
+      "text": "Here is your $4.50."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay thanks."
+    },
+    {
+      "speaker": "client",
+      "text": "Yup. Bye now. Have a great day!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Bye. You have a great day too!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Iced White Chocolate Mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-4cbb05da-271a-499c-ab79-2c9d7affbc95",
+  "created_at": "2026-02-15T15:44:17.138Z"
+}

@@ -1,0 +1,157 @@
+{
+  "dialog_id": 2142,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2142"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi can you order a coffee for me please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure sir from where"
+    },
+    {
+      "speaker": "client",
+      "text": "From Starbucks on 15th Street"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What you want to order sir"
+    },
+    {
+      "speaker": "client",
+      "text": "What hot coffee you have"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sir we have double mocha , white mocha, mocha chino, frappachino"
+    },
+    {
+      "speaker": "client",
+      "text": "I will go for white mocha"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size"
+    },
+    {
+      "speaker": "client",
+      "text": "Tall"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of milk"
+    },
+    {
+      "speaker": "client",
+      "text": "I want whole milk"
+    },
+    {
+      "speaker": "cashier",
+      "text": "How many sugar"
+    },
+    {
+      "speaker": "client",
+      "text": "2 sugar"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you like to add whipped cream"
+    },
+    {
+      "speaker": "client",
+      "text": "Does it charge extra"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes sir dollar for whipped cream"
+    },
+    {
+      "speaker": "client",
+      "text": "No dont add"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else sir"
+    },
+    {
+      "speaker": "client",
+      "text": "No that’s all"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Let me confirm you need a tall white mocha with 2 sugar and no whipped cream"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sir your total is $13 you want to pay with same card which ends in 0298"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Here is your bill and your coffee will be ready in 10 mins"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "double mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "white mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mocha chino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "frappachino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-6333bfbb-35a1-4780-9aaa-d52a44e97a4d",
+  "created_at": "2026-02-15T15:44:17.148Z"
+}

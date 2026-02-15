@@ -1,0 +1,130 @@
+{
+  "dialog_id": 789,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=789"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I need to order some pizzas from Bella Luna. I need three small thin crusts. One with with sausage, one with pepperoni, and one with onion."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to order?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, so you want 3 small pizzas with thin crust, one pepperoni, one sausage, and one onion, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your total will be $39, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is okay. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "will you be dining in, picking up, or having your order delivered?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like it delivered."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your total is $39, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "just to let you know, that doesn't include the delivery fee."
+    },
+    {
+      "speaker": "client",
+      "text": "That's okay. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be texted to you and your order will be delivered in 30 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's good. Goodbye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your pizza."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crusts",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onion",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-6e6da762-7a23-4efd-b0a5-8c660fd40bb3",
+  "created_at": "2026-02-15T15:44:16.977Z"
+}

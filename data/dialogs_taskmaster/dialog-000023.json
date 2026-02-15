@@ -1,0 +1,152 @@
+{
+  "dialog_id": 23,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=23"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "How can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to order two small pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "at Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay what toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get a Hawaiian pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "And do you have a Three Meat Pizza?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, it's called the Macho man."
+    },
+    {
+      "speaker": "client",
+      "text": "Ooh, that sounds good. Let's get that, too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's 2 small pizzas, one hawaiian and one macho man."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you want any extras?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I have some extra cheese on the Macho Man?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yeah no problem."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "After adding extra cheese your total comes out to $26.88 okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds good. Let's do it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, your pizza will be ready in 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, I'll pick it up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I hope it's good."
+    },
+    {
+      "speaker": "client",
+      "text": "Me, too. Thanks a lot. Goodbye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, take care."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Three Meat Pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Macho man",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "macho man",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Macho Man",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-0383b49c-a366-4ef7-9ab2-32ce811a824a",
+  "created_at": "2026-02-15T15:44:16.887Z"
+}

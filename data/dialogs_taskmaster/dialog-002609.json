@@ -1,0 +1,182 @@
+{
+  "dialog_id": 2609,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2609"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Yo I need some pizza from Dominos."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which Dominos are you ordering from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one on East Broad near the mall."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Perfect. What will you be needing today?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to get two--no three pizzas. Do the 7.99 deal."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It appears that is only for carry out, is that all right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh shoot, I forgot. No, best just do normal large pizzas with delivery then."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. What do you want on your pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "On one I want black olives, mozzarella balls, and spinach."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It looks like they don't have mozzarella as an option. Will feta do?"
+    },
+    {
+      "speaker": "client",
+      "text": "...I suppose."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Any special instructions for the crust or sauce?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, just normal."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. And for the other two?"
+    },
+    {
+      "speaker": "client",
+      "text": "Make one Hawaiian-- it's a beautiful pizza no matter what buzzfeed says -- and make that one with extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I whole heartedly agree with you. And for the last?"
+    },
+    {
+      "speaker": "client",
+      "text": "Make it gluten free with just literally all the veggies and no meat. Sauce and cheese normal."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, so that's all three pizzas. I have one hawaiian, one gluten free with veggies, and one with spinach, feta, and black olives. Anything else for the order?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's all and that's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. That should arrive in about 25 minutes. Have a good night!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Dominos",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "East Broad near the mall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mozzarella balls",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "spinach",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mozzarella",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "feta",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese normal.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hawaiian",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-dcab4010-0b0d-4ca2-af6f-b675337f541e",
+  "created_at": "2026-02-15T15:44:17.203Z"
+}

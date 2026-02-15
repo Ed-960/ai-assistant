@@ -1,0 +1,160 @@
+{
+  "dialog_id": 1752,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1752"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I would like to order a 'za please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "A pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes! "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, where would you like to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Picasso's on Elm"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, and what size \"'za\" would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "X-Large please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "And what would you like as toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "Pineapple, pepperoni, and black olives"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, and would you like any sides or drinks with that order?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, just the 'ZA"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great it looks like you already have an account with them on file so no need to give me any payment info"
+    },
+    {
+      "speaker": "client",
+      "text": "That's right!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "And the receipt will be sent to your phone, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Sure is, I just want my 'ZA!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, well your \"'za\" will be ready in 25 minutes for pickup"
+    },
+    {
+      "speaker": "client",
+      "text": "Wonderful!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Will there be anything else for today?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that was it. Thank you very much"
+    },
+    {
+      "speaker": "cashier",
+      "text": "My pleasure, have a great day!"
+    },
+    {
+      "speaker": "client",
+      "text": "You too, bye"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Bye"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "'za",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Picasso's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Elm",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "X-Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ZA",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "za",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-03712176-14b4-41ce-881b-6da2b27980fc",
+  "created_at": "2026-02-15T15:44:17.092Z"
+}

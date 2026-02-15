@@ -1,0 +1,134 @@
+{
+  "dialog_id": 1348,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1348"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like to place an order at Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to get a triple venti black and white mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "by triple venti did you mean a treinta size or triple espresso shots added?"
+    },
+    {
+      "speaker": "client",
+      "text": "Triple espresso shots, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, just to let you know they charge for additional shots of espresso added."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to add any milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would like. 2% milk, also whipped cream, and the drink to be extra hot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, let me repeat your order to make sure i got it right."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you want a venti black and white with 2% and whipped cream with 3 shots of espresso and extra hot."
+    },
+    {
+      "speaker": "client",
+      "text": "Correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, which location would you like to pick up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like go get it from the Starbucks on Huffman in Burlington, North Carolina."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, let me send your order to that location, one moment."
+    },
+    {
+      "speaker": "client",
+      "text": "Sure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i have ordered you a venti black and white mocha with 2% and whipped cream and 3 shots of espresso added and extra hot to be picked up at the starbucks on huffman and burlington. your drink will be ready in 5 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "No. That's great. Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "your welcome, enjoy your coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black and white mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black and white",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-c11f51f2-8cc0-4dfe-a8d2-e7bdf8999563",
+  "created_at": "2026-02-15T15:44:17.037Z"
+}

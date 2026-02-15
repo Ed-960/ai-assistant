@@ -1,0 +1,170 @@
+{
+  "dialog_id": 2041,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2041"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I want to order some pizza from Dominoes please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, I can help with that. Which location do you want to place your order with?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want the market ST. location in San Francisco please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, No problem. What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to order that new bacon ranch pizza they have."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you mean the Cali Chicken Bacon Ranch hand tossed pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, I think that's it. It's the one they feature on their web site."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, I see it there. What size do you want"
+    },
+    {
+      "speaker": "client",
+      "text": "I want the largest they have.. if there is a party sized that's great..if not - just the large. My daughter is having a party for her kids and I want to bring something cool."
+    },
+    {
+      "speaker": "cashier",
+      "text": "That sounds great. I'll make it a large."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. Can you ask them to include some extra napkins, plates and stuff for me - when I get there?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, I'll make a note. I think they have that at the store. "
+    },
+    {
+      "speaker": "client",
+      "text": "How long until it will be ready for pick up?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "About 25 min."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. What is the total due please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "24.99 with tax. Tip is optional."
+    },
+    {
+      "speaker": "client",
+      "text": "That's fine. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'll have them send a receipt to you via text for your records."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, they'll just charge the card they have on file?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, Is there anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, Thanks for your help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, enjoy your pizza."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Dominoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "the market ST. location in San Francisco",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "San Francisco",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon ranch pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cali Chicken Bacon Ranch",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hand tossed",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "the largest",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "largest",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "I'll have them send a receipt to you via text for your records.",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-4a2ad3e5-d369-4f75-be21-e1d58a8cde9a",
+  "created_at": "2026-02-15T15:44:17.136Z"
+}

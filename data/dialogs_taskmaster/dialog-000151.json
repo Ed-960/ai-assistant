@@ -1,0 +1,173 @@
+{
+  "dialog_id": 151,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=151"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. I wanted to make an order to get a couple of pizzas from Bella Luna. Can you help me with that?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to get two medium pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "On the first one, I want olive and bacon. And then on the second one, I just want tomato."
+    },
+    {
+      "speaker": "client",
+      "text": "just sliced tomatoes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, so you are ordering 2 medium pizzas, 1 with olives and bacon and the other with just tomatoes?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's right."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, and can you make sure that they're both thin-crust pizzas? I like thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let me add that to the order."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your total will be $38, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like pick-up, delivery or dine-in?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let me think for a second."
+    },
+    {
+      "speaker": "client",
+      "text": "Meant, how about delivery?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, please note that the tip isn't included in your total price."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, I'll have some cash ready for the driver."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your receipt will be texted to you and your pizzas will be delivered in 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Hey, it sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. I think we're okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "I will. Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "olive",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tomato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sliced tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Oh, and can you make sur",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin-crust pizzas",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-13d0b6cf-a3b6-4126-bd7c-503155899a4e",
+  "created_at": "2026-02-15T15:44:16.907Z"
+}

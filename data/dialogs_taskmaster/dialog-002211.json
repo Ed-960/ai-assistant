@@ -1,0 +1,121 @@
+{
+  "dialog_id": 2211,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2211"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Good morning, Charlie. Can you please fetch me an coffee?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Good morning. I can certainly do that. Would you like it from the nearest Starbucks, by Ogden and Jefferson?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that would be fantastic! "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! What would you like to order this morning?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hmm. I'll go with a mocha today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, great. Would you like that iced or hot?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd prefer hot today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, and will that be a regular mocha or with a special flavoring?"
+    },
+    {
+      "speaker": "client",
+      "text": "A regular mocha will suffice."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "A venti would be grand."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds good. Two percent milk as usual?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep, as usual. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, and then also, would you like them to add some whipped cream on top?"
+    },
+    {
+      "speaker": "client",
+      "text": "Of course!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any other specifications that you'd like changed or clarified? Any other flavors?"
+    },
+    {
+      "speaker": "client",
+      "text": "Ooh let's add a dash of raspberry in to spice things up today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds great. Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you, that will be all. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! I have ordered your mocha. It should be ready in about 5-8 minutes. I'll text you a copy of the receipt."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you! Bye for now."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-73ca64b1-d67e-4668-aed7-b9910ff57550",
+  "created_at": "2026-02-15T15:44:17.156Z"
+}

@@ -1,0 +1,66 @@
+{
+  "dialog_id": 1021,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1021"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there! How can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to order a coffee drink in Peet's."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what would you like?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I apologize, can you repeat that?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I apologize, can you repeat that?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Could you repeat what you said?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you repeat it for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Please repeat what you just said"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you repeat, what did you say?"
+    }
+  ],
+  "final_order": {
+    "items": [],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-8ee96544-8131-4227-be1c-b6b29175affd",
+  "created_at": "2026-02-15T15:44:17.001Z"
+}

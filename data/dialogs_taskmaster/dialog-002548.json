@@ -1,0 +1,170 @@
+{
+  "dialog_id": 2548,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2548"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like to order some pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, where do you want to order the pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order from Pizza Hut."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, I see two Pizza Hut's close to you. Would you like the one on Glenstone or Division?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order from the restaurant on Glenstone."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like 1 pizza with pepperoni and sausage."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size pizza would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like a large pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, would you like any drinks or appetizers?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, just the pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. When would like to place the order?"
+    },
+    {
+      "speaker": "client",
+      "text": "As soon as possible."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Excellent. I'd just like to confirm that you are ordering a large, peperoni and sausage pizza. it that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And, you would like to order from the Pizza Hut at 3245 Glenstone Ave. Is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, I've the order for you.  The cost will be 17.35 and will be ready in 25 minutes for pickup."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is there anything else I can help you with?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. Have a nice day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Pizza Hut",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Glenstone",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Division",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "peperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "peperoni and sausage pizza.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "3245 Glenstone Ave",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "3245 Glenstone Ave.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Great, I've the order for you",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-cc77b89e-1667-4b08-8551-fe2078b7d59d",
+  "created_at": "2026-02-15T15:44:17.196Z"
+}

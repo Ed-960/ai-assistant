@@ -1,0 +1,147 @@
+{
+  "dialog_id": 52,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=52"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hello there!"
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I wanted to order a pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, how many pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "Two."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay, and what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm small."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any toppings?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "A vegan hawaiian pizza is just pineapples."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright, is fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like tofu on there as well?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So I have 2 small pizzas, one hotdog, one pineapple and tofu."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, is that a gluten-free crust?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing, it's 3 dollars extra."
+    },
+    {
+      "speaker": "client",
+      "text": "Sure."
+    },
+    {
+      "speaker": "client",
+      "text": "Can you delivery it to my address?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes absolutely."
+    },
+    {
+      "speaker": "client",
+      "text": "how long it takes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "about 45 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so your total is 30 dollars."
+    },
+    {
+      "speaker": "client",
+      "text": "Sure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. It'll be there soon!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "vegan hawaiian pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapples",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-07ad6cf0-a066-46ce-95b3-77fd9550d0b7",
+  "created_at": "2026-02-15T15:44:16.894Z"
+}

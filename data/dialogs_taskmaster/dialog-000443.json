@@ -1,0 +1,180 @@
+{
+  "dialog_id": 443,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=443"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, could you help me with placing an order at Bella Luna Pizzeria?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like four small pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "On the first pizza, I just want plain cheese."
+    },
+    {
+      "speaker": "client",
+      "text": "On the second pizza, I would like mushrooms and onions."
+    },
+    {
+      "speaker": "client",
+      "text": "On the third pizza, I would like ham and pineapple."
+    },
+    {
+      "speaker": "client",
+      "text": "And on the fourth pizza, I would like pepperoni and black olives."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you are ordering 4 small pizzas, 1 cheese, 1 mushroom and onions, 1 ham and pineapple, 1 pepperoni and black olives, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, your total will be $52, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's fine. But I wanted the crust to be thin on those pizzas. Does that raise the price?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i can add that, thin crust does not change the price."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, that's great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to dine-in, pick-up, or have your order delivered?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll pick it up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your pizzas will be ready in 35 minutes and your receipt will be texted to you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, you've helped plenty today. Thank you so much for everything."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your welcome, enjoy your pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks. I will."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna Pizzeria",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "four small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "plain cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms and onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ham and pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni and black olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "4 small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1 cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1 mushroom and onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1 ham and pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1 pepperoni and black olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust does",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-3e99d1a1-e303-4d90-a320-ec9d7a2dd306",
+  "created_at": "2026-02-15T15:44:16.939Z"
+}

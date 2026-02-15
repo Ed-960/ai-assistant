@@ -1,0 +1,130 @@
+{
+  "dialog_id": 2366,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2366"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello Alice, it's Robert here."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes sir, how can I assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like for you to order a coffee for me."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Where from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Starbucks on Capital Blvd in Raleigh."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which type of coffee would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm thinking I could go for an espresso. I just don't know which flavor yet."
+    },
+    {
+      "speaker": "cashier",
+      "text": "My favorite is the cherry mocha espresso."
+    },
+    {
+      "speaker": "client",
+      "text": "Really? I'll try that one out then."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's go with a grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And the type of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "2 percent Alice."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You want the whipped cream added, right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah as always."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Let me put the order in for you sir."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you Alice. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, the grande cherry mocha espresso with 2 percent milk and whipped cream will be ready for pickup shortly at the Starbucks on Capital Blvd in Raleigh, Robert."
+    },
+    {
+      "speaker": "client",
+      "text": "What about the receipt?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It will be sent to your mobile via text. Did you get it yet?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh yes I see it now. Thank you Alice."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome, goodbye sir."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cherry mocha espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-9a2b22e2-cec9-4aff-8cf6-35d5084f6b73",
+  "created_at": "2026-02-15T15:44:17.174Z"
+}

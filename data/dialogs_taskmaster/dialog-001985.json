@@ -1,0 +1,189 @@
+{
+  "dialog_id": 1985,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1985"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Are there any coffee places nearby?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "There's a Starbuck's at North Oak and Vivian Rd."
+    },
+    {
+      "speaker": "client",
+      "text": "Great! Order me a big latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How big?"
+    },
+    {
+      "speaker": "client",
+      "text": "What sizes do they have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The Tall is 12 ounces, the Grande is 16 ounces and the Venti is 20 ounces."
+    },
+    {
+      "speaker": "client",
+      "text": "The Grande should be fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hot or cold?"
+    },
+    {
+      "speaker": "client",
+      "text": "Definitely hot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any flavoring?"
+    },
+    {
+      "speaker": "client",
+      "text": "How about Pumpkin Spice"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm afraid they don't sell that flavor at this time of year."
+    },
+    {
+      "speaker": "client",
+      "text": "Do they offer caramel?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes."
+    },
+    {
+      "speaker": "client",
+      "text": "OK, make it a caramel latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of milk would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Do they have almond?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No, the only non-dairy milk is soy."
+    },
+    {
+      "speaker": "client",
+      "text": "Skim milk will be fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, will that be all?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have a caramel grande skimmed milk latte at 207 NE Englewood Road Kansas City, MO and I've texted the order number to your phone, it'll be ready in 10 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "big",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Tall is 12 ounces",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "12 ounces",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande is 16 ounces",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "16 ounces",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti is 20 ounces",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "20 ounces",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caramel latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caramel grande skimmed milk latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-3bd420a0-d9ff-4044-80c0-4bcde6c9f5cd",
+  "created_at": "2026-02-15T15:44:17.129Z"
+}

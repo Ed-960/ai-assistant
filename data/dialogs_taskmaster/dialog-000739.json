@@ -1,0 +1,148 @@
+{
+  "dialog_id": 739,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=739"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to order coffee, Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what kind of coffee would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Cappuccino."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like any milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, honey."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what kind of milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what size do you want your drink in?"
+    },
+    {
+      "speaker": "client",
+      "text": "large size."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would that be a venti?"
+    },
+    {
+      "speaker": "client",
+      "text": "Repeat, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "their largest size is venti, is that what you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, which location would you like to pick up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "4th Street in Colorado Springs."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "i have ordered you a venti cappuccino with soy milk to be picked up on 4th street in colorado springs."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh yeah, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be texted to you and your drink will be ready in 5 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you. Have a nice day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nothing."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cappuccino.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large size",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "largest",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cappuccino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-6671fc87-41e8-4e5a-b410-0206a60b6d07",
+  "created_at": "2026-02-15T15:44:16.971Z"
+}

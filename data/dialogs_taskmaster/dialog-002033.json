@@ -1,0 +1,121 @@
+{
+  "dialog_id": 2033,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2033"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, Linda I'd like to get a coffee from Starbucks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, where would you like to pick up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one on North Capital Street, Indiana."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, and what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let me get a venti Mocha Latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Whole, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "And any flavoring?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah let me get 4 pumps of vanilla."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, and would you like whipped cream on that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, that's all for now."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok so I've got a venti Mocha Latte with 4 pumps of vanilla and whipped cream, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, and when would you like the order by?"
+    },
+    {
+      "speaker": "client",
+      "text": "As soon as possible"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, your drink is on order at the Starbucks on Capitol. Should be ready in about 5."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "My, pleasure. Have a wonderful day."
+    },
+    {
+      "speaker": "client",
+      "text": "You too! Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Mocha Latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-46bae2a8-98d5-4a88-bc55-223112b51c89",
+  "created_at": "2026-02-15T15:44:17.135Z"
+}

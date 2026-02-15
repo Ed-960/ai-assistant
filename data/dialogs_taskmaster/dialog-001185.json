@@ -1,0 +1,124 @@
+{
+  "dialog_id": 1185,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1185"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there, what would you like to do today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I want to order a coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "order coffee sure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "which coffee shop would you like to order from?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "starbuck ok."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you said expresso right."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "how many shots?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok double shot expresso from starbucks got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "which store you would like to pick up from?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sorry do you want starbucks or peets coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok which starbucks you want to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "It's at Colorado Springs."
+    },
+    {
+      "speaker": "cashier",
+      "text": "store in colorado srpings got it."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "drink has been ordered at the local store and will be ready for pickup shortly."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be sent to your mobile device via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, enjoy your coffee."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "expresso",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-a798bc6d-cf1c-454a-bd09-26410fd83ff9",
+  "created_at": "2026-02-15T15:44:17.018Z"
+}

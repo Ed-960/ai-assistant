@@ -1,0 +1,187 @@
+{
+  "dialog_id": 1969,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1969"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello, I was wondering if you have any pizza specials tonight?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "This is Pizza King on Macedonia Street."
+    },
+    {
+      "speaker": "client",
+      "text": "I would to order 2 18 inch pizzas. 1 Royal feast and 1 Royal feast without mushrooms."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm so sorry. Our largest pizza is 16 inch."
+    },
+    {
+      "speaker": "client",
+      "text": "I see. That is fine then."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is there anything else I can get for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Could I add extra cheese to one of those pizza's?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, which one would you like the extra cheese on?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like the extra cheese on the Royal feast with no mushrooms."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Can I add an order of breadsticks to that order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would like that. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have your order as 1 16 inch Royal feast with extra cheese and no mushrooms , 1 16 inch Royal feast and 1 order of breadsticks."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that is correct. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would that be pick up or delivery?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to pick that up"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is there anything else I can get you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I think I would like to add extra cheese to my other pizza also and could I order 2 large pepsi's also?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. I have your order as 2 large pepsi's, 1 order of breadsticks, 2 16 inch royal feast pizza with extra cheese and no mushrooms on 1 on those. and you will be picking up your order."
+    },
+    {
+      "speaker": "client",
+      "text": "That would be correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, your total comes to $35, How will you be paying?"
+    },
+    {
+      "speaker": "client",
+      "text": "I will be using my credit card. About what time will that be ready to pick up?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "We will have your order ready for you in 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "ok"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you very much for your order. I will send you a copy of your receipt by text message to your phone number."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Pizza King",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Macedonia Street",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "18 inch",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Royal feast",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "without mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "without mushrooms.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "16 inch",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "no mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "add extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "royal feast pizza",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-36450f73-e012-41cd-a341-d5176851434f",
+  "created_at": "2026-02-15T15:44:17.127Z"
+}

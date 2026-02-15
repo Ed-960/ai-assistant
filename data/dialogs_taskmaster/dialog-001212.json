@@ -1,0 +1,183 @@
+{
+  "dialog_id": 1212,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1212"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi There! How can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Peet's Coffee and espresso beverages."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course! Are you looking for a specific brand?"
+    },
+    {
+      "speaker": "client",
+      "text": "Peet's coffee and espresso beverages."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Peet's Coffee! I got it."
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to try a True Iced Expresso."
+    },
+    {
+      "speaker": "cashier",
+      "text": "A true ICed espresso, let me see what I can do"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I've found a \"Iced Espresso\" on Peet's Menu."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is this what you're looking for?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "are you looking for a single shot?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like any additives? like Sweetners?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, honey and milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Honey and Milk. Got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What type of milk are you looking for?"
+    },
+    {
+      "speaker": "client",
+      "text": "Coco milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Coconut milk, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, thanks so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "give me one moment to get this ordered for you."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is this for the peet's location on 405 Howard street in San Francisco?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright! Noted!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "One moment while i finalize your order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I got one got of Iced espresso with Honey and coconut milk. Is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Perfect! I've ordered your beverage. It will be ready for pickup at 405 Howard street in SF."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you. Goodbye."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you. Goodbye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you! Goodbye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "True Iced Expresso.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "true ICed espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "\"Iced Espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Iced espresso",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-ac300ec9-e7d2-4a18-8403-d92233051cd8",
+  "created_at": "2026-02-15T15:44:17.021Z"
+}

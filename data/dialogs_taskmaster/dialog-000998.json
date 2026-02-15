@@ -1,0 +1,155 @@
+{
+  "dialog_id": 998,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=998"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I would like to order two pizzas from Bella Luna, please. I want to order two small pizzas. I want one of them to be a Hawaiian with extra ham, and extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi, what can I do for you today?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Order 2 pizzas from Bella Luna ok."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size will your pizza be?"
+    },
+    {
+      "speaker": "client",
+      "text": "And I want the second one to be a chicken bacon ranch pizza with onions. Yes. And I want both of them to have big crusts."
+    },
+    {
+      "speaker": "cashier",
+      "text": "2 small pizzas, 1 with hawaiian with extra ham, extra cheese, and second one with chicken bacon ranch with onion is that your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you please repeat the details for me, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Both with thick crust, got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure let me do that for you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "2 small pizzas, 1 with hawaiian with extra ham, extra cheese, and second one with chicken bacon ranch with onion all with thick crust, final order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that would be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok your total comes to 24 dollars with 2 small pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Shall we go ahead."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it your pizza are on order at the local Bella Luna pizzeria and will be ready for pickup in 30 min."
+    },
+    {
+      "speaker": "client",
+      "text": "No, that will be all. Thank you so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You are welcome, enjoy your pizza."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken bacon ranch",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "big crusts",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onion",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna pizzeria",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-8c7e7d07-d6c0-4300-a347-839947457014",
+  "created_at": "2026-02-15T15:44:16.999Z"
+}

@@ -1,0 +1,195 @@
+{
+  "dialog_id": 287,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=287"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there! How can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. Could you help me with ordering from Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes, i can!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What can I get you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a cinnamon shortbread latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want that hot or iced?"
+    },
+    {
+      "speaker": "client",
+      "text": "hot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay, got it. and what size would you prefer?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like venti."
+    },
+    {
+      "speaker": "cashier",
+      "text": "alright, Venti. Did you want whip cream with that?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "not a problem. Any substitutes for the milk? or is regular fine?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like 1%."
+    },
+    {
+      "speaker": "client",
+      "text": "And I would also like the temperature to be extra hot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "1% skim milk. sure! And Extra hot, noted."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want to add any additional sweteners?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, this is fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "alright, let me summarize."
+    },
+    {
+      "speaker": "cashier",
+      "text": "a Venti Cinnamon Shortbread Latte, with 1% milk and extra hot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did i forget anything?"
+    },
+    {
+      "speaker": "client",
+      "text": "Exactly. No. That's That That was correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "perfect! thanks so much!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you so much, I appreciate your help today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay, and where would you like to pick this up at?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to get it on the Old York Road location in Jenkintown, Pennsylvania."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, on 746 Old York Rd."
+    },
+    {
+      "speaker": "client",
+      "text": "Correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "not a problem. give me a moment to send it over."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're all set! your order has been sent to your desired location. It will be ready for pickup in 10-11 min."
+    },
+    {
+      "speaker": "client",
+      "text": "That's perfect. Thank you so much for your help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're very welcome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great day."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks. You too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "byebye."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cinnamon shortbread latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cinnamon Shortbread Latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-27e0d1ac-16cc-4a01-a378-509051c367a6",
+  "created_at": "2026-02-15T15:44:16.922Z"
+}

@@ -1,0 +1,133 @@
+{
+  "dialog_id": 347,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=347"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'd like to order I would like to order pizza from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you today?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to order from bella luna?"
+    },
+    {
+      "speaker": "client",
+      "text": "Two small grain free crust pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "The first one I would like it to have feta cheese and anchovies. The second one I would like it to have spinach and Italian sausage."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. you want 2 small pizzas, with gluten free crust, 1 with feta cheese and anchovies, and 1 with spinach and italian sausage."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Yes, that is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that correct?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "$24.58 is the total. do you want me to place the order for pick up now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please place the order. I'll be ready in in a short while."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. i've placed the order. it'll be ready for pick up in 35 mins."
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need assistance with anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, enjoy."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grain free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "feta cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "anchovies",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "spinach",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Italian sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "italian sausage",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-30f34061-c724-4230-ad77-3ce33db2095b",
+  "created_at": "2026-02-15T15:44:16.929Z"
+}

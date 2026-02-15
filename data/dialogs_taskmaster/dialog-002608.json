@@ -1,0 +1,172 @@
+{
+  "dialog_id": 2608,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2608"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Whats your best selling coffee here at Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The best seller that we have here at our Sidney Ohio location is the Mocha Latte."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome. That sounds delicious."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes it is quite good."
+    },
+    {
+      "speaker": "client",
+      "text": "Let me get a medium one of those."
+    },
+    {
+      "speaker": "cashier",
+      "text": "One medium Mocha Latte?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes that will be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Can I get you anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope just the Mocha Latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright your total is $4.50."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Here is your medium Mocha Latte."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks. Can I get some creamer as well?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, you sure can."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How was the Mocha latte?"
+    },
+    {
+      "speaker": "client",
+      "text": "It was great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yea it's one of my favorites."
+    },
+    {
+      "speaker": "client",
+      "text": "Yea I didn't expect it to be that good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Why not?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm not a huge coffee fan."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, well i'm glad you liked it."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks. Ya, I will defiantly be coming back for more."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, we take pride in our customers. "
+    },
+    {
+      "speaker": "client",
+      "text": "I can tell. You guys have great customer service."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Well thank you!"
+    },
+    {
+      "speaker": "client",
+      "text": "Yup no problem!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You have a nice day."
+    },
+    {
+      "speaker": "client",
+      "text": "Yup, you have a nice day too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thanks, Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Mocha Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Mocha Latte?",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Mocha Latte.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Mocha latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-dc39d34e-821a-4bbd-9a34-e1acd5539a32",
+  "created_at": "2026-02-15T15:44:17.203Z"
+}

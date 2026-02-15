@@ -1,0 +1,207 @@
+{
+  "dialog_id": 2223,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2223"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi Chris, I'm thinking some pizza for lunch for our team - how does that sound to you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Good idea - do you have any place in mind?"
+    },
+    {
+      "speaker": "client",
+      "text": "Green Mill has good pizza - what'da think?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hmmm, I like Green Mill pizza! How many should we order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I think two are plenty for the team."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh, you forget how big and hungry of a team you have!"
+    },
+    {
+      "speaker": "client",
+      "text": "Gee, your right, let's order 3 pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind do you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "One pepperoni, one sausage, and one with everything!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh, that would work except did you forget we have a couple of vegetarians on the team?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let 'em eat cake! Ha- just kidding you've got a good point."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So 1 veggie and which of the other 3 do you want to drop?"
+    },
+    {
+      "speaker": "client",
+      "text": "Screw the everything, I can't stand peppers anyway."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK. 1 Veggie, 1 Pepperoni and 1 Sausage"
+    },
+    {
+      "speaker": "client",
+      "text": "Roger that. Gee, I forgot we need to pick the kind of crust, too. Why don't you go for that!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I like thin crust, so that's what I'm going with."
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds good to me."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, let me play that back for you - oh ^%$%, we didn't pick any size!"
+    },
+    {
+      "speaker": "client",
+      "text": "Well, what does the web site say about sizes and number of people?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'll look.....oh crap my PC froze!"
+    },
+    {
+      "speaker": "client",
+      "text": "$#%^ PC's!! Mine's working, I'll take a look at their website."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Cool - thanks"
+    },
+    {
+      "speaker": "client",
+      "text": "OK, three XL pizzas will do the trick for 15 people"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got It. Let me read the order back to you: 1 veggie pizza, 1 sausage and 1 pepperoni. All XL and with thin crust."
+    },
+    {
+      "speaker": "client",
+      "text": "That's a winner, chicken dinner."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So do you want to pick it up, or delivered?"
+    },
+    {
+      "speaker": "client",
+      "text": "Man, ain't no way I've got time to pick it up, do you? It'd be nice to avoid tipping the delivery guy."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure - I'm hourly and driving is fine by me. I'll pick it up."
+    },
+    {
+      "speaker": "client",
+      "text": "Excellent - thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'd say 'no problem', but that phrase bugs you so, I'm off to get the pizza. It'll be ready in 25 minutes, see you in a bit."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Green Mill",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Green Mill pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Veggie",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "XL",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie pizza",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-770219bb-ce89-423b-85cc-e24af346c395",
+  "created_at": "2026-02-15T15:44:17.158Z"
+}

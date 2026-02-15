@@ -1,0 +1,127 @@
+{
+  "dialog_id": 1865,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1865"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey Buddy. I need to ask you to do something for me this morning."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, what that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Could you go on-line and order a coffee for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing. Who did you want the coffee from."
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like try \"Peet's\". The one located at 10150 NE Cornell Road in Hillsboro."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. What should I order for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I've heard a lot about their \"Golden Caffe Latte\" so go ahead and order that for me."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, what size, large?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just a medium. Make sure it doesn't have whip cream. Just the milk foam on top."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, definitely use whole milk. I know it's more calories but you only live once, right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I agree. When did you want to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "In about 30 minutes. I'm heading out the door now and that's about how long it'll take before I get there."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Let me double check. You want the Golden Caffe Latte, medium size, no whip cream and you'll be there in about 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "That's all correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. It should be there ready for you."
+    },
+    {
+      "speaker": "client",
+      "text": "Cool. Thanks for your help. Go ahead and order one for yourself if you'd like, on me. I'll bring it in to work when I come."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thanks I'll see you a little later."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, see you later."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Golden Caffe Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-1ecb4883-8606-4ead-b426-9f90658dd402",
+  "created_at": "2026-02-15T15:44:17.111Z"
+}

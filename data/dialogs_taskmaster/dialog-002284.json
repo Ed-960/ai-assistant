@@ -1,0 +1,122 @@
+{
+  "dialog_id": 2284,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2284"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey James, I'm thirsty. Could you order a drink from Starbucks for me."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. Do you know where is the closest Starbucks?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. There's one down the street on 1933 Howard Road."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh yeah, I'm familiar with that one. What do you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Could you pickup a Nitro Lemon Fog?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Lets order a grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay will do. Is there anything specific you'd like to add."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. See if they can add a some honey and a splash of milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Are you sure you'd want to add milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Actually you're right. Milk in this drink might be gross. Lets stick to the honey only."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Is there anything else you'd like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope. That's it!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! So to confirm, you would like a Grande, Nitro Lemon Fog with Honey."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes that is perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Awesome. Your order is placed and should be picked up in 15 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Did you get a receipt?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes. It was sent to you phone."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay got it. Thanks a lot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Nitro Lemon Fog",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-86ef081c-f01d-49c1-adcb-bf1338dcea47",
+  "created_at": "2026-02-15T15:44:17.165Z"
+}

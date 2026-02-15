@@ -1,0 +1,131 @@
+{
+  "dialog_id": 1904,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1904"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey! Do you have a pen and paper handy?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes I do. What do you need?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm heading back to the office. I want a coffee and I don't want to wait for it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You want me to order it for you for pickup?"
+    },
+    {
+      "speaker": "client",
+      "text": "That I do. Pickup from the drive thru if possible. I'm i a hurry and I'd rather not have to park."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Pickup from the drive thru then. I'll see what I can do. "
+    },
+    {
+      "speaker": "client",
+      "text": "I know you will. Are you ready to to copy this down?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, sir. Whenever you are. "
+    },
+    {
+      "speaker": "client",
+      "text": "I want a large Americano, double cupped, with two fingers at the top for cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Large Americano with room for cream right?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. Not room. The width of two fingers worth of room. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Two fingers?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Adult sized human fingers. And that measurement is from the top of the cup. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh.. I understand what you're saying. Will they though. Where did you want to pick it up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Starbucks off of Sydney Marcus in the Home Depot Shopping center."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. Did you want anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. Add a small cup of heavy cream. I think we're out at the office."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You've got it. Large Americano with room. Two fingers worth. One small cup heavy cream. Is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's perfect. Thanks so much. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome. See you in a little bit. "
+    },
+    {
+      "speaker": "client",
+      "text": "See you then. Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "heavy cream.",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-284ec839-1975-4f92-95b1-cbf3a01cf4a7",
+  "created_at": "2026-02-15T15:44:17.117Z"
+}

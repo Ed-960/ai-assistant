@@ -1,0 +1,126 @@
+{
+  "dialog_id": 1739,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1739"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I want a grande Caramel Cloud Macchiato"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which location would you like to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I am near the W Broad street lcation"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok I will place your order at the 2331 W. Broad street location, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes that is correct"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, I have a Grande Caramel Cloud Macchiato, is there any specifications you would like to add?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would like to request 2% milk and extra whip cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem I can update that for you right now."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok I have successfully updated your order. Is there anything else you would like to add to this order?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thank you that was all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, I am submitting your order now, please hold..."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, your order was successfully submitted. Would you like me to email your confirmation number to the email on file?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that would be great. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright let me confirm your email address, I have kbeezy1@gmail.com, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes that's right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright I have sent you the confirmation email as well as the users bar-code to scan for easy pick up once you arrive at the location. "
+    },
+    {
+      "speaker": "client",
+      "text": "Great thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It was my pleasure, Have a great day and thank you for using Order Easy."
+    },
+    {
+      "speaker": "client",
+      "text": "You too."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caramel Cloud Macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-00fac91c-cbab-4022-854c-55a095e02da9",
+  "created_at": "2026-02-15T15:44:17.089Z"
+}

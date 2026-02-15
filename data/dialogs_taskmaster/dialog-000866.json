@@ -1,0 +1,247 @@
+{
+  "dialog_id": 866,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=866"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there! How can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I want to take espresso from from restaurant."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, what would you like?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "hmm let me see, one moment."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I can find a Golden Caffè Latte. Is that what you're looking for?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "client",
+      "text": "Golden Coffee Latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes Golden Caffè Latte."
+    },
+    {
+      "speaker": "client",
+      "text": "I'll link up."
+    },
+    {
+      "speaker": "client",
+      "text": "Is that frozen coffee?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "hmm... and this is at Peet's?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "one moment!"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hmm.. the closest thing i can find on their menu is a Iced Havana Cappuccino."
+    },
+    {
+      "speaker": "client",
+      "text": "Well, it's okay. The golden coffee latte, it's okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, i apologize, i couldn't find it."
+    },
+    {
+      "speaker": "client",
+      "text": "Don't worry."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. That's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "alright so a golden coffee latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "medium."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Medium, did you want whip cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "A little bit, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay, sure thing. and just to be sure, the regular milk is okay with you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "or did you want to substitute it?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay, thanks for confirming!"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And now, can you tell me where you'd like to pick this up at?"
+    },
+    {
+      "speaker": "client",
+      "text": "the location."
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes, which peet's would you like to pick this up at?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "The location is Five Fox."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Can you give me the city?"
+    },
+    {
+      "speaker": "client",
+      "text": "Needs Firefox."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay, give me a moment to send over your order."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, your order has been sent to your desired location. It will be ready for pickup in 5-8 min."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye!"
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Golden Caffè Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Golden Coffee Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "frozen coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Iced Havana Cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "golden coffee latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Medium",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-77171c38-1a1b-4b0f-bcfe-b9a9d429199f",
+  "created_at": "2026-02-15T15:44:16.985Z"
+}

@@ -1,0 +1,122 @@
+{
+  "dialog_id": 1834,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1834"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, can you go on a coffee run to Starbucks for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grab me a Peppermint White Chocolate Mocha"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay what do you want in it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Get it with everything, just how it comes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Whipped cream too? That's optional."
+    },
+    {
+      "speaker": "client",
+      "text": "Umm actually no, no whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll do a grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh what about the milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh yeah, do nonfat milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright so grande with everything except whipped cream and nonfat milk right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Actually do the 2% milk instead of nonfat."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, and you can use my online account and pay with that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright will do. Do you want me to go ahead and order it now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay I placed the order and I'll go pick it up in a minute. They'll text you the receipt."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome, thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Grab me a Peppermint White Choco",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Peppermint White Chocolate Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-14e6d71e-c465-435e-aae4-b461d864b58f",
+  "created_at": "2026-02-15T15:44:17.106Z"
+}

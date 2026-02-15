@@ -1,0 +1,192 @@
+{
+  "dialog_id": 1204,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1204"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order a pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, from which pizzeria?"
+    },
+    {
+      "speaker": "client",
+      "text": "It's called Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what would you like to order for your pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order three medium size pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok and what would you like for the toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "Chicken barbecue please with a thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you want the same for all 3?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, im sorry they dont have bbq sauce today, is the white sauce ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "What about Meat Lovers?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "let me check that for you."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes, you can order the meat lovers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like that for all 3?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "still thin crust?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, let me order that for you."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the cost will be $57 for 3 medium meat lover pizzas with thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, sure. Yes, that's fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, and will you be dining-in or have it delivered?"
+    },
+    {
+      "speaker": "client",
+      "text": "Delivery, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, please be aware that the price doesn't include tip"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, sure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be delivered within 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your welcome, enjoy"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Chicken barbecue",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bbq sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "white sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Meat Lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lover pizzas",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-aa7a668d-a30a-4162-8fa5-22ddc8807e54",
+  "created_at": "2026-02-15T15:44:17.020Z"
+}

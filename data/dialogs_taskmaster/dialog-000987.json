@@ -1,0 +1,96 @@
+{
+  "dialog_id": 987,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=987"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hey there, how can i help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Good afternoon, I was hoping to place a Bella Luna pick up order, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "good afternoon. sure, let's place the order. what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I had a hankering for thick-crust pizza. So, can I get three large meat lovers pizzas with the thick crust, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, you want 3 large meat lovers pizzas with thick crust. the total will be $45.29."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want me to place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i've placed the order for you. i'll be ready in 45 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's what That order is the only thing I needed this afternoon. Thank you very much for your very gracious help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "that's awesome, i'm glad to help you get your pizza needs taken care of."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick-crust pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-8b04d133-5f77-492b-999e-54212e7f7205",
+  "created_at": "2026-02-15T15:44:16.997Z"
+}

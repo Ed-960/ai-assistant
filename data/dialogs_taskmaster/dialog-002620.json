@@ -1,0 +1,116 @@
+{
+  "dialog_id": 2620,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2620"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Alexa, order a coffee from Peet's in Cambridge"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ordering a coffee from Peet's on 100 Mount Auburn Street in Cambridge, Massachusetts"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size coffee do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Large please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like milk with your coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What type of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "2% milk please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like sugar?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "How many teaspoons of sugar?"
+    },
+    {
+      "speaker": "client",
+      "text": "2 please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like honey?"
+    },
+    {
+      "speaker": "client",
+      "text": "No please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "When would you like your drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "As soon as possible"
+    },
+    {
+      "speaker": "cashier",
+      "text": "One coffee from Peet's will be available in ten minutes. A receipt will be sent to your phone via text message"
+    },
+    {
+      "speaker": "client",
+      "text": "thank you"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-dfbdfc9a-7959-42f1-be9c-7d44ab18d511",
+  "created_at": "2026-02-15T15:44:17.204Z"
+}

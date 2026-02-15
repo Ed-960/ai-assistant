@@ -1,0 +1,101 @@
+{
+  "dialog_id": 404,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=404"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi, how can I help you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I'll like to order two small pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, what did you want on those two small pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "One was just pepperoni and the other with pepperoni bacon and feather cheese, and I'd like both of those with gluten free crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, your order of 2 small pizzas, 1 with pepperoni and 1 with pepperoni, bacon and feta cheese. Both pizzas with gluten free crust, comes out to $24.55."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want me to place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, I've submitted your order. It'll be ready for pick up in 35 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you need assistance with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, that'll be it. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Wonderful. Have a great day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni bacon and feather cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni, bacon and feta cheese",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-398087a8-c9a1-4596-8881-59e3fec844fd",
+  "created_at": "2026-02-15T15:44:16.935Z"
+}

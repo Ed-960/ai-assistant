@@ -1,0 +1,123 @@
+{
+  "dialog_id": 147,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=147"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to order an iced cinnamon shortbread latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like any milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Whole milk, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "medium."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, by medium do you mean tall or grande?"
+    },
+    {
+      "speaker": "client",
+      "text": "tall."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you are ordering a tall iced cinnamon shortbread latte with whole milk, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, which location would you like to pick up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "the Starbucks in Fred Meyer's."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you say fred mayers or fort meyers?"
+    },
+    {
+      "speaker": "client",
+      "text": "Fred Meyer's."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i'll send your order to the location at fred meyers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be texted to you and your order will be ready in 5 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your coffee."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "iced cinnamon shortbread latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-13654e76-5baf-40e8-8090-28c3b6b8574f",
+  "created_at": "2026-02-15T15:44:16.906Z"
+}

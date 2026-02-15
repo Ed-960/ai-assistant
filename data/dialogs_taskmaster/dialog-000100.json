@@ -1,0 +1,212 @@
+{
+  "dialog_id": 100,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=100"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, what can i do for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hello. I would like to order some pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, how many pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need four."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's make them all in medium."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. what toppings would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Well, I would like two of them to be pepperoni lovers. And I would like the other two to be hamburger, bacon, and sausage."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It looks like Bela Luna is currently not serving hamburger pizzas at the moment. should we try another flavor?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. Let's go ahead and make it."
+    },
+    {
+      "speaker": "client",
+      "text": "How about sausage?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, so two sausage pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. And also, the other two I want to be Pepperoni Lovers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you got it. what type of crust would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "You know, I actually want them to all be thick crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure! any special instructions?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, just make sure that they are thick crust, and that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Let me confirm your order: 4 medium pizzas. 2 pepperoni, 2 sausage, all of them thick crust."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. And make sure the pepperonis are like pepperoni lovers, so lots of pepperoni."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, lots of pepperoni will be added to the special instructions."
+    },
+    {
+      "speaker": "client",
+      "text": "Great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your total will be $63."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be ready for pickup at bela luna's in 35 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Sounds perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great! enjoy!"
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye bye."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye-bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hamburger",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bela Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hamburger pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pepperoni Lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperonis",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bela luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-0c42467f-a207-4d2e-b877-bbe0d99783f3",
+  "created_at": "2026-02-15T15:44:16.901Z"
+}

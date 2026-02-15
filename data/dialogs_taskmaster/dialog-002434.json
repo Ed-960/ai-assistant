@@ -1,0 +1,155 @@
+{
+  "dialog_id": 2434,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2434"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, would you mind ordering me some Starbucks for pickup?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, Starbucks on Main Street?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I'm heading to Division Street. The cloest one near there is okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Found one on Division Street. What would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "A Frappuccino will be nice. What do you recommend."
+    },
+    {
+      "speaker": "cashier",
+      "text": "If a Frappuccino is what you're looking for. I recommend a Caramel Frappuccino. Does that sound good?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, give me 2 other recommendations."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The Java Chip Frappuccino and the Juniper Frappuccino are pretty popular. How about those?"
+    },
+    {
+      "speaker": "client",
+      "text": "I can't decide, but I like both of them. Order both."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay 1 Juniper Frappuccino and 1 Java Chip Frappuccino. What sizes?"
+    },
+    {
+      "speaker": "client",
+      "text": "Both tall please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay 1 Tall Java Chip Frappuccino and 1 Tall Juniper Frappuccino. Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, add in a cookie."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I added a cookie into your order, anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes extra ice please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "On both drinks?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, added extra add into your order. 1 Tall Juniper Frappuccino with extra ice. 1 Tall Java Chip Frappuccino with extra ice and a cookie. Is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, send the order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Gotta cha. Order sent. It will be ready for pickup shortly and that your receipt will be sent to your mobile device via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, please let me know if you need anything else."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Frappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caramel Frappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Java Chip Frappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Chip Frappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Juniper Frappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Tall",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-ac9e40de-9caa-4bcb-b54a-e5b6e5a7ee0f",
+  "created_at": "2026-02-15T15:44:17.182Z"
+}

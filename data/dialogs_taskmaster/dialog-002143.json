@@ -1,0 +1,140 @@
+{
+  "dialog_id": 2143,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2143"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey there! How're you this morning? Listen, I've decided I definitely need a great cup of coffee to get my day started!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure! I'm fine thanks! Which location would you prefer to order from today?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm thinking a Coffee from the local Starbucks inside the Kroger Marketplace location is just what I need!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure! I can place an order online for you right away!"
+    },
+    {
+      "speaker": "client",
+      "text": "That'd be great! I need a strong coffee with lots of flavor and caffeine!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like me to order your usual coffee drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "Actually, I think I'd like to try one of their new seasonal Coffee options this time!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh! According to the website they are currently offering, Caramel Brulee Latte's and black and white mocha!"
+    },
+    {
+      "speaker": "client",
+      "text": "Wow! Both of those sound great, but I think I'd really like to try the Caramel Brulee Latte!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay then, what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Venti of course! The bigger and stronger, the better!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What type of milk do you want and would you like any extra flavoring or whipped cream on top?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like whole milk and definitely lots of whip on top, with an extra shot of espresso if possible, please!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What about sugar or honey? Would you like either of those in your drink or on the side?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thanks! Just the Venti, Caramel Brulee Latte' with whole milk and lots of whip on top with an extra shot of espresso!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok got it! Your credit card is already on file at that location, so I'll go ahead and place the order for you!"
+    },
+    {
+      "speaker": "client",
+      "text": "Great! Can't wait to try it! Thank you so much!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your drink is on order at the Starbucks location you requested, it will be ready shortly! You can expect to receive a text message on your phone with your receipt soon!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks again! I really appreciate it!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem! You are welcome! Anything else I can get for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, that's it! Thanks again!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "My pleasure! Enjoy your coffee!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caramel Brulee Latte's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black and white mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caramel Brulee Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caramel Brulee Latte'",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-63700b61-9dff-4869-a1eb-0ca6411822cd",
+  "created_at": "2026-02-15T15:44:17.148Z"
+}

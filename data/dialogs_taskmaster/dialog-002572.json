@@ -1,0 +1,112 @@
+{
+  "dialog_id": 2572,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2572"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey John can you pick up a coffee for me at Starbucks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, which Starbucks "
+    },
+    {
+      "speaker": "client",
+      "text": "The one on campus at Valpo"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The one by the student union ?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, the one by the libaray"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh got it. "
+    },
+    {
+      "speaker": "client",
+      "text": "I forgot there were 2 locations "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have you put in an order ?"
+    },
+    {
+      "speaker": "client",
+      "text": "No I was going to have you order for me."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what can I get for you ?"
+    },
+    {
+      "speaker": "client",
+      "text": "A flat white, skinny with an extra shot of espresso"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, is that all? "
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah I think that’s all, get yourself something if you want it. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, thanks boss. "
+    },
+    {
+      "speaker": "client",
+      "text": "Actually get me a double shot of espresso I’ve got a lot to do"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Dang, okay boss you got it "
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks John. Appreciate the help. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem boss "
+    },
+    {
+      "speaker": "client",
+      "text": "See you when you’re back at the office "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yep, bye "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "flat white, skinny",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-d29b7f76-de3e-4e77-95e9-182984cc9f98",
+  "created_at": "2026-02-15T15:44:17.199Z"
+}

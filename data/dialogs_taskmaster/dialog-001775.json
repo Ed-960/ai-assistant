@@ -1,0 +1,122 @@
+{
+  "dialog_id": 1775,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1775"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello, I need some coffee can you help me with an order?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, where would you like to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I wanted to place an order at peet's if I could."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I can help you out with that, what peet's location are you ordering from?"
+    },
+    {
+      "speaker": "client",
+      "text": "its the one on castro street in mountain view"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok got it, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want an iced Havana Cappuccino, since its hot today"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok , what size would like?"
+    },
+    {
+      "speaker": "client",
+      "text": "make it a large"
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what kind of milk would you like for this?"
+    },
+    {
+      "speaker": "client",
+      "text": "i'm trying lose weight, so make it skim milk please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, I will request that it is made with skim milk"
+    },
+    {
+      "speaker": "client",
+      "text": "great, that sounds perfect"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have placed an order for a large Iced Havana Cappuccino"
+    },
+    {
+      "speaker": "client",
+      "text": "when will it be ready"
+    },
+    {
+      "speaker": "cashier",
+      "text": "your order will be ready for pickup in the next 15 minutes"
+    },
+    {
+      "speaker": "client",
+      "text": "awesome, i'm heading out now to pick it up"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great day, and enjoy your coffee"
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks so much, bye!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "iced Havana Cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Iced Havana Cappuccino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-07fc4739-17c2-45a7-b855-a66021442576",
+  "created_at": "2026-02-15T15:44:17.097Z"
+}

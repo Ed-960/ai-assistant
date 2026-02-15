@@ -1,0 +1,151 @@
+{
+  "dialog_id": 86,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=86"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi how are you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm good. We can order some pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, where from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Bella Luna, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "three mediums."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great and what toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want one with pepperoni, bacon, sausage, and onions an extra sauce one supreme and one barbecue chicken and all of home with extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's 3 medium extra cheese pizzas, 1 pepperoni bacon, sausage and onions, one supreme, and one bbq chicken for a total of $56.99."
+    },
+    {
+      "speaker": "client",
+      "text": "I also wanted extra sauce on the pepperoni and bacon one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, my mistake, I've fixed that. Your new total is $57.49."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thanks. That work."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You'll get the reciept via mobile and it'll be ready for pickup in 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thanks for your help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "no problem, bye."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mediums",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni, bacon, sausage, and onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "supreme",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "barbecue chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni bacon, sausage and onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bbq chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni and bacon",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-0ac58b8d-7f14-4e69-9ac5-c8c47ec593c2",
+  "created_at": "2026-02-15T15:44:16.899Z"
+}

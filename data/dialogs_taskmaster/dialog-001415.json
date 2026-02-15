@@ -1,0 +1,168 @@
+{
+  "dialog_id": 1415,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1415"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "What can I take care of for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, could you help me with placing a pizza order from Bella Luna?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay no problem"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what type of pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "Could I have two small pizzas? On the one, I would like a barbecue chicken pizza, and on the second pizza, I would like mushrooms, onions, and green peppers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's 2 small pizzas, one BBQ, and the other vegetarian"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. The first one is barbecued chicken."
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Could I have extra cheese on those?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. So that's one small bbq chicken pizza and one small vegetarian with extra cheese."
+    },
+    {
+      "speaker": "client",
+      "text": "The second one is not really a vegetarian, it I think it has a couple less ingredients, mushrooms, green peppers and onions."
+    },
+    {
+      "speaker": "cashier",
+      "text": "My Mistake, the second one is just mushrooms, green peppers and onions right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay your total is 30 dollars."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your Pizza will be ready in 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds good."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you so much for your help today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Wonderful, no problem."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "barbecue chicken pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "green peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "So that's 2 small pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "BBQ",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "barbecued chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bbq chicken pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "vegetarian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ingredients",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-cb63e136-6442-4184-9d3f-c14189dba29e",
+  "created_at": "2026-02-15T15:44:17.044Z"
+}

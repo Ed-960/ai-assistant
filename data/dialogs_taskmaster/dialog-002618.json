@@ -1,0 +1,142 @@
+{
+  "dialog_id": 2618,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2618"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Can I get some papa murphy's pizza?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yeah sure what do you want me to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get the Meditterannean pizza and the sriracha one?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You mean the herbed mediterrannean chicken and the thai chicken pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah those are the ones I want."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What sizes do you need?"
+    },
+    {
+      "speaker": "client",
+      "text": "both large please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok cool, they're going to be $14.95 each is that good?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah that's fine you can pay with my card."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok do you want any sides or anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah can I get the brownie bites too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yeah an order of those is gonna be another $5.95"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah that's good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok do you want it delivered?"
+    },
+    {
+      "speaker": "client",
+      "text": "No can you pick it up?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yeah, are all of your payment details on your account up to date?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah they are."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, I've got it ordered, it'll be ready for me to pick it up in 25 mins."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok awesome thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yeah no problem."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "papa murphy's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "papa murphy's pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Meditterannean pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sriracha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "herbed mediterrannean chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thai chicken pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-df3d4fd2-b183-4998-8cc5-2b46417d2ff5",
+  "created_at": "2026-02-15T15:44:17.204Z"
+}

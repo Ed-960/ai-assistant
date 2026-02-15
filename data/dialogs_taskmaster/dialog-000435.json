@@ -1,0 +1,131 @@
+{
+  "dialog_id": 435,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=435"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Oh, I would love some coffee. I'm in Seattle, Washington, and I would like to get some coffee at Peet's Coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, which location in seattle?"
+    },
+    {
+      "speaker": "client",
+      "text": "Is that possible? I'm I'm going to be at 6850 East Green Lake Way North, Seattle, Washington."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you say east greenlight?"
+    },
+    {
+      "speaker": "client",
+      "text": "East Green Lake."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll take a cold-brew fog latte."
+    },
+    {
+      "speaker": "client",
+      "text": "Call Brew Fog Latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to add any milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. I would like to get some whipped cream and whole milk with honey drizzled over the top. Would be fantastic. With an extra with extra espresso, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "just 1 extra shot of espresso or more?"
+    },
+    {
+      "speaker": "client",
+      "text": "Two, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "A large. Thank you for asking."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you are ordering a large cold brew fog latte with whipped cream, whole milk, 2 extra shots of espresso and honey drizzled over the top."
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that that sounds delicious. Thank you. You're lovely."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, your drink will be ready in 5 minutes and your receipt will be texted to you."
+    },
+    {
+      "speaker": "client",
+      "text": "All right, I really appreciate it. I'm really excited, thank you so much for your help. You're the best."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your welcome, enjoy your coffee."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cold-brew fog latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Call Brew Fog Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cold brew fog latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-3df41ed8-43d6-4b13-b8c4-92ddf5523739",
+  "created_at": "2026-02-15T15:44:16.938Z"
+}

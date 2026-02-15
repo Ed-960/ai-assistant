@@ -1,0 +1,121 @@
+{
+  "dialog_id": 2606,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2606"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Please order me a coffee drink."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Where would you like it from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks inside Kroger on 741 in Dayton Ohio"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Triple Mocha Frappuccino"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "A grande please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What type of milk would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Almond milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "They are out of almond milk."
+    },
+    {
+      "speaker": "client",
+      "text": "Coconut milk then."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like whip cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes 1 pump of chocolate syrup."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok so I have a grande Triple Mocha Frappuccino with coconut milk, whip cream and 1 pump of chocolate syrup."
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok your total is 5.85 and the card on file will be charged."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok when will it be ready?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It will be ready in 15 minutes at the starbucks in kroger on 741 Dayton, Ohio."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect. good bye"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Triple Mocha Frappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-dbd9dc8d-2671-42bf-99a6-33da068c01ba",
+  "created_at": "2026-02-15T15:44:17.203Z"
+}

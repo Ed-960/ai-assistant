@@ -1,0 +1,98 @@
+{
+  "dialog_id": 82,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=82"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how are you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey. I was wondering if you could help me order some pizza from a new place called Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure what size woul you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need two small pizzas, both of them with extra cheese. As far as toppings go, I need them both with pepperonis, one with mushrooms and one with green peppers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's 2 small pizzas, both pepperoni, both with extra cheese, one with mushrooms, one with green peppers for a total of $18.88."
+    },
+    {
+      "speaker": "client",
+      "text": "That sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, your order will be ready for pickup in 30 minutes and you'll get the reciept via text!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "have a great day bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperonis",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "green peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-0a6b9596-2a0e-42bd-81be-505da29d7f73",
+  "created_at": "2026-02-15T15:44:16.898Z"
+}

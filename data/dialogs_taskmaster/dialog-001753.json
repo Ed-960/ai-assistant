@@ -1,0 +1,235 @@
+{
+  "dialog_id": 1753,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1753"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Okay Google, I'd like to order some pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Where do you want to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Domino's, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Domino's it is. Will you be ordering for pick-up or delivery?"
+    },
+    {
+      "speaker": "client",
+      "text": "Pick-up, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. How many pizzas would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like two large pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, on the first pizza do you want thin crust, regular crust, or Brooklyn style."
+    },
+    {
+      "speaker": "client",
+      "text": "Regular crust. Same for the second one as well."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. What sauce would you like on the first pizza? Marinara, garlic sauce, or barbecue sauce?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want marinara on both pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. What toppings would you like on the first pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like chicken, black olives, pineapple, and tomatoes. And does Domino's have artichoke hearts by chance"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. Sorry, Domino's does not have artichoke hearts."
+    },
+    {
+      "speaker": "client",
+      "text": "That's fine. Just chicken, olives, pineapple and tomatoes then."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like on the second pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "Make the second a pepperoni, sausage, and olives."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. Please provide a name and phone number for the order."
+    },
+    {
+      "speaker": "client",
+      "text": "John Doe at 999-9999"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thanks. Which location would you like to pick them up at?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one on 104th Ave."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. So to confirm your order, you want two large pizzas, both regular crust with marinara sauce. You want chicken, black olives, pineapple, and tomatoes on the first, and pepperoni, sausage, and black olives on the second, and you want to pick them up at the Domino's location on 104th Ave. Does that all sound right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, place the order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have placed an order for your two large pizzas. They will be available for pick-up in about 25 minutes at the Domino's on 104th Ave. Where would you like your receipt sent?"
+    },
+    {
+      "speaker": "client",
+      "text": "Send me a text."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, your receipt has been sent to your mobile device."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks Google."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Domino's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Brooklyn style",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Regular crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Marinara",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "garlic sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "barbecue sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "marinara",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "artichoke hearts",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "104th Ave",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "marinara sauce",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-037eb5e4-a345-485d-81df-cc525f22cac6",
+  "created_at": "2026-02-15T15:44:17.092Z"
+}

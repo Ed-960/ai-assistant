@@ -1,0 +1,112 @@
+{
+  "dialog_id": 2091,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2091"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, can you order me a Starbucks, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, which location do you want to pick it up from? "
+    },
+    {
+      "speaker": "client",
+      "text": "Target on Cobb's Ford Road in Prattville."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. What do you want? "
+    },
+    {
+      "speaker": "client",
+      "text": "Americano with 2 pumps of caramel."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok.  Should they leave you room for cream? "
+    },
+    {
+      "speaker": "client",
+      "text": "Nah. Oh! But I do want whip cream on top."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. And you said 2 pumps of caramel?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, I'll call it in now. Put it on your account? "
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please. Wait, I think I just want one pump of caramel."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. You sure? You got vanilla last time."
+    },
+    {
+      "speaker": "client",
+      "text": "Well, vanilla does sound good. But no. No. Definitely caramel. Just one pump."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, I've got it. "
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, great, and you're going to charge it to my account, right? "
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm sending the receipt to your mobile. "
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect. When will it be ready? "
+    },
+    {
+      "speaker": "cashier",
+      "text": "It'll be ready soon at Target on Cobbs Ford Road in Prattville."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks! Bye. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome. Bye. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Americano",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-56e2d037-d117-4269-a5b0-767c2338e0ab",
+  "created_at": "2026-02-15T15:44:17.142Z"
+}

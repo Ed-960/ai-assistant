@@ -1,0 +1,125 @@
+{
+  "dialog_id": 2334,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2334"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello! Could you order me a coffee drink from Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I sure can! Where would you like to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "In Palmer please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, Fred Meyer or Carrs Starbucks?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to get it from Carrs at 664 W Evergreen please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, what drink would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Could I get a Caramel Macchiato please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I will get a venti."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, would you like that hot or iced?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like it iced."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, do you want whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would like whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like regular milk, or a substitution such as soy, almond, or coconut?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just regular milk please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, any other additions you'd like me to add?"
+    },
+    {
+      "speaker": "client",
+      "text": "Could I get extra caramel in the cup?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Absolutely! Does that finalize your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I believe it does. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your drink is on order now! It will be ready for pickup shortly, and I've sent the receipt to your mobile device via text!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you so much! Talk to you later."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Goodbye! "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caramel Macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-932782dd-5540-457a-809b-ac53800ae4b8",
+  "created_at": "2026-02-15T15:44:17.170Z"
+}

@@ -1,0 +1,122 @@
+{
+  "dialog_id": 1916,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1916"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I would like to place an order for pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Order at what pizza shop?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to order from Blaze."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like to tell me what you want or do you need a menu? "
+    },
+    {
+      "speaker": "client",
+      "text": "Please get me a copy of their menu."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Here is a copy of the Blaze menu."
+    },
+    {
+      "speaker": "client",
+      "text": "Order two large cheese and black olive pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, let me write that down for you."
+    },
+    {
+      "speaker": "client",
+      "text": "I think that should be enough."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just the two pizzas. You have my account info."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, got it."
+    },
+    {
+      "speaker": "client",
+      "text": "Please confirm the order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Two large cheese and black olive pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "How long?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "All set. It will be ready for pick up in 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Please send me the receipt."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It will arrive via text message to your cell."
+    },
+    {
+      "speaker": "client",
+      "text": "My number is 456-4567."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. 456-4567."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Blaze",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese and black olive pizzas",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-2ae382cc-1afc-4d79-8023-699a506ec5ff",
+  "created_at": "2026-02-15T15:44:17.119Z"
+}

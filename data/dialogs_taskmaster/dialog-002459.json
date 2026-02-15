@@ -1,0 +1,165 @@
+{
+  "dialog_id": 2459,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2459"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I need to order some pizza from Lotsa Motsa."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, which location. I would assume but you've ordered from both before."
+    },
+    {
+      "speaker": "client",
+      "text": "Can you order it from the Springville location?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes I can. I'll call and see what their specials are and get back with you. "
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks. I'm thinking I will want Pizza and maybe those twisty bread things. What are they called?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They have cinnamon bread with frosting for dipping sauce. "
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that is what I want! "
+    },
+    {
+      "speaker": "cashier",
+      "text": "They have a special that's two large pizza's and you get to choose three toppings."
+    },
+    {
+      "speaker": "client",
+      "text": "I'll do that special and add an order of the cinnamon bread please. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "What three toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "One the first one I want, green peppers, pepperoni, & pineapple. And the second one, sausage, olives and pepperoni."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any drinks or dipping sauces? "
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I need four ranch dressings and that's all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright I'll place your order right now. You want two large three topping pizza's and an order of cinnamon bread right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, thanks. Let me know how much it will cost and when it will be ready for pickup. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "The total will be 28.65. It will be ready in 25 minutes. "
+    },
+    {
+      "speaker": "client",
+      "text": "Do I need to give you my payment info? "
+    },
+    {
+      "speaker": "cashier",
+      "text": "No, you already have an account with them. "
+    },
+    {
+      "speaker": "client",
+      "text": "Oh OK, thanks. Can you send me a receipt? "
+    },
+    {
+      "speaker": "cashier",
+      "text": "A receipt will be sent to your phone through a text message. "
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks Again! Bye!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Goodbye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Lotsa Motsa",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Springville",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Springville location",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "green peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ranch",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-b4fce881-f03a-491a-989e-d7c8bbe035cd",
+  "created_at": "2026-02-15T15:44:17.185Z"
+}

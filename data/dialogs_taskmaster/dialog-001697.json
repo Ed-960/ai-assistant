@@ -1,0 +1,114 @@
+{
+  "dialog_id": 1697,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1697"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "What are we doing today?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need to order some pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay sounds good."
+    },
+    {
+      "speaker": "client",
+      "text": "And then I'd like to order 4 large pizzas that I'm ordering with chicken and I need the extra set of topping on that and then."
+    },
+    {
+      "speaker": "cashier",
+      "text": "4 large chicken pizza with extra cheese and gluten free crust."
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is that everything?"
+    },
+    {
+      "speaker": "client",
+      "text": "Unless you want to throw in a pitcher of Budweiser. If not, that's okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sadly Bella luna doesn't serve alcohol."
+    },
+    {
+      "speaker": "client",
+      "text": "That's fine. I'm just joking, anyway."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, that's 64 88 for your total."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, your pizza will be ready in 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Find your ID. All right, thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella luna",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-fa171071-d4c5-4d11-bc4c-aa051ec60479",
+  "created_at": "2026-02-15T15:44:17.082Z"
+}

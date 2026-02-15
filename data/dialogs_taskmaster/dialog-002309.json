@@ -1,0 +1,203 @@
+{
+  "dialog_id": 2309,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2309"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey Maria. I need you to call Marco's Pizza and place an order for me, please. We're going to have to work late at the office, and I want to make sure everyone is fed."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Do you want the Marco's in Patrick Street Plaza, then?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that one is the closest."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. What kind of pizzas do you want me to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's start with an extra large Pepperoni Magnifico, and a Deluxe Uno."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Should I leave all the default toppings on?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes-- can you throw in a medium cheese pizza in there too. I nearly forgot that Charles is a vegetarian."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. According to the website, they're out of mushrooms so the Deluxe Uno won't have any. Is that fine?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah I guess so. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. What do they want to drink with their pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let me ask real quick. Can you look up what desserts they have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, it looks like they have Cinna Squares and Double Chocolate Brownies. "
+    },
+    {
+      "speaker": "client",
+      "text": "Those sound good. What do the Cinna Squares come with?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They come with cups of icing on the side."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, let's get that. Everyone says that Mountain Dew is fine, so two two litres of that and then one litre of Pepsi. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay... The website says they don't have any Mountain Dew left, but they have Sierra Mist. Is that okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "Uhh... Just one of the Sierra Mists then and two bottles of Pepsi. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, no problem. Do you want to order any sides? "
+    },
+    {
+      "speaker": "client",
+      "text": "What sides do they have again?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They have Cheesy Bread and a Meatball Bake. "
+    },
+    {
+      "speaker": "client",
+      "text": "One order of Cheesy Bread will do it. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I added it to the order. Do you need anything else for tonight?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's all. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. So one extra large Pepperoni Magnificio, one Deluxe Uno without mushrooms, one medium cheese, one order of cheesy bread, two litres of Pepsi, and one Sierra Mist?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's right. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, no problem. I put in the order, and it will be available for pickup in about 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect, I will go pick it up. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, good. The receipt should arrive via text message to your phone shortly. "
+    },
+    {
+      "speaker": "client",
+      "text": "Great, just got it. Thanks, Maria. Talk to you later."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Marco's Pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Marco's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Patrick Street Plaza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pepperoni Magnifico",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Deluxe Uno",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pepperoni Magnificio",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "without mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-8cc7c402-0348-40d3-9390-67b87fb11b85",
+  "created_at": "2026-02-15T15:44:17.168Z"
+}

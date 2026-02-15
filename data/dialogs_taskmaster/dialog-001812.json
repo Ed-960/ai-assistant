@@ -1,0 +1,148 @@
+{
+  "dialog_id": 1812,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1812"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, hope you're morning is going well. Can you pick up coffee on you way into work today?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Very well. Yes, where should I pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Starbucks 21 14th Street NE Atlanta, GA 30309"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The weather is difficult today, but you like to be brazen, what do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I am preferring a warm beverage. Something basic."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want their drip coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, but let's add something more."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I could ask them to add a syrup. Or a particular roast, how do you feel about their blonde roast?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. Dark roast, please. I want it to be a bit creamy."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want a latte?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, have them add half and half. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want anything to make it sweeter or flavored?"
+    },
+    {
+      "speaker": "client",
+      "text": "Ask them to kindly add a single pump of their mocha sauce."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size do you want because a single pump can go a big or a long way, depending."
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a venti. The largest hot beverage cup available."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Well, using your account I'm ordering a trenta iced coffee, anything else"
+    },
+    {
+      "speaker": "client",
+      "text": "I want it to stay very warm."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Should I ask them to make it hotter than normal, that literally comes with a label."
+    },
+    {
+      "speaker": "client",
+      "text": "No, please ask them to use two cups, as it insulates it better."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I am going to add sugar-free vanilla to my iced coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "Go for it. The receipt will show up on my account. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you and I will see you soon. "
+    },
+    {
+      "speaker": "client",
+      "text": "Please make sure to tip. Baristas are our friends. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will tip. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "drip coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "trenta",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced coffee",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-0f3aa9da-3da2-40d9-bb01-cb78573771e9",
+  "created_at": "2026-02-15T15:44:17.103Z"
+}

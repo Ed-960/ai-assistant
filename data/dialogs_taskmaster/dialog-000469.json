@@ -1,0 +1,103 @@
+{
+  "dialog_id": 469,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=469"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll like to order a venti caffe Americano with six sugars and whole milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sorry, did you say a venti cafe americano?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size please?"
+    },
+    {
+      "speaker": "client",
+      "text": "Venti."
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "where would you like to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "the Starbucks in Southfield, Michigan"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, so a venti cafe americano, whole milk, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "With six sugars."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome!! bye"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caffe Americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cafe americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-420be7f2-71a8-49ce-b654-d71ecd53fd0c",
+  "created_at": "2026-02-15T15:44:16.942Z"
+}

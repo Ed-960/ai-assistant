@@ -1,0 +1,170 @@
+{
+  "dialog_id": 2420,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2420"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I want to order 2 pizzas from Rosatti's."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is that the Rosatti's on Chandler Road?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want to pick the order up or have it delivered?"
+    },
+    {
+      "speaker": "client",
+      "text": "I will pick it up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What do you want for the first pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a large, thin crust, Italian sausage with extra tomato sauce."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is the large a sixteen inch thin crust, Italian sausage with extra tomato sauce?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What do you want for the second pizza/"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a small, thin crust, pepperoni with extra tomato sauce."
+    },
+    {
+      "speaker": "cashier",
+      "text": "By small, do you mean the 14 inch think crust, pepperoni with extra tomato sauce?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want any sides?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a medium Italian salad as well."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What dressing do you want on the salad?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want the Italian dressing."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So I will add a medium Italian salad with Italian dressing. Based on their menu, I show a total of 27.50 before tax. Should I place the order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. I will pick it up as soon as they can have it ready."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have placed the order and the store quotes 25 minutes for the order to be ready for pick-up It will be $29.18 with tax. The store will text you the receipt on your phone"
+    },
+    {
+      "speaker": "client",
+      "text": "Good-bye"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Good-bye"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Rosatti's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Chandler Road",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Italian sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra tomato sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sixteen inch",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "14 inch",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "think crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-a9a20a28-3ffd-46b6-ab9a-95e0d3c7ff90",
+  "created_at": "2026-02-15T15:44:17.180Z"
+}

@@ -1,0 +1,150 @@
+{
+  "dialog_id": 2233,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2233"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello, my name is Joe Brown, phone number is 717-485-1111 and I'm calling to order a coffee to pick up tomorrow morning."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi Mr. Brown, what kind of coffee do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "It's Joe and I want a Starbucks coffee. Yes, I'm in the mood for a Starbucks coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok Joe, which Starbucks do you want to pick up your coffee order at tomorrow morning?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one on Paxton Street in Harrisburg, Pa."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And what kind of Starbucks coffee do you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll take a Caramel Cloud Macchiato. Could you read the ingredient description off the menu to me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes Joe, I certainly can. Ok, it contains egg and the Caramel Cloud Macchiato is light and airy with layers of fluffy foam*, cascading espresso, vanilla-flavored syrup and a drizzle of caramel. It's a whole new way to love your Macchiato."
+    },
+    {
+      "speaker": "client",
+      "text": "What milk types are offered?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They have Almond, Coconut, Soy, Whole milk, 2% milk, and non-fat milk."
+    },
+    {
+      "speaker": "client",
+      "text": "What milk type do you want on your Caramel Cloud Macchiati, Joe?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will try the Coconut milk this time. That sounds good."
+    },
+    {
+      "speaker": "client",
+      "text": "What size did you want? The have a short, a tall, a Grande, and a Venti."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I wanted a Grande this time."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok Joe, a Grande Caramel Cloud Macchiati with Coconut milk is currently available."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What time will you pick it up tomorrow morning?"
+    },
+    {
+      "speaker": "client",
+      "text": "Around 8am."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, it will be there and waiting for your pickup tomorrow morning."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, exactly what I wanted. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Joe I am now confirming that your Caramel Cloud Macchiati is on order at the Paxton Street Starbucks and will be ready for pickup at 8 am tomorrow morning and that your receipt will be sent to your mobile device at 717-485-1111 via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "OK, thank you for all your help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, it was my pleasure. bye for now."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caramel Cloud Macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caramel Cloud Macchiati",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "short",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-7a0a10ca-4113-429b-929b-e31b96added4",
+  "created_at": "2026-02-15T15:44:17.159Z"
+}

@@ -1,0 +1,161 @@
+{
+  "dialog_id": 776,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=776"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi."
+    },
+    {
+      "speaker": "cashier",
+      "text": "how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to place an order for pizza, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let's place with bella luna."
+    },
+    {
+      "speaker": "client",
+      "text": "Great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like three large pizzas. The first being the spicy Italian, and let's see, the second being Hawaiian."
+    },
+    {
+      "speaker": "client",
+      "text": "And the third being barbecue chicken. And can I have extra cheese on those, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, extra cheese on all three pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "Great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok."
+    },
+    {
+      "speaker": "cashier",
+      "text": "let's see if i got that right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "3 large pizzas, 1 spicy italian, 1 hawaiian, and 1 barbeque chicken, all with extra cheese?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "$52.91 will be your total."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, great. That works."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order will be ready at your local Bella Luna pizzeria for pick up shortly. Enjoy!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye!"
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "bella luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "spicy Italian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "barbecue chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "spicy italian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "barbeque chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna pizzeria",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-6cd5363b-37d6-4fd6-973f-2f217156dc7b",
+  "created_at": "2026-02-15T15:44:16.975Z"
+}

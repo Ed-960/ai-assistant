@@ -1,0 +1,195 @@
+{
+  "dialog_id": 94,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=94"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order three pizzas from the new pizza pizzeria Bella Luna, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what toppings did you want on those?"
+    },
+    {
+      "speaker": "client",
+      "text": " I'd like those to be small, on gluten-free crust. I would like one to have ham, bacon, and pineapple."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what size?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "and for the others?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would have one to be a New York style pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and the last one?"
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "client",
+      "text": "For For the last pizza I'll take sausage, bacon and pepperoni, and olives."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome. did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that would That would be all. Yeah, that's fantastic. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so the order was 3 small pizzas with gluten free crust, 1 with ham, bacon and pineapple, 1 new york style pizza, 1 with sausage, bacon, pepperoni, and olives."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did i get that right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "$56.49 is the total. should i place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome, i've placed the order. it'll be ready for pick up in 25 mins."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you that's really great. No, that's all. Thank you so much for your help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is there anything else i can help with?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're very welcome, i hope the pizzas are good."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "the new pizza pizzeria Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "smal",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free crus",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "baco",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineappl",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "New York style pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "new york style pizza",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-0bd6a33a-9dce-47ce-90cb-ff8516e5e700",
+  "created_at": "2026-02-15T15:44:16.900Z"
+}

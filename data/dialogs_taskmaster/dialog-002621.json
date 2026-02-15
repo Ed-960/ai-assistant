@@ -1,0 +1,121 @@
+{
+  "dialog_id": 2621,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2621"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I want a coffee from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Are you wanting to pick this one up from the location at 2808 Scottsville Rd?"
+    },
+    {
+      "speaker": "client",
+      "text": "Actually, I wanted it from the 710 Campbell Ln location."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Starbucks at 710 Campbell Ln?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to order a Espresso Con Panna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "A Espresso Con Panna? Would you like any extra flavors or toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "Actually, I would like to have an extra pump of whipped cream on the top."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Extra whipped cream? Added that to the order. What size would you like this drink to be?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a triple please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "A triple Espresso Con Panna with extra whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "This drink is available at the 710 Campbell Ln location and will be ready for you to pick up soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Good to hear!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your reciept will be sent to you via text. You will need to show this when you pick up your drink."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, I will look out for this."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is there anyhting else I can help you with today?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that is all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Espresso Con Panna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "triple",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-dfdfe3ce-5e2b-46b2-96a9-02da3fcf4599",
+  "created_at": "2026-02-15T15:44:17.205Z"
+}

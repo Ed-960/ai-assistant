@@ -1,0 +1,126 @@
+{
+  "dialog_id": 2382,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2382"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey! I would like you to order me a drink from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi! Okay! Which location?"
+    },
+    {
+      "speaker": "client",
+      "text": "The E. Main St. location in Richmond"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. What drink would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like an iced white chocolate mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Umm, let's do a venti. It's been a day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Haha understood. Whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, no definitely no whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Whole milk okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "Woah now. I'm trying to watch my figure for summer! "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Just checking! What type of milk then?"
+    },
+    {
+      "speaker": "client",
+      "text": "Almond milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any other special requests?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, add a shot of espresso on there."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright got it. And I'll have them add some chocolate shavings on top too like you like it."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you, you're the best."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I know! So that's a venti iced white chocolate mocha with almond milk, no whipped cream, an extra shot of espresso, and chocolate shavings."
+    },
+    {
+      "speaker": "client",
+      "text": "Yep that's it. My card and account should be on file."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It is. Your drink will be ready shortly and a confirmation was sent to your email."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "iced white chocolate mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "white chocolate mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-9f2fe384-085c-4140-907e-e79ac837eed1",
+  "created_at": "2026-02-15T15:44:17.176Z"
+}

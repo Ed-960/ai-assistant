@@ -1,0 +1,160 @@
+{
+  "dialog_id": 1051,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1051"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i help?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "i'm sorry, what topping did you say you wanted?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want chicken and sausage mixed in, combined, not separate."
+    },
+    {
+      "speaker": "cashier",
+      "text": "for both pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what type of crust?"
+    },
+    {
+      "speaker": "client",
+      "text": "Free crust? Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "gluten free?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any special ingredients?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, you choose for me."
+    },
+    {
+      "speaker": "cashier",
+      "text": "i'm afraid i can't do that."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. Well, just make it regular."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure."
+    },
+    {
+      "speaker": "client",
+      "text": "I don't know the ingredients. Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so i have 2 medium pizzas, chicken and sausage on both and they are gluten free. correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct. Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. your total is $55."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. That sounds great. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be ready to be picked up in about an hour."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, that gives me plenty of time."
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes it does. enjoy"
+    },
+    {
+      "speaker": "client",
+      "text": "And thank you. Have a great and wonderful day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you too!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye now."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye-bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-94b4a15d-257c-40bd-a332-8a67671e49e3",
+  "created_at": "2026-02-15T15:44:17.004Z"
+}

@@ -1,0 +1,117 @@
+{
+  "dialog_id": 964,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=964"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "What can I help with?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like to order two small pizzas. I'd like them with thin crust, and I would like two barbecue chicken pieces."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So I have 2 small thin crust pizzas, both with bbq chicken, right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like it from Bella Luna pizzeria."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem!"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "That'll be $26.50."
+    },
+    {
+      "speaker": "client",
+      "text": "Great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And it will be ready in 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I hope you enjoy it."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course. Have a nice day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "barbecue chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bbq chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna pizzeria.",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-86c112d0-032a-46f3-aceb-ec36397f7209",
+  "created_at": "2026-02-15T15:44:16.995Z"
+}

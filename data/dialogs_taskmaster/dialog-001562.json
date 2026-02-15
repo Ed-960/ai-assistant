@@ -1,0 +1,154 @@
+{
+  "dialog_id": 1562,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1562"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. Hey, I'd like to place an order for pick up, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, where do you want to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to get that at the Milpitas store on Calaveras Boulevard."
+    },
+    {
+      "speaker": "cashier",
+      "text": "which store was that?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's the one in Milpitas, California."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, but which restaurant are you trying to order form?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, I'm sorry. I'm trying to order from the Peet's Coffee in Milpitas, California."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what drink did you want from peet's?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need a large cafe latte, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you have a milk preference for your drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, whole milk if you would."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what size did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any syrups in that."
+    },
+    {
+      "speaker": "client",
+      "text": "No, but could I have some sugar in the bag?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, i can include that in your order."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, great."
+    },
+    {
+      "speaker": "client",
+      "text": "And how much is that going to cost?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "so to confirm, you want a large Cafe Au Lait with whole milk, please include sugar in the bag."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the cost is $3.45."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you want to order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Yes please, you can go ahead and place that order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I've ordered your drink for you at Peet's in Milpitas. it should be ready for pick up in 6 minutes. Your receipt will be sent to your mobile device via text message shortly."
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else i can help with?"
+    },
+    {
+      "speaker": "client",
+      "text": "Well, that's all. Thanks very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome, take care."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cafe latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cafe Au Lait",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-e383a7a6-c463-416d-8aa3-b521e0dd940d",
+  "created_at": "2026-02-15T15:44:17.059Z"
+}

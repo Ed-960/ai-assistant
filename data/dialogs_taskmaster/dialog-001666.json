@@ -1,0 +1,82 @@
+{
+  "dialog_id": 1666,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1666"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, from where?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what type of drink did you want to order from starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "nice. you said a venti chai with a shot of espresso and coconut milk from starbucks in los alamos."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did i get that right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "$4.50 is the total. should i charge the card on file now?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome, the order has been placed. the drink will be ready at the starbucks location in los alamos in 9 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chai",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "shot of espresso",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-f55d8565-ba19-4cc1-9b4e-09e328630ccc",
+  "created_at": "2026-02-15T15:44:17.072Z"
+}

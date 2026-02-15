@@ -1,0 +1,117 @@
+{
+  "dialog_id": 2680,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2680"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'd like to order the Caffe Latte from Starbucks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What location would you like to order this drink from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to have the coffee sent from the Starbucks on 201 Powell St in San Francisco, California"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds good, what size would you like your drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grande should work"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like any milk added?"
+    },
+    {
+      "speaker": "client",
+      "text": "2% milk should be fine"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like whipped cream, honey, or anything else added?"
+    },
+    {
+      "speaker": "client",
+      "text": "Some whipped cream would be great"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you have any other questions?"
+    },
+    {
+      "speaker": "client",
+      "text": "What is the calories in the drink?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "190 calories"
+    },
+    {
+      "speaker": "client",
+      "text": "What about the total fat?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "7g total fat"
+    },
+    {
+      "speaker": "client",
+      "text": "How much sugar is in the drink?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "18g of sugar"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, that should be it"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your drink is on order at Starbucks 201 Powell St and should be ready for pickup shortly"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, the receipt will be sent as a text message to your mobile device, goodbye. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caffe Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-f1d443f1-6e53-49e8-979c-35f6532859d6",
+  "created_at": "2026-02-15T15:44:17.211Z"
+}

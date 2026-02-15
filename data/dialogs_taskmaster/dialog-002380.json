@@ -1,0 +1,262 @@
+{
+  "dialog_id": 2380,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2380"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, can you order me pizzas from Dominos?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course, which location?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Dominos on Division Street please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok! How many pizzas would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need three of the same pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What type do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Pacific Veggie."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get a 13 inch?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They don't have that size, but you can get a 12 inch or a 14 inch."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh I would like a 14 inch then."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What type of crust do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hand tossed please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What sauce do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "What tomato sauces do they have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They have Robust Inspired or Heavy Marinara."
+    },
+    {
+      "speaker": "client",
+      "text": "I want Robust Inspired."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How much sauce do you want on the pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want the normal amount."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How much cheese do you want on the pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want extra please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want the halfs to be different?"
+    },
+    {
+      "speaker": "client",
+      "text": "No I want both halves to be the same thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The standard Pacific Veggie comes with onions, diced tomatoes, black olives, mushrooms, shredded provolone cheese, spinach, roasted red peppers and feta cheese. Do you want any of those to be removed?"
+    },
+    {
+      "speaker": "client",
+      "text": "No keep them all please but add garlic."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok! Do you want all of the toppings to be normal amounts? "
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please and add one side of garlic twists."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok! Your order is for 3 14 inch Pacific Veggie pizzas with one side of garlic twists is 76 dollars and 72 cents. Is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes that is great!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok! Your order has been placed and will be ready for pickup in 25 minutes. The receipt will be sent to your phone."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Dominos",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Division Street",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pacific Veggie",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "13 inch",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "12 inch",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "14 inch",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hand tossed",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tomato sauces",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Robust Inspired",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Heavy Marinara",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Heavy Marinara.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "diced tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "shredded provolone cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "spinach",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "roasted red peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "feta cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pacific Veggie pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Your order has been placed",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-9f01217b-27b9-4841-9938-983fde62b28b",
+  "created_at": "2026-02-15T15:44:17.175Z"
+}

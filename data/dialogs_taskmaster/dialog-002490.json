@@ -1,0 +1,139 @@
+{
+  "dialog_id": 2490,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2490"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like to order a Grande Mocha"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, which store would you like to visit?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm going to the one on 8th street."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, would you like anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, may I please have a tall coffee?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, would you like any sugar with that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I'd like two sugars please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any milk in that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Sure, can I have 2 milks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like lowfat, 2%, or whole milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Do you have any 1/2 and 1/2?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, I can do that. "
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. Do you have any chocolate chip cookies today?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "We are all out, but we have crumb cake."
+    },
+    {
+      "speaker": "client",
+      "text": "No, how about a brownie?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, we have those. How many would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like two of those please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, anything else for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "That will be $15. Will that go on your Starbucks gift card?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please. Here it is."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thanks, that will cover it. That will be ready in 25 minutes. You have an account with us, so a receipt will be sent to you via text message. Have a great day!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. You too!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-bc5235d4-0256-4f1f-b8dd-0c6f5c1a0679",
+  "created_at": "2026-02-15T15:44:17.189Z"
+}

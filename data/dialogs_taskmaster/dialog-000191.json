@@ -1,0 +1,196 @@
+{
+  "dialog_id": 191,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=191"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello. how can i help you today?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "hello? are you there?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, I'm here. Can you hear me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Let's get an order started from Bella Luna Pizza if you would."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure. what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "We're going to get four large pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it and what toppings did you want on those?"
+    },
+    {
+      "speaker": "client",
+      "text": "You know the first which is kind of classic cuz everybody likes that and for the second one let's get a mushroom pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "And the third one, I want a Hawaiian combo."
+    },
+    {
+      "speaker": "client",
+      "text": "And on the last one make that a sausage and bell pepper."
+    },
+    {
+      "speaker": "client",
+      "text": "Just a regular pepperoni."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. for the first, what do you mean by classic?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "thanks for clarifying. so u want 4 large pizzas, 1 pepperoni, 1 mushroom pizza, 1 hawaiian combo, and 1 sausage and bell pepper pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. Can you make sure those are thick-crust pizzas too? I want to make sure we get our money's worth."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure thing. thick crust pizza it is."
+    },
+    {
+      "speaker": "client",
+      "text": "Cool."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the total for that is $72.19."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, place the order and how long do you think that will take?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "should i place the order now?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. i've placed your order for pick up. it'll take 25 mins to be baked."
+    },
+    {
+      "speaker": "client",
+      "text": "No, I think that's all we needed today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome, take care. enjoy those thick crust pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Cool, thanks so much."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushroom pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hawaiian combo.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "And on the last one make",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hawaiian combo",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bell pepper pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick-crust pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust pizzas",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-18df8633-6c8e-4f56-b95c-8e747423d353",
+  "created_at": "2026-02-15T15:44:16.911Z"
+}

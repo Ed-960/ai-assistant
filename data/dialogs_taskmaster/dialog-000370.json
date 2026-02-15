@@ -1,0 +1,122 @@
+{
+  "dialog_id": 370,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=370"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, I need to order a pizza order from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Three small pizzas, one Cheese, one Veggie lover's, and one Pepperoni."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you are ordering 3 small pizzas, 1 Cheese, 1 Veggie lovers, 1 Pepperoni, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. And I need those to be gluten-free crust, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, i'll add that to the order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your total will be $39, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and will you be dining in, picking up, or having it delivered?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm going to pick it up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your receipt will be texted to you and your pizzas will be ready in 35 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. Nope. That's it. Thank you so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your welcome, enjoy your pizzas."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Veggie lover's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-340c0d94-0d0d-42a3-971a-d2c1be6a094a",
+  "created_at": "2026-02-15T15:44:16.931Z"
+}

@@ -1,0 +1,132 @@
+{
+  "dialog_id": 2264,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2264"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, can you get me a coffee from Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure! Which Starbucks are you planning on going to?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, I'll be going to the one on Memorial Parkway in Huntsville, Alabama. I am going to a meeting there."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing. What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a Caramel Machiatto please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I can do that. Do you want to add anything to it? It has milk, espresso, vanilla syrup and a little caramel syrup topping on the regular method."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, sounds delicious. But, I would like to have one less pump of vanilla in it, or it's a bit too sweet for me."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. Do you want it hot or cold?"
+    },
+    {
+      "speaker": "client",
+      "text": "Definitely hot. It's too cold for an iced one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. What size would you like? They have short, Tall, Grande and Venti?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's go with a Grande. I need a big boost of caffeine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, do you need it soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would like to have it ready in 20 minutes please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. Anything else, a roll or croissant?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thanks. But, can you make sure they add some whipped topping to it?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Absolutely!"
+    },
+    {
+      "speaker": "client",
+      "text": "How much is it?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It will be $5.65."
+    },
+    {
+      "speaker": "client",
+      "text": "Great! I'm ready for it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Well, it will be ready to pick up at Starbucks Memorial Parkway in 20 minutes!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caramel Machiatto",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "short",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-822940e7-e11b-4373-a105-a9dcfd34b292",
+  "created_at": "2026-02-15T15:44:17.163Z"
+}

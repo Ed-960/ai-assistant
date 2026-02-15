@@ -1,0 +1,149 @@
+{
+  "dialog_id": 1895,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1895"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Could you order a coffee from Starbucks for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. Which Starbucks? And what do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a large iced caramel macchiato from the Starbucks on FM78 in Converse"
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK. But the sizes are tall, grande or venti"
+    },
+    {
+      "speaker": "client",
+      "text": "Thats right, I want the venti size"
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK. Do you want it as it comes or with skim milk, coconut milk, soy milk, almond milk or the whole milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "I like the whole milk. And can you ask for extra caramel sauce and whipped cream on top?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They can add the extra caramel drizzle and whipped cream. Do you want any sugar in it or other flavors? It has the vanilla syrup in it."
+    },
+    {
+      "speaker": "client",
+      "text": "No, no extra sugar. Just the extra caramel."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Extra caramel drizzle, right? Or caramel syrup?"
+    },
+    {
+      "speaker": "client",
+      "text": "The caramel drizzle."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK. So a venti iced caramel macchiato with extra caramel drizzle and add whipped cream on top, right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. And can you tell them only a small amount of ice."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will ask for little ice. Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. That is all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It will be $5.67"
+    },
+    {
+      "speaker": "client",
+      "text": "That's fine. I want to pick it up on my way to the meeting."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I placed the order and it will be ready when you get there. Just check in once you get to the drive thru."
+    },
+    {
+      "speaker": "client",
+      "text": "OK. Whats my confirmation code?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will send the receipt and confirmation via text to your cell."
+    },
+    {
+      "speaker": "client",
+      "text": "Great! Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. Bye"
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced caramel macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall, grande or venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-265d5c92-67ee-4615-9b14-d12f2d9b5738",
+  "created_at": "2026-02-15T15:44:17.116Z"
+}

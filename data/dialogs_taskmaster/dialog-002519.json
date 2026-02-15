@@ -1,0 +1,122 @@
+{
+  "dialog_id": 2519,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2519"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I will like to order a Cappuccino"
+    },
+    {
+      "speaker": "cashier",
+      "text": "How many do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just one is fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of milk should we add?"
+    },
+    {
+      "speaker": "client",
+      "text": "Almond Milk"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any Whip?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yea, Whip is cool."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and the size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Short"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which store are you ordering for?"
+    },
+    {
+      "speaker": "client",
+      "text": "1915 Edgewater Dr Suite A, Orlando, FL 32804"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay anything else you want to add?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's it"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great your order has been sent to that location"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, great stuff."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Also sent a copy of the order to your phone."
+    },
+    {
+      "speaker": "client",
+      "text": "I got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay enjoy your beverage."
+    },
+    {
+      "speaker": "client",
+      "text": "I will, thanks again."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anytime."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Short",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-c5669439-661c-4f44-977f-734fe2a45ee9",
+  "created_at": "2026-02-15T15:44:17.193Z"
+}

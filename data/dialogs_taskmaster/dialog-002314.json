@@ -1,0 +1,122 @@
+{
+  "dialog_id": 2314,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2314"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi [ASSISTANT], could you order me coffee this morning for me to pick up?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, where would you like to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Please order from Starbucks on 35th Ave NE in Seattle."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, what would you like to drink today?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like an iced skinny cinnamon dolce latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size would you like that to be?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's go with a venti today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, a venti iced skinny cinnamon dolce latte. Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Could you make sure they use soy instead of non-fat milk please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, you'd like a venti iced skinny cinnamon dolce latte with soy milk instead of non-fat milk. Is this correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, and could I get a splash of whipped cream to top that off with?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, one venti iced skinny cinnamon dolce latte with soy milk instead of non-fat milk and add whipped cream. Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I think that would do it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you want that ready ASAP?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok I am placing the order at the Starbucks on 35th Ave NE in Seattle. Would you like a receipt?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, could you have it texted to me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order is placed at the Starbucks on 35th Ave NE available immediately and the receipt will be texted to you shortly. Can I get anything else for you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You are welcome. Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "iced skinny cinnamon dolce latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-8dfd5d14-836a-4d43-9c07-0576712fbf4c",
+  "created_at": "2026-02-15T15:44:17.168Z"
+}

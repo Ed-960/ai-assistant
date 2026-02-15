@@ -1,0 +1,143 @@
+{
+  "dialog_id": 923,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=923"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need four pizzas small."
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sorry, so you want 4 small pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Our first small pizzas that was"
+    },
+    {
+      "speaker": "client",
+      "text": "pineapple, pepperoni, mushroom"
+    },
+    {
+      "speaker": "client",
+      "text": "and thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, is that the same toppings for all 4 pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any special instructions?"
+    },
+    {
+      "speaker": "client",
+      "text": "enclosed."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so 4 small pizzas, pineapple, pepperoni and mushroom, thin crust on all 4, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. your total is $40.57."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. Goodbye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome. your pizzas will be ready for pickup at Bela Luna's soon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple, pepperoni,",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushroom",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bela Luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-7f6081f4-d1ea-46db-8d25-22dc6de50918",
+  "created_at": "2026-02-15T15:44:16.991Z"
+}

@@ -1,0 +1,137 @@
+{
+  "dialog_id": 83,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=83"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hey there. how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I want to order three small pizzas from Bella Luna for pick up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, i can get that set up for you. what kind of pizzas did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Two of them just typical, one of them cheese the other pepperoni and then for the third can I get chicken barbecue or actually half chicken barbecue and the other half pineapple and ham."
+    },
+    {
+      "speaker": "client",
+      "text": "And if available, I want all gluten-free crust for all three of them."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. let me read back your order to confirm."
+    },
+    {
+      "speaker": "client",
+      "text": "You got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "3 small pizzas, 1 cheese, 1 pepperoni, and 1 with half bbq chicken and the other half pineapple and ham. all with gluten free crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "$38.92 is the total. did you want me to submit the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i've submitted your order. it'll b ready for pick up in 25 mins."
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, that's it. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need my help with anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. take care sir."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken barbecue",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bbq chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-0a74fce2-b019-46a3-824c-80045539c042",
+  "created_at": "2026-02-15T15:44:16.898Z"
+}

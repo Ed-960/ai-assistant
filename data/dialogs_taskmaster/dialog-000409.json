@@ -1,0 +1,110 @@
+{
+  "dialog_id": 409,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=409"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi how are you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I was looking to order some coffee from Starbucks."
+    },
+    {
+      "speaker": "client",
+      "text": "From the Fort Gratiot, Michigan Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great and what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I was thinking a Caramel Cloud Macchiato."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "A grande with whole milk."
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any syrups or add ons? Like whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, with cream."
+    },
+    {
+      "speaker": "client",
+      "text": "All right."
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's a grande whole milk iced Caremel Cloud Macchiato with whipped cream from the Starbucks on 24th street in Fort Gratiot."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. That's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your drink is all set and will be ready for pickup in 15 minutes, the reciept will arrive via mobile."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome, bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caramel Cloud Macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced Caremel Cloud Macchiato",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-3a434b05-35c3-454b-aad0-a7aca199eb10",
+  "created_at": "2026-02-15T15:44:16.936Z"
+}

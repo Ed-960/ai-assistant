@@ -1,0 +1,81 @@
+{
+  "dialog_id": 909,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=909"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey, can you help me order a drink from Peet's Coffee near me on Manhattan Beach Boulevard?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what type of coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "Looking for a golden cafe latte, medium in size with coconut milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so a medium golden cafe latte with coconut milk and whipped cream, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "You got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your coffee will be ready for pickup soon at peet's on manhattan beach blvd."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks Lola, looking forward to it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome, bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "golden cafe latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-7da04410-3ee7-40af-b377-d55ad3fb52e4",
+  "created_at": "2026-02-15T15:44:16.990Z"
+}

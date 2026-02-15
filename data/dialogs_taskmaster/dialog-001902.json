@@ -1,0 +1,117 @@
+{
+  "dialog_id": 1902,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1902"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Could you please get me a Caramel Macchiato from Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes. I would be happy to do that. Which store location would you like for me to pick it up at."
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grande please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like any food with it?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What time would you like it ready?"
+    },
+    {
+      "speaker": "client",
+      "text": "As soon as possible."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I can have it ready in 15 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Are you ok with me using your Starbucks prepaid card."
+    },
+    {
+      "speaker": "client",
+      "text": "Most certainly"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like for me to leave a tip."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. $1"
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you for your help"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It is my pleasure to serve you."
+    },
+    {
+      "speaker": "client",
+      "text": "Can you tell me the hours they are open?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I certainly will."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caramel Macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-27c2f178-8c5b-4d5c-986a-111e07051832",
+  "created_at": "2026-02-15T15:44:17.117Z"
+}

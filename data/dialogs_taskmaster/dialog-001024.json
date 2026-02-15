@@ -1,0 +1,117 @@
+{
+  "dialog_id": 1024,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1024"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I was looking to order two larger pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what kind of toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Chicken bacon ranch on one, and extra pepperoni on the other."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you are ordering 2 large pizzas, one chicken bacon ranch, and one with extra pepperoni, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct, yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your total will be $48, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like pick up, delivery, or dine in?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll do pickup."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your pizzas will be ready for pickup in 30 minutes and your receipt will be texted to you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that'll be it. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your pizzas."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "larger",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Chicken bacon ranch",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken bacon ranch",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-8f6df839-2ad9-4d0b-8925-806a4b2a344d",
+  "created_at": "2026-02-15T15:44:17.001Z"
+}

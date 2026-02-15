@@ -1,0 +1,138 @@
+{
+  "dialog_id": 2443,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2443"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I need to place an order please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Certainly, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a caramel machiato."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like it hot or iced?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hot please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size would you like."
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a grande size please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would 2% milk be okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, actually, can you make it nonfat?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Nonfat milk, sure. Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "How many shots in the grande?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It has 2 shots of espresso."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, can you make it triple?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, so triple grande caramel machiato with nonfat milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which location are you picking it up at?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want one on Gallatine Pike in Madison."
+    },
+    {
+      "speaker": "cashier",
+      "text": "1907 Gallatin Pike North, Madison, Tennessee?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's the one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like it on the visa card on file?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's fine. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, your drink will be ready in 15 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You are welcome."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "caramel machiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "aramel machiato",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-b075e0c9-95b3-4f6c-97ec-6c1593d3bb20",
+  "created_at": "2026-02-15T15:44:17.183Z"
+}

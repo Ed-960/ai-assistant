@@ -1,0 +1,127 @@
+{
+  "dialog_id": 1761,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1761"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Does the starbucks near me have the skinny mocha?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Searching starbucks near you. I see one on A1A at Target, do you need directions?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thanks, can I place an order?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I can take care of that for you. What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "The skinny mocha, can I add whip cream?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course, any other customizations?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get it with 2% milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, I can place that for you. What size would you prefer? Tall, Grande, or Venti?"
+    },
+    {
+      "speaker": "client",
+      "text": "Venti please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'll go ahead and get that for you now. Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thanks, when will it be ready."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It will take 10 minutes for pick-up."
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, ordering now. I will charge your starbucks card ending in 3433."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Order placed. Your confirmation # is 45464."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you, on my way now."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Enjoy your Venti skinny mocha with 2% milk and whip cream. fLet me know if you need anything else."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you for your help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm always available for your assistance. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "skinny mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-0533de49-15a5-4b66-af26-e6294724423e",
+  "created_at": "2026-02-15T15:44:17.093Z"
+}

@@ -1,0 +1,126 @@
+{
+  "dialog_id": 844,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=844"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there."
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I'd like to get some coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of coffee would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to try the Havana Cappuccino from Peet's."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay and what size did you want to try it in?"
+    },
+    {
+      "speaker": "client",
+      "text": "The large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. So that's a large Havana Cappuccino. Did you want any syrups in it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I do a shorter vanilla? So I put it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing. And what milk did you want in it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Almond milk, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright that's an Almond milk vanilla syrup Havana Cappuccino, large sized."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's correct. Can I have some whipped cream, too?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great and what Peet's did you want to pick this up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "From the one on 29th Street in Boulder, Colorado."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. I've placed this order with the Starbucks on 29th street."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It will be ready for pickup soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a nice day."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Havana Cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-7408fd51-c667-4cb3-bc88-27fe0f86dded",
+  "created_at": "2026-02-15T15:44:16.982Z"
+}

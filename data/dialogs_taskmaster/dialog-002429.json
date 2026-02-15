@@ -1,0 +1,142 @@
+{
+  "dialog_id": 2429,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2429"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, can you please order me a Starbucks coffee drink? "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure; which Starbucks do you want me to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you order it from the one on Saw Mill Road in West Haven?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay; what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you order me their Caffe Latte?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grande, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is regular milk okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, can you change it to have nonfat milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, do you want any flavors added?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you get their new brown butter shortbread sauce added in?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, how many pumps of flavor?"
+    },
+    {
+      "speaker": "client",
+      "text": "Two pumps please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, are 2 espresso shots enough?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any other special add-ins or toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you add regular salt topping please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, anything else in the drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like to order anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thanks; just the drink."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, so I'll order a grande Caffe Latte with 2 shots espresso, nonfat milk, 2 pumps brown butter sauce, and regular salt topping. Does that sound correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds great!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I have placed the order. It will be ready shortly at the Saw Mill Road location. You will receive your receipt via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you! You're the best."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caffe Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-ab9e8429-32f6-45f6-bc30-89fa8210dc03",
+  "created_at": "2026-02-15T15:44:17.181Z"
+}

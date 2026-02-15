@@ -1,0 +1,165 @@
+{
+  "dialog_id": 46,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=46"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "How can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need to buy three pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay so that's going to be what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Should be three larges."
+    },
+    {
+      "speaker": "client",
+      "text": "three large pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what toppings would you like on them?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's get sausage and bacon on one of them. I need extra cheese on all three pizzas. So, let's get a bacon."
+    },
+    {
+      "speaker": "client",
+      "text": "What'd I say?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Let's get bacon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sausage and bacon with extra cheese for one."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. Okay. Sausage and bacon and cheese, with extra cheese for one. Let's get You guys still have the the deep dish style?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "We do."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Can I get a deep dish with extra cheese and one."
+    },
+    {
+      "speaker": "client",
+      "text": "Hawaiian pizza with extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's 3 large extra cheese pizzas with sausage and bacon, one deep dish, and one hawaiian."
+    },
+    {
+      "speaker": "client",
+      "text": "Yep."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is that everything for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your total will be $48.44."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, I've processed the order, they'll have it ready in 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "deep dish",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hawaiian",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-07443d46-d264-49ab-948a-273611129c7e",
+  "created_at": "2026-02-15T15:44:16.893Z"
+}

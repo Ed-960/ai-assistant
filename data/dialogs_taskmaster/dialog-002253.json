@@ -1,0 +1,127 @@
+{
+  "dialog_id": 2253,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2253"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, can you order me a coffee - a Caffe Americano specifically?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course, where would you like me to get it from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks please. The one around the corner."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I think there are two across the corner - which one?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one on 107 K Street and 12th avenue in Washington DC."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want any milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, just a bit of skim milk please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I add a shot of espresso please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is that all?"
+    },
+    {
+      "speaker": "client",
+      "text": "Also a bit of honey, just to sweeten it up and even out the espresso."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, got it. Anything else? Maybe whipped cream? A shot of vanilla?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that'll be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And do you want this right away or in the future."
+    },
+    {
+      "speaker": "client",
+      "text": "Right away please. I'm tired and could use this."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay I've got a Venti Americano with skim milk, a shot of espresso and a bit of honey. Does that sound right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep, that's exactly it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay just placed the order. The Venti Americano with skim milk, an extra shot of espresso and honey will be ready on the Starbucks at 12th and K in 15 minutes. They're going to send the receipt to your credit card."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks so much!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a good one."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caffe Americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "espresso",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-7fb33f58-2d8a-464f-8724-d05226d64965",
+  "created_at": "2026-02-15T15:44:17.161Z"
+}

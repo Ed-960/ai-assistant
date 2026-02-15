@@ -1,0 +1,236 @@
+{
+  "dialog_id": 488,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=488"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, I'm trying to get some pizzas tonight."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, how many pizzas would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Need four small pizzas. I need one of them to be a taco pizza, one of them to be meat lovers, one of them to be."
+    },
+    {
+      "speaker": "client",
+      "text": "Let's get the Indian pizza, and one of them to be."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sorry, we are not serving taco pizzas at the moment."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. And one of them to be."
+    },
+    {
+      "speaker": "client",
+      "text": "the Chicago style pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to substitute the topping?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. Let's go with the Chicago Chicago should be Chicago thin crust, but the other one we can do a California-style."
+    },
+    {
+      "speaker": "cashier",
+      "text": "there are no chicago pizzas with thin crust available at this time."
+    },
+    {
+      "speaker": "client",
+      "text": "I totally totally understand. How about a New York style, then?"
+    },
+    {
+      "speaker": "client",
+      "text": "with thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, can you please repeat the other topping preferences?"
+    },
+    {
+      "speaker": "client",
+      "text": "I thought you would have him down."
+    },
+    {
+      "speaker": "cashier",
+      "text": "please repeat the toppings you would like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, so I need an Indian style pizza a New York style pizza these are all small pizzas and they are all thin crust. So, an Indian style pizza, a meat lovers pizza, a New York style pizza, and a California."
+    },
+    {
+      "speaker": "cashier",
+      "text": "thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so i have 4 small pizzas, meatlovers, california style, new york style and, indian style with thin crusts."
+    },
+    {
+      "speaker": "client",
+      "text": "Yep."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any special ingredients?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, just a standard on all your orders should be fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your total will be $76.88."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be available for pickup in 57 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Mhm."
+    },
+    {
+      "speaker": "cashier",
+      "text": "thanks."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "taco pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Indian pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "taco pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Chicago style pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Chicago",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Chicago Chicago",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "California-style",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicago pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "New York style",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Indian style pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "New York style pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "California",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meatlovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "california style",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "new york style",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "indian style",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crusts",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-440051e0-f0b9-4faf-be38-0144aadb5857",
+  "created_at": "2026-02-15T15:44:16.944Z"
+}

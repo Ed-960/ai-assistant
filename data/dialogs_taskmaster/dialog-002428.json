@@ -1,0 +1,135 @@
+{
+  "dialog_id": 2428,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2428"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I would like to order a coffee drink from starbucks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which starbucks will you be ordering from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I will get it at the Oakland Starbucks on ramapo valley road"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "What do you suggest?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "That is up to you. What do you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a chai tea latte"
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like it hot or cold?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like it hot"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size "
+    },
+    {
+      "speaker": "client",
+      "text": "a tall"
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like it with whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes and cinnamon on top"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you have any coupons?"
+    },
+    {
+      "speaker": "client",
+      "text": "No"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What else would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "a birthday cake pop and a bottle of water"
+    },
+    {
+      "speaker": "cashier",
+      "text": "So I am confirming that you would like to order a tall chai latte hot with whip cream and cinnamon and a cake pop and a bottle of water?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that is all"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Confirmed. Your order will be ready for pick up at 11:15am and the cost is 9.99"
+    },
+    {
+      "speaker": "client",
+      "text": "thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "you are welcom"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "chai tea latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chai latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chai latte hot",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-ab9c5f10-41c5-4168-bc88-26c23b66763f",
+  "created_at": "2026-02-15T15:44:17.181Z"
+}

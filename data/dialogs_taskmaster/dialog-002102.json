@@ -1,0 +1,132 @@
+{
+  "dialog_id": 2102,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2102"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'd like to order a Starbucks coffee drink please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which location?"
+    },
+    {
+      "speaker": "client",
+      "text": "35 Jenners Village Court, West Grove"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What drink would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Iced Salted Caramel Mocha"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grande"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Whole milk"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Whipped cream on top?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will order a grande iced salted caramel mocha made with whole milk and topped with whipped cream. Is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your drink is on order at 35 Jenners Village Court, West Grove and will be ready for pickup shortly."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your receipt will be sent to your mobile device via text message"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Will there be anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you. Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Iced Salted Caramel Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "a",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced salted caramel mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-586f8cf4-65d8-4ae2-b1db-3b71271baab2",
+  "created_at": "2026-02-15T15:44:17.143Z"
+}

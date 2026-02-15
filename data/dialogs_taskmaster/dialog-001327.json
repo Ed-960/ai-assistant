@@ -1,0 +1,192 @@
+{
+  "dialog_id": 1327,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1327"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there! How can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm trying to order coffee from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure! did you have a location in mind?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, the Starbucks on Hollywood Boulevard closer to the Hollywood train or the Chinese Theatre."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay, one moment. let me find it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, i found a location at 6933 Hollywood Blvd."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Yeah, that's the one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great! what can i get you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to get."
+    },
+    {
+      "speaker": "client",
+      "text": "two regular coffees, one of them Venti and then one of them a Grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, what should the Venti coffee be?"
+    },
+    {
+      "speaker": "client",
+      "text": "The venti coffee should be just regular hot coffee with whole milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay, they offer light, medium and dark roast, which would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a light roast."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, one second."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay, a Venti blond coffee with a splash of whole milk."
+    },
+    {
+      "speaker": "client",
+      "text": "Correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "alright, and what about the 2nd grande drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "The grande, just don't put any milk on it. I just want it completely black, in the dark roast."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, a Grande Dark roast Coffee,"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep."
+    },
+    {
+      "speaker": "cashier",
+      "text": "no sugars, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "No sugars."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, is that gonna be all?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, one moment while i send it over to Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, your order has been sent to your desired location. It will be ready for pickup in 5-8 min."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you. You, too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're very welcome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "thanks! byebye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "two",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular coffees",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "blond coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Coffee",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-bdc72702-9ae2-44d4-bc45-5599a62382a9",
+  "created_at": "2026-02-15T15:44:17.034Z"
+}

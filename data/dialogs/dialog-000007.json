@@ -1,0 +1,75 @@
+{
+  "dialog_id": 7,
+  "client_profile": {
+    "gender": "female",
+    "age": 29,
+    "ageGroup": "adult",
+    "personality": "polite_and_respectful",
+    "lang": "ru",
+    "restrictions": {
+      "noSulphites": true
+    },
+    "childQuant": 0,
+    "companions": 1,
+    "hasPregnantWife": false,
+    "calApprValue": 2104,
+    "text": "29 лет, женщина. 1 сопровождающих. ограничения: noSulphites. целевые калории ≈2104 ккал. ",
+    "regLine": "gender=female age=29 personality=polite_and_respectful lang=ru noSulphites companions=1 calApprValue=2104"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hello! What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "McNuggets (64g) + Fries + Iced Tea"
+    },
+    {
+      "speaker": "cashier",
+      "text": "1 serving of McNuggets (64g) + 1 serving of Fries + 1 serving of Iced Tea"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Confirmation: 1 serving of McNuggets (64g) + 1 serving of Fries + 1 serving of Iced Tea"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Goodbye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cheesy Fries",
+        "quantity": 1,
+        "energy": 453.92
+      },
+      {
+        "name": "Iced Tea®",
+        "quantity": 1,
+        "energy": 242.52
+      }
+    ],
+    "total_energy": 696.44,
+    "allergens_in_order": [
+      "Milk"
+    ]
+  },
+  "total_energy": 696.44,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": true,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "created_at": "2026-02-15T16:51:55.268Z"
+}

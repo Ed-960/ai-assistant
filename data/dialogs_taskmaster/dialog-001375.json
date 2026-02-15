@@ -1,0 +1,101 @@
+{
+  "dialog_id": 1375,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1375"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'm trying to order a coffee for pickup."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of coffee would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want one from the Starbucks on West Temple."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what kind of coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "I was looking at the black and white mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. what kind of coffee would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a black a venti black and white mocha with whole milk and whipped cream."
+    },
+    {
+      "speaker": "client",
+      "text": "Hello?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "so a venti black and white mocha, whole milk and whipped cream, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "where would you like to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to pick it up at the location on 3300 South in Salt Lake City."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your coffee will be ready for pickup soon at the starbucks 3300 south."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you very much. Bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome, bye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "black and white mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-c63c218c-f9ae-4ddc-99b0-7048852948c4",
+  "created_at": "2026-02-15T15:44:17.040Z"
+}

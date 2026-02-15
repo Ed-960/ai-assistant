@@ -1,0 +1,77 @@
+{
+  "dialog_id": 520,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=520"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I I'd like to order a medium chestnut praline frappuccino blended creme."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, which store would you like to pick up your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to pick it up at 4609 Queens Boulevard."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. what kind of milk would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just your regular whole milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "regular whole milk. Done."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order will be ready for pick up in 20 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright, thank you so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "thank you!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chestnut praline frappuccino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-49d4f891-a98e-4710-92f9-4619b5fe04f1",
+  "created_at": "2026-02-15T15:44:16.947Z"
+}

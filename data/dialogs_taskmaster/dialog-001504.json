@@ -1,0 +1,106 @@
+{
+  "dialog_id": 1504,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1504"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to order coffee for pickup at my local Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. what kind of coffee would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Like a grande caffè mocha with 2% milk and whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you say a grande cafe mocha, 2% milk and whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. where would you like to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "2849 East New York Avenue, Aurora, IL 60502."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is the starbucks store located at 28th 49 east new york avenue?"
+    },
+    {
+      "speaker": "client",
+      "text": "Correct?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "all set! your coffee will be ready for pick up soon!"
+    },
+    {
+      "speaker": "client",
+      "text": "Excellent, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome. your receipt will be sent to you via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye!"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caffè mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cafe mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-da190e21-2d7a-4963-b539-4be5d3896188",
+  "created_at": "2026-02-15T15:44:17.053Z"
+}

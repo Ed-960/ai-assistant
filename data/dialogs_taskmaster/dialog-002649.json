@@ -1,0 +1,132 @@
+{
+  "dialog_id": 2649,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2649"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Can you please go pick me up a drink from Starbucks, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, what type of drink would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm not sure, do you have any suggestions or recommendations?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Are you currently in the mood for something cold or hot?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a cold beverage."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want a coffee based drink or something else, like tea?"
+    },
+    {
+      "speaker": "client",
+      "text": "Definitely coffee. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like the drink to be sweet?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like something a little bit sweet, but not overly so. Are there drinks similar to that?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The iced mochas tend to be a bit sweet, but the iced cordusio is similar but is more bittersweet."
+    },
+    {
+      "speaker": "client",
+      "text": "That sounds good. Does it have a lot of caffeine?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It has a bit more than a mocha, as it has an extra shot of espresso. Is that what you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that sounds great. What type of milk does it have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It has whole milk, but you can change that if you would like."
+    },
+    {
+      "speaker": "client",
+      "text": "Whole milk is fine, let's stick with that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size would you like me to order for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a grande size."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like anything else? They have food items on their menu as well."
+    },
+    {
+      "speaker": "client",
+      "text": "No thank you, I just want the beverage."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I will go pick it up for you now. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "The iced mochas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "the iced cordusio",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-e81be897-0373-46f9-a13c-03840232c815",
+  "created_at": "2026-02-15T15:44:17.207Z"
+}

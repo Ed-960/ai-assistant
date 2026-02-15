@@ -1,0 +1,127 @@
+{
+  "dialog_id": 34,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=34"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I order some Starbucks in Dallas?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a Cinnamon Shortbread Latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sorry, i don't see that on the starbucks menu. did you want another drink instead?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, give me an Ice Vanilla Latte instead then."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "tall."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and did you want whole milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, give me 2%."
+    },
+    {
+      "speaker": "cashier",
+      "text": "to confirm, you want to order 1 tall iced vanilla latte with 2% milk from the Starbucks in Dallas, Texas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. Can I get whipped cream on it, as well?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, i've added whipped cream to the order."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the total is $3.45. it'll b ready for pick up in 15 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's all I needed."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, take care."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cinnamon Shortbread Latte.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Ice Vanilla Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced vanilla latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-0543454d-9b1a-43bb-9788-ace895ca9b00",
+  "created_at": "2026-02-15T15:44:16.892Z"
+}

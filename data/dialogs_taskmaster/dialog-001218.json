@@ -1,0 +1,147 @@
+{
+  "dialog_id": 1218,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1218"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'd like to order a a caramel makachiko."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hello! How may I help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "i'm sorry."
+    },
+    {
+      "speaker": "client",
+      "text": "a cappuccino."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can you repeat."
+    },
+    {
+      "speaker": "cashier",
+      "text": "that."
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like a cappuccino. tall."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Whole milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any sweetener or syrup?"
+    },
+    {
+      "speaker": "client",
+      "text": "And with Yeah, I'd like to have some chocolate sprinkles with chocolate syrup, extra chocolate syrup. I like my chocolate."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sounds good."
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like On California Street. That'd be nice."
+    },
+    {
+      "speaker": "cashier",
+      "text": "which starbucks location?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it."
+    },
+    {
+      "speaker": "client",
+      "text": "Can you give me the cost of it, please? Yeah. Oh, that's cheap. Okay, thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you want a tall cappucino whole milk chocolate sprinkles and extra chocolate syrup."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the cost will be $3.69."
+    },
+    {
+      "speaker": "cashier",
+      "text": "to be picked up at california street."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the order is set."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your order will be ready soon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "good bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "caramel makachiko",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cappucino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-acdca5e3-3a6e-46d4-b21e-fa05339e8e91",
+  "created_at": "2026-02-15T15:44:17.023Z"
+}

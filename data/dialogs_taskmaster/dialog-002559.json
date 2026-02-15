@@ -1,0 +1,226 @@
+{
+  "dialog_id": 2559,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2559"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey Rebecca, it looks like this meeting is going to last until dinner time. Could you please order about 3 pizzas from Capri's?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes ma'am. Do you want this to be delivered or do you want me to send someone to pick it up."
+    },
+    {
+      "speaker": "client",
+      "text": "Actually, I want it to be picked up so that we can eat it while it's hot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "That will be fine. Do you want me to order the usual combination or a previous order?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I actually want to change it up a bit. The first pizza you know is always a Lg Cheese Only, cut in squares"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Were you wanting to make the next two a vegetarian and pepperoni pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, actually, I want to have a LG cheese and ground sirloin. Could you make sure it's ground sirloin and not ground beef?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes ma'am. What about the last pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "I just may have to order a 4th one. How about let's do a Med Vegetarian pizza, a Med Meat Lovers and why not a Med Pepperoni Pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So you're wanting 6 pizzas all together?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's correct. I need them all to be cut in squares."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, no problem. It looks like they have a special going on with all pizzas are $10 any size."
+    },
+    {
+      "speaker": "client",
+      "text": "That's wonderful. Just make sure that we can have the pizzas picked up in time for dinner at 6:00 p.m."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. So, let me confirm, I have 1 Large Cheese Pizza, 1 Large Cheese & Ground Sirloin, 1 Medium Vegetarian, 1 Medium Pepperoni and 1 Median Meat Lovers."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes that is correct and it looks like there's only 5 all together."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes ma'am you are correct. I'll have them put it on our corporate account."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh Rebecca, make sure that you let them know specifically to slice the pizza in squares."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have that in the special instructions. Is there anything else you need to add to the pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "No, that will be fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So your order will be ready for pickup in 25 minutes or less which you can track on their app."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok Perfect, I'll send someone from the meeting to go pick them up when they are done."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Capri's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Lg",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "vegetarian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "LG",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese and ground sirloin",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ground sirloin",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "not ground beef",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Med",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Vegetarian pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Meat Lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pepperoni Pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cheese Pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cheese & Ground Sirloin",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Ground Sirloin",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Vegetarian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Median",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-d01f7708-30ef-46ea-99e3-61f75ed5874d",
+  "created_at": "2026-02-15T15:44:17.197Z"
+}

@@ -1,0 +1,162 @@
+{
+  "dialog_id": 1961,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1961"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello Kenneth."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hey how is everything today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Great. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "What can I help you with?"
+    },
+    {
+      "speaker": "client",
+      "text": "I have a headache."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ouch. "
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. I need some coffee asap."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay how about I bring you some. "
+    },
+    {
+      "speaker": "client",
+      "text": "No. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. would you like Peets or Starbucks?"
+    },
+    {
+      "speaker": "client",
+      "text": "Come on which one do you think. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay Starbucks. "
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright what would you like. "
+    },
+    {
+      "speaker": "client",
+      "text": "Let's go with the Caramel latte, I want 4 shots in that, and let's get a Cappucino."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright anything else. "
+    },
+    {
+      "speaker": "client",
+      "text": "No that is it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Where would you like me to order this from. "
+    },
+    {
+      "speaker": "client",
+      "text": "The nearest starbucks near work on 3rd street."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. "
+    },
+    {
+      "speaker": "client",
+      "text": "Can you put double shots in the Cappuccino as well."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Will do. "
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else. "
+    },
+    {
+      "speaker": "client",
+      "text": "No that is all. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order will be ready for you soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. What name did you put it under. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yours. "
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Detail will be sent to your phone. Have a good day. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caramel latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cappucino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cappuccino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-349757bd-fb1e-4f4a-b631-2bfca85156d2",
+  "created_at": "2026-02-15T15:44:17.125Z"
+}

@@ -1,0 +1,130 @@
+{
+  "dialog_id": 391,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=391"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there, how are you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm okay. I could use a cup of coffee that shake the cobwebs out though."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing and where did you want to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I wanted to get it from Peet's in Los Gatos."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. can I have a cross street?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let me think. I think It's I thinks it's on Blossom Hill and I'm not sure of the cross street."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ah found it."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, cool. Yeah, I just didn't know. It's kind of nearer a few other food places but."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. and what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to get a sugar-free vanilla latte. Can you make it a a medium?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what kind of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want that with skimmed milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any add ons or syrups?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, no other syrups or anything. Just Just the sugar-free vanilla latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So I have a skim sugar free vanilla latte, sized medium from the Peets on Blossum HIll in los gatos."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "client",
+      "text": "You're a life saver."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, you're all set, the order will be ready for pickup in 15 minutes and you'll get your reciept via mobile."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Happy to help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You take care and drive safe now."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. Yeah."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "vanilla latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "No, no other syrups or anyth",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-381b07c4-2a03-4776-b3b5-cc209008125b",
+  "created_at": "2026-02-15T15:44:16.934Z"
+}

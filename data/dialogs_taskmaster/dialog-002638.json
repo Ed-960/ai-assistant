@@ -1,0 +1,122 @@
+{
+  "dialog_id": 2638,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2638"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, can you give me a hand ordering dinner for my party tonight."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, no problem. What were you thinking?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm going to keep it simple. Order some pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, sounds good. From where do you want me to order them?"
+    },
+    {
+      "speaker": "client",
+      "text": "Go ahead and order them from Federici's."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. How many?"
+    },
+    {
+      "speaker": "client",
+      "text": "Order 4 please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "4? Are you sure that will be enough."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. 4 should be good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, any toppings."
+    },
+    {
+      "speaker": "client",
+      "text": "Lets keep two of them plain and the other 2 pepperoni."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. What time do you want me to have them delivered."
+    },
+    {
+      "speaker": "client",
+      "text": "6 o'clock."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, so 4 pizzas, 2 plain and 2 pepperoni."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And delivered at 6, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, and have them put it on my account."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, will do."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Federici's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "plain",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-e553c5a5-13e4-42b3-9074-1c82d00be056",
+  "created_at": "2026-02-15T15:44:17.206Z"
+}

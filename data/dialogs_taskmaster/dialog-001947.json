@@ -1,0 +1,235 @@
+{
+  "dialog_id": 1947,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1947"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello Javier, I was wondering if you could place an order for me at Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, what area will you be in?"
+    },
+    {
+      "speaker": "client",
+      "text": "I will be in the Fort Lauderdale, Florida area."
+    },
+    {
+      "speaker": "cashier",
+      "text": "There is a location in Lauderdale By the Sea, 4854 N Federal Hwy Fort Lauderdale, FL"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you, and what is the telephone number?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "954-689-6646"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you, what types of beverages can I expect to find there?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, they have lattes, tea, chai style lattes, citrus defenders, lemonades, infusions, cold foam brews, regular coffee, iced coffee, and espressos."
+    },
+    {
+      "speaker": "client",
+      "text": "Some of my coworkers are dairy free. Can you tell me the different types of milk they offer?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They have 5 kinds: almond, non-fat, coconut, whole milk, 2% and Soy."
+    },
+    {
+      "speaker": "client",
+      "text": "I like to add flavor to my coffee. Is there a way to do that?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, they offer a variety of flavored syrups including: vanilla (available sugar-free) caramel (available sugar-free) cinnamon dolce (available sugar-free) hazelnut (available sugar-free) toffee nut. peppermint (available sugar-free seasonally), classic, and hazelnut. They have sugar free and lower fat options."
+    },
+    {
+      "speaker": "client",
+      "text": "Wow, that is awesome. I wonder if I can mix a few."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You can customize any way you like."
+    },
+    {
+      "speaker": "client",
+      "text": "What sizes are offered?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The sizes for drinks are short, tall, grande, venti, and treinta; grande being the medium size. There are 16 oz in a grande size drink at Starbucks."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, I would like 1 venti Pike place roast coffee, 1 hezelnut sweet cream cold brew, 1 venti regular brew with whipped cream, 1 venti frappuccino, and 2 espressos with vanilla."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds good, is there anything else I can assist you with?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that is all. Thank you for your time and help with all of this. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, so your order will be ready shortly at the Lauderdale By the Sea Starbucks Location. Your confirmation and receipt will be sent to you via text so please keep your phone handy."
+    },
+    {
+      "speaker": "client",
+      "text": "Will do. Thank you and talk to you soon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, happy to help. Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "lattes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tea",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chai style lattes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "citrus defender",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "citrus defenders",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "lemonades",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "infusions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cold foam brews",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular coffee,",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "espressos",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "short",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "treinta",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pike place roast coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sweet cream cold brew",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular brew",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "frappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "2",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-316f1438-b781-4655-94ce-c05e28d186e3",
+  "created_at": "2026-02-15T15:44:17.123Z"
+}

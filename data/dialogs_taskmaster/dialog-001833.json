@@ -1,0 +1,167 @@
+{
+  "dialog_id": 1833,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1833"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "can you order me a large pizza from empire slice house?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of pizza would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "can you order me a extra large notorious pig?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "so that is one extra large notorious pig. anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "yes, i also want to order some garlic knots."
+    },
+    {
+      "speaker": "cashier",
+      "text": "how many would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "can i have two orders?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. so i have two orders of garlic knots?"
+    },
+    {
+      "speaker": "client",
+      "text": "yes, what kind of drinks do you have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "we only have coke, sprite, dr pepper, and mountain dew."
+    },
+    {
+      "speaker": "client",
+      "text": "what size do they come in?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "we only have the 2 liter."
+    },
+    {
+      "speaker": "client",
+      "text": "and its how much?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "its a dollar fifty."
+    },
+    {
+      "speaker": "client",
+      "text": "i see. can i have a coke and a sprite."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, so i have one coke and one sprite."
+    },
+    {
+      "speaker": "client",
+      "text": "yes, can i also have an order of the giant meatballs?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sorry, were all out of the meatballs."
+    },
+    {
+      "speaker": "client",
+      "text": "i see. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "im really sorry."
+    },
+    {
+      "speaker": "client",
+      "text": "no worries. i almost forgot, how many garlic knots come in an order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you get 20 per order."
+    },
+    {
+      "speaker": "client",
+      "text": "great. i guess that will be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so you have an extra large notorious pig, one coke, one sprite, and one garlic knots."
+    },
+    {
+      "speaker": "client",
+      "text": "yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. the total comes to thirty eight fifty. a receipt will be sent to your mobile phone."
+    },
+    {
+      "speaker": "client",
+      "text": "thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. the order is complete and will be ready in 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "great. thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "no problem. have a nice day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "empire slice house",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "notorious pig",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-14b2ee84-4a61-4b1a-9678-d70393b8f2d6",
+  "created_at": "2026-02-15T15:44:17.106Z"
+}

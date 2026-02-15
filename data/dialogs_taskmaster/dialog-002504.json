@@ -1,0 +1,155 @@
+{
+  "dialog_id": 2504,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2504"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I would like to get a Caramel Frapp."
+    },
+    {
+      "speaker": "cashier",
+      "text": "1 Caramel Frapp, which coffee shop is this from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks on Airport"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Venti"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of milk do you want? "
+    },
+    {
+      "speaker": "client",
+      "text": "Whole milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want extra caramel this time?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, not this time. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do yo want whip topping?"
+    },
+    {
+      "speaker": "client",
+      "text": "No whip."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Starbucks on Airport, 1 venti Caramel Frapp no whip. Is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want anything else? A cookie or pastery."
+    },
+    {
+      "speaker": "client",
+      "text": "No, just the drink."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You can get chocolate shavings on your frapps now."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh that sound good, yes add those to the drink."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope that is it, make sure to order you one as well."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order has been confirmed by the Starbucks on Airport and is being made."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You should receive the receipt by text messages."
+    },
+    {
+      "speaker": "client",
+      "text": "Just received it!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else I can do for you at the moment?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that is it, have a pleasant lunch."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you, you too. Goodbye"
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caramel Frapp",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "frapps",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-c0c94845-5cbc-4a39-910d-f5e4b6d95022",
+  "created_at": "2026-02-15T15:44:17.191Z"
+}

@@ -1,0 +1,77 @@
+{
+  "dialog_id": 1707,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1707"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, can I get a tall iced caramel macchiato with whole milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, which location would you like to pick up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Starbucks on Route 40 in Columbia, Maryland."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you are ordering a tall iced caramel macchiato with whole milk to be picked up at the starbucks on route 40, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. That is all for me. Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, your drink will be ready in 6 minutes and your receipt will be texted to you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy your coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caramel macchiato",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-fbd93289-e5ed-4106-9e7b-f9122357f767",
+  "created_at": "2026-02-15T15:44:17.084Z"
+}

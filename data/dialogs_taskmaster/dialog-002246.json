@@ -1,0 +1,117 @@
+{
+  "dialog_id": 2246,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2246"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like a coffee, please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're in the right place, this IS Starbuck's after all."
+    },
+    {
+      "speaker": "client",
+      "text": "Right? I'd like vanilla sweet cream cold brew, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "how about a venti, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like any customizations?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would like a shot of half-and-half and extra sweet cream, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, would you like to get something to eat today?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, just the coffee, thanks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what is the name on the order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Stephanie"
+    },
+    {
+      "speaker": "cashier",
+      "text": "We will call you when it comes up, ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, great. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "That will be $4.81, please"
+    },
+    {
+      "speaker": "client",
+      "text": "ok, can I pay with my Starbucks gold card?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "of course! "
+    },
+    {
+      "speaker": "client",
+      "text": "excellent ( hands over card)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you are all set. They will call you up when your drink is ready"
+    },
+    {
+      "speaker": "client",
+      "text": "thanks! have a great day"
+    },
+    {
+      "speaker": "cashier",
+      "text": "thanks, you, too. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "vanilla sweet cream cold brew",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-7dabdcbb-c032-4b18-bedc-7cea5c4323a8",
+  "created_at": "2026-02-15T15:44:17.160Z"
+}

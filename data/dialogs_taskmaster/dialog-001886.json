@@ -1,0 +1,172 @@
+{
+  "dialog_id": 1886,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1886"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey John, i need you to order a few pizzas for our meeting today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok do you know where you want it from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Use Grimaldi's downtown. They have our account information so just tell them where you're from."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's order three large pizzas. One of them will be meatballs and pepperoni. The second, i want canadian bacon and pineapple. For the last one, can you see what their veggie option is?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes, i will ask them when i call. Are you ok with me ordering whatever they have for the veggie option?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's fine, just no onions."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds good. What time do you want the pizzas delivered?"
+    },
+    {
+      "speaker": "client",
+      "text": "The meeting is at 1, so let's do 12:45. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. do you want me to add anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Go ahead and add some appetizers. Just see what their best sellers are and add enough for 10 people."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok sounds good. I'll make the call right now. Let me know if you want to add anything else."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks, John.Let me know when you get everything confirmed."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I just finished calling them. They are out of pineapple because they had a problem with their supplier this week."
+    },
+    {
+      "speaker": "client",
+      "text": "uh oh."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want to keep the canadian bacon or change the pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's do canadian bacon and green peppers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. everything else was fine in the order."
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds great. See if they can throw in a dessert."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes ma'am. I called in the order and it will be ready for pick up in 25 minutes."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Grimaldi's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grimaldi's downtown",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meatballs",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meatballs and pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "canadian bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "canadian bacon and pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "no onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "appetizers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "green peppers",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-249c6007-4e6e-4fa0-8ab3-a67aefa9e23d",
+  "created_at": "2026-02-15T15:44:17.114Z"
+}

@@ -1,0 +1,182 @@
+{
+  "dialog_id": 2007,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2007"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello Google, I am craving pizza from Ziggy's"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which location would you like to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to order from the East side location."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like to place your order now or at a later time?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to order now."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to start with 6 BBQ wings?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like a dipping sauce?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, Ranch dressing."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would also like one white delight pizza and a BBQ chicken pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size pizza do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like for both to be on the regular 9x13\" crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want anything to drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want any dessert?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want to add anything else to the order."
+    },
+    {
+      "speaker": "client",
+      "text": "No, the chicken wings and two pizzas are all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like to pick up the order or have it delivered?"
+    },
+    {
+      "speaker": "client",
+      "text": "I will pick up the order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Your order is a 6 piece order of BBQ chicken wings with ranch sauce, a white delight pizza and BBQ chicken pizza. Does this look correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes this is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The order will be charged to the card on your account."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order will be ready for pick up in 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is there anything else that I can help you with today."
+    },
+    {
+      "speaker": "client",
+      "text": "No, that it everything."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Ziggy's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "East side location",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "white delight pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "BBQ chicken pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "BBQ chicken pizza.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular 9x13",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "9x13",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-40594548-5011-40d7-b025-3007ab68b2ea",
+  "created_at": "2026-02-15T15:44:17.132Z"
+}

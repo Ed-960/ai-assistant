@@ -1,0 +1,152 @@
+{
+  "dialog_id": 1894,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1894"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi I am feeling hungry"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I wanna get a pizza"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just pineapple"
+    },
+    {
+      "speaker": "cashier",
+      "text": "any other toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "No"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They have the freshest tomatoes"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, I will add them"
+    },
+    {
+      "speaker": "cashier",
+      "text": "so pineapple and tomato?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes and a large"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what place would you like to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Ray's pizza on Grand Avenue"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I am sending the order"
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It has been confirmed and you can get it in 25 minutes"
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Bye"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "freshest tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple and tomato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tomato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Ray's pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grand Avenue",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "It has been confirmed",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-263f989f-4452-4f46-926b-b984b4f3c7de",
+  "created_at": "2026-02-15T15:44:17.115Z"
+}

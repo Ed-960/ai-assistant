@@ -1,0 +1,147 @@
+{
+  "dialog_id": 719,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=719"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order a coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, from where."
+    },
+    {
+      "speaker": "client",
+      "text": " Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. which starbucks should i place the order at?"
+    },
+    {
+      "speaker": "client",
+      "text": "Franklin Square Franklin Square."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. and what did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "macchiato."
+    },
+    {
+      "speaker": "client",
+      "text": "large large macchiato."
+    },
+    {
+      "speaker": "client",
+      "text": "grande macchiato."
+    },
+    {
+      "speaker": "cashier",
+      "text": "grande and large are different. which did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "grande."
+    },
+    {
+      "speaker": "client",
+      "text": "Steamed."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of milk do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Whole milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sorry, they have whole, 2%, almond, soy, and nonfat. what did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. i have you down for 1 grande macchiato with whole milk from the starbucks on franklin square."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, the total is $4.50."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you want to place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, it'll b ready in 15 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you need anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-6428eb39-a511-494c-a332-e273931fb6c0",
+  "created_at": "2026-02-15T15:44:16.969Z"
+}

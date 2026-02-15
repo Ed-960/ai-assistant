@@ -1,0 +1,178 @@
+{
+  "dialog_id": 969,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=969"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "what would you like to do today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I would like to order three medium pizzas from De La Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok so thats 3 medium pizza is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what toppings do you want on your pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want one pepperoni pizza, one pineapple pizza, and one meat lovers pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok one second please."
+    },
+    {
+      "speaker": "client",
+      "text": "Sure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "could you repeat you order please?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want one pepperoni pizza, one pineapple pizza, and one meat lover's pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, so thats 1 pepperoni, 1 pineapple and 1 meat lovers pizza right?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct. I also want thick crust on all of them."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok so that will be 1 pepperoni, 1 pineapple and 1 meat lovers pizza with thick crust is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok one second while i get your total for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so 3 medium pizza, 1 pepperoni, 1 pineapple and 1 meat lovers pizza with thick crust is comes to 60 dollars."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "wonderful, ur pizza has been ordered at local Bella Luna and will be ready for pick up shortly."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you ned anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that is all. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "have a nice day."
+    },
+    {
+      "speaker": "client",
+      "text": "You, too. Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "De La Luna.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers pizza.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lover's pizza.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-879c980b-d604-4374-9bf2-41b0b8e1cca9",
+  "created_at": "2026-02-15T15:44:16.996Z"
+}

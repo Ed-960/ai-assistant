@@ -1,0 +1,127 @@
+{
+  "dialog_id": 72,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=72"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi."
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like to order a coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of coffee would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to get the try, the iced sugar-free mocha from Peet's."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Large, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what type of milk do you prefer?"
+    },
+    {
+      "speaker": "client",
+      "text": "(s) Can I get that with the Oman milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like whipped cream as well?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. Leave the whipped cream off."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so a large iced sugar free mocha with almond milk, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can they do a shot of."
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct. Can you Can you do a shot of vanilla in that, also."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, i'll add a shot of vanilla to the order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "where are you picking it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's see. I'm in San Francisco. I'm going to be near the location on Brannan Street."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your coffee will be ready for pickup soon at the peet's store on brannon street."
+    },
+    {
+      "speaker": "client",
+      "text": "All right, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome, bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "iced sugar-free mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced sugar free mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-095c8ec4-d05e-4937-ae2f-f4a1bae24954",
+  "created_at": "2026-02-15T15:44:16.897Z"
+}

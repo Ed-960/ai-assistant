@@ -1,0 +1,180 @@
+{
+  "dialog_id": 1612,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1612"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'd like to order four pizzas, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, from where?"
+    },
+    {
+      "speaker": "client",
+      "text": "from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size would you like your pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "Large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what toppings would you like for your pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "pepperoni and sausage."
+    },
+    {
+      "speaker": "cashier",
+      "text": "for all 4?"
+    },
+    {
+      "speaker": "client",
+      "text": "for all three."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you only wanted 3 pizzas or 4?"
+    },
+    {
+      "speaker": "client",
+      "text": "I wanted three pizzas, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, you are ordering 3 large pepperoni and sausage pizzas, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your total will be $72, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. I would like a special instruction like they should be gluten-free crusts."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, bella luna's charges an additional $1 for gluten free crust bringing your total to $75, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like pick up, delivery, or dine in?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like a delivery, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, please note that your total does not include tip."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. That will be fine. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be delivered within 50 minutes and your receipt will be texted to you."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. Thanks very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, not at all. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your pizzas."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni and sausage pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free crusts.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-ec0ab937-85c3-41aa-8a56-0bd549da1a05",
+  "created_at": "2026-02-15T15:44:17.065Z"
+}

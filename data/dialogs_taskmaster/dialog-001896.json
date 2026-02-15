@@ -1,0 +1,157 @@
+{
+  "dialog_id": 1896,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1896"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I would like to order something from Bosses Pizza can you put in an order for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure I can just let me know what you want and where I need to order like the location."
+    },
+    {
+      "speaker": "client",
+      "text": "Fort Worth 76108 and I will look at the menu real quick."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay take your time no problem."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay is the Bosses on 6059 Lake Worth Blvd, Fort Worth, TX 76135 okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds good"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a small thin crust pizza, with black olives and pepperoni only."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay"
+    },
+    {
+      "speaker": "client",
+      "text": "Have them add extra cheese to please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay no problem."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay putting in the order now."
+    },
+    {
+      "speaker": "client",
+      "text": "Great thanks so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Will you be using paypal or credit card?"
+    },
+    {
+      "speaker": "client",
+      "text": "Credit Card please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay submitted and it's under your name for pick up in about 25 mins."
+    },
+    {
+      "speaker": "client",
+      "text": "That's perfect, thank you so much for your help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem have a great night !!!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bosses Pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Fort Worth 76108",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bosses",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "6059 Lake Worth Blvd, Fort Worth, TX 76135",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-26619f30-a704-430d-bc2c-d6ed88aaad5e",
+  "created_at": "2026-02-15T15:44:17.116Z"
+}

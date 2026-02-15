@@ -1,0 +1,194 @@
+{
+  "dialog_id": 263,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=263"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I think I was wanting to go and try this new pizza place called Bella Luna's. Can you tell me what kind of things they offer on their menu?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, they have several specialty pizzas as well as build your own pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Can you name them all for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, they have the meat lovers, veggie lovers, supreme and hawaiian pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Do they sell anything besides pizza?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "they also have sides such as breadsticks and wings."
+    },
+    {
+      "speaker": "client",
+      "text": "Do they offer anything to drink like 2 L?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes, they also sell soda."
+    },
+    {
+      "speaker": "client",
+      "text": "All right, well thank you. There's been a lot of help. Well let's take what I'm looking for. I think I'm going to order four small pizzas. Now I want these four small pizzas, I want three of them to be meat lover pizzas. And then, I think I'll take one veggie lover also. And, I would want the crust on these pizzas to be thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, and sides or drinks?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. I think I'll pass on them."
+    },
+    {
+      "speaker": "client",
+      "text": "Will just take the four pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Four smalls."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, so you are ordering 4 small thin crust pizzas, 3 meat lovers and 1 veggie lovers."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, ma'am."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your total will be $52, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "will you be picking up, having it delivered or dining in?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll take whatever is delivered."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, please note that your total does not include tip."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be delivered in 40 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and your receipt will be texted to you."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright."
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy your pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "I will. You have a good day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "meat lovers, veggie",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "supreme",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hawaiian pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lover pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lover",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "3 meat lovers",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-23dbfd20-337e-452b-9a41-4bc938e7c0a6",
+  "created_at": "2026-02-15T15:44:16.919Z"
+}

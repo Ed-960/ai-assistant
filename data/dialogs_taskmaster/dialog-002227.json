@@ -1,0 +1,117 @@
+{
+  "dialog_id": 2227,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2227"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, can you order a coffee for me at Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing, from which Starbucks?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one on 1600 Kennedy, in Tampa"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, what would you like to get?"
+    },
+    {
+      "speaker": "client",
+      "text": "I was thinking about golden latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, in what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Large"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like it hot or iced?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hot surely."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of milk would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Do they have anything besides regular and soy?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, they also have coconut and almond milk."
+    },
+    {
+      "speaker": "client",
+      "text": "Let's try coconut this time."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, do you want sugar or honey."
+    },
+    {
+      "speaker": "client",
+      "text": "Honey would be great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, anything else you want to add?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, this would be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I've placed your order at the Starbucks on Kennedy St, it will be ready withing 15 min, and the receipt will be texted to you, anything else I can help you with?"
+    },
+    {
+      "speaker": "client",
+      "text": "Not now, thank you for your help, bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You are welcome, bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "golden latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-77862eba-94fe-430a-9b8a-5a7a62588a6d",
+  "created_at": "2026-02-15T15:44:17.158Z"
+}

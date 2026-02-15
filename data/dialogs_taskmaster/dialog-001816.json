@@ -1,0 +1,172 @@
+{
+  "dialog_id": 1816,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1816"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, can you order a couple Pizzas for lunch?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, where would you like it from?"
+    },
+    {
+      "speaker": "client",
+      "text": "How about Little Caesars?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Really?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nah, just kidding, can you order it from Franks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, there's 2 locations, do you know which one?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nah, it doesn't matter, wherever you're closer too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok."
+    },
+    {
+      "speaker": "client",
+      "text": "You can pick it up right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yea, what are you looking for?"
+    },
+    {
+      "speaker": "client",
+      "text": "Well, I was in the mood for some Pepperoni on one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, what are you looking for on the 2nd."
+    },
+    {
+      "speaker": "client",
+      "text": "Well, what do you recommend?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Well if you're going to order from there, I recommend a Buffalo Chicken."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, sounds interesting."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yea, the best part is it comes with a home-made Ranch dressing."
+    },
+    {
+      "speaker": "client",
+      "text": "Really, sounds good to me. Pick up one of those too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, what time do you want me to bring it over?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you do an hour and a half, I have some work to do first."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yea sure can."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Wait one last question..."
+    },
+    {
+      "speaker": "client",
+      "text": "Yea, what is it?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size do you want."
+    },
+    {
+      "speaker": "client",
+      "text": "Well it will be for a couple clients, so can they do larges?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yea, I think their 10 cuts, but their big."
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds, good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'll see you in a bit, bye!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks again, see you later!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "See ya!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Little Caesars",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Franks",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Buffalo Chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "larges",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-1081b6ca-df03-4edf-807f-bae8f0f5559d",
+  "created_at": "2026-02-15T15:44:17.104Z"
+}

@@ -1,0 +1,108 @@
+{
+  "dialog_id": 1724,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1724"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how may i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I would like to order a medium hot coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, where do you want to place this order at?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want Peet's Coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. and did you want any cream or milk in your hot coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get soy milk and honey?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "i've written that down. anything else for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Honda gear."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome. so to confirm, you would like a medium hot coffee with soy milk and honey from peet's."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what peet's did you want me to place this order at?"
+    },
+    {
+      "speaker": "client",
+      "text": "It's at 62-66 Charles Street, Boston."
+    },
+    {
+      "speaker": "cashier",
+      "text": "cool, let me order it for you... before i do."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The total will be $3.40."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that alright?"
+    },
+    {
+      "speaker": "client",
+      "text": "Fine, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, the order has been placed."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "it'll be ready in 5 minutes."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-fe7be02b-ac26-46bc-aab1-09aaeb14b64e",
+  "created_at": "2026-02-15T15:44:17.087Z"
+}

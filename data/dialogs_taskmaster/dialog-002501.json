@@ -1,0 +1,149 @@
+{
+  "dialog_id": 2501,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2501"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, can you order me that coffee drink I always get from Starbucks? I forget what it's called."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing, did you want the Iced Latte or the Cold Brew?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's go with the Iced Latte, wanting some flavor today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, did you want the 3 or 4 shots of espresso?"
+    },
+    {
+      "speaker": "client",
+      "text": "Go with 4, I need the extra shot today. What kind of sugar-free syrups do they have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They've got caramel, vanilla, and cinnamon."
+    },
+    {
+      "speaker": "client",
+      "text": "Let's go with caramel."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, and you want the grande or venti?"
+    },
+    {
+      "speaker": "client",
+      "text": "Venti please. Can you order it from the Starbucks on Clinton Avenue, they have the pick up counter."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I can, your info is saved and you have a free drink because of the stars program."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome, anyway you can add a tip now? $1 if possible."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No I can't, if you don't have cash just say you'll tip next time, they should probably do something about that."
+    },
+    {
+      "speaker": "client",
+      "text": "For sure. It's not fair at all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want any sandwiches or cookies or anything?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thanks, just the coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay cool, what kind of creamer do you want? You usually get the almond milk."
+    },
+    {
+      "speaker": "client",
+      "text": "Do they have skim there too?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They do, skim, whole, fat-free, and almond milk."
+    },
+    {
+      "speaker": "client",
+      "text": "Let's go almond milk actually."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing, so I've got the venti iced latte with an extra shot of espresso and sugar free caramel and almond milk."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect, I'll be there in five minutes so go ahead and send the order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Will do, the coffee has been ordered and it'll be ready in a few minutes at the pick up counter."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Iced Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cold Brew",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-bf371cf8-15aa-4c46-b767-af4fa67dff6a",
+  "created_at": "2026-02-15T15:44:17.191Z"
+}

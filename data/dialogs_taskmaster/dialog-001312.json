@@ -1,0 +1,199 @@
+{
+  "dialog_id": 1312,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1312"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey, yeah. I wanted to get some pizzas. Can you help me make an order from Bella Luna?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "i sure can."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what did you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's get four medium gluten free crust pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, and for the toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "First one is going to be pepperoni and olive, black olives, the second one I want Greek olives and sausage. The third one, let's get that with mushroom and bell pepper and for the last one, just make that one double cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. i wrote down 4 medium gluten free crust pizzas, 1 with pepperoni and black olives, 1 with greek olives and sausage, 1 with mushroom and bell peppers, and 1 with double cheese."
+    },
+    {
+      "speaker": "client",
+      "text": "You have it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "$55.55 is the total."
+    },
+    {
+      "speaker": "client",
+      "text": "Yowza. Yeah, go ahead and put that in. How long do you think it'll take?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "should i place the order now?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "once i place the order, they average 35 mins."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i've placed the order. do you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I don't think so. I think that car is it. Oh actually, can you make sure that they have extra napkins ready for us?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "i'll include that in the order notes."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright. Great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I think we're set."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, enjoy those pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "I will."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "four medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "olive",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Greek olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushroom",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bell pepper",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "double cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "4 medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni and black olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "greek olives and sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "with mushroom and bell peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "with double cheese",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-bbed418f-6359-4088-b1b8-15dfb35befbc",
+  "created_at": "2026-02-15T15:44:17.033Z"
+}

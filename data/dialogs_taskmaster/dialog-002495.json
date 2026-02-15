@@ -1,0 +1,122 @@
+{
+  "dialog_id": 2495,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2495"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi Anna, can you please stop and get me a Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing. Which store would you like me to go to?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one off of 10th and 47th in Greeley will be just fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Could I please have a grande caffe latte, with almond milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hot, or cold?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hot, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing. Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope that should do it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I'm on my way now."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem!"
+    },
+    {
+      "speaker": "client",
+      "text": "Were you able to get the order?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes ma'am, the order has been sent, waiting for pickup."
+    },
+    {
+      "speaker": "client",
+      "text": "Great! Let me know when you're on your way back."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Will do."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "On my way back, your grande caffe latte with almond milk in hand!"
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect! See you soon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "See you soon."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande caffe latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caffe latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-bcc15479-98c2-43dd-a941-054bb978d889",
+  "created_at": "2026-02-15T15:44:17.190Z"
+}

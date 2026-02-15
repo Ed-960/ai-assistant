@@ -1,0 +1,84 @@
+{
+  "dialog_id": 55,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=55"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "How can I be of assistance?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let me get four small pizzas, Meat Lovers, with nacho cheese, small."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay so that's 4 small pizzas all meatlovers with extra cheese right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great that will be $40.43."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your Pizza Will be ready in 30 minutes, enjoy!"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Meat Lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "nacho cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meatlovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-07f37883-dce0-4e5b-8aac-c066de0d5548",
+  "created_at": "2026-02-15T15:44:16.894Z"
+}

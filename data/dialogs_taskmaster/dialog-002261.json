@@ -1,0 +1,165 @@
+{
+  "dialog_id": 2261,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2261"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I need a pizza ordered from papa johns for pick up"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what would you like me to order for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll take a supreme pizza but without the sausage"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size pizza do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll take a large"
+    },
+    {
+      "speaker": "cashier",
+      "text": "traditional crust or something else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just the traditional crust is fine"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want it well done or just cooked normally?"
+    },
+    {
+      "speaker": "client",
+      "text": "Cooked normally"
+    },
+    {
+      "speaker": "cashier",
+      "text": "And you need to have this ready as soon as possible?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay what location did you want to pick it up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The papa johns on Horizon ridge in Henderson, nv"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, I'll go ahead and place that order for you let me make sure I have it right, large supreme with no sausage, traditional crust, normal bake?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's correct"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything sides or drinks?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, just the pizza thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, the order has been placed and will be ready for pick up in about twenty five minutes"
+    },
+    {
+      "speaker": "client",
+      "text": "Great! Thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I sent the receipt to your phone"
+    },
+    {
+      "speaker": "client",
+      "text": "thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "papa johns",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "supreme pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "without the sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "traditional crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "The papa johns",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Horizon ridge in Henderson, nv",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "supreme",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "no sausage",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-81b8b6c8-8bb6-4277-a4ea-20323c86741a",
+  "created_at": "2026-02-15T15:44:17.162Z"
+}

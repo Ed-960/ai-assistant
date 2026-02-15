@@ -1,0 +1,125 @@
+{
+  "dialog_id": 2225,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2225"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, I want you to call the Starbucks located on Main Street in New York City."
+    },
+    {
+      "speaker": "cashier",
+      "text": "That works, what type of drinks do you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to order a Caffè Latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size do you want and other details for your Caffè Latte?"
+    },
+    {
+      "speaker": "client",
+      "text": "Make it grande size and nonfat milk with no whipped cream because I don't like it. Also, add some honey and a straw."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will put that down right now and call to make the order."
+    },
+    {
+      "speaker": "client",
+      "text": "Can you check if they provide any cup holders?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They do provide a cup holder that you can put it next to your cup holder."
+    },
+    {
+      "speaker": "client",
+      "text": "That's great, please tell them to provide me a cup holder."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is there anything else you would like me to include?"
+    },
+    {
+      "speaker": "client",
+      "text": "Tell them to include some napkins along with some extra honey bags."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will tell them to include those two requests."
+    },
+    {
+      "speaker": "client",
+      "text": "How long do you think I will have to wait?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Let me know check because I am making the order right now."
+    },
+    {
+      "speaker": "client",
+      "text": "That is fine, just keep me updated because I am not too far from the Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I think they should have your drink soon."
+    },
+    {
+      "speaker": "client",
+      "text": "That sounds good, I hope so."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you not worry, it will be done in a timely manner."
+    },
+    {
+      "speaker": "client",
+      "text": "That is what I want to hear, good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Already, your Caffè Latte drink is ordered and it will shortly be ready for pick up on Main Street in New York City. Also a receipt will be sent to your mobile device via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you for all of your help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "My pleasure."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caffè Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-773c428b-f05f-4c95-8418-3253dffd851f",
+  "created_at": "2026-02-15T15:44:17.158Z"
+}

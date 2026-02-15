@@ -1,0 +1,137 @@
+{
+  "dialog_id": 2325,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2325"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like to order a pizza from Antonio's, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, happy to help. What would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "A chicken pesto pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, what size would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "A large, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, great. Would you like to place an order for delivery or pickup?"
+    },
+    {
+      "speaker": "client",
+      "text": "I can come pick it up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, great. Can I help you with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get it with a gluten free crust?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm sorry, this location doesn't have gluten free crust available."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, that's too bad. Can I add olives to the pizza?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, that's not a problem."
+    },
+    {
+      "speaker": "client",
+      "text": "Great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, to confirm, you'd like to order a large chicken pesto pizza with olives."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. I've placed the order for you."
+    },
+    {
+      "speaker": "client",
+      "text": "What is my total?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your total comes to $22.50."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order will be ready for pickup in 25 minutes."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Antonio's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken pesto pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "I've placed the order for you",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-907d9302-1ef2-41c5-a7ef-556b636e34c4",
+  "created_at": "2026-02-15T15:44:17.169Z"
+}

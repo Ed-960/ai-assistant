@@ -1,0 +1,307 @@
+{
+  "dialog_id": 1071,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1071"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there, what Can I do for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hello, I would like to order a few pizzas from Bella Luna, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure! What would you like!"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to order one one pizza but with just with chorizo and onions."
+    },
+    {
+      "speaker": "client",
+      "text": "I would like another pizza with chicken barbecue and onion."
+    },
+    {
+      "speaker": "client",
+      "text": "The third pizza, I would like the third pizza to be with pepperoni, onions, mushrooms, and olives."
+    },
+    {
+      "speaker": "client",
+      "text": "Sorry, can I change my order?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure!"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you please delete that order, sorry? I 'd like to order instead of four pizzas, I would like to order three pizzas instead."
+    },
+    {
+      "speaker": "cashier",
+      "text": "NO problem!"
+    },
+    {
+      "speaker": "client",
+      "text": "I want my one pizza to be chicken barbecue with onions."
+    },
+    {
+      "speaker": "client",
+      "text": "I want my second pizza to be to have pepperoni, onions, and olives. And I would like the third pizza to be a white pizza with white sauce, mozzarella cheese, and focaccia cheese. And I would like the three pizzas to be gluten-free crust if that's possible, and medium."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay! Sure! Let me make sure all those toppings are available."
+    },
+    {
+      "speaker": "client",
+      "text": "Sure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The 3rd pizza you'd asked for seems to have a type of cheese that Bella Luna does not offer."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. I'll just have it with just mozzarella cheese, then."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay! let me write that down."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright let me state those pizzas back to you one by one."
+    },
+    {
+      "speaker": "client",
+      "text": "Sure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You'd like 3 Medium Pizzas on Gluten free crust. the first one is a Chicken BBQ with onion."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "and another pizza with Pepperoni, onion and olives"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay , great!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The last pizza will be a simple Cheese pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! thanks so much for confirming."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, no problem."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Let me send those three orders to Bella Luna."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The total for you order will be $28.99."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "Can I charge it on my credit card?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, we will charge it to the card on file. Give me just one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order has been sent to Bella Luna."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect. How long would it take?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It should be ready for pickup in 25 min."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, prefect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is that all for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that would be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, thank you so much!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "have a great day!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you so Thanks. You, too. Bye-bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chorizo",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken barbecue and",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onion",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken barbecue",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "white pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "white sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mozzarella cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "focaccia cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Chicken BBQ",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "simple Cheese pizza",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-984fd1f4-2728-4b91-be4b-c7370dfebc64",
+  "created_at": "2026-02-15T15:44:17.006Z"
+}

@@ -1,0 +1,114 @@
+{
+  "dialog_id": 718,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=718"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to order Cafe AMericano Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "triple."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "how about whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so a triple cafe americano with whipped cream, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "where would you like to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "28103 Tomball Parkway, Tomball, Texas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sorry, can you please repeat that address?"
+    },
+    {
+      "speaker": "client",
+      "text": "28103 Tomball Parkway, Tomball, Texas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your coffee will be ready for pickup soon at the starbucks at 28103 tumball parkway."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome. your receipt will be sent to you via text. bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cafe AMericano Starbucks",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "triple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cafe americano",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-63e98056-42bd-44be-b1be-f2e550dd5089",
+  "created_at": "2026-02-15T15:44:16.969Z"
+}

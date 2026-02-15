@@ -1,0 +1,202 @@
+{
+  "dialog_id": 1526,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1526"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi There! How can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. Could you help me with ordering from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure I can!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a Cinnamon Dolce Latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds delightful!"
+    },
+    {
+      "speaker": "client",
+      "text": "It is."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size would you like!"
+    },
+    {
+      "speaker": "client",
+      "text": "Could I have a Venti?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Venti! Got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And is this iced or hot?"
+    },
+    {
+      "speaker": "client",
+      "text": "A hot, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hot, perfect!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you have a preference on milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, whole milk, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Certainly."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Let me make sure I got this all correctly."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You'd like a Venti Cinnamon Dolce Latte with Whole milk.\n"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great thank you! Let me get the order started for you!"
+    },
+    {
+      "speaker": "client",
+      "text": "I appreciate it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "With your Latte, would you like to add whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No whip, not a problem!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, I've got it all down."
+    },
+    {
+      "speaker": "client",
+      "text": "Great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Can you confirm the location."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Could you please put the order in at the Starbucks on Limekiln Pike in Dresher, Pennsylvania?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Most certainly!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I've ordered your Venti beverage."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect. Thank you so much for your help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It will be ready for pickup in 5-7 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "At your selected location."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! that is all for you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, thank you so much for your help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great day!"
+    },
+    {
+      "speaker": "client",
+      "text": "You, too."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cinnamon Dolce Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-de1bb419-df5e-4125-b605-0f73b4174eca",
+  "created_at": "2026-02-15T15:44:17.056Z"
+}

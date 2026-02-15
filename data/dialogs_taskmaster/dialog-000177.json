@@ -1,0 +1,38 @@
+{
+  "dialog_id": 177,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=177"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how may i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "hello."
+    },
+    {
+      "speaker": "cashier",
+      "text": "how may i help you?"
+    }
+  ],
+  "final_order": {
+    "items": [],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-17716da2-25c9-46ee-b658-6cf69fd746db",
+  "created_at": "2026-02-15T15:44:16.910Z"
+}

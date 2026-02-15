@@ -1,0 +1,232 @@
+{
+  "dialog_id": 1189,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1189"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there! How can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I'd like to order some coffee at Peet's."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "WHat can I get you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a medium iced white chocolate mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sounds delicious!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What type of milk would you like with your drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I go with soy milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "certainly!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like to add whip cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to add any sweeteners or syrups?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I think the whipped cream will be sweet enough."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, not a problem!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "And just to confirm, Is this for the location on 1st street?"
+    },
+    {
+      "speaker": "client",
+      "text": "Is that What town?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "San Francisco, CA."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Yes. Okay, I can make the first street."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay! great! thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, and one more question."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is this hot or cold?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh yes, hot, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it! Hot Mocha."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, can you read that order back to me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes one moment!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I got a medium white Mocha with soy milk and whip cream."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, the white one! Yes, that is supposed to iced. I'm sorry."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh no problem!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "let me change that!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "So now I got a medium iced white Mocha with soy milk and whip cream."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, and I'll be picking that up on 1st Street in San Francisco."
+    },
+    {
+      "speaker": "client",
+      "text": "What's my total?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! one moment!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "let me submit your order and verify the total."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your total will be $5.89 after tax."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, I will pick that up in 10 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! It should be ready for pickup within 6-8 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Very good. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You have a great day!"
+    },
+    {
+      "speaker": "client",
+      "text": "Me, too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Bye bye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "white chocolate mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "white Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "white Mocha with",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-a80f758f-5b8e-4195-9a19-8297e512d157",
+  "created_at": "2026-02-15T15:44:17.019Z"
+}

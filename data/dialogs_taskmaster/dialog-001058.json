@@ -1,0 +1,89 @@
+{
+  "dialog_id": 1058,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1058"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi how can I help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "That's South Trian right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. And what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you mean the starbucks blonde black and white mocha?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ah I\"ve found it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else for you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, I've placed your order. it'll be ready in 15 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great day."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "blonde",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black and white mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-962ef1c4-dcdb-4cad-8fe5-37cbae126b25",
+  "created_at": "2026-02-15T15:44:17.005Z"
+}

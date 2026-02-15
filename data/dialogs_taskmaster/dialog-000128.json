@@ -1,0 +1,149 @@
+{
+  "dialog_id": 128,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=128"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi!"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey, I'd like to order a caramel brulee latte venti size."
+    },
+    {
+      "speaker": "cashier",
+      "text": "how can i help you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Did you get my order?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sorry, it looks like caramel brulees are seasonal drinks and are not currently being offered."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you want another drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, hang on a sec. I'd like a"
+    },
+    {
+      "speaker": "client",
+      "text": "Cafe americano, then."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Al dente, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and did you want milk in that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, whole milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you put some caramel syrup in there?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, so you want a venti cafe americano with whole milk and add caramel syrup."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Absolutely. You have it right. And I want to pick it up at 4th and Vine in Cincinnati, downtown Cincinnati."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. i'll place the order at starbucks on 4th and vine now."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. I'll pick it up in a few minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the drink will be ready in 10 mins. do you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, take care."
+    },
+    {
+      "speaker": "client",
+      "text": "You too, thanks a lot."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "caramel brulee latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caramel brulees",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cafe americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "dente",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cafe americano",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-118c97dd-2080-45fa-90f7-8301cb53e6ba",
+  "created_at": "2026-02-15T15:44:16.904Z"
+}

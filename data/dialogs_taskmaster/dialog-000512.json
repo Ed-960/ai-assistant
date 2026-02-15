@@ -1,0 +1,360 @@
+{
+  "dialog_id": 512,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=512"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there how can I help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi there how can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to order a pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "I want to order a pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay how many pizzas?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay how many pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "three pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "three pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what size?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "medium size."
+    },
+    {
+      "speaker": "client",
+      "text": "medium size."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of pizzas do you want?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of pizzas do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "a chicken barbecue."
+    },
+    {
+      "speaker": "client",
+      "text": "a chicken barbecue."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay so that's 3 medium chicken bbq pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay so that's 3 medium chicken bbq pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need 10 Crest."
+    },
+    {
+      "speaker": "client",
+      "text": "I need thin Crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. with the thin crust that will be $33.77 okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. with the thin crust that will be $33.77 okay."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. it'll be ready for pickup in 30 minutes and you'll get your receipt via mobile."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. it'll be ready for pickup in 30 minutes and you'll get your receipt via mobile."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you very much. Have a nice day."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you very much. Have a nice day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you too, bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you too, bye."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay so that's 3 medium chicken bbq pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay so that's 3 medium chicken bbq pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay so that's 3 medium chicken bbq pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay so that's 3 medium chicken bbq pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need 10 Crest."
+    },
+    {
+      "speaker": "client",
+      "text": "I need thin Crust."
+    },
+    {
+      "speaker": "client",
+      "text": "I need 10 Crest."
+    },
+    {
+      "speaker": "client",
+      "text": "I need thin Crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. with the thin crust that will be $33.77 okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. with the thin crust that will be $33.77 okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. with the thin crust that will be $33.77 okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. with the thin crust that will be $33.77 okay."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. it'll be ready for pickup in 30 minutes and you'll get your receipt via mobile."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. it'll be ready for pickup in 30 minutes and you'll get your receipt via mobile."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. it'll be ready for pickup in 30 minutes and you'll get your receipt via mobile."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. it'll be ready for pickup in 30 minutes and you'll get your receipt via mobile."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you very much. Have a nice day."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you very much. Have a nice day."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you very much. Have a nice day."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you very much. Have a nice day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you too, bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you too, bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you too, bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you too, bye."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "anythi",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "I need",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "u too, bye.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "e.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken bbq pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "10 Crest",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin Crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-47f64bcb-cd1c-47e8-9116-7f998ff5ff47",
+  "created_at": "2026-02-15T15:44:16.946Z"
+}

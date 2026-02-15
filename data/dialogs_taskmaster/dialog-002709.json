@@ -1,0 +1,117 @@
+{
+  "dialog_id": 2709,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2709"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I want to order a coffee from starbucks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay what city?"
+    },
+    {
+      "speaker": "client",
+      "text": "Statesville"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing are you referring to 722 Sullivan Rd, Statesville, NC 28677?"
+    },
+    {
+      "speaker": "client",
+      "text": "No"
+    },
+    {
+      "speaker": "cashier",
+      "text": "1501 E Broad St, Statesville, NC 28625?"
+    },
+    {
+      "speaker": "client",
+      "text": "Thats the one"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok what is your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a grande cappuchino"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing any extras with that?"
+    },
+    {
+      "speaker": "client",
+      "text": "No just the coffee please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok and regular milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "No almond"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright is there anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No that's all"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order will be ready soon"
+    },
+    {
+      "speaker": "client",
+      "text": "Great when will I know?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will send you a message when your order is ready for pickup"
+    },
+    {
+      "speaker": "client",
+      "text": "Good thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cappuchino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-fad4da9c-09f3-4015-a2d0-cecce6d724e3",
+  "created_at": "2026-02-15T15:44:17.214Z"
+}

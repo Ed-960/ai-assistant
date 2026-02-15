@@ -1,0 +1,122 @@
+{
+  "dialog_id": 2128,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2128"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I would like to order a coffee drink from starbucks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Excellent. Which starbucks would you like to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "starbucks in ontario in the pacific plaza"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size would you like your drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "grande"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what coffee would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "caffe americano"
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to add extra shot of espresso?"
+    },
+    {
+      "speaker": "client",
+      "text": "yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "How many shots of espresso?"
+    },
+    {
+      "speaker": "client",
+      "text": "one"
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to add sugar?"
+    },
+    {
+      "speaker": "client",
+      "text": "no"
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to add milk to your coffee? If so what kind?"
+    },
+    {
+      "speaker": "client",
+      "text": "no milk"
+    },
+    {
+      "speaker": "cashier",
+      "text": "is your order complete?"
+    },
+    {
+      "speaker": "client",
+      "text": "yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order will be ready for pickup at the starbucks in ontario pacific plaza. Your receipt will be sent through text."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a good day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caffe americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-5fcfde30-55ac-442b-8b10-2b25bcbc07f1",
+  "created_at": "2026-02-15T15:44:17.146Z"
+}

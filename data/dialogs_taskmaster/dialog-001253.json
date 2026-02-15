@@ -1,0 +1,106 @@
+{
+  "dialog_id": 1253,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1253"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi how can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like to order pizzas from Bella Luna Pizzeria. Can you help me out, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure thing, what kind of pizza did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I told her two pizzas. Are both of them medium and extra cheese? One pizza can I get meat lovers and the second pizza can I get veggie lovers pizza?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it, anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's about it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's 2 mediums with extra cheese, one meat lovers and the other veggie lovers which totals out to $42.99."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great your pizza will be ready for pickup in 30 minutes and you'll get the receipt via text."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much for your help, I appreciate it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "no problem, have a good day, bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna Pizzeria",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mediums",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-b0c7c6ea-5070-42bf-97b5-b1b1b967d562",
+  "created_at": "2026-02-15T15:44:17.027Z"
+}

@@ -1,0 +1,134 @@
+{
+  "dialog_id": 1470,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1470"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello, yes. I would like to order a pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure thing. Where from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and how many did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "all three mediums."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. What did you want on them?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let me get a chicken feather cheese and a pepperoni."
+    },
+    {
+      "speaker": "cashier",
+      "text": "are these on all three or each individually?"
+    },
+    {
+      "speaker": "client",
+      "text": "all three."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. Can I get extra cheese on all of them?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "So I have 3 mediums with chicken, feta cheese and pepperoni, and all with extra cheese."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, ma'am."
+    },
+    {
+      "speaker": "cashier",
+      "text": "that totals out to $56.40 okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, it'll be ready for pickup in 30 minutes, good luck and enjoy!"
+    },
+    {
+      "speaker": "client",
+      "text": "All right, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mediums",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "feather cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "feta cheese",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-d41232df-7c4d-4525-8a93-ea5fa369c8ed",
+  "created_at": "2026-02-15T15:44:17.050Z"
+}

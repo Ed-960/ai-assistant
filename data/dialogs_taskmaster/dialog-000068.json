@@ -1,0 +1,145 @@
+{
+  "dialog_id": 68,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=68"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, hi. I want to place a pickup order from Bella Luna Pizzeria."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, how many pizzas would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm going to get three small pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get two of the vegie lovers and one of them extra thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you want thin crust on both?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, just on the extra tees on."
+    },
+    {
+      "speaker": "cashier",
+      "text": "are there more special instructions?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's it. So, that's two veggie lovers and then one thin crust extra cheese small pie."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so i have 3 small pizzas, 2 veggie lovers with thick crust. and the other is extra cheese with thin crust. correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "You got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great! your total is $35."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome. When will it be ready?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're all set. your pizzas will be ready for pickup soon at bela luna's."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks a lot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're very welcome! bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna Pizzeria",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "vegie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra tees",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small pie",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-08ba7efe-3409-48b0-bc42-bf289a259eac",
+  "created_at": "2026-02-15T15:44:16.896Z"
+}

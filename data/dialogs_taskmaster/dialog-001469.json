@@ -1,0 +1,160 @@
+{
+  "dialog_id": 1469,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1469"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey. Can you get some pizza orders going from Bella Luna?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, how many pizzas would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm going to need three medium pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what are the toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "The first one, I want anchovy and mushroom."
+    },
+    {
+      "speaker": "client",
+      "text": "The second one I want tomato and feta and make the last one a veggie lovers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what type of crust would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want thin crust for those."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so i have: 3 medium thin crust pizzas. one with anchovies and mushrooms, the second with tomato and feta cheese and the third is a veggie lovers, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. You got it right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. The total is $38."
+    },
+    {
+      "speaker": "client",
+      "text": "Okey done."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be ready for pickup at bella luna's in 40 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. That's It's great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy, byebye."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "anchovy",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushroom",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tomato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "feta",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "anchovies",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "feta cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-d3ac2033-88ff-42c7-b08a-b82b5b23eb55",
+  "created_at": "2026-02-15T15:44:17.050Z"
+}

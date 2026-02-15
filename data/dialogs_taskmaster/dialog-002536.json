@@ -1,0 +1,126 @@
+{
+  "dialog_id": 2536,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2536"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello, can you place an order with Starbucks on First street for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, will you be ordering your usual?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I think I will order the Java Chip today"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh, Ok, whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thanks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want me to charge your card on file?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Will you be picking this up or do you want me to?"
+    },
+    {
+      "speaker": "client",
+      "text": "I will stop by to pick it up"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, I placed the order. It will be ready at the Starbucks on First street in just about ten minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will place the order to the Starbucks on First street, it is on the way. Oh, do you want me to have them switch up any ingredients?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, just a small regular Java Chip will work."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, I have placed the order, I should be there to pick it up shortly"
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, anything else? "
+    },
+    {
+      "speaker": "client",
+      "text": "No, I don't think so, just a receipt sent to my phone please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "That confirmation and receipt is on its way now"
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome"
+    },
+    {
+      "speaker": "client",
+      "text": "Bye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Java Chip",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular Java Chip",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-c9b436db-794a-42e5-b9d8-04f7ad865309",
+  "created_at": "2026-02-15T15:44:17.195Z"
+}

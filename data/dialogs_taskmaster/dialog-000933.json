@@ -1,0 +1,114 @@
+{
+  "dialog_id": 933,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=933"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hey there, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like to play."
+    },
+    {
+      "speaker": "client",
+      "text": "Hello. I'd like to place a Starbucks pickup order, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure. what would you like to order from Starbucks?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get a Venti cappuccino with 2% milk, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "you got it. and did you want any sweetener or syrups in that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get three Splendas, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any thing else."
+    },
+    {
+      "speaker": "client",
+      "text": "No, that'll be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. so you want 1 venti cappuccino with 2% milk and 3 splendas, is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "should i place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "plays."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, your drink has been ordered. It will be ready for pick up in 10 minutes at the Starbucks on california street."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your receipt will be sent to your mobile device via text message. Enjoy!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you, kindly."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-815d5dba-4eb1-4f3b-a2f8-944b3c1cdd79",
+  "created_at": "2026-02-15T15:44:16.992Z"
+}

@@ -1,0 +1,177 @@
+{
+  "dialog_id": 1233,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1233"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "HI there, what can I do for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, I'd like to order three medium pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, what would you like on them?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm looking for something with a lot of meat. Do they have any meat type meat lovers type of pizza?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, they have a pizza called \"heart attack\" that has all softs of meat on it."
+    },
+    {
+      "speaker": "client",
+      "text": "No, wow. Yeah, okay, three pizzas of the same kind, please. Make sure it has extra cheese as well."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure! Extra cheese added."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. All right, perfect. Can you place the order for me, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes, one moment please."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like to opt for thin or thick crust for the pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "Give a thick crust, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "certainly."
+    },
+    {
+      "speaker": "cashier",
+      "text": "3 Medium thick crust heart attack Pizzas with extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "let me get you the total."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The total for those will be $52.11."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Place the order, please."
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "certainly, Just one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, all done. Your order has been sent to Bella Luna."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The order should be ready for pickup in 25 min."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're very welcome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great day!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "\"heart attack",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "heart attack Pizzas",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-ae9bc01e-1506-4a6d-a960-305583514464",
+  "created_at": "2026-02-15T15:44:17.024Z"
+}

@@ -1,0 +1,156 @@
+{
+  "dialog_id": 126,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=126"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there, what would you like to do today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I would like to order some pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "order some pizza, sure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "where do you want to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Bella Luna, ok i can do that for you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How many pizza would you like to order today?"
+    },
+    {
+      "speaker": "client",
+      "text": "three."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what size will your pizza be?"
+    },
+    {
+      "speaker": "client",
+      "text": "medium."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your choice of toppings? and any other special instruction?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want one with just cheese, one with pepperoni and olives and one with extra cheese and I want them all to be on a gluten-free crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok."
+    },
+    {
+      "speaker": "cashier",
+      "text": "1 with cheese only, 1 with pepperoni and olives, 1 with extra cheese all with gluten free crust is that your order."
+    },
+    {
+      "speaker": "client",
+      "text": "Yep."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, 3 medium pizzas your total comes to 57 dollars, shall we go ahead and make the order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, go ahead and order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "wonderful, your pizza are on order at the local Bella Luna pizzeria, and will be ready for pickup in 30 min."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, that'll do it. Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, have a good day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-115357e3-43ce-464c-81ce-aec8737eff47",
+  "created_at": "2026-02-15T15:44:16.904Z"
+}

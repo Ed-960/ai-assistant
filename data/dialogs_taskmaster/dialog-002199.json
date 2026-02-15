@@ -1,0 +1,122 @@
+{
+  "dialog_id": 2199,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2199"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello Samantha, I need you to order a coffee for me."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes ma'am, which shop would you like it from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Starbucks in Villa Rica"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes ma'am, the one off of Highway 61 in Villa Rica."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. I would like a Grande Cinnamon Shortbread Frappucino."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. What type of milk would you like it to be made with?"
+    },
+    {
+      "speaker": "client",
+      "text": "What types of milk do they offer for this beverage?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It traditionally comes with whole milk, but they also offer nonfat, 2%, soy, almond, or coconut milk."
+    },
+    {
+      "speaker": "client",
+      "text": "Whole milk is fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And would you like whipped cream on top?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The whipped cream is topped with nutmeg and cinnamon, is this ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And what time would you like to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "I should be there around 9:45 AM."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok sounds perfect I am ordering it now."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome. Ok your order has been placed and will be ready for pickup at the Starbucks in Villa Rica at 9:45 AM."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome. Please call me if you need anything else."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Yes. I would like a Grande Cinn",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cinnamon Shortbread Frappucino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-6f77bfa6-3868-4278-84f7-0b8502f3d39c",
+  "created_at": "2026-02-15T15:44:17.155Z"
+}

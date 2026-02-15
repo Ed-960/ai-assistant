@@ -1,0 +1,139 @@
+{
+  "dialog_id": 1992,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1992"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I have family plans with the kids tonight and I need you to order Pizza from Pizza Hut for us."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Absolutley just let me know when you've decided on your order"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm thinking maybe a large meat lovers pan and a pepperoni lovers for the kids"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds great , do you need any sides"
+    },
+    {
+      "speaker": "client",
+      "text": "maybe some cheesy bread sticks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "let me think on it a minute"
+    },
+    {
+      "speaker": "cashier",
+      "text": "go ahead take your time"
+    },
+    {
+      "speaker": "client",
+      "text": "maybe we should add some bone out wings, probably barbecue"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Are you sure that's all you need?"
+    },
+    {
+      "speaker": "client",
+      "text": "I think that will be plenty"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will get it ordered right away"
+    },
+    {
+      "speaker": "client",
+      "text": "thank you so much"
+    },
+    {
+      "speaker": "cashier",
+      "text": "you are so welcome,"
+    },
+    {
+      "speaker": "client",
+      "text": "did they give you a time on delivery"
+    },
+    {
+      "speaker": "cashier",
+      "text": " your pizza order is complete and the pizzas will be ready for pickup in about 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "having pizza with my children is one of my favorite things"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I can imagine, its the same for me and my kids"
+    },
+    {
+      "speaker": "client",
+      "text": "you said about 25 minutes right, that's pretty fast"
+    },
+    {
+      "speaker": "cashier",
+      "text": " yes I'm about to leave now.."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you we look forward to it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "call me if you forgot or need anything else"
+    },
+    {
+      "speaker": "client",
+      "text": "I will "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Pizza Hut",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers pan",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni lovers",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-3d1953d4-cecb-48e6-9897-30d69dd2fa0b",
+  "created_at": "2026-02-15T15:44:17.131Z"
+}

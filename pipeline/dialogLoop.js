@@ -28,7 +28,9 @@ function needsMenuSearch(text) {
     return (
         t.includes("что") || t.includes("what") || t.includes("menu") ||
         t.includes("можно") || t.includes("есть") || t.includes("have") ||
-        t.includes("without") || t.includes("без") || t.includes("с")
+        t.includes("without") || t.includes("без") || t.includes("с") ||
+        t.includes("water") || t.includes("вода") || t.includes("sugar") || t.includes("сахар") ||
+        t.includes("drink") || t.includes("напиток")
     );
 }
 
@@ -53,9 +55,9 @@ export async function generateDialog(menu) {
     const history = [];
     let turnCount = 0;
 
-    // First cashier greeting (retry до 2 раз). Если есть дети — добавляем McNuggets, Fries в контекст.
-    const baseMenu = searchMenu(menu, "", profile, 30);
-    const menuContext = enrichMenuForKids(baseMenu, profile, 25);
+    // RAG: полное меню (фильтр по аллергенам). LLM ищет сам.
+    const baseMenu = searchMenu(menu, "", profile, 999);
+    const menuContext = enrichMenuForKids(baseMenu, profile, 999);
     let greeting = "";
     for (let a = 0; a < 2; a++) {
         greeting = (await cashierAgent(profile, [], { items: [] }, menuContext, true)).trim();
@@ -98,8 +100,13 @@ export async function generateDialog(menu) {
 
     async function getClientResponse() {
         for (let attempt = 0; attempt < 3; attempt++) {
-            const text = (await clientAgent(profile, history)).trim();
-            if (text && text.length >= 2) return text;
+            let text = (await clientAgent(profile, history)).trim();
+            if (!text || text.length < 2) continue;
+            const lastCashier = history.filter((h) => h.speaker === "cashier").pop()?.text || "";
+            if (lastCashier && text.length > 20 && lastCashier.includes(text.slice(0, 30))) {
+                text = profile.lang === "ru" ? "Да, всё верно. Спасибо!" : "Yes, that's right. Thanks!";
+            }
+            return text;
         }
         const lastCashier = history.filter((h) => h.speaker === "cashier").pop();
         return turnCount < 6 ? pickClientFallback(lastCashier?.text, profile, turnCount) : null;
@@ -111,12 +118,10 @@ export async function generateDialog(menu) {
         if (!clientText) break;
         history.push({ speaker: "client", text: clientText });
 
-        // RAG if needed
-        let ragContext = menuContext;
-        if (needsMenuSearch(clientText)) {
-            const searched = searchMenu(menu, clientText, profile, 25);
-            ragContext = enrichMenuForKids(searched, profile, 25);
-        }
+        // RAG: передаём полное меню — LLM ищет по запросу клиента
+        const ragContext = needsMenuSearch(clientText)
+            ? enrichMenuForKids(searchMenu(menu, clientText, profile, 999), profile, 999)
+            : enrichMenuForKids(searchMenu(menu, "", profile, 999), profile, 999);
 
         // Cashier turn (retry до 3 раз при пустом ответе)
         const orderState = { items: [] };

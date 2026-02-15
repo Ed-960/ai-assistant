@@ -1,0 +1,176 @@
+{
+  "dialog_id": 1708,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1708"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll like to make a pizza order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, how many pizzas would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Two."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure and what are the toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a meat lover's."
+    },
+    {
+      "speaker": "client",
+      "text": "all meat, pepperoni, sausage."
+    },
+    {
+      "speaker": "cashier",
+      "text": "on both pizzas or just one?"
+    },
+    {
+      "speaker": "client",
+      "text": "both."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok and what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "a medium size."
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what type of crust do you prefer?"
+    },
+    {
+      "speaker": "client",
+      "text": "gluten-free."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any other special requests?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, so your order is: 2 medium meatlover's pizza with gluten free crust, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome! your total is $45."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome. your pizzas will be ready for pickup at bella luna's soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure thing! bye bye."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "meat lover's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "all meat",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meatlover's pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-fc86da2a-573e-4558-ab43-66734e7f466d",
+  "created_at": "2026-02-15T15:44:17.084Z"
+}

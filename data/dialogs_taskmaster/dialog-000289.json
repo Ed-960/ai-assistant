@@ -1,0 +1,175 @@
+{
+  "dialog_id": 289,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=289"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need to order some pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, where would you like to order from?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, it looks like the closes pizzeria is bella luna, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's fine. I need three large pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what type of pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need a veggie. I need one veggie pizza and one meat lover and and all mushroom."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what you like any dipping sauces?"
+    },
+    {
+      "speaker": "client",
+      "text": "Now."
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to have a side of breadsticks if I could have some, if they serve it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let me add that to your order."
+    },
+    {
+      "speaker": "client",
+      "text": " How much would that be?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, any other special requests?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your total will be $72 dollars."
+    },
+    {
+      "speaker": "client",
+      "text": "How long will it take to be delivered?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "are you dining in tonight?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, it'll take 20 minutes to take."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "let me confirm your order for you."
+    },
+    {
+      "speaker": "client",
+      "text": "Confirm it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "1 large veggie, 1 large meat lovers, 1 all mushroom, and breadsticks for $72."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, correct."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much, have a great beautiful day. Okay, thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your order will be ready in 20 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy your pizza."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "bella luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lover",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushroom",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "breadsticks",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-281bad4c-89dd-4dc5-80dc-38e1a6831758",
+  "created_at": "2026-02-15T15:44:16.922Z"
+}

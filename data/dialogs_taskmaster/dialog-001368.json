@@ -1,0 +1,129 @@
+{
+  "dialog_id": 1368,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1368"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hey there, how can i help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey, I would like to order some pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let's do it. what do you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to get two medium pizzas with pepperonis, extra cheese. And how about sausage and thin crust?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want the same toppings on both pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and did you want thin crust for both pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "$26.58 is the total. did you want me to place the order for pick up?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. i've placed the order. it'll b ready in 35 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else today sir?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, awesome."
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. take care."
+    },
+    {
+      "speaker": "client",
+      "text": "Than you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperonis",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-c51afe05-94b2-452e-a705-b6f4658000b9",
+  "created_at": "2026-02-15T15:44:17.039Z"
+}

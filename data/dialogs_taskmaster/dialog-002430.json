@@ -1,0 +1,125 @@
+{
+  "dialog_id": 2430,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2430"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, can you order me a drink from Peets?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, which location do you want me to go to?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one on 220 Cook St in Lake Geneva."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, what drink do you want me to get?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a Caffe Mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, what size do want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like it in a medium."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, what type of milk should I tell them to make it with?"
+    },
+    {
+      "speaker": "client",
+      "text": "Soy milk, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, do you want whipped cream on it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please but not a lot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, I will tell them light whipped cream."
+    },
+    {
+      "speaker": "client",
+      "text": "I would like an extra shot of espresso in it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, I can make sure they do that."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks, and can you tell them to go light on the chocolate syrup?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing!"
+    },
+    {
+      "speaker": "client",
+      "text": "And, one last request is that I need the syrup to be sugar free."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, got it!"
+    },
+    {
+      "speaker": "client",
+      "text": "OK, that should be it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, your order is at the store in Lake Geneva. It will be ready for pickup soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, and the receipt will be sent to your phone through text message."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caffe Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-abbeaa33-26c0-4d88-b9ec-003f58b00137",
+  "created_at": "2026-02-15T15:44:17.181Z"
+}

@@ -1,0 +1,120 @@
+{
+  "dialog_id": 1744,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1744"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Good morning. I need you to order a coffee drink from Peets for me. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, I'm ready to jot down the kind of coffee drink you want."
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like the Golden Caffe Latte, with a touch of turmeric, honey and ginger."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Is that the coffee drink with the steamed milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that is the one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else? "
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, add any type of pastry to go along with the coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any specific flavor you want? Like Danish or Cherry?"
+    },
+    {
+      "speaker": "client",
+      "text": "Mmmm. Probably the cherry danish. That's all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. I'm going to order this online for you. I just need to verify that I have your password for online ordering. "
+    },
+    {
+      "speaker": "client",
+      "text": "Sure, everything should be the same as before."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Now, do you want to to order from the downtown Cleveland location?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, the one you ordered from before, the one on Huron Rd."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I've got it. I'm putting the order in now. Hold on."
+    },
+    {
+      "speaker": "client",
+      "text": "Sure, take your time, I'll hold"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm back. I placed your order for the hot beverage and pastry and it will be ready for you. "
+    },
+    {
+      "speaker": "client",
+      "text": "Great, did you get the total online?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, I used your account information and the total is $9.50"
+    },
+    {
+      "speaker": "client",
+      "text": "Good. I'm leaving here shortly. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Good. Your copy of the receipt should be coming to you now. "
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks again."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You are welcome. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Golden Caffe Latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-01395f75-fcaa-4ae2-8013-29e893fc84cd",
+  "created_at": "2026-02-15T15:44:17.090Z"
+}

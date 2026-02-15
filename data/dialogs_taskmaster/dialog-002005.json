@@ -1,0 +1,147 @@
+{
+  "dialog_id": 2005,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2005"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, I need to get pizza from Pisano's."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Whatcha want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like two large pizzas with mushrooms and tuna"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay let me give them a call"
+    },
+    {
+      "speaker": "client",
+      "text": "Hopefully they have the fish"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They are out of fish right now"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh no, I'll change my order"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What topping would you like instead?"
+    },
+    {
+      "speaker": "client",
+      "text": "I guess I'll go with the mushrooms and banana peppers for each of the pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay let me try that. What sizes?"
+    },
+    {
+      "speaker": "client",
+      "text": "Make one medium"
+    },
+    {
+      "speaker": "cashier",
+      "text": "And the other?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hmmm, make it large"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, do you want any sides?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, just the pizzas"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay I think this should work. For pick up?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I will get it"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, the order is processed, it will be ready in 30 minutes"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you so much for your help"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your receipt will be in your inbox on your mobile device"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Pisano's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tuna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "fish",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "right",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "banana peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-3f78c885-1de9-46c3-b21a-27a5f166bdfb",
+  "created_at": "2026-02-15T15:44:17.132Z"
+}

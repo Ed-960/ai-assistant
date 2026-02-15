@@ -1,0 +1,203 @@
+{
+  "dialog_id": 1734,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1734"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there! How can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I make an order for the pizza from that place called Bella Luna?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing! what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to get four large, pepperoni pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Can you make one of those meat combo pizza, extra meat."
+    },
+    {
+      "speaker": "client",
+      "text": "Let me repeat that again. Can you make one."
+    },
+    {
+      "speaker": "client",
+      "text": "Meat Lovers, one Veggie Lovers, one chicken barbecue, and one pepperoni?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I see, one second!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "4 large pizzas, one meat lovers, another veggie lovers, the 3rd BBQ chicken and lastly a pepperoni, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, can you make it can you make the the bunny one with a thick crust and the other one regular?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, i'll add thin crust to the pepperoni pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. Can you also add a drink, a large Coke Zero?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, is a 2 liter bottle okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you tell me this?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok."
+    },
+    {
+      "speaker": "client",
+      "text": "Can you tell me the total price, and when can I pick it up?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, the total will be $62.44."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, one moment while I send your order to Bella Luna."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, your pizzas are in the works and should be ready for pickup in 40 min."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks. Sounds good to me. Thank you. Bye-bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Bye bye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat combo pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra meat",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Meat Lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Veggie Lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken barbecue",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "BBQ chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni pizza",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-ffaf514e-bb1f-403a-b5a4-49d3ac6f5256",
+  "created_at": "2026-02-15T15:44:17.088Z"
+}

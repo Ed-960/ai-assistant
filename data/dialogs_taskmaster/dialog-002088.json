@@ -1,0 +1,132 @@
+{
+  "dialog_id": 2088,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2088"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello, can you order my my usual drink at Starbucks, the Cinnamon Dolce Latte?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Absolutely, what location are you closest to?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Starbucks in Kroger off Navarre Avenue"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I can do that now. What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "A grande please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay I have that down, any milk preference?"
+    },
+    {
+      "speaker": "client",
+      "text": "Almond milk please, and make sure there is no whip cream just the sprinkles."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, so a Grande Cinnamon Dolce Latte, Almond Milk, No Whip, just cinnamon sprinkles?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes! That is correct, I appreciate it!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I placed an order for your latte at the Starbucks in Kroger on Navarre Avenue."
+    },
+    {
+      "speaker": "client",
+      "text": "You said no whip cream right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I made sure no whip cream."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your'e welcome! "
+    },
+    {
+      "speaker": "client",
+      "text": "Did they give an ETA?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes they did, it will be ready in 10 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome you are the best!"
+    },
+    {
+      "speaker": "cashier",
+      "text": " I know! And your receipt should be sent to your email."
+    },
+    {
+      "speaker": "client",
+      "text": "I see it, thanks again!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "the Cinnamon Dolce Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cinnamon Dolce Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-56408bab-0a10-43f4-8ac8-64c3a922504d",
+  "created_at": "2026-02-15T15:44:17.142Z"
+}

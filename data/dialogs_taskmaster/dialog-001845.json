@@ -1,0 +1,173 @@
+{
+  "dialog_id": 1845,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1845"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Can you get me an order from Starbucks set to pick up on my way home?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course! Which location were you thinking?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one on S. Dobson would be good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. What would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "They have that white and black drink for the season. Can you find that one?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you mean the Black and White Mocha?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's it.. Fancy hot chocolate."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "A venti, please. And can I substitute heavy cream for milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Let me check the options for you. It looks like I can change it to Coconut, Almond, Soy, or Whole milk.. no cream on the list."
+    },
+    {
+      "speaker": "client",
+      "text": "Well, I'll go with whole milk then."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is that all?"
+    },
+    {
+      "speaker": "client",
+      "text": "What? Oh.. no, not at all. extra whip cream please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Added. Is that all?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you repeat that for a second venti, and one grande?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You want three drinks total?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, three total."
+    },
+    {
+      "speaker": "cashier",
+      "text": "All right. Two venti and one grande Black and White Mochas, with whole milk and extra whip cream. Is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "It is. When will those be ready?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Order is placed, and will be ready for pick up in 15 minutes at the Starbucks on South Dobson. I'll send the receipt to your phone."
+    },
+    {
+      "speaker": "client",
+      "text": "Excellent! My kids thank you for the surprise treat!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ah.. I hope you and they enjoy the drinks!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you! Bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "white and black drink",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Black and White Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Fancy hot chocolate",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "second",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "three",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Two",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Black and White Mochas",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-1712b42c-0c32-4e38-8a90-9536c513cc54",
+  "created_at": "2026-02-15T15:44:17.109Z"
+}

@@ -1,0 +1,82 @@
+{
+  "dialog_id": 412,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=412"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Good afternoon, how can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hello, can I order a caffè Americano from the Starbucks on 87th Street with sugar, honey, and whole milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "In Chicago."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size did you say?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's a large cafe Americano with whole milk, honey and sugar, from the Starbucks on 87th street on Chicago."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. Your order will be ready in 15 minutes and you'll get the reciept via mobile."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a good one."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "caffè Americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cafe Americano",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-3ade0a33-a28e-4878-997e-2d68fae82505",
+  "created_at": "2026-02-15T15:44:16.936Z"
+}

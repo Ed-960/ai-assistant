@@ -1,0 +1,130 @@
+{
+  "dialog_id": 2668,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2668"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi I need you to order me a coffee from starbucks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK - What location do you want me to order it from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The same one as always. God you are completely incompetent."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it - the Arena Hub Starbucks then."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes - I want a latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grande - Like always. Jesus."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want 2% milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, are you trying to kill me? I want almond milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK - So a grande latte with almond milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes - and make sure it is hot this time."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK - An extra hot grande latte with almond milk."
+    },
+    {
+      "speaker": "client",
+      "text": "No, god. I just want it regular hot. Last time it was cold. Make sure they make it correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want any flavors."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Then what flavor?"
+    },
+    {
+      "speaker": "client",
+      "text": "The same as always. You are so lucky we are related or I would fire you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I know mom reminds me. So a grande latte regular hot with almond milk."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes - Text me the details and pick up time"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok - I am calling the store now. I will text you the time it is ready."
+    },
+    {
+      "speaker": "client",
+      "text": "Good bye"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Good riddance. I mean goodbye. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-edaa7f7a-6bf6-4613-a8d9-9b660a5ee520",
+  "created_at": "2026-02-15T15:44:17.210Z"
+}

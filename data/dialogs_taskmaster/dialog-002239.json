@@ -1,0 +1,201 @@
+{
+  "dialog_id": 2239,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2239"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, could you put in an order for pickup at Humdinger's Pizza for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes of course, from which store?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one in Palmer."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, how many pizzas are you going to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to get two."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what's the first pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "Lets make it a Pepperoni Pile."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's do a large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, would you like to customize it at all?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to add salami to the pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sorry, but they don't have salami. What do you want for the second pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's a bummer, could I get the Surfin' Rancher?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes you can! What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll do a medium for this one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, and anything special about this one?"
+    },
+    {
+      "speaker": "client",
+      "text": "Could I get a gluten free crust please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes you can! Do you need any sides?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll get a side of breadsticks as well."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, and what about drinks?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thank you, I don't need any drinks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, so I've got a large pepperoni pile, and a medium gluten free surfin' rancher, with a side of breadsticks. Will that complete your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes it will, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order will be ready to pick up in about 25 minutes, and I sent the receipt to your mobile device via text!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you so much! I don't know what I'd do without you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anytime, you know i'll always be here!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Humdinger's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Humdinger's Pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Palmer",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pepperoni Pile",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "salami",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Surfin' Rancher",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni pile",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "surfin' rancher",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-7b26ec3d-7250-4513-bcb4-8260f5e72cfd",
+  "created_at": "2026-02-15T15:44:17.160Z"
+}

@@ -1,0 +1,123 @@
+{
+  "dialog_id": 1690,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1690"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Yeah, I'm I'm looking forward to getting picking up a nice cup of coffee, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "From Peet's Coffee. Peet's Coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "One moment. Let me think about that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "no problem."
+    },
+    {
+      "speaker": "client",
+      "text": "What is the most popular beverage on the Peet's menu?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "i believe the golden caffe latte is their most popular drink."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. I'll I'll go with the cafe mocha, iced, please, with soy milk."
+    },
+    {
+      "speaker": "client",
+      "text": "And I'll have that to be a large."
+    },
+    {
+      "speaker": "client",
+      "text": "with an extra shot of espresso."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, which pete's location would you like to pick up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like it to be the West Sunnyvale Shopping Center location."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you are ordering a large iced caffe mocha with soy milk and an extra shot of espresso to be picked up at the pete's on west sunnyvale shopping center, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, your drink will be ready in 5 minutes and your receipt will be texted to you."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. I'm super excited. Thank you kindly for your help today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your welcome, enjoy your coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "You're the best."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "golden caffe latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cafe mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caffe mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-f88c4225-6c38-49c2-b90d-fe97553bbad2",
+  "created_at": "2026-02-15T15:44:17.081Z"
+}

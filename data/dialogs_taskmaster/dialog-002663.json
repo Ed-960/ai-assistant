@@ -1,0 +1,140 @@
+{
+  "dialog_id": 2663,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2663"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "double chocolaty chip creme frappuccino"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What store do you wish to order from for pickup?"
+    },
+    {
+      "speaker": "client",
+      "text": "5365 State Rt 233, Westmoreland, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alrighty."
+    },
+    {
+      "speaker": "client",
+      "text": "Please make sure you order the drink without whipped cream this time."
+    },
+    {
+      "speaker": "cashier",
+      "text": "For sure, what size would you like it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Do they have venti for that drink, do you know?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes they do, ma'am."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay great! Then make it a venti iced please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okie doke. "
+    },
+    {
+      "speaker": "client",
+      "text": "Can you check online and see what milks they offer?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes. They have almond, coconut, nonfat, whole, 2%, and soy."
+    },
+    {
+      "speaker": "client",
+      "text": "Almond for sure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright. Online they state that there may be some allergen contamination, but they have nothing that states things that may affect you."
+    },
+    {
+      "speaker": "client",
+      "text": "I'm not worried about it there, I go there often."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. So let me just read this back to you quick."
+    },
+    {
+      "speaker": "client",
+      "text": "Go ahead when you're ready."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So a venti double chocolaty chip creme frap, blended creme. Made with almond milk and no whipped cream."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alrighty then, I'll be there with it soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, bye bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "double chocolaty chip creme frappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "frappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "double chocolaty chip creme frap",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "frap",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-ec9b4cf0-ffaf-4732-a1c1-e4d061882325",
+  "created_at": "2026-02-15T15:44:17.209Z"
+}

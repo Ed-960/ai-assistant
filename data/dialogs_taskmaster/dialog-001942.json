@@ -1,0 +1,155 @@
+{
+  "dialog_id": 1942,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1942"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey Alexa, I should be back to the office by 2 this afternoon, can you have some hot coffee ready for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind do you want? "
+    },
+    {
+      "speaker": "client",
+      "text": "Does Starbucks still have those hot white chocolate lattes that I love?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No more lattes there today, but they do have mochas."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok I will go with that White Chocolate Mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Get me two Venti ones, I will have the second one after that 2:30 meeting."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You want me to call down to Starbucks and get you two Venti White Chocolate Mochas?"
+    },
+    {
+      "speaker": "client",
+      "text": "Did you get the part about having them ready at 2pm?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, and should I just put them on the tab?"
+    },
+    {
+      "speaker": "client",
+      "text": "That sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How did the sales calls go this morning?"
+    },
+    {
+      "speaker": "client",
+      "text": "It is just too cold and rainy to even think about this morning!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "D0 you want a half dozen of your favorite Sous Vide Egg Bites: Egg White & Red Pepper as well?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I don't have time to grab anything else before that meeting."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order will be on your side table when you get here"
+    },
+    {
+      "speaker": "client",
+      "text": "Good it will be at least 30 minutes before I get in."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Let me review your order."
+    },
+    {
+      "speaker": "client",
+      "text": "Sure, I like the way you always double check tasks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "That is have Starbucks deliver two vente cups of White Chocolate Mocha and six pieces of Sous Vide Egg Bites: Egg White & Red Pepper by two this afternoon."
+    },
+    {
+      "speaker": "client",
+      "text": "Super!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Now drive safely and see you soon."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "white chocolate lattes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "lattes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mochas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "White Chocolate Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "two",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "White Chocolate Mochas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "vente",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-30d3a9d1-0527-40f8-8d2f-85dd1e37644b",
+  "created_at": "2026-02-15T15:44:17.122Z"
+}

@@ -1,0 +1,220 @@
+{
+  "dialog_id": 190,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=190"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order pizza from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, how many pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "four large thin crust pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "The first pizza I want it to have."
+    },
+    {
+      "speaker": "client",
+      "text": "Penina peppers and shredded Parmesan Asiago."
+    },
+    {
+      "speaker": "client",
+      "text": "The second one, I want it to have diced tomatoes."
+    },
+    {
+      "speaker": "client",
+      "text": "marinara sauce."
+    },
+    {
+      "speaker": "client",
+      "text": "salami."
+    },
+    {
+      "speaker": "client",
+      "text": "The third one, I wanted it to have Italian sausage."
+    },
+    {
+      "speaker": "client",
+      "text": "cheddar, provolone cheese."
+    },
+    {
+      "speaker": "client",
+      "text": "spinach."
+    },
+    {
+      "speaker": "client",
+      "text": "The fourth one I wanted to have."
+    },
+    {
+      "speaker": "client",
+      "text": "bacon."
+    },
+    {
+      "speaker": "client",
+      "text": "Cheddar cheese, pineapple, that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so your order is: 4 large thin crust pizzas. the first with banana peppers with parmesan asiago. the second with diced tomatoes and marinara sauce and salami. the third with italian sausage, provolone and spinach. the fourth with bacon, cheddar cheese and pineapple."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the total is $45."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be ready for pickup at Bella Luna's soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome, bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Penina peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "shredded Parmesan Asiago",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "diced tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "marinara sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "salami",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Italian sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheddar",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "provolone cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "spinach",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cheddar cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "banana peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "parmesan asiago",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "italian sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "provolone",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheddar cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-18d64fa1-0f45-4df9-9489-8e72519d9f1a",
+  "created_at": "2026-02-15T15:44:16.911Z"
+}

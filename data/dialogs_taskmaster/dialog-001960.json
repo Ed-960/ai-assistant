@@ -1,0 +1,125 @@
+{
+  "dialog_id": 1960,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1960"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, can you call the Starbucks on HIghway 50 and order me a coffee drink?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "A Cinnamon Dolce Latte, Hot please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok got that. Anything special?"
+    },
+    {
+      "speaker": "client",
+      "text": "I really like it as is, but ask to leave off the whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok got that no whipped cream."
+    },
+    {
+      "speaker": "client",
+      "text": "You have my password for the Starbucks site?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes I do."
+    },
+    {
+      "speaker": "client",
+      "text": "Great go ahead and order it online."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Not a problem there."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok so lets reconfirm"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I am ordering a Cinnamon dolce latte, hot, no whipped cream."
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds good place the order please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "All done! It will be ready for pick up at Highway 50 Starbucks."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. Did the site say my credit card is stored?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes this drink is paid for, all you need to do is show up"
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect! Order whatever you want as well. On me"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh thank you very much!"
+    },
+    {
+      "speaker": "client",
+      "text": "Not a problem. It's double star day!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "LOL"
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks again I'll be there in 20 min or so"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You are very welcome!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cinnamon Dolce Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cinnamon dolce latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-34951e96-a0f5-4cbd-87d8-e349b10ebe05",
+  "created_at": "2026-02-15T15:44:17.125Z"
+}

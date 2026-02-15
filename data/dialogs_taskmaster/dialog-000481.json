@@ -1,0 +1,188 @@
+{
+  "dialog_id": 481,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=481"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello."
+    },
+    {
+      "speaker": "cashier",
+      "text": "how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to order some pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure where do you want to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "100."
+    },
+    {
+      "speaker": "client",
+      "text": "Bella Luna Pizzeria."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, let's get that set up. what do you want to order from bella luna?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want three small pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what toppings do you want on those?"
+    },
+    {
+      "speaker": "client",
+      "text": "Got to be pepperoni."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you have a crust preference?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want two of them to be thin crust and then one deep dish crust."
+    },
+    {
+      "speaker": "client",
+      "text": "I want two thin crust, and then one regular crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sorry could you repeat that?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, so you said 3 small pizzas, all pepperoni, 2 thin crust and 1 regular crust?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did i get that right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "$34.55 is the total."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "should i place the order for you now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "client",
+      "text": "Or could you make sure you put extra cheese in it, too?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want extra cheese on all of the pizzas?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "3 small pizzas, all pepperoni, 2 thin crust and 1 regular crust, all with extra cheese will cost $40.00."
+    },
+    {
+      "speaker": "cashier",
+      "text": "should i place this order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i've placed the order. it'll be ready for pick up in 25 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy the pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna Pizzeria",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one deep dish crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-434dda3d-f91e-4eb4-b17b-2a1b19debb94",
+  "created_at": "2026-02-15T15:44:16.943Z"
+}

@@ -1,0 +1,125 @@
+{
+  "dialog_id": 2456,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2456"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I would like you to place an order at Starbucks for coffee for me."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which Starbucks would you like it from"
+    },
+    {
+      "speaker": "client",
+      "text": "The one in Orange City, Fl."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, what would you like."
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a caramel macchiato"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size would you like me to get you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a venti please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want milk in it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, can you ask for 2% milk"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like anything else with it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you ask them to put a bit of whipped cream on top."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I can do that for you."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, can you ask them to put a drop of vanilla syrup in it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I can definitely do that for you."
+    },
+    {
+      "speaker": "client",
+      "text": "And can u ask them for it to be light and sweet."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, and would you like extra sugar on the side."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that would be great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The drink has been ordered from the Orange City store and will be ready shortly"
+    },
+    {
+      "speaker": "client",
+      "text": "Great, appreciate that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, and your receipt will be sent to your phone"
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks for all your help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anytime have a great day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "caramel macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-b3f3ac74-c113-4131-9d5f-ca1a8f9a6713",
+  "created_at": "2026-02-15T15:44:17.184Z"
+}

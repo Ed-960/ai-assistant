@@ -1,0 +1,168 @@
+{
+  "dialog_id": 440,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=440"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I'd like to order."
+    },
+    {
+      "speaker": "client",
+      "text": "black and white mochas, grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sorry, you're cutting in and out."
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order two black and white mochas."
+    },
+    {
+      "speaker": "client",
+      "text": "One grande, one short."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what kind of milk would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "half and half."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sorry, they don't have half and half, would you like 2%?"
+    },
+    {
+      "speaker": "client",
+      "text": "How about regular milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, by regular do you mean whole milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, for both drinks?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, would you like whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "for both?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, for both."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, which location would you like to pick up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like this at the."
+    },
+    {
+      "speaker": "client",
+      "text": "Chick-fil-A in Westland 22."
+    },
+    {
+      "speaker": "client",
+      "text": "I want a burger."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you have ordered 2 black and white mochas, one grande and one short. both with whole milk and whipped cream."
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "i will send your order to the location in starbucks at westland."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be texted to you and your drinks will be ready in 7 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your welcome, enjoy your coffee."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "black and white mochas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "two",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "short",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "2",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-3e572a47-dc5a-4d7d-bac8-25de3b9f52fa",
+  "created_at": "2026-02-15T15:44:16.939Z"
+}

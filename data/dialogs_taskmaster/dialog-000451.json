@@ -1,0 +1,58 @@
+{
+  "dialog_id": 451,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=451"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi, there?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I'd like to order pizza from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay what kind?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get three large Veggie Lovers."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Veggie Lovers",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-3fa63c49-1507-4dd4-9aa9-b4441d4bea45",
+  "created_at": "2026-02-15T15:44:16.940Z"
+}

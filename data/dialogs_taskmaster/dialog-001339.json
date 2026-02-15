@@ -1,0 +1,122 @@
+{
+  "dialog_id": 1339,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1339"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there, what would you like to do today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey. I'm looking to get some help ordering food from pizzeria Bella Luna. Can you help?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "food from bella luna, yes i can help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How many pizza would you like to order today."
+    },
+    {
+      "speaker": "client",
+      "text": "Just looking for two small ones with thin crust, sausage on the one, pepperoni on the other."
+    },
+    {
+      "speaker": "cashier",
+      "text": "2 small with thin crust, 1 with sausage and 1 with pepperoni is that your order."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, please. As fast as possible."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your total comes to 24 dollars, shall we go ahead?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. How long for till it's ready?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "it will be ready for pickup in 30 min."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. Go ahead and place the order, and I'll be on my way."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizza are on order at the local Bella Luna pizzeria."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your pizza."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna pizzeria",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-bf3fee84-bd77-4ec1-a097-caf3a11b7749",
+  "created_at": "2026-02-15T15:44:17.036Z"
+}

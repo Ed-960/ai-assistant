@@ -1,0 +1,141 @@
+{
+  "dialog_id": 2295,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2295"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, Google. Order me a coffee from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. Which Starbucks did you want me to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one near work. No, actually, are there any downtown?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I’ll check. Yes, there are two. One on Main Street and one on Third."
+    },
+    {
+      "speaker": "client",
+      "text": "Third and what?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Third and Melrose."
+    },
+    {
+      "speaker": "client",
+      "text": "Is that near the post office?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, just south of the post office."
+    },
+    {
+      "speaker": "client",
+      "text": "The one on Third, then."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What drink did you want me to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "A soy cappuccino."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you want a single or double shot?"
+    },
+    {
+      "speaker": "client",
+      "text": "Make it a double."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And what size did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you mean Grande?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, Grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, I’ll order you a Grande double soy Cappuccino from the Starbucks at 1345 Third Street, downtown."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks Google."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want me to confirm the order when you are en route?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that’s ok."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "A soy cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "soy Cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cappuccino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-89d325fc-05a8-44f1-996a-f5c953802aed",
+  "created_at": "2026-02-15T15:44:17.166Z"
+}

@@ -1,0 +1,98 @@
+{
+  "dialog_id": 965,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=965"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'd like to order some coffee from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi. How can i help you today?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sounds good. Which starbucks should i place the order at for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "the Starbucks on Pike Street in Seattle."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome and what did you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a tall chai tea latte with almond milk, sugar, and whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. Did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that should be all. Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so the order is: 1 tall chai tea latte with almond milk, sugar, and whipped cream from starbucks on pike street in seattle."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the total is $3.40. Should i place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Please do that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i've placed the order for you. It'll be ready for pick up in 10 minutes. The receipt will be sent to you via text shortly. Did you need my help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. Take care. Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chai tea latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-86d62d6a-0902-43b3-b46d-ab3fd3c1703b",
+  "created_at": "2026-02-15T15:44:16.995Z"
+}

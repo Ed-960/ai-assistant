@@ -1,0 +1,107 @@
+{
+  "dialog_id": 1049,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1049"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi, how can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey, looking for some help ordering pizzas from a restaurant called Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, how many pizzas would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm going to get two small pizzas. They both need to have extra cheese. And can I get one with pepperoni and sausage And the other with broccoli and tomato?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what type of crust?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just regular crust, please."
+    },
+    {
+      "speaker": "client",
+      "text": "That exactly what I want."
+    },
+    {
+      "speaker": "client",
+      "text": "Excellent. How long till it's ready for pickup?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's a little long but I guess we can't help that. So, go ahead and place the order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure! enjoy, bye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "broccoli",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tomato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-9471edb0-ec7e-4816-892e-b2dbab975d56",
+  "created_at": "2026-02-15T15:44:17.004Z"
+}

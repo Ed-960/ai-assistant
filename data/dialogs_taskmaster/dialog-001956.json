@@ -1,0 +1,129 @@
+{
+  "dialog_id": 1956,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1956"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello, I'd like to make a coffee order for Starbucks. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course, let's get started. What size? "
+    },
+    {
+      "speaker": "client",
+      "text": "Grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What temperature? "
+    },
+    {
+      "speaker": "client",
+      "text": "Iced."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any sugar."
+    },
+    {
+      "speaker": "client",
+      "text": "No, I'm diabetic I'd like sugar-free."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course, Foam?"
+    },
+    {
+      "speaker": "client",
+      "text": "No foam."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Flavor? "
+    },
+    {
+      "speaker": "client",
+      "text": "Vanilla."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yum. What kind of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Soy milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any drizzle? "
+    },
+    {
+      "speaker": "client",
+      "text": "Caramel, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course, I'm assuming...Latte?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes! "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds great. What's the nearest store to your location? "
+    },
+    {
+      "speaker": "client",
+      "text": "The one on 19 W Bridge St Unit 101, Dublin Ohio."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Perfect! Your order will be ready shortly at 19 W Bridge St Unit 101, Dublin Ohio."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem! I am sending you a text confirmation now. Have a great one! "
+    },
+    {
+      "speaker": "client",
+      "text": "You too!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-3424fdc9-10f4-4930-ac30-9b20be88f49b",
+  "created_at": "2026-02-15T15:44:17.124Z"
+}

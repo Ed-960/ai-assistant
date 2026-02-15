@@ -1,0 +1,123 @@
+{
+  "dialog_id": 1478,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1478"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hello, how can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey. I'm trying to get a coffee from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of a coffee would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, I would like a quarter seal."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Venti."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of milk would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like almond milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "client",
+      "text": "And I would like to pick it up at Grand & 1st in Los Angeles."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So a venti cordusio with almond milk, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep, that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, your coffee will be ready for pickup soon at the Starbucks at main and 1st."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, cool."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be sent to you via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Bye, enjoy!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "quarter seal",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cordusio",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-d51174dd-2f02-40a2-81c1-e6c56e7fb105",
+  "created_at": "2026-02-15T15:44:17.051Z"
+}

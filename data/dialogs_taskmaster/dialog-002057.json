@@ -1,0 +1,126 @@
+{
+  "dialog_id": 2057,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2057"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "HEY MEG. CAN YOU PLACE AN ORDER AT STARBUCKS THAT I CAN PICK UP ON MY WAY TO MEET MY CLIENT AT THEIR OFFICE IN ABOUT 15 MINUTES?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "SURE. WHICH STARBUCKS LOCATION WOULD YOU LIKE TO PICK YOUR COFFEE UP AT?"
+    },
+    {
+      "speaker": "client",
+      "text": "THE STARBUCKS LOCATION OFF OF DURANGO AND ELKHORN WILL DO."
+    },
+    {
+      "speaker": "cashier",
+      "text": "WHAT WOULD YOU LIKE ME TO ORDER FOR YOU? "
+    },
+    {
+      "speaker": "client",
+      "text": "I WOULD LIKE A VENTI CARAMEL MACCHIATO MADE WITH NON-FAT MILK."
+    },
+    {
+      "speaker": "cashier",
+      "text": "WOULD YOU LIKE THAT HOT, ICED OR BLENDED?"
+    },
+    {
+      "speaker": "client",
+      "text": "ICED WILL DO."
+    },
+    {
+      "speaker": "cashier",
+      "text": "WHOULD YOU LIKE ANY WHIP CREAM ON THAT OR TO ADD IN FLAVOR OR EXTRA ESPRESSO SHOTS?"
+    },
+    {
+      "speaker": "client",
+      "text": "NO THANK YOU TO ALL OF THOSE OPTIONS. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "WOULD YOU LIKE ME TO ORDER ANY FOOD ITEMS WITH YOUR ORDER?"
+    },
+    {
+      "speaker": "client",
+      "text": "ACTUALLY, CAN YOU ADD A CHOCOLATE SWIRL BRIOCHE TO MY ORDER? "
+    },
+    {
+      "speaker": "cashier",
+      "text": "SURE THING. WOULD YOU LIKE THAT TO BE WARMED?"
+    },
+    {
+      "speaker": "client",
+      "text": "SURE THAT WOULD BE GREAT. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "JUST TO CONFIRM, I HAVE A VENTI ICED CARAMEL MACCHIATO MADE WITH NON-FAT MILK, NO WHIP CREAM AND NO OTHER ADDITIVES, AND A WARM CHOCOLATE SWIRL BRIOCHE. IS THAT CORRECT?"
+    },
+    {
+      "speaker": "client",
+      "text": "THAT IS RIGHT."
+    },
+    {
+      "speaker": "cashier",
+      "text": "PERFECT. I AM PLACING YOUR ORDER NOW. "
+    },
+    {
+      "speaker": "client",
+      "text": "PERFECT. I AM GATHERING MY THINGS TO HEAD OUT THE DOOR."
+    },
+    {
+      "speaker": "cashier",
+      "text": "YOUR ORDER SHOULD BE READY IN 6-8 MINUTES. THEY ARE ALWAYS BUSY, SO MORE LIKE 8 MINUTES."
+    },
+    {
+      "speaker": "client",
+      "text": "AWESOME. MY DRIVE THERE IS ABOUT 5 MINUTES. THANK YOU!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "OKAY, I AM SENDING THE ORDER CONFIRMATION TO YOUR PHONE RIGHT NOW."
+    },
+    {
+      "speaker": "client",
+      "text": "PERFECT!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "VENTI",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "CARAMEL MACCHIATO",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ICED CARAMEL MACCHIATO",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-4dbb9e1b-8f46-4805-9578-8b712f0ec28c",
+  "created_at": "2026-02-15T15:44:17.138Z"
+}

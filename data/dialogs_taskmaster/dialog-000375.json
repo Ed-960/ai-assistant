@@ -1,0 +1,227 @@
+{
+  "dialog_id": 375,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=375"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Yeah, I would like to order order two medium pizzas from Bella Luna, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi, how can I help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what kind of toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "First of all, I have a pizza with pesto sauce, feta cheese, artichokes, bacon."
+    },
+    {
+      "speaker": "client",
+      "text": "extra cheese"
+    },
+    {
+      "speaker": "client",
+      "text": "and mushrooms."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok and the second?"
+    },
+    {
+      "speaker": "client",
+      "text": "All right, on the second one I will take sausage, extra sauce, extra cheese, mushrooms."
+    },
+    {
+      "speaker": "client",
+      "text": "I will also put bacon, jalapeños, pineapple."
+    },
+    {
+      "speaker": "client",
+      "text": "I will add pepperoni."
+    },
+    {
+      "speaker": "client",
+      "text": "as well as"
+    },
+    {
+      "speaker": "client",
+      "text": "Extra Parmesan cheese."
+    },
+    {
+      "speaker": "client",
+      "text": "and"
+    },
+    {
+      "speaker": "client",
+      "text": "Chicken added to that, please."
+    },
+    {
+      "speaker": "client",
+      "text": "And that will be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that'd be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your order is: 2 medium pizzas. first pizza: pesto sauce, feta cheese, artichoke, bacon and mushrooms, with extra cheese. the second one: sausage mushrooms, bacon, jalapeños, pineapple, pepperoni, with extra parmesan, extra sauce and cheese."
+    },
+    {
+      "speaker": "client",
+      "text": "It sounds fantastic, absolutely fantastic."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your total is $35."
+    },
+    {
+      "speaker": "client",
+      "text": "That's great. Thank you so much. I really look forward to picking those up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be ready for pickup at Bella Luna's in 40 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Fantastic. You're the best, as always. I thank you for your help and your time."
+    },
+    {
+      "speaker": "cashier",
+      "text": "no, thank you! enjoy."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pesto sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "feta cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "artichokes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "jalapeños",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Extra Parmesan cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "artichoke",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra parmesan",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-34b66be7-957a-4fc5-b478-72cd39d3feac",
+  "created_at": "2026-02-15T15:44:16.932Z"
+}

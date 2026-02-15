@@ -1,0 +1,119 @@
+{
+  "dialog_id": 886,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=886"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I'm trying to place an order at Starbucks an 867 Peachtree Street in Atlanta, Georgia."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of coffee would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a Grande Caffe Mocha with almond milk and with whipped cream on top."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. And almond milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so, a grande cafe mocha with almond milk and whipped cream, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep."
+    },
+    {
+      "speaker": "cashier",
+      "text": "where would you like to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "At the Starbucks on 867 Peachtree Street North East in Atlanta, Georgia."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you're all set. your coffee will be ready for pick up shortly at the starbucks at 867 Peachtree St."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome. you will receive your receipt via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "client",
+      "text": "All right. I'll look for it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "byebye."
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caffe Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cafe mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-790e8b9d-d03c-4bad-a1ee-73d33f9faad9",
+  "created_at": "2026-02-15T15:44:16.987Z"
+}

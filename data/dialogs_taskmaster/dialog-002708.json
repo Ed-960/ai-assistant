@@ -1,0 +1,138 @@
+{
+  "dialog_id": 2708,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2708"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey I'd like a drink from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay that would be good which location do you prefer?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one in Grand Rapids."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ah okay that one has good service okay."
+    },
+    {
+      "speaker": "client",
+      "text": "Just get me a vanilla latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Whichever is the cheapest."
+    },
+    {
+      "speaker": "cashier",
+      "text": "But money isn't a problem to you no?"
+    },
+    {
+      "speaker": "client",
+      "text": "True get that new big size I forgot what it was called."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh the trenta that sounds good."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes the big gulp of starbucks basically."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay do you want milk added?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes I would like milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What about sugar?"
+    },
+    {
+      "speaker": "client",
+      "text": "No sugar please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay is there anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Get a drink for yourself as well on me."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Whatever you want enjoy."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "When will my drink be ready."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Were on the way to starbucks on Main Avenue now."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "15 Minutes."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "vanilla latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "big",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "trenta",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-fa9780c9-8115-4a1b-a8b7-1a68efc3b4bd",
+  "created_at": "2026-02-15T15:44:17.214Z"
+}

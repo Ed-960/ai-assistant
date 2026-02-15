@@ -1,0 +1,157 @@
+{
+  "dialog_id": 2633,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2633"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Can I have a large peporonni pizza"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes may I have the address"
+    },
+    {
+      "speaker": "client",
+      "text": "2218 lancaster road"
+    },
+    {
+      "speaker": "cashier",
+      "text": "we will be there in 22 minutes and the price is 11.29"
+    },
+    {
+      "speaker": "client",
+      "text": "22 minutes?!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes is there a problem"
+    },
+    {
+      "speaker": "client",
+      "text": "wow"
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that a good wow or a bad wow"
+    },
+    {
+      "speaker": "client",
+      "text": "its a good one"
+    },
+    {
+      "speaker": "cashier",
+      "text": "how"
+    },
+    {
+      "speaker": "client",
+      "text": "its the shortest wait time for pizza ive ever had it usually takes 45 minutes or more"
+    },
+    {
+      "speaker": "cashier",
+      "text": "thats good to hear"
+    },
+    {
+      "speaker": "client",
+      "text": "really"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes we deleiver our pizza for half the price in half the time of our competitors"
+    },
+    {
+      "speaker": "client",
+      "text": "Thats awesome"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes it is"
+    },
+    {
+      "speaker": "client",
+      "text": "Im ordering from you guys from here on out"
+    },
+    {
+      "speaker": "cashier",
+      "text": "theyd be wise"
+    },
+    {
+      "speaker": "client",
+      "text": "I love your store"
+    },
+    {
+      "speaker": "cashier",
+      "text": "We love our customers"
+    },
+    {
+      "speaker": "client",
+      "text": "Thats all"
+    },
+    {
+      "speaker": "cashier",
+      "text": "well be there in 20 minutes"
+    },
+    {
+      "speaker": "client",
+      "text": "thank you guys so much"
+    },
+    {
+      "speaker": "cashier",
+      "text": "youre welcome"
+    },
+    {
+      "speaker": "client",
+      "text": "you guys are the greatest"
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else you need?"
+    },
+    {
+      "speaker": "client",
+      "text": "no."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay it comes with a free drink"
+    },
+    {
+      "speaker": "client",
+      "text": "a free drink too! you guys are the best"
+    },
+    {
+      "speaker": "cashier",
+      "text": "we try to be!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "peporonni pizza",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-e3037ecb-39c8-4570-b201-08e0ee9fa17e",
+  "created_at": "2026-02-15T15:44:17.206Z"
+}

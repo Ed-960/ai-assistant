@@ -1,0 +1,118 @@
+{
+  "dialog_id": 1042,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1042"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. Could you help me place an order at Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a iced vanilla latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to add any milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would like soy milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what size would you like that in?"
+    },
+    {
+      "speaker": "client",
+      "text": "A venti."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, which location would you like to pick up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one in Warrington on Easton Road in Pennsylvania."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you are ordering a venti iced vanilla latte with soy milk to be picked up at the starbucks on easton road, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, your drink will be ready in 5 minutes and your receipt will be texted to you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "For the drink, can you put in can you specify Light Ice?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, i can note that on your order."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. Thank you so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your welcome, enjoy your drink."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "iced vanilla latte.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced vanilla latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-935b3fb1-03cf-4303-b790-7abc5c08e3ae",
+  "created_at": "2026-02-15T15:44:17.003Z"
+}

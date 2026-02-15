@@ -1,0 +1,167 @@
+{
+  "dialog_id": 1338,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1338"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Cool, I would like to order pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What are we doing today?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size are you wanting?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like I would like a medium."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay and how many?"
+    },
+    {
+      "speaker": "client",
+      "text": "Two."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what toppings are going to be on them?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I just get like a pineapple pizza?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, that's going to be an extra $2.40 for premium okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "It's going to be $2.40 for what?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Premium toppings."
+    },
+    {
+      "speaker": "client",
+      "text": "What is what is the premium topping?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Pineapple is considered a premium topping unless you get a hawaiian."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh. All right, and can I get extra cheese on both of them?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure thing, that's two pineapple pizzas, medium, with extra cheese."
+    },
+    {
+      "speaker": "client",
+      "text": "Also, can I get bacon on both of them?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's now two hawaiian pizzas with extra cheese, right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Wonderful, your total will be $25.33."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. Yeah, that's fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, your pizzas will be ready in 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great time."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hawaiian pizzas",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-bf287fcc-0be3-43db-b713-e9043dabb007",
+  "created_at": "2026-02-15T15:44:17.036Z"
+}

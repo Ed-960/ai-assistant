@@ -1,0 +1,76 @@
+{
+  "dialog_id": 9,
+  "client_profile": {
+    "gender": "male",
+    "age": 41,
+    "ageGroup": "middle",
+    "personality": "impatient",
+    "lang": "ru",
+    "restrictions": {},
+    "childQuant": 0,
+    "companions": 0,
+    "hasPregnantWife": false,
+    "calApprValue": 2185,
+    "overweight": true,
+    "text": "41 лет, мужчина. одинокий посетитель. повышенный вес. целевые калории ≈2185 ккал. ",
+    "regLine": "gender=male age=41 personality=impatient lang=ru calApprValue=2185 overweight"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hello! What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "McVeggie (168g) + Cold Coffee (250ml)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "1 serving of McVeggie (168g) + 1 serving of Cold Coffee (250ml)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Confirmation: 1 serving of McVeggie (168g) + 1 serving of Cold Coffee (250ml)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Goodbye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "McVeggie®",
+        "quantity": 1,
+        "energy": 402.05
+      },
+      {
+        "name": "Cold Coffee®",
+        "quantity": 1,
+        "energy": 301.1
+      }
+    ],
+    "total_energy": 703.1500000000001,
+    "allergens_in_order": [
+      "Cereal containing gluten",
+      "Milk",
+      "Soya"
+    ]
+  },
+  "total_energy": 703.1500000000001,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": true,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "created_at": "2026-02-15T16:51:55.271Z"
+}

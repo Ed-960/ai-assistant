@@ -1,0 +1,106 @@
+{
+  "dialog_id": 524,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=524"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Yeah, I wanted to order some coffee from Peet's."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Good afternoon, how can I help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure thing. which petes did you want to pick up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I wanted to get it from the looks like the pizza on 4th 4th Street in a in a."
+    },
+    {
+      "speaker": "client",
+      "text": "I'm sorry, in the."
+    },
+    {
+      "speaker": "client",
+      "text": "Santa Rosa."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great and what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll have a iced Havana cappuccino with 2% milk. And can you make that a medium?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's a medium iced havana cappucchino with 2% from the peets on 4th in Santa Rosa."
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let me think for half a second here."
+    },
+    {
+      "speaker": "client",
+      "text": "Then I think that covers everything."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. Your order will be ready in 15 minutes and you'll get the reciept via mobile."
+    },
+    {
+      "speaker": "client",
+      "text": "Fabulous."
+    },
+    {
+      "speaker": "cashier",
+      "text": "have a good day and take care."
+    },
+    {
+      "speaker": "client",
+      "text": "Hey, thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "iced Havana cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced havana cappucchino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-4a49dd64-450d-4e23-944c-124f68114c93",
+  "created_at": "2026-02-15T15:44:16.948Z"
+}

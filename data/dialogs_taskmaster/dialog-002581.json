@@ -1,0 +1,172 @@
+{
+  "dialog_id": 2581,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2581"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Could you order me some pizza from that place we ordered from last?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure! I believe it was monicals we ordered from. Does that sound right?"
+    },
+    {
+      "speaker": "client",
+      "text": "YES! That was it! "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok great! what would like me to order and for how many?"
+    },
+    {
+      "speaker": "client",
+      "text": "can you see if there are any specials going on?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes there are some specials. Family pleasers are $20 each"
+    },
+    {
+      "speaker": "client",
+      "text": "awesome! those come with drinks right? "
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes it comes with a 2L"
+    },
+    {
+      "speaker": "client",
+      "text": "ok. what kinds of soda do they have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "coke products"
+    },
+    {
+      "speaker": "client",
+      "text": "even better! "
+    },
+    {
+      "speaker": "cashier",
+      "text": "how many people are joining you?"
+    },
+    {
+      "speaker": "client",
+      "text": "there will be about 10 of us. how many will a 16\" feed?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "let me check. "
+    },
+    {
+      "speaker": "client",
+      "text": "ok"
+    },
+    {
+      "speaker": "cashier",
+      "text": "a 16\" will feed 5-6 people."
+    },
+    {
+      "speaker": "client",
+      "text": "ok what kind of dressing do they have for the salad. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "the most popular are their famous french and ranch. "
+    },
+    {
+      "speaker": "client",
+      "text": "ok lets do 3 family pleasers. 1 sausage 1 pepporoni and 1 everything."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok got. do you want breadsticks?"
+    },
+    {
+      "speaker": "client",
+      "text": "how many do you get?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "5 or 10 pack"
+    },
+    {
+      "speaker": "client",
+      "text": "ok lets get 2 10 packs"
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. what do you want to drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "1 cokes and 1 sprite"
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. "
+    },
+    {
+      "speaker": "client",
+      "text": "how long do you think it will be?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will get that called in now and get back with you on a more accurate time. "
+    },
+    {
+      "speaker": "client",
+      "text": "great thanks so much"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will have it to you in about an hour. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "monicals",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "16",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "16\"",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepporoni",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-d51a4552-1822-4c91-a430-c06d7b1eae7b",
+  "created_at": "2026-02-15T15:44:17.200Z"
+}

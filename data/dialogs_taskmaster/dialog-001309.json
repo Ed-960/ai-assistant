@@ -1,0 +1,135 @@
+{
+  "dialog_id": 1309,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1309"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey, I want to place an order for pickup from Bella Luna pizzeria."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what did you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "three large pizzas, thin crust, two of them extra cheese, one of them Meat Lovers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "could you read that order over again please?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, three large thin crust pizzas. Two with extra cheese, one meat lover's."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, thanks. you said 3 large pizzas, all with thin crust, 2 extra cheese and 1 meat lovers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep."
+    },
+    {
+      "speaker": "cashier",
+      "text": "$36.49 is the total for your order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "should i place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, go ahead."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i've submitted what you wanted. it'll be freshly baked and ready to go in 35 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's it. I look forward to my pizza. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome, enjoy."
+    },
+    {
+      "speaker": "cashier",
+      "text": "i hope they're good."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Meat Lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lover's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-bb6f223d-ffdb-469c-a585-92bb711dbf8d",
+  "created_at": "2026-02-15T15:44:17.033Z"
+}

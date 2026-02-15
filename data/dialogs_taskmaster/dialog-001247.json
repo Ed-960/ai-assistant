@@ -1,0 +1,105 @@
+{
+  "dialog_id": 1247,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1247"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi. how can i help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I'd like to order some coffee to pick up at my local Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, which starbucks should i place the order at?"
+    },
+    {
+      "speaker": "client",
+      "text": "It's on North Beach Street in Fort Worth, Texas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. and what did you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like an Iced Cordusio."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a tall, please."
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get coconut milk with it?"
+    },
+    {
+      "speaker": "client",
+      "text": "and some whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "$4.35 is the total. should i place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i've placed the order. it'll b ready for u in 10 minutes. i've also sent u the receipt via text."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did u need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that will be all. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "glad to help. take care."
+    },
+    {
+      "speaker": "client",
+      "text": "You, too."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cordusio",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-b02eff79-a524-4b2d-8da5-f01da12407c5",
+  "created_at": "2026-02-15T15:44:17.026Z"
+}

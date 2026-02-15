@@ -1,0 +1,172 @@
+{
+  "dialog_id": 2539,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2539"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": " Hello, I would like to order a pizza"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What type of pizza would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a large pizza with pepperoni, onion and bell peppers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is that all that you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Could you add some bacon on that pizza?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, there would be an extra charge."
+    },
+    {
+      "speaker": "client",
+      "text": "That's okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like to order a drink, salad or wings to that order>"
+    },
+    {
+      "speaker": "client",
+      "text": "What type of wings do you have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "We have lemon pepper wings, barbecue and sweet and spicy wings."
+    },
+    {
+      "speaker": "client",
+      "text": "How much are they?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They're $6.00 for six wings."
+    },
+    {
+      "speaker": "client",
+      "text": "Are they whole wings?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, they are whole wings."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, I will take an order of the sweet and spicy wings."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, would you like something to drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I'll take a large diet coke with that?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Will that be all?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's it. What's my total?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your total for your order is 23.99"
+    },
+    {
+      "speaker": "client",
+      "text": "$23.99?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you "
+    },
+    {
+      "speaker": "cashier",
+      "text": "It will be ready in about 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I pay for it when I get there?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onion",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bell peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-cb09d2bb-1611-4771-bbd4-0e04a384953a",
+  "created_at": "2026-02-15T15:44:17.195Z"
+}

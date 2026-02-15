@@ -1,0 +1,103 @@
+{
+  "dialog_id": 1207,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1207"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey. I'm kind of hot today cuz it's so warm out. Can can you help me order some coffee from Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Get me an iced caffe Americano, just black no milk, grande, and I want simple syrup, too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, so a grande iced americano with simple syrup, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "client",
+      "text": "Grande Grande size"
+    },
+    {
+      "speaker": "cashier",
+      "text": "where are you picking it up?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your coffee will be ready for pickup soon"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you confirm it's a grande? I'm sorry. I I can't remember."
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes, you requested a grande iced americano with simple syrup"
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect. All right, then we're all good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, enjoy! bye"
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "caffe Americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-abc637fe-8810-49f8-9956-be8f01062841",
+  "created_at": "2026-02-15T15:44:17.021Z"
+}

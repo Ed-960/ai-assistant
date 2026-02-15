@@ -32,6 +32,8 @@ export async function loadMenu(csvPath = "mcd.csv") {
             ingredients: item.ingredients || "",
             allergy: normalizeAllergy(item.allergy || ""),
             energy: parseFloat(item.energy) || 0,
+            total_sugar: parseFloat(item.total_sugar) || 0,
+            added_sugar: parseFloat(item.added_sugar) || 0,
             description: (item.description || "").trim().replace(/\s+/g, " "),
         }));
 
@@ -76,16 +78,28 @@ export function conflictsWithProfile(item, profile) {
  * Simple RAG: filter menu by query keywords and profile restrictions.
  * Returns top N items (by keyword overlap + no conflicts).
  */
-export function searchMenu(menu, query, profile, limit = 15) {
+function isSugarFree(item) {
+    return (item.total_sugar || 0) < 1 && (item.added_sugar || 0) < 1;
+}
+
+export function searchMenu(menu, query, profile, limit = 50) {
     const filtered = menu.filter((item) => !conflictsWithProfile(item, profile));
-    const q = (query || "").toLowerCase().split(/\s+/).filter(Boolean);
-    if (!q.length) return filtered.slice(0, limit);
+    const q = (query || "").toLowerCase();
+    const qWords = q.split(/\s+/).filter(Boolean);
+
+    const wantsWaterOrSugarFree = /water|вода|sugar|сахар|без\s*сахара|sugar-free|no\s*sugar/.test(q);
+    if (wantsWaterOrSugarFree) {
+        const sugarFree = filtered.filter((i) => isSugarFree(i));
+        if (sugarFree.length) return [...sugarFree, ...filtered.filter((i) => !isSugarFree(i))].slice(0, limit);
+    }
+
+    if (!qWords.length) return filtered.slice(0, limit);
 
     const scored = filtered
         .map((item) => {
             const text = `${item.name} ${item.description} ${item.ingredients}`.toLowerCase();
             let score = 0;
-            for (const w of q) {
+            for (const w of qWords) {
                 if (text.includes(w)) score += 1;
             }
             return { item, score };
@@ -100,16 +114,33 @@ export function searchMenu(menu, query, profile, limit = 15) {
 
 export function formatMenuForContext(menuItems) {
     return menuItems
-        .map(
-            (m) =>
-                `- ${m.name} (${m.serving_size}) | ${m.energy} kcal | allergens: ${Array.isArray(m.allergy) ? m.allergy.join(", ") : m.allergy || "none"}`
-        )
+        .map((m) => {
+            const sugar = (m.total_sugar ?? 0) + (m.added_sugar ?? 0);
+            const sugarStr = sugar > 0 ? ` | sugar: ${sugar}g` : " | sugar: 0g";
+            return `- ${m.name} (${m.serving_size}) | ${m.energy} kcal${sugarStr} | allergens: ${Array.isArray(m.allergy) ? m.allergy.join(", ") : m.allergy || "none"}`;
+        })
         .join("\n");
+}
+
+/** Extract size pattern (e.g. 154g, 320g) from name for better matching */
+function extractSize(name) {
+    const m = (name || "").match(/(\d+)\s*g/i);
+    return m ? m[1] : null;
 }
 
 export function findInMenu(menu, itemName) {
     const n = (itemName || "").trim().toLowerCase();
-    return menu.find((m) => m.name.toLowerCase().includes(n) || n.includes(m.name.toLowerCase()));
+    const wantSize = extractSize(itemName);
+    const candidates = menu.filter(
+        (m) => m.name.toLowerCase().includes(n) || n.includes(m.name.toLowerCase().replace(/®/g, ""))
+    );
+    if (candidates.length === 0) return undefined;
+    if (candidates.length === 1) return candidates[0];
+    if (wantSize) {
+        const withSize = candidates.find((m) => m.name.includes(wantSize + "g") || m.name.includes(wantSize + " g"));
+        if (withSize) return withSize;
+    }
+    return candidates[0];
 }
 
 export function existsInMenu(menu, itemName) {

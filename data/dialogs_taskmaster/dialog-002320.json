@@ -1,0 +1,139 @@
+{
+  "dialog_id": 2320,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2320"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I want a coffee"
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK. Which cafe would you like it from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK. And what do you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "One Iced Latte"
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK. Which size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Venti."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK. What kind of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just regular whole milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is there anything else you'd like to add to it, such as sugar or honey?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah I'll get some brown sugar in there too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK. The price for that is $3.85"
+    },
+    {
+      "speaker": "client",
+      "text": "OK fine. How many calories is that, by the way?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "300, without the sugar."
+    },
+    {
+      "speaker": "client",
+      "text": "OK nice."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So your order is one Venti Iced Latte with whole milk and brown sugar, for $3.85. Is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes let's do it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will order it now."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order will be ready for pickup in about 5 minutes and the receipt will be sent to your mobile."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you as well. Goodbye!"
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "One",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Iced Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-8f75622e-e634-44b8-93e1-11bb1bb1fe85",
+  "created_at": "2026-02-15T15:44:17.169Z"
+}

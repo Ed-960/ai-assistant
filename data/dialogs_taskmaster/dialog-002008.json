@@ -1,0 +1,162 @@
+{
+  "dialog_id": 2008,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2008"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi Dan, can you please order some pizzas from Happy's Pizza?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, how many pizzas do you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd say three. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "I presume you would like their special square pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "Exacly, only square pizzas please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You want it deep dish?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "How about the toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "See, I like pepperoni with mashroom and jalapeno. But one of my friends here is a vegetarian."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Then I'll order two pepperoni pizzas and one vegetarian special pizza. What do you think?"
+    },
+    {
+      "speaker": "client",
+      "text": "I think that's great idea. Then make it three pepperoni pizzas and one vegetarian."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Just to make sure - you want all of them large size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you need anything else on the side?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please. Two large pops and some breadsticks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "That's all?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, your order is placed. It'll be ready for pickup in about 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks a lot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You are welcome."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Happy's Pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "square pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "square pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "deep dish",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mashroom",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "jalapeno",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "vegetarian special pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "vegetarian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-40fc3735-91da-456c-a3f6-80ce2498b463",
+  "created_at": "2026-02-15T15:44:17.133Z"
+}

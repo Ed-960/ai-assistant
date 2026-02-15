@@ -1,0 +1,157 @@
+{
+  "dialog_id": 2176,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2176"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey can you order me a pizza from Domino's?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yeah of course which location?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one by Micky's diner"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok I have it pulled up what would you like"
+    },
+    {
+      "speaker": "client",
+      "text": "Do they have any good deals that have 2 pizzas?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes they have a deal with 2 medium 2 topping for 5.95 a piece"
+    },
+    {
+      "speaker": "client",
+      "text": "Great lets do that one "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay what type of crust do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hand tosses"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What type of toppings on the first pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want black olives and sausage"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What type would you like for the other one?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want canadian bacon and pinneapple"
+    },
+    {
+      "speaker": "cashier",
+      "text": "great! would you like to donate a dollar to st jude?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah that would be fine"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay would you like anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes a sprite please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great "
+    },
+    {
+      "speaker": "client",
+      "text": "What is the total?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "15$ your pizza order is complete and the pizzas will be ready for pickup in about 25 minutes."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Domino's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "The one by Micky's diner",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Micky's diner",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hand tosses",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "canadian bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pinneapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "your pizza order is complete",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-6aee3ac1-e18f-45f2-9795-f98c6244a5de",
+  "created_at": "2026-02-15T15:44:17.152Z"
+}

@@ -1,0 +1,154 @@
+{
+  "dialog_id": 1965,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1965"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I want to order some pizza for me and Stacey tonight"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, you want it delivered or are you picking it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "Delivered"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what's the name and address you want it delivered to"
+    },
+    {
+      "speaker": "client",
+      "text": "You know what, change that to pick up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you care which pizza place I order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Do Pizza Hut please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size and quantity of pizza do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want two large pizzas"
+    },
+    {
+      "speaker": "cashier",
+      "text": "And the crust?"
+    },
+    {
+      "speaker": "client",
+      "text": "Medium crust for both of them"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what about toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "I just want Italian Sausage on one"
+    },
+    {
+      "speaker": "cashier",
+      "text": "And the other on?"
+    },
+    {
+      "speaker": "client",
+      "text": "Italian Sausage, Mushrooms and Pineapples"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Extra cheese on both please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would that be all?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that is all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I have placed your order and it will be ready for pick up in 25 minutes"
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You are welcome. You will receive a confirmation text message with details of the transaction and store details."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright Thanks."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Pizza Hut",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Medium crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Italian Sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pineapples",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Extra cheese",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-350d2997-10ce-4d07-90b8-7f6b5dea7057",
+  "created_at": "2026-02-15T15:44:17.126Z"
+}

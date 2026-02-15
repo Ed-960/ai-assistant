@@ -1,0 +1,124 @@
+{
+  "dialog_id": 1732,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1732"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like order four small pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let's do it. what toppings did you want on those?"
+    },
+    {
+      "speaker": "client",
+      "text": "One of them, just cheese. One with pepperoni, one supreme pizza, and one meat lovers."
+    },
+    {
+      "speaker": "client",
+      "text": "That will be it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. the total for 4 small pizzas, 1 cheese, 1 pepperoni, 1 supreme pizza, and 1 meat lovers pizza is $48.50."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want me to place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, and also like all those thick crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. i'll include thick crust in the order. i've placed the order, it'll be ready in 35 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, that'll be it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, enjoy."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "supreme",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust in",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "placed the order",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-ff7221f4-089d-423e-b0de-163d1248e402",
+  "created_at": "2026-02-15T15:44:17.088Z"
+}

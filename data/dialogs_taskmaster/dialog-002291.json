@@ -1,0 +1,116 @@
+{
+  "dialog_id": 2291,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2291"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Could you please get me a small cold brew iced coffee? No add-ins, just black."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, where should I get it from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I think there's a shop off of NW 13th street in Gainesville."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh okay. I thought there was a closer one on 6th street. Want to do that one so I can drop off the brochures to the commissioner's office right next door?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, I guess that is probably better. Good thought!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thanks haha"
+    },
+    {
+      "speaker": "client",
+      "text": "As long as you're going to the commissioner's office with those brochures, could you also pick up the documents they were going to fax?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Are those the ones for the partnership or the new program plans?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh. Well, both, I guess. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "How much coffee have you had today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Obviously not enough. Peet's is the best though so that should fix the problem. While you're at it, get yourself something on me. Today is going to be a long one haha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It sure will be. "
+    },
+    {
+      "speaker": "client",
+      "text": "Did you remember to grab the program for Dr. Simmon's program?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It's the purple one, isn't it? "
+    },
+    {
+      "speaker": "client",
+      "text": "All of them are purple. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "You right. You need to fix that shit."
+    },
+    {
+      "speaker": "client",
+      "text": "Add it to the list!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Before or after I get the coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "Uh, probably, like, now. Or this conversation never happened."
+    },
+    {
+      "speaker": "cashier",
+      "text": "That's the pre-coffee versus post-coffee difference!"
+    },
+    {
+      "speaker": "client",
+      "text": "Amen. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-88c923ca-780c-48e0-9233-330733f88e9e",
+  "created_at": "2026-02-15T15:44:17.166Z"
+}

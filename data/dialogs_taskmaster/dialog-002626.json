@@ -1,0 +1,121 @@
+{
+  "dialog_id": 2626,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2626"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello, I'd like you to order a coffee from Starbucks for me"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which location?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one on Military Street"
+    },
+    {
+      "speaker": "cashier",
+      "text": "in Green Bay?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "A cafe mocha"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Large"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Regular of decaf?"
+    },
+    {
+      "speaker": "client",
+      "text": "Decaf"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What type of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Skim milk"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like it extra hot?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Extra sugar or honey?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your drink is on order at Starbucks on Military and will be ready for pickup shortly. Your will receive a receipt via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thanks!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cafe mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-e1023dd9-2245-4e48-9d55-1af67b15852f",
+  "created_at": "2026-02-15T15:44:17.205Z"
+}

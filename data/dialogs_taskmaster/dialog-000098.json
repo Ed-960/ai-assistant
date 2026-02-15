@@ -1,0 +1,122 @@
+{
+  "dialog_id": 98,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=98"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I 'd like to order cafe mocha from the Starbucks on Blanding Boulevard in Orange Park, Florida."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can you please repeat the address?"
+    },
+    {
+      "speaker": "client",
+      "text": "It's a Starbucks on Blanding Boulevard in Orange Park, Florida."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the starbucks at blanding boulevard in orange park, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's the one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like a cafe mocha, a Grande with 2% milk and whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you say you want 2% milk and whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "let me confirm your order: a grande cafe mocha, with 2% milk and whipped cream. is this correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great! is there anything else you would like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your coffee will be ready for pickup at the starbucks at blanding boulevard in orange park shortly."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. Goodbye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you will receive a text message with your receipt in a little bit."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, okay. That's good to know. Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome! enjoy!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cafe mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-0c1bfe63-1b7a-4973-917f-a417d3149f6f",
+  "created_at": "2026-02-15T15:44:16.901Z"
+}

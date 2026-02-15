@@ -1,0 +1,112 @@
+{
+  "dialog_id": 725,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=725"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to order a pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, how many pizzas would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "four pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "Chicken barbecue."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what type of crust?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "so 4 large chicken bbq pizzas with extra cheesy crust, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. Correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your total is $42."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, order them."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be ready for pickup at bela luna's soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome, bye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Chicken barbecue",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken bbq pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheesy",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bela luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-64cf3ba6-20a2-41ee-9c5a-d7a9026182bd",
+  "created_at": "2026-02-15T15:44:16.970Z"
+}

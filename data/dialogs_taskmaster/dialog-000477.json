@@ -1,0 +1,115 @@
+{
+  "dialog_id": 477,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=477"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey. I need to order some pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sounds great. I can help with that, what did you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need two small pepperoni pizzas with extra cheese. And if possible, could I get them both square cut?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "you got it. 2 small pepperoni pizzas with extra cheese, both square cut."
+    },
+    {
+      "speaker": "cashier",
+      "text": "comes out to $24.50."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want me to place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds good."
+    },
+    {
+      "speaker": "client",
+      "text": "Yep."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. I've submitted your order, the pizzas will be ready for pick up in 45 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you need help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Could you give me the phone number real fast?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, it's 4 0 8."
+    },
+    {
+      "speaker": "cashier",
+      "text": "5 5 5."
+    },
+    {
+      "speaker": "cashier",
+      "text": "1233."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome, take care."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-42e48df2-0822-4bba-b476-e47ff3b3a3d6",
+  "created_at": "2026-02-15T15:44:16.943Z"
+}

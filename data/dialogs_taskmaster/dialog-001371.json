@@ -1,0 +1,139 @@
+{
+  "dialog_id": 1371,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1371"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I can actually send order with Bella Luna Pizzeria."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Want to get three medium pizzas veggie lovers if they have. If not, just have have put vegetables on broccoli."
+    },
+    {
+      "speaker": "client",
+      "text": "tomatoes and carrots, and they all need to be extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, they have a veggie lovers specialty pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, let's get three three medium of those with extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, there is an additional charge for extra cheese, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your total will be $60, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like pick-up, delivery, or dine-in?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm going to pick it up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your receipt will be texted to you and your order will be ready in 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks a lot, appreciate it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's it today, I appreciate your help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your pizza."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna Pizzeria",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "broccoli",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "carrots",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers specialty pizza",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-c573dc24-e699-4e57-afbd-e75c2b7104cf",
+  "created_at": "2026-02-15T15:44:17.039Z"
+}

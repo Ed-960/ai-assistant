@@ -1,0 +1,225 @@
+{
+  "dialog_id": 497,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=497"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, from where?"
+    },
+    {
+      "speaker": "client",
+      "text": "From Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, what kind of pizzas would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "What do you have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "you can create your own or there are special pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, sure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "i can suggest a few if you'd like."
+    },
+    {
+      "speaker": "cashier",
+      "text": "there is the house supreme, meat lover's, and hawaiian pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. So, I'll go with that one. I think I'll go with that one, pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to hear more specialties?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, do you want the hawaiian for all 3 pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "Actually, one Hawaiian and three supreme meat."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, so 4 small pizzas total?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "no problem, any other requests for the pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "can I get extra cheese on all the four pizzas?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let me put that in."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "there will be an extra charge for extra cheese, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Mm, that's fine."
+    },
+    {
+      "speaker": "client",
+      "text": "Hmm, yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and will you be dining in or getting delivery?"
+    },
+    {
+      "speaker": "client",
+      "text": "Getting delivery."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, let me confirm your order for you."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright."
+    },
+    {
+      "speaker": "cashier",
+      "text": "3 small house supremes, 1 small hawaiian, all with extra cheese for $60."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your pizzas will be delivered within 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Actually, I'm going to pick it up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, let me make that correction."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be ready for pickup in 20 minutes, thanks for ordering."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy!"
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "house supreme",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lover's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hawaiian pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "supreme meat",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "house supremes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hawaiian",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-45ee3dab-91c2-4fc0-836e-d605a31bf489",
+  "created_at": "2026-02-15T15:44:16.945Z"
+}

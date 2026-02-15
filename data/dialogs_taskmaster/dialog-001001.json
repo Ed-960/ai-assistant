@@ -1,0 +1,143 @@
+{
+  "dialog_id": 1001,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1001"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I might order some pizza from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want four large pizzas all of them with extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, did you just want cheese for all 4 pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I want other things for the pizzas. I just wanted to make sure all of them had extra."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, what toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want one with supreme, two with pepperoni sausage and onions and one veggie lovers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you are ordering 4 large pizzas with extra cheese, 1 supreme, 1 veggie lovers, 2 with pepperoni, sausage and onions, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "You got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, your total will be $100, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to dine-in, pick up or have your order delivered?"
+    },
+    {
+      "speaker": "client",
+      "text": "pick up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your pizzas will be ready in 40 minutes and your receipt will be texted to you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Great. No, that's all I needed."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Nothing, thanks for your help."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "supreme",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage and onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-8cb652df-0e52-44ca-8c4d-db9c5a1096e1",
+  "created_at": "2026-02-15T15:44:16.999Z"
+}

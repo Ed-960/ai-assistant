@@ -1,0 +1,235 @@
+{
+  "dialog_id": 1403,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1403"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Good afternoon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Good afternoon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you place a order for me at the new pizza place, Bella Luna?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing. What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to get a medium margherita pizza with thick crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "just one pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. Can I get more?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "alright you wanted it with thick crust right?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and the next one?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to get a medium veggie lover with no onion."
+    },
+    {
+      "speaker": "client",
+      "text": "also with thick crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and the next one?"
+    },
+    {
+      "speaker": "client",
+      "text": "And I'd like to get a medium double cheese with thick crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you want just mozzerella or would you like a specialty cheese?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, if they have Asiago."
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to add that, too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes they do."
+    },
+    {
+      "speaker": "client",
+      "text": "Great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "And I'd like to get a medium white pizza with pepperoni added."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. That's perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "4 mediums, 1 margherita with thick crust, 1 veggie lovers with no onion and also thick crust, 1 double cheese asiago with thick crust, and one medium white with pepperoni and thick crust right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great it'll be 45 dollars."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, sounds good. How long will it be?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "30 minutes till it's ready for pickup."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, I'll be there."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. have a good day."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. You, too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "thank you so much, goodbye."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "margherita pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lover",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "no onion",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "double cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mozzerella",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Asiago",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "white pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mediums",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "margherita",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "asiago",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "white",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-ca43f343-3a4f-4d02-87a1-92cd3feae7d9",
+  "created_at": "2026-02-15T15:44:17.042Z"
+}

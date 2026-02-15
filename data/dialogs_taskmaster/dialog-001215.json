@@ -1,0 +1,146 @@
+{
+  "dialog_id": 1215,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1215"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi. I'm trying to order an espresso from the Starbucks in at the Target in Cleveland, Ohio."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi there! How can I help?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, one moment let me find that."
+    },
+    {
+      "speaker": "client",
+      "text": "All right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is it at 4570 Frontage Rd NW, Cleveland, TN ?"
+    },
+    {
+      "speaker": "client",
+      "text": "Cleveland, Ohio."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, the starbucks at 3100 W 117th St, Cleveland, OH."
+    },
+    {
+      "speaker": "client",
+      "text": "I think that's right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright great, what can i get you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a espresso macchiato."
+    },
+    {
+      "speaker": "client",
+      "text": "And I want it to be a triple with 2% milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "a tripple Espresso Macchiato, with 2% milk, got it."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. No, that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Perfect! let me send it on over to starbucks."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "just one moment!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "My pleasure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, your order has been sent to your desired location. It will be ready for pickup in 5-8 min."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Great. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great day."
+    },
+    {
+      "speaker": "client",
+      "text": "You too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye."
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "espresso macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Espresso Macchiato",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-ac76780b-d6a7-40d1-ae90-3112b3c8fc20",
+  "created_at": "2026-02-15T15:44:17.022Z"
+}

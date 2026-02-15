@@ -1,0 +1,135 @@
+{
+  "dialog_id": 2222,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2222"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello there, I would like for you to order some coffee drink."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi there, how may I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to order a large size Caffe Latte from Peets in Los Angeles on Fraido Street."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How many would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to order just one large Caffe Latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What else do you like to have in there?"
+    },
+    {
+      "speaker": "client",
+      "text": "I don't want anything else. Maybe add some extra milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What type of milk do you want to have in your coffee drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "Add some steamed milk in the middle and with milk foam at the very top."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want full foam milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "No just only at the top and don't overfill the cup."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will write that down for you."
+    },
+    {
+      "speaker": "client",
+      "text": "How long do you think you can have it done?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I think within 25 minutes at the latest."
+    },
+    {
+      "speaker": "client",
+      "text": "That sounds great I think I can go pick it up within that time frame."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What else do you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I think for now I am good. I just want to order a cup of coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "That sounds great."
+    },
+    {
+      "speaker": "client",
+      "text": "I will let you know if I have anything else"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your drink will be shortly available and you will be able to go pick it up. Your receipt will be sent to your phone via text message. "
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You are welcome. Goodbye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large size",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caffe Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-76e66b54-bbed-4028-bf51-cae948a46931",
+  "created_at": "2026-02-15T15:44:17.157Z"
+}

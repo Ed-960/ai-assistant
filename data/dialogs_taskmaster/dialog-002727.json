@@ -1,0 +1,137 @@
+{
+  "dialog_id": 2727,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2727"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "tO PLEASE ORDER A CHEESE PIZZA FOR ME"
+    },
+    {
+      "speaker": "cashier",
+      "text": "fROM WHERE?"
+    },
+    {
+      "speaker": "client",
+      "text": "fROM tONY'S pIZZA"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what town is it in?"
+    },
+    {
+      "speaker": "client",
+      "text": "It is in popmpton lakes nj"
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you want anything on the pizza"
+    },
+    {
+      "speaker": "client",
+      "text": "no just cheese but with a light under crust"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok i will order it that way "
+    },
+    {
+      "speaker": "client",
+      "text": "i deliver it tio mmy home address"
+    },
+    {
+      "speaker": "cashier",
+      "text": "when do you want it delivered"
+    },
+    {
+      "speaker": "client",
+      "text": "as soon as they can do so"
+    },
+    {
+      "speaker": "cashier",
+      "text": "will tell them that"
+    },
+    {
+      "speaker": "client",
+      "text": "would also like a bottle odf pepsi along with that"
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay I will oreder that "
+    },
+    {
+      "speaker": "client",
+      "text": "please foind out how soon it will eb delivered"
+    },
+    {
+      "speaker": "cashier",
+      "text": "i will tell you after I conmtact them"
+    },
+    {
+      "speaker": "client",
+      "text": "make sure the light is on on the porch too"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will put it on now"
+    },
+    {
+      "speaker": "client",
+      "text": "that is all for now but alert me when they deliver the pizza "
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will do that. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "CHEESE PIZZA",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tONY'S pIZZA",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "popmpton lakes nj",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese but with a light",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "light under crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-ff87a7d2-8474-471c-abd0-4dcb98085c2a",
+  "created_at": "2026-02-15T15:44:17.216Z"
+}

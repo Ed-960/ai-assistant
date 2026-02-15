@@ -1,0 +1,153 @@
+{
+  "dialog_id": 1874,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1874"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "hi there becky i need your help"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "can you order a pizza from me from westside express?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yeah of course the one on the eastside sir?"
+    },
+    {
+      "speaker": "client",
+      "text": "yes the east location"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "i want two large pepperoni pizzas"
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay two large pepperoni pizzas"
+    },
+    {
+      "speaker": "client",
+      "text": "and that bread that i like, what is it called"
+    },
+    {
+      "speaker": "cashier",
+      "text": "the crazy bread?"
+    },
+    {
+      "speaker": "client",
+      "text": "yes the crazy bread."
+    },
+    {
+      "speaker": "cashier",
+      "text": " okay what else?"
+    },
+    {
+      "speaker": "client",
+      "text": "i want a pound of chicken wings"
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what flavor do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "let's do lemon parmeson"
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay and ranch with that?"
+    },
+    {
+      "speaker": "client",
+      "text": "yes please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay so that is two pepperoni large pizzas with lemon pepper wings and crazy bread"
+    },
+    {
+      "speaker": "client",
+      "text": "yes that is exactly what i want"
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay the receipt is going to your phone as a text and it'll be ready for pickup"
+    },
+    {
+      "speaker": "client",
+      "text": "when do i pick it up?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "in 25 minutes"
+    },
+    {
+      "speaker": "client",
+      "text": "okay thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "thank you bye bye"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "westside express",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "eastside",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "east location",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni pizzas",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-20f3c001-b0cb-482e-8d16-885fc3acdffc",
+  "created_at": "2026-02-15T15:44:17.112Z"
+}

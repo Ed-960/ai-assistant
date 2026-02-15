@@ -1,0 +1,144 @@
+{
+  "dialog_id": 1320,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1320"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hello! How may I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to place a pickup order for the Starbucks at the 1427 Lee Street location in Des Plaines, Illinois."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok."
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get one?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what drink would you like to get started?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get one caffe Americano venti size, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "hot or iced?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hot, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "2% if you could, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and finally, any syrups or sweeteners?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get three splendors added as well?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok sounds good. Will that be all?"
+    },
+    {
+      "speaker": "client",
+      "text": "That will be all for this."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You would like a venti hot cafe americano with 2% milk and 3 splendas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is this correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like the order made now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, order has been sent to starbucks on 1427 lee street."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your order will be ready soon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caffe Americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti size",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cafe americano",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-bc7e9c37-0884-4a26-8ef2-530241537671",
+  "created_at": "2026-02-15T15:44:17.034Z"
+}

@@ -1,0 +1,132 @@
+{
+  "dialog_id": 2220,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2220"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Can I get a Grande cafe latte from Starbucks, please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, which store would you like to order from "
+    },
+    {
+      "speaker": "client",
+      "text": "The store that's closest"
+    },
+    {
+      "speaker": "cashier",
+      "text": "So the one on 1068 Chapel Street."
+    },
+    {
+      "speaker": "client",
+      "text": "Sure, if that's the closest"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like milk and sugar?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, both, with non-fat milk please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Why not 2% milk, as it's the default?"
+    },
+    {
+      "speaker": "client",
+      "text": "It's fine, I'm trying to cut down on fat. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "I understand"
+    },
+    {
+      "speaker": "client",
+      "text": "Does the Latte have nuts? I'm allergic"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The website says they can't guarantee there aren't hints of nuts"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, but the Latte itself doesn't have nuts?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No"
+    },
+    {
+      "speaker": "client",
+      "text": "Does it come with whipped cream?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm not seeing it as an option, no "
+    },
+    {
+      "speaker": "client",
+      "text": "Ok. I'll take that then"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your latte will be ready for pickup shortly and your receipt will be sent to your phone through text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you "
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cafe latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "both",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-768bcb29-c970-4151-a9ad-8710b68d6c05",
+  "created_at": "2026-02-15T15:44:17.157Z"
+}

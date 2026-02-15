@@ -1,0 +1,121 @@
+{
+  "dialog_id": 2374,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2374"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello, I'd like to order a coffee drink from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, what location will you be picking up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The address is 7112 W North Ave in Chicago."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What coffee drink would you like today?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like a Cappuccino."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size would you prefer?"
+    },
+    {
+      "speaker": "client",
+      "text": "Size Medium, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you have a milk preference?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, soy milk please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like anything added to the drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "Some hazelnut would be great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like any sugar or whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What time would you like to pick up your coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "In about 15 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds good, anything else you would like to add?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, one moment while I place the order."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your Starbucks order for 7112 W North Ave is now confirmed. Estimated pick up time is 10-15 minutes. You can find your receipt shortly via text."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks! Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Medium",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-9cfe1e28-07af-4608-8bd5-11e67b83391c",
+  "created_at": "2026-02-15T15:44:17.175Z"
+}

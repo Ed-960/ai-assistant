@@ -1,0 +1,117 @@
+{
+  "dialog_id": 1898,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1898"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I would like to place an order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What store location "
+    },
+    {
+      "speaker": "client",
+      "text": "5997 Beckley Road, Battle Creek, MI 49014"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay what would you like to order"
+    },
+    {
+      "speaker": "client",
+      "text": "Carmel Latte"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size"
+    },
+    {
+      "speaker": "client",
+      "text": "Large"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of milk "
+    },
+    {
+      "speaker": "client",
+      "text": "Whole"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Cold or Hot"
+    },
+    {
+      "speaker": "client",
+      "text": "Hot"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like whipped cream"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is there anything eles on this order"
+    },
+    {
+      "speaker": "client",
+      "text": "No thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order will be ready in 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "How much do I owe?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Get your price at the window."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you for ordering Starbucks."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Carmel Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-26a69f71-c680-4696-a6d9-38b619107361",
+  "created_at": "2026-02-15T15:44:17.116Z"
+}

@@ -1,0 +1,138 @@
+{
+  "dialog_id": 1654,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1654"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Need to order coffee from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, what kind of coffee?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hello?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm here."
+    },
+    {
+      "speaker": "client",
+      "text": "How about a."
+    },
+    {
+      "speaker": "client",
+      "text": "caramel cappuccino?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay that's no problem. It comes with whipped cream is that okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "that is."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of milk did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Half and half."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay so that's a caramel cappuccino with half and half and whipped cream. What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay I'm seeing a lot of starbucks near you, which one should I place the order with?"
+    },
+    {
+      "speaker": "client",
+      "text": "One on corner of Yellowstone and Alameda."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it, one moment while I place your order."
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "SO that's a grande Caramel Cappuccino with whipped cream and half and half to be picked up from the starbucks on Yellowstone and El Camino."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It'll be ready in 15 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, I hope you enjoy it."
+    },
+    {
+      "speaker": "client",
+      "text": "I will. Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "caramel cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caramel Cappuccino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-f2dbd058-8702-4b09-ba81-e7beb3179a84",
+  "created_at": "2026-02-15T15:44:17.070Z"
+}

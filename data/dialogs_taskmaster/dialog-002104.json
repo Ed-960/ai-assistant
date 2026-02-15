@@ -1,0 +1,182 @@
+{
+  "dialog_id": 2104,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2104"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello [Assistant]. Could you place an order with The Pie To Go for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes [You], what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "First, Build-Your-Own 14\" Gluten Free Pie please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what type of cheese would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Cheddar/Mozzarella Blend."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, and what type of sauce?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Ranch Sauce, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome. Any toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, the Oven Roasted Chicken and Breakfast Bacon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, is that all?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I would also like the 14\" GF Breadsticks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, which type of GF Breadsticks?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Cheesy Breadsticks, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, so a 14\" Build-your-Own GF Pie and a 14\" GF Cheesy Breadsticks?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please ask the cashier for extra marinara sauce."
+    },
+    {
+      "speaker": "cashier",
+      "text": "He says that extra sauce is 50 cents, is that okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that is fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, your order has been placed and will be ready for pickup in 30 minutes."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "The Pie",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Build-Your-Own",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "14",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Gluten Free Pie",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "The Cheddar/Mozzarella Blend",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cheddar/Mozzarella Blend",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Ranch Sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Oven Roasted Chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Roasted Chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Breakfast Bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "14\"",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Build-your-Own GF Pie",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra marinara sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Okay, your order has been placed",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-587ee4a4-b891-4b90-8027-e0e8df8196ef",
+  "created_at": "2026-02-15T15:44:17.143Z"
+}

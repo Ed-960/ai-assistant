@@ -1,0 +1,99 @@
+{
+  "dialog_id": 1262,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1262"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi. Yes. I would like to order two large pizzas. I want both of them thin crust. I'd like one veggie lover and the other one I'd like pepperoni with light sauce."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi how can I help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's 2 large thin crust pizzas,one veggie lovers, one pepperoni with light sauce totaling out to 58 99 okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great your pizza will be ready for pickup in 30 minutes and you'll get the reciept via text."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, have a good one"
+    },
+    {
+      "speaker": "client",
+      "text": "You, too."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lover",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "light sauce.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "light sauce",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-b211eb23-02f2-463d-b684-e3c4a7483e3a",
+  "created_at": "2026-02-15T15:44:17.028Z"
+}

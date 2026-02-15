@@ -1,0 +1,135 @@
+{
+  "dialog_id": 250,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=250"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello. I'd like to order some pizza from Bella Luna, please. I'd like to order some pizza from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, what can i do for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Order pizza from Get me two mediums."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, how many pizzas would you like to order?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like pepperoni, extra sausage, and chicken for both."
+    },
+    {
+      "speaker": "client",
+      "text": "Did you get that?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "i did, do you have any crust preference?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. Maybe thin crust, I'm sorry."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Just to confirm: 2 medium pizzas. one pepperoni and one chicken, both with extra sauce, thin crust on both."
+    },
+    {
+      "speaker": "client",
+      "text": "Correct."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! your total will be $54.78."
+    },
+    {
+      "speaker": "client",
+      "text": "Please place the order. You're very welcome. Your pizzas will be ready in 45 minutes. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're very welcome, your pizzas will be ready in 45 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye!"
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mediums",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-222909d5-3f99-429f-931b-d386b047058f",
+  "created_at": "2026-02-15T15:44:16.918Z"
+}

@@ -1,0 +1,125 @@
+{
+  "dialog_id": 1379,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1379"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you today."
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I'd like to place an order for three large pizzas, two of them with extra cheese and a third one with bacon. All three of them would be need to be gluten-free crustless."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let's make that order. where did you want to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sounds good and what was that order again?"
+    },
+    {
+      "speaker": "client",
+      "text": "Three large pizzas with gluten free crust. Two of them with extra cheese and one of them with bacon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, let's see here..."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you want 3 large pizzas, with gluten free crust, 2 with extra cheese and 1 with bacon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the total for your order will be $44.92 and will take about 25 minutes to be ready for pick up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want to place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, go ahead and order. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the order has been placed. the card on file has been charged."
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else i can help with?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's it for today. Thank you for your help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok cool, bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-c714e6c6-961c-4344-a2b8-047ce310fcc1",
+  "created_at": "2026-02-15T15:44:17.040Z"
+}

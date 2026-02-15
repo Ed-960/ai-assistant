@@ -1,0 +1,74 @@
+{
+  "dialog_id": 1,
+  "client_profile": {
+    "gender": "male",
+    "age": 48,
+    "ageGroup": "middle",
+    "personality": "friendly",
+    "lang": "en",
+    "restrictions": {},
+    "childQuant": 2,
+    "companions": 0,
+    "hasPregnantWife": false,
+    "calApprValue": 1953,
+    "text": "48-year-old male. 2 child(ren). target calories ≈1953 kcal. ",
+    "regLine": "gender=male age=48 personality=friendly lang=en childQuant=2 calApprValue=1953"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hello! What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "..."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What about the kids?"
+    },
+    {
+      "speaker": "client",
+      "text": "We don't like sweets."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Understanding. Let's order McNuggets (64g) without sugar, Our World Famous Fries, and a soft drink."
+    },
+    {
+      "speaker": "client",
+      "text": "..."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Confirmation: McNuggets (64g) + Fries + Soft Drink. Size: 64g, 100g, 250ml."
+    },
+    {
+      "speaker": "client",
+      "text": "..."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you! Have a great day!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Our World Famous Fries®",
+        "quantity": 1,
+        "energy": 224.59
+      }
+    ],
+    "total_energy": 224.59,
+    "allergens_in_order": []
+  },
+  "total_energy": 224.59,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": true,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "created_at": "2026-02-15T16:44:58.836Z"
+}

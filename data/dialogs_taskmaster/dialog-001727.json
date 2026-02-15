@@ -1,0 +1,141 @@
+{
+  "dialog_id": 1727,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1727"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to get an iced Starbucks blonde black and white mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok you want an iced blonde coffee and black and white mocha."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to add milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, coconut."
+    },
+    {
+      "speaker": "cashier",
+      "text": "for both the iced blonde coffee and the black and white mocha?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to add whipped cream to the black and white?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok what size do you want your coffees in?"
+    },
+    {
+      "speaker": "client",
+      "text": "Venti."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, let me place that order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and which starbucks did you want to pick up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Portals in Washington, D.C."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok i have placed an order for a venti iced blonde coffee with coconut milk and venti black and white mocha with coconut milk at the portals in washington dc is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok great, your receipt will be texted to you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy your coffee."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "blonde black and white mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "blonde coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black and white mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black and white",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-ff1d65f3-a72b-4049-bc1b-5e8a0102bf55",
+  "created_at": "2026-02-15T15:44:17.087Z"
+}

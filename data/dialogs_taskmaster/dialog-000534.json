@@ -1,0 +1,90 @@
+{
+  "dialog_id": 534,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=534"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "to order three large pizzas. I'd like them to be Supremes without green peppers. And I also need gluten-free crust, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sorry, what type of crust did you say you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Gluten-free crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so to confirm, you said you want 3 large pizzas, supreme without green peppers and with gluten free crust, is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Supremes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "without green peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Gluten-free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "supreme",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-4cad56ce-79f8-4131-81cf-1cf67272a8ea",
+  "created_at": "2026-02-15T15:44:16.949Z"
+}

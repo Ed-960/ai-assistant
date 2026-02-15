@@ -1,0 +1,140 @@
+{
+  "dialog_id": 1315,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1315"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "good morning, how can i assist you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Are you there?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I need to order some pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let's do it. where from?"
+    },
+    {
+      "speaker": "client",
+      "text": "From Bella Luna?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what did you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to get medium pizzas. Let's do the first as a combination, and then the second one with pepperoni, black olives, Italian sausage, and green peppers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what kind of crust did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Want to do thick crust on both of them."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the total for 2 medium pizzas, 1 combination and 1 with pepperoni, black olives, italian sausage, and green peppers, both pizzas with thick crust comes out to $29.99."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want me to place the order now?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i've placed the order. it'll be ready for pick up in 45 mins."
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, that's it. Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you need anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "combination",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Italian sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "green peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "italian sausage",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-bc107aba-0907-4a76-a176-8e3cf186ca35",
+  "created_at": "2026-02-15T15:44:17.033Z"
+}

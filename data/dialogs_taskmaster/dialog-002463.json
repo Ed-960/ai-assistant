@@ -1,0 +1,132 @@
+{
+  "dialog_id": 2463,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2463"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I need you to order some pizza from Pizza Hut."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which one do you want me to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one in Macon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, do you know what you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Why don't you surprise me."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok any special requests"
+    },
+    {
+      "speaker": "client",
+      "text": "I don't want want to break the bank so Get a speical if they have it. I do prefer at least 2 toppings."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes sir. I believe they have a special on Large two topping pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want any sides?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, just a couple of Larges. Maybe some soda."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay I will have to order it online. then pick it up."
+    },
+    {
+      "speaker": "client",
+      "text": "Can you get it within an hour. I am getting hungry."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I don't think that will be a problem."
+    },
+    {
+      "speaker": "client",
+      "text": "Maybe I should have you pick up Casey's instead."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Whatever you want sir."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh never mind just stick with Pizza Hut."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Those pizzas will not have any special crust. Just hand tossed"
+    },
+    {
+      "speaker": "client",
+      "text": "That is what I prefer anyway. Not so greasy."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will get them ordered and head that way."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Pizza Hut",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Macon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Casey's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hand tossed",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-b5d2ca0c-1bfb-4107-9dc2-7a71f6235f97",
+  "created_at": "2026-02-15T15:44:17.185Z"
+}

@@ -1,0 +1,169 @@
+{
+  "dialog_id": 1205,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1205"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi! there?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "how may i assist?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, I'd like to order a a couple of pizzas from the new pizzeria Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, i can help with that. what did you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I like to order two small pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "both with thick crusts."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what toppings did you want on those two pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, on first one I'd like pepperoni, black olives, extra onions and jalapenos. And on the second pizza I'd like anchovies, pineapple and mushroom with extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, so you said 2 small pizzas with thick crust, 1 with pepperoni, black olives, extra onions and jalapenos and 1 with anchovies, pineapples, mushrooms and extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did i get that down correctly?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the total for this order is $25.99."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you want to place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, the pizzas will be ready at bella lunas for pick up in 25 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, no. That should do it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome, have a good one."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crusts",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra onions and jalapenos",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "anchovies",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple and mushroom",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "2 small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapples",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms and extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella lunas",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-ab175fbc-9492-4542-9c57-2c56b0f0e8e9",
+  "created_at": "2026-02-15T15:44:17.020Z"
+}

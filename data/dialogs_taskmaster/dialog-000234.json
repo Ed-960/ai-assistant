@@ -1,0 +1,118 @@
+{
+  "dialog_id": 234,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=234"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "We need to order a coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of coffee would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I wanted to get the iced Havana cappuccino from Peet's."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you have any milk preference?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, I'd like almond milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "medium."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so a medium iced havana cappuccino with almond milk, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "where would you like to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "from the store in South Gwen, Colorado."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can you please repeat that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Southglenn, Colorado."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your coffee will be ready for pickup soon at the peet's store in south gwen."
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy your coffee, bye!"
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Havana cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "havana cappuccino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-1f90e73a-fb92-4f0d-8ce1-8255cdc8cbc0",
+  "created_at": "2026-02-15T15:44:16.916Z"
+}

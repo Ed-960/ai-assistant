@@ -1,0 +1,101 @@
+{
+  "dialog_id": 1716,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1716"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I'd like to order a flat white from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like any milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to add any milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "just the milk, the cons of it."
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what size do you want it in?"
+    },
+    {
+      "speaker": "client",
+      "text": "A grande, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, you want a grande flat white, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "which location would you like to pick up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to pick up from the location on William F. McClellan Highway in Boston, Massachusetts."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, I have ordered you a grande flat white to be picked up at the Starbucks on William F. McClellan Highway, your drink will be ready in 5 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can I help you with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's all. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your welcome, enjoy your coffee."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "flat white",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-fd9e374b-229e-40f2-8e39-c2275b9052f4",
+  "created_at": "2026-02-15T15:44:17.085Z"
+}

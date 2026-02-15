@@ -1,0 +1,117 @@
+{
+  "dialog_id": 1575,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1575"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi there. I'd like to order some pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, i can help. What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like two large pizzas, one with sausage and onion and the other one veggie lovers, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. Did you want regular crust on those?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like thick crust on both of those."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok.You want 2 large pizzas with thick crust, 1 with sausage and onion, and 1 veggie lovers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "$44.59 is the total for the order. Should i charge the card on file now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, please. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, the order has been submitted. It'll be ready for pick up in 35 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else today?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that'll be all. Thank you so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome, you're very welcome. Enjoy those pizzas."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage and onion",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular crust on",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-e5c13418-87bc-4418-9234-fc2e9ba8a924",
+  "created_at": "2026-02-15T15:44:17.061Z"
+}

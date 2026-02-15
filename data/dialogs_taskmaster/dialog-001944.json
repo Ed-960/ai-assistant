@@ -1,0 +1,122 @@
+{
+  "dialog_id": 1944,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1944"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I need you to order me a coffee so I don't have to wait for it. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Where are you at? I mean which store are you wanting to pick it up from. "
+    },
+    {
+      "speaker": "client",
+      "text": "The Starbucks at Roswell and E.Piedmont."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You got it. What are you drinking?"
+    },
+    {
+      "speaker": "client",
+      "text": "Large Americano made with French Roast with two fingers of room at the top. Double cupped."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. So you want a large Americano with two fingers from the Starbucks on Roswell at East Piedmont?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's it. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "When do you want to pick it up. "
+    },
+    {
+      "speaker": "client",
+      "text": "Ten minutes. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'll give them a call and make sure they have it waiting for you. "
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks. You're the best."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want one of those Cranberry cookies that you like as well?"
+    },
+    {
+      "speaker": "client",
+      "text": "Now I do. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm sorry. I shouldn't have said anything. "
+    },
+    {
+      "speaker": "client",
+      "text": "Nah. You're good. I'd have been mad at myself for not ordering the cookie and probably gotten one anyway. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "So add a cookie. "
+    },
+    {
+      "speaker": "client",
+      "text": "Make it two cookies. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Two cookies it is. "
+    },
+    {
+      "speaker": "client",
+      "text": "Good looking out on the cookies. Talk to you later. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-31211b36-c5af-4b95-8109-6530969b2519",
+  "created_at": "2026-02-15T15:44:17.123Z"
+}

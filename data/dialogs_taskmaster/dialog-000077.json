@@ -1,0 +1,191 @@
+{
+  "dialog_id": 77,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=77"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi!"
+    },
+    {
+      "speaker": "client",
+      "text": "Good evening."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I can hear myself in the background. Did you remember to put on headphones or earbuds?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I've done that now."
+    },
+    {
+      "speaker": "cashier",
+      "text": "are you ready?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I am. Please, I need to order some pizza from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, sure, what do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need four small pizzas with thin crust and chicken barbecue."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OKay, Bella Luna is all out of chicken, would you like to choose something else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, maybe veggie lover's with thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, and that's for all 4 of them?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, four small pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay, anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, give me a preview of the order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay, i have 4 small think crust pizzas and all of them to be veggie lovers."
+    },
+    {
+      "speaker": "client",
+      "text": "Exactly. That's what I need. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is all for now."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay, let me send that over."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright."
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright you're all set. your pizzas are being made as we speak."
+    },
+    {
+      "speaker": "client",
+      "text": "All right, thank you very much. I appreciate your effort."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're very welcome."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. That is all for now."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be ready for pick up in 40 mins."
+    },
+    {
+      "speaker": "client",
+      "text": "All right, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome. Goodbye!"
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken barbecue",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lover's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "think crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-09d4bbc4-4ad2-43f7-8ddf-6040af31ce41",
+  "created_at": "2026-02-15T15:44:16.897Z"
+}

@@ -1,0 +1,130 @@
+{
+  "dialog_id": 1020,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1020"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'd like to order a pizza from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi, how can I help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok and what type of pizza did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Three medium Pepperoni pizzas with thick crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is that all?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You said you wanted 3 medium Pepperoni pizzas with thick crust?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Does that sound right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, the total will be $36.99."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like me to place the order for you now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You got it. I've placed your order at Bella Luna's and it should be ready for pick up in 25 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else I can help you with today sir?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pepperoni pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pepperoni pizzas with",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-8e8f72ba-d424-48ff-b583-ce45653bd622",
+  "created_at": "2026-02-15T15:44:17.001Z"
+}

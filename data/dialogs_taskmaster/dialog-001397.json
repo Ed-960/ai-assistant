@@ -1,0 +1,135 @@
+{
+  "dialog_id": 1397,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1397"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi how are you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm good. I would like to order some coffee from Starbucks, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great what starbucks shall I order this with?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one that's closest to me."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can you give me a cross street?"
+    },
+    {
+      "speaker": "client",
+      "text": "From among mainstream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Main and 5th is the closest one."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Yeah, I'll go with that one, then."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What coffee did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I was thinking a venti black and white mocha with no whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it, and what milk did you want to use?"
+    },
+    {
+      "speaker": "client",
+      "text": "2%'s fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay and did you want it iced or hot?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll take a iced."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great and would you like any syrups?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, chocolate syrup, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. I'll go ahead and place an order for your venti iced black and white mocha with chocolate syrup, no whipped cream."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome, thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You'll get the reciept via text soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thanks a lot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "have a good day."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "white mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced black",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-c955014d-5492-4092-bf09-e967c2d84a5b",
+  "created_at": "2026-02-15T15:44:17.042Z"
+}

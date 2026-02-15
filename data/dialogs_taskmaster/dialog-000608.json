@@ -1,0 +1,190 @@
+{
+  "dialog_id": 608,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=608"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I would like to order a pizza from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need four medium pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok and what toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "On the first pizza, I want barbecue chicken. On the second pizza, I'd like a supreme. On the third pizza, I would like Hawaiian. And on the fourth pizza, I just want cheese and pepperoni, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay, what type of crust would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "Same crust, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the supreme pizza only comes in thick crust, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I'd like to change the pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like instead?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll take a thin crust sausage pizza, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you got it. Any special instructions?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope."
+    },
+    {
+      "speaker": "cashier",
+      "text": "4 medium pizzas, a bbq chicken, sausage, a hawaiian and pepperoni. All of them are thin crust. Is this correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay, the total is $45."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome. Your pizzas will be ready for pickup at bella lunas in 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you, have a good day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you too, bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "barbecue chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "supreme",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "the supreme pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bbq chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella lunas",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-55ffab0e-b32f-4c9f-be0c-f9eced7c89d7",
+  "created_at": "2026-02-15T15:44:16.958Z"
+}

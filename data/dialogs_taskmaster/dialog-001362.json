@@ -1,0 +1,122 @@
+{
+  "dialog_id": 1362,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1362"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there! How can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "I I want to book a coffee in Starbucks, espresso beverages."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, you're looking to order a coffee at starbucks, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What can I get you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm sorry, what type of coffee did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want Starbucks coffee-type."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, starbucks sells a lot of different coffees, which one did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi there! How can I help?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I I want to book a coffee in Starbucks, espresso beverages."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, you're looking to order a coffee at starbucks, is that correct?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yeah, correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What can I get you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm sorry, what type of coffee did you want?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I want Starbucks coffee-type."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, starbucks sells a lot of different coffees, which one did you want?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I want whipped cream."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Starbucks coffee-type",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "coffees",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-c469436b-f7f0-4db8-80b8-66eef6d869eb",
+  "created_at": "2026-02-15T15:44:17.038Z"
+}

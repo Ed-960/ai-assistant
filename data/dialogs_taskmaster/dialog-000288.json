@@ -1,0 +1,139 @@
+{
+  "dialog_id": 288,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=288"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there, what would you like to do today?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "client",
+      "text": "Iced Pumpkin Spice latte, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ice pumpkin spice latte, right."
+    },
+    {
+      "speaker": "client",
+      "text": "That's right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what type of milk do you want in your drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "First one, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok i heard 2% is that right."
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and the size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grande, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok so that is 1 order of grande ice pumpkin spice latte with 2% milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any additional flavoring for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that is all. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, which store you would like to pick up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Starbucks on Route 40 in Columbia, Maryland, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, route 40 columbia, maryland got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "drink has been ordered at the local store and will be ready for pickup shortly."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be sent to your mobile device via text message."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you need anything else."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks. Nope, I'm good. Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, enjoy your coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Iced Pumpkin Spice latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ice pumpkin spice latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-281317ac-33dc-47bd-9ee8-50e17f437088",
+  "created_at": "2026-02-15T15:44:16.922Z"
+}

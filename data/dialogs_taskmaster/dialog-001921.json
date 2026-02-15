@@ -1,0 +1,162 @@
+{
+  "dialog_id": 1921,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1921"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Good morning Mike."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hey Tracey, how is your morning going? "
+    },
+    {
+      "speaker": "client",
+      "text": "Not that great I have a headache, my temples really hurt."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Wow would you like some meds?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that will only make it worst. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sorry to here that boss. "
+    },
+    {
+      "speaker": "client",
+      "text": "How about some coffee?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yeah, that should work name the place and I'll go."
+    },
+    {
+      "speaker": "client",
+      "text": "Well you don't have to I'll call it in. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Wow they do that now? "
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I'm ordering from the local grocery store . "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh yeah?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay what am I picking up. "
+    },
+    {
+      "speaker": "client",
+      "text": "How about a tall Espresso with 2 shots."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay got it, anything else."
+    },
+    {
+      "speaker": "client",
+      "text": "No, that is all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay when will this be ready?"
+    },
+    {
+      "speaker": "client",
+      "text": "Give it about 10 -15 minutes. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Will I need a credit card or its already paid for?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh I remember doing this."
+    },
+    {
+      "speaker": "client",
+      "text": "When i ordered they said it would be sent to your mobile device "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great."
+    },
+    {
+      "speaker": "client",
+      "text": "Well see you soon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Are you sure you don't want anything ?"
+    },
+    {
+      "speaker": "client",
+      "text": "Well can you add a Gingerbread latte as well."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. "
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks so much"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay Ill make a note so you get the receipt sent to the phone. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Gingerbread latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-2bd4de77-93d3-417c-870e-84c7257fe42d",
+  "created_at": "2026-02-15T15:44:17.120Z"
+}

@@ -1,0 +1,117 @@
+{
+  "dialog_id": 1065,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1065"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi there. I'd like to order three large pizza's from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "One Hawaiian pizza, one supreme pizza, and one veggie lovers and all of those with gluten free crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the order is: 3 large gluten free crust pizzas. one hawaiian, a supreme and a veggie lovers. correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, the total is $45."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be ready for pickup at bela luna's soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome, bye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hawaiian pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "supreme pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers and",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "supreme",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bela luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-9768b40c-690e-4c2b-a944-be228b4ee938",
+  "created_at": "2026-02-15T15:44:17.006Z"
+}

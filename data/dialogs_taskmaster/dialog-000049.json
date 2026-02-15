@@ -1,0 +1,189 @@
+{
+  "dialog_id": 49,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=49"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there! How can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I need a place to pick up order at Bella Luna for two medium pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure! what would you like on them?"
+    },
+    {
+      "speaker": "client",
+      "text": "On one of them I want half ham and pineapple and the other half of that to be sausage and then on the other pizza I want half green pepper and the other half pepperoni. Yeah, pepperoni."
+    },
+    {
+      "speaker": "client",
+      "text": "And I want both of them to be thick crust if available."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright 2 medium pizzas, with thick crust. the first pizza has one half with ham and pine apple, the other half sausage. And the 2nd pizza is half green peppers, and the other half pepperoni."
+    },
+    {
+      "speaker": "client",
+      "text": "You got it. It was thick crust. If you said that, I missed it. But yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes, thick crust for both!"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep, you got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great! the total for those will be $ 28.44."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sounds good?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright! give me one moment while I send your order to Bella Luna."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright! all set, your order is being prepared."
+    },
+    {
+      "speaker": "client",
+      "text": "Fantastic. Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will be ready for pickup in 40 min."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. 40 minutes. They're busy today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yeah, for a friday i guess that's normal! Well you have a great day!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks. You, too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "goodbye."
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna for",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "half ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "half green pepper",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "half pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one half with ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pine apple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "half sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "half green peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-079836d0-316a-4694-b297-f4e459365f45",
+  "created_at": "2026-02-15T15:44:16.894Z"
+}

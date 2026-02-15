@@ -1,0 +1,177 @@
+{
+  "dialog_id": 1857,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1857"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi there I'd like a pizza from Papa John's."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing what kind do you want."
+    },
+    {
+      "speaker": "client",
+      "text": "Hmmm I thibk Im gonna go with Johns Special this time, with extra cheese please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok and what size did you want it to be?"
+    },
+    {
+      "speaker": "client",
+      "text": "Extra Large definitely."
+    },
+    {
+      "speaker": "cashier",
+      "text": "They actually dont make that pizza that size but it is XL an then you can papa size it up."
+    },
+    {
+      "speaker": "client",
+      "text": "I mean sure I guess thats fine. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great what toppings did you want on it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Well extra cheese, pepperoni, green peppers, four cheese blend and bacon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nah that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok so thats a extra large johns special with extra cheese, pepperoni, green peppers, four cheese blend, and bacon?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes that is right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great well then your pizza order is complete and the pizza will be ready for pickup in about 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Great thats not a long time."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Nah thats pretty quick,actually."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah well thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem and the reciept will be sent to you're phone."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok thanks again, bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Bye bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Papa John's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Papa John's.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Johns Special",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Extra Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "XL",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "green peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "four cheese blend",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "johns special",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese,",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Great well then your pizza order is complete",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-1c2cb50c-43b7-4ab5-ba07-46d680c919ab",
+  "created_at": "2026-02-15T15:44:17.110Z"
+}

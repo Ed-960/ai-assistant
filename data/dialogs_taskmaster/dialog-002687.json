@@ -1,0 +1,205 @@
+{
+  "dialog_id": 2687,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2687"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey can you do me a favor a order me a pizza from Pats?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Pats in Pt. Boro?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yup that's the one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a Philly Special."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok so a Philly Special is peppers, onions, mushrooms and sausage right?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's right but I'm not feeling mushrooms today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok so you want a Philly Special minus the mushrooms"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes that's right"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of style pizza do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm feeling Grandma style today"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. What size do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Make it an extra large. I'm feeling quite hungry today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok great so that's an Extra Large Grandma Style Philly Special with no mushrooms?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yup that's right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Pick up or Delivery?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll just go pick it up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok great. I just called it in. They said it will be about 25 minutes and your order number is 33. Ayour receipt will be sent to your mobile device via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope that's all for now thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pats",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pt. Boro",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Philly Special",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "not feeling mushrooms today",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "minus the mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grandma style",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Extra Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grandma Style",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grandma Style Philly Special",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "with no mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "no mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Ok great. I just called it in. They said it will be about 25 minut",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-f2fd13f3-1cf4-40d7-a89c-bb47609a0b83",
+  "created_at": "2026-02-15T15:44:17.212Z"
+}

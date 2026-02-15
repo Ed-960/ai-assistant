@@ -1,0 +1,130 @@
+{
+  "dialog_id": 1072,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1072"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi. Good afternoon. I was hoping to place a pickup order for Starbucks, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "client",
+      "text": "Let me go ahead and get a"
+    },
+    {
+      "speaker": "client",
+      "text": "A grande caffè latte, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to add any milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. Can I go ahead and get soy milk in that, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, so you are ordering a grande caffe latte with soy milk, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, can I also make sure I can get a Splendas as well?"
+    },
+    {
+      "speaker": "client",
+      "text": "Mixed in, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "on the side or mixed in?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, i'll add that"
+    },
+    {
+      "speaker": "cashier",
+      "text": "and which location would you like to pick up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I was hoping to pick up from 141 West 3rd Street in Fort Worth."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, let me send your order to that location, one moment."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i have ordered you a grande caffe latte with soy milk and 2 splendas mixed in, to be picked up at the starbucks on 3rd street in fort worth, your drink will be ready in 5 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "No. You've been incredibly helpful this afternoon. That's all I need for now. Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, enjoy your coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caffè latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caffe latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-98b4c6f4-ab77-4c48-8183-24e285cb10a4",
+  "created_at": "2026-02-15T15:44:17.006Z"
+}

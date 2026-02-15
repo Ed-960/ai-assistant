@@ -1,0 +1,218 @@
+{
+  "dialog_id": 2012,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2012"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, I'd like you to call Fillmore Pizza and order dinner for me to pick up on my way home."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, no problem. What do you want me to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you get a pesto pizza and one with regular tomato sauce?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size pesto pizza do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Large. And can you get it gluten free?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I think they only offer small gluten free pizzas at Fillmore."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, right. Okay, normal largethen."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. Any toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. Actually, hang on... let's add extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind? They've got a bunch of fancy cheeses you can add as toppings."
+    },
+    {
+      "speaker": "client",
+      "text": "Just regular mozzarella."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Cool. What about the other pizza, the regular tomato sauce one?"
+    },
+    {
+      "speaker": "client",
+      "text": "Also a large for that one, with broccoli and garlic as toppings."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Roasted garlic okay? They don't have any other kind."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's fine. What's the total?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "One large pesto pizza with extra mozzarella cheese, and one large tomato sauce pizza with roasted garlic and broccoli. $31.03, plus tax."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "All right, hang on. Okay, your order is complete and the pizzas will be ready for pickup in about 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I billed it to your normal account. You should get the receipt on your phone as a text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Just got it. Thank you so much!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome. Do you need anything else before I go home?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, that's it. Good night!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Good night."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Fillmore Pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pesto pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular tomato sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tomato sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Fillmore",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular mozzarella.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mozzarella",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "broccoli",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "garlic",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Roasted garlic",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra mozzarella cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tomato sauce pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "roasted garlic",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-41566e14-bf9b-46dd-bf68-e838f28923b2",
+  "created_at": "2026-02-15T15:44:17.133Z"
+}

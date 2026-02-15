@@ -1,0 +1,118 @@
+{
+  "dialog_id": 214,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=214"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. Can I get three small pizzas from Bella Luna all with thick crust?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "olives el peppers on all of them."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you are ordering 3 small thick crust pizzas, with spinach, olives, and bell peppers, is that correct?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, your total will be $39, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Can I get it for delivery, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, please note that your order does not include tip."
+    },
+    {
+      "speaker": "client",
+      "text": "That's fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be delivered within 45 minutes and your receipt will be texted to you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's all. Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your welcome, enjoy your pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. Bye-bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "spinach",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bell peppers",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-1c65ae74-af7d-43dd-a1f5-25bf8b7c7438",
+  "created_at": "2026-02-15T15:44:16.914Z"
+}

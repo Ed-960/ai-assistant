@@ -1,0 +1,111 @@
+{
+  "dialog_id": 155,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=155"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'd like to place a pizza order from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing, what kind of pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like four pizzas, medium size, two cheese, one pepperoni, one meat lover's. And the crust needs to be gluten-free."
+    },
+    {
+      "speaker": "cashier",
+      "text": "4 pizzas, 2 cheese, one pepperoni, one meatlovers, gluten free crust."
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great and your total is $45.88."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It'll be ready in 30 minutes and you'll get the reciept via mobile."
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a good one, bye."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lover's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meatlovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-144afcc0-f5af-4e8b-b689-b188e387c944",
+  "created_at": "2026-02-15T15:44:16.907Z"
+}

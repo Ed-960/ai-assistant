@@ -1,0 +1,127 @@
+{
+  "dialog_id": 1835,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1835"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Lise can you go get us some coffee from Starbucks pleasw"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course the one one W Broadway?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah sure sounds good"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like ?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll have a tall latte with almond milk please and Jo will have a grande cappucino with soy milk...and get yourself something if you want to"
+    },
+    {
+      "speaker": "cashier",
+      "text": "any add-ons ? sugar ?"
+    },
+    {
+      "speaker": "client",
+      "text": "honey for Jo nothing for me "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright I'm placing the order on the app"
+    },
+    {
+      "speaker": "client",
+      "text": "Good when is the pickup?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your drink is on order at the store on W broadway"
+    },
+    {
+      "speaker": "client",
+      "text": "ok I'm on my way"
+    },
+    {
+      "speaker": "cashier",
+      "text": "and your receipt will be sent to your phone"
+    },
+    {
+      "speaker": "client",
+      "text": "great thanks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "n/a"
+    },
+    {
+      "speaker": "client",
+      "text": "n/a"
+    },
+    {
+      "speaker": "cashier",
+      "text": "n/a"
+    },
+    {
+      "speaker": "client",
+      "text": "n/a"
+    },
+    {
+      "speaker": "cashier",
+      "text": "n/a"
+    },
+    {
+      "speaker": "client",
+      "text": "n/a"
+    },
+    {
+      "speaker": "cashier",
+      "text": "n/a"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cappucino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-14fc8eef-0a47-4be9-86e8-cd4adda2197c",
+  "created_at": "2026-02-15T15:44:17.106Z"
+}

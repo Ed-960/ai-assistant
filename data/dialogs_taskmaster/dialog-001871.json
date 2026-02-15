@@ -1,0 +1,117 @@
+{
+  "dialog_id": 1871,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1871"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey Google, can you order me a coffee drink from starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, in what place?"
+    },
+    {
+      "speaker": "client",
+      "text": "In Winchester Rd, Temecula"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is that 41195 Winchester Rd, Temecula California?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what drink would you love to have?"
+    },
+    {
+      "speaker": "client",
+      "text": "Iced Cappuccino with Cold Foam."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok is that Iced Cappuccino with Cold Foam?"
+    },
+    {
+      "speaker": "client",
+      "text": "yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Perfect. What Milk should we add their?"
+    },
+    {
+      "speaker": "client",
+      "text": "Almond milk"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size of the drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grande"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok got it Grande Iced Cappuccino with Cold Foam and almond milk added to it. What else would you love to add?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nothing that's just perfectly fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok Iced Cappuccino with Cold Foam and almond milk Grande will be ready in Winchester Rd, Temecula in about 7 minutes from now."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you google."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No probelm Kevin, Your drink will be ready for pick up in 7 minutes and your receipts will be sent via text message. "
+    },
+    {
+      "speaker": "client",
+      "text": "Oh sweet, Thanks google"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Enjoy your Coffee kevin."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Iced Cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-1fea3a25-ad63-4e2d-b3d4-db487bab5b7e",
+  "created_at": "2026-02-15T15:44:17.112Z"
+}

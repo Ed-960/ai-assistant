@@ -1,0 +1,140 @@
+{
+  "dialog_id": 2541,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2541"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I would like to order a coffee drink from Starbucks please for pick up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which Sfarbucks store would you like to pick up at?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to get it at 410 Hunt road blue ash ohio, 45236.."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok I have found that on the ordering app what would you like today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get a Cafe Mocha please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get a Venti please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What type of milk would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Almond milk please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like whip cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "No I don't want any whip cream today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like the chocolate drizzle topping?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok so just a venti cafe mocha, with almond milk no whip cream and no toppings."
+    },
+    {
+      "speaker": "client",
+      "text": "THat is correct. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "How soon would you like to pick this up?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to get it in 30 minutes. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok your total is 5.45 and it will be ready at the blue ash location in 30 minutes. "
+    },
+    {
+      "speaker": "client",
+      "text": "That sounds perfect. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "I paid for it with your app and stored credit card. A receipt will be texted to you. "
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you have a good day, good bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "good bye. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cafe Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cafe mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cafe mocha,",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-cb3e1e8f-43bf-4ff5-b62e-fba6b8853e31",
+  "created_at": "2026-02-15T15:44:17.195Z"
+}

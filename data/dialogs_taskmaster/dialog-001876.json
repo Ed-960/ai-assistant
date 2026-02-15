@@ -1,0 +1,117 @@
+{
+  "dialog_id": 1876,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1876"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey can you order me a starbucks iced coffee?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which starbucks location?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one on 9th and L street please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "for pickup immediately or later?"
+    },
+    {
+      "speaker": "client",
+      "text": "now please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what size did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "a grande in a venti cup, extra ice."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "how about almond milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any sweetener in the iced coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes but one less than pump than regular."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay can i get you anything else? any food?"
+    },
+    {
+      "speaker": "client",
+      "text": "no thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay so a grande iced coffee in a venti with extra ice, sweetener minus one pump and almond milk."
+    },
+    {
+      "speaker": "client",
+      "text": "you got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I put it in and it should be ready soon for pickup. i'll text you the receipt to your cell."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay thanks! i'm on my way there right now."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great day! "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-2223187c-da18-4652-a447-a47703657ed5",
+  "created_at": "2026-02-15T15:44:17.113Z"
+}

@@ -1,0 +1,146 @@
+{
+  "dialog_id": 986,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=986"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there! How can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I'm looking to get a drink from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, i can help with that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What can I get started for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Could I get a venti caffe latte with whole milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing, a venti Caffè Latte, with whole milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any added sugars?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "how about whip cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "alright, got it! anything else for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay, and which starbucks should i send this order to?"
+    },
+    {
+      "speaker": "client",
+      "text": "I get the one at."
+    },
+    {
+      "speaker": "client",
+      "text": "There sure is Gateway shops that is on."
+    },
+    {
+      "speaker": "client",
+      "text": "9001 East 116th Street."
+    },
+    {
+      "speaker": "cashier",
+      "text": "alright, got it!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "give me a moment to send it on over."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "My pleasure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, your order has been sent to your desired location. It will be ready for pickup in 5-8 min."
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "have a good one!"
+    },
+    {
+      "speaker": "client",
+      "text": "You as well."
+    },
+    {
+      "speaker": "cashier",
+      "text": "thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "byebye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caffe latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caffè Latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-8af2c8bb-2f8a-4e64-b28e-245fe6842bdf",
+  "created_at": "2026-02-15T15:44:16.997Z"
+}

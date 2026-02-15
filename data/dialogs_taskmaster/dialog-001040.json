@@ -1,0 +1,86 @@
+{
+  "dialog_id": 1040,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1040"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "How can I help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay what size did you want?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "And did you have any extras or add-ons in mind?"
+    },
+    {
+      "speaker": "client",
+      "text": "2% milk for my latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. I've got a tall latte with 2% milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which starbucks is the closest to you?"
+    },
+    {
+      "speaker": "client",
+      "text": "a regular."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, I've sent your order to the one on Macarthur blvd."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem it'll be ready for pickup in 15 minutes, enjoy your coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-9337451f-b252-4bdc-9cfd-bdc96a390ac8",
+  "created_at": "2026-02-15T15:44:17.003Z"
+}

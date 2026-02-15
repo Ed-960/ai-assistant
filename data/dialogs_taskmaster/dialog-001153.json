@@ -1,0 +1,114 @@
+{
+  "dialog_id": 1153,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1153"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I need a pick me up. Can I ordr something from Starbucks, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of coffee would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get a Cinnamon Dolce Latte, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get a grande?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you have any milk preference?"
+    },
+    {
+      "speaker": "client",
+      "text": "2% milk."
+    },
+    {
+      "speaker": "client",
+      "text": "Can you add whipped cream please with cinnamon a dash of cinnamon on top?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "so a grande cinnamon dolce latte, with 2% milk and whipped cream and cinnamon on the top, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, where would you like to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "4th Street in Colorado Springs."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your coffee will be ready for pickup soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy, bye!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. Have a good day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you too!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cinnamon Dolce Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cinnamon dolce latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-a26c1f10-3616-4d50-8d99-d29494f3d833",
+  "created_at": "2026-02-15T15:44:17.015Z"
+}

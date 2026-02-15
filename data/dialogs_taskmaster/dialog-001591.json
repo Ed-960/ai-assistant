@@ -1,0 +1,149 @@
+{
+  "dialog_id": 1591,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1591"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi there, could i ask you some questions about your movie preferences?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "client",
+      "text": "Hello."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great thanks, what kind of movies do you generally like watching?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need to order a pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "i can't quite hear you, could you speak closer to the mic?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need to order a pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "Hello?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i can help with that. where do you want to order pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "Bella Luna."
+    },
+    {
+      "speaker": "client",
+      "text": "I want to get two pizzas. They will both be small. And I want to get a pepperoni pizza with extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of pizza do you want to order?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "please speak closer to the mic, i was unable to hear your order."
+    },
+    {
+      "speaker": "client",
+      "text": "I need two small pizzas, pepperoni pizzas, with extra cheese on both of."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you said 2 small pizzas, pepperoni with extra cheese on both."
+    },
+    {
+      "speaker": "client",
+      "text": "That's all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "two pizzas will be $24. should i place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, the order has been placed, it'll be ready for pick up in 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome then."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-e8a928d3-3d10-42dc-a5ce-710ef036e7b8",
+  "created_at": "2026-02-15T15:44:17.063Z"
+}

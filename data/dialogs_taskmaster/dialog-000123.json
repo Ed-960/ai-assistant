@@ -1,0 +1,150 @@
+{
+  "dialog_id": 123,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=123"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can I help you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like to order a coffee from Starbucks on North Bend Road in Cincinnati, Ohio."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok starbucks from cincinnati ohio is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "where in cincinnati ohio would you like to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "North Penn Road."
+    },
+    {
+      "speaker": "cashier",
+      "text": "north bend rd cincinnati ohio is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok what kind of coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "I like a caffè latte grande with 2% milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok latte grande 2% milk is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any additional flavoring for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok let me find the store closes to you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "we have a starbucks store at 8421 Winton Rd is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok let me confirm your order for you."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so thats 1 latte grande 2% milk without any additional flavoring at the starbucks store at 8421 Winton Rd is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your drink has been ordered at the store and will be ready for pickup shortly."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be sent to their mobile device via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, enjoy your coffee."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "caffè latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-1127cd66-697e-4f13-badd-3acbf1beaa62",
+  "created_at": "2026-02-15T15:44:16.903Z"
+}

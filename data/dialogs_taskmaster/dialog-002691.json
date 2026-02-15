@@ -1,0 +1,131 @@
+{
+  "dialog_id": 2691,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2691"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello, I would like to order a coffee drink from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, what Starbucks do you want to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order from the Starbucks in downtown Oakland."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, and what do you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to order a latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, what size do you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to order a Grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, what type of milk do you want in your latte?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like regular 2% milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, 2% milk. Would you like to add anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would like to add a vanilla flavor shot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, and do you want your drink to be hot or iced?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like it to be hot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, is there anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that will be it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, so I have an order for a grande Latte with 2% milk and vanilla, served hot."
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, I will place your order at the Starbucks in downtown Oakland."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order for a grande latte with 2% milk and vanilla, served hot, from the downtown Oakland Starbucks has been placed. Your order will be ready for pick up shortly and the receipt will be sent via text to your mobile device."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-f3ec3ca9-3542-45fc-bed3-8acb9d1d1be8",
+  "created_at": "2026-02-15T15:44:17.212Z"
+}

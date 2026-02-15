@@ -1,0 +1,102 @@
+{
+  "dialog_id": 1414,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1414"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey, I need to order a coffee from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, i can place the order for you. which starbucks should i place an order at?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would"
+    },
+    {
+      "speaker": "client",
+      "text": "the one on Archer Avenue in Downtown Chicago."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. what would you like from there?"
+    },
+    {
+      "speaker": "client",
+      "text": "a hot venti caramel macchiato with 2% milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that will be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "1 hot venti caramel macchiato with 2% milk from starbucks on archer avenue in downtown chicago will be $4.55. should i place the order for you now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "i've placed your order. it'll be ready for pick up in approximately 10 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that'd be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome. i just sent the receipt to your mobile device, take care."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caramel macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-cb383075-b0b7-4af3-980d-7a072d951875",
+  "created_at": "2026-02-15T15:44:17.044Z"
+}

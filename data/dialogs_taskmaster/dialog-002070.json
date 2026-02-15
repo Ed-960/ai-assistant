@@ -1,0 +1,202 @@
+{
+  "dialog_id": 2070,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2070"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello I would like to order some pizza from Pizza Hut."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you mean the one on Dunan By-Pass."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, That's the one!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "May I help you with your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would like a Ham and pineapple pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size, small, medium or large?"
+    },
+    {
+      "speaker": "client",
+      "text": "Large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would there be anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would also like a large perreroni Pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "O.K is that all?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I would like some hot wings."
+    },
+    {
+      "speaker": "cashier",
+      "text": "6 or 12 piece Hot wings?"
+    },
+    {
+      "speaker": "client",
+      "text": "12 Piece."
+    },
+    {
+      "speaker": "cashier",
+      "text": "O.k would that be all?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would also like some cheese sticks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Will that be all for today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Will this be pick up or delivery?"
+    },
+    {
+      "speaker": "client",
+      "text": "Delivery"
+    },
+    {
+      "speaker": "cashier",
+      "text": "O.K what is the address?"
+    },
+    {
+      "speaker": "client",
+      "text": "That would be 513 Homemade Street"
+    },
+    {
+      "speaker": "cashier",
+      "text": "O.K your order is delivery at 513 Homemade Street."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your total is 35.00 dollars"
+    },
+    {
+      "speaker": "client",
+      "text": "O.k can I go ahead and pay for that with my card?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes!"
+    },
+    {
+      "speaker": "client",
+      "text": "O.k here is my info."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank-you for your order it will arrive in 15 mins."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank-you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank-you and have a good day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Pizza Hut",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pizza Hut.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Dunan By-Pass",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Dunan By-Pass.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Ham and pineapple pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Ham and pineapple pizza.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "perreroni Pizza",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-516d9d04-f139-44eb-ba8e-78e55e834ca4",
+  "created_at": "2026-02-15T15:44:17.140Z"
+}

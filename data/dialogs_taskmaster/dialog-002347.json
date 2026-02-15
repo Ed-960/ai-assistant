@@ -1,0 +1,172 @@
+{
+  "dialog_id": 2347,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2347"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hello how may I help you"
+    },
+    {
+      "speaker": "client",
+      "text": "I need one caramel macchiato"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Small medium large"
+    },
+    {
+      "speaker": "client",
+      "text": "Small please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure"
+    },
+    {
+      "speaker": "client",
+      "text": "with wiped cream"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hot or cold"
+    },
+    {
+      "speaker": "client",
+      "text": "Cold"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Cup holder?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Something else"
+    },
+    {
+      "speaker": "client",
+      "text": "No thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "How would your you like to pay for it"
+    },
+    {
+      "speaker": "client",
+      "text": "Credit card"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is any thing else I can help you with"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What do you like"
+    },
+    {
+      "speaker": "client",
+      "text": "A bottle of water"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure how many"
+    },
+    {
+      "speaker": "client",
+      "text": "Just one"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any thing else"
+    },
+    {
+      "speaker": "client",
+      "text": "No thank you "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Please proceed to the front window"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you"
+    },
+    {
+      "speaker": "client",
+      "text": "You welcome"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a good night"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caramel macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-967718b1-09d1-4302-bd50-ba364db56703",
+  "created_at": "2026-02-15T15:44:17.172Z"
+}

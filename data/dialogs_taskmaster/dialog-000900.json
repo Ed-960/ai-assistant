@@ -1,0 +1,163 @@
+{
+  "dialog_id": 900,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=900"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I need to order three medium pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi, how can I help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, which toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "On the first one, I want a veggie pizza but no onions on it. So, just pepper, mushrooms, black olives, and tomatoes on that. For the second one, I want a Florence pizza. And the non the third one, I want a spinach deluxe."
+    },
+    {
+      "speaker": "client",
+      "text": "And I want extra cheese on all three of them as well."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok and what type of crust?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just normal. Hand tossed I guess or whatever is the normal one they have."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure. 3 medium pizzas. on the first, a veggie without onions, the second one is a florence and the third, a spinach delux. extra cheese on them. correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "You got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your total is $34."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. Sounds fair."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be ready for pickup at bela luna's soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thank you. Bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome, bye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "no onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepper",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Florence pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "spinach deluxe",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "without onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "florence",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "spinach delux",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bela luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-7c21a07e-ddc9-4ae0-85f2-096cf628aecf",
+  "created_at": "2026-02-15T15:44:16.989Z"
+}

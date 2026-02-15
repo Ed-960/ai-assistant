@@ -1,0 +1,141 @@
+{
+  "dialog_id": 1819,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1819"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Assistant, I want to order a coffee from Peet's"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which location would you like? The nearest location is 21 Jump Street in Los Angeles"
+    },
+    {
+      "speaker": "client",
+      "text": "That place will do, yea"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What drink did you want me to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a Café au Lait coffee. Large size"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of milk do you want used?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's go with Whole Milk"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. Do you want any sugar or anything added?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's alright. Just the large coffee"
+    },
+    {
+      "speaker": "cashier",
+      "text": "And did you want anything else besides the coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "What kind of muffins do they have"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The local store has listed Blueberry, Honey Bran, and Morning Glory with Coconut muffins"
+    },
+    {
+      "speaker": "client",
+      "text": "Hmm, no, I'll pass on those. There aren't any other flavors listed?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm sorry. It's just those three"
+    },
+    {
+      "speaker": "client",
+      "text": "That's alright. I'll just stick with the coffee I think"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. I'll order the large Café au Lait with Whole Milk for you then. When do you want to pick it up"
+    },
+    {
+      "speaker": "client",
+      "text": "Have it ready for me in 20 minutes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright. Ordering coffee now. How did you want to pay?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just use the account I have set up with Peet's already"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. I've ordered your coffee. I'll text you the purchase receipt now"
+    },
+    {
+      "speaker": "client",
+      "text": "Great. Thanks, Assistant. That's all"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Café au Lait coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large size",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Café au Lait",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-111feb1c-664d-418f-8372-2b5e8442ca1b",
+  "created_at": "2026-02-15T15:44:17.104Z"
+}

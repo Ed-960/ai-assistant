@@ -1,0 +1,127 @@
+{
+  "dialog_id": 1843,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1843"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, I need you to order me a starbucks coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what do you need exactly?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like an Iced Cinnamon Dolce Latte"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What type of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "whole milk please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what size do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "grande"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, let's leave that off."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oops, that size isn't available, but the tall is."
+    },
+    {
+      "speaker": "client",
+      "text": "That's okay, what is the price?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, would you like to pay for this via your saved method"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, I guess that will be fine then."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, when would you like this to be ready for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "In about 1 hour."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, it should be ready made and waiting for you."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks, I really appreciate it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your receipt will be sent via email"
+    },
+    {
+      "speaker": "client",
+      "text": "yes, that'll be great too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Done and done. Have a nice day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Iced Cinnamon Dolce Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cinnamon Dolce Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-166d40a5-9794-4217-b4bc-3629ada6ac1a",
+  "created_at": "2026-02-15T15:44:17.109Z"
+}

@@ -1,0 +1,150 @@
+{
+  "dialog_id": 1968,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1968"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, Angela. Can you order a Cappuccino for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, from Starbucks or dunkin?"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks, of course!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Medium"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Well, they only have short, tall, grande, or venti"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, then I will do grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, what kind of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Almond milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sugar?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, 2."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which type?"
+    },
+    {
+      "speaker": "client",
+      "text": "Sugar in the raw?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, so a grande cappuccino with almond milk and 2 sugars in the raw?"
+    },
+    {
+      "speaker": "client",
+      "text": "Correct"
+    },
+    {
+      "speaker": "cashier",
+      "text": "At the starbucks near work?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, near the house- Washington Street in Canton."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, ordering it now. That will be 3.29."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks, do I have any stars left?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, you have one star rewards. Would you like to use it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, your drink will be ready in 5-10 minutes."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "short",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cappuccino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-3638c1ec-f80f-4cd7-9a95-76c9c5cc8405",
+  "created_at": "2026-02-15T15:44:17.126Z"
+}

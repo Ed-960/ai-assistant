@@ -1,0 +1,106 @@
+{
+  "dialog_id": 1146,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1146"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, how is it going on? I'm craving some coffee from Starbucks. Can you help me out with that?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "hello, how may i assist you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "it's going great. let's get that craving satisfied for you. what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like like a caramel macchiato Venti from the Starbucks in Castleton in Indianapolis, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want the drink iced or hot?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you please take care of that for me? I would like that iced, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and was whole milk ok."
+    },
+    {
+      "speaker": "client",
+      "text": "One moment, please. Yes, that'd be fine. And I would like to have the whipped cream with that, please."
+    },
+    {
+      "speaker": "client",
+      "text": "And that will be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure. the order is for 1 iced venti caramel macchiato with whole milk and whipped cream from the starbucks in castleton indianapolis."
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct. That will be all. I'd have be ready to place that right now, please. Thank you. Sounds great. That sounds great. Thank you so much. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "$5.50 is the total. i'll place the order now"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok ok sir i'm almost done. it'll b ready in 15 mins. did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that would be all. Thank you so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "caramel macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-a21acb08-99bd-4e6f-a386-f30785fe6a0a",
+  "created_at": "2026-02-15T15:44:17.014Z"
+}

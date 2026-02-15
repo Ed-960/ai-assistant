@@ -1,0 +1,146 @@
+{
+  "dialog_id": 2206,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2206"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "What sizes does the cups come in?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The sizes are venti, grande, trenta."
+    },
+    {
+      "speaker": "client",
+      "text": "Do they have whole milk that I can add?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes starbucks does have whole milk."
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to add mocha flavoring, is that possible?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes Starbucks has mocha flavor that you can add."
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to add 2 sugar to my coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes you can add 2 packs of sugar."
+    },
+    {
+      "speaker": "client",
+      "text": "Is there honey available?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes they do have honey available."
+    },
+    {
+      "speaker": "client",
+      "text": "I would like them to add whipped cream if possible?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes they will add whipped cream to your coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "Is there a sleeve that I can add to the cup? "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes Starbucks has sleeves available for your drink. "
+    },
+    {
+      "speaker": "client",
+      "text": "Is there a straw?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes you can get a straw with the coffee. "
+    },
+    {
+      "speaker": "client",
+      "text": "How long will it take?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The coffee should be done fairly quickly typically around 5 to 10 minutes. "
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to order from the starbucks on lake mead. My drink will be a grande coffee with mocha flavor and whipped cream on the top."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have placed your coffee order for the Starbucks on Lake Mead and it will be ready for pickup shortly and I have sent your receipt to your mobile device via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "trenta",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mocha flavoring",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mocha flavor",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "coffee with mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-71d71d1a-27f7-4953-b0a1-11e6323e5784",
+  "created_at": "2026-02-15T15:44:17.156Z"
+}

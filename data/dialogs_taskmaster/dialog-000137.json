@@ -1,0 +1,213 @@
+{
+  "dialog_id": 137,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=137"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there! How can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I would like to order four large pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure! are these all regular crust."
+    },
+    {
+      "speaker": "client",
+      "text": "No, they're all thin crusts."
+    },
+    {
+      "speaker": "cashier",
+      "text": "alright, what would you like on the 1st one?"
+    },
+    {
+      "speaker": "client",
+      "text": "On the first one I would like pepperoni, on the second one I would like sausage, on the third one I would like beacon, and on the forth one I would like mushroom."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the 1st pizza is a pepperoni pizza, then a sausage pizza, followed by a bacon pizza, and then mushrooms only."
+    },
+    {
+      "speaker": "cashier",
+      "text": "correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and all on thin crust."
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great! anything else you'd like to add?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that is all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "alright, let me grab you the total."
+    },
+    {
+      "speaker": "cashier",
+      "text": "one moment."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The total for these 4 will be $75.33."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sounds good?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "alright!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "one moment while I send your order to Bella Luna."
+    },
+    {
+      "speaker": "client",
+      "text": "Sure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, your order is in the works and should be ready for pickup in 40 min."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're very welcome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "have a great day!"
+    },
+    {
+      "speaker": "client",
+      "text": "You, too. Goodbye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular crust.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crusts.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "beacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushroom",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna.",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-12667ffa-a746-4146-87c8-daf7dc2bacde",
+  "created_at": "2026-02-15T15:44:16.905Z"
+}

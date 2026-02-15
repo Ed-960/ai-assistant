@@ -1,0 +1,137 @@
+{
+  "dialog_id": 2481,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2481"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I would like to order a drink from Starbucks that's in the Manhattan Mall in NYC."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like an Iced Matcha Green Tea Latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "A Venti."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Unfortunately, it is not available."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh that's too bad. Then I'll order a Venti Caramel Frappucino."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else with that?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, ask them to add an extra espresso shot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Unfortunately, they ran out of caramel."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, just my bad luck. Then how about a Venti Chai Latte with an extra espresso shot and some honey?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They ran out of honey."
+    },
+    {
+      "speaker": "client",
+      "text": "That's fine, then just the Venti Chai Latte with an extra espresso shot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I placed that order for you, one Venti Chai Latte with an added espresso shot. Will that be all?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The drink will be ready for pickup shortly."
+    },
+    {
+      "speaker": "client",
+      "text": "Great and my receipt?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your receipt will be sent to your mobile device by text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, great, have a nice day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You too!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Iced Matcha Green Tea Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caramel Frappucino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caramel",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Chai Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-b90babb7-be92-45dd-9a93-cb30cdf04608",
+  "created_at": "2026-02-15T15:44:17.188Z"
+}

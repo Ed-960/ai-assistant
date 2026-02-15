@@ -1,0 +1,145 @@
+{
+  "dialog_id": 2651,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2651"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "*Ring* Hi, Kelly! I'd like for you to order me an Iced Black and White Mocha from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing! May I ask the specific location of this Starbucks? There are many of them nearby."
+    },
+    {
+      "speaker": "client",
+      "text": "It's the Starbucks at 4010 Monroeville Boulevard in Monroeville."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, got it! Now, I need you to specify a few things for me regarding your order."
+    },
+    {
+      "speaker": "client",
+      "text": "Understood. What would you like me to specify, Kelly?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size coffee would you like? There are four options: Short, Tall, Grande and Venti."
+    },
+    {
+      "speaker": "client",
+      "text": "I would like my coffee to be a Grande, please. Anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes. What kind of milk would you like in your coffee, sir?: 2%, Almond, Coconut, Nonfat, Whole Milk, or Soy?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would prefer 2% milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes sir! Let me just write that down in my notes. A few more questions, sir."
+    },
+    {
+      "speaker": "client",
+      "text": "No problem, Kelly. Ask anything you need."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like any special toppings on your drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "What kind of choices do I have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Whipped cream and extra shots of flavor."
+    },
+    {
+      "speaker": "client",
+      "text": "I would like my coffee with whipped cream, please. No extra shots."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes sir. I'm starting the process of entering the details of your order on Starbuck's website."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks for your help, Kelly. Is that all the information you need from me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes sir, that will be all. I'm completing your order now."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much, Kelly! I really need the energy boost and I'm sure this coffee will help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The pleasure is all mine! Your order has been completed. The Grande Iced Black and White Moche with Whipped Cream and 2% Milk will be ready for pickup in 10 minutes at the Starbucks on 4010 Monroeville Boulevard in Monroeville. I will send a receipt for your order to your phone in a text message momentarily."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright, Kelly. That will be all. Thank you again for all of your hard work! Goodbye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Goodbye sir."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Iced Black and White Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Short",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Iced Black and White Moche",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-e9562224-5659-4878-a94e-97c0de905755",
+  "created_at": "2026-02-15T15:44:17.208Z"
+}

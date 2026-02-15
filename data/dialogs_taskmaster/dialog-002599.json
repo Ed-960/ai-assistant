@@ -1,0 +1,117 @@
+{
+  "dialog_id": 2599,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2599"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi Ashley, can you do me a favor and order me a drink from Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, I can do that for you. Which Starbucks do you want me to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I prefer the Starbucks across the street from the National Zoo in Washington D.C."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, just to confirm, this is the Starbucks at 3000 Connecticut Ave NW?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that is the one"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What can I get for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get an iced mocha?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, what size do you want your iced mocha?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll get a tall"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What type of milk do you want? They have almond, coconut, nonfat, soy, whole, skim, and 2% milk "
+    },
+    {
+      "speaker": "client",
+      "text": "Let's do whole milk"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Awesome! Any toppings that you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "What toppings do they have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You can add different flavored syrups like strawberry or chocolate"
+    },
+    {
+      "speaker": "client",
+      "text": "I think I'm good without syrups"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, what about other toppings like whipped cream or honey? "
+    },
+    {
+      "speaker": "client",
+      "text": "I am good without those, thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok! I am ordering your drink now from the Starbucks across of the National Zoo. The baristas said the receipt will show up on your text message"
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome, thank you so much"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, I'll see you soon"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "iced mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-da26fd97-22d6-4316-acd0-3928a3bb93c5",
+  "created_at": "2026-02-15T15:44:17.202Z"
+}

@@ -1,0 +1,134 @@
+{
+  "dialog_id": 2518,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2518"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Can you order me a drink from Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you get me a peach tea green tea lemonaide"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure what starbucks do you want me to go to?"
+    },
+    {
+      "speaker": "client",
+      "text": "Go to the one on Haun rd"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, do want me to go in and order or get it online?"
+    },
+    {
+      "speaker": "client",
+      "text": "Go in and order it that way it can be made just right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, anything special?"
+    },
+    {
+      "speaker": "client",
+      "text": "yes, I'd like a venti size"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What else?"
+    },
+    {
+      "speaker": "client",
+      "text": "With 6 extra pumps of Peach sugar"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Go it "
+    },
+    {
+      "speaker": "client",
+      "text": "Lite ice"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want anything extra?"
+    },
+    {
+      "speaker": "client",
+      "text": "Make sure they make it then add 6 extra pumps after that way it will be just right"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay 6 extra on top of what they add"
+    },
+    {
+      "speaker": "client",
+      "text": "yes thats right"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else do you want a pastry?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you get me two Birthday cake pops"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what if they don't have those?"
+    },
+    {
+      "speaker": "client",
+      "text": "then get me a cranbery scone or a lemon loaf cake"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Go it."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Can you get me a peach tea gr",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "peach tea green tea lemonaide",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-c54884f6-940d-40d6-b1f7-d905d63c347d",
+  "created_at": "2026-02-15T15:44:17.192Z"
+}

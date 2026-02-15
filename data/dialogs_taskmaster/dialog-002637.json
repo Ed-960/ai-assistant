@@ -1,0 +1,172 @@
+{
+  "dialog_id": 2637,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2637"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'd like to order a pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Where would you like to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Papa John's."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "One medium sized personalized pizza please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of crust would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Crunchy thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What toppings on it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get bacon, banana peppers, mushrooms, and ham?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It looks like they are out of ham as a topping. Would you like something else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Do they have pineapples?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, they do."
+    },
+    {
+      "speaker": "client",
+      "text": "I'll take pineapples instead of ham then."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else you would like to add?"
+    },
+    {
+      "speaker": "client",
+      "text": "I think that's all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I am ordering one medium personalized pizza with bacon, banana peppers, mushrooms, and pineapples as toppings, and crunchy thin crust. Is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, everything is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order is complete and the pizza will be ready for pickup in about 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome. Your total will be $11.99."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Papa John's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "personalized",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Crunchy thin",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Crunchy thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "banana peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapples",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "crunchy thin",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "crunchy thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Your order is complete",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-e5510519-e116-4232-ab4c-0dae57b6a22e",
+  "created_at": "2026-02-15T15:44:17.206Z"
+}

@@ -1,0 +1,164 @@
+{
+  "dialog_id": 271,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=271"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi. I need four pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Medium."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what kind of toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "And the first one is Hawaiian, the second combo no anchovies, the third all veggies, and the fourth pepperoni and jalapeno."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what kind of crust?"
+    },
+    {
+      "speaker": "client",
+      "text": "Thin."
+    },
+    {
+      "speaker": "cashier",
+      "text": "on all 4 pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any other special instruction?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thanks."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so 4 medium pizzas with thin crust. the first is hawaiian, the second is a combo with no anchovies, the third is a veggie lovers and the fourth is pepperoni and jalapeño, correct?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. your total is $42.40."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Okay, thank you. Bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be ready for pickup at bela luna's soon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome, bye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "no anchovies",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggies",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "jalapeno",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Thin",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "jalapeño",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bela luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-25272edc-ab62-415f-a07c-424ce8d7f895",
+  "created_at": "2026-02-15T15:44:16.920Z"
+}

@@ -1,0 +1,154 @@
+{
+  "dialog_id": 2487,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2487"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello can I have a extra large pizza deal. I would like to have 6 extra large pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm sorry but this store does not value that coupon but would you still be interested in the pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes I would like the pizzas and I would like 5 orders of wings as well and 4 sodas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! What toppings would you like on your pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "I would like 3 pepperoni and 3 cheese pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And what flavor would you like for the wings?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like 3 barbecue flavoed and 2 buffalo flavored."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright and for your sodas?"
+    },
+    {
+      "speaker": "client",
+      "text": "I will take 2 Coca Colas and 2 Sprites."
+    },
+    {
+      "speaker": "cashier",
+      "text": "We do not have any Coca Colas we have Pepsi. Is that okay with you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Wait going back to the pizzas do you have any recent specialty pizzas?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "We have a cheeseburger specialty pizza promotion right now but the sizes are only available in large."
+    },
+    {
+      "speaker": "client",
+      "text": "No thats fine I'll stick with the pepperoni and cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright is there anything else you would be interested in."
+    },
+    {
+      "speaker": "client",
+      "text": "No that is all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright so you ordered 3 extra large pepperoni pizzas, 3 extra large cheese pizzas, 3 orders of barbecue flavored wings, 1 order of buffalo flavored wings, 2 Pepsis and 2 Sprites. Is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes you got it all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright then your order is complete and it should be fresh and ready for you in about 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem! Your receipt has been sent to you via text message. Is that all I can help you with today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes thank you once again have a good day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a nice day goodbye. "
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "extra large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheeseburger specialty pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni pizzas",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-ba4961c5-fd52-4dbe-a2dc-4db58cf174e7",
+  "created_at": "2026-02-15T15:44:17.189Z"
+}

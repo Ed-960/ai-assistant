@@ -1,0 +1,126 @@
+{
+  "dialog_id": 1341,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1341"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi. I would like to order four pizzas, they're small, from Bella Luna, with two of them being pepperoni, and two of them being cheese, with thick crust on all of them."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, 4 small pizzas with thick crust, 2 pepperoni, 2 cheese, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, your total will be $52, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is A-okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and will you be dining in, picking up, or having it delivered?"
+    },
+    {
+      "speaker": "client",
+      "text": "Delivered."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, please note that your total does not include tip."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, that's fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be delivered within 45 minutes and your receipt will be texted to you."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. That's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "2 pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "2 cheese",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-bfe12520-c413-4948-a4c2-b3f7cce4092e",
+  "created_at": "2026-02-15T15:44:17.036Z"
+}

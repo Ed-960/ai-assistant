@@ -1,0 +1,159 @@
+{
+  "dialog_id": 425,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=425"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi, how can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like to place an order for pizza from Bella Luna, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, how many pizzas would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "three medium."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh. Okay, on the first one, I'd like sausage and pepperoni."
+    },
+    {
+      "speaker": "client",
+      "text": "And on the second, I'd like onion and mushroom."
+    },
+    {
+      "speaker": "client",
+      "text": "And the third, if I could have that as a Hawaiian pizza, please? And, I'd like to request extra cheese on all three."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what type of crust?"
+    },
+    {
+      "speaker": "client",
+      "text": "Lets see. Thin crust, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "3 thin crust medium pizzas. sausage and pepperoni on the first, onion and mushrooms on the second and a hawaiian on the third. extra cheese on all 3."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, your total is $39.90."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be ready for pickup soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome, bye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onion",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushroom",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hawaiian pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hawaiian",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-3cbf08a7-32bd-4e14-b1c9-4d56c1e66ac8",
+  "created_at": "2026-02-15T15:44:16.937Z"
+}

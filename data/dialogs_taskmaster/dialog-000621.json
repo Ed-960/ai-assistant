@@ -1,0 +1,166 @@
+{
+  "dialog_id": 621,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=621"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I'd like to get a Starbucks espresso beverage from the one on Archer Road, Gainesville, Florida. But, actually I would like to add a one Venti decaf coffee as well. And I want the espresso to be with milk and with honey as well as whipped cream. And."
+    },
+    {
+      "speaker": "client",
+      "text": "And both of them sized venti, and with milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what kind of milk would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "whole milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "for both the espresso and the decaf coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, and for the espresso you wanted the quad size?"
+    },
+    {
+      "speaker": "client",
+      "text": "The venti, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "it comes in solo, doppio, triple, or quad."
+    },
+    {
+      "speaker": "client",
+      "text": "Quad, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, one moment while i order that for you."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i have ordered you a venti decaf coffee with whole milk, a quad espresso with whole milk, honey, and whipped cream to be picked up at the starbucks on archer road."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be texted to you and your drinks will be ready in 10 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Sounds good. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that is all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "decaf coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "the espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "quad",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "solo",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "doppio",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "triple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Quad",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-57c32f9a-a389-4228-9740-d7b90f40eea1",
+  "created_at": "2026-02-15T15:44:16.959Z"
+}

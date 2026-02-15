@@ -1,0 +1,81 @@
+{
+  "dialog_id": 715,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=715"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there."
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like to order a Starbucks beverage, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing what kind?"
+    },
+    {
+      "speaker": "client",
+      "text": "a grande cappuccino with 2% milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay and would you like any syrup?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. And that's going to be from 123 Main Street."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. I'll place your order for a grande cappuccino with 2% at the starbucks on Main street . Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Perfect you'll get your reciept via email soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a good day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cappuccino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-63457670-3bae-4abf-949f-84013c0f4537",
+  "created_at": "2026-02-15T15:44:16.969Z"
+}

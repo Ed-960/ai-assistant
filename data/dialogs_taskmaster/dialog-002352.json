@@ -1,0 +1,167 @@
+{
+  "dialog_id": 2352,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2352"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, I want you to order dinner from Pizza Hut"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want two large pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright. What toppings do you want on the first one?"
+    },
+    {
+      "speaker": "client",
+      "text": "Get that one with sausage and onions."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Very good. And the second one?"
+    },
+    {
+      "speaker": "client",
+      "text": "For the second get it with mushrooms, green peppers, and onions."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds good. Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, add a side order of breadsticks to that, they have the best there."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yummy, yeah, they do have the best. Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, make that sausage and onion a thin crust pizza, the other can remain the regular pan pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, so you want two large pizzas, one thin crust with sausage and onions and one pan with mushrooms, green peppers and onions and a side of breaksticks. Is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. I'll get this order in and let you know the details."
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, the order is in and it will be ready in 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, how much did it cost?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Only about $25, I used one of the coupons, so not bad at all."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks, really appreciate it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, that's what I'm here for."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Pizza Hut",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "green peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onion",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular pan",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular pan pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pan",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-976501bb-aec7-4f68-bd32-b68ffef4ed14",
+  "created_at": "2026-02-15T15:44:17.172Z"
+}

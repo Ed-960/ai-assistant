@@ -1,0 +1,141 @@
+{
+  "dialog_id": 1340,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1340"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi. how can i help you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi there. I'd like to order four small pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "that sounds good. what did you want on those 4 pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "One chicken barbecue, one meat lovers, one supreme, and one Hawaiian."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. did you want regular crust on those?"
+    },
+    {
+      "speaker": "client",
+      "text": "thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "let me read the order back to you to make sure i got it down correctly. You want 4 small pizzas. all with thin crust. 1 bbq chicken, 1 meat lovers, 1 supreme, and 1 hawaiian pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "$49.29 is the total. should i place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please. And thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, the order has been placed. it'll be ready for pick up in 25 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "of course, my pleasure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that'll be it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, have a good day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken barbecue",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "supreme",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bbq chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hawaiian pizza",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-bf7ed0b1-e7e5-415d-8cb5-903ce2f84d09",
+  "created_at": "2026-02-15T15:44:17.036Z"
+}

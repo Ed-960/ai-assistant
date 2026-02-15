@@ -1,0 +1,194 @@
+{
+  "dialog_id": 2652,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2652"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi. I wanted to see if I could order some pizza from Marco's at the location nearest to me in Carrollton, Texas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright. Is that the location on 2201 Marsh Ln?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, it is. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. And what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to order one XXL Deluxe pizza and one Large Grilled Chicken Florentine pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Just so you know the largest size at Marcos is XL. Would you like the Deluxe pizza to be an XL?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. And is there anything else you would like to add?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would also like to add an order of Cinnasquares."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. So you want two pizzas, an XL Deluxe pizza and a Large Grilled Chicken Florentine pizza. And you would also like an order of Cinnasquares?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Let me get the price for you."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "When checking the price it looks like the Cinnasquares are unavailable. Would you like to add something else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Sure. Can I add an order of Cheezybread?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, that's available. So, to repeat, I have one XL Deluxe pizza, one Large Grilled Chicken Florentine pizza, and an order of Cheezybread. Does that sound right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, let me get the price for you now."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It looks like it will come to $27.83."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright, that sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And what name will you be using to pick up?"
+    },
+    {
+      "speaker": "client",
+      "text": "The pick up name will be Jennifer Long."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Your pizza should be ready for pickup in 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The receipt will be sent to your mobile phone via text message. Is there anything else I can help you with?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope. That's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great rest of the day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Marco's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "nearest to me in Carrollton, Texas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Carrollton, Texas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "location on 2201 Marsh Ln",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "2201 Marsh Ln",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "XXL",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Deluxe pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grilled Chicken Florentine pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Marcos",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "XL",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-e95eb3fc-af4c-47d7-afd9-67813c0002df",
+  "created_at": "2026-02-15T15:44:17.208Z"
+}

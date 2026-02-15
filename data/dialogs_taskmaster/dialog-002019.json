@@ -1,0 +1,122 @@
+{
+  "dialog_id": 2019,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2019"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, I want a drink from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What drink can I get you?"
+    },
+    {
+      "speaker": "client",
+      "text": "OK. What is there?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "There is Cordusio, which is good. It's an espresso with a shot of mocha."
+    },
+    {
+      "speaker": "client",
+      "text": "That sound good. How many calories are in it?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "There are 260 calories in the Cordusio."
+    },
+    {
+      "speaker": "client",
+      "text": "That's not bad."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like to order one?"
+    },
+    {
+      "speaker": "client",
+      "text": "What milk is in it?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It's with a shot of whole milk."
+    },
+    {
+      "speaker": "client",
+      "text": "OK. Yes, I'd like that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK. Would you like me to place that order? What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like a venti."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK. To confirm, a venti Cordusio with whole milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "At the Starbucks at Fort Smith?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK. The drink is on order and will be ready for pickup soon. The receipt will be sent to your phone."
+    },
+    {
+      "speaker": "client",
+      "text": "OK. Sound great!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cordusio",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "espresso with a shot of mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-42daaf1f-ad42-423c-80c7-0ae217f979d5",
+  "created_at": "2026-02-15T15:44:17.134Z"
+}

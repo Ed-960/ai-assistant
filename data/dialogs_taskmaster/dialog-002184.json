@@ -1,0 +1,117 @@
+{
+  "dialog_id": 2184,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2184"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'd like to order a tall caffe mocha please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, what kind of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "2% milk"
+    },
+    {
+      "speaker": "cashier",
+      "text": "and would you like whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "yes, that'd be great!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like anything to eat? "
+    },
+    {
+      "speaker": "client",
+      "text": "no, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "That'll be 5 dollars."
+    },
+    {
+      "speaker": "client",
+      "text": "Here you go."
+    },
+    {
+      "speaker": "cashier",
+      "text": "May I have your name?"
+    },
+    {
+      "speaker": "client",
+      "text": "It's Anne."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thanks, Anne. What time would you like to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "!:00 please. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "We'll have it ready for you then."
+    },
+    {
+      "speaker": "client",
+      "text": "Wonderful!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is there anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's all for now."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, we'll see you at 1:00"
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds good!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a good day!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caffe mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-6c96b72d-57ae-49df-b7c6-2f3358325014",
+  "created_at": "2026-02-15T15:44:17.153Z"
+}

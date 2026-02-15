@@ -1,0 +1,122 @@
+{
+  "dialog_id": 2062,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2062"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, can I order a coffee drink from Starbucks for pickup?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, what drink would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get a Caffe Mocha?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grande would be great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You got it. What kind of milk would you like? "
+    },
+    {
+      "speaker": "client",
+      "text": "Can I have almond milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. Do you want whipped cream or no whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. Any other modifications?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, can I have extra whipped cream?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, can I get light mocha syrup?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You got it. There are two Starbucks near you. Which one should I order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you order from the Starbucks on MLK in Fayetteville?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. I have a grande Caffe Mocha with almond milk, extra whipped cream, light mocha syrup for pickup from the Starbucks on MLK in Fayetteville, AR. Does that sound good?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's perfect!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, your order should be ready for pickup in 20 minutes. "
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks! "
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem! Have a great rest of your day!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caffe Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-4ee11bf5-2b3c-4cd2-85f3-022f1c96328a",
+  "created_at": "2026-02-15T15:44:17.139Z"
+}

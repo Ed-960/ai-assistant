@@ -1,0 +1,170 @@
+{
+  "dialog_id": 1344,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1344"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there! What can I do for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Order me three medium-size pizzas, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure!"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you make the order from Bella Luna Pizzeria?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I sure can! what would you like on them?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you make one chicken barbecue, one veggie lover, and one meat lover's?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Certainly!"
+    },
+    {
+      "speaker": "client",
+      "text": "Actually change that chicken barbecue to Hawaiian style."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Not a problem!"
+    },
+    {
+      "speaker": "client",
+      "text": "So, can you repeat my order, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, 3 medium pizzas, One Hawaiian, one Veggie lovers and one eat lovers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "And, yes As I Can you also make it with extra cheese on all three of them?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Most definitely, Extra cheese on all three."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, can you give me the total price and how long is it going to take me to pick it up?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, the total cost is $64.88."
+    },
+    {
+      "speaker": "cashier",
+      "text": "it will be ready in 35 min for pickup."
+    },
+    {
+      "speaker": "client",
+      "text": "How How long?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Sounds good. Thank you. Goodbye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're very welcome!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "have a great day!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna Pizzeria",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken barbecue",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lover",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lover's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hawaiian style",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "eat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Extra cheese",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-c0191f98-9322-467b-8204-8fe8cb5baa9e",
+  "created_at": "2026-02-15T15:44:17.036Z"
+}

@@ -1,0 +1,171 @@
+{
+  "dialog_id": 814,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=814"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there! How can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Assistant, I'd like to order a iced cafe mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure a Iced Caffè Mocha, which size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "a large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it, a large. did you want to add whip cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "done, added whip cream for you."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any other added sugars or syrups for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's everything."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, great! did you have a location in mind?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, I'm located in Los Angeles, California."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay, somewhere close to Downtown?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "client",
+      "text": "Hello."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, give me a moment."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "Hello?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "There is a peet's coffee on 855 N Vermont Ave, would that work?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that would be fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great! let me send your order over. A large iced Caffe Mocha with whip cream."
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright! all set, your order has been sent to your desired location. It will be ready for pickup in 5-8 mins."
+    },
+    {
+      "speaker": "client",
+      "text": "Great."
+    },
+    {
+      "speaker": "client",
+      "text": "Wonderful. I will be there to get it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great day."
+    },
+    {
+      "speaker": "client",
+      "text": "You too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "gooodbye!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you, goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "iced cafe mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Iced Caffè Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced Caffe Mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-70a65dcc-1535-4302-a0e8-9ed05777f8e4",
+  "created_at": "2026-02-15T15:44:16.979Z"
+}

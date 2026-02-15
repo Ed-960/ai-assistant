@@ -1,0 +1,127 @@
+{
+  "dialog_id": 2089,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2089"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Good Morning! I was hoping you could order a coffee drink for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Definitely! Do you have a specific location in mind?"
+    },
+    {
+      "speaker": "client",
+      "text": "I love the local Starbucks inside the Safeway at 700 US-101, Florence, OR 97439"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Me too!"
+    },
+    {
+      "speaker": "client",
+      "text": "They always make the drinks delicious!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which drink would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hmm, I'm debating between a iced chai or hot coffee..."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Those both sound great!"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd love to have an iced chai please!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds yummy! What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Venti"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I love their almond milk!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh yes, light ice please!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any spices?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, thank you for asking! I almost forgot, I love a little extra cinnamon in my chai!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "That sounds great! Your drink is on order at the local store Starbucks and will be ready for pickup shortly and your receipt will be sent to your mobile device via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you so much!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Absolutely, no problem!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "iced chai",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hot coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chai",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-5663108c-317e-47c6-a884-4fe2f1febd39",
+  "created_at": "2026-02-15T15:44:17.142Z"
+}

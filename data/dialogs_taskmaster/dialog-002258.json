@@ -1,0 +1,122 @@
+{
+  "dialog_id": 2258,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2258"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey I would like for you to pick-up a drink for me from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, what is the location of the Starbucks?"
+    },
+    {
+      "speaker": "client",
+      "text": "It's 10 Light Street in Baltimore, MD."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, no problem. What kind of drink am I getting?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a grande iced cherry mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, what kind of milk did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nonfat milk will be fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK and what about whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "No whipped cream please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any extra flavors or extra add in's?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, just a grande iced cherry mocha with nonfat milk and no whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Was there anything else you wanted me to pickup from Starbucks?"
+    },
+    {
+      "speaker": "client",
+      "text": "No that should be good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok and I'll just charge that to the account on file?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes that will be fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok so I'm just going to read the order back to double check. Its a nonfat, no whipped cream grande iced cherry mocha right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Correct, you're the best."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thanks. I'll head over to Starbucks on 10 Light Street in Baltimore right now. Shouldn't be more than 20 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "OK, I will see you soon!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, Bye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced cherry mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cherry mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-813e6585-8afb-44da-9a64-1e38859747de",
+  "created_at": "2026-02-15T15:44:17.162Z"
+}

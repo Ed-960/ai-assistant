@@ -1,0 +1,137 @@
+{
+  "dialog_id": 1918,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1918"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I want to place an order for delivery."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a large pepperoni and jalapeno on one side, and the other side I would like spinach and mushroom."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Just to clarify, you want one pizza with two sets of toppings on it?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, we can have that right up for you. Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would also like to order buffalo wings."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Will that be boneless or bone in?"
+    },
+    {
+      "speaker": "client",
+      "text": "Boneless."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Absolutely. Anything else for you this evening?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm not sure. What are your specials right now?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Well, we have a few based on what you already ordered."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome, what are they?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "We have a buy one get one half off for large pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "That sounds really good! Can I get another large, this one with only pepperoni and banana pepper?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Absolutely. So just to be sure, that's 1 large pizza with pepperoni and jalapeno on one side, and on the other side spinach and mushroom. One large with pepperoni and banana pepper, and a 2 liter of Pepsi."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your total will be $37.90. Will that be cash or card?"
+    },
+    {
+      "speaker": "client",
+      "text": "Cash upon delivery please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "We'll have that to you within 30 to 45 minutes."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "jalapeno",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "spinach",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushroom",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "banana pepper",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-2b64f45b-b4e1-4fb2-878c-d32dcd6a40a0",
+  "created_at": "2026-02-15T15:44:17.119Z"
+}

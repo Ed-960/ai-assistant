@@ -1,0 +1,114 @@
+{
+  "dialog_id": 1527,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1527"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Could you order me a coffee from the Starbucks at Sunset and Crescent Heights in West Hollywood?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like a venti ice ice caramel macchiato."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to add any milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, make that with whole milk and whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you are ordering a venti iced caramel macchiato with whole milk and whipped cream, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, this is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "one moment while i place that order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i have ordered you a venti iced caramel macchiato with whole milk and whipped cream to be picked up at the starbucks on sunset and crescent heights in west hollywood."
+    },
+    {
+      "speaker": "client",
+      "text": "How much is that got to cost?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be texted to you and your drink will be ready for pickup in 6 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, could you tell me how much that's going to cost?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure it will be $4.75."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your welcome, enjoy your coffee."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ice ice caramel macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced caramel macchiato",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-de2f90af-2207-47d6-9e68-787f8177a165",
+  "created_at": "2026-02-15T15:44:17.056Z"
+}

@@ -1,0 +1,222 @@
+{
+  "dialog_id": 927,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=927"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "How are you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hello?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hello."
+    },
+    {
+      "speaker": "client",
+      "text": "Hello?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I seem to detect an echo."
+    },
+    {
+      "speaker": "client",
+      "text": "Hello. Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "are you using headphones?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hello?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "alright. well how can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order a drink."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, I can help with that!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "where would you like to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, and what kind of coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "espresso."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, so I have an esspresso from the starbucks on state street. Did you want milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind?"
+    },
+    {
+      "speaker": "client",
+      "text": "Whole."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay so that's an espresso with whole milk from the starbucks on state street. Did you want anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get a black and white mocha espresso?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing! What size?"
+    },
+    {
+      "speaker": "client",
+      "text": " Medium."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you mean Grande?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Perfect. And did you want milk for this as well?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any syrup?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, one moment."
+    },
+    {
+      "speaker": "client",
+      "text": "Mhm."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so that's an espresso with whole milk and a grande black and white mocha with whole milk from the starbucks on state street."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, it is."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that correct?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order is place and will be ready in 20 minutes!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Enjoy! No problem."
+    },
+    {
+      "speaker": "client",
+      "text": "Mhm. Have a good one."
+    },
+    {
+      "speaker": "client",
+      "text": "Good bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You too!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "esspresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black and white mocha espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Mediu",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black and white mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-802f9e34-bdea-4e74-93d4-87a78d5a1ea5",
+  "created_at": "2026-02-15T15:44:16.992Z"
+}

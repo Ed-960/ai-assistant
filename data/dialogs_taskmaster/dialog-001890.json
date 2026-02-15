@@ -1,0 +1,131 @@
+{
+  "dialog_id": 1890,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1890"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, could you order me a drink from Starbucks for pick up?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, for which city?"
+    },
+    {
+      "speaker": "client",
+      "text": "Whittier, CA."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The one at 14940 Whittier Blvd?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Caffè Americano"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Tall"
+    },
+    {
+      "speaker": "cashier",
+      "text": "With what kind of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Soy"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any other ingredients?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's try a caramel pump."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay got it. Any other ingredients?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, just that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay got it; any other items?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, just that one coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, so one tall Caffè Americano with soy milk and a pump of caramel flavor."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes that's right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, your drink with be ready soon and your receipt will be sent to your phone via a text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caffè Americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-25ac779f-43a8-442d-b52b-618f401aaa36",
+  "created_at": "2026-02-15T15:44:17.115Z"
+}

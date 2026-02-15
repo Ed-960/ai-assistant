@@ -1,0 +1,130 @@
+{
+  "dialog_id": 784,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=784"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi there."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I wanted to order four pizzas to Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what kind of pizzas would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I was thinking two pepperoni and mushroom, and two bacon and sausage pizzas, small, and all of them with gluten-free crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, so you are ordering 4 small pizzas with gluten free crust, 2 pepperoni and mushroom and 2 bacon sausage, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your total will be $52, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep. That sounds fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "will you be picking up, having it delivered, or dining in?"
+    },
+    {
+      "speaker": "client",
+      "text": "picking up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your pizzas will be ready in 30 minutes and your receipt will be texted to you."
+    },
+    {
+      "speaker": "client",
+      "text": "All right, great. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that will be it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni and mushroom",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon and sausage pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon sausage",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-6d74d601-d6c2-4aea-82db-b78757dd1b29",
+  "created_at": "2026-02-15T15:44:16.976Z"
+}

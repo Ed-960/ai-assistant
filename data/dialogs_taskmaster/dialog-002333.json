@@ -1,0 +1,127 @@
+{
+  "dialog_id": 2333,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2333"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello I wanted to place a coffee order today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "DId you want to go with peets or starbucks?"
+    },
+    {
+      "speaker": "client",
+      "text": "I wanted to order from Peets menu"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, what would you like"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a Large iced latte"
+    },
+    {
+      "speaker": "cashier",
+      "text": "we offer different sorts of milk what would you like"
+    },
+    {
+      "speaker": "client",
+      "text": "Do you have soy milk"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes, we have soy milk, almond milk, non fat, and 2 percent."
+    },
+    {
+      "speaker": "client",
+      "text": "soy milk please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what you like and extra shot of flavor"
+    },
+    {
+      "speaker": "client",
+      "text": "sure what flavors are available"
+    },
+    {
+      "speaker": "cashier",
+      "text": "you can do hazelnut, chocolate"
+    },
+    {
+      "speaker": "client",
+      "text": "let me get a shot of chocolate"
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like sugar added or on the side"
+    },
+    {
+      "speaker": "client",
+      "text": "add the sugar in please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok so I have large latte with a shot of chocolate would you like anything else."
+    },
+    {
+      "speaker": "client",
+      "text": "No that is it thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok it will be ready in a few minutes"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you "
+    },
+    {
+      "speaker": "cashier",
+      "text": "thank you for using order a drink."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-93042620-a702-4f36-85f0-7f39a0cf7fea",
+  "created_at": "2026-02-15T15:44:17.170Z"
+}

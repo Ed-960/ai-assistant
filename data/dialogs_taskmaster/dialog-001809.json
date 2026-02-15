@@ -1,0 +1,137 @@
+{
+  "dialog_id": 1809,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1809"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey Joe, do you have time to order some coffee for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, from where?"
+    },
+    {
+      "speaker": "client",
+      "text": "I can pick it up on the way out to my next meeting at noon. Can you order from Starbucks on Market St."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want it now or closer to noon?"
+    },
+    {
+      "speaker": "client",
+      "text": "If you can order it closer to around noon, that would be great"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, let me send you a menu."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Let me know when you're ready and I can order it for you"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Can you please order me a venti soy white chocolate mocha with no foam?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is that all you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm debating if I want to grab something to eat"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Their salads are pretty good."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, can you grab me a salad too? Anything is fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. "
+    },
+    {
+      "speaker": "client",
+      "text": "Make that two white chocolate mochas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I just order two white mochas and a salad for you. It'll be ready to be picked up at the Starbucks on Market Street in about 20 minutes"
+    },
+    {
+      "speaker": "client",
+      "text": "This is perfect, thank you so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "soy white chocolate mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "white chocolate mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "two",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "white chocolate mochas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "white mochas",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-0ec4ac74-0ff0-41d5-90b6-2e42b4ff5365",
+  "created_at": "2026-02-15T15:44:17.103Z"
+}

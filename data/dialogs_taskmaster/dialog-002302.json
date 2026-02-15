@@ -1,0 +1,150 @@
+{
+  "dialog_id": 2302,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2302"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey there James, could you get me a Golden Cafee Latte from Peet's?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, which store?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Peet's on 1441 NE Broadway in Portland."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. What size did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "A small is fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of milk did you want in it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Coconut milk will do."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else you want added to your drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep, bring me two or three of the honey sticks that have at the counter."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Will do. Anything else you need?"
+    },
+    {
+      "speaker": "client",
+      "text": "Glad you asked. Can you be sure to sprinkle some cinnamon on top of my drink?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Absolutely. Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. If there's no coconut milk, ask for oat milk. If there's no oat milk, almond milk. Got it?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes ma'am. Anything else I should know?"
+    },
+    {
+      "speaker": "client",
+      "text": "I have an account at Peet's already, so you don't need a credit card. I almost forgot. Can you bring some packets of that raw cane sugar too?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "For sure. So just to recap, you want a Golden Caffe Latte with coconut milk. If there's no coconut milk, oat milk. If there's no oat milk, almond. I'll also bring 2 or 3 honey sticks and several packets of raw cane sugar. Did I forget anything?"
+    },
+    {
+      "speaker": "client",
+      "text": "While you're at it, pick up a small ice green tropical tea. Just tea, no sugar or anything extra. Feel free to grab something for yourself."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alrighty. So that would be a Golden Caffe Latte and a ice tropical green tea, both smalls. Coconut milk in the latte, extra honey sticks and raw cane sugar packets on the side."
+    },
+    {
+      "speaker": "client",
+      "text": "Correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Done. I've just ordered both beverages at the 1441 NE Broadway location in Portland. It will be ready for pickup soon. Your receipt will be sent to your cell phone via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks again James! "
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. Bye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Golden Cafee Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Golden Caffe Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ice green tropical tea",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ice tropical green tea",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "smalls",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-8b5b8bc8-da47-4f86-801d-2c05fa60aa3b",
+  "created_at": "2026-02-15T15:44:17.167Z"
+}

@@ -1,0 +1,117 @@
+{
+  "dialog_id": 2583,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2583"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "i would like you to order a Caramel Cloud Macchiato from starbucks please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "which store did you want."
+    },
+    {
+      "speaker": "client",
+      "text": "25th and wabash terre haute"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size and what kind of milk"
+    },
+    {
+      "speaker": "client",
+      "text": "tall and whole milk"
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like anything else added to it"
+    },
+    {
+      "speaker": "client",
+      "text": "maybe extra caramel and whipped cream"
+    },
+    {
+      "speaker": "cashier",
+      "text": "let me contact them"
+    },
+    {
+      "speaker": "client",
+      "text": "ok i will standby"
+    },
+    {
+      "speaker": "cashier",
+      "text": "when did you want to pickup"
+    },
+    {
+      "speaker": "client",
+      "text": "in about 20 minutes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "it will be about 30 is that ok"
+    },
+    {
+      "speaker": "client",
+      "text": "yes "
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok i have ordered"
+    },
+    {
+      "speaker": "client",
+      "text": "great"
+    },
+    {
+      "speaker": "cashier",
+      "text": "you can pickup in about 30 minutes"
+    },
+    {
+      "speaker": "client",
+      "text": "please send confirmation"
+    },
+    {
+      "speaker": "cashier",
+      "text": "i sent to your mobile phone"
+    },
+    {
+      "speaker": "client",
+      "text": "ok thanks i will pickup"
+    },
+    {
+      "speaker": "cashier",
+      "text": "your welcome"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caramel Cloud Macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-d5c76663-af91-4284-a1be-239c29d5ecf1",
+  "created_at": "2026-02-15T15:44:17.200Z"
+}

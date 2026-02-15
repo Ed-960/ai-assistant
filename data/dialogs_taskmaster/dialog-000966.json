@@ -1,0 +1,124 @@
+{
+  "dialog_id": 966,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=966"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi, what can I do for you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi there. I'd like to order some pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "pizza from Bella Luna sure, how many and what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Four large pizzas, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "4 large ok, what toppings you want for them?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like all of them pepperoni and onion."
+    },
+    {
+      "speaker": "cashier",
+      "text": "all with pepperoni and onion correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep, and extra cheese, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "extra cheese on all right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok would that be all for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok with 4 large your total comes to 90 dollars shall we order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizza are on order at the local Bella Luna pizzeria and will be ready for pickup in 30 min."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's all. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you are welcome, enjoy your pizza."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onion",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-87216270-4563-47be-9713-e523ad1e0fce",
+  "created_at": "2026-02-15T15:44:16.995Z"
+}

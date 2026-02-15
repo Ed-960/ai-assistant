@@ -1,0 +1,105 @@
+{
+  "dialog_id": 1210,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1210"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I'm trying to place an order at the Starbucks at Main and Dallas in Houston, Texas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. sounds good. what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I was thinking of going with an iced skinny mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "tall."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and did you want whole milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Almond milk if they have it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "they sure do, i'll add that to your order. did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I think that's it. Thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. Thank you. You don't need to change anything. And yeah, go ahead and order it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want me to order the drink now or did i need to change anything?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i've placed the order. the drink will be ready in 15 mins."
+    },
+    {
+      "speaker": "client",
+      "text": "No. I appreciate it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is there anything else i can do for you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome, enjoy the drink."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "skinny mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-ac2645ba-e880-48b4-9889-a00234e9d5ef",
+  "created_at": "2026-02-15T15:44:17.021Z"
+}

@@ -1,0 +1,198 @@
+{
+  "dialog_id": 431,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=431"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I'll like to order some pizza from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let's set that up. how many pizzas do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Cool."
+    },
+    {
+      "speaker": "client",
+      "text": "I like three small thin crust pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what toppings did you want on those?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, I like one with shark meat on it, another one with bison meat, and the last one I would like donkey meat."
+    },
+    {
+      "speaker": "cashier",
+      "text": "bella luna does not have any of those meat types, and i'm pretty sure that's illegald."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Then let's do something more regular. How about a a Hawaiian pizza, a three-cheese pizza, and and a meat lover's?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sounds good, and legal."
+    },
+    {
+      "speaker": "cashier",
+      "text": "3 small thin crust pizzas, 1 hawaiian, 1 three cheese pizza, and 1 meat lovers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, and all of them should have thick crust not thin crust. I'm sorry."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, i'll change that in the order to thick crust."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the total is $32.22."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, that's pretty cheap."
+    },
+    {
+      "speaker": "cashier",
+      "text": "it's a great deal, i agree. do you want me to submit the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep, definitely."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i've submitted the order, it'll be ready for pick up in 35 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, have a great day."
+    },
+    {
+      "speaker": "client",
+      "text": "You, too."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "shark meat",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bison meat",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "donkey meat",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hawaiian pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "-cheese pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lover's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-3d6c9ed6-5a25-436c-9352-78d8e55af778",
+  "created_at": "2026-02-15T15:44:16.938Z"
+}

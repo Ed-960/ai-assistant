@@ -1,0 +1,168 @@
+{
+  "dialog_id": 2570,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2570"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, I'm hungry. Can we get some chow?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yeah of course. What'd you have in mind?"
+    },
+    {
+      "speaker": "client",
+      "text": "I feel like pizza. Let's go for Pizza Hut"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure.. give me one second to pull up the menu"
+    },
+    {
+      "speaker": "client",
+      "text": "No problem"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright.. ready. "
+    },
+    {
+      "speaker": "client",
+      "text": "OK."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What'll it be?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm not sure. Are there any specials? I want to feed about half a dozen people"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They have an add-wings-and-soda deal right now."
+    },
+    {
+      "speaker": "client",
+      "text": "Nah, not in the mood for wings."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Everything's pretty cheap, especially the large pies, why not just order a couple?"
+    },
+    {
+      "speaker": "client",
+      "text": "Right. Let's go with a large cheese, a large pepperoni, and a large half Hawaiian half veggie"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it."
+    },
+    {
+      "speaker": "client",
+      "text": "Can you read that back?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Large cheese, large pepperoni, large half veggie half hawaiian"
+    },
+    {
+      "speaker": "client",
+      "text": "Yup."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. Anything else? Drinks, bread sticks?"
+    },
+    {
+      "speaker": "client",
+      "text": "I think that'll do it for food, but actually yeah let's throw in a couple sodas as well."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. OK, the order is placed. It should be delivered in about 25 minutes. They'll text you the receipt."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thanks. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem."
+    },
+    {
+      "speaker": "client",
+      "text": "Have a good night."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Bye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Pizza Hut",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "half Hawaiian half veggie",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "half veggie half hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Got it. OK, the order is placed",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "the order is placed",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-d21e3e44-5097-4994-9d03-ef3baf616501",
+  "created_at": "2026-02-15T15:44:17.199Z"
+}

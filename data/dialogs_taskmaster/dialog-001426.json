@@ -1,0 +1,154 @@
+{
+  "dialog_id": 1426,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1426"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi There! How can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey, I want to order a Starbucks espresso beverage."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Most certainly!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What can I get you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to get a Caffè Americano."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds delightful."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. any additives?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's see. I'd like two extra shots and whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "alright!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "2 extra shots and whipped cream."
+    },
+    {
+      "speaker": "client",
+      "text": "And let me tell you where I want to get it from."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. I want to get it at Starbucks at 1220 East Northside Drive, Suite 260 in Jackson, Mississippi."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, thank you so much!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Let me get this started for you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I've got a Grande americano with 2 shots and whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that all correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "perfect!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order has been submitted."
+    },
+    {
+      "speaker": "cashier",
+      "text": "it will be ready for pickup."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "in 5 to 8 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "have a good day!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caffè Americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "americano",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-cd62bdcf-6bbe-4232-aca2-1eef3b07d233",
+  "created_at": "2026-02-15T15:44:17.045Z"
+}

@@ -1,0 +1,134 @@
+{
+  "dialog_id": 2688,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2688"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey Annie! Do you think you could call Starbucks and order a coffee for me to grab on the way in to the office?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing! Which Starbucks do you want to stop at?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one on Government Street in Mobile, Alabama."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay! Do you have a specific drink in mind?"
+    },
+    {
+      "speaker": "client",
+      "text": "I do! I'm really craving a caramel cloud macchiato today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh that sounds good! Do you know what size you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grande sounds pretty good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright! What kind of milk do you want in it?"
+    },
+    {
+      "speaker": "client",
+      "text": "2% is what I usually get."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay! Any extras?"
+    },
+    {
+      "speaker": "client",
+      "text": "Extra caramel on top!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it! Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope! That's all. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay so that's a grande caramel cloud macchiato with 2% milk right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep! You got it! Need my card information?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Nope! They've got card information on file."
+    },
+    {
+      "speaker": "client",
+      "text": "Great! "
+    },
+    {
+      "speaker": "cashier",
+      "text": "It's on order at the store and should be ready in a bit!"
+    },
+    {
+      "speaker": "client",
+      "text": "Great! Will they send me a receipt?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They should by text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay! I'll see you in a bit!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds good! Bye"
+    },
+    {
+      "speaker": "client",
+      "text": "Bye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "caramel cloud macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-f38e242a-6013-41cf-a6a1-6cafaa8486f5",
+  "created_at": "2026-02-15T15:44:17.212Z"
+}

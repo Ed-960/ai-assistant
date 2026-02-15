@@ -1,0 +1,101 @@
+{
+  "dialog_id": 110,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=110"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Yeah. I need to order a pizza from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi how can I help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing."
+    },
+    {
+      "speaker": "cashier",
+      "text": "WHat size?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want three medium pizzas with thick crust. Make them all cheese with jalapeños."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, 3 mediums with thick crust and jalapeno is $36.87 okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. Just confirm the order, and I'll pick it up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "3 mediums with thick crust and jalapeno. Your order will be ready in 30 minutes and you'll get the receipt via mobile."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, cool."
+    },
+    {
+      "speaker": "cashier",
+      "text": "have a good day bye."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese with jalapeños",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mediums",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "jalapeno",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-0db0241d-4ad4-48b3-a4e9-f9964fb9e3f9",
+  "created_at": "2026-02-15T15:44:16.902Z"
+}

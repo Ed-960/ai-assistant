@@ -1,0 +1,110 @@
+{
+  "dialog_id": 1638,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1638"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Good evening. Yeah, I'd like to place an order at the Starbucks on Kingman Road."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you say old keaton mill road?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a caramel macchiato venti."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like any milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Does that location have coconut milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes, they do, would you like me to add coconut milk for you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let me place that order, one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so i have placed an order for a vente caramel macchiato with coconut milk and extra caramel to be picked up at the starbucks at old keaton mill road, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, thank you very much. When will that be ready?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, your receipt will be texted to you and your order will be ready for pick up in 10 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Have a good evening."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope. That'll be it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your coffee."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "caramel macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "vente",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-f0cbf38e-dfc3-4acc-8d35-871efbfc3c5f",
+  "created_at": "2026-02-15T15:44:17.068Z"
+}

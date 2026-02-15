@@ -1,0 +1,136 @@
+{
+  "dialog_id": 1717,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1717"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i assist you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey, am looking to order pizzas from a new place called Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let me write your order down for you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need four small pizzas with all of them having thick crust. The toppings are I want I want two of those pizzas to be a jalapeno and pepperoni. And, one of them to be chicken and bacon and then the other to be just a veggie lovers pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. you said 4 small pizzas, all with thick crust, 2 with jalapenos and pepperoni, 1 with chicken and bacon, and 1 veggie lovers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That sounds right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, and the total is $45.54."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want me to place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. Could you place it for pickup?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "done. i've submitted the order for pick up. the pizzas will be ready in 45 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you need anything else today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, that's all I wanted."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, take care."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "jalapeno",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "jalapenos",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-fdb6c6a4-c846-4fe1-bfd5-3ffada9afba7",
+  "created_at": "2026-02-15T15:44:17.085Z"
+}

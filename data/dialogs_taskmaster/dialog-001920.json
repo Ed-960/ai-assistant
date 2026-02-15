@@ -1,0 +1,180 @@
+{
+  "dialog_id": 1920,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1920"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Would you order a pizza from Papa John's for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "A large please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure they have a specialty pizza with sausage and black olives"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok got it"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Can you tell them to exchange the black olives for onions."
+    },
+    {
+      "speaker": "client",
+      "text": "Onions instead of black olives, got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh you know what, they're all out of onions. Anything else instead"
+    },
+    {
+      "speaker": "client",
+      "text": "Make it pineapple then"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok got it. Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "How much does it come out to?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "$12.95 is the total"
+    },
+    {
+      "speaker": "client",
+      "text": "Do any sides come with it"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No it's just the pizza by itself."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok that's all then."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok so a large sausage and pineapple. Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok you have an account with them right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes I do."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay it'll be ready in 25 minutes. They'll text you a receipt."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome, enjoy. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Papa John",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Papa John's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "specialty pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black olives for onions.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Onions instead of black olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black olives,",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage and pineapple",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-2bc240f2-9cc2-42ff-a1a6-a9fcc9bcf8bc",
+  "created_at": "2026-02-15T15:44:17.119Z"
+}

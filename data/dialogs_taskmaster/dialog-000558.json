@@ -1,0 +1,171 @@
+{
+  "dialog_id": 558,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=558"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I just wonder if you know any good places to go and eat today."
+    },
+    {
+      "speaker": "client",
+      "text": "Or maybe to get something to eat. I'm looking maybe to for some delivery."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what kind of food?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's see here what I'm in the mood for. Do you have any suggestions?"
+    },
+    {
+      "speaker": "client",
+      "text": "I think there's a new pizzeria in."
+    },
+    {
+      "speaker": "cashier",
+      "text": "there is a new pizzeria called bela luna's, would you like to try that one?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, how many pizzas would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Well, I think I'd like two pizzas, small."
+    },
+    {
+      "speaker": "client",
+      "text": "and."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm thinking maybe a specialty pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "Maybe, one of them will make my chicken barbecue. And the other one, I think I'll have pepperonis, onions, cheese, extra cheese, and more pepperonis."
+    },
+    {
+      "speaker": "client",
+      "text": "And make a thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so 2 small pizzas. one chicken bbq and the other with pepperoni, onions and extra cheese. thin crust on both. correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your total is $34."
+    },
+    {
+      "speaker": "client",
+      "text": "That'll be fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be ready for pickup at bela luna's soo, bye!"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "bela luna's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken barbecue",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperonis",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "more pepperonis",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken bbq",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust on",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-501465e2-7178-417b-92e5-5b654222c2ba",
+  "created_at": "2026-02-15T15:44:16.951Z"
+}

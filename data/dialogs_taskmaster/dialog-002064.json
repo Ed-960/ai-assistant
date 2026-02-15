@@ -1,0 +1,159 @@
+{
+  "dialog_id": 2064,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2064"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I would like to order pizzas for lunch"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Where would you like to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Dominos"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. How Many pizzas do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "3"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What sizes?"
+    },
+    {
+      "speaker": "client",
+      "text": "All Large"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "One with pepperioni"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, the second one?"
+    },
+    {
+      "speaker": "client",
+      "text": "Sausage"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, and the last one?"
+    },
+    {
+      "speaker": "client",
+      "text": "Veggie."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. One pepperoni, one sausage, and one veggie pizza. Anything else."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. 3 orders of Cinna Stix."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. Can I order any drinks for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. 2 Two liter of Coke, 2 of Sprite, and 2 Pibb Xtra"
+    },
+    {
+      "speaker": "cashier",
+      "text": "So there will be 2 cokes, 2 sprites, and 2 Pibb Xtras - all 2 liters."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. How long will it take?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order will be out to you in 25 minutes. "
+    },
+    {
+      "speaker": "client",
+      "text": "Great thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is there anything else I can do for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Dominos",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperioni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Veggie",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie pizza",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-4f42e25a-a5cb-4e49-91cf-66cef976968d",
+  "created_at": "2026-02-15T15:44:17.139Z"
+}

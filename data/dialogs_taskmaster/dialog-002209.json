@@ -1,0 +1,138 @@
+{
+  "dialog_id": 2209,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2209"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I would like a coffee from Starbuck."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which location would you like it from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like it from the Lakeline location in Austin, TX."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. Got it. Would you like an iced or hot coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a hot coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. Got it. What kind of coffee would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a hazelnut latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. Got it. What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Venti, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. Got it. Would you like any extra shots?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, one extra shot please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. Got it. what kind of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Whole milk is fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. Got it. Would you like any other flavors added?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. Got it. Would you like anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. Got it. When would like to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to pick it up at 2 pm."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. Got it. How will you be paying?"
+    },
+    {
+      "speaker": "client",
+      "text": "I will use my Starbucks App to pay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, got it. Your Hot Venti Hazelnut Latte will be ready for pickup at the Lakeline location at 2pm. Please pay with your app now."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok. I've paid for the drink."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. Got it. Thank you for choosing Starbucks. Have a great day!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "hazelnut latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hazelnut Latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-7274c960-7294-440e-bbbd-1b13ad4c5614",
+  "created_at": "2026-02-15T15:44:17.156Z"
+}

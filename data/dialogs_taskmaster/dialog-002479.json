@@ -1,0 +1,137 @@
+{
+  "dialog_id": 2479,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2479"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I want a coffee today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want something hot, what do you have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "We have espresso, and macchiato."
+    },
+    {
+      "speaker": "client",
+      "text": "What would you recommend?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Personally, I like the espresso."
+    },
+    {
+      "speaker": "client",
+      "text": "Espresso is a little bit rough on my stomach, anything mild?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "We can make it as mild or strong as you'd like, would you like mild?"
+    },
+    {
+      "speaker": "client",
+      "text": "I think so."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Absolutely. Anything else for you this evening?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Any deals right now?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Well, we have a few based on what you already ordered."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome, what are they?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have a deal for buy one get one free large espressos."
+    },
+    {
+      "speaker": "client",
+      "text": "That sounds really good!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, thanks so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're very welcome."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "buy one get one free",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "espressos",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-b8e0b2a1-f183-46ff-bb96-afc14b1d1c7b",
+  "created_at": "2026-02-15T15:44:17.188Z"
+}

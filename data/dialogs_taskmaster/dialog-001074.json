@@ -1,0 +1,220 @@
+{
+  "dialog_id": 1074,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1074"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. Yes, I'd like to order a Starbucks espresso beverage."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Starbucks Coffee! of course."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I can help!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "WHat would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like a iced salted caramel mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds delicious!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Grande, noted!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any preference on milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, regular 2% milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "2% milk, alright."
+    },
+    {
+      "speaker": "cashier",
+      "text": "how about whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "two."
+    },
+    {
+      "speaker": "client",
+      "text": "No whipped cream, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, would you like to add any sweeteners?"
+    },
+    {
+      "speaker": "client",
+      "text": "No sweeteners."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Tahnks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Give me a moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "to order it for you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is this for the starbucks on California Street in San FRancisco?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, Sbarro."
+    },
+    {
+      "speaker": "client",
+      "text": "West Malibu Road, Malibou, California."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I see! Thanks for letting me know!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Give me moment to get the order submitted for you!"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, i got a grade ICed salted caramel Mocha without whip cream. is that corrct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ALright, your drink has been ordered at the west Malibu road location."
+    },
+    {
+      "speaker": "cashier",
+      "text": "it will be ready for pickup shortly."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that alright?"
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "the receipt will be sent to you via text."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "youre welcome!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "have a good one!"
+    },
+    {
+      "speaker": "client",
+      "text": "You, too."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "espresso beverage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced salted caramel mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grade",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ICed salted caramel Mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-98ca1396-d04b-4b41-a03b-af4b8d7b9165",
+  "created_at": "2026-02-15T15:44:17.007Z"
+}

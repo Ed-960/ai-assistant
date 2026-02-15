@@ -1,0 +1,141 @@
+{
+  "dialog_id": 348,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=348"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Want to order three large gluten-free crust pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi how can I help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "great and what toppings did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "First one, Mediterranean. Second one, chicken ranch pizza. And the third is let's go with spinach deluxe."
+    },
+    {
+      "speaker": "client",
+      "text": "But tale off the onions on the spinach logs."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Can you repeat the first one please, there was a little static on my end."
+    },
+    {
+      "speaker": "client",
+      "text": "Sorry about that. Mediterranean."
+    },
+    {
+      "speaker": "client",
+      "text": "Did you get it that time?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes thank you. One moment."
+    },
+    {
+      "speaker": "client",
+      "text": "No problem."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's 3 large gluten free crust pizzas, one Mediterranean, one chicken ranch, and one spinach deluxe, no onions totaling out to $76.88 okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "All right. Yeah, you got it right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great your pizza will be ready for pickup in 30 minutes and you'll get the reciept via text."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. I'll look for it. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "no problem. You have a good day."
+    },
+    {
+      "speaker": "client",
+      "text": "You too."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Mediterranean",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken ranch pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "spinach deluxe",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "spinach logs",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken ranch",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "no onions",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-3107fa51-128e-4f42-802e-d94ca9038fcc",
+  "created_at": "2026-02-15T15:44:16.929Z"
+}

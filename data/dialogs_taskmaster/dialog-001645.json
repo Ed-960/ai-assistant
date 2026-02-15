@@ -1,0 +1,201 @@
+{
+  "dialog_id": 1645,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1645"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. Can I get a short cherry mocha with whole milk and no whipped cream from Starbucks?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. Can I get a short cherry mocha with whole milk and no whipped cream from Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you say a short cherry mocha with whole milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you say a short cherry mocha with whole milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "where would you like to pick it up?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "where would you like to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Starbucks on Route 40 in Columbia, Maryland."
+    },
+    {
+      "speaker": "client",
+      "text": "The Starbucks on Route 40 in Columbia, Maryland."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your coffee will be ready for pickup soon at the starbucks on route 40."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your coffee will be ready for pickup soon at the Starbucks on route 40."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. That's all for me. Thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. That's all for me. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy, bye!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy, bye!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "where would you like to pick it up?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "where would you like to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Starbucks on Route 40 in Columbia, Maryland."
+    },
+    {
+      "speaker": "client",
+      "text": "The Starbucks on Route 40 in Columbia, Maryland."
+    },
+    {
+      "speaker": "client",
+      "text": "The Starbucks on Route 40 in Columbia, Maryland."
+    },
+    {
+      "speaker": "client",
+      "text": "The Starbucks on Route 40 in Columbia, Maryland."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your coffee will be ready for pickup soon at the starbucks on route 40."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your coffee will be ready for pickup soon at the Starbucks on route 40."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your coffee will be ready for pickup soon at the starbucks on route 40."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your coffee will be ready for pickup soon at the Starbucks on route 40."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. That's all for me. Thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. That's all for me. Thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. That's all for me. Thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. That's all for me. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy, bye!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy, bye!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy, bye!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy, bye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "ort c",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "erry mocha w",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "u lik",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "to pick it",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "on Ro",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "te 40 in Col",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-f1caba31-301f-4bb3-8570-8a31307ff81d",
+  "created_at": "2026-02-15T15:44:17.069Z"
+}

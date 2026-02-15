@@ -1,0 +1,121 @@
+{
+  "dialog_id": 1254,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1254"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, I need to order a couple of pizzas from a place called Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sounds delicious. what did you want from there?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need two medium gluten-free crust pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what toppings did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "one sausage, one cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, do u need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, that's going to be it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "2 medium pizzas with gluten free crust, 1 sausage and 1 cheese comes out to $21.45."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did u want to place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i've placed your order for pick up, it'll b ready in 35 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do u need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, that's going to be it. Thank you so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome, you are welcome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-b0ea6dce-46f0-45f9-ab5a-379d50e6dc92",
+  "created_at": "2026-02-15T15:44:17.027Z"
+}

@@ -1,0 +1,135 @@
+{
+  "dialog_id": 634,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=634"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi there how can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I was looking to order some pizza from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure thing, what kind?"
+    },
+    {
+      "speaker": "client",
+      "text": "I wanted three small pizzas, one meat lovers, one chicken barbecue, and one chicken bacon ranch."
+    },
+    {
+      "speaker": "client",
+      "text": "I'd also like all of those with extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what was the first one again?"
+    },
+    {
+      "speaker": "client",
+      "text": "meat lovers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "thanks one moment."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "SO I have 3 small pizzas with extra cheese, one chicken bbq, one meatlovers, and one chicken bacon ranch. IS that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, you said those had extra cheese, all right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes all three have extra cheese."
+    },
+    {
+      "speaker": "client",
+      "text": "All right, awesome. Yeah, that will be it for me."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your total is $38.50, it'll be ready in 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. Awesome. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "no problem, good bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken barbecue",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken bacon ranch",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken bbq",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meatlovers",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-596459bf-bb33-442c-96c6-f5e6d0e6f94d",
+  "created_at": "2026-02-15T15:44:16.960Z"
+}

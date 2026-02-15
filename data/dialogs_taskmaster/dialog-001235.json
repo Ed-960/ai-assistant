@@ -1,0 +1,94 @@
+{
+  "dialog_id": 1235,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1235"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey. Can you help me place a Starbucks order from the Starbucks on Walnut Street in Philadelphia?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Looking to get a tall cafe latte with soy milk and whipped cream on top."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you said tall caffe latte with soy milk is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, with whipped cream on top."
+    },
+    {
+      "speaker": "cashier",
+      "text": "with whipped cream, got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "i'll send your order to the location on walnut street."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks a lot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be texted to you and your order will be ready in 7 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect. That's all I needed. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your welcome, enjoy your coffee."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cafe latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caffe latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-aee5ae86-49d3-4b5b-8f2b-4351aa7a07f4",
+  "created_at": "2026-02-15T15:44:17.025Z"
+}

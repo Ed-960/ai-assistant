@@ -1,0 +1,117 @@
+{
+  "dialog_id": 1749,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1749"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "If they just made a pot fresh I want a venti regular"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want sugar or cream"
+    },
+    {
+      "speaker": "client",
+      "text": "No I take my coffee black"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want any snacks with it?"
+    },
+    {
+      "speaker": "client",
+      "text": "No snacks but if the coffee isn't fresh I want to change the order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like instead?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a venti cappuccino."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want regular milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "What kind of milks do they have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They have full fat, low fat, skim and soy milk."
+    },
+    {
+      "speaker": "client",
+      "text": "I want low fat."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want an extra shot of espresso?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes I want 2 extra shots."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want any sugar?"
+    },
+    {
+      "speaker": "client",
+      "text": "What options are there?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "There is regular sugar, equal, splenda and sweet and low."
+    },
+    {
+      "speaker": "client",
+      "text": "I want one pack of equal mixed in and one on the side."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want any flavoring in the coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "No that is all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay your order is placed."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cappuccino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-02cf82f9-650e-4969-863b-af056c7bf8ac",
+  "created_at": "2026-02-15T15:44:17.091Z"
+}

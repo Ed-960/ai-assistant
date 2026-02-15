@@ -39,8 +39,9 @@ function parseRetryAfter(errText) {
  * @param {Array} messages
  * @param {number} temperature
  * @param {number} maxRetries
+ * @param {number} [maxTokens] - max output tokens (for long dialogues)
  */
-export async function callGroq(messages, temperature = 0.4, maxRetries = 3) {
+export async function callGroq(messages, temperature = 0.4, maxRetries = 3, maxTokens) {
     let lastErr;
 
     const { url, key } = getApiSettings();
@@ -49,14 +50,13 @@ export async function callGroq(messages, temperature = 0.4, maxRetries = 3) {
         const headers = { "Content-Type": "application/json" };
         if (key && key !== "ollama") headers.Authorization = `Bearer ${key}`;
 
+        const body = { model: PIPELINE_CONFIG.model, messages, temperature };
+        if (maxTokens) body.max_tokens = maxTokens;
+
         const res = await fetch(url, {
             method: "POST",
             headers,
-            body: JSON.stringify({
-                model: PIPELINE_CONFIG.model,
-                messages,
-                temperature,
-            }),
+            body: JSON.stringify(body),
         });
 
         const errText = await res.text();

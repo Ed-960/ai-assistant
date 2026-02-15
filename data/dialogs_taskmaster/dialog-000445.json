@@ -1,0 +1,179 @@
+{
+  "dialog_id": 445,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=445"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I need to order three pizzas from Bella Luna to place an order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, we need three small pizzas, we one piece of wet mushrooms, bell peppers, tomatoes, and sage. We need one pizza with extra cheese and garlic and the third pizza, I don't know if they still have the new haven special?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, they do."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. So, that's the order. And I need all of those pizzas to be thick crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "they don't serve sage on their pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, okay. Okay. They don't have sage."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, you can take that off."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to substitute that item?"
+    },
+    {
+      "speaker": "client",
+      "text": "No because, No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. what type of crust would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, it's all thick crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so, 3 small pizzas. one with mushrooms and bell peppers. another with extra cheese and garlic. and the third is new haven special. thick crust on all three. correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. The first one was bell peppers, mushrooms, and tomatoes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, adding tomatoes to the first pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. That should be good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you got it. the total is $38."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're all set. your pizzas will be ready for pickup soon at bella luna's."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye now."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "wet mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bell peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "garlic",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "haven",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-3eed199b-42ca-424e-9c00-68364c58006b",
+  "created_at": "2026-02-15T15:44:16.939Z"
+}

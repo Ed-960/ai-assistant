@@ -1,0 +1,125 @@
+{
+  "dialog_id": 2509,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2509"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey assistant, can you order me a coffee from Starbucks to go pickup?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will. Which location did you want to pick it up at?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want it to be the Starbucks on pavilion parkway in Newport Kentucky."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The one on the levee in Barnes and noble?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's the one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of coffee did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a cinnamon dolce latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How big did you want it?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want the grande size."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of milk did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I prefer soy milk if you can."
+    },
+    {
+      "speaker": "cashier",
+      "text": "That'd be fine."
+    },
+    {
+      "speaker": "client",
+      "text": "I also don't want whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'll ask them to hold back on it."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "This will just go on your account. Is that all right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah that would be great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Awesome. I put in the order for you."
+    },
+    {
+      "speaker": "client",
+      "text": "How long do I wait for pickup? "
+    },
+    {
+      "speaker": "cashier",
+      "text": "It should be ready shortly and a receipt will be sent to your phone in a text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. Have a good day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cinnamon dolce latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-c1a5ad7f-45e5-4561-8f79-8a75c9b49049",
+  "created_at": "2026-02-15T15:44:17.192Z"
+}

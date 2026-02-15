@@ -1,0 +1,200 @@
+{
+  "dialog_id": 805,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=805"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hello. I'd like to order three pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Medium."
+    },
+    {
+      "speaker": "client",
+      "text": "Actually, no no. I'd like it to be small. I'm, sorry."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, let me correct that. 3 small pizzas. what toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like one to be pepperoni and ham. And then the other, I would like it to be."
+    },
+    {
+      "speaker": "client",
+      "text": "Hello, is there like a Hawaiian style pizza?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes, hawaiian pizza is available."
+    },
+    {
+      "speaker": "client",
+      "text": "All right, yeah. Then one on that, and then I would like a meat lover's pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what type of crust?"
+    },
+    {
+      "speaker": "client",
+      "text": "And a gluten free crust on all the three pizzas, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you say you want thick crust?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I would like a gluten-free crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "on all 3 pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, any special instructions?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so 3 small pizzas. one pepperoni and ham, a hawaiian and a meatlovers, is this correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and all 3 pizzas are gluten free crust."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, thanks for confirming that. your total is $51.36."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be ready for pickup in 40 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "All right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "thank you and enjoy!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni and ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hawaiian style pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hawaiian pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lover's pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meatlovers",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-6ff54cdd-b625-4be7-9e6c-e1e7e309f9d3",
+  "created_at": "2026-02-15T15:44:16.978Z"
+}

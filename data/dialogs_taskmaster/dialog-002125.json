@@ -1,0 +1,127 @@
+{
+  "dialog_id": 2125,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2125"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Please order a coffee from Starbucks for me."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which store is the closest to you now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Bishop and 44."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay! What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a venti caffe latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Almond milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want any flavoring?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, 8 pumps of sugar free cinnamon dolce"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Make it a blonde espresso, single shot"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Salt topping, if they have it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, do you want something different if they don't?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright! How soon do you want this?"
+    },
+    {
+      "speaker": "client",
+      "text": "Now."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I'm putting in the order."
+    },
+    {
+      "speaker": "client",
+      "text": "Great! Thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caffe latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "blonde espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Okay",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-5efd0946-08cf-40f0-8da6-1236a5d7ee30",
+  "created_at": "2026-02-15T15:44:17.146Z"
+}

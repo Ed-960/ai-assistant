@@ -1,0 +1,141 @@
+{
+  "dialog_id": 2326,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2326"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey Google. How are you doing?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I am doing good. How was your day?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hmm.. It was hectic and i am having a head ache"
+    },
+    {
+      "speaker": "cashier",
+      "text": "That's bad. Can i order some coffee for you"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh..That's awesome. Thank you so much. Coffee will definitely work wonders on headache."
+    },
+    {
+      "speaker": "cashier",
+      "text": "YEs sure"
+    },
+    {
+      "speaker": "client",
+      "text": "Order a coffee from Starbucks. I already have an account there"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. Let me pull the menu for you."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you prefer Caffe Macchiato?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. I would love to have it as its my favourite"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I knew that from your past orders and hence made a suggestion."
+    },
+    {
+      "speaker": "client",
+      "text": "Nice"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What about milk and other additional addons"
+    },
+    {
+      "speaker": "client",
+      "text": "Order a double size cup with Zero fat milk and less sugar. Also some whipped cream on the top"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok Got it"
+    },
+    {
+      "speaker": "client",
+      "text": "Also order some cookies, preferably the italian cookies, they were mouth watering when we ordered the previous time"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. I can do that for you"
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ORder has been placed for Caffe Macchiato and it costed you 6.99$. Payment was done through your ewallet"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok..That great"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Order details will be texted to your mobile"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep. Got it "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else i can help you with"
+    },
+    {
+      "speaker": "client",
+      "text": "No..Thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thanks you. Have a good rest of your day"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caffe Macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "double size cup",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-909cebc7-a9ad-4e03-bcec-b1b4675d8e3d",
+  "created_at": "2026-02-15T15:44:17.170Z"
+}

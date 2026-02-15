@@ -1,0 +1,190 @@
+{
+  "dialog_id": 2036,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2036"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Haley, I need two pizzas from Dominos."
+    },
+    {
+      "speaker": "cashier",
+      "text": "O.K, the one closer to us?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. it should be 415 Summer St, Boston, MA 02210"
+    },
+    {
+      "speaker": "cashier",
+      "text": "O.K., what size and what toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want their 12 in, with pepperoni and olives on one and with mushrooms and bell peppers on the other."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What crusts would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Regular for one and extra crispy for the one with the mushrooms and bell peppers, both 12 inch."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You mean regular hand tossed large for one and a thin crust for the other?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes.What does it come to?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You need to pick the sauce and the cheese."
+    },
+    {
+      "speaker": "client",
+      "text": "Regular for both."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. Pick up?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "O.K, with their promo, it comes to $23:48"
+    },
+    {
+      "speaker": "client",
+      "text": "O.K."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want Coke or garlic bread?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "O.k., it's on order, pepperoni and olives, and mushrooms wirh bell peppers, different crusts,billed to the card on file. Ready in 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "See the receipt in your phone?"
+    },
+    {
+      "speaker": "client",
+      "text": "I did hear a text. Must be it. Bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Bye. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Dominos",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "415 Summer St, Boston, MA 02210",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "12 in",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bell peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Regular",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra crispy",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "12 inch",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular hand tossed",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular hand tossed large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-481f9d57-762d-455c-9b6d-eb618513d29e",
+  "created_at": "2026-02-15T15:44:17.136Z"
+}

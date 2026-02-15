@@ -1,0 +1,162 @@
+{
+  "dialog_id": 2260,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2260"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like to order a couple pizzas for pickup."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, where are you located?"
+    },
+    {
+      "speaker": "client",
+      "text": "Port Huron, Michigan"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, and where would you like to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hungry Howies"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "2 large pepperoni pizzas, one with butter cheese crust, and the other with ranch and onion crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, would you like any bread?"
+    },
+    {
+      "speaker": "client",
+      "text": "Sure, an order of 3 cheese bread."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, one moment."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, so you wanted 2 large pepperoni pizzas with specialty crust, and an order of cheese bread?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, pickup or delivery?"
+    },
+    {
+      "speaker": "client",
+      "text": "Delivery"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, I'm placing your order for you now."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you need any help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, that's it, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome. Have a good day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Port Huron, Michigan",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hungry Howies",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "butter cheese crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ranch and onion crust.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ranch and onion crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "specialty crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "specialty",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Alright, I'm placing your order for you now.",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-81a825ed-f09c-4dfa-9436-90871f4133f6",
+  "created_at": "2026-02-15T15:44:17.162Z"
+}

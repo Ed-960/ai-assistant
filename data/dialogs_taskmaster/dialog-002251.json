@@ -1,0 +1,117 @@
+{
+  "dialog_id": 2251,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2251"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I would like to order a coffee from starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which store would you like to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks on I-40 and MacArthur in Oklahoma City"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to order the caramel cloud macchiato?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Venti"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What type of milk would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Soy milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have an order for a caramel cloud macchiato with soy milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, what type of sauce comes on top?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Caramel."
+    },
+    {
+      "speaker": "client",
+      "text": "What are the ingredients?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sugar, Corn Syrup, Butter, Water, Heavy Cream, Nonfat Dry Milk, Natural Flavors, Salt, Mono & Diglycerides, Soy Lecithin, and Sulfites."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok. Can I have one order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have an order for a caramel cloud macchiato with soy milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you. Your order will be ready to pickup shortly. A receipt has been sent to your mobile phone."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Youre welcome."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "caramel cloud macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-7f0a33ca-efd1-4722-9393-b28775c955fd",
+  "created_at": "2026-02-15T15:44:17.161Z"
+}

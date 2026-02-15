@@ -1,0 +1,117 @@
+{
+  "dialog_id": 2512,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2512"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, Amanda, this is Sheryl, are you still out of the building? I could use a bit of a pick-me-up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ms. Sheryl, of course, I am by the Starbucks on 4th street, I can grab your usual?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm actually in the mood for something new today, Amanda. Jake was just telling me about a seasonal mocha they're running? "
+    },
+    {
+      "speaker": "cashier",
+      "text": "The Black and White mocha? I can see the boards for it."
+    },
+    {
+      "speaker": "client",
+      "text": "That's the one!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, I can run in and order one. What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "A venti please, I have a bit of a caffeine headache."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And soy milk to go with it? Or they have Almond and Coconut."
+    },
+    {
+      "speaker": "client",
+      "text": "Actually let me try coconut this time. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, coconut milk it is. And then no whipped cream right? It comes with it automatically."
+    },
+    {
+      "speaker": "client",
+      "text": "I would rather not risk it, no, but can you ask for extra drizzle on the top instead?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course, Ms. Sheryl. Is there anything else you would like with it?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I think just the coffee for now, we have bagels and things in the breakroom, left over from morning meeting. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "We do? I will have to grab one when I get back. And would you like this on the corporate account?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that would be perfect. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "So I have a venti Black and White mocha with coconut milk, no whip cream, and extra drizzle? Is that everything?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's everything!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, ordering now, the receipt should come to your phone in a few minutes. "
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you so much Amanda!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome, Ms. Sheryl. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Black and White mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-c2e26a3e-2c28-4ce9-a161-f3685a2a7531",
+  "created_at": "2026-02-15T15:44:17.192Z"
+}

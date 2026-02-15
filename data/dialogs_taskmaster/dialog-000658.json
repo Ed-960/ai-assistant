@@ -1,0 +1,122 @@
+{
+  "dialog_id": 658,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=658"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Need to get some coffee for pick up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to order some Peet's on Catalina Boulevard in San Diego."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can you please repeat the address?"
+    },
+    {
+      "speaker": "client",
+      "text": "Catalina Boulevard."
+    },
+    {
+      "speaker": "client",
+      "text": "In San Diego."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of coffee would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Want a nice latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "small."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of milk would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "2%."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so a small iced latte with 2% milk and whipped cream, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your coffee will be ready for pickup soon at peet's coffee on catalina blvd."
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy, bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "nice latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-5bb36e47-3dc1-47a8-bf7d-77161fd178fc",
+  "created_at": "2026-02-15T15:44:16.963Z"
+}

@@ -1,0 +1,142 @@
+{
+  "dialog_id": 2369,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2369"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I want to order coffee from starbucks for pickup, can you do that?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, which starbucks?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one on market street in ballard"
+    },
+    {
+      "speaker": "cashier",
+      "text": "There are two starbucks at market street in ballard"
+    },
+    {
+      "speaker": "client",
+      "text": "The one across from where they hold the sunday farmer's market"
+    },
+    {
+      "speaker": "cashier",
+      "text": "That would be the location at 2200 northwest market street. What would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a large americano"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like in it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nothing, black"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Will that be all?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, how about also two small hot chocolates"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I cannot find a drink called hot chocolate on the menu"
+    },
+    {
+      "speaker": "client",
+      "text": "Maybe it's not on the menu but I had it there before, just order it and if they don't have it don't get anything"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I am ordering a large americano black and two small hot chocolates, substituting nothing if they don't have hot chocolate"
+    },
+    {
+      "speaker": "client",
+      "text": "that's correct"
+    },
+    {
+      "speaker": "cashier",
+      "text": "When will you be able to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "At 4PM. Wait, can you check if they are open now since there's a snowstorm?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They are open until 7PM today. Do you want me to place the order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The order is placed, you will receive a confirmation and code in your email shortly"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "two",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hot chocolates",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hot chocolate",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "americano black",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-9b7b565f-6cae-44e6-a981-cdd94d2d1837",
+  "created_at": "2026-02-15T15:44:17.174Z"
+}

@@ -1,0 +1,112 @@
+{
+  "dialog_id": 2402,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2402"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello, Could you order the coffee for starbucks or peets?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yeah, could you tell me the your exact location"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes i am from new york city. any starbucks coffee shop available."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, near by newyork. May I take your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. I'd like the flat white order of coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like something for dessert?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I'll have the another coffee, please. Would you like something?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No thanks. I'm full."
+    },
+    {
+      "speaker": "client",
+      "text": "can you add a little with chocolate syrup added"
+    },
+    {
+      "speaker": "cashier",
+      "text": "hot, milk with sweet flavor added little."
+    },
+    {
+      "speaker": "client",
+      "text": "how much price for coffee "
+    },
+    {
+      "speaker": "cashier",
+      "text": "These usually cost around $0.50 and are good additions if you like sweet drinks"
+    },
+    {
+      "speaker": "client",
+      "text": "May I take your order?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes when i get my order and tell me some information."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes wait it take little time"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Could we have the check, please?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, here it is."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hmm. $23.55. Here you are. "
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. any help for you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "no thanks"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "flat white",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-a52e0385-47b8-457f-8a07-390533b2260c",
+  "created_at": "2026-02-15T15:44:17.178Z"
+}

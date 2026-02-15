@@ -1,0 +1,135 @@
+{
+  "dialog_id": 1930,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1930"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello Cher, Are you busy at the moment?, I need a favor please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No, what would you like me to do?"
+    },
+    {
+      "speaker": "client",
+      "text": "Will please call Starbucks for me, I just saw that they have a Iced Blonde Vanilla Bean Coconutmilk Latte and that sounds so good, don't you think?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, it does. Are you going to pick it up? "
+    },
+    {
+      "speaker": "client",
+      "text": "Yes I will pick it up at 10 a.m. at the Starbucks on South loop 336 here in town."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, what size do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to get the Vente size."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, do you want any sweetner?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh I might as well have a Splenda in it, thanks for reminding me."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, so the Vente Iced Blonde Vanilla Bean Coconutmilk Latte with 1 Splenda. Any other extra toppings or add in's?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that should be enough."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, so you want it in your name Sandy Smith and your cell number 123-456-7890 and you will pick this up at 10 a.m today."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, thank you and please put it on my account with them."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, let me place your order and I will call you right back."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks, bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi Sandy, your order is placed."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hello, I called the Starbucks on South loop 336 here in town and I ordered you 1 Venti Iced Blonde Vanilla Bean Coconutmilk Latte with 1 Splenda in it, for pick up today at 10 am, in your name Sandy Smith, phone number 123-456-7890. It was charged to your account and the receipt and total are being text to your cell phone."
+    },
+    {
+      "speaker": "client",
+      "text": "Wonderful, thanks. It sounds so good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, thank you and bye"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your welcome, Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Iced Blonde Vanilla Bean Coconutmilk Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Vente",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-2dbc9431-3484-4450-8538-7b0aee1dbfcd",
+  "created_at": "2026-02-15T15:44:17.121Z"
+}

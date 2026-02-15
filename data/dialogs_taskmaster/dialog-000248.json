@@ -1,0 +1,184 @@
+{
+  "dialog_id": 248,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=248"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i assist?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like to order pizzas from Bella Luna Pizzeria, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let me put in the order for you. what did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I order two large thick crusts pizzas? One veggie lover's, and the second one meat lover's with extra bacon."
+    },
+    {
+      "speaker": "client",
+      "text": "Can you tell me the toppings that are put on the veggie lovers pizza?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "there is a 50 cent cost for the extra bacon, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that is fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, the veggie lovers comes with tomatoes, onions, green peppers, and mushrooms."
+    },
+    {
+      "speaker": "client",
+      "text": "Can you add extra mushrooms with that too, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "i sure will. that will also be an additional 50 cents, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the cost for 2 large thick crust pizzas, 1 veggie lovers with extra mushrooms, and 1 meat lovers with extra bacon is $28.50."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want me to place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you got it, i've placed the order. it'll be ready for pick up in 35 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's about it. Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're very welcome."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna Pizzeria",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large thick",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crusts pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lover's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lover's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra bacon, is",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "green peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-2211c9a2-0b89-4ee5-b9f8-2ab2ba786ba2",
+  "created_at": "2026-02-15T15:44:16.917Z"
+}

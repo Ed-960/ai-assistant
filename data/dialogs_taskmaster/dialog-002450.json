@@ -1,0 +1,162 @@
+{
+  "dialog_id": 2450,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2450"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi Susan, I have a family event this evening and would like for you to place an order withPizza Emporium please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure Miss Smith. What would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I will need a total of 9 pizzas. I would like 3 cheese, 3 pepperoni, and 3 supreme. ,"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, and what size should they be?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh I apoligize. I would like for all of them to be large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of crust should they have?"
+    },
+    {
+      "speaker": "client",
+      "text": "Mix them up please. Some thin and some pan."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Are you sure you don't want your usual gluten free one?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please. Make one of the supreme gluten free. Thank you for looking out for me."
+    },
+    {
+      "speaker": "cashier",
+      "text": "My pleasure Miss Smith."
+    },
+    {
+      "speaker": "client",
+      "text": "Could you please ask them to have it ready at 6:00 pm?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I sure will. "
+    },
+    {
+      "speaker": "client",
+      "text": "Please use my usual credit cardinfo to pay for it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Will that be the personal or the company card?"
+    },
+    {
+      "speaker": "client",
+      "text": "Personal please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Not sure if you are haveing this at your home or somewhere else. Which of their 3 locations will you be picking up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one on Main St."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok and I will do that right now."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order has been placed. It will be ready in 25 minutes (6:00) and your receipt will be texted to you"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Pizza Emporium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni,",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "supreme",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pan",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "supreme gluten free",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Main St",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-b25c11f4-af49-4018-8e90-89ab7201786e",
+  "created_at": "2026-02-15T15:44:17.184Z"
+}

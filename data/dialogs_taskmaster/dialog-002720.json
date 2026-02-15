@@ -1,0 +1,157 @@
+{
+  "dialog_id": 2720,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2720"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello Good Morning, I need a coffee drink. Can you take the order please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok no problem can I know the location where you can receive the order? "
+    },
+    {
+      "speaker": "client",
+      "text": "Yes off course, the location is 159-27 jamaica Ave. Jamaica, NY 11432"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of coffee drink do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want brewed coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want milk with it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes I want milk with that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want any cream with that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes I want also little amount of cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want mid-size cup."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok no problem."
+    },
+    {
+      "speaker": "client",
+      "text": "Do you have splenda?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No we don't have splenda."
+    },
+    {
+      "speaker": "client",
+      "text": "So what kind of sweetner do you have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "We have equal."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok can you put 2 equal sweetner with that?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Off course."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok nice, how long to get my coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok it can take like 5 minutes. "
+    },
+    {
+      "speaker": "client",
+      "text": "Ok nice."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you have any other question Sir?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, actually what types of cream you have."
+    },
+    {
+      "speaker": "cashier",
+      "text": "We have different coffee cream, like caramel, chocolate, hazelnut, vanilla and others."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok nice, please give me vanilla cream for my coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok Sir, Do you like anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, can you please make it extra hot?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes Sir."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks a lot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You are welcome."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "brewed coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mid-size",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-fe0176d1-0358-43e7-9681-3926f4abb75e",
+  "created_at": "2026-02-15T15:44:17.215Z"
+}

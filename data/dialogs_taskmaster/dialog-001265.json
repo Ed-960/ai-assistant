@@ -1,0 +1,109 @@
+{
+  "dialog_id": 1265,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1265"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, what can i do for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I was looking to order two small pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "One of them chicken bacon ranch and the other one meat lovers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what type of crust?"
+    },
+    {
+      "speaker": "client",
+      "text": "thick crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so 2 small pizzas. one chicken bacon ranch, the other is meat lovers with thick crust, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your total is $22."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome. your pizzas will be ready for pickup at Bela Luna's soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken bacon ranch",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bela Luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-b359a2bb-77a0-4868-90b0-e1267b70d14f",
+  "created_at": "2026-02-15T15:44:17.028Z"
+}

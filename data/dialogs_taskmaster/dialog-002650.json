@@ -1,0 +1,187 @@
+{
+  "dialog_id": 2650,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2650"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I want to order a grande latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which location would you like to pick up your coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to pick it up at the Starbucks near the corner of I 610 and South Main street."
+    },
+    {
+      "speaker": "cashier",
+      "text": "We have a location approximately 600 feet from 610 and South Main Street. The address is South Main Street and Buffalo Speedway. Is this the store you want to pick up your coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. I have you picking up at the 9602 South Main Street location. What time would like to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "20 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. I have you picking up your coffee at approximately 9:46 pm at the South Main location. Is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What type of drink would like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "A caramel macchiato"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like that hot or iced?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hot"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size would you like your latte?"
+    },
+    {
+      "speaker": "client",
+      "text": "Vente"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. I have a 1 hot Vente Caramel Macchiato. What type of milk would you like? Whole, 2%, Non-Fat, Soy, Almond, or Coconut?"
+    },
+    {
+      "speaker": "client",
+      "text": "Whole Milk"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like Whipped Cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Are there any special directions that you would like to add?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want it upside down and stirred."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. I have 1 Hot Venti Caramel Macchiato with whole milk and whipped cream, upside down and stirred. Are there any additional instructions?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want extra whip cream, and extra caramel"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. I have 1 Hot Venti Caramel Macchiato with whole milk and extra whipped cream, extra drizzel, upside down and stirred. Are there any additional instructions?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like to order an additional drink or food?"
+    },
+    {
+      "speaker": "client",
+      "text": "No"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have one hot Venti Caramel Macchiato with whole milk and whipped cream, upside down stirred ready for you to pick up at the S Main location at 9:46 pm. Your order will be available in store or drive through with this confirmation number> #485819."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you and have a nice day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caramel macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Vente",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caramel Macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-e85abcfc-092a-44ed-9cba-7bd27c445e3c",
+  "created_at": "2026-02-15T15:44:17.208Z"
+}

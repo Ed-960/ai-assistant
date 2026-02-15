@@ -1,0 +1,135 @@
+{
+  "dialog_id": 1704,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1704"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi!"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, can I get A grande Black and White Mocha at the Starbucks on Algonquin Road?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, can you repeat the location one more time?"
+    },
+    {
+      "speaker": "client",
+      "text": "a Starbucks at 1532 East Algonquin Road."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, and you're black and white mocha, which size did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grande, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, Grande! any preference on the type of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "2% is fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright 2%."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And this is going to be a hot beverage, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Hot, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great! did you want whip cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "No whip, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "not a problem."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so, i got a grande black and white mocha with 2% milk and no Whip. anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that will be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay! Give me a moment to send that over."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, your order has been sent to your desired location. It will be ready for pickup in 5-8 mins."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. Thank you so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're very welcome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Black and White Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black and white mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-fb43c867-e27e-4a9f-815d-7d756d0ffd6f",
+  "created_at": "2026-02-15T15:44:17.083Z"
+}

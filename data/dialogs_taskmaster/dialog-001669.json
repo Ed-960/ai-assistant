@@ -1,0 +1,122 @@
+{
+  "dialog_id": 1669,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1669"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, what can i do for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like to order two large pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what toppings did you want on those 2 large pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "One chicken bacon ranch and the other barbecue chicken and both of them with extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of crust did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "thick crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your order of 2 large pizzas with thick crust, 1 chicken bacon ranch and 1 bbq chicken both with extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "comes out to $35.90."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want me to place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i've submitted the order. it'll b ready for pick up in 45 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i do anything else for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, that'll be it for me. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken bacon ranch",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "barbecue chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bbq chicken",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-f5fe817a-22b6-4ab9-9023-1f6f4d2e8d73",
+  "created_at": "2026-02-15T15:44:17.076Z"
+}

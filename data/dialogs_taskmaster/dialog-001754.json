@@ -1,0 +1,156 @@
+{
+  "dialog_id": 1754,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1754"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "What kind of cold coffee beverages does starbucks offer?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Well, we have iced coffees which are just over ice, we have frappes that are blended coffee beverages, and we also offer the americano which has no cream or sugar in it. "
+    },
+    {
+      "speaker": "client",
+      "text": "Oh Great to know. I'm kind of thinking a frappe today, what kind of flavors do you offer?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Well, currently we have a seasonal drink. We have a cinnamon short-bread frappe as that drink, it's been selling well. We also have our basic flavors, mocha, caramel, java chip, and we can always add a flavor shot to any drink you'd like."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh great. The cinnamon short-bread frappe sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size can we get that for you in?"
+    },
+    {
+      "speaker": "client",
+      "text": "What sizes do you offer?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "We have tall as our smallest, grande, and venti as our biggest."
+    },
+    {
+      "speaker": "client",
+      "text": "I'll go for the grande size."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, so a grande cinnamon short-bread, is there anything else I can get you?"
+    },
+    {
+      "speaker": "client",
+      "text": "could I also get a mocha frappe for my friend?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yeah, definitely. "
+    },
+    {
+      "speaker": "client",
+      "text": "She'd like a shot of peppermint added as well, grande too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, that's not a problem, it'll just be 30 cents extra."
+    },
+    {
+      "speaker": "client",
+      "text": "Is it possible to get that made with almond milk rather than whole?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yeah that'll just be 30 cents extra as well."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, no problem, yeah that'll be all for me today then."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, that brings your total to $9.19."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright, that's no problem, I'll be paying with cash today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, so a ten dollar bill? 81 cents will be your change today."
+    },
+    {
+      "speaker": "client",
+      "text": "Thankyou."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem your drinks will be right up."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay I have both your drinks, is there anything I can get for you, a drink carrier?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thankyou, my friend's actually just waiting in the car. Have a nice day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You too! Thank you!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cinnamon short-bread frappe",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande cinnamon short-bread,",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cinnamon short-bread",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "a mocha frappe",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-03a9c16f-3bab-4d2e-a022-1150e5ef1c47",
+  "created_at": "2026-02-15T15:44:17.092Z"
+}

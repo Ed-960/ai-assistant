@@ -1,0 +1,191 @@
+{
+  "dialog_id": 494,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=494"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what can i do for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to place an order for Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure! What can I get started for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to pick up an espresso."
+    },
+    {
+      "speaker": "client",
+      "text": "at a nearby Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, an Espresso, is that a single shot of espresso?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I'd like a triple shot of espresso but added to a beverage."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what beverage?"
+    },
+    {
+      "speaker": "client",
+      "text": "A caramel macchiato."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, is that iced or hot?"
+    },
+    {
+      "speaker": "client",
+      "text": "Iced, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay an iced Caramel Macchiato with a tripple shot of espresso."
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that is all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright and where would you like to pick this up at?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "alright, give me a moment to find this location."
+    },
+    {
+      "speaker": "client",
+      "text": "Have you found the Starbucks on US 127 in Frankfort, Kentucky 40601?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Not yet."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sorry one moment."
+    },
+    {
+      "speaker": "client",
+      "text": "A nearby store would also be okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, i think i found one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is it on 1303 US 127 South, Frankfort, KY 40601?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! thank so much for your patience."
+    },
+    {
+      "speaker": "cashier",
+      "text": "give me a moment to send over your order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, your iced Caramel Macchiato with a tripple shot of espresso is in the works. It will be ready for pick up in 8 mins."
+    },
+    {
+      "speaker": "client",
+      "text": "That's fantastic."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Wonderful!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great day."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome. Goodbye!"
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caramel macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced Caramel Macchiato",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-459fc721-c617-457a-8eaa-cdb41756eb5e",
+  "created_at": "2026-02-15T15:44:16.944Z"
+}

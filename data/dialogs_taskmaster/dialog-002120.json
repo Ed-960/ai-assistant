@@ -1,0 +1,144 @@
+{
+  "dialog_id": 2120,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2120"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, I am going to be on my way to the office soon. Could you order my coffee?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. Where do you want it from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! I can place the order for the location on 4th Street. Does that work?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's on my way. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. Do you know what you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I will have the dark roast of the day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, sounds good. Tall, Medium or venti?"
+    },
+    {
+      "speaker": "client",
+      "text": "Make it a Venti. It will be a long day today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Will do. Any milk? "
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's ok. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright. Any sugar?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, its ok. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright. I am placing the order right now. Anything else you'd like to get? "
+    },
+    {
+      "speaker": "client",
+      "text": "No. Just the coffee today"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright. Placing the order. One sec. "
+    },
+    {
+      "speaker": "client",
+      "text": "Ok. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Done. It will be ready in 4 minutes at the location of 4th street."
+    },
+    {
+      "speaker": "client",
+      "text": "ok thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "remember you can't park on 4th but you can pull over by the entrance and make a quick run."
+    },
+    {
+      "speaker": "client",
+      "text": "Good reminder. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "It should be under your name on the front counter. "
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect. thanks, see you soon."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "dark roast",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-5dbb0f63-37bb-45c0-9e5c-79ddd5440bff",
+  "created_at": "2026-02-15T15:44:17.145Z"
+}

@@ -1,0 +1,135 @@
+{
+  "dialog_id": 215,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=215"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "How can I be of assistance?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like order two small pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay what toppings ?"
+    },
+    {
+      "speaker": "client",
+      "text": "I wanted to get them from Bella Luna, but the toppings I want is pepperoni on one and meat lovers for the other one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's a classic and a meat lovers, both mediums right?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. A pepperoni and a meat lovers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "A classic is pepperoni and cheese."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. So, I want a pepperoni and a meat lovers and I want them both small."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay so that's a small pepperoni and a small meatlovers, anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, I want them with thick crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, so that's 2 small pizzas with thick crust, one pepperoni and one meatlovers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your total will be $28.48."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your total will be $28.48."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's right."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your Pizza Will be ready in 30 minutes, enjoy!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mediums",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meatlovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-1c7128e8-c3d3-4f63-8c08-428873e41d78",
+  "created_at": "2026-02-15T15:44:16.914Z"
+}

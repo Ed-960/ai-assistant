@@ -1,0 +1,184 @@
+{
+  "dialog_id": 2578,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2578"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey Kathy! Can you order me some pizza from Chicago's please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course I can, what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "First I'm going to start with a large traditional crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, and what toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "That one is going to be pepperoni and jalapenos."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it, and what else?"
+    },
+    {
+      "speaker": "client",
+      "text": "The second one will be a medium deep dish."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, and what toppings do you want on that one?"
+    },
+    {
+      "speaker": "client",
+      "text": "The deep dish is ham and pineapple."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want any breadsticks?"
+    },
+    {
+      "speaker": "client",
+      "text": "Definitely. I will get two orders."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what kind of sauce do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "What kinds do they have, again?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They have mild cheese, a nacho cheese, a pizza or marinara sauce, and garlic butter."
+    },
+    {
+      "speaker": "client",
+      "text": "I think I'll get like four nacho cheeses, one pizza sauce, and one garlic butter."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, will that be all?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "So I have two pizzas, a large pepperoni and jalapeno, and a medium ham and pineapple, both deep dish. Two orders of breadsticks with 4 nacho cheese, one pizza sauce, and one garlic butter."
+    },
+    {
+      "speaker": "client",
+      "text": "Almost. I want the pepperoni and jalapeno on traditional crust. That's for my husband and he likes that kind better."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sorry about that. Okay, I'll make that one traditional. It says it'll be ready in about 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Good deal, will I get the receipt?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, they are going to send it to you through a text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome! Thanks!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Chicago's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "traditional crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "jalapenos",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "deep dish",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni and jalapeno",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "jalapeno",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ham and pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "traditional",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-d4dcf226-2cec-4387-8c77-2942882aa87c",
+  "created_at": "2026-02-15T15:44:17.200Z"
+}

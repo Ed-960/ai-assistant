@@ -1,0 +1,167 @@
+{
+  "dialog_id": 1791,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1791"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, I need 2 pizzas from Fultano's pizza for my niece's birthday party."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Absolutely! Which Fultano's?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one in Astoria, OR. They have the best pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. What kind of pizza do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a Large Bobby Special and an Everything Pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Um, I don't see a Bobby Special on the menu. Do you mean a Robbie Special?"
+    },
+    {
+      "speaker": "client",
+      "text": "Ugh, Yes, a Robbie Special. You would think I would remember that since I worked with the guy that the pizza is named."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It happens to us all. So, a large Robbie Special and a Large Everything Pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want me to remove the onions from the Everything pizza? I know you don't like onions."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I appreciate that you remembered that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. Do you want any bread sticks or ranch dressings?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, just the two pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Is this for pickup or for delivery?"
+    },
+    {
+      "speaker": "client",
+      "text": "I will go get them."
+    },
+    {
+      "speaker": "cashier",
+      "text": "For pickup - got it. It looks like we have a total of $42.00. Should I charge it to your account?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I placed the order and sent a copy of your receipt to your phone. Anything else that I can help you with?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I'm good. Thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You are welcome."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Fultano's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Fultano's pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Astoria",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Astoria, OR",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bobby Special",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Everything Pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Robbie Special",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "remove the onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Everything pizza",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-0c56c143-57aa-4d01-9c5d-722ecb5d5b87",
+  "created_at": "2026-02-15T15:44:17.099Z"
+}

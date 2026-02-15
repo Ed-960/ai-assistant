@@ -1,0 +1,117 @@
+{
+  "dialog_id": 2359,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2359"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi Lisa, can you place a Starbucks order for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Absolutely, which location?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Starbucks on Taylor and Loomis"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, what would you like me to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a Mocha"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Regular milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, 2% milk"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grande"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Need me to add anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, just ask to make extra hot please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. Grande Mocha with 2% Milk and whipped cream extra hot."
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds good"
+    },
+    {
+      "speaker": "cashier",
+      "text": "And I will have it be picked up at Taylor and loomis"
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have placed the order and sent your receipt to receipt via text"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you so much"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You are welcome"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-98ee5942-5236-40be-b19f-bc1e25ae4ac7",
+  "created_at": "2026-02-15T15:44:17.173Z"
+}

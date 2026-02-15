@@ -1,0 +1,117 @@
+{
+  "dialog_id": 2601,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2601"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I really need some coffee. Will you please order me some?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course. Where from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I really want some Starbucks please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok and where are you?"
+    },
+    {
+      "speaker": "client",
+      "text": "In Fort Gratiot, there's one right on 24th Avenue"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. And what would you like"
+    },
+    {
+      "speaker": "client",
+      "text": "Just a grande coffee please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Perfect. Would you like anything special in it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes will you please have them put some hazelnut flavor in it?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course! And anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes will you get me 2 creams and 2 sugars please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Definitely. Anything to eat?"
+    },
+    {
+      "speaker": "client",
+      "text": "No I think just the coffee please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok got it. Would you like me to bring it to you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please. I'll text you my address, but it's right down the road."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Perfect, I'll be on my way to you with the coffee in just a few minutes"
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thank you so much!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Not a problem. Anything else I can help you with while I'm out."
+    },
+    {
+      "speaker": "client",
+      "text": "No that's all, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok see you soon."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-da85a9e6-85d8-466d-9e33-73a5b6d5d420",
+  "created_at": "2026-02-15T15:44:17.202Z"
+}

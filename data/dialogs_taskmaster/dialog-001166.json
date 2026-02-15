@@ -1,0 +1,163 @@
+{
+  "dialog_id": 1166,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1166"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi."
+    },
+    {
+      "speaker": "cashier",
+      "text": "how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "like to order some coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, where do you want to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. what did you want from Starbucks?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a black and white mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want that hot or iced?"
+    },
+    {
+      "speaker": "client",
+      "text": "iced."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what size did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Venti."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. are you ok with whole milk, or did you want another milk option?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want soy milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. let me read that back to you. you want 1 venti iced black and white mocha with soy milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Add whipped cream to it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, i've added whipped cream to your order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's all I needed."
+    },
+    {
+      "speaker": "cashier",
+      "text": "$3.50 is the total for your drink. should i place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, it'll b ready for pick up 10 mins."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the receipt has been sent to your phone."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "black and white mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-a47ef890-0413-43c5-b6cc-d0f66bdf2ce6",
+  "created_at": "2026-02-15T15:44:17.016Z"
+}

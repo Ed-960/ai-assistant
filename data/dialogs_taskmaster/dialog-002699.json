@@ -1,0 +1,127 @@
+{
+  "dialog_id": 2699,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2699"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I would like to place an order from Starbucks. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, which location? "
+    },
+    {
+      "speaker": "client",
+      "text": "Faneuil Hall Marketplace in Boston."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, what would you like? "
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a Cold Brew Coffee with Milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What type of milk would you like? "
+    },
+    {
+      "speaker": "client",
+      "text": "Whole Milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK. What size would you like? "
+    },
+    {
+      "speaker": "client",
+      "text": "Venti."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like anything else? "
+    },
+    {
+      "speaker": "client",
+      "text": "No, that is all. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "May I confirm your order? "
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "A venti cold brew coffee with whole milk from Starbucks at Faneuil Hall Marketplace in Boston."
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order has been placed and the total is $4.25. "
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "It will be ready for pickup shortly and a receipt will be sent to your mobile device via text message. "
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome! Enjoy! "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cold Brew Coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cold brew coffee",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-f690947c-5eb5-4a59-b946-a23eb5260f18",
+  "created_at": "2026-02-15T15:44:17.213Z"
+}

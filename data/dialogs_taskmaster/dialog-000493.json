@@ -1,0 +1,146 @@
+{
+  "dialog_id": 493,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=493"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need to order to medium gluten-free crust pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "(s) I was thinking for one of them to be the chicken ranch pizza toppings and for the other one the margarita."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, for the first, did you want the chicken, bacon, ranch special or did you want to exclude the bacon?"
+    },
+    {
+      "speaker": "client",
+      "text": "(s) Take off the bacon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, you are ordering 2 medium gluten free crust pizzas, one chicken ranch, and the other margherita, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "You got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, your total will be $38, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds about right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and will you be dining in, picking up, or having it delivered?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm going to carry it out."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your receipt will be texted to you and your pizzas will be ready in 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your welcome, enjoy your pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Hope I will."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken ranch pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "margarita",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ranch",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken ranch",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "margherita",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-45961284-55ae-4c0d-ba85-70b826423345",
+  "created_at": "2026-02-15T15:44:16.944Z"
+}

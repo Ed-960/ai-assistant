@@ -1,0 +1,157 @@
+{
+  "dialog_id": 2192,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2192"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, i am on my way out for a meeting, however i missed my morning coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like me to order one for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes go ahead. Order a latte from nearest Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Where are you at now?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm in 3rd avenue in Manhattan. So you can order one from any Starbucks within 2 blocks away."
+    },
+    {
+      "speaker": "cashier",
+      "text": "There is a Starbucks in the 5th avenue. What would you like to have?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm really in the mood for a Latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you want a hot latte or iced one?"
+    },
+    {
+      "speaker": "client",
+      "text": "What options do i have with the iced ones?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Well, there is the Juniper Latte and Iced eggnog latte. You also have Chestnut prime Latte available."
+    },
+    {
+      "speaker": "client",
+      "text": "No, none of that sounds great. I will go for a hot one. Order me a gingerbread one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm afraid Gingerbread is a seasonal Latte at Starbucks."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh yeah, i forgot. Order me a Caffe Latte then."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. Would you like extra cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Sure i do, as always."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like some honey or some other flavors along with it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, i think some honey will be good. It is organic honey right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes they use organic honey there"
+    },
+    {
+      "speaker": "client",
+      "text": "Then go ahead and place the order"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order is placed at the Starbucks in 5th Ave. The receipt will be sent to your phone shortly."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "5th avenue",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hot latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Juniper Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Iced eggnog latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Chestnut prime Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gingerbread",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Gingerbread",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caffe Latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-6e040908-14b0-41f0-9844-5d1d182a9457",
+  "created_at": "2026-02-15T15:44:17.154Z"
+}

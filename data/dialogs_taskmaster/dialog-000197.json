@@ -1,0 +1,187 @@
+{
+  "dialog_id": 197,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=197"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there."
+    },
+    {
+      "speaker": "cashier",
+      "text": "how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey there. I'd like to order a couple pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, I'm thinking thin crust. Maybe two barbecue chicken, one veggie lover."
+    },
+    {
+      "speaker": "client",
+      "text": "all medium size."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok."
+    },
+    {
+      "speaker": "cashier",
+      "text": "one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "let's see here."
+    },
+    {
+      "speaker": "cashier",
+      "text": "it looks like they have chicken but not barbeque chicken."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "3 medium pizzas, 2 chicken and 1 veggie lover all with thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep, that's it. And can you add a side of buffalo wings?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "unfortunately they do not serve buffalo wings at bella"
+    },
+    {
+      "speaker": "cashier",
+      "text": "lunas."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. That'll be all, then."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the total will be $29.49."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order will be ready at your local Bella Luna pizzeria for pick up shortly. Enjoy!"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "Fantastic. Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "barbecue chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lover.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "barbeque chicken.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lover",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "lunas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna pizzeria",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-1968e6cd-4a46-4e59-82a8-0a59881bb54d",
+  "created_at": "2026-02-15T15:44:16.912Z"
+}

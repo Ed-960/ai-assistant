@@ -1,0 +1,345 @@
+{
+  "dialog_id": 550,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=550"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order something from Starbucks."
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order something from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to order?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order an iced White Chocolate Mocha with whipped cream and one sugar."
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order an iced White Chocolate Mocha with whipped cream and one sugar."
+    },
+    {
+      "speaker": "client",
+      "text": "With whole milk."
+    },
+    {
+      "speaker": "client",
+      "text": "With whole milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "one moment while i place that order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "one moment while i place that order."
+    },
+    {
+      "speaker": "client",
+      "text": "Appreciate it."
+    },
+    {
+      "speaker": "client",
+      "text": "Appreciate it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size did you want your white chocolate mocha?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size did you want your white chocolate mocha?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you make that a tall, please?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you make that a tall, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let me order that for you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let me order that for you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "i have ordered you a tall iced White Chocolate Mocha with whole milk and whipped cream and only one sugar to be picked up at Westlake Shopping center Starbucks in Daly city, ca, is that correct?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "i have ordered you a tall iced White Chocolate Mocha with whole milk and whipped cream and only one sugar to be picked up at Westlake Shopping center Starbucks in Daly city, ca, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct. I appreciate it. Thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct. I appreciate it. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be texted to you and it will be ready for pickup in 10 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be texted to you and it will be ready for pickup in 10 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "I appreciate that, thank you very much."
+    },
+    {
+      "speaker": "client",
+      "text": "I appreciate that, thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help with anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's fine. You've been a big help. You have a great and wonderful day."
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's fine. You've been a big help. You have a great and wonderful day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "I will."
+    },
+    {
+      "speaker": "client",
+      "text": "I will."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let me order that for you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let me order that for you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let me order that for you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let me order that for you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "i have ordered you a tall iced White Chocolate Mocha with whole milk and whipped cream and only one sugar to be picked up at Westlake Shopping center Starbucks in Daly city, ca, is that correct?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "i have ordered you a tall iced White Chocolate Mocha with whole milk and whipped cream and only one sugar to be picked up at Westlake Shopping center Starbucks in Daly city, ca, is that correct?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "i have ordered you a tall iced White Chocolate Mocha with whole milk and whipped cream and only one sugar to be picked up at Westlake Shopping center Starbucks in Daly city, ca, is that correct?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "i have ordered you a tall iced White Chocolate Mocha with whole milk and whipped cream and only one sugar to be picked up at Westlake Shopping center Starbucks in Daly city, ca, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct. I appreciate it. Thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct. I appreciate it. Thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct. I appreciate it. Thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct. I appreciate it. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be texted to you and it will be ready for pickup in 10 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be texted to you and it will be ready for pickup in 10 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be texted to you and it will be ready for pickup in 10 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be texted to you and it will be ready for pickup in 10 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "I appreciate that, thank you very much."
+    },
+    {
+      "speaker": "client",
+      "text": "I appreciate that, thank you very much."
+    },
+    {
+      "speaker": "client",
+      "text": "I appreciate that, thank you very much."
+    },
+    {
+      "speaker": "client",
+      "text": "I appreciate that, thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help with anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help with anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help with anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's fine. You've been a big help. You have a great and wonderful day."
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's fine. You've been a big help. You have a great and wonderful day."
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's fine. You've been a big help. You have a great and wonderful day."
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's fine. You've been a big help. You have a great and wonderful day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "I will."
+    },
+    {
+      "speaker": "client",
+      "text": "I will."
+    },
+    {
+      "speaker": "client",
+      "text": "I will."
+    },
+    {
+      "speaker": "client",
+      "text": "I will."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "t your white chocolate moc",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "e?",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "a big help. You have",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "e.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced White Chocolate Mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-4eb4f2e7-5401-4983-aceb-1fd2dbfa1b64",
+  "created_at": "2026-02-15T15:44:16.951Z"
+}

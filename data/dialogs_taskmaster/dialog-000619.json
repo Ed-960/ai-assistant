@@ -1,0 +1,113 @@
+{
+  "dialog_id": 619,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=619"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi."
+    },
+    {
+      "speaker": "cashier",
+      "text": "how can i help?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order a golden cafe latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, where do u want to order that from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Pete's Cafe."
+    },
+    {
+      "speaker": "cashier",
+      "text": "which peet's should i place this order at?"
+    },
+    {
+      "speaker": "client",
+      "text": "Las Vegas, Nevada."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what size did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what milk did you want for that?"
+    },
+    {
+      "speaker": "client",
+      "text": "2%."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. so you want a large golden cafe latte with 2% milk."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would that be all?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "the total is $4.50."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I've ordered your drink for you at Peet's on las vegas avenue. it should be ready for pick up in about 9 minutes. Your receipt will be sent to your mobile device via text message shortly."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "golden cafe latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-577879f9-8101-47ae-8bb0-8b6460aedbc2",
+  "created_at": "2026-02-15T15:44:16.959Z"
+}

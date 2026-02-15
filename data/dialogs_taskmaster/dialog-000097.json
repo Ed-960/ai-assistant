@@ -1,0 +1,166 @@
+{
+  "dialog_id": 97,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=97"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "how can i help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi there. I'd like to get an espresso at Starbucks in Cortland."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, did you want an espresso or another type of drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like another type of drink actually."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, what did you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I have a caramel macchiato?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yum and did you want that iced or hot?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get ice, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like a short."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and did you want whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what type of milk did you want in that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I have 2% milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. That's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so i have you wanting a short iced caramel macchiato with 2% milk and whipped cream from starbucks in portland."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did i get that correctly?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "did i get that correctly?"
+    },
+    {
+      "speaker": "client",
+      "text": "That was Cortland, New York not Portland."
+    },
+    {
+      "speaker": "cashier",
+      "text": "oops, got it. cortland, new york."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the total for the order will be $4.50."
+    },
+    {
+      "speaker": "cashier",
+      "text": "should i place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I've ordered your drink for you at Starbucks in Cortland New York. it should be ready for pick up in 9 minutes. Your receipt will be sent to your mobile device via text message shortly."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, sounds good."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else i can do for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, that was it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caramel macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "short",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-0c1b49e6-5cd5-42bf-af12-7c2bca541be7",
+  "created_at": "2026-02-15T15:44:16.900Z"
+}

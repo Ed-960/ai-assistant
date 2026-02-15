@@ -1,0 +1,135 @@
+{
+  "dialog_id": 2047,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2047"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, would you place a Starbucks order for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, that's no problem. What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a Caramel Brulée Latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. How would you like it?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a quad venti Caramel Brulée Latte, non-fat milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, I'll order that from the North Fairfield Road location."
+    },
+    {
+      "speaker": "client",
+      "text": "That's great. Feel free to order a coffee for yourself too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you, but no thank you. So that is a quad venti Caramel Brulée Latte with non-fat milk, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Order it without whipped cream too, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. I will place the order for a quad venti Caramel Brulée Latte, non-fat, no whip for pick-up at the North Fairfield Starbucks."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thanks. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome."
+    },
+    {
+      "speaker": "client",
+      "text": "Are you sure you don't want anything?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, I'm sure, but thanks for the offer. "
+    },
+    {
+      "speaker": "client",
+      "text": "You're welcome. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, I'll place the order for pick-up now using your Starbucks account information. "
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome."
+    },
+    {
+      "speaker": "client",
+      "text": "Have you placed the Starbucks order yet?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, I placed your order for a quad venti, non-fat, no whip, Caramel Brulée Latte and it will be ready for pick-up at the North Fairfield Road Starbucks shortly. Your receipt will be sent to your mobile device via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome! "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caramel Brulée Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caramel Brulée Latte.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "quad venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-4c121a03-f9e7-4840-b87e-8d3559e966c5",
+  "created_at": "2026-02-15T15:44:17.137Z"
+}

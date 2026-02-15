@@ -1,0 +1,175 @@
+{
+  "dialog_id": 1726,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1726"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there."
+    },
+    {
+      "speaker": "client",
+      "text": "Hello."
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What are we doing today?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to order three large pizzas, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay so that's 3 large pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's right."
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like one with pepperoni and cheese. Another one, make it a veggie lovers. The third large large pizza, please make it seafood pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "one classic, one vegetarian, and one seaside delight, all large, right?"
+    },
+    {
+      "speaker": "client",
+      "text": "What's in the classic?"
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect, that's correct. Could you also make all three pieces thin crust?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Pepperoni and cheese"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing! Did you want extra cheese too?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, no extra cheese. Thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "so that's 3 large pizzas with thin crust, one classic, one veggie, and one seaside delight for a total of $63.45."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect. Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "no problem, did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks. Goodbye. Thank you. Goodbye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your pizza will be ready in 30 minutes, enjoy!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "seafood pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "classic",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "vegetarian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "seaside delight",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-feceef9c-a9fe-4274-a509-4757b6b4faeb",
+  "created_at": "2026-02-15T15:44:17.087Z"
+}

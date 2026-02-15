@@ -1,0 +1,105 @@
+{
+  "dialog_id": 20,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=20"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello. how can i help you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I'd like to make an order at Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, which starbucks did u want to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "the Starbucks on Cole Street in Oaks, Pennsylvania."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. and what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a cappuccino."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did u need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Could I put whole milk in it and sugar?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure. u want 1 cappuccino with whole milk and sugar from starbucks on cole street in pennsylvania."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep."
+    },
+    {
+      "speaker": "cashier",
+      "text": "$3.45 is the total. did u want me to place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're all set. the order has been placed. it'll b ready for pick up in 10 minutes. the receipt has been sent to u via text."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did u need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. That is all. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome. good bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-032d42cc-b5df-4fd0-9094-369e20afea6c",
+  "created_at": "2026-02-15T15:44:16.887Z"
+}

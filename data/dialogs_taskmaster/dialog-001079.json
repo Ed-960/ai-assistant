@@ -1,0 +1,106 @@
+{
+  "dialog_id": 1079,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1079"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order Starbucks coffee please, can you help me out?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "i sure can. which starbucks do you wanna order from?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, and what drink did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order a Venti ice cafe latte with 2% milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did u need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's about it. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the total for your drink, 1 venti iced cafe latte with 2% milk from the starbucks on south las vegas blvd, comes out to $4.50."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would u like me to place the order now, or did i need to?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "change anything."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "client",
+      "text": "You don't need You don't need to change anything, you placed order now, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. i've placed the order. it'll b ready in 15 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do u need anything else today?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's about it. Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome, you're welcome."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cafe latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-99c77731-70bd-49a8-a1ce-b3a0a9e81756",
+  "created_at": "2026-02-15T15:44:17.007Z"
+}

@@ -1,0 +1,184 @@
+{
+  "dialog_id": 859,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=859"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there! How can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I'd like to order a drink from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What can I get started for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to get a venti cinnamon almond milk macchiato with coconut milk and half the syrup and an extra shot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay! let me see."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I can only find an Cinnamon Dolce Latte, is that what you're looking for?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, cinnamon almond milk macchiato."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh I see! give me a moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright you're looking for a Venti Cinnamon Macchiato, with Almond milk and Coconut milk, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "With Just with coconut milk, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what exactly is the Almond part within the drink you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Leave out the omen part."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay got it!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Venti Cinnamon Macchiato, with Coconut milk. WHat else did you want to add?"
+    },
+    {
+      "speaker": "client",
+      "text": "a half half the syrup and an extra shot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, lite on the syrup and an extra shot, got it!"
+    },
+    {
+      "speaker": "client",
+      "text": "And can I pick that up at the Starbucks in Harbison Court at 276 Harbison Boulevard in Columbia, South Carolina?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Give me a moment to find that location."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It looks like they do not serve coconut milk at that location. Would you like to substitute the milk with something else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "or get a different drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "Almond milk, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure! Switching it to almond milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "They do serve almond milk. So no problem."
+    },
+    {
+      "speaker": "client",
+      "text": "Great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will go ahead and send your order, is that okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you! okay, one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, your order has been sent to your desired location. It will be ready for pickup in 5-8 min."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're very welcome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Goodbye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Dolce Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Macchiato",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-762d564c-d19a-40a5-9264-adadcab79666",
+  "created_at": "2026-02-15T15:44:16.985Z"
+}

@@ -1,0 +1,121 @@
+{
+  "dialog_id": 2140,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2140"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like to order a drink from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what Starbucks did you want to pick up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one on 19 W Bridge St, Historic Dublin."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, let's get started. What size? "
+    },
+    {
+      "speaker": "client",
+      "text": "Grande, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Latte?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any ice? "
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, ice please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Foam?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any drizzle?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, chocolate please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What latte flavor? "
+    },
+    {
+      "speaker": "client",
+      "text": "Vanilla."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Skim."
+    },
+    {
+      "speaker": "cashier",
+      "text": "That looks complete to me, anything else you'd like? "
+    },
+    {
+      "speaker": "client",
+      "text": "Besides a straw, nothing else. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Your order will be ready shortly on 19 W Bridge St, Historic Dublin. I'm sending you a text confirmation with the receipt now. Enjoy!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks! Bye. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-6302a751-c4df-4cb8-af11-ffcf0613629f",
+  "created_at": "2026-02-15T15:44:17.148Z"
+}

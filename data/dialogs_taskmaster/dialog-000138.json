@@ -1,0 +1,178 @@
+{
+  "dialog_id": 138,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=138"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hey there, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey. I'm looking to order four pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, i can help place the order for you, does that sound good?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, what kind of pizzas did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm looking for four small pizzas, two pepperoni and two chicken Alfredo, all of them thin-crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "it doesn't look like bella luna has chicken alfredo. sorry. did you want another topping?"
+    },
+    {
+      "speaker": "client",
+      "text": "Do they still have a chicken as a topping or just not the chicken Alfredo?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "they don't have alfredo sauce."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Can I get Instead of the chicken Alfredo then, can I get two pizzas with chicken and bacon on them?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "you got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you said 4 small pizzas, 2 pepperoni and 2 chicken and bacon, all with thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "$49.84 is the total for this order. did you want to place the order for pick up, or delivery."
+    },
+    {
+      "speaker": "client",
+      "text": "That's pretty expensive, but we'll go with delivery."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, if you want it delivered it'll be an additional $15."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that alright?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can we just do pick-up instead, then?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, pick up it is."
+    },
+    {
+      "speaker": "cashier",
+      "text": "it'll be ready in 35 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much. Nah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome, take care."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken Alfredo",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin-crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken alfredo",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "alfredo",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-129f8b0c-d110-40e5-92a0-08d3848b07f6",
+  "created_at": "2026-02-15T15:44:16.905Z"
+}

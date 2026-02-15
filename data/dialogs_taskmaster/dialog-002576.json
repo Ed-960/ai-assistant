@@ -1,0 +1,121 @@
+{
+  "dialog_id": 2576,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2576"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Where is a Starbucks near me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I found a Starbucks at 422 West 500 South. Would you like to place an order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, will you be picking this up now or later?"
+    },
+    {
+      "speaker": "client",
+      "text": "Later"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, first - what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Venti House blend, add cream and two splenda's"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, to confirm, that is a Venti House blend, add cream and two splenda's, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, how soon will you be able to pick up the drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "10 Minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I will place your order now and inform the barista to have it ready in 10 minutes. Will you be walking in or going through the drive thru?"
+    },
+    {
+      "speaker": "client",
+      "text": "Walk in."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, would you like any other items from Starbucks?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "An old fashioned donut. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, one old fashioned donut. Is there anything else you would like?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, Your Venti House blend, add cream and two splenda's and old fashioned donut will be ready for pickup via walkin. Your total will be $5.85. Is there anything else I can help you with?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "House blend",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-d4a70d43-7fef-4b75-bd23-9610bb4a2889",
+  "created_at": "2026-02-15T15:44:17.199Z"
+}

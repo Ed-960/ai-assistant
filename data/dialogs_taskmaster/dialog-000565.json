@@ -1,0 +1,186 @@
+{
+  "dialog_id": 565,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=565"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey, how are you doing? I'm getting hungry so I want to get some pizzas from Bella Luna. You want to help set up an order for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, I want I need to get four large pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "You know for the first one let's just make it classic pepperoni and then for the second one I want sausage and bell pepper and also garlic."
+    },
+    {
+      "speaker": "client",
+      "text": "For the third one, make that one a meatball and Canadian bacon."
+    },
+    {
+      "speaker": "client",
+      "text": "And then the last one, can you make that one just a veggie lovers?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you are ordering 4 large pizzas, 1 pepperoni, 1 sausage, bell pepper and garlic, 1 meatball and canadian bacon, and 1 veggie lovers, is that correct?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, your total will be $96, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Is that I I want to make sure I want to make sure that you know I want thin crust for all of those. Does that change the price any?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, thin crust does not change the price, just gluten free option and extra cheese."
+    },
+    {
+      "speaker": "client",
+      "text": "I see."
+    },
+    {
+      "speaker": "client",
+      "text": "Well then, go ahead and put the order in for those four thin crust pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, would you like to dine in, pick up, or have your order delivered?"
+    },
+    {
+      "speaker": "client",
+      "text": "Why not I'm I'm going to be out and about, so I'll go pick them up. When do you think it'll be ready?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your pizzas will be ready in 40 minutes and your receipt will be texted to you."
+    },
+    {
+      "speaker": "client",
+      "text": "No. I think that's all I needed."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help with anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, enjoy your pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Cool."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "classic pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bell pepper",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "garlic",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meatball",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Canadian bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "canadian bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust pizzas",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-514778d3-c1f9-47bd-ae77-8d1f39cb267f",
+  "created_at": "2026-02-15T15:44:16.952Z"
+}

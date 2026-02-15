@@ -1,0 +1,97 @@
+{
+  "dialog_id": 798,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=798"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i help you today?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "are you there?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I would like to order I would like to order a black and white mocha grande 2% milk with whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hmm. i'm not sure i caught that all. first off, where do you want to order from."
+    },
+    {
+      "speaker": "client",
+      "text": "from the from the Starbucks on Main Avenue, Norwalk, Connecticut."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, let's see if i got that down correctly. you said you want a grande black and white mocha with 2% milk and whipped cream from Starbucks on main avenue."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did i get that right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "lovely. the order will be $4.50."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. Please place order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you want me to place the order now?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, the order has been placed. the drink will be ready in 10 mins for pick up. and the receipt has been sent to your mobile device."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do u need anything else??"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's all. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, take care then."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "black and white mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-6f4127f6-8d98-4922-8e79-9b2e4db68c4d",
+  "created_at": "2026-02-15T15:44:16.978Z"
+}

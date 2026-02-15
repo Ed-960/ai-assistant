@@ -1,0 +1,131 @@
+{
+  "dialog_id": 2313,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2313"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi Jack, can you grab me a coffee from Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, where are you so I can get it close by"
+    },
+    {
+      "speaker": "client",
+      "text": "Use the one in Blue Ash on Kenwood"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, what do you want"
+    },
+    {
+      "speaker": "client",
+      "text": "I dunno. Not the usual. I want to try their seasonal drink."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay - do you know what it is?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, a black and white mocha"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. What size."
+    },
+    {
+      "speaker": "client",
+      "text": "I'll take a grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What milk do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, let's do full milk - why not?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, with the whipped cream or no?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, whipped cream too"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please add an extra shot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, got it. Should I pay and you reimburse me?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, my card is on file with the app you have access to."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. Black and white mocha, grande, full milk, whipped cream and and extra shot."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, your order will be ready in 15 min at the Kenwood, Blue Ash location. You should see a text of the receipt."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect. Thanks, Jack."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "seasonal drink",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black and white mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Black and white mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-8dbf11c6-22da-4a86-8c24-91fc9ca42e5f",
+  "created_at": "2026-02-15T15:44:17.168Z"
+}

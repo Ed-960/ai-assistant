@@ -1,0 +1,130 @@
+{
+  "dialog_id": 1167,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1167"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would like to place some order for three pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Three medium pizzas. I would like one pepperoni lover's. One would be pepperoni lover's, one would be veggie lover's, and one would be chicken barbecue with thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok and what toppings?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay, thin crust on all three pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you got it. Any special instructions?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so, 3 thin crust medium pizzas. One pepperoni, one veggie lovers and one chicken bbq. Is this correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great.Your total is $37.89."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome! your pizzas will be ready for pickup at Bella Luna's shortly."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy! bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni lover's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lover's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken barbecue",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "at's it.",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-a49ec32b-f76b-46b4-bb92-9cfe5d1af8aa",
+  "created_at": "2026-02-15T15:44:17.016Z"
+}

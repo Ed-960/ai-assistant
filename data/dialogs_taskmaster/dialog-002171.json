@@ -1,0 +1,122 @@
+{
+  "dialog_id": 2171,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2171"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Can you order me a cappuccino to pickup from Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, which store do you want to go to?"
+    },
+    {
+      "speaker": "client",
+      "text": "Springwood Road in York"
+    },
+    {
+      "speaker": "cashier",
+      "text": "All right, what size cappuccino? Grande? Venti?"
+    },
+    {
+      "speaker": "client",
+      "text": "Venti"
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, what kind of milk do you take?"
+    },
+    {
+      "speaker": "client",
+      "text": "Definitely almond. I know they have almond."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, do you want an extra shot of espresso?"
+    },
+    {
+      "speaker": "client",
+      "text": "YES! Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. How long until you get to the store?"
+    },
+    {
+      "speaker": "client",
+      "text": "About 10 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want them to add sugar?"
+    },
+    {
+      "speaker": "client",
+      "text": "No definitely not."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK. Do you get any other sweeteners?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, none of that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any whipped cream or other flavors?"
+    },
+    {
+      "speaker": "client",
+      "text": "No I just want the espresso and almond milk. I'm a purist."
+    },
+    {
+      "speaker": "cashier",
+      "text": "All good. The order is placed. It will be ready at Springwood Rd in 10."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks! I'll see you at the office later."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. See you later."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-68e02c94-0586-4e98-bd21-5837c0002063",
+  "created_at": "2026-02-15T15:44:17.152Z"
+}

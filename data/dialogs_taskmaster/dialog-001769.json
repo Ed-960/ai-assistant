@@ -1,0 +1,132 @@
+{
+  "dialog_id": 1769,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1769"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I would like you to order me a drink from Starbucks please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay I can do that, which location should I order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one on 70th St. in Lincoln please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what can I get ordered for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like an iced cold foam cappuccino with regular milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm pretty tired this afternoon, get me the largest they have."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay I will order you the Venti."
+    },
+    {
+      "speaker": "client",
+      "text": "That is perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay great, anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Please add one shot of espresso to the drink."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, so you would like a venti iced cold foam cappuccino, regular milk, with one extra shot of espresso?"
+    },
+    {
+      "speaker": "client",
+      "text": "Correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay I will put that order in at the 70th St. location in Lincoln."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Before I submit the order, are you sure there is nothing else you need?"
+    },
+    {
+      "speaker": "client",
+      "text": "I am sure, just the one coffee will do."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright I have submitted the order for pickup."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome. The order will be ready in a few minutes and your receipt should be arriving on your mobile phone any minute."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "iced cold foam cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "largest",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-06862cb1-259c-46a4-aec9-39c493cf7e09",
+  "created_at": "2026-02-15T15:44:17.095Z"
+}

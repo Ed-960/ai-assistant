@@ -1,0 +1,167 @@
+{
+  "dialog_id": 2683,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2683"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi! Could you order coffee from Starbucks, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure! Which Starbucks branch would you prefer?"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks at South Main Street, Graham."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. What would you like me to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Today, I'm gonna have the caffe mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Awesome! Do you want the short, tall, grande or venti?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let me see. Can you tell me how much calories does the venti have compared to tall size?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Just a moment, pls. Let me check for you."
+    },
+    {
+      "speaker": "client",
+      "text": "Sure. Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It looks like the venti has 450 calories while the tall size has 290 calories."
+    },
+    {
+      "speaker": "client",
+      "text": "What's the serving size for the venti?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Venti will be 20 fluid ounces."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, I'll have the venti then pls."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like milk added to it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh yes, I'll have Almond milk with it. I trying to avoid animal milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How about whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes pls."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Just to confirm I got it right. You want venti sized caffe mocha, with Almond milk and whipped cream to be ordered from Starbucks at South Main Street, Graham?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, you got it right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, your order of caffe mocha has been ordered and ready for pick up shortly. Your receipt will be sent to your mobile device via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome. Is there anything else I can do for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "hat's all. Thanks again."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome. Have a great day. Goodbye."
+    },
+    {
+      "speaker": "client",
+      "text": "You, too. Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "caffe mocha.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caffe mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "short",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "short, tall, grande or venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti sized",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-f2413ebb-a6aa-419b-883a-a22313387916",
+  "created_at": "2026-02-15T15:44:17.211Z"
+}

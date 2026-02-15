@@ -1,0 +1,132 @@
+{
+  "dialog_id": 2200,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2200"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Where is the nearest Starbucks? I need a coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The nearest Starbucks is at 890 W. Williams Ave. in Fallon, Nv."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect. Please order me a large vanilla late"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Starbucks does not classify their drinks by large, medium, or small. They have Venti. It is the biggest."
+    },
+    {
+      "speaker": "client",
+      "text": "Then I will have a Venti."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like regular, low fat, or specialty milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "What specialty milks are available?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Soy, almond, and coconut"
+    },
+    {
+      "speaker": "client",
+      "text": "I will have coconut milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like extra espresso?"
+    },
+    {
+      "speaker": "client",
+      "text": "That depends. How many espresso shots are in a Venti?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "A Venti is standard with 3 shots."
+    },
+    {
+      "speaker": "client",
+      "text": "3 shots are more than enough. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like it sugar free?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hot or iced?"
+    },
+    {
+      "speaker": "client",
+      "text": "I will have it iced."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that will be all thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You are welcome. The order has been placed. A text message receipt will be sent to your phone shortly. Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "vanilla late",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-6fbb0c87-bc61-4da0-bf9d-91aeb3a5f38d",
+  "created_at": "2026-02-15T15:44:17.155Z"
+}

@@ -1,0 +1,191 @@
+{
+  "dialog_id": 1180,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1180"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello."
+    },
+    {
+      "speaker": "client",
+      "text": "Hello, I'd like to order pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, from where?"
+    },
+    {
+      "speaker": "client",
+      "text": "Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, what did you want from there?"
+    },
+    {
+      "speaker": "client",
+      "text": "four medium pizzas two with pepperoni and sausage and two with just cheese and bacon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of crust did you want on those?"
+    },
+    {
+      "speaker": "client",
+      "text": "thick crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you said you want 4 medium pizzas with thick crust, 2 pepperoni and sausage, 2 with cheese and bacon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, the total is $45.93."
+    },
+    {
+      "speaker": "cashier",
+      "text": "should i place the order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. i've submitted the order. it'll be ready for pick up in 35 mins?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need my help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome, have a great day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, the total is $45.93."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, the total is $45.93."
+    },
+    {
+      "speaker": "cashier",
+      "text": "should i place the order?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "should i place the order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. i've submitted the order. it'll be ready for pick up in 35 mins?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. i've submitted the order. it'll be ready for pick up in 35 mins?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need my help with anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need my help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome, have a great day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome, have a great day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "what kind",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crus",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": ", the",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "t day.",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-a6905155-8f01-44a2-839d-d11988de1c03",
+  "created_at": "2026-02-15T15:44:17.018Z"
+}

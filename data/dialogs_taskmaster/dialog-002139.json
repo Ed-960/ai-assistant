@@ -1,0 +1,172 @@
+{
+  "dialog_id": 2139,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2139"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Can you place an order for pick up at Barry's Pizza?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is that Barry's Pizza on Richmond Avenue?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need two different pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What's the first one?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like one with spinach, artichokes, and ricotta."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hand tossed or deep dish?"
+    },
+    {
+      "speaker": "client",
+      "text": "Deep dish."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, what else?"
+    },
+    {
+      "speaker": "client",
+      "text": "One Large Mediterranean pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hand tossed or deep dish?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hand tossed."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, I have: one large deep dish with spinach, artichokes, and ricotta and one large hand tossed Mediterranean pizza. Is that correct."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It will be ready for pick up in about 25 minutes. You should see the receipt on your cell phone shortly."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you! "
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome! "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Barry's Pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Richmond Avenue",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "spinach",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "artichokes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ricotta",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hand tossed",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "deep dish",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Deep dish",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Mediterranean pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hand tossed.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hand tossed",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-629613cf-fd15-4756-926c-fbfc6820bfd5",
+  "created_at": "2026-02-15T15:44:17.148Z"
+}

@@ -1,0 +1,175 @@
+{
+  "dialog_id": 1032,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1032"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I want to order two small pizzas with gluten-free crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you said 3 medium pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, two small pizzas with gluten-free crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, what toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "One of them I'd like a vegetarian, but can I get extra olives and extra yellow peppers?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, 1 veggie lovers and extra olives and bellpeppers."
+    },
+    {
+      "speaker": "client",
+      "text": "And then one meat lover's light pepperoni and extra sauce."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, 1 meatlovers with extra sauce and light pepperoni."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, your total will be $36, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like pick-up, delivery, or dine-in?"
+    },
+    {
+      "speaker": "client",
+      "text": "We'll have delivery."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, please note that your total does not include tip."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be texted to you and your order will be delivered in 40 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. That's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "vegetarian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra yellow peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bellpeppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lover's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "light pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meatlovers",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-91cb0811-f8c8-4636-a1a9-d5d6ccf1dd6a",
+  "created_at": "2026-02-15T15:44:17.002Z"
+}

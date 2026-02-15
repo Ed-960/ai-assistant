@@ -1,0 +1,125 @@
+{
+  "dialog_id": 926,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=926"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey, I'm going to be driving home. And, I want to pick up some pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "four medium gluten-free crust pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Two with onion and tomato, one with sausage, one with ham."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you are ordering 4 gluten free crust pizzas, 2 with onion and tomatoes, 1 sausage, and 1 ham, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, for a pickup as soon as possible."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your total will be $57 and your pizzas will be ready in 35 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Excellent. Thank you for your help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your welcome, enjoy your pizzas."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free crust pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Two with onion and tomato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one with sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one with ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "4 gluten free crust pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "2 with onion and tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1 sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1 ham",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-7f9b3ece-c08e-4b50-9d9d-9c17d724d6a7",
+  "created_at": "2026-02-15T15:44:16.991Z"
+}

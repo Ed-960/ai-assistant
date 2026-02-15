@@ -1,0 +1,138 @@
+{
+  "dialog_id": 200,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=200"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi."
+    },
+    {
+      "speaker": "cashier",
+      "text": "how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I'm Chuck. I'm trying to place a order at my local Starbucks. The Starbucks is at Park Avenue and Globeville in Denver in Colorado."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "let's get that order started for you."
+    },
+    {
+      "speaker": "client",
+      "text": "Right. Thanks. I'm thinking I'm going to try a cinnamon short bread latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what do you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "And a tall size and with coconut milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want that iced or hot?"
+    },
+    {
+      "speaker": "client",
+      "text": "Iced."
+    },
+    {
+      "speaker": "client",
+      "text": "Actually, let's make it hot cuz it is a little chilly today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hot it is."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "I think that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. so you want a tall hot cinnamon shortbread latte with coconut milk at starbucks on park avenue in denver, colorado."
+    },
+    {
+      "speaker": "client",
+      "text": "That's right. Sounds right to me."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is all that information correct?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "should i place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the order has been placed and will be ready for pick up shortly."
+    },
+    {
+      "speaker": "client",
+      "text": "Fantastic. I'll look for it. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "please see your phone for the receipt."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cinnamon short bread latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cinnamon shortbread latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-19e3f410-a4dc-4d14-aafe-e4e096dfb6f7",
+  "created_at": "2026-02-15T15:44:16.912Z"
+}

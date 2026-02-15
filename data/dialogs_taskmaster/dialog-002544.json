@@ -1,0 +1,189 @@
+{
+  "dialog_id": 2544,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2544"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, Assistant. I'm in the mood for pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what kind of pizza would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "My favorite Pizza Hut."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is this for delivery or carry out?"
+    },
+    {
+      "speaker": "client",
+      "text": "It's for carry out."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of pizza would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like pepperoni and italian sausage."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Large"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What type of crust would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Ultimate cheesy crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you have any special requests?"
+    },
+    {
+      "speaker": "client",
+      "text": "Sure. I'd like extra marinara sauce."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any other requests?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, a large pepperoni and Italian sausage ultimate cheesy crust pizza with extra marinara sauce will be be $15.89. Would you like to add this to your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like to order anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, your total will be $17.04. The pizza will be ready for pickup in 20 to 25 minutes. Would you like to place your order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order has been placed. It will be ready to pickup in 25 minutes. "
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Pizza Hut.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pizza Hut",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni and italian sausage.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "italian sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Ultimate cheesy crust.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheesy crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra marinara sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni and Italian sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Italian sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ultimate cheesy crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheesy crust pizza",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-cbfca9c2-7762-4ac3-9041-dee6c6ab6c28",
+  "created_at": "2026-02-15T15:44:17.195Z"
+}

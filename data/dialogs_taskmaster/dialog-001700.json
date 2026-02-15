@@ -1,0 +1,265 @@
+{
+  "dialog_id": 1700,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1700"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a double espresso with a side order of coconut milk from Starbucks."
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a double espresso with a side order of coconut milk from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what size?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "large."
+    },
+    {
+      "speaker": "client",
+      "text": "large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like any whipped cream?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like any whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so a grande double espresso with coconut milk and whipped cream, correct?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "so a grande double espresso with coconut milk and whipped cream, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "where would you like to pick it up?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "where would you like to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks, Union Square."
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks, Union Square."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your coffee will be ready for pickup soon at the starbucks at union square."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your coffee will be ready for pickup soon at the starbucks at union square."
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy, bye!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy, bye!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so a grande double espresso with coconut milk and whipped cream, correct?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "so a grande double espresso with coconut milk and whipped cream, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "where would you like to pick it up?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "where would you like to pick it up?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "where would you like to pick it up?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "where would you like to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks, Union Square."
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks, Union Square."
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks, Union Square."
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks, Union Square."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your coffee will be ready for pickup soon at the starbucks at union square."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your coffee will be ready for pickup soon at the starbucks at union square."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your coffee will be ready for pickup soon at the starbucks at union square."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your coffee will be ready for pickup soon at the starbucks at union square."
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy, bye!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy, bye!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy, bye!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy, bye!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "?",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "so a",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Yes.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "you.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "double espresso",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-fa9efcdb-aa5b-40e9-9cf6-2ac2b9bab764",
+  "created_at": "2026-02-15T15:44:17.083Z"
+}

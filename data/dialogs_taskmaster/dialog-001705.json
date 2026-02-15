@@ -1,0 +1,121 @@
+{
+  "dialog_id": 1705,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1705"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Please I need you to help me order three large pizzas extra cheese from Bella Luna. I would need veggie lovers add toppings on the three pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "you said veggie lovers for all 3 pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, please note that Bella Luna charges extra for additional cheese."
+    },
+    {
+      "speaker": "client",
+      "text": "There's no problem with that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you are ordering 3 large veggie lover pizzas with extra cheese."
+    },
+    {
+      "speaker": "client",
+      "text": "Exactly."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your total will be $75, is that ok?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like pick up, delivery, or dine in?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, it is 123 main street."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. I will be there. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, your pizzas will be ready for pickup in 30 minutes and your receipt will be texted to you."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. That is all for now."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your pizzas."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lover pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "it is 123 main street",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-fb5a4636-9723-43f9-ad27-3d9f91772dde",
+  "created_at": "2026-02-15T15:44:17.083Z"
+}

@@ -1,0 +1,163 @@
+{
+  "dialog_id": 1313,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1313"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey."
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, hold on."
+    },
+    {
+      "speaker": "cashier",
+      "text": "are you still there?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "no problem, take your time."
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order a grande americano."
+    },
+    {
+      "speaker": "client",
+      "text": "Hello."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, let me order that for you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what location would you like to pick up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Cleveland Heights."
+    },
+    {
+      "speaker": "cashier",
+      "text": "one moment while i place your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "My order is not done yet."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what else would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you add almond milk and honey."
+    },
+    {
+      "speaker": "client",
+      "text": "and whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, caffe americano's are typically served hot, do you still want to add whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i'll add that, one moment."
+    },
+    {
+      "speaker": "client",
+      "text": "OK."
+    },
+    {
+      "speaker": "cashier",
+      "text": "i have ordered you a grande caffe americano with almond milk and whipped cream, to be picked up at the starbucks in cleveland heights."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be texted to you and your drink will be ready in 6 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you, bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caffe americano's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caffe americano",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-bc0aacae-8289-4beb-a9bc-1173a9358808",
+  "created_at": "2026-02-15T15:44:17.033Z"
+}

@@ -1,0 +1,126 @@
+{
+  "dialog_id": 2552,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2552"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'd like to order a coffee from Starbucks on 132 East Holly in Bellingham."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. What would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like a decaf cappuccino."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what kind of milk would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like fat free milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Would you like any sweetener in that?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I've ordered you a Grande fat free decaf cappuccino. Would you like anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I'd like a blueberry scone."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm sorry, but there are no more blueberry scones today. Can I get you something else instead?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I'd like a piece of pumpkin bread."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Would you like that warmed up?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Would you like anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Your decaf cappuccino and pumpkin bread will be ready in five minutes at Starbucks on 132 East Holly. Do you need directions to the store?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. I've sent your receipt to your mobile device."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "decaf cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-cd41083a-ca2a-44a6-9e54-df3eed43a42e",
+  "created_at": "2026-02-15T15:44:17.196Z"
+}

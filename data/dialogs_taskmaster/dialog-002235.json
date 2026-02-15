@@ -1,0 +1,152 @@
+{
+  "dialog_id": 2235,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2235"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, I'd like to get two Dominos pizzas for pickups?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, there's a special for 2 large pizzas for $5.99. Would you like to use that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please. I'd like one specialty cheeseburger pizza and one two topping, pepperoni and cheddar."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. We don't have any pepperoni. Could I substitute for ham?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. Can you use Canadian bacon?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "We're out of Canadian bacon too."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Instead of the two topping pizza, can I get a spinach and feta?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Just to confirm, we have two large specialty pizzas, one cheeseburger and one spinach and feta."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like anything to drink with that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, can I get a two liter Sprite?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, one two liter Sprite added. Would you like any dips or snacks?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I'd like two cups of ranch and one order of cinnamon sticks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. So, to confirm, we've got two large pizzas, one two liter of Sprite, two cups of ranch and an order of cinnamon sticks."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. How long will the order take?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The order should take 20-30 minutes. Would you like it delivered or picked up?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll take a pick up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, to confirm, the order should be ready in 25 minutes. That'll be two specialty pizzas, one cheeseburger and one spinach and feta, a soda, ranch cups and cinnamon sticks."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. That's accurate."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, in 25 minutes, your order will be ready for pick up."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Dominos",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheeseburger pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheddar",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Canadian bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "spinach and feta",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheeseburger",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-7a6aea38-3cda-46a3-a651-a2d93f9055ef",
+  "created_at": "2026-02-15T15:44:17.159Z"
+}

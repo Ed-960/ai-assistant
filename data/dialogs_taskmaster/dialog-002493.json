@@ -1,0 +1,127 @@
+{
+  "dialog_id": 2493,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2493"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "hey al its me tom."
+    },
+    {
+      "speaker": "cashier",
+      "text": "well good morning mr tom would you like a traffic report?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thanks. i need a pick me up. i am driving into work and wanted some coffee and i needed a favor."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure what do you need?"
+    },
+    {
+      "speaker": "client",
+      "text": "I was wondering if you can place me a order so i can pick it up from starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "abosolutly i can! witch starbucks will you be passing."
+    },
+    {
+      "speaker": "client",
+      "text": "the one located at 20 N Summerlin Ave, Orlando"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. and what would you like? "
+    },
+    {
+      "speaker": "client",
+      "text": "id love a Iced Caffè Mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "good choice. and how would you like it?"
+    },
+    {
+      "speaker": "client",
+      "text": "i would like it with 2% milk and n whip cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grande please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok and do you know what time you will be passing the Summerlin Ave starbucks?"
+    },
+    {
+      "speaker": "client",
+      "text": "i should be there around 8:45."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok so i have a coffee pickup from starbucks at 20 N Summerlin Ave here in orlando for a grande Iced Caffè Mocha 2% milk no whip cream at 8:45 is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "yes it is your amazing."
+    },
+    {
+      "speaker": "cashier",
+      "text": "thank you. you will get a text to confirm your order."
+    },
+    {
+      "speaker": "client",
+      "text": "thank you have a good day al."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your welcome. you too mr tom."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Iced Caffè Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caffè Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-bc8a7e47-19af-46dd-8330-797d3c113224",
+  "created_at": "2026-02-15T15:44:17.190Z"
+}

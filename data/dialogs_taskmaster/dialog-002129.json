@@ -1,0 +1,118 @@
+{
+  "dialog_id": 2129,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2129"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello [ASSISTANT], could you order a coffee for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, [YOU]. Do you have a preference about the coffee shop?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would prefer the Starbucks on 4th south."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, and what drink would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "A Caffè Mocha, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size of Caffè Mocha?"
+    },
+    {
+      "speaker": "client",
+      "text": "A Grande, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What type of milk would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like soy milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, and do you want whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, is there anything else I can get for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that will be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I am placing the order now. Where would you like me to meet you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Please bring the coffee to me at my office."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The barista asked if you would like a pastry as well."
+    },
+    {
+      "speaker": "client",
+      "text": "No, I will pass on the pastry."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, your order of one Caffè Mocha has been placed."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you, I will see you soon."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caffè Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-5ffad521-5cc1-4ce0-80a8-37fabf536653",
+  "created_at": "2026-02-15T15:44:17.146Z"
+}

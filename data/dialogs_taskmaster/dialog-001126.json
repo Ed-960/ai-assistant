@@ -1,0 +1,205 @@
+{
+  "dialog_id": 1126,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1126"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, how are you today?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "im well, you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm doing good. I was actually looking to order a pizza from this new pizzeria called Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, how many pizzas would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "All right, well here are the instructions. I would like two pizzas, both of them large. As for toppings, one of them needs to be meat lover's minus the Canadian bacon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "please go a bit slow"
+    },
+    {
+      "speaker": "client",
+      "text": "Slower? Okay, sorry. I would like to have two pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so, what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "two pizzas large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, which toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "For one of them, I would like Meat Lovers, but minus the Canadian bacon. As for the other, make it half pepperoni, half cheese, extra cheese on both of them."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what type of crust would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "thin crust on both pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so, 2 large pizzas, one meatlovers with no canadian bacon. the second will be half pepperoni, half cheese. thin crust and extra cheese on both. is this correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Are both sizes the pizza large?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes."
+    },
+    {
+      "speaker": "client",
+      "text": "So two pizzas, both large."
+    },
+    {
+      "speaker": "client",
+      "text": "Extra cheese and thin crust on both, one of them's Meat Lovers, and the other is half pepperoni, half cheese. So yes, that is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. your total is $31.50."
+    },
+    {
+      "speaker": "client",
+      "text": "$31.50. Okay, I can manage that. I appreciate all your hard work."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be ready for pickup at bela luna's soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome. I appreciate it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome, bye!"
+    },
+    {
+      "speaker": "client",
+      "text": "Bye-bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lover's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Canadian bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Meat Lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust on",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meatlovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "no canadian bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bela luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-9fcc15d8-1bc2-401a-81e4-2bd9b2b0fa58",
+  "created_at": "2026-02-15T15:44:17.012Z"
+}

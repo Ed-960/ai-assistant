@@ -1,0 +1,132 @@
+{
+  "dialog_id": 1964,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1964"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, can you please order me a drink?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes ma'am, what are you in the mood for today?"
+    },
+    {
+      "speaker": "client",
+      "text": "I' d like to order a coffee from the Starbucks on pike st, Seattle in the market."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, what size and drink would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like a Grande caramel machiatto."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, would you like that iced?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "And would you like and extra shot or any extra flavorings"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I'd like two extra shots and 6 pumps of vanilla."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And what kind of milk would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to have far free milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Mmhmmmm, ok, I'm going to call that right in for you ma'am."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like anything else, maybe a sandwich or cookie?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you. Trying to slim down."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh (lol) you don't need that, let me repeat the order back to you. One Grande iced caramel macchiato, with fat free milk, two extra shots, and 6 pumps of vanilla."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes that is perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you, can you please go pick it up for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, I have put in the order to starbucks, I will pick it up in just a moment."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caramel machiatto",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "6 pumps of vanilla",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "One",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced caramel macchiato",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-34e9321b-4884-4849-91b5-584bdeaf0ab2",
+  "created_at": "2026-02-15T15:44:17.125Z"
+}

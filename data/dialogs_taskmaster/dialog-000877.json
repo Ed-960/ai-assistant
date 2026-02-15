@@ -1,0 +1,121 @@
+{
+  "dialog_id": 877,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=877"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I would like to order coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, from where?"
+    },
+    {
+      "speaker": "client",
+      "text": "From Starbucks in Roswell, New Mexico."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to get a cherry mocha grande with soy milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like any whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please, and I'd actually like an extra shot of espresso in it, too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, just to let you know, starbucks will charge extra for the extra shot of espresso, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, which location in roswell would you like to pick up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "You know am not really sure cuz I'm kind of visiting out of town."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i can check for you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "are you close to the location on main street?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that one worked good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i'll send your order to that starbucks, please wait one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i have ordered you a grande cherry mocha with soy milk and whipped cream and an extra shot of espresso to be picked up at the starbucks on 1309 north main street."
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's it. Great, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be texted to you, can i help you with anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "your welcome, enjoy your coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cherry mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-780bc064-2d71-44bf-8bdc-32e331553a1d",
+  "created_at": "2026-02-15T15:44:16.987Z"
+}

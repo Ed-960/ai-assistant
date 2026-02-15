@@ -1,0 +1,105 @@
+{
+  "dialog_id": 1568,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1568"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi."
+    },
+    {
+      "speaker": "cashier",
+      "text": "how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Order a drink at Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let's get that started for you. what drink would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Cafe Americano."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. And what size did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Venti."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any cream or sweetener in that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Little bit of cream and sweetener."
+    },
+    {
+      "speaker": "cashier",
+      "text": "perfect and which Starbucks did you want to get it picked up at?"
+    },
+    {
+      "speaker": "client",
+      "text": "Las Vegas Starbucks, Rainbow and Oakey."
+    },
+    {
+      "speaker": "cashier",
+      "text": "cool."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so to confirm, you want a Venti Cafe Americano with a little bit of cream and sweetener."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The total will be $3.40."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your drink will be ready at the Starbucks on rainbow and oakey in las vegas in 5 minutes. Enjoy!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cafe Americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-e53250c1-9121-4b86-b5a3-3e7b75dd9e33",
+  "created_at": "2026-02-15T15:44:17.060Z"
+}

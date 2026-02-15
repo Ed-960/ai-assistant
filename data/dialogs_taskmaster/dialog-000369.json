@@ -1,0 +1,157 @@
+{
+  "dialog_id": 369,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=369"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how are you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm good. How are you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, thanks for asking, how can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, could you please help me with placing an order at Bella Luna Pizzeria?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing, what kind of pizzas would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like four medium pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great and what toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "On the first one, I would like pepperoni. On the second, I would like sausage and onions."
+    },
+    {
+      "speaker": "client",
+      "text": "On the third, I would like a chicken barbecue pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "And on the fourth, I would like pepperoni and black olives."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's 4 medium thick crust pizzas one pepperoni, one sausage and onions, one chicken bbq pizza and one pepperoni and black olives for $34.99, right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. For the price though, I wanted extra cheese on these pizzas. Will that up the price?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It'll be $35.50 instead."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, that's fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, your order will be ready for pickup in 30 minutes and you'll get the receipt via text."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect. Thank you so much for all of your help today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No worries, have a great day."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks. You too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "thanks, bye."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna Pizzeria",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken barbecue",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken bbq",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-33f5499e-9e83-4d83-bfcb-4028d35349ee",
+  "created_at": "2026-02-15T15:44:16.931Z"
+}

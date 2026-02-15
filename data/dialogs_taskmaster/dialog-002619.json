@@ -1,0 +1,150 @@
+{
+  "dialog_id": 2619,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2619"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I want to order a Coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "From which store would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbuck's on Main street."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a dark roast."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How about the Starbuck's Featured Dark roast? "
+    },
+    {
+      "speaker": "client",
+      "text": "That sounds fine. I want their largest size. Do you know what that's called?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hot Coffee large is Venti. (cold coffees and other drinks are larger)"
+    },
+    {
+      "speaker": "client",
+      "text": "Venti Sounds fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is there anything else you want with the coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "I am hungry. How about a Egg and cheese muffin?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sausage, Cheddar & Egg Breakfast Sandwich is on an english Muffin. Do you want that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, 1 please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, How about a blueberry Muffin?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, They do have a Blueberry muffin."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok. That's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So you want a Venti Dark Roast, Sausage cheddar and egg Breakfast sandwich, and a blueberry muffin."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Can you have it here for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, It should take under 35 min."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "dark roast",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Dark roast",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "largest",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hot Coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cold coffees",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Dark Roast",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-dfa6f8b9-ace3-4482-96c4-c17db3b9de4b",
+  "created_at": "2026-02-15T15:44:17.204Z"
+}

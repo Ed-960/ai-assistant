@@ -1,0 +1,142 @@
+{
+  "dialog_id": 99,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=99"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hello!"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I'd like to."
+    },
+    {
+      "speaker": "cashier",
+      "text": "how may i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hello. I'd like to place an order for pickup, please."
+    },
+    {
+      "speaker": "client",
+      "text": "I would like an ice."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, for what store or restaurant?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm looking to get to I would like to pick up my order from Starbucks at 9483 Milwaukee Avenue."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get an iced cafe mocha, please? Grande size."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what milk option?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get whole milk, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, will that be all?"
+    },
+    {
+      "speaker": "client",
+      "text": "And can I request no whipped cream, please, as well?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you want a grande iced cafe mocha with whole milk and no whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that is 100% correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "will you like pick up set to now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. putting your order in for the starbucks on milwaukee avenue."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your order will be ready momentarily."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cafe mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-0c36bad5-eb07-4ce0-b461-f089cd9edaff",
+  "created_at": "2026-02-15T15:44:16.901Z"
+}

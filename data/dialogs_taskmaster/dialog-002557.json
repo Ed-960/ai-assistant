@@ -1,0 +1,170 @@
+{
+  "dialog_id": 2557,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2557"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I would like to order pizza from Villa monte"
+    },
+    {
+      "speaker": "cashier",
+      "text": "From which location are you ordering from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Arden avenue one"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want two pies?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "How would you like the first one"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a large regular pie with half pepperoni and half mushroom"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok and for the second one"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a large sicilian pie half grilled chicken and half sausage"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm sorry but this location doesn't offer grilled chicken."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok. Get me half plain and half sausage?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Still a large?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "So to confirm for the first pie I have a large regular pie half pepperoni and half mushroom."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "And second pie is a large sicilian, half sausage half plain"
+    },
+    {
+      "speaker": "client",
+      "text": "yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Delivery or pickup"
+    },
+    {
+      "speaker": "client",
+      "text": "Pickup"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The order is complete and the total will be 44.74"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Pickup will be in 25 minutes and your receipt will be texted to your phone"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Villa monte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "The Arden avenue",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "half pepperoni and half mushroom",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sicilian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sicilian pie",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "half grilled chicken and half sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grilled chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "half plain and half sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "half pepperoni and half mushroom.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "half sausage half plain",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-ceaa4a24-0c9d-41cb-ad14-c52303b0ccd8",
+  "created_at": "2026-02-15T15:44:17.197Z"
+}

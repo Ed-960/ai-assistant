@@ -1,0 +1,135 @@
+{
+  "dialog_id": 2517,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2517"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey assistant I think I would like to get a coffee drink from Peets. Can you help?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, i can definitely help with that. What do you want from Peets?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm thinking an Iced latte will do the trick"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, great! What size do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm going to go for a large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It comes with your choice of milk as well. What kind do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "do they have Soy as an option?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, they have soy. Is that what you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, either that or 2% milk since I am watching my weight. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "They have 2% as well"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, cool. Lets make it a large iced latte with 2% milk"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'll get right on it. Oh, I forgot to tell you."
+    },
+    {
+      "speaker": "client",
+      "text": "tell me what?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "you can get it flavored as well. Would you like to add that to your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "And I can get the flacoring with 2%? "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, of course!"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, yeah. Add the vanilla flavoring to the order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Will do!"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you read the order back to me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "1 large iced latte with 2% milk and vanilla flavoring"
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds good!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "See you soon with the order."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Iced latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-c4f6ed33-59fe-48b2-add3-fe7320e5768d",
+  "created_at": "2026-02-15T15:44:17.192Z"
+}

@@ -1,0 +1,132 @@
+{
+  "dialog_id": 1186,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1186"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'd like to place an order for pizza from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing what kind of pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "Three large gluten free crust pizzas, the first one I will like it to have hot sauce and pepperoni, second one I want it to have jalapenos, bacon and chicken. The third one I would like it to have red papers, sausage and beef. That's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "3 large gluten free pizzas, one hot sauce and peperoni, one jalepenyo chicken and bacon, one sausage and beef, did I get that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great your total is $78.88."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And your pizza will be ready in 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "no problem, have a good one."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hot sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "jalapenos",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "red papers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "beef",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "peperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "jalepenyo chicken",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-a79a4f1d-641d-4524-b85c-b13e38dfa44d",
+  "created_at": "2026-02-15T15:44:17.018Z"
+}

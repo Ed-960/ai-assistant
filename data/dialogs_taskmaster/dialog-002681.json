@@ -1,0 +1,128 @@
+{
+  "dialog_id": 2681,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2681"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I want to order a drink from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I can help with that. Do you know the location will is for"
+    },
+    {
+      "speaker": "client",
+      "text": "I need it to be at the Starbucks in studio city."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The location on Jeffery road?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok What can I get you today"
+    },
+    {
+      "speaker": "client",
+      "text": "I need 4 grande coffees."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok will you need milk, skin milk, half and half, or no creamer?"
+    },
+    {
+      "speaker": "client",
+      "text": "I neeed two of those to come with regular milk. Then the other two to come with skin milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, and will these be hot or cold brew?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need them all to be hot"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, will yo need to order anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes just one onion bagel with cream cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, toasted or not?"
+    },
+    {
+      "speaker": "client",
+      "text": "Toasted."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, 4 grande coffees, 2 with skin milk and 2 with regular and a onion bagel with cream creese comes to 12.50. Will you be paying cash or credit"
+    },
+    {
+      "speaker": "client",
+      "text": "i will pay cash"
+    },
+    {
+      "speaker": "cashier",
+      "text": "alright then your order shoudl be ready for pick up in 20mins from the Studio city locaiton"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok thank you"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "4",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande coffees",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "two",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "2",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-f1d7d6a9-c762-4f77-b1d7-c27341ea6035",
+  "created_at": "2026-02-15T15:44:17.211Z"
+}

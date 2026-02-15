@@ -1,0 +1,161 @@
+{
+  "dialog_id": 572,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=572"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi, how can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey, can you get me some orders going from Bella Luna for for pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "It looks like we're probably going to need about four medium pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, how many pizzas would you like?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "On the first one, I just want it plain cheese with extra cheese, and then the second one, I want pepperoni and sausage. And can you make the third pizza a free cheese white pizza? And the last one is a veggie lover's."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of crust would you like on them?"
+    },
+    {
+      "speaker": "client",
+      "text": "I I want thin crust for all of those."
+    },
+    {
+      "speaker": "client",
+      "text": "Not a big fan of thick crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so, 4 medium pizzas. 1 with plain cheese and extra cheese. the second is pepperoni and sausage. the third is a white pizza and the last one is veggie lovers. thin crust on all of them. is this correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. your total is $45."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome. your pizzas will be ready for pickup at Bella Luna's soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, you're amazing. Thanks so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "aw thank you! bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "On the first",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "plain cheese with extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "free cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "white pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "plain cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-5245ffae-ae57-4ff7-a71e-2d329aa8f353",
+  "created_at": "2026-02-15T15:44:16.953Z"
+}

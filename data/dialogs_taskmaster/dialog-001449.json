@@ -1,0 +1,187 @@
+{
+  "dialog_id": 1449,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1449"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like to order some I'd like to order some pizza if that's possible."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure,"
+    },
+    {
+      "speaker": "cashier",
+      "text": "where do you want to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Della Della Lumaca Luma."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Bella Luna Pizza I like two medium anchovy pizzas with garlic-free crusts."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sorry, bella lunas does not have anchovies."
+    },
+    {
+      "speaker": "client",
+      "text": "Well, can you just put Yeah, why don't you just put extra spicy."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you want another topping?"
+    },
+    {
+      "speaker": "client",
+      "text": "pepperoni on it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "bella lunas does not have spicy pepperoni."
+    },
+    {
+      "speaker": "client",
+      "text": "Does it have spicy sausage?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you want another topping?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, they have spicy sausage. would you like both the pepperoni and spicy sausage."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "cool. so you want to order 2 medium pizzas, gluten free, with pepperoni and spicy sausage."
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "$29.00 will be your total. would you like to charge the card on file now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you got it. i've placed your order at bella lunas. your order will be ready in 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much. No, that's it. Thank you very much for all your help. I really do appreciate it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "you got it."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Della Della Lumaca Luma",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "anchovy",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "garlic-free crusts",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella lunas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "anchovies",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra spicy",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "spicy pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "spicy sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-d0de2faa-abde-4965-98ac-d41fc88696fd",
+  "created_at": "2026-02-15T15:44:17.047Z"
+}

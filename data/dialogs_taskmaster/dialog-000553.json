@@ -1,0 +1,200 @@
+{
+  "dialog_id": 553,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=553"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi."
+    },
+    {
+      "speaker": "cashier",
+      "text": "how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hello."
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to order a coffee from Peet's espresso beverages."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, let's make that order for you. what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you show me the menu?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "you can find the menu for peet's at peets.com/menu. would you like me to list out some of their popular items?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Caffe Latte, Golden Caffè Latte, Iced Latte, Caffe Mocha, Caramel Latte, and Caffe Con Panna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do any of these sound good to you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I think I would like to order an ice vanilla latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what size did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a large."
+    },
+    {
+      "speaker": "client",
+      "text": "with almond milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's see."
+    },
+    {
+      "speaker": "client",
+      "text": "I think that would be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so to confirm you want a large Iced vanilla latte with almond milk from Peet's."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "which peet's did you want me to place that order at?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm sorry. Can you repeat that?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "which peet's did you want me to place that order at?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would the one in Colorado Springs."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure."
+    },
+    {
+      "speaker": "client",
+      "text": "Can I have the total?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "the total for this will be $3.40."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you very much. Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like me to place the order now?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok the order has been placed."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your drink will be ready at the Peet's in Colorado Springs in 6 minutes. Enjoy!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much, goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caffe Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Golden Caffè Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Iced Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caffe Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caramel Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caffe Con Panna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ice vanilla latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Iced vanilla latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-4f32adee-359e-4ed5-9c04-f3353619eb9e",
+  "created_at": "2026-02-15T15:44:16.951Z"
+}

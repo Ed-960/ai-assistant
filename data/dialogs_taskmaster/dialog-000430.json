@@ -1,0 +1,138 @@
+{
+  "dialog_id": 430,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=430"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hey there."
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like to."
+    },
+    {
+      "speaker": "client",
+      "text": "Order from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure thing. What would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I was thinking a."
+    },
+    {
+      "speaker": "client",
+      "text": "An iced cafe mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok and what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "How about Fenty?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. Do you want any milk in that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Whole milk, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "cool and do you want any sweetener?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "or syrup?"
+    },
+    {
+      "speaker": "client",
+      "text": "Chocolate syrup and extra whipped cream, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "will that be all for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm sorry. What's that?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "will that be all for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "let me verify your order. Venti iced cafe mocha with whole milk and chocolate syrup and extra whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, your drink has been ordered. It will be ready for pick up shortly. Your receipt will be sent to your mobile device via text message. Enjoy!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "iced cafe mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Fenty",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-3d44ba66-bf24-4ad5-b521-b39cae3d15dc",
+  "created_at": "2026-02-15T15:44:16.938Z"
+}

@@ -1,0 +1,128 @@
+{
+  "dialog_id": 81,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=81"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi. how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I'd like to order two large pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i know the place. what did you want on those 2 pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Pepperoni and mushroom for the first one and barbecue chicken for the second one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of crust did you want on those?"
+    },
+    {
+      "speaker": "client",
+      "text": "Gluten-free crust, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. so you'd like to order 2 large pizzas, 1 with pepperoni and mushroom, and the 2nd with bbq chicken, both with gluten free crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "$25.32 is the total. should i place your order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i've placed the order. it'll b ready for pick up in 35 mins."
+    },
+    {
+      "speaker": "client",
+      "text": "No, that should be it for me. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome, good bye now."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushroom",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "barbecue chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Gluten-free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bbq chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-0a4900e5-f224-401b-a974-ea48b70b689e",
+  "created_at": "2026-02-15T15:44:16.898Z"
+}

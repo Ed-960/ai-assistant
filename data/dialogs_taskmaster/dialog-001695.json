@@ -1,0 +1,269 @@
+{
+  "dialog_id": 1695,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1695"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hello, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey. I got to buy some pizzas today from Bella Luna Pizzeria."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Four large pizzas. Let's get one of them with pepperoni and pineapple."
+    },
+    {
+      "speaker": "client",
+      "text": "Let's get one of them."
+    },
+    {
+      "speaker": "client",
+      "text": "Do they still have the five-cheese blend?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "let me check."
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes, it looks like they are still offering that specialty pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, let's get one of those."
+    },
+    {
+      "speaker": "client",
+      "text": "Let's get the Mexican pizza and."
+    },
+    {
+      "speaker": "client",
+      "text": "Just one regular pizza with,"
+    },
+    {
+      "speaker": "client",
+      "text": "tomatoes and"
+    },
+    {
+      "speaker": "client",
+      "text": "olives and green peas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, they have a taco pizza but not a mexican pizza, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "You got the taco pizza. Let me ask her."
+    },
+    {
+      "speaker": "client",
+      "text": "What's the difference?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "a taco pizza has hot sauce, ground beef, american cheese, and corn."
+    },
+    {
+      "speaker": "client",
+      "text": "over. So, now like No, they don't have taco shells on them."
+    },
+    {
+      "speaker": "cashier",
+      "text": "no they do not."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, let's go with that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, let me confirm your order."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "4 large pizzas, 1 pepperoni and pineapple, 1 5 cheese blend, 1 taco pizza, and 1 with tomato, olives, and ground beef."
+    },
+    {
+      "speaker": "client",
+      "text": "Yep, and we need extra cheese on every pizza. On every pie for extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, there will be an additional charge, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your total will come out to $98, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's fine."
+    },
+    {
+      "speaker": "client",
+      "text": "God."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, will you be dining-in, picking up, or having your order delivered?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's for pickup."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, let me see when these pizzas will be ready?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "it will be ready for pickup in 30 minutes, your receipt will be texted to you, just show it at the counter."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna Pizzeria",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni and pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "five-cheese blend",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Mexican pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "olives and green peas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "taco pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mexican pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hot sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ground beef",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "american cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "corn",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "5 cheese blend",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tomato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-f9cb1079-2623-4308-9702-e508ddc91b1f",
+  "created_at": "2026-02-15T15:44:17.082Z"
+}

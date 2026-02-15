@@ -1,0 +1,139 @@
+{
+  "dialog_id": 1897,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1897"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'd like to have a black and white mocha venti."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Where would you like to pick up your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to pick it up in Nashville location."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is this the location at 424 Church St Suite 110?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, it is at 402 21st Ave S."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Pick up at the location 402 21st Ave S?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes that is the one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "At what time would you like to pick up the Venti black and white mocha?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to pick it up in an hour."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like to pick it up at 1:20pm?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to pick it up at 1:30pm."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is there anything else you would like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that will do it. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like to add a Petite?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thank you, but can I add extra whipped cream on my drink."
+    },
+    {
+      "speaker": "cashier",
+      "text": "A Venti black and white mocha with extra whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Will that be all for your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that is everything."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! I have a Venti black and white mocha with extra whipped cream to be picked up at 1:30pm at 402 21st Ave S. Is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! Please present your reciept at pick up for your order. Enjoy your day."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks, goodbye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "black and white mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black and white mocha venti.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-2676657d-1a07-4ee8-ae56-85955aedffe9",
+  "created_at": "2026-02-15T15:44:17.116Z"
+}

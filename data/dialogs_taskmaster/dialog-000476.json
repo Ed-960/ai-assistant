@@ -1,0 +1,131 @@
+{
+  "dialog_id": 476,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=476"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how may i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm looking to go to Starbucks, the one in."
+    },
+    {
+      "speaker": "client",
+      "text": "I'm Abrea, and I need to order a drink."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what drink did you want to order from starbucks?"
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "i'm sorry, did you want a caramel macchiato or caramel frappucino?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm sorry, caramel cappuccino."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sounds good. Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "And the let me get a onion bagel."
+    },
+    {
+      "speaker": "cashier",
+      "text": "yum. Anything else for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so to confirm, you would like a venti caramel frappucino and onion bagel from the Starbucks in West Hollywood on La Brea."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The total will be $6.40. Would you like to charge your card on file now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You got it. The order has been placed."
+    },
+    {
+      "speaker": "client",
+      "text": "And I thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "it'll be ready in 10 mins."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "take care."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "caramel macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caramel frappucino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caramel cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-42dec34c-cab7-47ab-99bb-c392d7f14507",
+  "created_at": "2026-02-15T15:44:16.943Z"
+}

@@ -1,0 +1,209 @@
+{
+  "dialog_id": 2635,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2635"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I want to order some pizzas from my favorite pizza restaurant, Veto Pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which Veto pizza location would you like to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one off of Decatur, near my house."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay so the Veta pizza on Decatur Blvd. Is this going to be an online order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes you can just order it online."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of pizza would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay I'm going to need 2 extra large pizzas because we are having a little going away party."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of crust would you like them to be?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want them both to be thin crust pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of toppings do you want on them?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay for the first pizza I want olives, chicken, and artichoke."
+    },
+    {
+      "speaker": "cashier",
+      "text": "They don't appear to have artichoke on the menu."
+    },
+    {
+      "speaker": "client",
+      "text": "Really? Ah..they used to have it..well in that case olives, chicken, and jalapeno."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What do you want on the second pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "The second one should be a meat lovers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The meat lovers shows pepperoni, sausage, and ham, is that the one you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes that's the one. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like any breadsticks or sides with the order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes I need a large order of breadsticks and 2 family sized caesar salads."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is there anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No that's all I need"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay so thats 2 extra large pizzas from Veto pizza on decatur, one meat lovers, and the other with olives, chicken, and jalapeno and you want a large breadsticks and 2 caesar salads."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect, thank you so much!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Veto Pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Veto pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one off of Decatur, near my house",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Decatur",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Veta pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Decatur Blvd",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "artichoke",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "jalapeno",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "decatur",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-e425e6f7-b277-4369-bebd-1165549ced98",
+  "created_at": "2026-02-15T15:44:17.206Z"
+}

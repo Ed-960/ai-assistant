@@ -1,0 +1,178 @@
+{
+  "dialog_id": 111,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=111"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there, how can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Order me a Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like a espresso, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "a single shot?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, make it a double side."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay, got it!"
+    },
+    {
+      "speaker": "client",
+      "text": "Is there any kind of flavors that can be added on the espresso?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, let me look."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You can add regular sugars, honey and syprus."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, add honey."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright! done!"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you tell me the address?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure!"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you tell me Yeah, can you tell me the address and if there's parking available?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The address is 160 1st St, Los Altos, CA 94022."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and yes, there is parking available."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, can you confirm that?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes, one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "one double shot espresso with honey for pickup."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the order has been sent."
+    },
+    {
+      "speaker": "client",
+      "text": "When can I pick it up?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "your drink will be ready in 5 min."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is that all for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "All right. Thank you, Google. Yes. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great day!"
+    },
+    {
+      "speaker": "client",
+      "text": "All right. You, too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye bye."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye-bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "double shot espresso",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-0e1603b4-1580-4598-ad9b-3179dd9ea3c4",
+  "created_at": "2026-02-15T15:44:16.902Z"
+}

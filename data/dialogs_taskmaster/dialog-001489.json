@@ -1,0 +1,131 @@
+{
+  "dialog_id": 1489,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1489"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I'd like to order some coffee from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I was thinking a black and white mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to add any milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, whole milk, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. And I'd like that in a Grande size."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, so you are ordering a grande black and white mocha with whole milk and whipped cream, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "one moment while i place your order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "i have ordered you a grande black and white mocha with whole milk and whipped cream to be picked up at the starbucks in westlake, daly city, ca, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, your receipt will be texted to you."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and your drink will be ready in 5 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright. Sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, that should be it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "black and white mocha.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black and white mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-d7afbd1f-c795-4fdf-9510-d82140130fa2",
+  "created_at": "2026-02-15T15:44:17.052Z"
+}

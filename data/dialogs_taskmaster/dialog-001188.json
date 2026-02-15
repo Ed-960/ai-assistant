@@ -1,0 +1,122 @@
+{
+  "dialog_id": 1188,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1188"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, I need two large Veggie Lovers pizzas with gluten-free crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your total will be $48, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, give me my order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, you are ordering 2 large veggie lover pizzas with gluten free crusts."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright. That is correct. Please place the order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "will you be picking up, having it delivered, or dining in?"
+    },
+    {
+      "speaker": "client",
+      "text": "Give me restaurant to pick it up from. Give me an address."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, bella luna's is located on 123 main street."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright. I will go I will go there right now."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizza will be ready in 30 minutes and your receipt will be texted to you."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright. Thank you. None None for now. You, too. Bye-bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your pizzas."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Veggie Lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lover",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "123 main street",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-a7cbde85-bf10-48d4-8a5e-c94e29a13614",
+  "created_at": "2026-02-15T15:44:17.019Z"
+}

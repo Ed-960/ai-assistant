@@ -1,0 +1,135 @@
+{
+  "dialog_id": 532,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=532"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi, what can I do for you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. Can I get four small pizzas from Bella Luna?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "4 small pizzas from Bella Luna, sure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what are your toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "Pepperoni and anchovies, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i heard pepperoni and anchovies, is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, any other special instruction?"
+    },
+    {
+      "speaker": "client",
+      "text": "And have gluten-free crust, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "gluten free crust on all 4 pizzas right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok 4 small pizza your total will be 48 dollars, is that good?"
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds good. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "no problem, your pizza are on order at the local Bella Luna pizzeria and will be ready for pickup in 30 min."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that is all. Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you are welcome, enjoy your pizza."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "anchovies",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust on",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna pizzeria",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-4bd577b1-06df-4985-80cb-989d88a101a3",
+  "created_at": "2026-02-15T15:44:16.949Z"
+}

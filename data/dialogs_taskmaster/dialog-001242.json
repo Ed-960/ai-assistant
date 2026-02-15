@@ -1,0 +1,122 @@
+{
+  "dialog_id": 1242,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1242"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello."
+    },
+    {
+      "speaker": "cashier",
+      "text": "how can i help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey. I need to order four medium gluten free pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let me order that for you. what did you want on those?"
+    },
+    {
+      "speaker": "client",
+      "text": "I will like two veggie lover and two meat lover."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. you said you wanted 4 medium gluten free pizzas. 2 veggie lovers and 2 meat lovers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "$48.99 is the total."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want me to place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. i've ordered the pizzas, it'll be ready in about 35 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. That would be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, enjoy."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lover",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lover",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers.",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-afaedb98-3808-42ff-8497-472d351fb7a3",
+  "created_at": "2026-02-15T15:44:17.026Z"
+}

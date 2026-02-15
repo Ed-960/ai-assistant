@@ -1,0 +1,139 @@
+{
+  "dialog_id": 1614,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1614"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I would like to place an order for pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi there, how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, where do you want to order pizza from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what would you like to order from Bella Luna."
+    },
+    {
+      "speaker": "client",
+      "text": "I would like three medium specialty pizzas of chicken barbecue with ranch drizzles on top, and I'd also like to add special instructions of extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, so you said 3 medium specialty pizzas of chicken bbq with ranch drizzled on top and extra cheese."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, you did."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did i get that right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "$45 is your total. should i place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the order has been submitted. the pizzas will be ready in 45 mins for pick up."
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, that's it. Thank you. Bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you need help with anything else today?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome, enjoy that pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "good bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "specialty",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken barbecue",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ranch drizzles",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken bbq",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ranch drizzled",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-ec73f3ec-a223-47c6-beed-f74793c0c5ca",
+  "created_at": "2026-02-15T15:44:17.066Z"
+}

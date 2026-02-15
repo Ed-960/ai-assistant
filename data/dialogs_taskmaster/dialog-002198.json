@@ -1,0 +1,122 @@
+{
+  "dialog_id": 2198,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2198"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, can you order me a coffee from Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, pick up at which store?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one in Mulberry Plaza in Upland at 1013 W Foothill Blvd."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, great. What did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like an iced coffee with milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of milk would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll take 2% milk, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grande size."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you want any add ins?"
+    },
+    {
+      "speaker": "client",
+      "text": "I don't think so."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How about sweetener?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I'll take sweetener."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, I'm going to read everything back to you."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I've got a grande iced coffee with 2%milk, sweetened."
+    },
+    {
+      "speaker": "client",
+      "text": "Yup, that's it!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. Your drink is on order and will be ready for pickup at the Upland Starbucks on Foothill blvd."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "iced coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-6f5f61af-cb2a-4449-8331-2866bf2088ab",
+  "created_at": "2026-02-15T15:44:17.155Z"
+}

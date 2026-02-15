@@ -1,0 +1,225 @@
+{
+  "dialog_id": 239,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=239"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello there. I would like to place an order for three medium, gluten-free pizzas from Bella Luna, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what kind of toppings do you want to add?"
+    },
+    {
+      "speaker": "client",
+      "text": "Do they have a I would like one of them as a Hawaiian."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, and for the other 2?"
+    },
+    {
+      "speaker": "client",
+      "text": "one of them extra cheese."
+    },
+    {
+      "speaker": "client",
+      "text": "And the last one That would be good Yes. And the last one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "they have a 4 cheese special."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want that?"
+    },
+    {
+      "speaker": "client",
+      "text": "sausage."
+    },
+    {
+      "speaker": "client",
+      "text": "and pepperoni."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, the meat lovers had sausage, pepperoni, ham, and salami, did you want to try that or just sausage and pepperoni?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just sausage and pepperoni."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i'll add that to your order."
+    },
+    {
+      "speaker": "client",
+      "text": "Could you give my order back, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "3 medium gluten free pizzas, 1 hawaiian, 1 4 cheese special, 1 sausage and pepperoni."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that correct?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to add anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, the cost will be $57."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much, and have a nice evening."
+    },
+    {
+      "speaker": "cashier",
+      "text": "will you be dining in, picking up, or having it delivered?"
+    },
+    {
+      "speaker": "client",
+      "text": "Picking up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, it will be ready for pick up in 20 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. You're awesome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be texted you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "thank you, can i help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that'll be it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese special.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "salami",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese special",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-20a534de-45cc-4ae3-b118-b4a181d2df89",
+  "created_at": "2026-02-15T15:44:16.916Z"
+}

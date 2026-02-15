@@ -1,0 +1,118 @@
+{
+  "dialog_id": 579,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=579"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I'd like to order pizza to pick up from Bella. Give me four large pizzas. Make sure they are hot and crust. From my topping I would like tomatoes, and chicken, and jalapenos for all four."
+    },
+    {
+      "speaker": "cashier",
+      "text": "how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what type of pizzas?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "cool."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. No, that'll be it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "let me confirm with you, 4 large pizzas, all thin crust, tomatoes, chicken, and jalapenos."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Yes, all correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that correct?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "$39.20 will be your total."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect, thank you. Okay. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order will be ready at your local Bella Luna pizzeria for pick up shortly. Enjoy!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "jalapenos",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna pizzeria",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-52b7fba9-d21b-4bd4-aace-0c4976f827a5",
+  "created_at": "2026-02-15T15:44:16.955Z"
+}

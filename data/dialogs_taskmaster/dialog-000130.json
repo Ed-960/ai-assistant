@@ -1,0 +1,280 @@
+{
+  "dialog_id": 130,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=130"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi. How's it going?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "it's going great. how are you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm great. I'd like to order three medium pizzas from Belluno, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great to hear. sure, let's do it. what did you want on those 3 medium pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to know does does bone have good cheese?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes, bella luna has goat cheese."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, I'd like to have goat cheese, cheddar cheese, arty chips, and bacon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want those toppings on all 3 pizzas?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, and what did you want for the other two?"
+    },
+    {
+      "speaker": "client",
+      "text": "Does Bella Luna have shrimp?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "no, unfortunately they do not have shrimp."
+    },
+    {
+      "speaker": "client",
+      "text": "All right, I will All right, I would like to have on on this pizza I would like extra mushrooms, cheddar cheese."
+    },
+    {
+      "speaker": "client",
+      "text": "extra bacon."
+    },
+    {
+      "speaker": "client",
+      "text": "And barbecue sauce, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. and what did you want on the third?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to have."
+    },
+    {
+      "speaker": "client",
+      "text": "Do they have a Mexican-style pizza?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "no, unfortunately they do not."
+    },
+    {
+      "speaker": "client",
+      "text": "K, one moment."
+    },
+    {
+      "speaker": "client",
+      "text": "What does the vegetarian pizza What does the veggie lover's pizza have on it?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "veggie lovers has green peppers, mushrooms, olives, and sun dried tomatoes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, I will I will do that and I'll take extra cheese and all of the pizzas, please. And I'll add oreo chocs to the veggie lovers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "let me make sure i got the order down correctly before submitting. 3 medium pizzas, 1 with goat cheese, feta cheese, artichokes and bacon, 1 with extra mushrooms, cheddar cheese, extra bacon, and bbq sauce. and 1 veggie lovers and add artichokes. all pizzas with extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "$56.55 is the total. did you want me to place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. i've submitted the order. it'll be ready for pick up in 35 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "That would be all. Thank you so much for your help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you are very welcome."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Belluno",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "goat cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheddar cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "arty chips",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "shrimp",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "barbecue sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Mexican-style pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "vegetarian pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lover's pizza have",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "green peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sun dried tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "oreo chocs",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "goat cheese, feta cheese, artichokes and bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra mushrooms, cheddar cheese, extra bacon, and bbq sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers and add artichokes",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-11dd7e6e-6212-4217-9870-45c0085a4193",
+  "created_at": "2026-02-15T15:44:16.904Z"
+}

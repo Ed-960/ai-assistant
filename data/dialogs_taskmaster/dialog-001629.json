@@ -1,0 +1,118 @@
+{
+  "dialog_id": 1629,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1629"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I need to order two small thin-crust pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what kind of pizzas would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Meat Lovers and a Veggie Lovers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, so you are ordering 2 small thin crust pizzas, 1 meatlovers and 1 veggie lovers."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your total will be $38, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "will you be picking up, having it delivered, or dining in?"
+    },
+    {
+      "speaker": "client",
+      "text": "Dining in."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, your pizzas will be ready in 30 minutes and your receipt will be texted to you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that would be all. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome, enjoy your pizzas."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin-crust pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Meat Lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Veggie Lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meatlovers",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-ee50407b-6b23-469e-916d-e755e5044b85",
+  "created_at": "2026-02-15T15:44:17.067Z"
+}

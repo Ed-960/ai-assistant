@@ -1,0 +1,177 @@
+{
+  "dialog_id": 2090,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2090"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "The sales meeting is going to run over tonight, can you see about getting some pizzas from Bertucci's?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, did you want to order from the one on Amherst Street?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's the easiest one for us to get to."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, I can order them online for pickup."
+    },
+    {
+      "speaker": "client",
+      "text": "Good, we've got 12 people, How many pizzas should we order?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "4 should be enough but I'd make it 5 just in case you are all super hungry."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, Let's get 5 large pizza and make sure they throw in lots of bread."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you want some salads as well?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's a great idea. Get a couple of large salads as well."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What pizzas did you want to get?"
+    },
+    {
+      "speaker": "client",
+      "text": "Get one Pepperoni, and 2 classic margheritas"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you want the one with all the sausage, It's called the Sporkie?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, one of those and also the Silano white pizza one with chicken."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay that's 1 Bertucci, 2 margheritas, 1 Silano and 1 Sporkie."
+    },
+    {
+      "speaker": "client",
+      "text": "and get 3 garden salads with oil and vinegar on the side."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds good, I'll make sure they throw in plenty of rolls too."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. we need butter, plates, silverware and napkins. Try to make sure we get everything."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. So it's 5 pizzas, 3 salads and the rolls. Is that everything."
+    },
+    {
+      "speaker": "client",
+      "text": "It should be."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The order is in and it will be ready for pickup in 25 minutes. I put it under the company name and the payment is on the account."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bertucci's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "on Amherst Street",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Amherst Street",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "classic margheritas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "the Sporkie",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Sporkie",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Silano white pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bertucci",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "margheritas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Silano",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-56deade2-6760-4ad0-8b0c-ecd34013ce80",
+  "created_at": "2026-02-15T15:44:17.142Z"
+}

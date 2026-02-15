@@ -1,0 +1,151 @@
+{
+  "dialog_id": 1839,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1839"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I would like to order a drink from Starbucks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Here are the closest locations of Starbucks to you:"
+    },
+    {
+      "speaker": "client",
+      "text": "Is the nearest location open right now?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, the Starbucks at GH closes at 10pm"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, I would like to order, but I don’t know what to get!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like me to help you in finding a drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "Sure!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, would like like a hot drink or a cold drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a cold drink"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like it to be sugar free or with sugar?"
+    },
+    {
+      "speaker": "client",
+      "text": "With sugar!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I would recommend for you to get the cold caramel drink."
+    },
+    {
+      "speaker": "client",
+      "text": "Is there is a second option?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Another recommendation would be for you to get the cold frapachino drink."
+    },
+    {
+      "speaker": "client",
+      "text": "That sounds promising, what are the prices?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The price for large is $5.69, mediums is $ 5.00, and small is $4.36, What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I’ll take the medium"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, 1 cold mid sized frapachino, so you confirm?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Order confirmed for 1 cold mid sized frapachino at Granada Hills"
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "caramel drink",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "frapachino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mediums",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mid sized",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-15b033dd-11dd-43c4-b854-a56cf013008c",
+  "created_at": "2026-02-15T15:44:17.108Z"
+}

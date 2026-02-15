@@ -1,0 +1,133 @@
+{
+  "dialog_id": 60,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=60"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi! how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I'd like to place a Starbucks order for pickup, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure. What drink would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm looking for a grande caramel macchiato please with whole milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. Would you like anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that'll be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. You want a grande caramel macchiato with whole milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "should i place the order for you right now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and to confirm, this is the starbucks on california street?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, actually I currently need that order to be picked up at the Starbucks at 615 South Military Avenue in Green Bay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "starbucks on 615 south military avenue in greenbay. Got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "let me change that in your order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you'd like a grande caramel macchiato with whole milk sent to the starbucks on 615 south military avenue in greenbay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is perfectly correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, your drink has been ordered. It will be ready for pick up shortly."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you quite kindly."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be sent to your mobile device!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye."
+    },
+    {
+      "speaker": "client",
+      "text": "Have a good day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caramel macchiato",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-085d1656-c6a5-425a-acb8-7a7701346ccc",
+  "created_at": "2026-02-15T15:44:16.895Z"
+}

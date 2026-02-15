@@ -1,0 +1,152 @@
+{
+  "dialog_id": 1881,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1881"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, Carson. Can you order a drink for me from Peets? I'm running on fumes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. Which store do you want to order it from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Whatever is along my trip. I have to run an errand or two and I want to pick something up on the way back."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Let me go to their website and check. Give me a few seconds."
+    },
+    {
+      "speaker": "client",
+      "text": "I heading to Georgetown. Is there anything in the area?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I can check. Okay. There's one on M street. Is that okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "That'll work."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What do you have a taste for?"
+    },
+    {
+      "speaker": "client",
+      "text": "I have a taste for a Mocha. But, I might want an Americano instead."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Why not order both? That's a joke."
+    },
+    {
+      "speaker": "client",
+      "text": "You know what? That's not a bad idea? You sure you don't want anything yourself?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No. I'm trying to cut back."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Put in an order for a Mocha and Americano."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Give me two smalls."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Give me regular in both."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. What time do you want for pickup?"
+    },
+    {
+      "speaker": "client",
+      "text": "How about one o'clock sharp."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Done. You're total is $6.55. That's including tax. The receipt should hit your SMS shortly."
+    },
+    {
+      "speaker": "client",
+      "text": "I got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Just display it to the server when get there."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay thanks again."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright. Bye."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Mocha and Americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "two",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "smalls",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-23c9d82a-f708-4677-9c09-041de2b20077",
+  "created_at": "2026-02-15T15:44:17.113Z"
+}

@@ -1,0 +1,195 @@
+{
+  "dialog_id": 1219,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1219"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi, how can I help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is anyone there?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi.Yes, I'm here."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi."
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I would like to order from the Peet's Coffee on Westwood Boulevard in Los Angeles."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, what did you want to order from Peet's?"
+    },
+    {
+      "speaker": "client",
+      "text": "I wanted to order a cafe Aulait with almond milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you have a milk preference for your drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please get almond milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And what size did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Medium."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you want that iced or hot?\n"
+    },
+    {
+      "speaker": "client",
+      "text": "Hot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok. So to confirm, you'd like to order a medium cafe Aulait with almond milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did I get that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, can I add any other flavors?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, sure."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What flavor did you want to add?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can we add some ginger spice?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Unfortunately, there is no ginger spice at Peet's at the moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The available syrups."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Are."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Vanilla, Sugar-free vanilla, Maple, Hazelnut, Sugar-free chocolate sauce, Cinnabon Bun."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Please add maple."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And so you wanted a medium cafe Aulaite with almond milk and maple."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is that all right?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The total for your order will be $4.50."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like me to place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I've ordered your drink for you at Peet's on Westwood Boulevard. It should be ready for pick up in 9 minutes. Your receipt will be sent to your mobile device via text message shortly."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're all set."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Good bye."
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cafe Aulait",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cafe Aulaite",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-acdddd3b-2b66-4e60-9d21-b73799715d54",
+  "created_at": "2026-02-15T15:44:17.023Z"
+}

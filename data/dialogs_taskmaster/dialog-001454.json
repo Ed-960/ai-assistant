@@ -1,0 +1,126 @@
+{
+  "dialog_id": 1454,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1454"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I would like to add two medium pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure thing, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, can I get one half cheese, half pepperoni?"
+    },
+    {
+      "speaker": "client",
+      "text": "And can I get one veggie lover's?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "cool. would you like anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you make them all thick crust thick crust?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, so you'd like 2 medium pizzas, 1 half cheese and half pepperoni, and 1 veggie lovers pizza, all with thick crust."
+    },
+    {
+      "speaker": "client",
+      "text": "That's right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "$36.22 will be your total. would you like to place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the order has been placed. your pizza will be ready in 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. That will be all. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you need help with anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "cool, take care."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "medium pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "half cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "half pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lover's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers pizza",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-d17ff9cd-21c1-4dd7-8719-b1269ad44889",
+  "created_at": "2026-02-15T15:44:17.048Z"
+}

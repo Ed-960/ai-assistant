@@ -1,0 +1,142 @@
+{
+  "dialog_id": 90,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=90"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi. Yes. I'd like to get a ticket to Bohemian Rhapsody, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hello, i'd like to discuss your movie preferences."
+    },
+    {
+      "speaker": "cashier",
+      "text": "i would like to talk about your movie preferences."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so, what kind of movies do you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I like biography biopic movies."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what do you like about biopics?"
+    },
+    {
+      "speaker": "client",
+      "text": "I like that they are based on factual things like people."
+    },
+    {
+      "speaker": "cashier",
+      "text": "nice. can you name a movie that you liked?"
+    },
+    {
+      "speaker": "client",
+      "text": "I like Bohemian Rhapsody."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what did you like about it?"
+    },
+    {
+      "speaker": "client",
+      "text": "I liked Freddie Mercury, I like that he sings songs."
+    },
+    {
+      "speaker": "cashier",
+      "text": "nice. how about movies that you don't like, can you describe them for me?"
+    },
+    {
+      "speaker": "client",
+      "text": "I don't like slapstick movies like Three Stooges, things that don't really have a theme, they just have a bunch of silliness, adults acting like children, I don't think its funny."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. can you name a movie that you didn't like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I don't like"
+    },
+    {
+      "speaker": "client",
+      "text": "Big Trouble in Little China."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what didn't you like about this movie?"
+    },
+    {
+      "speaker": "client",
+      "text": "I liked I didn't like that there was so much action, but there was never a point to any of the action. There was a lot of gratuitous violence, and the story line's very muddled. I didn't like it."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. have you seen the terminator?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what did you think of this movie?"
+    },
+    {
+      "speaker": "client",
+      "text": "I thought it was okay. I I sort of liked the good versus evil aspects of it. But, the fact that Arnold Schwarzenegger is sort of a wooden character anyway, he played he played the role fairly well. I liked it."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I have."
+    },
+    {
+      "speaker": "cashier",
+      "text": "nice. have you seen schindler's list?"
+    },
+    {
+      "speaker": "client",
+      "text": "I thought it was a masterful movie. It was well done, brilliantly acted, well-written, subtly portrayed. Excellent."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what did you think of this movie?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "very nice. well, thank you for the chat!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. Bye-bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "byebye."
+    }
+  ],
+  "final_order": {
+    "items": [],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-0b8abfef-594f-430d-ad4f-70ee1647abda",
+  "created_at": "2026-02-15T15:44:16.899Z"
+}

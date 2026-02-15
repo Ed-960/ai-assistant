@@ -1,0 +1,117 @@
+{
+  "dialog_id": 2216,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2216"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I want to order from Starbuck's coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a Caffe Mocha"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size? "
+    },
+    {
+      "speaker": "client",
+      "text": "Venti"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else about that?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want extra Whipped Cream on top."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want it from the Starbuck's on Main?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes,"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I want a Bacon and Gruyere' egg Bites."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok.."
+    },
+    {
+      "speaker": "client",
+      "text": "I want to add Honey Flavor to the drink."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok.. got it."
+    },
+    {
+      "speaker": "client",
+      "text": "Good, when will it be ready."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'll order and have them text you the receipt now."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok.. Got it. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "They said that it will be waiting for you within about 5 min."
+    },
+    {
+      "speaker": "client",
+      "text": "Great - thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Good bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caffe Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-75a28285-3e8f-44b5-a2ce-78d0122133f0",
+  "created_at": "2026-02-15T15:44:17.157Z"
+}

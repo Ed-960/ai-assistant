@@ -1,0 +1,142 @@
+{
+  "dialog_id": 2674,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2674"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I need to order some pizza"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what pizza restaurant?"
+    },
+    {
+      "speaker": "client",
+      "text": "Joeys Pizzaeria!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "that works for me, i know where that is"
+    },
+    {
+      "speaker": "client",
+      "text": "okay great"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what type of pizzas do you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to order a couple pizzas"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what are they?"
+    },
+    {
+      "speaker": "client",
+      "text": "a small pizza with chicken on it and a small with bacon and ziti on it"
+    },
+    {
+      "speaker": "cashier",
+      "text": "great i will order"
+    },
+    {
+      "speaker": "client",
+      "text": "okay let me know"
+    },
+    {
+      "speaker": "cashier",
+      "text": "unfortunately they are out of ziti"
+    },
+    {
+      "speaker": "client",
+      "text": "okay can u get pepparoni instead"
+    },
+    {
+      "speaker": "cashier",
+      "text": "so you want a small pizza with chicken and a small pizza with bacon and pepparoni?"
+    },
+    {
+      "speaker": "client",
+      "text": "yes that works for me"
+    },
+    {
+      "speaker": "cashier",
+      "text": "i am ordering them right now"
+    },
+    {
+      "speaker": "client",
+      "text": "thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "they are ordered and willbe ready in 25 minutes"
+    },
+    {
+      "speaker": "client",
+      "text": "thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Joeys Pizzaeria",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "couple pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ziti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepparoni",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-f05dd061-d801-44cd-b22c-acb866cac70e",
+  "created_at": "2026-02-15T15:44:17.210Z"
+}

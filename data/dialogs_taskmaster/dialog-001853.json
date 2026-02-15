@@ -1,0 +1,187 @@
+{
+  "dialog_id": 1853,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1853"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Assistant, I would like a coffee today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, where would you like for me to get your coffee from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks sounds great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of coffee would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I love their caramel latte, iced, tall please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds good, can I pick up anything else for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you see if they have pizza too?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I dont think they carry pizza, but if they do, what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I really like cheese"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Cheese got it anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you see if they will add pepperoni to that?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want that large?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes I want that large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you need sides with that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Ranch please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Another medium pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "Pepperoni on that one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You dont want any other toppings? I know you love sausage."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, you're right. Add sausage to that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any sauces with that pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "Extra marinara."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you need another drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes can you get me a bottle of cold water to go with the pizza?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, I will grab that too."
+    },
+    {
+      "speaker": "client",
+      "text": "I would also need extra plates."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will grab the plates for you."
+    },
+    {
+      "speaker": "client",
+      "text": "Can you make sure they give you the receipt this time?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Will do!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Extra marinara",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-1a75134b-1d62-4b97-918b-ce2ae8632c08",
+  "created_at": "2026-02-15T15:44:17.110Z"
+}

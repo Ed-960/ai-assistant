@@ -1,0 +1,227 @@
+{
+  "dialog_id": 2267,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2267"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'd like to order two large one topping with pepperoni and ground beef and a side order of garlic breadsticks from Happy Pizza on Oak Street."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like any flavored crust on your pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "Sure, what flavors do they offer?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They have cajun, garlic and ranch flavored crusts."
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like Cajun crust on both the pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like the five piece of ten piece order of garlic breadsticks?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like the five piece order of breadsticks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like to add a drink to your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, add a bottle of one liter Pepsi. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm sorry but they are out of ground beef topping. Would you like to change your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Then make that two large pepperoni pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like to add anything else to your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Do they have boneless chicken wings?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, they do have boneless chicken wings. "
+    },
+    {
+      "speaker": "client",
+      "text": "What flavors of boneless wings do they have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They honey barbecue, Cajun and Buffalo flavored wings."
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order the buffalo flavored wings."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like the eight piece or the sixteen piece wings?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like the eight piece wings. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'd like to confirm your order for today. "
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, you may go ahead and confirm."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You have two large pepperoni pizas with Cajun crust, one side order of garlic breadsticks, eight piece buffalo flavored boneless wings and one liter bottle of Pepsi."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that is correct. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your credit card will be charged for the amount $29.99 before you pick up your order. "
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is there anything else I can help you with today?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that will be all. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order will be ready for pick up in 25 minutes at Happy Pizza on Oak Street."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you for choosing Happy Pizza. Have a wonderful day!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ground beef",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Happy Pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Oak Street.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "They have cajun, garlic",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cajun",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "garlic",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ranch flavored crusts",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cajun crus",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cajun crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Then make that tw",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni pizas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cajun crust,",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Your order",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-826ef0aa-6d76-4b92-a490-21a8264ed697",
+  "created_at": "2026-02-15T15:44:17.163Z"
+}

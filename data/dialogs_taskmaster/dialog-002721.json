@@ -1,0 +1,267 @@
+{
+  "dialog_id": 2721,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2721"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I need you to order five pizzas from Pizza Hut."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which Pizza Hut?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one closest to my home. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what sizes do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "All five should be large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And what types of crust?"
+    },
+    {
+      "speaker": "client",
+      "text": "Three should be pan, two should be hand-tossed."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What toppings do you want on the first pan pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "Pepperoni, Salami, Ham, Sausage, and bacon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And the second one?"
+    },
+    {
+      "speaker": "client",
+      "text": "Black Olives, Bell Pepper, and Mushrooms."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And the third?"
+    },
+    {
+      "speaker": "client",
+      "text": "Salami, Ham, Black Olives, Tomatoes, and Bell Pepper"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I got it. What do you want on the first hand tossed pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "Pepperoni, Black Olives, and Mushrooms."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What do you want on the second. "
+    },
+    {
+      "speaker": "client",
+      "text": "The second should be half and half. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "What's on the first half?"
+    },
+    {
+      "speaker": "client",
+      "text": "Bell pepper, Tomatoes, and sausage."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What's on the second half?"
+    },
+    {
+      "speaker": "client",
+      "text": "Pepperoni, Chicken, Beef, and Pork."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I got it. Do you want extra cheese on any of them?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I just want normal amounts of cheese?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What about special crusts?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I don't want anything special on the crust. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I got that. Do you need any drinks or sides?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I just need the pizzas. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is that everything, then?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, thank you. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you, I'll place the order right away. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Pizza Hut",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pan",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hand-tossed",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pan pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Salami",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Black Olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bell Pepper",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hand tossed",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hand tossed pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bell pepper",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Beef",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pork",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "normal amounts of cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-fea57747-15e4-4407-823e-f7b52866fc62",
+  "created_at": "2026-02-15T15:44:17.215Z"
+}

@@ -1,0 +1,117 @@
+{
+  "dialog_id": 2025,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2025"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "yo can you get me a starbucks coffee?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yeah sure what do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "cafe mocha"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "grande"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "2 percent"
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you want whipped creme?"
+    },
+    {
+      "speaker": "client",
+      "text": "yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what starbucks location?"
+    },
+    {
+      "speaker": "client",
+      "text": "let me check"
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay, ill wait"
+    },
+    {
+      "speaker": "client",
+      "text": "Harris Teeter in Durham on 9th Street"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds good"
+    },
+    {
+      "speaker": "client",
+      "text": "thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "i ordered the drink (cafe mocha - 2 percent - grande - whipped creme) from the Harris Teeter on 9th street"
+    },
+    {
+      "speaker": "client",
+      "text": "cool"
+    },
+    {
+      "speaker": "cashier",
+      "text": "it should be ready shortly and receipt was texted to you"
+    },
+    {
+      "speaker": "client",
+      "text": "cheers mate!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "no problem mate"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cafe mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-43f22ae9-5c8b-497d-8d2d-aa00acec0163",
+  "created_at": "2026-02-15T15:44:17.134Z"
+}

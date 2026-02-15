@@ -1,0 +1,126 @@
+{
+  "dialog_id": 2099,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2099"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I would like to place an order at my nearest Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Would that be Starbucks at 1126 Central Park Dr, O'Fallon, Illinois?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's correct. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Perfect. What would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I have a Caramel Brulee Latte with 2% milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. Would you like whipped cream on that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a grande, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, great. Would that complete your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's all. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, the total will be 10 dollars. "
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your receipt will be sent to your phone and your order will be waiting for you at Starbucks at 1126 Central Park Dr in O'Fallon Illinois."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is there anything else you would like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "No that's all. You know what, actually change the size to a venti."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. Your new total is 12 dollars. "
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order is ready for pickup at Starbucks at 1126 Central Park Dr, O Fallon, Illinois. "
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caramel Brulee Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-584d327a-9726-4c3a-b7e9-6570333c4af1",
+  "created_at": "2026-02-15T15:44:17.143Z"
+}

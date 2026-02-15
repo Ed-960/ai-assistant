@@ -1,0 +1,184 @@
+{
+  "dialog_id": 241,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=241"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there, how can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm looking to buy some coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "And at Peet's cafe."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okat great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just a cappuccino latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "not a problem."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is whole milk okay for this drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, like oatmeal is great for me actually."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay! thank you! i'm happy to hear."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size would you like."
+    },
+    {
+      "speaker": "client",
+      "text": "Large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any sweeteners?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to add another drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's fine. That's it. Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "or is that it?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great no problem."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and is this for the location on 1st street?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "in SF?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay! great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "one large cappuccino with whole milk and not sweeteners."
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great Let me submit that for you!"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your drink has been ordered. It will be ready for pickup in 6-9 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you very much. Have a great day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome!"
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cappuccino latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cappuccino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-20f07c0d-9e2a-4775-869a-83d8cbcb1134",
+  "created_at": "2026-02-15T15:44:16.917Z"
+}

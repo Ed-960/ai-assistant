@@ -1,0 +1,220 @@
+{
+  "dialog_id": 293,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=293"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Yes, I'd like to order from Starbucks, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure! What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "large ice coffee extra caramel."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, sounds delicious."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is a Venti okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, the venti's awesome. I actually forgot the name, so thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No worries."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm glad I can help"
+    },
+    {
+      "speaker": "client",
+      "text": "You're awesome. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to add milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please skim."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Skim milk, done."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How about any added sweetners?"
+    },
+    {
+      "speaker": "client",
+      "text": "No no, that would be fine. Just extra caramel, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "EXtra caramel."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "noted."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "one moment please."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is this for the starbucks on California street in San Francisco?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, it is."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "let me get this started for you."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that'd be for today. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I got a Venti iced coffee with extra caramel and skim milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that all?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Not a problem."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your order has been sent."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "it should be ready shortly."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome, perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be sent to you via text."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye. Bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "have a great day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ice coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced coffee with",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-28ddf655-ba62-4b59-9f8f-2b8a7fbb9957",
+  "created_at": "2026-02-15T15:44:16.923Z"
+}

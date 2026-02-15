@@ -1,0 +1,206 @@
+{
+  "dialog_id": 1589,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1589"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hello."
+    },
+    {
+      "speaker": "cashier",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I'd like to order a pizza from Bal Elona."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get three pizzas?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get all three of them large, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, and what toppings would you like for your pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, can I get one Veggie Lovers?"
+    },
+    {
+      "speaker": "client",
+      "text": "One meat lover's, and the last one just pepperoni and mushrooms."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you are ordering 3 large pizzas, 1 veggie lovers, 1 meatlovers, and 1 pepperoni and mushrooms, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, but can I get them oped in crust?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, i'll add that to the order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your total will be $72, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like pick up, delivery, or dine in?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a delivery."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, please note that your total doesn't include tip."
+    },
+    {
+      "speaker": "client",
+      "text": "Can you repeat the order for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, 3 large thin crust pizzas, 1 veggie lovers, 1 meat lovers, 1 pepperoni and mushrooms."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Can I change it to pickup instead of delivery?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i can switch that."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be ready for pickup in 30 minutes and your receipt will be texted to you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's That's What is the total once again?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "$72."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. That sounds great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bal Elona",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Veggie Lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lover's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meatlovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "oped in crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-e88edda3-e7e4-4367-9258-85ef9d324508",
+  "created_at": "2026-02-15T15:44:17.062Z"
+}

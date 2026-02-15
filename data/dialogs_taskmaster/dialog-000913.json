@@ -1,0 +1,126 @@
+{
+  "dialog_id": 913,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=913"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi how are you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Doing alright. How are you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, thanks for asking."
+    },
+    {
+      "speaker": "cashier",
+      "text": "how can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm at the University of Alabama Birmingham's library, and I want to place an order at the Starbucks there."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great and what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I haven't said the drink yet but I think I'm going to want a tall."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what would you like to drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "a cafe mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what kind of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "I think I want to try almond milk in it. Never had it before, but it's healthier."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any whipped cream or syrups?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you do maybe a splash of honey. No whipped cream, though."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's a tall caffe mocha with almond milk, and a splash of honey, no whipped cream from the starbucks at the Birmingham University."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "client",
+      "text": "Nothing. That's right, you got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're all set, your drink will be ready in 15 minutes and you'll get a receipt via text."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "of course, no problem."
+    },
+    {
+      "speaker": "cashier",
+      "text": "have a great day."
+    },
+    {
+      "speaker": "client",
+      "text": "You, too."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cafe mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caffe mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-7e5cc176-307e-4421-9433-bbcd19493d02",
+  "created_at": "2026-02-15T15:44:16.990Z"
+}

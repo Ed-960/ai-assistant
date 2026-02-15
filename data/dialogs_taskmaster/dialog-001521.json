@@ -1,0 +1,151 @@
+{
+  "dialog_id": 1521,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1521"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there! How can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I'm trying to order a ice, sugar-free, vanilla latte from The Peet's in Town & Country on 77 Town & Country Road in Palo Alto, California. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure! I can help with that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Give me a moment to set it up."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I apologize, did you say you'd like a Iced Latte?"
+    },
+    {
+      "speaker": "client",
+      "text": "Ice sugar free vanilla latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh I see."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it, a Iced Sugar Free Vanilla Latte . And what size did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Medium with soy milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Medium with soy milk. Got it!"
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thank you. I think that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And this is for the location in Palo Alto, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! give me a moment while I send over your order."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Certainly."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, your order has been sent to your desired location. It will be ready for pickup in 5-8 min."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, great. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're very welcome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great day."
+    },
+    {
+      "speaker": "client",
+      "text": "You, too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "thanks! Goodbye."
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "vanilla latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Vanilla Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Medium",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-dd7bee92-60d1-4d35-b83a-7dc09faa8c49",
+  "created_at": "2026-02-15T15:44:17.055Z"
+}

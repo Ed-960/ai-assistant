@@ -1,0 +1,122 @@
+{
+  "dialog_id": 1741,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1741"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Holly can you order me a coffee please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes ma'am where would like it from"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks please the one on fayettville rd"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok what would you like"
+    },
+    {
+      "speaker": "client",
+      "text": "Iced Caramel Macchiato"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok it there anything esle"
+    },
+    {
+      "speaker": "client",
+      "text": "yes make sure it is a grande"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok"
+    },
+    {
+      "speaker": "client",
+      "text": "make sure they use whole milk"
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything thing else"
+    },
+    {
+      "speaker": "client",
+      "text": "double shot of expresso"
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else ma'am"
+    },
+    {
+      "speaker": "client",
+      "text": "tell them send me a copy of the receipt to my phone"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok i just ordered be ready in 10 mins"
+    },
+    {
+      "speaker": "client",
+      "text": "that will be all holly"
+    },
+    {
+      "speaker": "cashier",
+      "text": "are you sure ma'am"
+    },
+    {
+      "speaker": "client",
+      "text": "yes "
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok "
+    },
+    {
+      "speaker": "client",
+      "text": "thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "your welcome"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Iced Caramel Macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caramel Macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-01050cec-fb4f-4139-b4cf-10663354cb8d",
+  "created_at": "2026-02-15T15:44:17.089Z"
+}

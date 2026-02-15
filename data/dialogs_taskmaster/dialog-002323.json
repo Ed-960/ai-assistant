@@ -1,0 +1,157 @@
+{
+  "dialog_id": 2323,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2323"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey Bud, I want to get a pizza from Otto's for us for lunch."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sweet, sounds good what are you thinking?"
+    },
+    {
+      "speaker": "client",
+      "text": "I like the potato bacon pizza, does that work for you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Definitely, but I don't really like the scallions that come on it."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's fine. I'm going over that way in a little bit can you get right on ordering?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, what size do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Better get a large, how big is it again?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Large is 16\"."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, that will be good. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "All right I'm going to order the potato bacon scallion, hold the scallion, for pick up ASAP, right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, see if they can put extra bacon on there."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You bet. "
+    },
+    {
+      "speaker": "client",
+      "text": "Have them put it on the business account ok?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds good. "
+    },
+    {
+      "speaker": "client",
+      "text": "Let me know when you are done and I will head out. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, that is going to be 22 bucks, do you want to include a tip?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, give them $5."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, they said it will be ready in 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank, you. See you at lunch. They are going to text you the bill. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Otto's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "potato bacon pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "scallions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large is 16",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large is 16\"",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "potato bacon scallion",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "potato bacon scallion,",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "scallion",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra bacon",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-90468954-521b-4c19-9ebc-7f554e191696",
+  "created_at": "2026-02-15T15:44:17.169Z"
+}

@@ -1,0 +1,117 @@
+{
+  "dialog_id": 2030,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2030"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, can you get me a drink from Peets?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, which store?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one on 4th Street, downtown."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what specific drink do you want me to get?"
+    },
+    {
+      "speaker": "client",
+      "text": "A cappuccino with extra foam."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Small."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Do you want anything else extra or just anything else in general?"
+    },
+    {
+      "speaker": "client",
+      "text": "Sure, can you get me a couple of sugar packets and extra cream?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing. Anything to eat?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thanks. I'd just like to get the drink and that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I've just put in the order. It'll be ready for pickup soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, I appreciate it. Did it come with a receipt?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course. It'll be sent to you through text on your phone. "
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, great. I appreciate it, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome. Do you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that'll be all. Thanks for your help. I'll contact you if I need anything."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course. Goodbye."
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Take care."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Small",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-45b678e9-98da-40a1-9ec4-4a858b8ae017",
+  "created_at": "2026-02-15T15:44:17.135Z"
+}

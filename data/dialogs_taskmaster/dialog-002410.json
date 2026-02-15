@@ -1,0 +1,127 @@
+{
+  "dialog_id": 2410,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2410"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Could you please order me a venti iced pumpkin spice latte with 2% milk from Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "From which store would you like me to order it from?"
+    },
+    {
+      "speaker": "client",
+      "text": "From the Starbucks on the University of Rochester's campus."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, would you like me to place it right now or at a later time?"
+    },
+    {
+      "speaker": "client",
+      "text": "Right now, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. Would you like me to order anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No that will be it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. Your order has been placed. "
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks! Did they say when it would be ready?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It will be ready for pickup in 15 minutes from the Starbucks on the University of Rochester's campus."
+    },
+    {
+      "speaker": "client",
+      "text": "How will my receipt be sent to me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your receipt will be texted to your cell phone."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is there anything else I can do for you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that will be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. Please let me know if you change your mind."
+    },
+    {
+      "speaker": "client",
+      "text": "Will do."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a nice day!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you, you too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thanks!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced pumpkin spice latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pumpkin spice latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "2% milk",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-a783b109-a684-4c7c-a703-464c995add94",
+  "created_at": "2026-02-15T15:44:17.179Z"
+}

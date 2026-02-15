@@ -1,0 +1,30 @@
+{
+  "dialog_id": 974,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=974"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, what can i do for you?"
+    }
+  ],
+  "final_order": {
+    "items": [],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-88261ec7-2716-42ec-bcfb-ef79db05c5de",
+  "created_at": "2026-02-15T15:44:16.996Z"
+}

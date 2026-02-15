@@ -1,0 +1,105 @@
+{
+  "dialog_id": 112,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=112"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I'd like to order a beverage from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, i can place the order for you. what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like a skinny vanilla latte, size grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want the drink hot or iced?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hot, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what kind of milk did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just regular milk, please. Whole milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome. so you want to order a grande skinny vanilla latte. which starbucks should i place the order at?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I pick that up at the Starbucks at 333 North Michigan Ave in Chicago, Illinois?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, the order has been placed. it'll be ready for pick up in 10 mins. the receipt has been sent to you via text."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Fantastic, no that's all. Thank you so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome, enjoy that drink."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "skinny vanilla latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-0e26361f-a442-4664-a5f5-9895530d45ad",
+  "created_at": "2026-02-15T15:44:16.902Z"
+}

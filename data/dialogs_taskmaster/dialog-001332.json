@@ -1,0 +1,191 @@
+{
+  "dialog_id": 1332,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1332"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. Can you help me order pizzas from Bella Luna Pizzeria, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, how many pizzas do you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get four small pizzas, all four thin crust?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay and what are the toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "One pizza, can I get a barbecue sauce with chicken?"
+    },
+    {
+      "speaker": "client",
+      "text": "The second, can I get a black color and pineapple pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "The third one, can I get a Hawaiian pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "And the fourth, can I get a four-cheese pizza?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you say cheese pizza for the last one?"
+    },
+    {
+      "speaker": "client",
+      "text": "four-cheese pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any other special instruction?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's about it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so your order is: 4 small thin crust pizzas. one chicken bbq, the second with black olives and pineapple, the third is a hawaiian and the fourth is a 4 cheese pizza, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, the total is $43."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, that's perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be ready for pickup at bella luna's soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna Pizzeria",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "barbecue sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black color and pineapple pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hawaiian pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "four-cheese pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken bbq",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "4 cheese pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-bea688d4-7970-4baf-87d2-0074d2cb21ae",
+  "created_at": "2026-02-15T15:44:17.035Z"
+}

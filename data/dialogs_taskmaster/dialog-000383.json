@@ -1,0 +1,125 @@
+{
+  "dialog_id": 383,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=383"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to order a pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, how many pizzas would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "three."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "lads."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what are the toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "Chicken barbecue."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what type of crust?"
+    },
+    {
+      "speaker": "client",
+      "text": "Thick crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the total is $35."
+    },
+    {
+      "speaker": "cashier",
+      "text": "3 large chicken bbq pizzas with extra cheese, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your pizzas will be ready for pickup at bella luna's soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome, bye."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Chicken barbecue",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Thick crust.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken bbq pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-367f04f5-5605-4f1e-bd24-5813a78f49b4",
+  "created_at": "2026-02-15T15:44:16.933Z"
+}

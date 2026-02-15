@@ -1,0 +1,183 @@
+{
+  "dialog_id": 2467,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2467"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "What are your delivery times like from my address?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It should be there in 30 to 40 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Can I order added sides like smoked gouda cheese or smoked chicken?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes we have those and many more on our extra sides menu."
+    },
+    {
+      "speaker": "client",
+      "text": "Do you serve gluten free pizzas?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes we serve gluten free pizza dough and pasta. The gluten-free pasta options are made with flavorful corn spaghetti."
+    },
+    {
+      "speaker": "client",
+      "text": "We have 3 pizzas can we get extra packages of pepper flakes and parmesan cheese?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yeas we will add extras to each pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get a deep dish pizza from the kitchen for special order?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No we do not serve deep dish style pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "Your campfire pizza looks good what is on that?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "A cheese pizza with all natural flour for our dough (absolutely no ... Campfire. smoked sausage, sweet onion marmalade, gorgonzola & fresh rosemary"
+    },
+    {
+      "speaker": "client",
+      "text": "Can we order anchovies with one of the pizzas?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes Anchovies are a part of out specitaly menu add ons."
+    },
+    {
+      "speaker": "client",
+      "text": "What will sales tax be."
+    },
+    {
+      "speaker": "cashier",
+      "text": "That will vary with your order."
+    },
+    {
+      "speaker": "client",
+      "text": "Is your pizza crust tasty."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes it will rock your world."
+    },
+    {
+      "speaker": "client",
+      "text": "Can you deliver beer also?"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "gluten free pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra packages of pepper flakes and parmesan cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepper flakes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "parmesan cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "deep dish pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "kitchen",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "deep dish style",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "deep dish style pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "campfire pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Campfire. smoked sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sweet onion marmalade",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gorgonzola & fresh rosemary",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "anchovies",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Anchovies",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-b6dd5837-9118-4dd3-ab83-c0fff63d660e",
+  "created_at": "2026-02-15T15:44:17.187Z"
+}

@@ -1,0 +1,207 @@
+{
+  "dialog_id": 1536,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1536"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Yeah, I'd like to order some pizza from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi, what can I do for you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "i can help with that."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Two small pizzas. For the toppings, let's say something for meat lovers. Maybe extra sausage on there, please. And thick crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of pizza would you like?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "alright!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that for both pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay! great!"
+    },
+    {
+      "speaker": "client",
+      "text": "Let me know when they're ready for pickup, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "certainly."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh yeah, no problem."
+    },
+    {
+      "speaker": "cashier",
+      "text": "give me a moment to summarize your order and read it back to you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "2 small pizzas, thick crust, both of them are a meat lovers pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, it does."
+    },
+    {
+      "speaker": "cashier",
+      "text": "does that sound correct?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! thanks so much."
+    },
+    {
+      "speaker": "client",
+      "text": "You're welcome. Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Let me get the total for you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The total for these two pizzas will be $52.51."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Thank you. Perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that alright?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! thanks so much."
+    },
+    {
+      "speaker": "client",
+      "text": "You're welcome. Thank you, too. Alright."
+    },
+    {
+      "speaker": "cashier",
+      "text": "let me get that submitted."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order has been sent to Bella Luna and is being prepared. Your order should be ready for pickup soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Nice. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "i'm glad i could help."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, you're the best. Thank you again."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thanks so much."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. Bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "goodbye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers pizza.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-df7bab99-36a6-4c15-95c1-261e0d3e81bd",
+  "created_at": "2026-02-15T15:44:17.057Z"
+}

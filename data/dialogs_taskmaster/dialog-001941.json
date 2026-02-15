@@ -1,0 +1,117 @@
+{
+  "dialog_id": 1941,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1941"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I want to get a coffee. Can you give me a hand?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, no problem."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Where do you want to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm thinking Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. What do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Pumpkin Spice Latte if they still have them."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I think they still have them."
+    },
+    {
+      "speaker": "client",
+      "text": "Great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grande"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. What kind of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "2%"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Do you want whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thanks. I'll pass."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I think I got it. I'm going to order it now."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. You're going to order from the one on Broad Street, right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yeah. Okay, it will be ready for pickup in 5 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Pumpkin Spice Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-309c8c92-99f9-436b-b58e-11c1c286805d",
+  "created_at": "2026-02-15T15:44:17.122Z"
+}

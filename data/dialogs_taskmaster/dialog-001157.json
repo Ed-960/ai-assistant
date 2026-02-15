@@ -1,0 +1,277 @@
+{
+  "dialog_id": 1157,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1157"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Okay, yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, i'd like to ask you some questions about your restaurant preferences, does that sound good?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, what kind of restaurants do you like to go to typically?"
+    },
+    {
+      "speaker": "client",
+      "text": "Indie coffee bars, neighborhood coffee bars."
+    },
+    {
+      "speaker": "client",
+      "text": "small places Because it's close to where I live and."
+    },
+    {
+      "speaker": "cashier",
+      "text": "that sounds awesome. why is that?"
+    },
+    {
+      "speaker": "client",
+      "text": "I know people there."
+    },
+    {
+      "speaker": "client",
+      "text": "It's familiar."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can you tell me about a time you had a great experience with a coffee bar, what made it a great experience?"
+    },
+    {
+      "speaker": "client",
+      "text": "I was downtown, and the ceilings I went to a local Starbucks, and the ceilings were really high. And it was in a really old bank building, and there was so much room in there that you you didn't run into people. And there were cubby-holes to sit in. You didn't even have to buy a coffee. You could just sit there."
+    },
+    {
+      "speaker": "client",
+      "text": "It was very grand looking cuz it was an old bank. It was The building was transferred into an old bank, so the coffee tasted better."
+    },
+    {
+      "speaker": "cashier",
+      "text": "how was the service as well as the food and coffee items?"
+    },
+    {
+      "speaker": "client",
+      "text": "The services was okay, but they didn't know what bergamot tea was, so I had to say all gray. You know, and the the deserts and pastries were, you know, the usual. But, I basically liked the atmosphere there and how large the place was."
+    },
+    {
+      "speaker": "client",
+      "text": "At the Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "thanks for sharing. can you also tell me about a time you had a poor experience with a coffee bar?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. So I So I went into this really crowded coffee bar on campus, and it was so crowded. I mean it was so crowded. You had to yell. It was so loud in there, you had to literally yell your order a couple times, and you know, it was hard to get out of line."
+    },
+    {
+      "speaker": "client",
+      "text": "You thought you were going to bump into people cuz they were moving so fast. And you thought you will spill your drink. And there was really no place to sit or even stand. You just had to grab your coffee and run out of there. Was so loud and so crowded, was horrible."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so you don't like loud and crowded coffee places. got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "have you ever been to coffee bean and leaf, or peets?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh no, not really. I tried it though."
+    },
+    {
+      "speaker": "client",
+      "text": "I never even heard of Coffee Bean. I don't know what Coffee Bean is."
+    },
+    {
+      "speaker": "cashier",
+      "text": "how about dunkin donuts?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I don't like it there."
+    },
+    {
+      "speaker": "client",
+      "text": "Can I have black and white mocha seasoning offering?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sorry about that. what did you want from starbucks again?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, yeah. It was a Let's see. How about."
+    },
+    {
+      "speaker": "client",
+      "text": "A black and white mocha seasonal offering."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "A large a grand you can give me a grand for that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "grande is the same thing as a medium."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, okay. That's fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want grande or large?"
+    },
+    {
+      "speaker": "client",
+      "text": "A grande's fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what type of milk did you want in that?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want coconut."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want anything else in your drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, we're Korean."
+    },
+    {
+      "speaker": "client",
+      "text": "And could you put like no sugar, but artificial sweetener?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. so you said grande black and white mocha with coconut milk and whipped cream, no sugar but add artificial sweetner from starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "$3.40 is your total. should i place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. You can place the order now."
+    },
+    {
+      "speaker": "cashier",
+      "text": "which starbucks should i place it at?"
+    },
+    {
+      "speaker": "client",
+      "text": "42nd Street, New York City."
+    },
+    {
+      "speaker": "client",
+      "text": "New York."
+    },
+    {
+      "speaker": "client",
+      "text": "The nearest one The nearest one near 42nd Street in New York City."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, i placed the order on 42nd street in new york city."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "Wonderful. Great, thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "it will be ready in 9 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, brilliant."
+    },
+    {
+      "speaker": "cashier",
+      "text": "for pick up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Okay, thanks."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "black and white mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grand",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-a3232061-f893-4668-ab27-5b74ca88d938",
+  "created_at": "2026-02-15T15:44:17.015Z"
+}

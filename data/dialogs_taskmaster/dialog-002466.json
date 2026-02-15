@@ -1,0 +1,132 @@
+{
+  "dialog_id": 2466,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2466"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I want a coffee in Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, on what store is it?"
+    },
+    {
+      "speaker": "client",
+      "text": "In Lincoln center."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You mean, 121 Lincoln Center, Stockton?"
+    },
+    {
+      "speaker": "client",
+      "text": "yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok got it, what kind of coffee would like to have?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, I'm thinking about, Iced Black and White Mocha"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, is that Iced Black and White Mocha?"
+    },
+    {
+      "speaker": "client",
+      "text": "yes?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size is it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grande,"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Grande, got it, what kind of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Almond milk in it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it, whipped or not whipped cream in it?"
+    },
+    {
+      "speaker": "client",
+      "text": "whipped cream on it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "done, what else do you want to add?"
+    },
+    {
+      "speaker": "client",
+      "text": "I think that's it, what time is it going to be ready?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Done, Iced Black and White Mocha is ready for pickup in about 5 minutes in 121 Lincoln Center in Stockton."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, thank you for using google home assistant. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Iced Black and White Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Black and White Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ced Black and White Mocha?",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "d Black and White Mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-b6b4695c-bf16-43ae-996b-e0d9a0254b61",
+  "created_at": "2026-02-15T15:44:17.187Z"
+}

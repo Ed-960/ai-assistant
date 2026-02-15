@@ -1,0 +1,162 @@
+{
+  "dialog_id": 194,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=194"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi there how can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, can you make an order for me at Bella Luna Pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure thing how many?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want two large pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "The first one, I want garlic and onions, and the second one I want ham and meatball. And can I get extra cheese on the garlic and onion one?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "2 large gluten free pizzas, one garlic and onions with extra cheese and one ham and meatball pizza right?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. I don't want gluten-free."
+    },
+    {
+      "speaker": "client",
+      "text": "I just want two large pizzas, one with garlic and onions and extra cheese, and one with ham and meatball."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Whoops, I've removed that from the order."
+    },
+    {
+      "speaker": "client",
+      "text": "Cool. Can you summarize my order?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "2 large pizzas, one garlic and onions with extra cheese and one ham and meatball pizza right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "client",
+      "text": "How much is it going to be?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your total is $48.99 and it'll take 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Did Did you place it?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, you'll get the reciept via mobile in a just amoment."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. I think we're all set, then."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, take care."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna Pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "garlic",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onion",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meatball",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meatball pizza right",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meatball pizza",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-19034929-a582-439b-959f-e1ce4a49abc4",
+  "created_at": "2026-02-15T15:44:16.912Z"
+}

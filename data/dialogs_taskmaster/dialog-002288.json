@@ -1,0 +1,117 @@
+{
+  "dialog_id": 2288,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2288"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, would you mind ordering some coffee for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No, not at all. Where would you like to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Starbucks on Main Street in Hesperia."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, no problem. What would you like."
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get a latte with almond milk"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, any flavorings for it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hm, yeah actually. Can you make it vanilla?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, sugar free vanilla, or regular?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, sugar free please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, what size will that be?"
+    },
+    {
+      "speaker": "client",
+      "text": "A grande, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, and would you like anything extra? Maybe an extra shot of espresso or anything?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, I'll put that order in now."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, your order has processed and it's being made now. "
+    },
+    {
+      "speaker": "client",
+      "text": "Cool."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It'll be ready for pickup shortly, and your receipt will be sent to your phone shortly. "
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, have a nice day. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-87fa2969-27c4-471d-bc6b-eb7ecba27974",
+  "created_at": "2026-02-15T15:44:17.165Z"
+}

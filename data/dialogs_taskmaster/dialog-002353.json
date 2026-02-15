@@ -1,0 +1,130 @@
+{
+  "dialog_id": 2353,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2353"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I want to order a coffee from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "There are three Starbucks in the area. Which store do you prefer?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one on Rt. 3 in Frederickburg has the best baristas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. What kind of coffee would like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a Caramel Macchiato."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "It's Monday so definitely a Grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like that made with almond milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. I like regular milk. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is that 2% or whole milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll save a few calories and get 2%."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like anything extra in your coffee like whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "No whipped cream. I would like a double shot of espresso in it though."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It comes with a caramel topping. Do you want that or should I have them leave it off."
+    },
+    {
+      "speaker": "client",
+      "text": "The caramel is the best part. I do want it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "To confirm your order you would like a Grande Caramel Macchiato with 2% milk and a double shot of espresso from the Starbucks on Rt. 3 in Frederickburg. Is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your drink has been ordered and will be ready for pickup at the Rt. 3 location in Fredericksburg. Your receipt will be sent to your phone via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you! "
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome. Is there anything else I can do for you? "
+    },
+    {
+      "speaker": "client",
+      "text": "No. That is all. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thank you and have a great morning."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caramel Macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caramel Macchiato.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-97b7b465-79c4-4642-9db7-1ed9a3b75f93",
+  "created_at": "2026-02-15T15:44:17.173Z"
+}

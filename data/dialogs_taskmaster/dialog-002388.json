@@ -1,0 +1,145 @@
+{
+  "dialog_id": 2388,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2388"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I would like to place an order for 3 pizzas at La Casa Pizzaria."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Which La Casa location would you like to order your pizza from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The south location, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Will you be picking up your pizza or having it delivered?"
+    },
+    {
+      "speaker": "client",
+      "text": "I will be picking it up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What types of pizza would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "2 hamburger pizzas, and 1 pepperoni, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. When would you like to pick these pizzas up?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like them as soon as possible."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. How would you like to pay for your pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to pay with cash when I arrive."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Will you be ordering anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "I may want some drinks. What do they have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "La Casa has Pepsi products and several brands of beer."
+    },
+    {
+      "speaker": "client",
+      "text": "Do they carry Diet Mountain Dew?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, they have Diet Mountain Dew in 2 liter bottles."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Please add 1 2 liter bottle of Diet Mountain Dew to my order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Is there anything else."
+    },
+    {
+      "speaker": "client",
+      "text": "No, that should be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Your total will be $57, and your order will be ready in 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. Goodbye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "La Casa Pizzaria",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "La Casa",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "south",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "south location",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hamburger pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-a0aa7e9b-8273-4154-b831-6b68aa4bac82",
+  "created_at": "2026-02-15T15:44:17.176Z"
+}

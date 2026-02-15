@@ -1,0 +1,134 @@
+{
+  "dialog_id": 2632,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2632"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I want to order a COFFEE DRINK from Starbucks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure thing, which store would you want to order from"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to order the one close to my home in kalanianaole in Hawaii kai, honolulu, hawaii"
+    },
+    {
+      "speaker": "cashier",
+      "text": "you want to use the regular account for ordering"
+    },
+    {
+      "speaker": "client",
+      "text": "yes, let's use that account with starbucks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sounds good, what kind of drink you want today"
+    },
+    {
+      "speaker": "client",
+      "text": "I am feeling a mocha"
+    },
+    {
+      "speaker": "cashier",
+      "text": "any milk"
+    },
+    {
+      "speaker": "client",
+      "text": "yes, 2 percent"
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you want additional flavor"
+    },
+    {
+      "speaker": "client",
+      "text": "of course, I am feeling like honey and some whipped cream on top would be nice"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sounds good, and"
+    },
+    {
+      "speaker": "client",
+      "text": "I want something fresh, let's make it extra minty"
+    },
+    {
+      "speaker": "cashier",
+      "text": "will do, anything else"
+    },
+    {
+      "speaker": "client",
+      "text": "have some chocolate chip thrown into the whipped cream"
+    },
+    {
+      "speaker": "cashier",
+      "text": "they have a drink called peppermint mocha that is similar to what you want"
+    },
+    {
+      "speaker": "client",
+      "text": "I know, but this one should be cold"
+    },
+    {
+      "speaker": "cashier",
+      "text": "that is available"
+    },
+    {
+      "speaker": "client",
+      "text": "I also want some shave ice in it, let's make it a peppermint frappuccino with chocolate and whipped cream on top"
+    },
+    {
+      "speaker": "cashier",
+      "text": "will do, your receipt will be sent to your mobile device"
+    },
+    {
+      "speaker": "client",
+      "text": "I just received it"
+    },
+    {
+      "speaker": "cashier",
+      "text": "the order is waiting for you at the store"
+    },
+    {
+      "speaker": "client",
+      "text": "thank you"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "peppermint mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "peppermint frappuccino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-e2a693b2-3ea5-4fb2-90e7-8d2857700d1b",
+  "created_at": "2026-02-15T15:44:17.206Z"
+}

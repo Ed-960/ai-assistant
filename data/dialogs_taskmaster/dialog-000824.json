@@ -1,0 +1,199 @@
+{
+  "dialog_id": 824,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=824"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi. how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hello Google, I need to order two pies."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hello. where do u want pie from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Google, I want pie from Bella Luna Pizzeria."
+    },
+    {
+      "speaker": "cashier",
+      "text": "oh, did u mean pizza pies? or those sweet dessert pies?"
+    },
+    {
+      "speaker": "client",
+      "text": "And that pizza pie is."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. let's get the order started. what did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want two large pizzas, Google. I want one meat lover's, I want one with pineapple, sausage, and tomato, and bell pepper."
+    },
+    {
+      "speaker": "client",
+      "text": "and onion."
+    },
+    {
+      "speaker": "cashier",
+      "text": "for the one with tomatoes, did u want sun dried tomatoes, or regular tomatoes."
+    },
+    {
+      "speaker": "client",
+      "text": "Which would you recommend?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "well. i personally wouldn't put pineapple on my pizza. but i'd recommend sun dried tomatoes."
+    },
+    {
+      "speaker": "client",
+      "text": "Sun dried tomatoes, Google. I want sun dried tomatoes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sun dried tomatoes it is. so the order i have down is 2 large pizzas, 1 meat lovers, and 1 with pineapple, sausage, sun dried tomatoes, bell peppers and onions."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, Google. But Google, I need them both thick crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, i've added thick crust to your order. $25.04 is the total."
+    },
+    {
+      "speaker": "cashier",
+      "text": "should i place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. It's for pickup."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i've placed the order. it'll b ready for pick up in 35 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did u need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's it today, Google."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, enjoy those pizzas."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna Pizzeria",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lover's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tomato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bell pepper",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onion",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sun dried tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Sun dried tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bell peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-717d84e4-538a-479b-858e-7f15df51b96c",
+  "created_at": "2026-02-15T15:44:16.980Z"
+}

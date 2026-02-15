@@ -1,0 +1,171 @@
+{
+  "dialog_id": 2689,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2689"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I need you to order me a pizza from Metro."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I found two locations near you. Do you have a preference?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, Id like a pizza from the Metro on Horizon Ridge in Henderson"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a Specialty Gotham Pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size."
+    },
+    {
+      "speaker": "client",
+      "text": "a Large"
+    },
+    {
+      "speaker": "cashier",
+      "text": "and how many?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just one large please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you have any special requests for your pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "Instead of the ground beef I would like ham please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, I can substitue the ham for the gound beef. Any other topping?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that will be in thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK, I have ordered you one large Gotham Pizza. I have added ham instead of ground pizza. This will be at the Metro Pizza on Horizon Ridge."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect, sound right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like anything else with your pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, just the one pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your receipt will be sent to you via text on your mobile device."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks for your help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "May I assist you with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "NO, goodbye for now. Thanks."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Metro",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Horizon Ridge in Henderson",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Horizon Ridge",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Specialty Gotham Pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ground beef",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gound beef",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Gotham Pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ground",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Metro Pizza",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-f3b14724-5d5e-4885-a8a3-ecb199e8399a",
+  "created_at": "2026-02-15T15:44:17.212Z"
+}

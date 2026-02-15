@@ -20,19 +20,23 @@ export async function extractFinalOrder(history, menu, profile) {
     const menuNames = menu.map((m) => m.name).join(", ");
     const dialogue = history.map((t) => `${t.speaker}: ${t.text}`).join("\n");
 
-    const prompt = `Извлеки из диалога итоговый заказ как JSON-массив.
+    const menuLines = menu.map((m) => m.name).join("\n");
+    const prompt = `Extract the final order from the dialogue as a JSON array.
 
-Правила:
-- Клиент сказал "первый вариант" / "the first one" на предложение "A или B" → заказан A.
-- Клиент сказал "подойдёт", "да", "давайте" на названное блюдо → оно в заказе.
-- Кассир зачитал список и клиент подтвердил ("да", "всё верно") → весь зачитанный список в заказе.
-- Только "что посоветуете?" без выбора → заказ пустой [].
+Rules:
+- Client said "first one" / "that one" to "A or B" → order A.
+- Client said "yes", "perfect", "that's right" to a dish → it's in the order.
+- Cashier read back the full list (e.g. "Fries 154g, McNuggets 320g, Coffee 250ml") and client confirmed → include ALL items with EXACT menu names including size.
+- If cashier said "Our World Famous Fries (154g)" use the menu name with 154g. Same for McNuggets 320g, etc.
+- "What do you recommend?" without choice → empty [].
 
-Меню: ${menuNames}
-Формат: [{"name": "точное имя из меню", "quantity": 1}]
-Только JSON-массив, без текста.
+MENU (use EXACT names including size):
+${menuLines}
 
-Диалог:
+Format: [{"name": "exact name from menu", "quantity": 1}]
+Output ONLY the JSON array, no other text.
+
+Dialogue:
 ${dialogue}`;
 
     let content = await callGroq([{ role: "user", content: prompt }], 0.1) || "[]";

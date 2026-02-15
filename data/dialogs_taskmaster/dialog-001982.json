@@ -1,0 +1,144 @@
+{
+  "dialog_id": 1982,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1982"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey! I need you to pick up a Starbucks coffee for me. I'm dragging over here. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course! What's the closest location to you?"
+    },
+    {
+      "speaker": "client",
+      "text": "2 Atlantic Avenue, the one in the North End. It's my favorite one in Boston. You familiar with that one?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Absolutely! What's your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm carving an Iced Mocha, those are so delicious!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want sugar or cream in it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Heck yes, I take 3 Splenda and a splash of almond milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "That sounds yummy. What size do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "It's Wednesday so make it a venti. Order it online too because it's such a busy location."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Good idea! I have your login info so it should be really easy. Do you want me to order it now or after your meeting?"
+    },
+    {
+      "speaker": "client",
+      "text": "Order it now because I could really use that coffee before my meeting. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Absolutely. I don't blame you."
+    },
+    {
+      "speaker": "client",
+      "text": "Make sure it's a Iced Skinny Mocha! I forgot to mention that. I don't need the extra calories."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're ridiculous. The Skinny one is just as good though."
+    },
+    {
+      "speaker": "client",
+      "text": "This way I can get some whip cream on it too. Make sure you write just a little whip. I love whip cream so it'll be a nice treat."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I may wait until I get there because I don't want it to melt before I get it. "
+    },
+    {
+      "speaker": "client",
+      "text": "That's a really good idea. Thanks a ton! Let me know when you head out to get it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I sure will. I'm going to place the order after we get off the phone. "
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect, you're the best!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No way. Just to be clear you want the Venti Iced Skinny Mocha with 3 Splenda and a splash of almond milk and a little whipped cream from the 2 Atlantic Avenue Boston, MA location near the North End, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "You got it! Thanks again! "
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. Your order is going to be ready shortly and the receipt is being sent to your cell phone via text message. "
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Iced Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Iced Skinny Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Skinny Mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-393cc67a-4876-447b-aebb-f638647e75f1",
+  "created_at": "2026-02-15T15:44:17.129Z"
+}

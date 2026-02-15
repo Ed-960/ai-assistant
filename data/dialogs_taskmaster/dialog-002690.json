@@ -1,0 +1,153 @@
+{
+  "dialog_id": 2690,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2690"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'm on my way to Starbucks. Can you order me a coffee to pick up?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, which one do you want to go to?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm in Brooklyn, heading toward the one in Williamsburg."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm looking up the address. The one at 154 N 7th St?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's the one. I'll be there in 5 or 10 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. What would you like me to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "The big one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, one venti latte. What kind of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "With whole milk, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any flavor in that latte?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I want vanilla syrup."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I am guessing you don;t need sugar, then."
+    },
+    {
+      "speaker": "client",
+      "text": "No, it'll be sweet enough with the vanilla."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, can you have them put whipped cream on top."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I'll tell them. I know you like iced coffee. Is this hot?"
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks for mentioning that. I would like it iced."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, to confirm, it's a venti iced latte with vanilla syrup and whipped cream, no sweetener."
+    },
+    {
+      "speaker": "client",
+      "text": "That's perfect. Will it be ready when I get there?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They say 5 to 8 minutes, at the Starbucks on 7th Street in Brooklyn. You want me to use the Amex?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I have an account. I'll pay with my phone. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome. See you later. Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "big",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-f3e2c6be-5922-4a33-93de-1e4714d90bfc",
+  "created_at": "2026-02-15T15:44:17.212Z"
+}

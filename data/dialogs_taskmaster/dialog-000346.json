@@ -1,0 +1,350 @@
+{
+  "dialog_id": 346,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=346"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi."
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to order something from the menu of Starbucks."
+    },
+    {
+      "speaker": "client",
+      "text": "I live in New York City uptown. What is the best Starbucks near me?"
+    },
+    {
+      "speaker": "client",
+      "text": "In New York City?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Let me look it up! one sec."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I've found a Starbucks on Lexington."
+    },
+    {
+      "speaker": "cashier",
+      "text": "does that sound good to you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Great. Yes, it does. I would like to Can I place an order for pick-up?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Certainly."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. I would like a venti cafe americano, a venti cafe mocha, and a venti skim cappuccino skim milk cappuccino."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright!"
+    },
+    {
+      "speaker": "client",
+      "text": "How long do you Do you have any other suggestions to what other drinks I can order from Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I sure do!"
+    },
+    {
+      "speaker": "client",
+      "text": "Please, suggest something for me to order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I know their salted caramel latte is one of many people's favorites."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, that sounds interesting. What kind of milk should I use with that?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "If you are okay with whole milk, i'd suggest that."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, does that come with whip cream?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It sure can if you'd like."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Another question, do you know if that still has a chestnut praline latte?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "give me one moment to check for you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It looks like they do have Chestnut Praline Lattes."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, and how about the Caramel Brulée?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They also have Caramel Brulée Lattes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. What size do they come in?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You can choose between Tall, grande and Venti."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, how about this? How about I'll cancel my other order, and I'll order a venti caramel brulee latte?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, one Venti Caramel Brulée Latte."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, great. How long do you think he'll take?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What milk do you like for the drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "Whole milk will be fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "and just to be sure, this will be a hot drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "alright!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "teh current wait time for drinks is about 10 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's fine. That's okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Let me go ahead."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and enter this."
+    },
+    {
+      "speaker": "cashier",
+      "text": "order for you."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, i got one venti Caramel Brulée Latte with whole milk, at The starbucks on lexington."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "One last question, would you like to add whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great choice!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright your order has been submitted ."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect incase of."
+    },
+    {
+      "speaker": "cashier",
+      "text": "it should be ready in 10 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect. Thank you so much for your help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The receipt will be sent to you mobile device."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. How long will that take?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It should be there momentarily."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. That sounds good to me."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! you have a great day!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you, you too. Bye-bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "thank you!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cafe americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cafe mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "skim cappuccino skim milk cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "salted caramel latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chestnut praline latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Chestnut Praline Lattes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caramel Brulée",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caramel Brulée Lattes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caramel brulee latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caramel Brulée Latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-30e5fe16-17d0-4fd6-8305-398f611541b1",
+  "created_at": "2026-02-15T15:44:16.929Z"
+}

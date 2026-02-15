@@ -1,0 +1,172 @@
+{
+  "dialog_id": 811,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=811"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi how can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm going to go to Starbucks. I'm going to go to Starbucks, and I need you to place an order."
+    },
+    {
+      "speaker": "client",
+      "text": "Ola."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay I can do that."
+    },
+    {
+      "speaker": "client",
+      "text": "O Club, so I'd really love the caramel I'd like to place for a caramel macchiato."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Caramel Macchiato, got it, what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "be a medium."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay and did you want any syrups or whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "client",
+      "text": "Can I add caramel on top of the caramel? I'd assume, but do they offer caramel as a syrup?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes they do."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Add caramel to it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So I have a grande caramel macchiato with caramel syrup and whipped cream right?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. No. No. Medium. Medium with soy milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Starbucks sizes are short, tall, grande and venti."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay great. So that's a short caramel Macchiato with caramel syrup and whipped cream using soy milk."
+    },
+    {
+      "speaker": "client",
+      "text": "No whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it, no whipped cream."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, and that should be at the the Starbucks on Main Street and Fairfax."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay I've placed your order with the Starbucks on Main Street and Fairfax. It'll be ready in 15 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, enjoy your coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "caramel macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caramel Macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "short",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caramel Macchiato",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-70609a4f-857e-4bd3-bac9-5a348c6c3281",
+  "created_at": "2026-02-15T15:44:16.979Z"
+}

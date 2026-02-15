@@ -1,0 +1,131 @@
+{
+  "dialog_id": 1107,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1107"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. Could you help me with placing a Starbucks order?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "of course. what kind of coffee would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a vanilla latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of milk would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like soy milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so a grande vanilla latte with soy milk, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "where would you like to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to pick it up in Horsham."
+    },
+    {
+      "speaker": "client",
+      "text": "On Hasham Road, it's in Pennsylvanian."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your coffee will be ready for pickup soon at the Starbucks at horsham road."
+    },
+    {
+      "speaker": "client",
+      "text": "Great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be sent to you via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect. Thank you so much for your help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome. bye!"
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "vanilla latte.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "vanilla latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-9d4c9023-ff8f-47eb-b3f6-f84162b5ccc4",
+  "created_at": "2026-02-15T15:44:17.010Z"
+}

@@ -1,0 +1,195 @@
+{
+  "dialog_id": 1347,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1347"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hey there."
+    },
+    {
+      "speaker": "client",
+      "text": "assistant."
+    },
+    {
+      "speaker": "cashier",
+      "text": "how can i help you."
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order pizza from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what kind of pizza did you want."
+    },
+    {
+      "speaker": "client",
+      "text": "I want two small pizzas, one pepperoni with extra cheese, and one barbecue chicken with extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of crust did you want for those?"
+    },
+    {
+      "speaker": "client",
+      "text": "hand tossed."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want thick crust, thin crust, regular, or deep dish?"
+    },
+    {
+      "speaker": "client",
+      "text": "deep dish."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. so you want 2 small deep dish pizzas, 1 pepperoni with extra cheese, 1 bbq chicken with extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the total for that is $27.99."
+    },
+    {
+      "speaker": "cashier",
+      "text": "should i place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i've placed your order. it'll be ready for pick up in 32."
+    },
+    {
+      "speaker": "cashier",
+      "text": "mins."
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, goodbye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. take care."
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "barbecue chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hand tossed",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "deep dish",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese, 1",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bbq chicken",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-c112b9fb-5040-4e1b-af00-a9f8bb9450eb",
+  "created_at": "2026-02-15T15:44:17.036Z"
+}

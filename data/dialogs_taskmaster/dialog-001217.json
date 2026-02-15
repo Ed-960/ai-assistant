@@ -1,0 +1,138 @@
+{
+  "dialog_id": 1217,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1217"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi there, I'd like to order some pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, how many pizzas would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like three."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "All small, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what kind of toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like all three as veggie lovers pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure thing. what type of crust?"
+    },
+    {
+      "speaker": "client",
+      "text": "Regular crust but I'd like them all with extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. that will be $2.50 per pizza, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "3 small veggie lovers with extra cheese, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. your total is $34.50."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be ready for pickup at bela luna's soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye now!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Regular crust but",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bela luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-acc02b14-a525-41a3-9e94-79677ec5f24f",
+  "created_at": "2026-02-15T15:44:17.023Z"
+}

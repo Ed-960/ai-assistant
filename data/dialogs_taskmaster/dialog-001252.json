@@ -1,0 +1,109 @@
+{
+  "dialog_id": 1252,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1252"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hey there, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey, how are you doing? I wanted to get some coffee and peace cuz I really need some caffeine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "i'm doing well. sure, i'd love to help u with that. what peet's should i place the order at."
+    },
+    {
+      "speaker": "client",
+      "text": "It's Washington, DC."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, and what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "It's the one on Yeah, so I'd like if I could get a latte macchiato medium?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, and did you want that iced or hot?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, I definitely want it hot. And I want 2% milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. got it let me review your order with you, one moment please."
+    },
+    {
+      "speaker": "client",
+      "text": "Mhm. Yep."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hot medium latte macchiato with 2% milk from peet's in washington d.c."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "$4.50 is the total. should i place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, please please get it going now. I'll go pick it up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i've placed the order, it'll be ready in 10 mins."
+    },
+    {
+      "speaker": "client",
+      "text": "all right, thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "latte macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-b0bdeabd-c8fc-49ab-a7a8-1459f5cd0562",
+  "created_at": "2026-02-15T15:44:17.027Z"
+}

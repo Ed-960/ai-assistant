@@ -1,0 +1,147 @@
+{
+  "dialog_id": 92,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=92"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi how can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to place a drink order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "With starbucks or with peets?"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it and which one is closest to where you want to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to pick it up at the Starbucks on 627 Tremont Street Retail Space No. 1 in Boston, Massachusetts."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm sorry there was a little static on my end could you repeat that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, so I'd like to pick up my drink order from Starbucks on 627 Tremont Street retail space 1, Austin, Massachusetts."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it and what will you be ordering?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order a black and white mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you want that iced or regular?"
+    },
+    {
+      "speaker": "client",
+      "text": "Regular."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. And what kind of milk did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "2%."
+    },
+    {
+      "speaker": "cashier",
+      "text": "whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so that's a black and white grande mocha with 2% milk and whipped cream for pickup at the starbuckso n Treemont St."
+    },
+    {
+      "speaker": "client",
+      "text": "Right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "YOu'll get the reciept via mobile in just a bit. It'll be ready for pickup in 14 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a good day! Take care."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "black and white mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black and white",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-0bd01309-cafd-485b-8473-70ada52fb479",
+  "created_at": "2026-02-15T15:44:16.899Z"
+}

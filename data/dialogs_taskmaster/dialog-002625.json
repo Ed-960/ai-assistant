@@ -1,0 +1,134 @@
+{
+  "dialog_id": 2625,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2625"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I ordered some starbucks, should be ready before you even get there. You fly I'll buy?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds great, I think I just passed it though, which location did you order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nah, I picked the one down on Market Street."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ha ha, funny. Why would you pick the only star bucks in this city that doesn't have a drive thru?"
+    },
+    {
+      "speaker": "client",
+      "text": "I like their sign."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The Pikes Plake Market sign?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, the starbucks sign!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Aren't they all the same? "
+    },
+    {
+      "speaker": "client",
+      "text": "Yup, with that one exception."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Let me guess, you drew a mustache on the mermaid? "
+    },
+    {
+      "speaker": "client",
+      "text": "Laughs. 2 mocha frappachinos' extra shot of exresso with whipped cream and white chocolate on top."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Nice, they give you a confirmation number?"
+    },
+    {
+      "speaker": "client",
+      "text": "Of course, probably in a text I just ignored. What are you picking up?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Starbucks!"
+    },
+    {
+      "speaker": "client",
+      "text": "Do you want to drive back to starbucks because you were too distracted by the sign to verify the order was correct?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No ma'am. 2 mocha fraps, extra shot, whipped and white shavings."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you, forwarding the receipt now."
+    },
+    {
+      "speaker": "cashier",
+      "text": "My apologies and thank you. Awesome your trying my favorite today."
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds a bit girly, but also delicious, I\"ll give it a shot!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "A double shot! So what's up with the sign?"
+    },
+    {
+      "speaker": "client",
+      "text": "It's the original starbucks store, still prouding flying their original sign before they had to change repeatedly to make each country happy."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Interesting."
+    },
+    {
+      "speaker": "client",
+      "text": "It is! Click"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "2",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mocha frappachinos",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mocha fraps",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-e10070e5-52a8-4c61-b997-da7940b5f298",
+  "created_at": "2026-02-15T15:44:17.205Z"
+}

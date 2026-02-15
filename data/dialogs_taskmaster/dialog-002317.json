@@ -1,0 +1,125 @@
+{
+  "dialog_id": 2317,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2317"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi! I'm in the car on the way to the office. Can you please order me some coffee? I'll pick it up on my way."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure! Where do you want me to order it from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Call the Starbucks on Steinway Street in Astoria, the one between Broadway and 31st Ave."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I'm going to try to order it online. What exactly do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Cool! See if they still have the iced salted caramel mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, they still have it available. What size do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I definitely want the Grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of milk do you want with it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Real whole milk please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, and do you want it with or without whipped cream."
+    },
+    {
+      "speaker": "client",
+      "text": "I want it with whipped cream and chocolate sauce instead of the caramel sauce."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It's not giving me the option to change sauce flavor."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, then just leave it with the caramel."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Fine, order is done. Do you want extra vanilla or brown sugar?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, to both. Vanilla and 3 packs or teaspoons of brown sugar."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, I placed the order and it says it should be ready for pick-up in 20 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Really, I'll be there in 5 minutes. Is there any way to speed it up?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No, after you place the order it just confirms the time but doesn't give me any choice. It says \"pick up at Starbucks 31-44 Steinway St, Astoria, NY 11103 in 20 minutes\"."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, I'll just have to find parking then."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hopefully they'll have it sooner."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thanks, we;ll talk later."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Bye, and let me know if there is a problem with your order."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "iced salted caramel mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-8ea79af5-84b7-4038-9e47-26acc51fdb7d",
+  "created_at": "2026-02-15T15:44:17.169Z"
+}

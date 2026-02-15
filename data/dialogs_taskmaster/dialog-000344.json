@@ -1,0 +1,118 @@
+{
+  "dialog_id": 344,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=344"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I'd like to order a pizzas from Bella Luna, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let me get the order started for you. What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like two pizzas small. Both of them thick crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it and for the toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "One topping, can I have a supreme pizza with everything on it, and the second topping, can I get a veggie lover pizza, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "thanks for asking so nicely. I'll get that order submitted for you. Before i do, can you confirm if i got it right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "2 small pizzas, both with thick crust, 1 supreme with everything, and 1 veggie lovers."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that is incorrect. That's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i've submitted your order. It'll be ready in 25 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's about it. Thank you very much. I appreciate your help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "awesome, have a great day."
+    },
+    {
+      "speaker": "client",
+      "text": "You too."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "supreme pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lover pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "supreme",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-30d8f535-a841-427a-924a-afef557ea1bc",
+  "created_at": "2026-02-15T15:44:16.928Z"
+}

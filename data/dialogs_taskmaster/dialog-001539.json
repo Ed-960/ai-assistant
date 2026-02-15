@@ -1,0 +1,118 @@
+{
+  "dialog_id": 1539,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1539"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I was looking to order three medium pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, which topping would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "All three of them, pepperoni and extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what type of crust?"
+    },
+    {
+      "speaker": "client",
+      "text": "Gluten-free."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any other special instructions?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so 3 pepperoni and extra cheese with gluten free crust, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your total will be $34."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome. your pizzas will be ready for pickup at bela luna's soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Gluten-free",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bela luna's",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-e012a052-89ea-45a9-acb8-a11425aac867",
+  "created_at": "2026-02-15T15:44:17.057Z"
+}

@@ -1,0 +1,262 @@
+{
+  "dialog_id": 1751,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1751"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I would like to order two pizzas from Marcos Pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which store in which city?"
+    },
+    {
+      "speaker": "client",
+      "text": "Marcos Pizza in North Liberty, Iowa."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like me to order for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "First, I would like the Meat Supremo from Marcos."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like the large, 14 inch, pizza of this specialty pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like thin crust, deep dish, or regular crust?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like the large meat supremo is be in the thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like any of the crust toppers on this pizza? They have garlic, parmesean, or roma, or any combination."
+    },
+    {
+      "speaker": "client",
+      "text": "I would like all crust toppers on this large thin pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Does that complete your pizza order for your first pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, the second one I would like another large pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like this one to be thin crust, deep dish, or regular crust?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like this one to be the regular crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like on this large regular crust pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like this one to be another specialty, the Hawaiian Chicken Pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like the crust toppers on this pizza also?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like all crust toppers on this pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want any drinks or desserts from Marcos Pizza in North Liberty?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to add a 2 liter to this order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which type of 2 liter would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a Pepsi 2 liter to be added to this order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Does this complete your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that will be all, can you repeat my order back to me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You want two pizzas that are larges. The first one will be a large thin meat supremo pizza with all crust toppers. The second will be regular crust with Hawaiian Chicken specialty with all crust toppers. You also want a 2 liter of Pepsi. Is this correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes this is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your receipt has been emailed to your email account. Your pizzas will be ready to be picked up from Marcos Pizza in 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you, I appreciate it!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It is my pleasure, have a good night."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Marcos Pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Marcos Pizza in North Liberty, Iowa",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "North Liberty, Iowa",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Meat Supremo",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Marcos",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "14 inch",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "deep dish",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat supremo",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "garlic",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "parmesean",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "roma",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hawaiian Chicken Pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "crust toppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "North Liberty",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "larges",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin meat supremo pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat supremo pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hawaiian Chicken specialty",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-03296223-1cb6-4fb6-86cf-684afcc25bcb",
+  "created_at": "2026-02-15T15:44:17.091Z"
+}

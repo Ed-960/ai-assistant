@@ -1,0 +1,119 @@
+{
+  "dialog_id": 145,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=145"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello. Good evening. Yes, I want to order a cup of coffee from Starbucks espresso beverages."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi there."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay what drink would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I need Espresso coffee, a cup of coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay and where would you like that picked up from?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay so that's an esspresso from the starbucks on 55 Grove Street right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great anything else for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hello?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else for yoU?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I think I will need whipped cream and the extra honey."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Espressos don't use whipped cream and you can add honey yourself at the starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The sugar is also on the counter by the pickup area for starbucks."
+    },
+    {
+      "speaker": "client",
+      "text": "Allright."
+    },
+    {
+      "speaker": "client",
+      "text": "So, it'll give me a review of my order?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You ordered an espresso from the starbucks on 55 Grove street. Your order will be ready in 5 minutes and you'll get a receipt via text."
+    },
+    {
+      "speaker": "client",
+      "text": "Allright. Thank you very much."
+    },
+    {
+      "speaker": "client",
+      "text": "You, too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem have a great day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Espresso coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "esspresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Espressos",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "espresso",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-132d76e4-5943-4c09-87be-8750c90fee06",
+  "created_at": "2026-02-15T15:44:16.906Z"
+}

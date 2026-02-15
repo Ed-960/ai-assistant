@@ -1,0 +1,135 @@
+{
+  "dialog_id": 536,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=536"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi. I want to order an espresso from the Starbucks on North Pearl Street in Albany, New York."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi there! How can I help?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh, okay, one moment. let me locate that store."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, got it! What can I get started for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a a tall cappuccino."
+    },
+    {
+      "speaker": "client",
+      "text": "with almond milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, a Tall Cappuccino with almond milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any sugars?"
+    },
+    {
+      "speaker": "client",
+      "text": "No added sugars."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright! anything else for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "That will do it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Wonderful! give me a moment to send it over to Starbucks."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, your Tall Cappuccino with almond milk has been sent to your desired location."
+    },
+    {
+      "speaker": "client",
+      "text": "Great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It will be ready for pickup in 5-8 min."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome. Thank you very much. You, too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're very welcome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "thanks! byebye."
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cappuccino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-4cb442e6-4e9f-42a0-bdec-265ac20924d3",
+  "created_at": "2026-02-15T15:44:16.949Z"
+}

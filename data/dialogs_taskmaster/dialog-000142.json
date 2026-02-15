@@ -1,0 +1,162 @@
+{
+  "dialog_id": 142,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=142"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hey, I'm looking to order three pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, from where?"
+    },
+    {
+      "speaker": "client",
+      "text": "Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of toppings would you like to add?"
+    },
+    {
+      "speaker": "client",
+      "text": "Well, I want two of them to be veggie lovers and then the other one I want to be a chicken alfredo."
+    },
+    {
+      "speaker": "client",
+      "text": "And I want all of them to be the large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, let me repeat that order back to you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "3 large pizzas, 2 veggie lovers, 1 chicken alfredo."
+    },
+    {
+      "speaker": "client",
+      "text": "Actually, I forgot. Could you make all of them thin crust?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, let me add that to the order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "3 large thin crust pizzas, 2 veggie lovers, 1 chicken alfredo."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, would you like to add any sides or drinks?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your total will come out to $72, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be texted to you."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and will you be dining in, picking up, or having it delivered?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, just pickup."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, it will be ready for pickup in 20 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope. That's all I need. Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your pizza."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken alfredo",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sides",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "drinks",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-1314a04a-3276-4163-8ec6-ce4809644de3",
+  "created_at": "2026-02-15T15:44:16.906Z"
+}

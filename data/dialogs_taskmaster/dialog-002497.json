@@ -1,0 +1,130 @@
+{
+  "dialog_id": 2497,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2497"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey Donna can you do me a huge favor?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing Turker, what can I do for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need a coffee before my next meeting or I am not going to make it through. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, where do you want the coffee from? There's a new place down the street?"
+    },
+    {
+      "speaker": "client",
+      "text": "No I am craving starbucks right now. The one in Germantown off of Century Blvd is open and they're not usually too busy."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to get a grande cappucchino with honey. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. What kind of milk do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Regular 2% is fine with me."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want any flavors or anything?"
+    },
+    {
+      "speaker": "client",
+      "text": "No I'm good with just honey."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How many packets should I use?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's say two packets. Can you also add cinnamon to the top? It makes me feel like I am in Europe."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Haha sure thing. Do you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you also add one of my Vital Proteins collagen packets to it? I like the extra bit it gives me."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure! Just one packet/scoop?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah that should be fine. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, to confirm, you'd like a grande cappuccino with one packet of honey, regular 2% milk, and some cinnamon on top. And a vital protiens packet."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes that sounds great. Can you have it here ASAP?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm leaving now. Want it on your starbucks card?"
+    },
+    {
+      "speaker": "client",
+      "text": "You know I love those points. Thanks Donna!!!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem Turker!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cappucchin",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cappuccino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-bdc1bc24-93da-427e-9ac9-a2570a08d040",
+  "created_at": "2026-02-15T15:44:17.190Z"
+}

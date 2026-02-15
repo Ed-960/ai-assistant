@@ -1,0 +1,97 @@
+{
+  "dialog_id": 170,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=170"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi there."
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like to place an order for a drink a Starbucks for pick up, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure thing. what type of drink would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order a tall iced skinny mocha with whipped cream and soy milk and two pumps of caramel, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you got it."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. No, I think that's going to be it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else with that?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "let me confirm your order. you want a tall iced skinny mocha with whipped cream and soy milk, and two pumps of caramel?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "cool. would you like to place your order for now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, your drink has been ordered. It will be ready for pick up shortly at the starbucks on California street. Your receipt will be sent to your mobile device via text message. Enjoy!"
+    },
+    {
+      "speaker": "client",
+      "text": "That's perfect. Thank you so much. Bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced skinny mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-16a2a594-f650-4e7e-971c-50faafedbdbd",
+  "created_at": "2026-02-15T15:44:16.909Z"
+}

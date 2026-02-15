@@ -1,0 +1,175 @@
+{
+  "dialog_id": 1485,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1485"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi."
+    },
+    {
+      "speaker": "client",
+      "text": "Hello."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what can I do for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to order a."
+    },
+    {
+      "speaker": "client",
+      "text": "caffè Americano from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing! did you have a location in mind?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would like the Starbucks from Highway 6 in Houston, Texas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I've found multiple locations along highway 6, which one do you prefer?"
+    },
+    {
+      "speaker": "client",
+      "text": "the one next to Panda Express."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, give me a moment to locate that one."
+    },
+    {
+      "speaker": "client",
+      "text": "Actually, the one from Kroger's."
+    },
+    {
+      "speaker": "cashier",
+      "text": "oh i see, one sec."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "4751 State Hwy N."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great! what can i get you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a Caffè Americano."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Venti, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, any milk or sugar?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "alright, anything else for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, give me a moment to send it over."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, all set. you Venti Caffe Americano, will be ready for pickup in 5-8 min."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're very welcome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great day."
+    },
+    {
+      "speaker": "client",
+      "text": "You too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "thanks bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "caffè Americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caffè Americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caffe Americano",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-d5daf963-0dc3-4971-b198-a79057ad2a7e",
+  "created_at": "2026-02-15T15:44:17.051Z"
+}

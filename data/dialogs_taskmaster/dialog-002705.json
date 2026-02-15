@@ -1,0 +1,132 @@
+{
+  "dialog_id": 2705,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2705"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, I would like to get a pizza for the family tonight. Can you help me with this?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, sure! Where would you like me to order the pizza from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I love Costco pizza, you can get it there."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, sounds good. What would you like on the pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "The combination pizza will be perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, is there only one size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I believe it only comes in one size."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok perfect, what time do you want me to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "6:00 pm will be excellent."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, got it!"
+    },
+    {
+      "speaker": "client",
+      "text": "Actually, would you ask them to leave off the mushrooms?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok sure, I will ask them to leave the mushrooms off."
+    },
+    {
+      "speaker": "client",
+      "text": "Also, no onions."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, got it, no onions either."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh shoot, I just remembered, you cannot customize the combo, scratch that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh they don't?"
+    },
+    {
+      "speaker": "client",
+      "text": "Right, it just comes as standard combination."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, sounds good. Do you want drinks with it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please get us four cups of coke also."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok so that's a combination pizza and four drinks. Great!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Costco pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "combination pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "no onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onions",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-f97efc4a-c9be-4a2b-aef8-f165055bdfbe",
+  "created_at": "2026-02-15T15:44:17.214Z"
+}

@@ -1,0 +1,219 @@
+{
+  "dialog_id": 1547,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1547"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I got to order three pizzas. pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, from where?"
+    },
+    {
+      "speaker": "client",
+      "text": "Bella Luna the Bella Luna Pizzeria."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, and you said large size?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I said I didn't actually say anything but I need them in small."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, what toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's get one fresh garden style, let's get one meat lovers, and let's get one with pineapple, ground beef, bell peppers, and onions."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, bella luna's doesn't have a fresh garden pizza but the veggie lovers might be similar, would you like to order that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Do they have Do they include spinach on the veggie lovers?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes, it has spinach."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Alright, you can do that, then."
+    },
+    {
+      "speaker": "client",
+      "text": "They all need to be thick crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, so you are ordering 3 small pizzas with thick crust, one veggie lovers, one meat lovers, and one with pineapple, bell peppers, onions, and ground beef."
+    },
+    {
+      "speaker": "client",
+      "text": "Yep."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your total will be $57, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "well."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh no, I would pay 20 bucks per pizza for a large, though. I know that's worst cost, right?"
+    },
+    {
+      "speaker": "client",
+      "text": "So it's probably a little more expensive just cuz of the cost of living out there."
+    },
+    {
+      "speaker": "cashier",
+      "text": "larges here are $24."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright, yeah. You can place the order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, would you like pick up, delivery, or dine in?"
+    },
+    {
+      "speaker": "client",
+      "text": "I believe it should be pick-up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, your pizzas will be ready for pickup in 30 minutes, your receipt will be texted to you."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright. No, it should be good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright, take care."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "the Bella Luna Pizzeria",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "fresh garden style",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ground beef",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bell peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "onions",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "fresh garden pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "the veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "larges",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-e0c07a3b-a8d9-4ea6-a30b-9b7f77590bc6",
+  "created_at": "2026-02-15T15:44:17.058Z"
+}

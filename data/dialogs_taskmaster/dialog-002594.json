@@ -1,0 +1,117 @@
+{
+  "dialog_id": 2594,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2594"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'd like to order a drink from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, which Starbucks location?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one closest to my office. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "You mean the one on East 49th Street?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "A tall mocha latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "With what type of milk? "
+    },
+    {
+      "speaker": "client",
+      "text": "Soy milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any sugar?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, Equal."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any food with your coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes an order of egg bites"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What time do you want to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "9:00am"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok it has been ordered for pickup at 9:00am."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mocha latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-d9390c21-5066-43d1-87d2-6fc5422cef7a",
+  "created_at": "2026-02-15T15:44:17.201Z"
+}

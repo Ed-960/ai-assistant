@@ -1,0 +1,147 @@
+{
+  "dialog_id": 1966,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1966"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I would like to place an order from the pizzeria. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK. What would you like? "
+    },
+    {
+      "speaker": "client",
+      "text": "I would like a meat specialty pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK."
+    },
+    {
+      "speaker": "client",
+      "text": "However, instead of the ham, I would like extra sausage."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK. What size did you want? "
+    },
+    {
+      "speaker": "client",
+      "text": "A large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK. Would you like anything else? "
+    },
+    {
+      "speaker": "client",
+      "text": "No. That is all. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "To confirm, you want a large meat specialty pizza. Instead of ham you would like extra sausage."
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Pickup or delivery? "
+    },
+    {
+      "speaker": "client",
+      "text": "Pickup. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK. Your total is $17.50. "
+    },
+    {
+      "speaker": "client",
+      "text": "OK."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It will be ready for pickup in 25 minutes. "
+    },
+    {
+      "speaker": "client",
+      "text": "OK. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your receipt will be sent to your mobile device as a text message. "
+    },
+    {
+      "speaker": "client",
+      "text": "OK, thank you! "
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "meat specialty",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat specialty pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra sausage.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat specialty pizza.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ham you would like extra sausage",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-352252aa-a227-4eaa-9141-6dfe752dea0a",
+  "created_at": "2026-02-15T15:44:17.126Z"
+}

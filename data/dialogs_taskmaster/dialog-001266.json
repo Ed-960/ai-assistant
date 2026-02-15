@@ -1,0 +1,215 @@
+{
+  "dialog_id": 1266,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1266"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there! How can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order something from Peet's Coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure! What can I get started for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get a Café Campagne?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Caffe Con Panna, sure. what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Large."
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, large, and what type of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Regular milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like to add any sugar or other sweeteners?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, three sugars."
+    },
+    {
+      "speaker": "cashier",
+      "text": "GOt it, 3."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And this beverage will be hot, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Wonderful!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I got one Large Caffe Con Panna, with 3 sugars."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that all for you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great! and which location would you like to pick this up at?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can one insert field?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm having a hard time finding the store. Can you give me the city?"
+    },
+    {
+      "speaker": "client",
+      "text": "It should be Southfield, Michigan."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh i see! one moment."
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I can only find a starbucks location in southfield, MI."
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "client",
+      "text": "No. One moment."
+    },
+    {
+      "speaker": "client",
+      "text": "Let's choose Downers Grove, Illinois."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay i found a location on 5100 Main St, Downers Grove, IL 60515."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that one good?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! thanks so much!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "give me a moment while I send over your order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, your order has been sent to your desired location. It will be ready for pickup in 9-11 min."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're very welcome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "goodbye!"
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Café Campagne",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caffe Con Panna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-b380decd-24e2-4e5a-8563-0f648116d432",
+  "created_at": "2026-02-15T15:44:17.028Z"
+}

@@ -1,0 +1,125 @@
+{
+  "dialog_id": 569,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=569"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how may i help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hello, I'd like to order from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what did you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I wanted to try the ginger bread latte grande size with super scent milk, and whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you got it, anything else for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thanks. That'll be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so your order is a grande ginger bread latte with 2% milk and whipped cream from starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that all correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "which starbucks did you want me to place this order."
+    },
+    {
+      "speaker": "client",
+      "text": "The one located on 509 West Wisconsin Avenue, Milwaukee, Wisconsin."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you said 509 west avenue."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Yes, that is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. the total for this order is $5.00."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to charge the card on file?"
+    },
+    {
+      "speaker": "client",
+      "text": "All right."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, charge the card, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your drink will be ready at the Starbucks on 509 west in 10 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is there anything else i can help with?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thanks. That will be it, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "cool, you are welcome."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "ginger bread latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-51bc15ac-d5bf-4e4d-9d94-93e179c1ea0d",
+  "created_at": "2026-02-15T15:44:16.953Z"
+}

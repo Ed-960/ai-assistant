@@ -1,0 +1,157 @@
+{
+  "dialog_id": 1889,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1889"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey Pam, how are you? I'm in need of a favor? Could you please order me a coffee drink from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Where would you like me to order it from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Well, I have an appointment in Shiloh, IL. so maybe that location would be an idea location."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, do you know what you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Umm, it's either a latte or a frappucino?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Well, let me know what you decide? "
+    },
+    {
+      "speaker": "client",
+      "text": "What drink do you like from Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I usually order tea from Starbucks."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, I think I want a Grande Iced Caramel Brulee Latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay would you like anything specific or should i just say a Grande Iced Caramel?"
+    },
+    {
+      "speaker": "client",
+      "text": "Well, I would like whole milk, and and an extra shot of espresso."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay so that's a Grande Iced Caramel Brulee Latte with whole milk and an extra shot of espresso."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, did you decide on the location?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I believe the Shiloh, Illinois location would be the closest one to my appoinment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what time would you like me to order the drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "I have to be at my appointment at noon, so you can order my drink at 11:30 a.m."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I will do that."
+    },
+    {
+      "speaker": "client",
+      "text": "You do have my Starbucks card with you for my rewards?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes and I have your store card with me."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks they will send me my receipt via my telephone."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, I will make sure of that."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem."
+    },
+    {
+      "speaker": "client",
+      "text": "You are the best."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I know. I will call the order in for you to pick it up at 11:30 a.m."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I will be ordering a Grande Iced Caramel Brulee Latte with whole milk and an extra shot of espresso at the Shiloh, IL. location for you to pick up at 11:30am."
+    },
+    {
+      "speaker": "client",
+      "text": "You are correct. Thanks again."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome. Have a great day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Iced Caramel Brulee Latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-259bf4a9-9956-4c90-96bc-de3f89f1263e",
+  "created_at": "2026-02-15T15:44:17.115Z"
+}

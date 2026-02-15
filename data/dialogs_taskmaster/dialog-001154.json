@@ -1,0 +1,182 @@
+{
+  "dialog_id": 1154,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1154"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there! How can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to order pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure! At Bella Luna, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's going to be good movie."
+    },
+    {
+      "speaker": "cashier",
+      "text": "WHat can I get you!"
+    },
+    {
+      "speaker": "client",
+      "text": "Let me see. I'm looking to get two large pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "And then one of them, I want it to be a."
+    },
+    {
+      "speaker": "client",
+      "text": "pepperoni and pineapple and then one I want strictly meat lovers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I got 2 Large Pizzas, One of them Pepperoni and Pineapple and one meatlovers."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, I will take that. Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, any preference on the crust?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want one the meat lovers to be butter crust and then the other one can just be regular."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds great! one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So i got 2 Large Pizzas, One of them Pepperoni and Pineapple and one meatlovers with butter crust."
+    },
+    {
+      "speaker": "client",
+      "text": "Correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, one moment while I send your order to Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, your pizzas are in the works and should be ready for pickup in 40 min."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, cool."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, have a good one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "goodbye!"
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meatlovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "butter crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-a284733e-fbb5-4b88-bc5f-97c47f998343",
+  "created_at": "2026-02-15T15:44:17.015Z"
+}

@@ -1,0 +1,85 @@
+{
+  "dialog_id": 636,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=636"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'm going to need to order for Peet's Coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a plain bagel and then a large coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, did you want any milk with your coffee?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, 2%."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, let me place that order for you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "i have placed an order for a plain bagel and a large coffee with 2% milk at peet's coffee at 4598 el camino real, palo alto, ca."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that correct?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, can i help you with anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy your coffee."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "coffee",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-59940ab8-f9ed-4c6a-b633-4cc3c5122dbc",
+  "created_at": "2026-02-15T15:44:16.960Z"
+}

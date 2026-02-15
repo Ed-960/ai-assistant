@@ -1,0 +1,149 @@
+{
+  "dialog_id": 2529,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2529"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, can you get me a coffee?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes I can do that. From where?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Starbucks on K Street NW in downtown D.C."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like an Iced Blonde Black and White Mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "Make it a tall size."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "And yes, I'd like whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "Make sure you grab a straw too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. I can do that."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And if they don't have that seasonsal drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "Then just an Iced Caffe Mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Tall?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "With whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. So and Iced Blonde Black and White Mocha, tall, with whipped cream? And if they don't have that then just an iced caffe mocha then same?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. I'll be back."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Iced Blonde Black and White Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall size",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Iced Caffe Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced caffe mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-c8304a42-8f6a-441a-a1ec-09c57cbb4cf5",
+  "created_at": "2026-02-15T15:44:17.194Z"
+}

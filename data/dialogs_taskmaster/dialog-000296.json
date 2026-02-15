@@ -1,0 +1,187 @@
+{
+  "dialog_id": 296,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=296"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need help with anything?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hello."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, I'd like four medium pizzas, fake crust veggie lovers, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, and where did you want to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, did you want all 4 to be veggie lover?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "client",
+      "text": "and thick crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i got that,"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "it would actually be cheaper to get 3 large veggie lovers, you'll have more pizza too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to do that?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, four is good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, so i have 4 medium veggie lover pizzas with thick crust."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "it will come out to $76."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want to add anything else to the order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your receipt will be texted to you."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want to dine in, pick up, or have it delivered?"
+    },
+    {
+      "speaker": "client",
+      "text": "Pick up?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, it will be ready for pick up in 20 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy your pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "fake crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lover",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lover pizzas",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-29741cc2-3506-4875-91a3-bfa8c07c7f1c",
+  "created_at": "2026-02-15T15:44:16.923Z"
+}

@@ -1,0 +1,129 @@
+{
+  "dialog_id": 397,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=397"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello there."
+    },
+    {
+      "speaker": "client",
+      "text": "Hello. May I place an order for Bella Luna for pizza?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, i can do that for you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need four, small pizzas, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what types of pizzas did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I have all for those cheese lovers and also all for gluten free crust, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "4 small pizzas, all cheese lovers with gluten free crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did i get your order right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, the total for that is $48.99."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you want to place the order now."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "perfect, i've placed the order at bella lunas. it'll be ready in 25 minutes for pick."
+    },
+    {
+      "speaker": "cashier",
+      "text": "up."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella lunas",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-38e5d0b7-54c8-4e9b-bb94-6e2c00e12b1f",
+  "created_at": "2026-02-15T15:44:16.935Z"
+}

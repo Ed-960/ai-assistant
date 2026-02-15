@@ -1,0 +1,144 @@
+{
+  "dialog_id": 2166,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2166"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I’d like you to pick me up a drink from Starbucks. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which store?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one on Providence Rd and Kempsville Rd by the Food Lion."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what did you want from there?"
+    },
+    {
+      "speaker": "client",
+      "text": "Iced Starbucks® Blonde Vanilla Bean Coconutmilk Latte"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you want that made with coconut milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size? Tall?"
+    },
+    {
+      "speaker": "client",
+      "text": "Venti please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And was that iced or hot?"
+    },
+    {
+      "speaker": "client",
+      "text": "Iced. I’ll need an extra shot of espresso. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you need any extra flavors or sweeteners?"
+    },
+    {
+      "speaker": "client",
+      "text": "Uh, yeah, can I get a pump of caramel added?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, got it. "
+    },
+    {
+      "speaker": "client",
+      "text": "Please charge that on my usual account. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "And did you need anything to eat?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thanks. Just the coffee- ASAP. I’m falling asleep. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you want me to leave a tip?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just the coffee Marsha. *sigh*"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, so I got you a venti iced Iced Starbucks® Blonde Vanilla Bean Coconutmilk Latte with an extra espresso shot."
+    },
+    {
+      "speaker": "client",
+      "text": "Yep. Put a rush on it. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order is in at the Starbucks on Providence and will be ready shortly. You’ll get a receipt via text message sent to your mobile device. "
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks Marsha. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "ced Starbucks® Blonde Vanilla Bean Coconutmilk Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Blonde Vanilla Bean Coconutmilk Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-677fda38-80ea-4570-bd76-0913fe4e2cdc",
+  "created_at": "2026-02-15T15:44:17.151Z"
+}

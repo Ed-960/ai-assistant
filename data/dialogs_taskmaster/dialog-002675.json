@@ -1,0 +1,162 @@
+{
+  "dialog_id": 2675,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2675"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi Jim, please go to Starbucks and place and order. I need it ASAP! "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which Starbucks should I visit?"
+    },
+    {
+      "speaker": "client",
+      "text": "Visit the one on Herndon and Fowler. The one we always go to, Jim!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Could you give me the address?"
+    },
+    {
+      "speaker": "client",
+      "text": "Do you really need me to give you an address? "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, I forget which one it is. "
+    },
+    {
+      "speaker": "client",
+      "text": "Its the same one I always tell you to go to. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Here, I googled a few. Is it the one with this address: 1845 Herndon Ave F, Clovis, CA 93611."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes dude. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Just making sure, gosh."
+    },
+    {
+      "speaker": "client",
+      "text": "Do you remember what to get?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No."
+    },
+    {
+      "speaker": "client",
+      "text": "I need a Iced Black and White Mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grande, the same size we always get. Jeez I'm not sure why you're having issues"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay grande it is. Sorry, I'm air headed today. Do you want whip cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Do I ever ask for whip cream?!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No..."
+    },
+    {
+      "speaker": "client",
+      "text": "Correct. No whip cream. Grande. Got it?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I think so."
+    },
+    {
+      "speaker": "client",
+      "text": "Make sure you call the order in. They usually get busy and I need the drink now!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you have the phone number? "
+    },
+    {
+      "speaker": "client",
+      "text": "No, you will have to google that yourself. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay I have just placed your order. "
+    },
+    {
+      "speaker": "client",
+      "text": "Cool. Did you get the right thing?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes. We ordered a grande Iced Black and White Mocha with no Whipped cream."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Just received the text to pick it up. "
+    },
+    {
+      "speaker": "client",
+      "text": "You should already be on your way! Hurry UP!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay okay I'm going!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Iced Black and White Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-f0b214aa-b9be-4cfb-9387-dc7f82f6fa02",
+  "created_at": "2026-02-15T15:44:17.210Z"
+}

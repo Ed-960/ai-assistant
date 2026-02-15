@@ -1,0 +1,101 @@
+{
+  "dialog_id": 1542,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1542"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi. Can I get a flat white from Starbucks, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what type of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "coconut."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "where do you want to pickup your drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "the Starbucks on Route 40 in Columbia, Maryland."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so your order is: a grande flat white with coconut milk, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your coffee will be ready for pickup soon at the starbucks at route 40."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. That's all. Thank you. Bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "flat white",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-e04ee142-7355-4292-a92d-7b006706e15a",
+  "created_at": "2026-02-15T15:44:17.057Z"
+}

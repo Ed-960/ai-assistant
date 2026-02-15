@@ -1,0 +1,181 @@
+{
+  "dialog_id": 371,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=371"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi,"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, I'm trying to order I'm trying to order some pizza from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "how can i help?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let's do it! what type of pizza?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Since we got a little party going on now, I thinking maybe four pizzas all large, thick crust, Hawaiian, one pepperoni, one sausage, one cheese, and one veggie."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you got it, anything else on those?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "let me confirm your order. 4 pizzas, all large, thick crust, 1 pepperoni, 1 sausage, 1 cheese, and 1 veggie"
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's it. Perfect. And do they have any sides there?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "bella lunas offers appetizers, would you like to take a listen to what they have?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, what appetizers?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "they have hot wings, cheese bread, garlic bread, and veggie plates."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you want any of these options?"
+    },
+    {
+      "speaker": "client",
+      "text": "All right, cool. Yeah, can I get an order of hot wings and some cheese bread?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "you got it. so it's 4 pizzas, all large, thick crust, 1 pepperoni, 1 sausage, 1 cheese, and 1 veggie, and 1 hot wings plate and 1 cheese bread order."
+    },
+    {
+      "speaker": "client",
+      "text": "Yep. That's it. Perfect. Could you place that order?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "$81.33 will be your total."
+    },
+    {
+      "speaker": "client",
+      "text": "Nice."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure thing , i'll place the order immediately."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the order will be ready for pick up in 20 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect, thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is there anything else i can help with?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, take care."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "let me confirm your",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella lunas",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-34851ce1-c3ab-49d4-9a91-df5faf99c312",
+  "created_at": "2026-02-15T15:44:16.931Z"
+}

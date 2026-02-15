@@ -1,0 +1,127 @@
+{
+  "dialog_id": 2362,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2362"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I want a coffee from starbucks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which starbucks?"
+    },
+    {
+      "speaker": "client",
+      "text": "The closest one to me"
+    },
+    {
+      "speaker": "cashier",
+      "text": "1 Financial Plaza, Providence, RI 02903, ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "no"
+    },
+    {
+      "speaker": "cashier",
+      "text": "59 Chestnut St, Providence, RI 02903, ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "large ice, extra extra"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is that a large iced coffee, extra cream, extra sugar?"
+    },
+    {
+      "speaker": "client",
+      "text": "yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any special options? "
+    },
+    {
+      "speaker": "client",
+      "text": "An espresso shot"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, anything else"
+    },
+    {
+      "speaker": "client",
+      "text": "No"
+    },
+    {
+      "speaker": "cashier",
+      "text": "A large Iced Coffee, extra cream extra sugar, from starbucks at 59 Chestnut St, Providence, RI 02903"
+    },
+    {
+      "speaker": "client",
+      "text": "yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay, I've placed your order and it will be ready for pickup shortly. I've sent a receipt to your phone."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "arge iced coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "yes",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-99a550f2-ebed-45c8-9518-bdae7fee435d",
+  "created_at": "2026-02-15T15:44:17.174Z"
+}

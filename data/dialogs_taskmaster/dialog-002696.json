@@ -1,0 +1,147 @@
+{
+  "dialog_id": 2696,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2696"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, I am going to need to put in an order for some pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course, do you want to go with the usual place? Sal's?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that will be fine. Since it will be with the 7 o'clock clients and their kids, we will need at least 3 pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you have a preference on size? All large okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "Well, how about we do this. Two large and something else the kids will like."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I see they are doing a two large pizza 2 toppings deal. It includes an order of monkey bread. How do you think they will like those?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is great. Two two pizzas, make one meat and the other veggie. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any preference on what type of toppings? How about sausage and pepperoni, and on the other, let's put pineapple and olives?"
+    },
+    {
+      "speaker": "client",
+      "text": "Those sound good. Any idea how much it will cost?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Let me check for you. The deal comes to 24.99, but should be under 30 total. Is that okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yup, that seems fine. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything other than the deal? Can I get some drinks for everyone as well?"
+    },
+    {
+      "speaker": "client",
+      "text": "That won't be necessary. We should be covered with what we have."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, how about the order, do you want it delivered here? Otherwise I can be free to pick it up."
+    },
+    {
+      "speaker": "client",
+      "text": "If you can pick it up, otherwise traffic will delay it longer than we can afford to."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I put the order in for you, you should be getting a receipt sent through text."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect, I appreciate it. Any idea on time frame?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yeah, the order will be ready for pickup following completion, which should be about 25 minutes from now."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank again, it definitely makes tonight a little easier."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course, I will watch the time and be there for the pickup soon."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Sal's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "olives",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-f519f3f3-7586-4fa9-9121-2fd91d2e5f86",
+  "created_at": "2026-02-15T15:44:17.213Z"
+}

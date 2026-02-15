@@ -1,0 +1,167 @@
+{
+  "dialog_id": 835,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=835"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order two large pizzas with thin crust one meat lovers and one veggie lovers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "i'm sorry i hear an echo, do you have your headphones in?"
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, let's try again and i'll try and get that order."
+    },
+    {
+      "speaker": "client",
+      "text": "Two large thin crust pizzas, one meat lover, one veggie lover."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, any sides or drinks?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and other requests for your pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, you ordered 2 large thin crust pizzas, 1 meat lovers, and 1 veggie lovers, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your total will be $48, is that ok?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and will you be dining in, picking up, or having your pizzas delivered?"
+    },
+    {
+      "speaker": "client",
+      "text": "delivered."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, please note that the price does not include tip."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you. Goodbye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be delivered in about 40 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your pizzas."
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "over",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lover",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-73317842-68aa-4371-a548-83663f68007e",
+  "created_at": "2026-02-15T15:44:16.982Z"
+}

@@ -1,0 +1,126 @@
+{
+  "dialog_id": 2156,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2156"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Would you order a cappuccino for me to pick up at Starbucks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. Which Starbucks?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one on the Corner of Fourth & A Streets in San Rafael"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. What size cap do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Order a Venti."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want a single shot or a double?"
+    },
+    {
+      "speaker": "client",
+      "text": "I need a triple shot; I'm tired!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "How about milk? What type do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Do they have low-fat milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, they have 1% or 2% lowfat milk."
+    },
+    {
+      "speaker": "client",
+      "text": "Get me 2% lowfat, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want any sweetener in your cap?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, but not sure if I want sugar or honey."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You don't want honey in coffee. Go with the sugar."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, ask them for 1 sugar."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want a sprinkle of chocolate or cinnamon on the top?"
+    },
+    {
+      "speaker": "client",
+      "text": "Absolutely, get me a sprinkle of both."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, so that's a venti cap with 2%, 1 sugar, and a sprinkle of both chocolate and cinnamon. Is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "You got it! Thanks for this!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It'll be ready in 20 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. I'm on my way."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-658fc95a-1576-45e6-be8f-356ee59985af",
+  "created_at": "2026-02-15T15:44:17.150Z"
+}

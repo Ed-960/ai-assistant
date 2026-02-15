@@ -1,0 +1,85 @@
+{
+  "dialog_id": 1097,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1097"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "HOw can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi."
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to order a iced peppermint mocha from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OKay what size did you want for your mocha?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great so that's a venti iced peppermint mocha, what kind of milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay and did you want any additional syrups or add ons?"
+    },
+    {
+      "speaker": "client",
+      "text": "I don't like soy milk, oh please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great one moment."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I would like some whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, enjoy."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "iced peppermint mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-9cb31457-f69f-4406-bca1-50f24c547716",
+  "created_at": "2026-02-15T15:44:17.009Z"
+}

@@ -57,9 +57,12 @@ function buildClientPrompt(profile) {
                 : `\nYou have ${profile.companions} companion(s) — order for them too.`)
             : "";
 
-    return `Ты КЛИЕНТ (покупатель) в ресторане быстрого питания. Говори СТРОГО на ${lang === "Russian" ? "русском" : "английском"}. ЗАПРЕЩЕНО: китайский, иероглифы — только латиница/кириллица.
+    const langRule = lang === "Russian"
+        ? "ОБЯЗАТЕЛЬНО: Отвечай ТОЛЬКО на русском. Никакого английского."
+        : "OBLIGATORY: Reply ONLY in English. No Russian.";
+    return `Ты КЛИЕНТ (покупатель) в ресторане быстрого питания. ${langRule} ЗАПРЕЩЕНО: китайский, иероглифы.
 
-КРИТИЧНО: Ты ЗАКАЗЫВАЕШЬ, кассир ПРЕДЛАГАЕТ. Ты НЕ спрашиваешь «что выбрать», «какой взять» — это говорит кассир. Ты только ОТВЕЧАЕШЬ на вопросы кассира и ЗАКАЗЫВАЕШЬ еду. Никогда не говори от лица кассира.
+КРИТИЧНО: Ты КЛИЕНТ. Ты ЗАКАЗЫВАЕШЬ. Кассир ПОДТВЕРЖДАЕТ. Ты НИКОГДА не повторяешь слова кассира (не говори «You'll get...», «Your order is...»). Если кассир зачитал заказ — ответь только «Yes», «Perfect», «Thank you», «That's all».
 
 Ты НЕ знаешь меню. Можешь просить «невозможное». Если кассир не может — он скажет, ты выберешь альтернативу.
 
@@ -70,7 +73,7 @@ ${restr}${spouseFish}${kidsBlock}${companionsBlock}
 
 Стиль (personality=${profile.personality}): ${styleBlock}
 
-Ответь 1–4 фразами. Коротко. Только кириллица/латиница.`;
+Ответь 1–4 фразами. ${langRule}`;
 }
 
 /**
@@ -108,29 +111,50 @@ function buildCashierPrompt(menuContext, orderState, profile, isFirstGreeting = 
                 : `\nClient has ${profile.companions} companion(s) — suggest food for them too.`)
             : "";
 
-    return `Ты КАССИР в ресторане быстрого питания. Говори СТРОГО на ${lang === "Russian" ? "русском" : "английском"}. ЗАПРЕЩЕНО: китайский, иероглифы — только кириллица/латиница.
+    const langRule = lang === "Russian"
+        ? "ОБЯЗАТЕЛЬНО: Говори ТОЛЬКО на русском. Никакого английского."
+        : "OBLIGATORY: Speak ONLY in English. No Russian.";
+    return `Ты КАССИР в ресторане быстрого питания. ${langRule} ЗАПРЕЩЕНО: китайский, иероглифы.
 
 ПРОФИЛЬ КЛИЕНТА: childQuant=${profile?.childQuant || 0}, companions=${profile?.companions || 0}, kidsDislikeSweets=${profile?.kidsDislikeSweets || false}, ограничения: ${Object.keys(profile?.restrictions || {}).join(", ") || "нет"}
-${isFirstGreeting ? (lang === "Russian" ? "\n⚠ ПЕРВОЕ ПРИВЕТСТВИЕ. Ответь ТОЛЬКО на русском. Текст: приветствие + «Чем могу помочь? Что желаете заказать?» Без перечисления блюд." : "\n⚠ FIRST GREETING. Reply ONLY in English. Say: hello + «What would you like to order?» No menu items.") : ""}
+${isFirstGreeting ? (lang === "Russian"
+        ? "\n⚠ ПЕРВОЕ ПРИВЕТСТВИЕ. Только «Здравствуйте! Чем могу помочь?» — БЕЗ перечисления блюд и без «начнём с вас»."
+        : "\n⚠ FIRST GREETING. ONLY «Hello! What would you like?» — NO listing of dishes (no «We have Fries...», no «Would you like a drink?»). Just greet and ask.") : ""}
 ${kidsBlock}${companionsBlock}
 
 ОБЯЗАННОСТИ:
-1. Приветствовать клиента.
-2. Уточнять детали заказа.
-3. Предлагать дополнения: напитки, десерты. Если есть дети — ОБЯЗАТЕЛЬНО предложи McNuggets, Fries.
-4. Проверять аллергены. НЕ подтверждать заказ при конфликте.
-5. В конце зачитать полный заказ для подтверждения.
-6. Если клиент сказал «всё», «больше ничего», «ничего» — ЗАВЕРШИ диалог: кратко подтверди заказ, поблагодари, попрощайся. НЕ спрашивай снова «что ещё?».
+1. Приветствовать. Если ОДИН человек (companions=0, childQuant=0) — просто «What would you like?» Без «let's start with your order».
+2. Если СЕМЬЯ (companions или childQuant > 0) — «Shall we start with your order?» Затем по очереди: «What for wife?» «What about kids?» «Drinks?»
+3. RAG: если клиент просит «фри», «что-нибудь с курицей» — предлагай КОНКРЕТНУЮ позицию из меню (например: «We have Large French Fries», «Chicken McNuggets»).
+4. Аллергии: если noMilk/noNuts — предлагай ТОЛЬКО dairy-free / nut-free позиции (Fries, Iced Tea, Veg burgers без молока).
+5. RAG: для любого запроса клиента ищи в меню — сравни name, description, sugar, allergens. Предлагай только то, что есть в меню. Если точного совпадения нет — предложи ближайшее по смыслу.
+6. В КОНЦЕ зачитай ПОЛНЫЙ заказ по лицам (если семья) или просто подтверди (если один).
+7. Если клиент подтвердил — поблагодари, попрощайся. Не спрашивай «что ещё?».
 
-ОГРАНИЧЕНИЯ: Только позиции из меню ниже. Вежливый тон. Диалог должен быть коротким — 4–8 реплик обычно достаточно.
+ПРИМЕР ПОТОКА (семья 4 чел):
+Cashier: Good afternoon! How can I help?
+Client: Lunch for four — me, wife, two sons 4 and 5.
+Cashier: Shall we start with your order?
+Client: Burger and fries, home-style.
+Cashier: We have Large French Fries. [RAG: маппинг на меню]
+Client: Great.
+Cashier: What for your wife? ... What about the kids?
+Client: [заказы по каждому, с учётом аллергии у ребёнка]
+Cashier: Drinks?
+Client: Two juices for kids.
+Cashier: Repeat order: For you: Burger + Fries. For wife: McNuggets + McFlurry. For oldest (milk allergy): Burger + cookie, juice. For youngest: Burger + Ice Cream, juice. All right?
+Client: Yes, thank you!
+Cashier: Thanks! Have a nice day!
 
-МЕНЮ:
+ОГРАНИЧЕНИЯ: Только позиции из меню ниже. Вежливый тон.
+
+МЕНЮ (RAG — ищи здесь по любому запросу клиента, смотри name/description/sugar/allergens):
 ${menuContext}
 ${restr}
 
 Текущий заказ: ${orderStr}
 
-Ответь 2–4 предложениями. Только кириллица или латиница.`;
+Ответь 2–4 предложениями. ${langRule}`;
 }
 
 /** Удаляет китайские/японские/корейские иероглифы — оставляет кириллицу и латиницу */
@@ -139,10 +163,10 @@ function stripCJK(text) {
     return text.replace(/[\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af]+/g, " ").replace(/\s+/g, " ").trim();
 }
 
-/** Убирает префиксы «Кассир:» / «Client:» из ответа модели */
+/** Убирает префиксы «Кассир:» / «Client:» / «Seller:» из ответа модели */
 function stripSpeakerPrefix(text) {
     if (!text || typeof text !== "string") return text;
-    return text.replace(/^(Кассир|Клиент|Cashier|Client):\s*/gi, "").trim();
+    return text.replace(/^(Кассир|Клиент|Cashier|Client|Seller|Salesperson|Customer):\s*/gi, "").trim();
 }
 
 /**

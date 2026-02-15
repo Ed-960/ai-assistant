@@ -1,0 +1,131 @@
+{
+  "dialog_id": 1861,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1861"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I want to order a drink from Starbucks please at 400 Civic Ctr, Tulsa, OK."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like a vanilla Latte please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a grande please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm sorry they are all out of grande cups at the moment.  "
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, I can have a tall please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing. What would you like in it?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like 3 sugars please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. Anything else? What type of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like skim milk in it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any toppings for the drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "How about whipped cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing. "
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I've placed your order for a tall vanilla latte with 3 sugars and skim milk at 400 Civic Ctr, Tulsa, OK."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order will be ready for pickup shortly and the receipt will be sent to your mobile phone."
+    },
+    {
+      "speaker": "client",
+      "text": "I will be happy to get it soon!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Goodbye"
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "vanilla Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "vanilla latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-1d4a8868-5167-43b7-9edc-fa242786a854",
+  "created_at": "2026-02-15T15:44:17.111Z"
+}

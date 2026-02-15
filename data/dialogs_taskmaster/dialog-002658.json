@@ -1,0 +1,175 @@
+{
+  "dialog_id": 2658,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2658"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I think I want Casey's pizza today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The one around the corner?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's the one!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like? "
+    },
+    {
+      "speaker": "client",
+      "text": "I think a large pepperoni and a breakfast pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind and size for the breakfast pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "Large. Egg and bacon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else? "
+    },
+    {
+      "speaker": "client",
+      "text": "Hmmm. I'm not sure. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "You enjoy their brownie bites."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh yes, that sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! Those are only $2.49 . Will that be all? "
+    },
+    {
+      "speaker": "client",
+      "text": "A drink."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, and what would you like to drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "A pepsi, 2 litre. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, anything else today?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that should be it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, so we have a large pepperoni, a large sausage and egg breakfast pizza, brownie bites, and a Pepsi 2 litre. Correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It should be $30.86, plus tip."
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds fine, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anytime. Enjoy your lunch, it should be in about 30 minutes."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Casey's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Casey's pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "one around the corner",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "breakfast pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "the breakfast pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Egg",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage and egg",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage and egg breakfast pizza",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-eadb7312-c4ca-4501-a53a-1903a6db3444",
+  "created_at": "2026-02-15T15:44:17.209Z"
+}

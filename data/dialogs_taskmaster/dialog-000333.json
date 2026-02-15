@@ -1,0 +1,163 @@
+{
+  "dialog_id": 333,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=333"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. i would like to order four pizzas from Bella Luna, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what kind of toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, I need four-medium size pizzas. I need one to be chicken bacon and ranch. I need another one Hawaiian with extra ham. And I also need a pepperoni pizza with bacon extra cheese on that one."
+    },
+    {
+      "speaker": "client",
+      "text": "And then I also need just a regular white pizza with white sauce and focaccia cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "so your order is: 4 medium gluten free pizzas. one with chicken bacon ranch, the second is a hawaiian with extra ham, the third is with pepperoni and bacon, with extra cheese. the fourth will be a regular white pizza with focaccia cheese."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your total is $45.89."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. How long will it take?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "they will be ready for pickup in 40 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy, bye!"
+    },
+    {
+      "speaker": "client",
+      "text": "Bye-bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "-medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ranch",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular white pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "white sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "focaccia cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-2ec5b705-f6ff-4321-86f3-989bbe88d00a",
+  "created_at": "2026-02-15T15:44:16.927Z"
+}

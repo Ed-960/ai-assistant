@@ -1,0 +1,129 @@
+{
+  "dialog_id": 666,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=666"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there."
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. Can I order a pizza from Bella Luna's, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing what kind?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get three large thick crust pizzas, one with Italian lovers pizza, another one a California pizza, and the third and last one, sausage with bacon?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's about it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's 3 large thick crust pizzas, one itlalian, one california, and one sausage and bacon right?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, one Italian lovers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Italian lover's my mistake."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so that's a total of $56.50 okay?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct. And what Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, it'll be ready for pickup in 30 minutes, good luck and enjoy!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Italian lovers pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "a California pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage with bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "itlalian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "california",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage and bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Italian lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Italian lover's my",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-5ce26672-d8d8-4051-b0c1-842535ddd2b6",
+  "created_at": "2026-02-15T15:44:16.964Z"
+}

@@ -1,0 +1,132 @@
+{
+  "dialog_id": 941,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=941"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to place a Starbucks pickup order, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get aventi caffe Americano with honey and wiped cream, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Venty Place."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you have any milk preference?"
+    },
+    {
+      "speaker": "client",
+      "text": "At 2%, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "where would you like to pick it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Starbucks located at 200 South Michigan, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can you please repeat that address?"
+    },
+    {
+      "speaker": "client",
+      "text": "200 South Michigan Avenue."
+    },
+    {
+      "speaker": "cashier",
+      "text": "thanks, so a a venti cafe americano with honey and whipped cream and 2% milk, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you're all set. your coffee will be ready for pickup at the starbucks at 200 south michigan ave soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much. I appreciate the help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome. your receipt will be sent to you via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "I appreciate that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye."
+    },
+    {
+      "speaker": "client",
+      "text": "Good bye now."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "aventi",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caffe Americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venty",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cafe americano",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-82d272c5-4bfb-4b36-9641-5e9d792f1701",
+  "created_at": "2026-02-15T15:44:16.993Z"
+}

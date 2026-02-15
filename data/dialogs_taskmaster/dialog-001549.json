@@ -1,0 +1,152 @@
+{
+  "dialog_id": 1549,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1549"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like to order some pizza from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, how many pizzas would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "three pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "Make one of them meat lovers, another one just pepperonis, and the third one a chicken barbecue."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "large for all of them."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any crust preferences?"
+    },
+    {
+      "speaker": "client",
+      "text": "Thick crust for all of them, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sorry, but the chicken bbq is only available in thin crust, would you like that anyway?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, so i have 3 large pizzas, one meat lovers, one pepperoni and one chicken bbq, thin crust. any extra ingredients?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "all set! your total is $65."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright, great. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizzas will be ready for pickup soon."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "have a good rest of your day."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperonis",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken barbecue",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken bbq",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-e0f02820-bdd5-47bf-b898-82fdcd9604d5",
+  "created_at": "2026-02-15T15:44:17.058Z"
+}

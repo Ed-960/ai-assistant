@@ -1,0 +1,127 @@
+{
+  "dialog_id": 1959,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1959"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Order iced coffee from Peets."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which location do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Duchess Boulevard in Camden"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which cold coffee option do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I could go for a Cold Brew Fog."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Do you know many calories in a medium?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The medium has 120 calories."
+    },
+    {
+      "speaker": "client",
+      "text": "Then I go with the small. Please request extra chicory syrup."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Come to think of it, I would like a touch of whole milk added."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Any sweetener?"
+    },
+    {
+      "speaker": "client",
+      "text": "Stevia on the side works."
+    },
+    {
+      "speaker": "cashier",
+      "text": "To review, you want a small Cold Fog Brew with a little extra chicory, a splash of whole milk, and stevia on the side."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Shall I put it on your account?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes have them text me the receipt please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing. Your drink will be ready for pickup in five minutes at the Duchess Boulevard location."
+    },
+    {
+      "speaker": "client",
+      "text": "Terrific! Thanks so much. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "You are welcome. Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cold Brew Fog",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cold Fog Brew",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-3466c2f8-debe-4a0b-b086-329925ec649a",
+  "created_at": "2026-02-15T15:44:17.125Z"
+}

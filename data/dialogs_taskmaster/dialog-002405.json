@@ -1,0 +1,117 @@
+{
+  "dialog_id": 2405,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2405"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey. I'd like a Starbucks coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds good. Which Starbucks?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one on Horace Harding and 221 Street."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, which type do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Cinnamon Dolce Latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Nice. What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Tall."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And type of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Soy."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Good. Whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, definitely."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. That's all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. It's done. And should be ready in a few minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The receipt should already be on your phone. The store will close soon though."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, headed out now. Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem. Good night."
+    },
+    {
+      "speaker": "client",
+      "text": "Good night."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thanks. Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cinnamon Dolce Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Tall",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-a593368a-fbb8-4758-8b88-96d6d8f1fdb1",
+  "created_at": "2026-02-15T15:44:17.178Z"
+}

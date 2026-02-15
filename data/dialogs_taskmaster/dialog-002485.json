@@ -1,0 +1,140 @@
+{
+  "dialog_id": 2485,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2485"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello, Mike."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi Paul. What's up?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to make a Starbucks order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. What can I get you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a Chestnut Praline Latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay. It seems to be a seasonal item. I'll have to check if it is available."
+    },
+    {
+      "speaker": "client",
+      "text": "I hope it is available. It is good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It is in stock."
+    },
+    {
+      "speaker": "client",
+      "text": "That is awesome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What type of milk would you like with it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Non fat."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want whipped cream in it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "What sizes do they have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Grande, Short, Tall, Venti"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll have a Grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "All right."
+    },
+    {
+      "speaker": "client",
+      "text": "I want to pick it up at Penn State University HUB Robinson."
+    },
+    {
+      "speaker": "cashier",
+      "text": "All right. It will be ready in 10 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks. Have a good night. Bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You too. Bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Chestnut Praline Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Short",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-b9ea7148-9b08-4e4a-85bc-da199e058d51",
+  "created_at": "2026-02-15T15:44:17.189Z"
+}

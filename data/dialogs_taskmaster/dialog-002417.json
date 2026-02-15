@@ -1,0 +1,200 @@
+{
+  "dialog_id": 2417,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2417"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello! I would like to get a pizza for this evening for dinner. Can you order it for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, where would you like your pizza from?"
+    },
+    {
+      "speaker": "client",
+      "text": "How about Marzonnis? Are they open on Monday evenings?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Im sorry, Marzonnis is closed on Mondays. Is there another pizza place you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, try Ciao Bella."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ciao Bella's is open. What kind of pizza would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like one of their BBQ pizzas with the white sauce on top."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The one with the Blue cheese dressing?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, One of those with the thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which size do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want the largest they make, is it a large?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No, they do an xtra large which has 14 slices."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, an extra large BBQ pizza with thin crust. Can they put bacon on instead of chicken?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, I can order it with Bacon instead of chicken."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, can you go ahead and order that for me please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, I have an extra large BBQ pizza with thin crust and bacon instead of chicken from Ciao Bella."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, sounds good!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok! It is ordered and should be ready for pickup in about 25 minutes. "
+    },
+    {
+      "speaker": "client",
+      "text": "Great, just have them charge my account. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Will do. Your receipt will be sent by text."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks so much!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Youre welcome, enjoy the pizza!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Marzonnis",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Ciao Bella",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Ciao Bella's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "BBQ pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "white sauce",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Blue cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Blue cheese dressing",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "largest",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "xtra large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "BBQ pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bacon",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-a948c4e6-0c50-4690-bf8a-378cee63754c",
+  "created_at": "2026-02-15T15:44:17.180Z"
+}

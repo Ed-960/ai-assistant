@@ -1,0 +1,125 @@
+{
+  "dialog_id": 1954,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1954"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I want to place an order at Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, which Starbucks do you want to order from"
+    },
+    {
+      "speaker": "client",
+      "text": "The one on 515 in Vernon, NJ."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, and what do you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get an iced coffee?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "A grande, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And what kind of milk would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "What do they have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Whole, non-fat, 2%, soy, almond, and coconut."
+    },
+    {
+      "speaker": "client",
+      "text": "I'll have coconut."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, is that all?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you add whipped cream to it?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Make sure it's extra sweet, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How many sugars?"
+    },
+    {
+      "speaker": "client",
+      "text": "Four, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, is that all?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, your order is placed and will be ready shortly. A receipt will be sent to your phone via text."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-33d75ebd-52b9-482f-838a-56843faeeb8a",
+  "created_at": "2026-02-15T15:44:17.124Z"
+}

@@ -1,0 +1,150 @@
+{
+  "dialog_id": 930,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=930"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hey there."
+    },
+    {
+      "speaker": "client",
+      "text": "Hello."
+    },
+    {
+      "speaker": "cashier",
+      "text": "how can i help?"
+    },
+    {
+      "speaker": "client",
+      "text": "Looking to order some coffee for pickup."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, where from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Peet's Coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "which peet's did you want to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "the one, Catalina Boulevard in San Diego."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. what did you want from there?"
+    },
+    {
+      "speaker": "client",
+      "text": "I wanted one iced vanilla latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what milk type did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "2%."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get some whipped cream on top of it?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "so the order is for 1 large iced vanilla latte with 2 % milk and whipped cream from peet's coffee on catalina blvd. in san diego."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yep."
+    },
+    {
+      "speaker": "cashier",
+      "text": "$4.50 is the total. should i place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, go ahead and order it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i've placed the order. it'll be ready in 10 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope. Just wanted the coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. enjoy the coffee in 9 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye."
+    },
+    {
+      "speaker": "client",
+      "text": "Will do, yeah."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "vanilla latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-80abbe16-1ec0-4c3d-b2c4-1ecf9c48df1d",
+  "created_at": "2026-02-15T15:44:16.992Z"
+}

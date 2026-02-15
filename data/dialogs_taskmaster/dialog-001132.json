@@ -1,0 +1,124 @@
+{
+  "dialog_id": 1132,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1132"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'd like to order a pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "three pizzas large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and the topping?"
+    },
+    {
+      "speaker": "client",
+      "text": "A specialty pitz chicken barbecue."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any crust preference?"
+    },
+    {
+      "speaker": "client",
+      "text": "thick crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any special requests?"
+    },
+    {
+      "speaker": "client",
+      "text": "large slices."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so i have a large, specialty chicken bbq, thick crust. is this correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. your total will be $23.99."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "Where can I pick it up?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "your pizza will be ready for pickup in 45 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "thank you! enjoy!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "A specialty pitz chicken barbecue",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large slices",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "specialty chicken bbq",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-a00e2f1b-79da-4342-a95a-2f4b2cbab1ac",
+  "created_at": "2026-02-15T15:44:17.013Z"
+}

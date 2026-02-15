@@ -1,0 +1,117 @@
+{
+  "dialog_id": 2197,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2197"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I would like to order coffee from Starbucks "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing, from what store?"
+    },
+    {
+      "speaker": "client",
+      "text": "The store off Broadway in Tucson"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great let me check"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok sounds good"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I found the information for that store."
+    },
+    {
+      "speaker": "client",
+      "text": "Great! "
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like sir?"
+    },
+    {
+      "speaker": "client",
+      "text": "I grande frappuccino please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like sugar?"
+    },
+    {
+      "speaker": "client",
+      "text": "No"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "No"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any extra shots"
+    },
+    {
+      "speaker": "client",
+      "text": "No"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your drink is on order at the Starbucks on Broadway sir"
+    },
+    {
+      "speaker": "client",
+      "text": "Great!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your receipt will be sent via mobile text"
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds good have a nice day!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You to sir!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "frappuccino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-6f482320-9a72-482c-a4ef-f744ed04e9f6",
+  "created_at": "2026-02-15T15:44:17.155Z"
+}

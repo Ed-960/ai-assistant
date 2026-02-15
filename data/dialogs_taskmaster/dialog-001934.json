@@ -1,0 +1,161 @@
+{
+  "dialog_id": 1934,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1934"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I want to order a coffee drink from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which Starbucks did you want to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to order from the Starbucks located at Shaw and Marks Avenue."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Confirming Starbucks order is from Starbucks location at Shaw and Marks Avenue in Fresno, CA."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What did you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to order a Grande Iced Vanilla Latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Grande Iced Vanilla Latte."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, and I want the drink to have light ice."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Request for light ice in the grande Iced vanilla Latte."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you want to schedule pick up right away or at a later time?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to pick it up at 4:30 p.m."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Confirm pick up for 4:30 p.m."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you want to order anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have a grande iced vanilla latte with light ice."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your total is 4.95."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm sending the order over now."
+    },
+    {
+      "speaker": "client",
+      "text": "Ok."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order has been sent. Your grande iced vanilla latte with light ice will be ready at the Starbucks at Shaw and Marks in Fresno, CA at 4:30 p.m."
+    },
+    {
+      "speaker": "client",
+      "text": "Great. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a nice day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Iced Vanilla Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Iced Vanilla Latte.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Iced vanilla Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced vanilla latte",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-2ea65290-de32-4099-8a86-967879655074",
+  "created_at": "2026-02-15T15:44:17.121Z"
+}

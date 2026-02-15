@@ -1,0 +1,202 @@
+{
+  "dialog_id": 269,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=269"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there, what would you like to do today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I'd like to order four pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "pizza from bella luna, got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size will your pizza be?"
+    },
+    {
+      "speaker": "client",
+      "text": "medium."
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like four of them."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok 4 medium pizza, got it what are your choice of toppings."
+    },
+    {
+      "speaker": "client",
+      "text": "I was thinking pepperoni and sausage on the first one, chicken bacon and ranch on the second, pineapple and ham on the third."
+    },
+    {
+      "speaker": "client",
+      "text": "A supreme pizza for the last one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok we have 1 pepperoni and sausage, 1 chicken with bacon and ranch, 1 pineapple and 1 supreme pizza is that right."
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct. Also on all of those I would like gluten-free crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok got it, let me repeat your order for you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "we have 4 medium pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "1 pepperoni and sausage, 1 chicken with bacon and ranch, 1 pineapple and 1 supreme pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "all with gluten free crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it, let me get your totals for you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "with 4 medium pizza your total comes to 76 dollars is that your final order."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. your pizza are on order at the local Bella Luna pizzeria and will be ready for pickup in 30 min."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope. That'll be it. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "have a good day."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bella luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ranch",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "supreme pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna pizzeria",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-24cd2a1d-d786-4589-adab-a96c2e00e8f5",
+  "created_at": "2026-02-15T15:44:16.920Z"
+}

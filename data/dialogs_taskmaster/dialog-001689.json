@@ -1,0 +1,124 @@
+{
+  "dialog_id": 1689,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1689"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi."
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like to order a drink from Starbucks for pickup."
+    },
+    {
+      "speaker": "cashier",
+      "text": "how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what did you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Cappuccino with soy milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and where did you want to pick this up? which Starbucks?"
+    },
+    {
+      "speaker": "client",
+      "text": "On Imperial Highway in La Habra."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, will that be all for the order."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's it. Yes. Yeah, go ahead."
+    },
+    {
+      "speaker": "cashier",
+      "text": "1 grande cappuccino with soy milk from starbucks on imperial highway."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did i get that information right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, the total comes out to $4.50."
+    },
+    {
+      "speaker": "cashier",
+      "text": "should i place the order now?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "cool. i've placed your order. it should be ready for pick up in 10 mins."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. Bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cappuccino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-f878c7ae-5a2e-48ea-82b9-118fbcb1a2d5",
+  "created_at": "2026-02-15T15:44:17.081Z"
+}

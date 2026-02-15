@@ -1,0 +1,244 @@
+{
+  "dialog_id": 463,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=463"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Yeah. I wanted to get some pizzas ordered from Bella Luna. Can you help me with that?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, let's get the order started. what did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I kind of know what I want, but I wanted to check with you to see what the specialty pizza options are. Like what kinds of pizza specialty pizzas does Bella Luna have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, there is meat lovers and veggie lovers."
+    },
+    {
+      "speaker": "client",
+      "text": "That's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "meat lovers has sausage, bacon, ham, pepperoni, and prosciutto."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay well, why don't you get me four small pizzas with thin crust?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, did you want me to tell you what's in veggie lovers?"
+    },
+    {
+      "speaker": "client",
+      "text": "Sure, why not? Let me know."
+    },
+    {
+      "speaker": "cashier",
+      "text": "veggie lovers has green peppers, mushooms, tomatoes, and pickles."
+    },
+    {
+      "speaker": "client",
+      "text": "mushrooms."
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes, mushrooms."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Well, why don't you make one of the small pizzas a veggie lover, one of them make it a meat lover, and then I want one with sun-dried tomato and feta cheese. And then I want another one with artichoke hearts and bell pepper."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. You want 4 small pizzas all with thin crust, 1 veggie lovers, 1 meat lovers, 1 with Sundried tomatoes and feta, 1 with artichoke hearts and bell peppers."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "You got it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "$46.92 is the total. do you want me to place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. Go ahead and put it in and I'll pick it up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, i've placed the order, it'll be ready in 35 mins."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No. I think I'm all set. Thanks very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok. enjoy your pizzas."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "prosciutto",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "green peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pickles",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lover",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lover",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sun-dried tomato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "feta cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "artichoke hearts",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bell",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Sundried tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "feta",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bell peppers",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-4149682a-3980-44f1-a544-20aabf400439",
+  "created_at": "2026-02-15T15:44:16.941Z"
+}

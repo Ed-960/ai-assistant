@@ -1,0 +1,126 @@
+{
+  "dialog_id": 2306,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2306"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Please drop by Starbucks on your way in to work this morning."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want me to stop at the Long Road location in the Valley, or the Manchester Road store in Ballwin?"
+    },
+    {
+      "speaker": "client",
+      "text": "Stop by the Long Road location in the Valley."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What should I order for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Please order me a latte macchiato."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size of drink would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Make my coffee venti size please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What else can I pick up?"
+    },
+    {
+      "speaker": "client",
+      "text": "Please have Starbucks add three artificial sweeteners to the coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "OK."
+    },
+    {
+      "speaker": "client",
+      "text": "Also ask them to add a splash of milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Whole milk, cream or 2% milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Ask them to use cream. That sounds good to me."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Should I stop by the office and pick up your Starbucks refillable travel cup?"
+    },
+    {
+      "speaker": "client",
+      "text": "No just buy me another reusable travel cup."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your focus on less pollution is admirable."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks. Buy yourself a beverage also in a reusable travel cup."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thanks. Hot chocolate sounds good to me this morning."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks for stopping for my coffee on the way to work"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'll be to the office in about 30 minutes with your hot coffee drink and my hot chocolate."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks. Drive safe."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "latte macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "three",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-8c4c6b48-9777-4f19-8ca9-4697cee237e6",
+  "created_at": "2026-02-15T15:44:17.167Z"
+}

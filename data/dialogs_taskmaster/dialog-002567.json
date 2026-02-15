@@ -1,0 +1,138 @@
+{
+  "dialog_id": 2567,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2567"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey Candace, could you order me some coffee?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing, from where?"
+    },
+    {
+      "speaker": "client",
+      "text": "I was thinking the Starbucks off of Durham-Chapel Hill Blvd in Durham?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, sure I can do that. Would you like it now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "A venti iced coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, do you want that sweetened or unsweetened."
+    },
+    {
+      "speaker": "client",
+      "text": "Let's do sweetened."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any milk? I know you're lactose intolerant."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, good idea, let's do almond milk, just a splash."
+    },
+    {
+      "speaker": "cashier",
+      "text": "They have options for flavors too, any of that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, can I get some caramel flavoring?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The sauce or the syrup?"
+    },
+    {
+      "speaker": "client",
+      "text": "The syrup."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How many pumps?"
+    },
+    {
+      "speaker": "client",
+      "text": "Just two, I don't want it too sweet."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, sure thing. Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, yes, one pump of espresso in that as well."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, perfect. It's all ordered."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It will be ready to pick up at the Starbucks on Durham-Chapel Hill Blvd. They'll send you the receipt in a text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thanks, see you later."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Bye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "iced coffee",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-d162cced-226e-4459-b769-11379ab96c41",
+  "created_at": "2026-02-15T15:44:17.198Z"
+}

@@ -1,0 +1,157 @@
+{
+  "dialog_id": 1976,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1976"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi! I’d like a large black coffee, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi, what do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I’d like a decaf drip, to go."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like our light or dark roast?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll just have whatever's freshly brewed."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Are you sure you don’t want to try an espresso, an Americano, or a latte?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, just a decaf coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, no problem. Would you like it hot or cold?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hot, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like any room for cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like some sweetener? A couple of pumps of syrup maybe?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I’ll add a couple of packets of sugar myself."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Oh, I’m sorry. I added some foam from another drink to your coffee by accident. I’ll have to start over. Did you say you wanted the light or dark roast?"
+    },
+    {
+      "speaker": "client",
+      "text": "Forget it. Let’s keep it simple. Give me a cup of tea."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like that hot or cold, sweetened or unsweetened, loose leaf or in a tea bag?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a cold."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, sure here your coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You are welcome. See you next time."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "decaf drip",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "decaf coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "decaf coffee.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cup of tea",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "coffee",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-381d2508-2ef0-488e-ba18-2ae632ce45c4",
+  "created_at": "2026-02-15T15:44:17.128Z"
+}

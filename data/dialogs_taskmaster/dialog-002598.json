@@ -1,0 +1,170 @@
+{
+  "dialog_id": 2598,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2598"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi honey, I need you to order me some Dominos for my sister's birthday party this evening."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds like fun! Did you want pickup or delivery for that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Pickup, since I'll be going by there on my way home."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Cool, pickup it is. What did you want to order? "
+    },
+    {
+      "speaker": "client",
+      "text": "Just one pizza. I'm thinking the three cheese pizza will be fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "They don't seem to have a three cheese pizza, did you mean the Wisconsin 6 Cheese?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's it! "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay then, anything special about it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, I want to add bacon, ham, and mushrooms to that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You got it. What size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Definitely a large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And what kind of crust? "
+    },
+    {
+      "speaker": "client",
+      "text": "Crunchy thin crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright! Anything else for your order? "
+    },
+    {
+      "speaker": "client",
+      "text": "No, just the pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, your order has been placed!"
+    },
+    {
+      "speaker": "client",
+      "text": "What did the price come to? "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your total was $22.33, and it should be ready for pickup in about 25 minutes. "
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds great!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "They'll also be sending your receipt via text to your phone shortly. Can I do anything else for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's all I need. Thank you so much!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're so welcome! Have a good party!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Dominos",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "three cheese pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Wisconsin 6 Cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Crunchy thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Crunchy thin crust.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "your order has been placed",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-d9c68c7f-d26b-4508-a0d6-664425a7be7f",
+  "created_at": "2026-02-15T15:44:17.202Z"
+}

@@ -1,0 +1,142 @@
+{
+  "dialog_id": 1017,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1017"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi."
+    },
+    {
+      "speaker": "cashier",
+      "text": "how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, I wanted to get an order from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "which starbucks do you want me to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's see, I think there's one on."
+    },
+    {
+      "speaker": "client",
+      "text": "I think there's one on Montgomery."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it. what drink would u like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let me get a a grande Flat White."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what milk did you want in that?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want 2% for that hot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hot or iced."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "How long will it take to be ready?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "if i place the order now, it should take about 10 minutes to be ready for pick up."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you'd like to order a grande flat white with 2% milk from Starbucks on montgomery street. did i get that right."
+    },
+    {
+      "speaker": "client",
+      "text": "Yep."
+    },
+    {
+      "speaker": "cashier",
+      "text": "$3.00 is the total."
+    },
+    {
+      "speaker": "cashier",
+      "text": "should i process the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, go ahead. I'll pick it up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, the order has been placed. as i said, it'll be ready in 10 minutes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the receipt will be sent to your phone soon."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "cool, good bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Flat White",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "flat white",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-8e128ff3-9501-4e58-bfea-ef544715d95d",
+  "created_at": "2026-02-15T15:44:17.001Z"
+}

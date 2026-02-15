@@ -1,0 +1,106 @@
+{
+  "dialog_id": 105,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=105"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Please order a Starbucks caffe mocha with coconut milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, would you like any whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what size would you like that in?"
+    },
+    {
+      "speaker": "client",
+      "text": "grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, you are ordering a grande caffe mocha with coconut milk and whipped cream, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, one moment while i place your order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "i have ordered you a grande caffe mocha with coconut milk and whipped cream, to be picked up at the starbucks in westlake, daly city, ca, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, at 1588 North Milwaukee Avenue, Chicago, Illinois."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, let me send your order to the starbucks on milwaukee avenue, one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i have transferred your order to the starbucks on milwaukee avenue, it will be ready for pickup in 6 minutes, your receipt will be texted to you, can i help with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "caffe mocha with",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caffe mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-0d1f95bd-c14d-410f-a492-dd49374c5122",
+  "created_at": "2026-02-15T15:44:16.901Z"
+}

@@ -1,0 +1,173 @@
+{
+  "dialog_id": 2535,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2535"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I want to order some pizza from papa john"
+    },
+    {
+      "speaker": "cashier",
+      "text": "is this for dinner "
+    },
+    {
+      "speaker": "client",
+      "text": "yes, but it is not a regular dinner"
+    },
+    {
+      "speaker": "cashier",
+      "text": "some kind of special event sir?"
+    },
+    {
+      "speaker": "client",
+      "text": "yes, I am having to stop by my friend's birthday party, and I am responsible for pizza"
+    },
+    {
+      "speaker": "cashier",
+      "text": "how big is the party"
+    },
+    {
+      "speaker": "client",
+      "text": "I think about 20 people"
+    },
+    {
+      "speaker": "cashier",
+      "text": "so how many pizza do you want to order"
+    },
+    {
+      "speaker": "client",
+      "text": "well, it is a potluck and everyone is supposed to bring something, so I am thinking five pizzas will do"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "the largest one possible"
+    },
+    {
+      "speaker": "cashier",
+      "text": "they have speical for buy one get one free, extra large"
+    },
+    {
+      "speaker": "client",
+      "text": "then let's get six for the price of three"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what flavor do you want"
+    },
+    {
+      "speaker": "client",
+      "text": "I want two meat lovers, two supreme, and two hawaiian"
+    },
+    {
+      "speaker": "cashier",
+      "text": "hawaiian?"
+    },
+    {
+      "speaker": "client",
+      "text": "yes, pineapple and ham"
+    },
+    {
+      "speaker": "cashier",
+      "text": "when do you want the pizza"
+    },
+    {
+      "speaker": "client",
+      "text": "at 6 this afternoon, so after we finish work in 15 minutes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "and which pizza location do you want to pick them up"
+    },
+    {
+      "speaker": "client",
+      "text": "the closest one to our office"
+    },
+    {
+      "speaker": "cashier",
+      "text": "the order is placed, the pizza will be ready for pick up in 25 minutes, I use the account we already have with them, details of the order is being sent to your phone"
+    },
+    {
+      "speaker": "client",
+      "text": "fantastic, thank you"
+    },
+    {
+      "speaker": "cashier",
+      "text": "you are very welcome"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "papa john",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "largest",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "supreme",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "closest one to our office",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "the order is placed",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-c9a7d791-293b-4821-aba8-fe711000880e",
+  "created_at": "2026-02-15T15:44:17.194Z"
+}

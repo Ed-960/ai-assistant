@@ -1,0 +1,221 @@
+{
+  "dialog_id": 1286,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1286"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "how can i help you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I would like to order some pizza from Bella Luna. I would like to order three pizzas, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok how many pizza would you like to order?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok."
+    },
+    {
+      "speaker": "client",
+      "text": "I want all three pizzas to be large, three large pizzas. I want a regular pepperoni in cheese, a meat lover's with extra sausage, and."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "and a Hawaiian pizza with extra pineapple."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok let me get that down for you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so thats 3 large pizza, 1 pepperoni with extra cheese, 1 meat lover with extra sausage and 1 hawaiian is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. And I would also like all three of them to come with thick crust."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, so all 3 large pizzas will have thick crust is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm sorry. Can you please repeat that again? Yes, that's right. Can you repeat my order, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes, so all 3 large pizzas will have thick crust is that right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "of course one second."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so thats 3 large pizza, 1 pepperoni with extra cheese, 1 meat lover with extra sausage and 1 hawaiian all with thick crust is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "the Hawaiian I want extra pineapple."
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct. Can you please repeat the order for me, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "hawaiian with extra pineapple is that right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "of course one second."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so thats 3 large pizza, 1 pepperoni with extra cheese, 1 meat lover with extra sausage and 1 hawaiian with extra pineapple all with thick crust is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "client",
+      "text": "Will you charge my credit card and Okay, that's good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok the total would be $80 dollars that includes tax and ordering fee."
+    },
+    {
+      "speaker": "client",
+      "text": "How long will it take?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes so thats 30 min for pick up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "pizzas are on order at the local Bella Luna pizzeria and will be ready for pickup shortly."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, great. Will you send my credit card? Did you send my receipt over by email or text?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that would be good. That would be all, thank you so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes it will come via email. would you like anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lover's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hawaiian pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lover",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "hawaiian",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thick crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Hawaiian",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-b6a7ce23-14b0-4dd2-9ef9-02aa60c9d683",
+  "created_at": "2026-02-15T15:44:17.030Z"
+}

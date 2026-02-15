@@ -1,0 +1,135 @@
+{
+  "dialog_id": 2600,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2600"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Do you have time to order me a drink from Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, I do. Do you want it from the one on Rt. 224 in Boardman?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's fine. Get me a Cafe Moccha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. What size do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's go with the Grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want whipped cream on it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is 2% milk fine?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's ok. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want this order for now or a set time later?"
+    },
+    {
+      "speaker": "client",
+      "text": "Now is fine. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Should they add any nuts or something else to it?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's not necessarily. How much sugar is in that drink?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It says 4 grams on the menu. Go ahead and order it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, read it back to me. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "1 Grande Caffe Mocha, 2% milk, whipped cream, no nuts/extras, for order right now at the Rt. 224 location in Boardman."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome. Send it out. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Just put it in. Check your email for confirmation or order and pick up time. Do you want me to pick it up for you."
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's ok. I'll pick it up. I just got the confirmation email. Thanks. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome. Will there be anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's it for now. Talk to you later. Bye. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Bye. "
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cafe Moccha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caffe Mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-da3d58a8-a69d-4927-9d15-127a9b7b89f0",
+  "created_at": "2026-02-15T15:44:17.202Z"
+}

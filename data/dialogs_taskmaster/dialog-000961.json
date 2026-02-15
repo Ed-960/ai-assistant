@@ -1,0 +1,94 @@
+{
+  "dialog_id": 961,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=961"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi. I'm trying to order a Caffè Mocha from the Peet's Coffee in the Opera Plaza in San Francisco, California."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I was think of medium with almond milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so a medium cafe mocha with almond milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. That's what I want."
+    },
+    {
+      "speaker": "cashier",
+      "text": "any whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "client",
+      "text": "Just a little."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure , your coffee will be ready for pickup soon at peet's cafe located at the opera plaza."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome, bye!"
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caffè Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cafe mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-869e8ff3-6274-43a7-9e04-e7c2f0e8620f",
+  "created_at": "2026-02-15T15:44:16.995Z"
+}

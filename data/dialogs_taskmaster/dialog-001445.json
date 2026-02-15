@@ -1,0 +1,140 @@
+{
+  "dialog_id": 1445,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1445"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "HI there, what Can I do for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I would like to add three small pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what would you like on them?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get two cheese pizza and veggie lover's?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Most certainly."
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get them thin-crust?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, of course."
+    },
+    {
+      "speaker": "cashier",
+      "text": "3 Small thin crust pizzas, two cheese pizzas and one Veggie lovers."
+    },
+    {
+      "speaker": "client",
+      "text": "That will be all. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay! your total will be $38.87."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your order has been sent to Bella Luna. It should be ready for pickup in 25 min."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're very welcome."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "two cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lover's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin-crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Small",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "thin crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cheese pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Veggie lovers",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-d033a433-2182-4d8a-a6ed-e633987efa1e",
+  "created_at": "2026-02-15T15:44:17.047Z"
+}

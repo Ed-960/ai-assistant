@@ -1,0 +1,121 @@
+{
+  "dialog_id": 2160,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2160"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi there, I'd like to place a coffee order from Starbucks that I can pick up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing—which location would you like to pick it up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like the corner of Spring Street and Varick Street in New York City."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem at all. What kind of coffee would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd love a Caramel Brulee Latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, great—what size would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like a grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, and what kind of milk would you like used in the drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd love to use oat milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I know some locations don't have oat milk, so if that's the case here, is there a backup you'd like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, if no oat milk, please ask for almond milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! And would you like whipped cream on top?"
+    },
+    {
+      "speaker": "client",
+      "text": "Does it normally come with whipped cream?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, the default drink includes whipped cream."
+    },
+    {
+      "speaker": "client",
+      "text": "Then I'll take that along with it. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. And are there are any other flavors or extras you'd like to add?"
+    },
+    {
+      "speaker": "client",
+      "text": "What kind of options are there?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You can ask them for extra sugar, extra whipped cream, or an extra syrup flavor."
+    },
+    {
+      "speaker": "client",
+      "text": "I think I'm good as-is."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! Your drink will be ready for pickup shortly at the chosen Starbucks location, and your receipt will be sent to your mobile device via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect, thank you! Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caramel Brulee Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-6690d834-3eb9-4c02-aaf2-33cc5342d871",
+  "created_at": "2026-02-15T15:44:17.150Z"
+}

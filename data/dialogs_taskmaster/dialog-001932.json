@@ -1,0 +1,121 @@
+{
+  "dialog_id": 1932,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1932"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi Sam, can you please pick up some coffee for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, do you want it now or later?"
+    },
+    {
+      "speaker": "client",
+      "text": "Maybe in an hour."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, from where?"
+    },
+    {
+      "speaker": "client",
+      "text": "Go to the Starbucks on 1st and Market"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm not sure, can you send me a menu?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Here you go."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. Let me look it over."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, just ping me when you're ready."
+    },
+    {
+      "speaker": "client",
+      "text": "I'm ready to order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, what would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Please pick me up an everything bagel with cream cheese, toasted and a white chocolate mocha"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Do you want anything?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No thank you. "
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, then that'll be it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I just ordered your food and coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It's ready to be picked up in 20 mins at the Starbucks on 1st and Market and your receipt was sent to you via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, thanks!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Please pick me up an",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "white chocolate mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-2e2936a1-7f8b-4de7-a4fb-26b2594bc8cb",
+  "created_at": "2026-02-15T15:44:17.121Z"
+}

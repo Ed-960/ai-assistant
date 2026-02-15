@@ -1,0 +1,143 @@
+{
+  "dialog_id": 2660,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2660"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, could I get a drink from Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, which Starbucks? The one in Target, or the one on Route 29 in Wilton?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll be going through Wilton, so the one on 29."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, so the Wilton store. What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll get a Cinnamon Dolce Latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, what size would you like that in?"
+    },
+    {
+      "speaker": "client",
+      "text": "I think I'll do Grande this time."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. Do you want it straight, or with milk in it?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll take milk in it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, what type of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Do they have rice milk yet?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No, not yet. Would you like almond milk or coconut milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "I think I'll go with coconut milk again."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, do you want any sugar in it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Not sugar, only Splenda, two packets."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, just Splenda. Do you want whipped cream on top?"
+    },
+    {
+      "speaker": "client",
+      "text": "Not this time. It would defeat the point of coconut milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I've got it. Anything else to add?"
+    },
+    {
+      "speaker": "client",
+      "text": "Could I get extra cinnamon on top?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I think so. I'll write that down too."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you. When should I pick it up?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It will be ready at the Wilton store on Route 29 in 15 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you. Goodbye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cinnamon Dolce Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cinnamon Dolce Latte.",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "rice milk",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-eb8606ad-f9b1-42d7-a0cd-9a7774ffdeb9",
+  "created_at": "2026-02-15T15:44:17.209Z"
+}

@@ -1,0 +1,122 @@
+{
+  "dialog_id": 1811,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1811"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello, I want to order a coffee from Starbucks"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hello, what location or city do you prefer?"
+    },
+    {
+      "speaker": "client",
+      "text": "In 2333 Peachtree Rd, Atlanta, GA 30305"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, What kind of coffee would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want a Cappuccino"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size and what kind of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Size Venti and Whole milk"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, do you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I need four of those"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It will costs 16,6 dollars in total"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, When It will be ready?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "In 15 minutes you can go for the coffees "
+    },
+    {
+      "speaker": "client",
+      "text": "Ok, can you send it to my phone?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, your receipt will be sent to your mobile device via text message"
+    },
+    {
+      "speaker": "client",
+      "text": "Ok"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your drinks are on order at the local store. Do you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's all. Thanks for your help"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Thanks to you too"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll contact to you when I need another coffee"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'll be here for you"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "four of those",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-0f2d4e4f-7a80-421b-801b-ebaf4db599c6",
+  "created_at": "2026-02-15T15:44:17.103Z"
+}

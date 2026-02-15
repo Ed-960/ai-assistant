@@ -1,0 +1,199 @@
+{
+  "dialog_id": 1650,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1650"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi, I like to order a few pizzas from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, how many pizzas would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Three medium pizzas, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok and what are the toppings?"
+    },
+    {
+      "speaker": "client",
+      "text": "For the first one, I'd like a white pie with anchovies, olives, garlic, mushrooms."
+    },
+    {
+      "speaker": "client",
+      "text": "and."
+    },
+    {
+      "speaker": "client",
+      "text": "One serving, please."
+    },
+    {
+      "speaker": "client",
+      "text": "And bacon."
+    },
+    {
+      "speaker": "client",
+      "text": "Add a gluten-free crust, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok and the other 2?"
+    },
+    {
+      "speaker": "client",
+      "text": "A red vegetarian pizza on gluten free crust."
+    },
+    {
+      "speaker": "client",
+      "text": "And lastly, for the other one, I'd like."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can you repeat the third one please?"
+    },
+    {
+      "speaker": "client",
+      "text": "a white pie with mozzarella cheese, clams, and fresh garlic."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so your order is: 3 medium gluten free crust pizzas. the first one is a white pie with achovies, olives, garlic and mushrooms and bacon. the second one is a red vegetarian, the third is a white pie, mozzarella cheese, clams and garlic."
+    },
+    {
+      "speaker": "client",
+      "text": "Perfect."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, your total is $38."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright, great. Thank you so much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome, your pizzas will be ready for pickup in 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Great."
+    },
+    {
+      "speaker": "client",
+      "text": "Goodbye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy, bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "white pie",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "anchovies",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "olives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "garlic",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten-free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "red vegetarian pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "gluten free crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mozzarella cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "clams",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "fresh garlic",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "achovies",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "red vegetarian",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-f23f5f79-a17b-4931-aadd-a2443be4b657",
+  "created_at": "2026-02-15T15:44:17.070Z"
+}

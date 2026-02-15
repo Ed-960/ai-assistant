@@ -1,0 +1,131 @@
+{
+  "dialog_id": 2290,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2290"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'd like to get a coffee from starbucks today"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, where will you be getting it?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Starbucks on Wealthy Street in Grand Rapids"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, so what are you getting?"
+    },
+    {
+      "speaker": "client",
+      "text": "A cordusio"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "A tall"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Any specific instructions for it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get it with almond milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, I'll be sure to add that. And what time will you be picking it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "3:00 pm today"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, are you okay with using the same credit card you have used? The visa?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I have you down for a tall cordusio with almond milk for pickup at 3pm today at the Starbuck on wealthy street in grand rapids, paying with your visa card. is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else I can get for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, can you add a grande Americano for my wife?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Done, anything else I can do for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, that is it. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, the order will be ready for pick up at 3."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cordusio",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Americano",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-888ccee8-bbe3-49eb-b69e-d008f1c1958f",
+  "created_at": "2026-02-15T15:44:17.166Z"
+}

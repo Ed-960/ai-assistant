@@ -1,0 +1,206 @@
+{
+  "dialog_id": 766,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=766"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "How can I help you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hello?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hello!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "how can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to order a pizza from Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay how many pizzas?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order five pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Medium, all of them."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay and what toppings did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like them to."
+    },
+    {
+      "speaker": "client",
+      "text": "I'll be vegetarian lover pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's 5 medium pizzas, all our winter garden style right?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, all vegetarian lover, veggie lover pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "That's what the vegetarian lover is called at Bella Luna's?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. I'd like to make sure that they have mushrooms and spinach and bell peppers and cilantro, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yes, they also add tomatoes and chives."
+    },
+    {
+      "speaker": "client",
+      "text": "That would be great."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great any extras?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that'll be all, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's 5 medium pizzas, all our winter garden style for a total of 55 99."
+    },
+    {
+      "speaker": "client",
+      "text": "Sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, they'll be ready at Bella Lunas in 30 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Wonderful."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a nice meal."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you. You, too."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "vegetarian lover pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "winter garden style",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "vegetarian lover",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "veggie lover pizzas",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Luna's",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "spinach",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "bell peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cilantro",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tomatoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chives",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella Lunas",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-6ba5d158-fbcb-4399-aca6-8bde3caa7a39",
+  "created_at": "2026-02-15T15:44:16.974Z"
+}

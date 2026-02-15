@@ -1,0 +1,125 @@
+{
+  "dialog_id": 1974,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1974"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Can you get me a coffee please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which shop do you want me to get it from?"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of coffee do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "A Caffe Latte"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "tall"
+    },
+    {
+      "speaker": "cashier",
+      "text": "How much sugar?"
+    },
+    {
+      "speaker": "client",
+      "text": "2 packet's please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Are you Starbucks rewards member?"
+    },
+    {
+      "speaker": "client",
+      "text": "yes"
+    },
+    {
+      "speaker": "cashier",
+      "text": "please provide phone number linked to starbucks account"
+    },
+    {
+      "speaker": "client",
+      "text": "primary phone"
+    },
+    {
+      "speaker": "cashier",
+      "text": "how would you like to pay for it ?"
+    },
+    {
+      "speaker": "client",
+      "text": "credit card"
+    },
+    {
+      "speaker": "cashier",
+      "text": "which card to use ?"
+    },
+    {
+      "speaker": "client",
+      "text": "chase freedom card"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what time you would like it to be ready"
+    },
+    {
+      "speaker": "client",
+      "text": "at 11:30 am"
+    },
+    {
+      "speaker": "cashier",
+      "text": "how would you like to receive confirmation ?"
+    },
+    {
+      "speaker": "client",
+      "text": "by text message"
+    },
+    {
+      "speaker": "cashier",
+      "text": "thank you i will place the order"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Caffe Latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-37f7b1b2-d274-4be9-ae32-c57d902af516",
+  "created_at": "2026-02-15T15:44:17.128Z"
+}

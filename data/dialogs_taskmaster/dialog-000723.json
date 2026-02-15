@@ -1,0 +1,142 @@
+{
+  "dialog_id": 723,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=723"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there! How can I help?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "hello?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "are you there?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hello, hello hello."
+    },
+    {
+      "speaker": "cashier",
+      "text": "are you there?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi there! How can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm going to need a three pizza I'm going to need three pizzas all large. I'm going to do two of them meat lovers, and one barbecue chicken barbecue. And I like them often crisped."
+    },
+    {
+      "speaker": "cashier",
+      "text": "alright, one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "3 Thin curst large Pizzas, 2 of them Meat lovers and one with chicken BBQ."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "alright, let me get the total for you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The total for those 3 specialty pizzas will be $41.66."
+    },
+    {
+      "speaker": "client",
+      "text": "That sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "alright, let me submit your order to Bella luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, your pizzas are in the works and should be ready for pickup in 40 min."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, great. Thanks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a good one!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "barbecue chicken barbecue",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Thin curst",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Meat lovers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken BBQ",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Bella luna",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-64af1bb6-b74d-4d0f-9797-30dce9b490a0",
+  "created_at": "2026-02-15T15:44:16.970Z"
+}

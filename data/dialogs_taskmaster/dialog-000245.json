@@ -1,0 +1,170 @@
+{
+  "dialog_id": 245,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=245"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how are you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "I am doing great. How are you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order some pizzas from a new pizzeria called Bella Luna."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, thanks for asking, and what kind of pizza would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like one that has."
+    },
+    {
+      "speaker": "client",
+      "text": "a chicken barbecue pizza with pineapple added."
+    },
+    {
+      "speaker": "client",
+      "text": "I also want one large with sausage, Canadian bacon, red peppers, and zucchini."
+    },
+    {
+      "speaker": "client",
+      "text": "I also want want the third pizza to be chicken, pork, and ground beef, all all of them with extra cheese."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and that was large for the size right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Correct. All three large."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's 3 large extra cheese pizzas, one chicken bbq with pineapple, one sausage, canadian bacon, red peppers, and zuchinni, and one chicken, pork, and ground beef, for a total of $48.99."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, that sounds great. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, your order will be ready for pickup in 30 minutes and you'll get the reciept via text!"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, I'll go there directly and pick up my pizzas. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great day, take care."
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Bella Luna",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "a chicken barbecue pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pineapple",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Canadian bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "red peppers",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "zucchini",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pork",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ground beef",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "chicken bbq",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "canadian bacon",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "zuchinni",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-21cd9016-d02d-463e-8e8e-5e0bf6abccef",
+  "created_at": "2026-02-15T15:44:16.917Z"
+}

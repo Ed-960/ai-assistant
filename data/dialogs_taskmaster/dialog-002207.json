@@ -1,0 +1,152 @@
+{
+  "dialog_id": 2207,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2207"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "hi alexa i wan to order pizza from the joint today"
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay sir what type of pizza were you thinking?"
+    },
+    {
+      "speaker": "client",
+      "text": "well there are several people i need to feed so let's do an extra large pie for today"
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay they have two topping specialty pizza for sale"
+    },
+    {
+      "speaker": "client",
+      "text": " okay i will go ahead and do that"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what toppings would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "i would say do mushroom and jalapeno"
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay sounds good anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "i would like to switch out the regular cheese for vegan cheese"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes i believe that can be done"
+    },
+    {
+      "speaker": "client",
+      "text": "okay good can you confirm my order for me please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes is it okay if your pizza arrives in 25 minutes?"
+    },
+    {
+      "speaker": "client",
+      "text": "yes that is fine"
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay so it's an extra large pizza with mushrooms and jalapenos and vegan cheese"
+    },
+    {
+      "speaker": "client",
+      "text": "yes that is correct"
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay sir your order will arrive soon and the receipt will be sent as a text"
+    },
+    {
+      "speaker": "client",
+      "text": "to my phone?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes to your phone"
+    },
+    {
+      "speaker": "client",
+      "text": "okay thank you so much for helping"
+    },
+    {
+      "speaker": "cashier",
+      "text": "no problem have a great day"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "joint",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "extra large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushroom",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "jalapeno",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "regular cheese for vegan cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "vegan cheese",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mushrooms",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "jalapenos",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-71f0632a-7e0e-4e23-85c9-756d4b1b82bb",
+  "created_at": "2026-02-15T15:44:17.156Z"
+}

@@ -1,0 +1,118 @@
+{
+  "dialog_id": 1374,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1374"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Good afternoon, how can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hello, I would like to order the iced black and white mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure which Starbucks would you like to pick up from?"
+    },
+    {
+      "speaker": "client",
+      "text": " I wanted to pick up from Starbucks."
+    },
+    {
+      "speaker": "client",
+      "text": "3065 Forrest Road, Fort Campbell, Kentucky."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what size did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "to Grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like any whipped cream or syrups?"
+    },
+    {
+      "speaker": "client",
+      "text": "What kind of set ups do you have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Vanilla, Caramel, Cinnamon dolce, Hazelnut, Toffee nut, Peppermint, Raspberry, Classic (sugar/simple syrup)."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, I want to add the sugar syrup and wood cream."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So that's a grande iced black and white mocha with whipped cream and sugar syrup from the Starbucks on forest road."
+    },
+    {
+      "speaker": "client",
+      "text": "That's correct. Can I get that with skim milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing. Anything else for you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great. Your order will be ready in 15 minutes and you'll get the reciept via mobile."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It will be $5.36."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, enjoy."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "iced black and white mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-c5efc530-1f52-4ba6-a266-a506c81d270c",
+  "created_at": "2026-02-15T15:44:17.040Z"
+}

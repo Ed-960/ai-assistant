@@ -1,0 +1,125 @@
+{
+  "dialog_id": 1298,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1298"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hello there, how can i help you today?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi. I want to place a Starbucks order for the Starbucks on Northern Boulevard in Bayside, New York."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, what did you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, I wanted to get a grande black and white mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you want that iced or hot?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hot, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "and what kind of milk do you want in that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Whole milk is okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you need anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Also, can you add whipped cream and syrup on top?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "what kind of syrup did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "chocolate."
+    },
+    {
+      "speaker": "cashier",
+      "text": "so you said you wanted a grande black and white mocha with whole milk and whipped cream and chocolate syrup from starbucks on northern boulevard in new york."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the total will be $4.50. Should i place the order now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "the order has been placed. It'll be ready for pick up in 10 mins. The receipt has been sent to your phone. Do you need anything else from me."
+    },
+    {
+      "speaker": "client",
+      "text": "That is all. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "you're welcome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "take care."
+    },
+    {
+      "speaker": "client",
+      "text": "You too."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black and white mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-b9b3c67b-97f4-46bb-912a-ff4cfaa9135c",
+  "created_at": "2026-02-15T15:44:17.032Z"
+}

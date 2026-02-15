@@ -1,0 +1,102 @@
+{
+  "dialog_id": 233,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=233"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i assist you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, I need to order a coffee from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "a grande mocha latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what type of milk would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "2%."
+    },
+    {
+      "speaker": "cashier",
+      "text": "do you want whipped cream?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "where are you picking it up?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Starbucks on Soldiers Field Road in Boston."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok so i have: grande mocha with 2% milk, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great, your coffee will be ready for pickup soon at the starbucks at soldiersville road."
+    },
+    {
+      "speaker": "client",
+      "text": "Excellent."
+    },
+    {
+      "speaker": "cashier",
+      "text": "enjoy, bye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mocha latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-1f832bd6-33e8-4b76-aa4c-a90d878ac45b",
+  "created_at": "2026-02-15T15:44:16.916Z"
+}

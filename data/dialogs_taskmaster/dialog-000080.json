@@ -1,0 +1,133 @@
+{
+  "dialog_id": 80,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=80"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there! How can I help?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to place a Starbucks pickup order, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure! what can i get you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can I get a venti iced mocha with 2% milk and Splenda, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure thing!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "just one package of Splenda?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "okay, anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that'll be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Wonderful. I got a Venti iced Mocha with 2% milk and 1 package of splenda."
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great! where would you like to pick this up?"
+    },
+    {
+      "speaker": "client",
+      "text": "That'll be at the Starbucks in West Village, 3699 McKinney Avenue."
+    },
+    {
+      "speaker": "cashier",
+      "text": "got it! in Dallas, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "That is correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "wonderful, give me a moment to send over your order."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "My pleasure."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, your order has been sent to your desired location. It will be ready for pickup in 5-8 min."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you very much. I appreciate the help."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're very welcome."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great day."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you kindly."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Goodbye!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "venti iced mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti iced Mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-0a20506d-dfef-46a4-b426-0a5a17c7beab",
+  "created_at": "2026-02-15T15:44:16.898Z"
+}

@@ -1,0 +1,117 @@
+{
+  "dialog_id": 1995,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1995"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, can you make an order at Starbucks online for me to pickup?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which Starbucks do you want me to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one in Covington near the transit center"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ah okay I think I know the one that you're talking about. The one on rivercenter street?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes that's it!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'll get it. What kind of drink did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I was thinking a cinnamon shortbread latte. I'm in a huge cinnamon mood today."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds good. What size did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'll go with a grande."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you want whip cream on that or? "
+    },
+    {
+      "speaker": "client",
+      "text": "No whipcream actually. I don't want it to cover up the cinnamon on top."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, I went ahead and placed the order. "
+    },
+    {
+      "speaker": "client",
+      "text": "Do I get the receipt at the store? "
+    },
+    {
+      "speaker": "cashier",
+      "text": "No, it's going to be sent to you via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "How long is the order going to take?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The order will be done shortly."
+    },
+    {
+      "speaker": "client",
+      "text": "Do I need to pay at the store?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No, since you already have an account."
+    },
+    {
+      "speaker": "client",
+      "text": "Alright! Thank you for ordering for me."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cinnamon shortbread latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-3e0e25f9-f848-4162-bf9a-b87b6c704e2e",
+  "created_at": "2026-02-15T15:44:17.131Z"
+}

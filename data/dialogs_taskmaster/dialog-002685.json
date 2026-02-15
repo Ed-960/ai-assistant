@@ -1,0 +1,131 @@
+{
+  "dialog_id": 2685,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2685"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Can you place a Starbucks order for me and I'll pick it up when it's ready?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which location are you closest to?"
+    },
+    {
+      "speaker": "client",
+      "text": "Right now I am near the one on Kietzki and South Virginia."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The one by the Wal Mart?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's the one!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it. Which drink you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "A caramel macchiato"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, what size"
+    },
+    {
+      "speaker": "client",
+      "text": "Let's do Venti"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Just regular 2% milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you make it almond milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, is that all?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like an extra shot of espresso, two extra pumps of caramel and a pump of chocolate"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hot, Iced, or Frappuccino?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, I didn't even think about that. I was going to get it hot. But, lets do a frapp."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, are you sure?"
+    },
+    {
+      "speaker": "client",
+      "text": "Absolutely"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, I got a venti caramel macchiato frappuccino with almond milk, an extra shot, 2 extra caramel pumps and a pump of chocolate, is that all?"
+    },
+    {
+      "speaker": "client",
+      "text": "That's exactly right. No, that'll be all. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You're welcome, the drink will be ready for pickup when you arrive."
+    },
+    {
+      "speaker": "client",
+      "text": "You're the best!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "A caramel macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caramel macchiato frappuccino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-f2bd3c93-55da-4cf5-86cf-8dd10d248aac",
+  "created_at": "2026-02-15T15:44:17.212Z"
+}

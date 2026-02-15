@@ -1,0 +1,157 @@
+{
+  "dialog_id": 1757,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=1757"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I want to eat some pizza for lunch."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, which pizza store would you like to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "I would like to get pizza from Dominoes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want two large pizzas."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What kind of topping do you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "For my first pizza, I want it with just pepperoni."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What about your second one?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want it to include all the different types of meat."
+    },
+    {
+      "speaker": "cashier",
+      "text": "There is a specialty pizza called the MeatZZa."
+    },
+    {
+      "speaker": "client",
+      "text": "Which kind of meats does it have?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It includes ham, beef, pepperoni, and Italian sausage."
+    },
+    {
+      "speaker": "client",
+      "text": "Sure get me that one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No I believe that is all for right now."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I have ordered 1 large pepperoni pizza and 1 large MeatZZa pizza."
+    },
+    {
+      "speaker": "client",
+      "text": "How much is it and how will it take?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The total is 15.99 and it will be ready for pickup in 25 minutes. The receipt has been sent to your phone. "
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem, goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Dominoes",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "meat",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "MeatZZa",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "ham",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "beef",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Italian sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "MeatZZa pizza",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-0423761d-4f81-4459-8366-a33fcb206169",
+  "created_at": "2026-02-15T15:44:17.093Z"
+}

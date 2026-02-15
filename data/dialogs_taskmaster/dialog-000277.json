@@ -1,0 +1,159 @@
+{
+  "dialog_id": 277,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=277"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi, how may I help u?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hello."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Hi."
+    },
+    {
+      "speaker": "client",
+      "text": "I run an order of coffee in Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How can I help?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What drink did you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to order a Cappuccino coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Are you there?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What did you want to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hello."
+    },
+    {
+      "speaker": "client",
+      "text": "I want order a cappuccino."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you have a milk preference for your drink?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I don't have any preference."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So What milk did you want to use?"
+    },
+    {
+      "speaker": "client",
+      "text": "Can you repeat it for me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "So what milk did you want to use?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want soy milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And what size did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want all of this."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So you want a tall Cappuccino with soy milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Is that right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, the total will be $4.50?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Do you want me to place the order now?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I've ordered your drink for you at Starbucks, it should be ready for pick up in 6 minutes. Your receipt will be sent to your mobile device via text message shortly."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cappuccino coffee",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cappuccino",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Cappuccino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-26d87a7c-4d85-48ea-845b-90757bf0647b",
+  "created_at": "2026-02-15T15:44:16.921Z"
+}

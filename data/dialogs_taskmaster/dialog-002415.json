@@ -1,0 +1,135 @@
+{
+  "dialog_id": 2415,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2415"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello, would you be able to order me a coffee to pickup?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course sir, what store?"
+    },
+    {
+      "speaker": "client",
+      "text": "Starbucks please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Which location will be best for you?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Rosedale mall location."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, what size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Grande"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Got it, what type of drink would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "A caramel latte please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, which milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "2% milk please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing, any special instructions?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please add 1 extra shot of espresso."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course! Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that will be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok great, so I'll be ordering you a grande caramel latte with 2% milk and an extra shot of espresso for pickup at the Rosedale mall Starbuck's."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, that's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, you're drink is now on order and will be ready for pickup shortly. The receipt will be sent to your cell via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Of course, happy to help!"
+    },
+    {
+      "speaker": "client",
+      "text": "Good bye."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a great day!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "caramel latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "1 extra shot of espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-a873d14f-2d22-43c2-a2a3-74042f6a57b0",
+  "created_at": "2026-02-15T15:44:17.180Z"
+}

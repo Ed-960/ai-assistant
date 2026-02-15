@@ -1,0 +1,136 @@
+{
+  "dialog_id": 2082,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2082"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I need you to order me a coffee drink from Starbucks. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "I can do that. What location is best?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm in Austin, Texas and there's one off of Parmer Lane nearby."
+    },
+    {
+      "speaker": "cashier",
+      "text": "It must be the one at 1700 W Parmer Ln, Austin, TX 78727"
+    },
+    {
+      "speaker": "client",
+      "text": "That sounds right. "
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like me to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm not sure. Can you check their menu to see if they have Blonde Roast available?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "It says they don't have the Blonde Roast available right now."
+    },
+    {
+      "speaker": "client",
+      "text": "Can you order me a Pike's Roast then"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Whatever the medium size is."
+    },
+    {
+      "speaker": "cashier",
+      "text": "That's the grande. Do you want any milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "a splash of 2% milk"
+    },
+    {
+      "speaker": "cashier",
+      "text": "how about sugar or sweetner?"
+    },
+    {
+      "speaker": "client",
+      "text": "See if they can do 1 sugar and 1 honey"
+    },
+    {
+      "speaker": "cashier",
+      "text": "That should not be a problem at all."
+    },
+    {
+      "speaker": "client",
+      "text": "Awesome. Make sure you get me the cold brew too, I don't want a hot cofee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So one grande cold brew Pike's Roast with a splash of 2% milk, 1 sugar and 1 honey."
+    },
+    {
+      "speaker": "client",
+      "text": "That is right at the 1700 W Parmer Ln, Austin, TX 78727 location."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yep, your order is all set at 1700 W Parmer Ln, Austin, TX 78727. I'm having the receipt email to your mobile via text message."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Blonde Roast",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pike's Roast",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cold brew Pike's Roast",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-546bb545-3fd2-4353-bf4e-483b2142bc54",
+  "created_at": "2026-02-15T15:44:17.141Z"
+}

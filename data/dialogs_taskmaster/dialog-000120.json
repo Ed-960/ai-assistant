@@ -1,0 +1,93 @@
+{
+  "dialog_id": 120,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=120"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to get coffee in Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what would you like to order?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, let me place that order for you"
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "yes, i'm placing that order now."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i have ordered you a tall cappuccino with soy milk to be picked up at the starbucks in westlake, daly city, ca, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, that's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be texted to you, your coffee will be ready for pickup in 7 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, thank you. Have a nice day."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your coffee"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah, sure. Have a nice day."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "cappuccino",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-1059daa4-456a-4c9d-b0e0-c5cf427ae91d",
+  "created_at": "2026-02-15T15:44:16.903Z"
+}

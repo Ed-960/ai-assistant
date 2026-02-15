@@ -1,0 +1,142 @@
+{
+  "dialog_id": 1113,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1113"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi there, I'd like to get a drink from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what would you like to order?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order a cinnamon shortbread latte."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like to add milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please. Could I have a nonfat milk?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "and What size would you like that in?"
+    },
+    {
+      "speaker": "client",
+      "text": "Short, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, one moment while i order that for you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i have ordered a short, cinnamon shortbread latte with non-fat milk to be picked up at the starbucks in westlake, daly city, ca, is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, I need to change the location."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, which starbucks would you like to have your drink picked up at?"
+    },
+    {
+      "speaker": "client",
+      "text": "It's going to be on Clinton Avenue in Cortlandt, New York."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sorry, what was the city again?"
+    },
+    {
+      "speaker": "client",
+      "text": "Portland, New York."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, let me send your order to that location."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, i have sent your order to the starbucks on clinton avenue in courland new york."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "your receipt will be texted to you and your drink will be ready in 5 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "All right. Sounds good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "can i help you with anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope. That's it. Thank you very much."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, enjoy your coffee."
+    },
+    {
+      "speaker": "client",
+      "text": "Bye-bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "cinnamon shortbread latte",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Short",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "short",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-9de65ec7-f726-4855-b5ac-5b73b36933a9",
+  "created_at": "2026-02-15T15:44:17.010Z"
+}

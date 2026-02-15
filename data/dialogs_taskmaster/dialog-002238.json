@@ -1,0 +1,188 @@
+{
+  "dialog_id": 2238,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "pizza-ordering-1",
+    "text": "Taskmaster: pizza-ordering order.",
+    "regLine": "source=taskmaster domain=pizza-ordering-1 dialog_id=2238"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'm trying to order a pizza from Pizza hut."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I can help with that! Which location are you trying to order from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The Cliff road store"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The one in Eagan?"
+    },
+    {
+      "speaker": "client",
+      "text": "Correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have the store set to the Eagan, Cliff Road location. Will this be for carry out or delivery?"
+    },
+    {
+      "speaker": "client",
+      "text": "This will be for carry out."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Would you like to hear about any specials?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes please"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The pizza specials include a $7.99 Large 2 topping pizza or $5 pizzas when you order two or more (medium only)"
+    },
+    {
+      "speaker": "client",
+      "text": "Lets to the $5 deal"
+    },
+    {
+      "speaker": "cashier",
+      "text": "The $5 deal also includes wings, pasta, breadsticks, or garlic knots for $5 a piece. Would you like to add any of those to your order?"
+    },
+    {
+      "speaker": "client",
+      "text": "Lets do the Garlic knots."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Those have been added. What kind of crust would you like for your first pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "I will have stuffed crust for both."
+    },
+    {
+      "speaker": "cashier",
+      "text": "These pizzas are only 1 topping, it may be additional charges for extra. What would you like for your topping?"
+    },
+    {
+      "speaker": "client",
+      "text": "Lets do Pepperoni for the first pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The first pizza is stuffed crust with Pepperoni. What topping would you like on the second pizza?"
+    },
+    {
+      "speaker": "client",
+      "text": "Lets do sausage for the second pizza."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Excellent, I have a stuffed crust pepperoni pizza and a stuffed crust sausage pizza. We also have a side of garlic knots. Would you like anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "I dont think so, that food should last a while."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The receipt has been sent to your phone. The pizzas should be ready for pickup in about 25 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "You are welcome, goodbye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Pizza hut",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "The Cliff road store",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Eagan",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "the Eagan, Cliff Road location",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Eagan, Cliff Road location",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Large",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "stuffed crust",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Pepperoni",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "stuffed crust pepperoni pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "pepperoni pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "stuffed crust sausage pizza",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "sausage pizza",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-7ad3e68a-7f08-493e-a90c-27facd22f2cc",
+  "created_at": "2026-02-15T15:44:17.160Z"
+}

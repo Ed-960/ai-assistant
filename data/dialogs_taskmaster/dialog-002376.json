@@ -1,0 +1,146 @@
+{
+  "dialog_id": 2376,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2376"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hey, could you place an order with Starbucks?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, Little Rock, Arkansas, right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, the one on University Ave."
+    },
+    {
+      "speaker": "cashier",
+      "text": "201 North University?"
+    },
+    {
+      "speaker": "client",
+      "text": "Right."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "Iced blond caramel macchiato"
+    },
+    {
+      "speaker": "cashier",
+      "text": "What size?"
+    },
+    {
+      "speaker": "client",
+      "text": "Tall, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, anything else or any substitutions?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, can I have extra whip cream, please?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure. What type of milk?"
+    },
+    {
+      "speaker": "client",
+      "text": "2%, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Done. Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, I'm placing the order now."
+    },
+    {
+      "speaker": "client",
+      "text": "When will it be ready?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "In 8 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, I'll pick it up on the way to work."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I assume you wanted this on your account?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, of course."
+    },
+    {
+      "speaker": "cashier",
+      "text": "All right, you should be receiving the receipt anytime now."
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I just did, thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Awesome, let me know if you need anything else"
+    },
+    {
+      "speaker": "client",
+      "text": "Nope, that's it. Thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anytime!"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Iced blond caramel macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "blond caramel macchiato",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Tall",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-9e905ae6-2e15-42d9-98c7-2bee86f33473",
+  "created_at": "2026-02-15T15:44:17.175Z"
+}

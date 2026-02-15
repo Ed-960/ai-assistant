@@ -1,0 +1,121 @@
+{
+  "dialog_id": 2587,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2587"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hi, I'd like to order a toasted white chocolate mocha from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, what location would you like to pick it up at?"
+    },
+    {
+      "speaker": "client",
+      "text": "2113 State Hill Rd, Wyomissing, PA 19610"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds great. What size are you looking for?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like a tall please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, would you like some sugar with that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please but make it 4 splenda."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds great.  Would you like any milk with that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, I'd like to order nonfat milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "That will be fine. Would you like any whipped cream with that?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The coffee does have soy in it. Do you have any allergies that we need to address?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thanks, soy is fine."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, would you like anything else with that?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thanks. That will be all."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, I see you have your credit card on file. Would you like it charged to that card?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, your drink is on order at the Wyomissing, PA location and will be ready for pickup shortly."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your receipt will be sent to your mobile device via text message. Is there anything else I can help you with today?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "toasted white chocolate mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-d613e1b1-8b8c-485f-9512-3647ee7644dc",
+  "created_at": "2026-02-15T15:44:17.201Z"
+}

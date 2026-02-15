@@ -1,0 +1,153 @@
+{
+  "dialog_id": 1917,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=1917"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Yes, I would like for you to order me a Cafe Mocha from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Where would you like me to order it from?"
+    },
+    {
+      "speaker": "client",
+      "text": "There's a Starbucks on Pinhook in Lafayette."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, sounds good could what size would you pefer?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to get the Venti Cafe Mocha."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Don't you realize that the Venti Cafe Mocha is almost 500 calories?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes i sure do, I don't have many of them for that reason, they are so good."
+    },
+    {
+      "speaker": "cashier",
+      "text": "If that is what you desire."
+    },
+    {
+      "speaker": "client",
+      "text": "Atleast it has 17 grams of protein in it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Yeah well thats basically not saying much."
+    },
+    {
+      "speaker": "client",
+      "text": "Have you ever been to the Starbucks on Pinhook?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "No I sure haven't."
+    },
+    {
+      "speaker": "client",
+      "text": "Well just to give you a heads up be very careful over there."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What do you mean?"
+    },
+    {
+      "speaker": "client",
+      "text": "It gets crazy over there as far as the drive thru, the parking lot."
+    },
+    {
+      "speaker": "cashier",
+      "text": "What exactly do you mean?"
+    },
+    {
+      "speaker": "client",
+      "text": "One time I was in the drive thru, a lady not only cut the line but hit the back of my vehicle trying to cut the line."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Are you serious?"
+    },
+    {
+      "speaker": "client",
+      "text": "Oh yes I sure am, how upsetting right?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Very what did you do?"
+    },
+    {
+      "speaker": "client",
+      "text": "I got out my vehicle and asked her to back up and stay off my vehicle."
+    },
+    {
+      "speaker": "cashier",
+      "text": "You didn't call the cops?"
+    },
+    {
+      "speaker": "client",
+      "text": "No I didn't, she actually just tapped it and nothing happen to the vehicle."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Boy, was she lucky."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah she probably could give a damn but she was lucky,"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Very impressive how you handled that."
+    },
+    {
+      "speaker": "client",
+      "text": "Wish I could get a ratio of how many people would of still kept their sanity."
+    },
+    {
+      "speaker": "cashier",
+      "text": "So i guess the parking lot is the better option."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah i would just park there just in case."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Cafe Mocha",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-2b615168-0985-4e0d-aa9a-9a55800ba118",
+  "created_at": "2026-02-15T15:44:17.119Z"
+}

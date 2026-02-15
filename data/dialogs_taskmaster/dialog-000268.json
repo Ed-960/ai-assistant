@@ -1,0 +1,139 @@
+{
+  "dialog_id": 268,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=268"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "hi there!"
+    },
+    {
+      "speaker": "client",
+      "text": "(deleted)"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Great, how are you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'm doing good. I want to order drink from Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Awesome! What kind?"
+    },
+    {
+      "speaker": "client",
+      "text": "I was hoping to get an Americano."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, and what size did you want?"
+    },
+    {
+      "speaker": "client",
+      "text": "Large, please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "did you mean venti?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great. and what's the closest starbucks to you?"
+    },
+    {
+      "speaker": "client",
+      "text": "15 Wolf Road, Albany, New York."
+    },
+    {
+      "speaker": "cashier",
+      "text": "alright one moment."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I have an order for a Caffe Americano Venti set to the starbuck on wolf road in Albany New york, correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "great!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that'd be it."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Perfect, your order will be ready in 20 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have fun."
+    },
+    {
+      "speaker": "client",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "bye."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "venti",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Caffe Americano",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Venti",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-24b2e664-a994-4163-aef9-9ba767032bf6",
+  "created_at": "2026-02-15T15:44:16.920Z"
+}

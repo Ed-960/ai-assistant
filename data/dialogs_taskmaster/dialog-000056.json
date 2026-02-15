@@ -1,0 +1,154 @@
+{
+  "dialog_id": 56,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=56"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "Hello."
+    },
+    {
+      "speaker": "cashier",
+      "text": "hi there, how can i help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like to order."
+    },
+    {
+      "speaker": "client",
+      "text": "a tall espresso with."
+    },
+    {
+      "speaker": "client",
+      "text": "sugar and sprinkles."
+    },
+    {
+      "speaker": "cashier",
+      "text": "sure, before i take down your order."
+    },
+    {
+      "speaker": "cashier",
+      "text": "where do you want to place this order?"
+    },
+    {
+      "speaker": "client",
+      "text": "On Starbucks on 4th Street in Des Moines, Iowa."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok, what was the order again?"
+    },
+    {
+      "speaker": "client",
+      "text": "Espresso with sugar and sprinkles."
+    },
+    {
+      "speaker": "client",
+      "text": "A tall one."
+    },
+    {
+      "speaker": "cashier",
+      "text": "unfortunately, starbucks does not have sprinkles."
+    },
+    {
+      "speaker": "cashier",
+      "text": "but i got the rest of your order down."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, well that's fine."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. You can I don't need to sprinkle for that. No, that's it. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else for you?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "so you want a tall espresso with sugar from starbucks on fourth street."
+    },
+    {
+      "speaker": "cashier",
+      "text": "is that all correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. That's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "The total will be $3.40."
+    },
+    {
+      "speaker": "client",
+      "text": "Okay. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "would you like to purchase now?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes, please. I will pick it up."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Ok, it's all set. Your drink will be ready at the starbucks for pick up in 7 minutes."
+    },
+    {
+      "speaker": "client",
+      "text": "Oh, okay. Thank you. I appreciate that."
+    },
+    {
+      "speaker": "cashier",
+      "text": "anything else i can help with?"
+    },
+    {
+      "speaker": "client",
+      "text": "No, that's it. Thank you."
+    },
+    {
+      "speaker": "cashier",
+      "text": "ok cool."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "tall",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Espresso",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-080f08a0-81a7-4975-a58a-f3ff059316ba",
+  "created_at": "2026-02-15T15:44:16.895Z"
+}

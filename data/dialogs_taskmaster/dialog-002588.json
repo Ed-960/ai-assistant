@@ -1,0 +1,167 @@
+{
+  "dialog_id": 2588,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=2588"
+  },
+  "turns": [
+    {
+      "speaker": "client",
+      "text": "I'd like to make an order for pick up for Starbucks."
+    },
+    {
+      "speaker": "cashier",
+      "text": "No problem! What would you like?"
+    },
+    {
+      "speaker": "client",
+      "text": "I'd like a grande black and white moca please."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing! What store did you want to pick this up from?"
+    },
+    {
+      "speaker": "client",
+      "text": "The one on 4th street in Colorado Springs."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure thing, let me prepare your order."
+    },
+    {
+      "speaker": "client",
+      "text": "No problem!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Alright, so just to double check you wanted a black and white moca?"
+    },
+    {
+      "speaker": "client",
+      "text": "Correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Grande sized?"
+    },
+    {
+      "speaker": "client",
+      "text": "Correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you want anything added to it?"
+    },
+    {
+      "speaker": "client",
+      "text": "Sure, lets add milk."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Adding milk to your order? Anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "Actually yeah, throw some whipped cream in there too."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Adding whipped cream."
+    },
+    {
+      "speaker": "client",
+      "text": "Great, could you run that back with me?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sure, you wanted a Grande sized black and white Mocha with milk and whipped cream. Correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. That's correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds good, I'm going to finalize your order assuming everything is correct."
+    },
+    {
+      "speaker": "client",
+      "text": "Go right ahead."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, just a second."
+    },
+    {
+      "speaker": "client",
+      "text": "No problem."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, your order should show up on your phone and it'll be ready to pick up shortly."
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Your welcome? Is there anything else?"
+    },
+    {
+      "speaker": "client",
+      "text": "No thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Sounds good, I hope you enjoy your coffee!"
+    },
+    {
+      "speaker": "client",
+      "text": "Thanks!"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Have a good day"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black and white moca",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "Grande",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "black and white Mocha",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-self",
+  "original_conversation_id": "dlg-d697723a-949d-4a54-a243-eb9814239601",
+  "created_at": "2026-02-15T15:44:17.201Z"
+}

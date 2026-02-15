@@ -1,0 +1,125 @@
+{
+  "dialog_id": 862,
+  "client_profile": {
+    "source": "taskmaster-1",
+    "domain": "coffee-ordering-1",
+    "text": "Taskmaster: coffee-ordering order.",
+    "regLine": "source=taskmaster domain=coffee-ordering-1 dialog_id=862"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hi there!"
+    },
+    {
+      "speaker": "client",
+      "text": "Hi."
+    },
+    {
+      "speaker": "cashier",
+      "text": "How can I help you?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want to drink coffee."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay, did you have a preffered coffee shop?"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay."
+    },
+    {
+      "speaker": "client",
+      "text": "I don't prefer the Peet's Coffee and espresso beverages."
+    },
+    {
+      "speaker": "cashier",
+      "text": "I heard you wanted an espresso from Peet's right?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah. Yes."
+    },
+    {
+      "speaker": "cashier",
+      "text": "what size did you want?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "I'm sorry?"
+    },
+    {
+      "speaker": "client",
+      "text": "I want normal choice."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay great so that's one medium espresso, any milk or syrups?"
+    },
+    {
+      "speaker": "client",
+      "text": "What?"
+    },
+    {
+      "speaker": "cashier",
+      "text": "Did you want milk or syrup in your espresso?"
+    },
+    {
+      "speaker": "client",
+      "text": "Please add sugar and honey."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Okay so that's a medium espresso with sugar and honey."
+    },
+    {
+      "speaker": "client",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "cashier",
+      "text": "And the closest pete's seems to be on State street. Is that correct?"
+    },
+    {
+      "speaker": "client",
+      "text": "Yes. Correct."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Perfect. I\"ve placed your order. It'll be ready soon!"
+    },
+    {
+      "speaker": "client",
+      "text": "Okay, thank you."
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "espresso",
+        "quantity": 1,
+        "energy": 0
+      },
+      {
+        "name": "medium",
+        "quantity": 1,
+        "energy": 0
+      }
+    ],
+    "total_energy": 0,
+    "allergens_in_order": []
+  },
+  "total_energy": 0,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": false,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "source": "taskmaster-1-woz",
+  "original_conversation_id": "dlg-766cf047-272f-4411-b254-ccef81420bac",
+  "created_at": "2026-02-15T15:44:16.985Z"
+}

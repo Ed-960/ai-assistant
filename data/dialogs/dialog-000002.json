@@ -1,0 +1,206 @@
+{
+  "dialog_id": 2,
+  "client_profile": {
+    "gender": "male",
+    "age": 47,
+    "ageGroup": "middle",
+    "personality": "impatient",
+    "lang": "en",
+    "restrictions": {},
+    "childQuant": 0,
+    "companions": 0,
+    "hasPregnantWife": false,
+    "calApprValue": 1812,
+    "text": "47-year-old male. alone. target calories ≈1812 kcal. ",
+    "regLine": "gender=male age=47 personality=impatient lang=en calApprValue=1812"
+  },
+  "turns": [
+    {
+      "speaker": "cashier",
+      "text": "Hello! Would you like to order something today? We have Butter Chicken Grilled Burger and Butter Paneer Grilled Burger. Would you prefer a drink, maybe Cold Coffee or Iced Tea?"
+    },
+    {
+      "speaker": "client",
+      "text": "Burger. Coke. Done."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Cashier: Great choice! A Butter Chicken Grilled Burger and a Coke. Is there anything else you'd like to add, such as McNuggets or a dessert? Your total order includes a Butter Chicken Grilled Burger and a Coke."
+    },
+    {
+      "speaker": "client",
+      "text": "Client: No. Done."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Cashier: Great! You've ordered a Burger and Coke. Is there anything else I can help you with?"
+    },
+    {
+      "speaker": "client",
+      "text": "Client: Done. No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Cashier: Your order is confirmed: a Burger and Coke. Is there anything else you need?"
+    },
+    {
+      "speaker": "client",
+      "text": "Client: Client: Done. No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Cashier: Your order is a Burger and Coke. Is there anything else you need?"
+    },
+    {
+      "speaker": "client",
+      "text": "Client: Client: Done. No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Cashier: Your order is confirmed: a Burger and Coke. Is there anything else you need?"
+    },
+    {
+      "speaker": "client",
+      "text": "Client: Client: Done. No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Cashier: Your order is confirmed: a burger and coke. Is there anything else you need?"
+    },
+    {
+      "speaker": "client",
+      "text": "Client: Client: Done. No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Cashier: Your order is confirmed: a Burger and Coke. Is there anything else you need?"
+    },
+    {
+      "speaker": "client",
+      "text": "Client: Client: Done. No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Cashier: Your order is confirmed: a Burger and Coke. Is there anything else you need?"
+    },
+    {
+      "speaker": "client",
+      "text": "Client: Client: Done. No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Cashier: Your order is confirmed: a Burger and Coke. Is there anything else you need?"
+    },
+    {
+      "speaker": "client",
+      "text": "Client: Client: Client: Done. No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Cashier: Your order is confirmed: a Burger and Coke. Is there anything else you need?"
+    },
+    {
+      "speaker": "client",
+      "text": "Client: Client: Done. No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Cashier: Your order is confirmed: a Burger and Coke. Is there anything else you need?"
+    },
+    {
+      "speaker": "client",
+      "text": "Client: Client: Client: Done. No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Cashier: Cashier: Your order is confirmed: a Burger and Coke. Is there anything else you need?"
+    },
+    {
+      "speaker": "client",
+      "text": "Client: Client: Client: Client: Done. No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Cashier: Cashier: Your order is confirmed: a Burger and Coke. Is there anything else you need?"
+    },
+    {
+      "speaker": "client",
+      "text": "Client: Client: Client: Client: Client: Client: Done. No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Cashier: Cashier: Your order is confirmed: a Burger and Coke. Is there anything else you need?"
+    },
+    {
+      "speaker": "client",
+      "text": "Client: Client: Client: Client: Client: Client: Client: Client: Done. No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Cashier: Cashier: Cashier: Cashier: Your order is confirmed: a Burger and Coke. Is there anything else you need?"
+    },
+    {
+      "speaker": "client",
+      "text": "Client: Client: Client: Client: Client: Client: Client: Client: Client: Client: Done. No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Cashier: Cashier: Cashier: Cashier: Your order is confirmed: a Burger and Coke. Is there anything else you need?"
+    },
+    {
+      "speaker": "client",
+      "text": "Client: Client: Client: Client: Client: Client: Client: Client: Client: Client: Client: Done. No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Cashier: Cashier: Cashier: Cashier: Cashier: Your order is confirmed: a Burger and Coke. Is there anything else you need?"
+    },
+    {
+      "speaker": "client",
+      "text": "Client: Client: Client: Client: Client: Client: Client: Client: Client: Client: Client: Client: Client: Done. No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Cashier: Cashier: Cashier: Cashier: Cashier: Cashier: Your order is confirmed: a Burger and Coke. Is there anything else you need?"
+    },
+    {
+      "speaker": "client",
+      "text": "Client: Client: Client: Client: Client: Client: Client: Client: Client: Client: Client: Client: Client: Client: Client: Done. No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Cashier: Cashier: Cashier: Cashier: Cashier: Cashier: Cashier: Your order is confirmed: a Burger and Coke. Is there anything else you need?"
+    },
+    {
+      "speaker": "client",
+      "text": "Client: Client: Client: Client: Client: Client: Client: Client: Client: Client: Client: Client: Client: Client: Client: Client: Client: Client: Done. No."
+    },
+    {
+      "speaker": "cashier",
+      "text": "Cashier: Cashier: Your order is confirmed: a Burger and Coke. Is there anything else you need?"
+    }
+  ],
+  "final_order": {
+    "items": [
+      {
+        "name": "Butter Chicken Grilled Burger",
+        "quantity": 1,
+        "energy": 357.01
+      }
+    ],
+    "total_energy": 357.01,
+    "allergens_in_order": [
+      "Cereal containing gluten",
+      "Milk",
+      "Soya"
+    ]
+  },
+  "total_energy": 357.01,
+  "validation_flags": {
+    "allergen_violation": false,
+    "calorie_warning": true,
+    "hallucination": false,
+    "incomplete_order": false
+  },
+  "created_at": "2026-02-15T13:21:13.099Z"
+}

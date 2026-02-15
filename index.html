@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Cashier 2026</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+    <script src="config.js"></script>
+    <script src="config.generated.js"></script>
+</head>
+
+<body>
+    <h1 id="restaurantName">🍔 Loading...</h1>
+    <div class="subtitle" id="restaurantSubtitle">Voice AI Cashier</div>
+
+    <div id="controls">
+        <button id="startBtn">🎤 Start</button>
+        <button id="stopBtn" disabled>⏹ Stop</button>
+        <button id="clearBtn">🗑 Clear</button>
+    </div>
+
+    <div id="status">Please wait...</div>
+    <div class="block" id="transcript">Listening...</div>
+    <div class="block" id="response">Hello!</div>
+
+    <div id="cart" class="block">
+        <strong id="cartTitle">Your Cart:</strong>
+        <div id="cartList" style="margin-top: 10px;"><i>Empty...</i></div>
+        <div id="totalSum" class="total">Total: 0 ₽</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

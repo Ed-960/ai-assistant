@@ -1,0 +1,122 @@
+:root {
+    --primary-color: #006341;
+    --secondary-color: #ff4e00;
+    --bg-color: #f8f9fa;
+    --text-color: #212529;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+h1 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #6c757d;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+}
+
+#controls {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 600;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#startBtn {
+    background: var(--primary-color);
+    color: white;
+}
+
+#stopBtn {
+    background: var(--secondary-color);
+    color: white;
+}
+
+#clearBtn {
+    background: #e9ecef;
+    color: #495057;
+}
+
+#status {
+    text-align: center;
+    height: 20px;
+    margin-bottom: 10px;
+    font-size: 0.8em;
+    color: #adb5bd;
+}
+
+.block {
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+#transcript {
+    color: #6c757d;
+    font-style: italic;
+    min-height: 40px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+#response {
+    background: #f0fff4;
+    border-left: 6px solid var(--primary-color);
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+#cart {
+    border: 2px solid var(--secondary-color);
+}
+
+.cart-item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.cart-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+
+.cart-item-info {
+    font-size: 0.8em;
+    color: #6c757d;
+    margin-top: 4px;
+}
+
+.total {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: right;
+    color: var(--secondary-color);
+    margin-top: 15px;
+}

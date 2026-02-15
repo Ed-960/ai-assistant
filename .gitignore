@@ -1,0 +1,4 @@
+.env
+config.generated.js
+node_modules/
+*.log
